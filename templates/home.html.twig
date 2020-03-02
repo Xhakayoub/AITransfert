@@ -1,0 +1,18 @@
+ {% extends "base.html.twig" %} 
+
+
+{% block title %} Home Page {% endblock %}
+
+{% block body %}
+Welcome To AITransfert 
+<ul>
+{% for player in data['elements'] %}
+<li>
+{{ player.first_name ~' '~ player.second_name }}
+</li>
+{% endfor %}
+</ul>
+<pre>
+    
+</pre>
+{% endblock %}

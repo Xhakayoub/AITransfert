@@ -101,6 +101,11 @@ class Player
      */
     private $numberOfMatchs;
 
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $idPlayer;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -135,7 +140,7 @@ class Player
         return $this->team;
     }
 
-    public function setTeam(string $team): self
+    public function setTeam(?string $team): self
     {
         $this->team = $team;
 
@@ -147,7 +152,7 @@ class Player
         return $this->league;
     }
 
-    public function setLeague(string $league): self
+    public function setLeague(?string $league): self
     {
         $this->league = $league;
 
@@ -159,7 +164,7 @@ class Player
         return $this->nationality;
     }
 
-    public function setNationality(string $nationality): self
+    public function setNationality(?string $nationality): self
     {
         $this->nationality = $nationality;
 
@@ -171,7 +176,7 @@ class Player
         return $this->position;
     }
 
-    public function setPosition(string $position): self
+    public function setPosition(?string $position): self
     {
         $this->position = $position;
 
@@ -307,6 +312,18 @@ class Player
     public function setNumberOfMatchs(?int $numberOfMatchs): self
     {
         $this->numberOfMatchs = $numberOfMatchs;
+
+        return $this;
+    }
+
+    public function getIdPlayer(): ?int
+    {
+        return $this->idPlayer;
+    }
+
+    public function setIdPlayer(int $idPlayer): self
+    {
+        $this->idPlayer = $idPlayer;
 
         return $this;
     }

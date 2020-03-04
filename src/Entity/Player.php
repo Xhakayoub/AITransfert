@@ -161,6 +161,151 @@ class Player
      */
     private $nonPenGoalsAssistsExpPerMin;
 
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $shoots;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $shootsOnTarget;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $shootsFromFrKc;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $shootsOnTargetPc;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $shootsPerMatch;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $shootsOnTargetPerMatch;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $goalsPerShoot;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $goalPerShootOnTarget;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $keyPasses;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $passesCompleted;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $passesAttempted;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $passCompPercent;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $shortPassesCompleted;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $shortpassesAttempted;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $shortPassesCompPercent;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $mediumPassesCompleted;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $mediumPassesAttempted;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $mediumPassesCompPercent;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $longPassCompleted;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $longPassesAttempted;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $longPassesCompPercent;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $passCompletedFinalThird;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $passCompletedPenaltyArea;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $crossIntoPenaltyArea;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $minutesPlayed;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $minutesPercentPlayed;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $nintyMinPlayed;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $minPerMatchStarted;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $pointsPerMatch;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -510,6 +655,354 @@ class Player
     public function setNonPenGoalsAssistsExpPerMin(float $nonPenGoalsAssistsExpPerMin): self
     {
         $this->nonPenGoalsAssistsExpPerMin = $nonPenGoalsAssistsExpPerMin;
+
+        return $this;
+    }
+
+    public function getShoots(): ?int
+    {
+        return $this->shoots;
+    }
+
+    public function setShoots(int $shoots): self
+    {
+        $this->shoots = $shoots;
+
+        return $this;
+    }
+
+    public function getShootsOnTarget(): ?int
+    {
+        return $this->shootsOnTarget;
+    }
+
+    public function setShootsOnTarget(int $shootsOnTarget): self
+    {
+        $this->shootsOnTarget = $shootsOnTarget;
+
+        return $this;
+    }
+
+    public function getShootsFromFrKc(): ?int
+    {
+        return $this->shootsFromFrKc;
+    }
+
+    public function setShootsFromFrKc(int $shootsFromFrKc): self
+    {
+        $this->shootsFromFrKc = $shootsFromFrKc;
+
+        return $this;
+    }
+
+    public function getShootsOnTargetPc(): ?float
+    {
+        return $this->shootsOnTargetPc;
+    }
+
+    public function setShootsOnTargetPc(float $shootsOnTargetPc): self
+    {
+        $this->shootsOnTargetPc = $shootsOnTargetPc;
+
+        return $this;
+    }
+
+    public function getShootsPerMatch(): ?float
+    {
+        return $this->shootsPerMatch;
+    }
+
+    public function setShootsPerMatch(float $shootsPerMatch): self
+    {
+        $this->shootsPerMatch = $shootsPerMatch;
+
+        return $this;
+    }
+
+    public function getShootsOnTargetPerMatch(): ?float
+    {
+        return $this->shootsOnTargetPerMatch;
+    }
+
+    public function setShootsOnTargetPerMatch(float $shootsOnTargetPerMatch): self
+    {
+        $this->shootsOnTargetPerMatch = $shootsOnTargetPerMatch;
+
+        return $this;
+    }
+
+    public function getGoalsPerShoot(): ?float
+    {
+        return $this->goalsPerShoot;
+    }
+
+    public function setGoalsPerShoot(float $goalsPerShoot): self
+    {
+        $this->goalsPerShoot = $goalsPerShoot;
+
+        return $this;
+    }
+
+    public function getGoalPerShootOnTarget(): ?float
+    {
+        return $this->goalPerShootOnTarget;
+    }
+
+    public function setGoalPerShootOnTarget(float $goalPerShootOnTarget): self
+    {
+        $this->goalPerShootOnTarget = $goalPerShootOnTarget;
+
+        return $this;
+    }
+
+    public function getKeyPasses(): ?int
+    {
+        return $this->keyPasses;
+    }
+
+    public function setKeyPasses(int $keyPasses): self
+    {
+        $this->keyPasses = $keyPasses;
+
+        return $this;
+    }
+
+    public function getPassesCompleted(): ?int
+    {
+        return $this->passesCompleted;
+    }
+
+    public function setPassesCompleted(int $passesCompleted): self
+    {
+        $this->passesCompleted = $passesCompleted;
+
+        return $this;
+    }
+
+    public function getPassesAttempted(): ?int
+    {
+        return $this->passesAttempted;
+    }
+
+    public function setPassesAttempted(int $passesAttempted): self
+    {
+        $this->passesAttempted = $passesAttempted;
+
+        return $this;
+    }
+
+    public function getPassCompPercent(): ?float
+    {
+        return $this->passCompPercent;
+    }
+
+    public function setPassCompPercent(float $passCompPercent): self
+    {
+        $this->passCompPercent = $passCompPercent;
+
+        return $this;
+    }
+
+    public function getShortPassesCompleted(): ?int
+    {
+        return $this->shortPassesCompleted;
+    }
+
+    public function setShortPassesCompleted(int $shortPassesCompleted): self
+    {
+        $this->shortPassesCompleted = $shortPassesCompleted;
+
+        return $this;
+    }
+
+    public function getShortpassesAttempted(): ?int
+    {
+        return $this->shortpassesAttempted;
+    }
+
+    public function setShortpassesAttempted(int $shortpassesAttempted): self
+    {
+        $this->shortpassesAttempted = $shortpassesAttempted;
+
+        return $this;
+    }
+
+    public function getShortPassesCompPercent(): ?float
+    {
+        return $this->shortPassesCompPercent;
+    }
+
+    public function setShortPassesCompPercent(float $shortPassesCompPercent): self
+    {
+        $this->shortPassesCompPercent = $shortPassesCompPercent;
+
+        return $this;
+    }
+
+    public function getMediumPassesCompleted(): ?int
+    {
+        return $this->mediumPassesCompleted;
+    }
+
+    public function setMediumPassesCompleted(int $mediumPassesCompleted): self
+    {
+        $this->mediumPassesCompleted = $mediumPassesCompleted;
+
+        return $this;
+    }
+
+    public function getMediumPassesAttempted(): ?int
+    {
+        return $this->mediumPassesAttempted;
+    }
+
+    public function setMediumPassesAttempted(int $mediumPassesAttempted): self
+    {
+        $this->mediumPassesAttempted = $mediumPassesAttempted;
+
+        return $this;
+    }
+
+    public function getMediumPassesCompPercent(): ?float
+    {
+        return $this->mediumPassesCompPercent;
+    }
+
+    public function setMediumPassesCompPercent(float $mediumPassesCompPercent): self
+    {
+        $this->mediumPassesCompPercent = $mediumPassesCompPercent;
+
+        return $this;
+    }
+
+    public function getLongPassCompleted(): ?int
+    {
+        return $this->longPassCompleted;
+    }
+
+    public function setLongPassCompleted(int $longPassCompleted): self
+    {
+        $this->longPassCompleted = $longPassCompleted;
+
+        return $this;
+    }
+
+    public function getLongPassesAttempted(): ?int
+    {
+        return $this->longPassesAttempted;
+    }
+
+    public function setLongPassesAttempted(int $longPassesAttempted): self
+    {
+        $this->longPassesAttempted = $longPassesAttempted;
+
+        return $this;
+    }
+
+    public function getLongPassesCompPercent(): ?float
+    {
+        return $this->longPassesCompPercent;
+    }
+
+    public function setLongPassesCompPercent(float $longPassesCompPercent): self
+    {
+        $this->longPassesCompPercent = $longPassesCompPercent;
+
+        return $this;
+    }
+
+    public function getPassCompletedFinalThird(): ?int
+    {
+        return $this->passCompletedFinalThird;
+    }
+
+    public function setPassCompletedFinalThird(int $passCompletedFinalThird): self
+    {
+        $this->passCompletedFinalThird = $passCompletedFinalThird;
+
+        return $this;
+    }
+
+    public function getPassCompletedPenaltyArea(): ?int
+    {
+        return $this->passCompletedPenaltyArea;
+    }
+
+    public function setPassCompletedPenaltyArea(int $passCompletedPenaltyArea): self
+    {
+        $this->passCompletedPenaltyArea = $passCompletedPenaltyArea;
+
+        return $this;
+    }
+
+    public function getCrossIntoPenaltyArea(): ?int
+    {
+        return $this->crossIntoPenaltyArea;
+    }
+
+    public function setCrossIntoPenaltyArea(int $crossIntoPenaltyArea): self
+    {
+        $this->crossIntoPenaltyArea = $crossIntoPenaltyArea;
+
+        return $this;
+    }
+
+    public function getMinutesPlayed(): ?int
+    {
+        return $this->minutesPlayed;
+    }
+
+    public function setMinutesPlayed(int $minutesPlayed): self
+    {
+        $this->minutesPlayed = $minutesPlayed;
+
+        return $this;
+    }
+
+    public function getMinutesPercentPlayed(): ?float
+    {
+        return $this->minutesPercentPlayed;
+    }
+
+    public function setMinutesPercentPlayed(float $minutesPercentPlayed): self
+    {
+        $this->minutesPercentPlayed = $minutesPercentPlayed;
+
+        return $this;
+    }
+
+    public function getNintyMinPlayed(): ?float
+    {
+        return $this->nintyMinPlayed;
+    }
+
+    public function setNintyMinPlayed(float $nintyMinPlayed): self
+    {
+        $this->nintyMinPlayed = $nintyMinPlayed;
+
+        return $this;
+    }
+
+    public function getMinPerMatchStarted(): ?int
+    {
+        return $this->minPerMatchStarted;
+    }
+
+    public function setMinPerMatchStarted(int $minPerMatchStarted): self
+    {
+        $this->minPerMatchStarted = $minPerMatchStarted;
+
+        return $this;
+    }
+
+    public function getPointsPerMatch(): ?float
+    {
+        return $this->pointsPerMatch;
+    }
+
+    public function setPointsPerMatch(float $pointsPerMatch): self
+    {
+        $this->pointsPerMatch = $pointsPerMatch;
 
         return $this;
     }

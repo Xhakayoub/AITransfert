@@ -33,20 +33,31 @@ class importCommand extends Command
       //  $content = $response->getContent();
       //  $content = $response->toArray();
       $io->title('import en progression...');
-      $reader = Reader::createFromPath('%kernel.root_dir%/../public/standars_data_pl.csv');    
-      $reader->setDelimiter(';') ;
-      $results = $reader->fetchAssoc();
+      $readerOfStandarsData = Reader::createFromPath('%kernel.root_dir%/../public/standars_data_pl.csv');   
+      $readerOfPassingData = Reader::createFromPath('%kernel.root_dir%/../public/passing_data_pl.csv');  
+      $readerOfShootingData = Reader::createFromPath('%kernel.root_dir%/../public/shooting_data_pl.csv'); 
+      $readerOfTimmingData = Reader::createFromPath('%kernel.root_dir%/../public/timming_data_pl.csv');  
+
+      $readerOfStandarsData->setDelimiter(';') ;
+      $readerOfPassingData->setDelimiter(';') ;
+      $readerOfShootingData->setDelimiter(';') ;
+      $readerOfTimmingData->setDelimiter(';') ;
+
+      $standars = $readerOfStandarsData->fetchAssoc();
+      $passing = $readerOfPassingData->fetchAssoc();
+      $shooting = $readerOfShootingData->fetchAssoc();
+      $timming = $readerOfTimmingData->fetchAssoc();
       //echo "im here";
-
-      foreach ($results as $row) {
-         //    $intToVerif = 0;
-         // dump($row) ;
-
+      $passing = iterator_to_array($passing, false);
+      $shooting = iterator_to_array($shooting, false);
+      $timming = iterator_to_array($timming, false);
+      foreach ($standars as $index => $row) {
+     
          $verify = $this->em->getRepository(Player::class)
             ->findOneBy([
                'idPlayer' => $row['id']
             ]);
-
+      // echo $shooting[$index]['Sh'];
          if (empty($verify)) {
             $player = (new player())
                ->setIdPlayer($row['id'])
@@ -77,7 +88,39 @@ class importCommand extends Command
                ->setAssistsPerMinExp(floatval($row['xA_per_match']))
                ->setGlsAssistsPerMinExp(floatval($row['xG_xA']))
                ->setNonPenGoalsExpPerMin(floatval($row['npxG_per_match']))
-               ->setNonPenGoalsAssistsExpPerMin(floatval($row['npxG_xA']));
+               ->setNonPenGoalsAssistsExpPerMin(floatval($row['npxG_xA']))
+
+               ->setShoots(intval($shooting[$index]['Sh']))
+               ->setShootsOnTarget(intval($shooting[$index]['SoT']))
+               ->setShootsFromFrKc(intval($shooting[$index]['FK']))
+               ->setShootsOnTargetPc(floatval($shooting[$index]['SoT%']))
+               ->setShootsPerMatch(floatval($shooting[$index]['Sh/90']))
+               ->setShootsOnTargetPerMatch(floatval($shooting[$index]['SoT/90']))
+               ->setGoalsPerShoot(floatval($shooting[$index]['G/Sh']))
+               ->setGoalPerShootOnTarget(floatval($shooting[$index]['G/SoT']))
+               
+               ->setKeyPasses(intval($passing[$index]['KP']))
+               ->setPassesCompleted(intval($passing[$index]['Cmp']))
+               ->setPassesAttempted(intval($passing[$index]['Att']))
+               ->setPassCompPercent(floatval($passing[$index]['CmpPER']))
+               ->setShortPassesCompleted(intval($passing[$index]['shortCmp']))
+               ->setShortpassesAttempted(intval($passing[$index]['shortAtt']))
+               ->setShortPassesCompPercent(floatval($passing[$index]['shortCmpPER']))
+               ->setMediumPassesCompleted(intval($passing[$index]['mediumCmp']))
+               ->setMediumPassesAttempted(intval($passing[$index]['mediumAtt']))
+               ->setMediumPassesCompPercent(floatval($passing[$index]['mediumCmpPER']))
+               ->setLongPassCompleted(intval($passing[$index]['longCmp']))
+               ->setLongPassesAttempted(intval($passing[$index]['longAtt']))
+               ->setLongPassesCompPercent(floatval($passing[$index]['longCmpPER']))
+               ->setPassCompletedFinalThird(intval($passing[$index]['1/3']))
+               ->setPassCompletedPenaltyArea(intval($passing[$index]['PPA']))
+               ->setCrossIntoPenaltyArea(floatval($passing[$index]['CrsPA']))
+
+               ->setMinutesPlayed(intval($timming[$index]['Min']))
+               ->setMinutesPercentPlayed(floatval($timming[$index]['Min%']))
+               ->setNintyMinPlayed(floatval($timming[$index]['90s']))
+               ->setMinPerMatchStarted(floatval($timming[$index]['Mn/Start']))
+               ->setPointsPerMatch(floatval($timming[$index]['PPM']));
             $this->em->persist($player);
          }
 

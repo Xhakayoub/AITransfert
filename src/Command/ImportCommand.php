@@ -1,5 +1,7 @@
 <?php
+
 namespace App\Src\Command;
+
 use App\Entity\Player;
 use Symfony\Component\Console\Command\Command;
 use Doctrine\ORM\EntityManagerInterface;
@@ -7,75 +9,88 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
 use League\Csv\Reader;
-use Symfony\Component\HttpClient\HttpClient;
 
 class importCommand extends Command
 {
-   public function __construct(EntityManagerInterface $em){
+   public function __construct(EntityManagerInterface $em)
+   {
       parent::__construct();
       $this->em = $em;
    }
 
- protected function configure(){
-  $this->setName('data:api:import')
-       ->setDescription('importation API');
- }
+   protected function configure()
+   {
+      $this->setName('csv:import')
+         ->setDescription('importation data');
+   }
 
- protected function execute(InputInterface $input, OutputInterface $output){
+   protected function execute(InputInterface $input, OutputInterface $output)
+   {
 
-    $client = HttpClient::create();
+      $io = new SymfonyStyle($input, $output);
+      //  $client = HttpClient::create();
+      //  $response = $client->request('GET', 'https://fantasy.premierleague.com/api/bootstrap-static/');
+      //  $content = $response->getContent();
+      //  $content = $response->toArray();
+      $io->title('import en progression...');
+      $reader = Reader::createFromPath('%kernel.root_dir%/../public/standars_data_pl.csv');    
+      $reader->setDelimiter(';') ;
+      $results = $reader->fetchAssoc();
+      //echo "im here";
 
-    $response = $client->request('GET', 'https://fantasy.premierleague.com/api/bootstrap-static/');
+      foreach ($results as $row) {
+         //    $intToVerif = 0;
+         // dump($row) ;
 
-  
-    $content = $response->getContent();
-    $content = $response->toArray();
-   
+         $verify = $this->em->getRepository(Player::class)
+            ->findOneBy([
+               'idPlayer' => $row['id']
+            ]);
 
-    $io = new SymfonyStyle($input, $output);
-    $io->title('import en progression...');
-    
-    // $reader = Reader::createFromPath('%kernel.root_dir%/../src/exports-des-gares-idf.csv');
-    // $reader->setDelimiter(';');
-    // $results = $reader->fetchAssoc();
+         if (empty($verify)) {
+            $player = (new player())
+               ->setIdPlayer($row['id'])
+               ->setName($row['name'])
+               ->setNation($row['nation'])
+               ->setPosition($row['position'])
+               ->setSquad($row['team'])
+               ->setAge(intval($row['age']))
+               ->setBorn(intval($row['born']))
+               ->setMatchsPlayed(intval($row['MP']))
+               ->setMatchStarts(intval($row['Starts']))
+               ->setMinsPlayed(intval($row['Min']))
+               ->setGoals(intval($row['Gls']))
+               ->setAssits(intval($row['Ast']))
+               ->setPkMade(intval($row['PK']))
+               ->setPkAttempted(intval($row['PKatt']))
+               ->setYellowCard(intval($row['CrdY']))
+               ->setRedCard(intval($row['CrdR']))
+               ->setGoalsPerMin(floatval($row['Gls_per_match']))
+               ->setAssistsPerMin(floatval($row['Ast_per_match']))
+               ->setGlsAssPerMin(floatval($row['G_A_per_match']))
+               ->setGoalsWithoutPkPerMin(floatval($row['G_PK_per_match']))
+               ->setGlsAssWithoutPkPerMin(floatval($row['G_A_PK_per_match']))
+               ->setGoalsExp(floatval($row['xG']))
+               ->setNonPenGoalsExp(floatval($row['npxG']))
+               ->setAssistsExp(floatval($row['xA']))
+               ->setGoalsPerMinExp(floatval($row['xG_per_match']))
+               ->setAssistsPerMinExp(floatval($row['xA_per_match']))
+               ->setGlsAssistsPerMinExp(floatval($row['xG_xA']))
+               ->setNonPenGoalsExpPerMin(floatval($row['npxG_per_match']))
+               ->setNonPenGoalsAssistsExpPerMin(floatval($row['npxG_xA']));
+            $this->em->persist($player);
+         }
 
-    foreach($content['elements'] as $row){
-    //    $intToVerif = 0;
-       
 
-       $verify = $this->em->getRepository(Player::class)
-       ->findOneBy([
-          'idPlayer' => $row['id']
-       ]);
 
-       if(empty($verify)){
-        $player = (new player())
-        ->setIdPlayer($row['id'])
-        ->setName($row['first_name'])
-        ->setLastName($row['second_name'])
-        ->setGoals($row['goals_scored'])
-        ->setAssists($row['assists'])
-        ->setYellowCard($row['yellow_cards'])
-        ->setRedCard($row['red_cards'])
-        ;
-        $this->em->persist($player);
-        
- 
-       }
 
-       
-         
-        
 
-      $this->em->flush();
-      
-    }
-   
+         $this->em->flush();
+      }
 
-    
-    
-    $io->success('importation avec succés');
- }
-    
+
+
+
+      $io->success('importation avec succés');
+   }
 }
-?>

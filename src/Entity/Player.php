@@ -17,29 +17,19 @@ class Player
     private $id;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="integer", nullable=true)
      */
-    private $name;
+    private $idPlayer;
 
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $lastName;
+    private $Name;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $team;
-
-    /**
-     * @ORM\Column(type="string", length=255)
-     */
-    private $league;
-
-    /**
-     * @ORM\Column(type="string", length=255)
-     */
-    private $nationality;
+    private $nation;
 
     /**
      * @ORM\Column(type="string", length=255)
@@ -47,126 +37,167 @@ class Player
     private $position;
 
     /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $squad;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $age;
+
+    /**
      * @ORM\Column(type="integer", nullable=true)
+     */
+    private $born;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $matchsPlayed;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $matchStarts;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $minsPlayed;
+
+    /**
+     * @ORM\Column(type="integer")
      */
     private $goals;
 
     /**
      * @ORM\Column(type="integer")
      */
-    private $passes;
+    private $assits;
 
     /**
      * @ORM\Column(type="integer", nullable=true)
      */
-    private $crosses;
+    private $pkMade;
 
     /**
      * @ORM\Column(type="integer", nullable=true)
      */
-    private $passesCompletes;
-
-    /**
-     * @ORM\Column(type="integer", nullable=true)
-     */
-    private $assists;
-
-    /**
-     * @ORM\Column(type="integer", nullable=true)
-     */
-    private $covers;
-
-    /**
-     * @ORM\Column(type="integer", nullable=true)
-     */
-    private $yellowCard;
-
-    /**
-     * @ORM\Column(type="integer", nullable=true)
-     */
-    private $redCard;
-
-    /**
-     * @ORM\Column(type="integer", nullable=true)
-     */
-    private $tackles;
-
-    /**
-     * @ORM\Column(type="float", nullable=true)
-     */
-    private $distance;
-
-    /**
-     * @ORM\Column(type="integer", nullable=true)
-     */
-    private $numberOfMatchs;
+    private $pkAttempted;
 
     /**
      * @ORM\Column(type="integer")
      */
-    private $idPlayer;
+    private $yellowCard;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $redCard;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $goalsPerMin;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $assistsPerMin;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $glsAssPerMin;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $goalsWithoutPkPerMin;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $glsAssWithoutPkPerMin;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $goalsExp;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $nonPenGoalsExp;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $assistsExp;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $goalsPerMinExp;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $assistsPerMinExp;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $glsAssistsPerMinExp;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $nonPenGoalsExpPerMin;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $nonPenGoalsAssistsExpPerMin;
 
     public function getId(): ?int
     {
         return $this->id;
     }
 
+    public function getIdPlayer(): ?int
+    {
+        return $this->idPlayer;
+    }
+
+    public function setIdPlayer(?int $idPlayer): self
+    {
+        $this->idPlayer = $idPlayer;
+
+        return $this;
+    }
+
     public function getName(): ?string
     {
-        return $this->name;
+        return $this->Name;
     }
 
-    public function setName(string $name): self
+    public function setName(string $Name): self
     {
-        $this->name = $name;
+        $this->Name = $Name;
 
         return $this;
     }
 
-    public function getLastName(): ?string
+    public function getNation(): ?string
     {
-        return $this->lastName;
+        return $this->nation;
     }
 
-    public function setLastName(string $lastName): self
+    public function setNation(?string $nation): self
     {
-        $this->lastName = $lastName;
-
-        return $this;
-    }
-
-    public function getTeam(): ?string
-    {
-        return $this->team;
-    }
-
-    public function setTeam(?string $team): self
-    {
-        $this->team = $team;
-
-        return $this;
-    }
-
-    public function getLeague(): ?string
-    {
-        return $this->league;
-    }
-
-    public function setLeague(?string $league): self
-    {
-        $this->league = $league;
-
-        return $this;
-    }
-
-    public function getNationality(): ?string
-    {
-        return $this->nationality;
-    }
-
-    public function setNationality(?string $nationality): self
-    {
-        $this->nationality = $nationality;
+        $this->nation = $nation;
 
         return $this;
     }
@@ -176,9 +207,81 @@ class Player
         return $this->position;
     }
 
-    public function setPosition(?string $position): self
+    public function setPosition(string $position): self
     {
         $this->position = $position;
+
+        return $this;
+    }
+
+    public function getSquad(): ?string
+    {
+        return $this->squad;
+    }
+
+    public function setSquad(string $squad): self
+    {
+        $this->squad = $squad;
+
+        return $this;
+    }
+
+    public function getAge(): ?int
+    {
+        return $this->age;
+    }
+
+    public function setAge(int $age): self
+    {
+        $this->age = $age;
+
+        return $this;
+    }
+
+    public function getBorn(): ?int
+    {
+        return $this->born;
+    }
+
+    public function setBorn(?int $born): self
+    {
+        $this->born = $born;
+
+        return $this;
+    }
+
+    public function getMatchsPlayed(): ?int
+    {
+        return $this->matchsPlayed;
+    }
+
+    public function setMatchsPlayed(int $matchsPlayed): self
+    {
+        $this->matchsPlayed = $matchsPlayed;
+
+        return $this;
+    }
+
+    public function getMatchStarts(): ?int
+    {
+        return $this->matchStarts;
+    }
+
+    public function setMatchStarts(int $matchStarts): self
+    {
+        $this->matchStarts = $matchStarts;
+
+        return $this;
+    }
+
+    public function getMinsPlayed(): ?int
+    {
+        return $this->minsPlayed;
+    }
+
+    public function setMinsPlayed(int $minsPlayed): self
+    {
+        $this->minsPlayed = $minsPlayed;
 
         return $this;
     }
@@ -188,69 +291,45 @@ class Player
         return $this->goals;
     }
 
-    public function setGoals(?int $goals): self
+    public function setGoals(int $goals): self
     {
         $this->goals = $goals;
 
         return $this;
     }
 
-    public function getPasses(): ?int
+    public function getAssits(): ?int
     {
-        return $this->passes;
+        return $this->assits;
     }
 
-    public function setPasses(int $passes): self
+    public function setAssits(int $assits): self
     {
-        $this->passes = $passes;
+        $this->assits = $assits;
 
         return $this;
     }
 
-    public function getCrosses(): ?int
+    public function getPkMade(): ?int
     {
-        return $this->crosses;
+        return $this->pkMade;
     }
 
-    public function setCrosses(?int $crosses): self
+    public function setPkMade(?int $pkMade): self
     {
-        $this->crosses = $crosses;
+        $this->pkMade = $pkMade;
 
         return $this;
     }
 
-    public function getPassesCompletes(): ?int
+    public function getPkAttempted(): ?int
     {
-        return $this->passesCompletes;
+        return $this->pkAttempted;
     }
 
-    public function setPassesCompletes(?int $passesCompletes): self
+    public function setPkAttempted(?int $pkAttempted): self
     {
-        $this->passesCompletes = $passesCompletes;
-
-        return $this;
-    }
-
-    public function getAssists(): ?int
-    {
-        return $this->assists;
-    }
-
-    public function setAssists(?int $assists): self
-    {
-        $this->assists = $assists;
-
-        return $this;
-    }
-
-    public function getCovers(): ?int
-    {
-        return $this->covers;
-    }
-
-    public function setCovers(?int $covers): self
-    {
-        $this->covers = $covers;
+        $this->pkAttempted = $pkAttempted;
 
         return $this;
     }
@@ -260,7 +339,7 @@ class Player
         return $this->yellowCard;
     }
 
-    public function setYellowCard(?int $yellowCard): self
+    public function setYellowCard(int $yellowCard): self
     {
         $this->yellowCard = $yellowCard;
 
@@ -272,58 +351,165 @@ class Player
         return $this->redCard;
     }
 
-    public function setRedCard(?int $redCard): self
+    public function setRedCard(int $redCard): self
     {
         $this->redCard = $redCard;
 
         return $this;
     }
 
-    public function getTackles(): ?int
+    public function getGoalsPerMin(): ?float
     {
-        return $this->tackles;
+        return $this->goalsPerMin;
     }
 
-    public function setTackles(?int $tackles): self
+    public function setGoalsPerMin(float $goalsPerMin): self
     {
-        $this->tackles = $tackles;
+        $this->goalsPerMin = $goalsPerMin;
 
         return $this;
     }
 
- 
-    public function getDistance(): ?float
+    public function getAssistsPerMin(): ?float
     {
-        return $this->distance;
+        return $this->assistsPerMin;
     }
 
-    public function setDistance(?float $distance): self
+    public function setAssistsPerMin(float $assistsPerMin): self
     {
-        $this->distance = $distance;
+        $this->assistsPerMin = $assistsPerMin;
 
         return $this;
     }
 
-    public function getNumberOfMatchs(): ?int
+    public function getGlsAssPerMin(): ?float
     {
-        return $this->numberOfMatchs;
+        return $this->glsAssPerMin;
     }
 
-    public function setNumberOfMatchs(?int $numberOfMatchs): self
+    public function setGlsAssPerMin(float $glsAssPerMin): self
     {
-        $this->numberOfMatchs = $numberOfMatchs;
+        $this->glsAssPerMin = $glsAssPerMin;
 
         return $this;
     }
 
-    public function getIdPlayer(): ?int
+    public function getGoalsWithoutPkPerMin(): ?float
     {
-        return $this->idPlayer;
+        return $this->goalsWithoutPkPerMin;
     }
 
-    public function setIdPlayer(int $idPlayer): self
+    public function setGoalsWithoutPkPerMin(float $goalsWithoutPkPerMin): self
     {
-        $this->idPlayer = $idPlayer;
+        $this->goalsWithoutPkPerMin = $goalsWithoutPkPerMin;
+
+        return $this;
+    }
+
+    public function getGlsAssWithoutPkPerMin(): ?float
+    {
+        return $this->glsAssWithoutPkPerMin;
+    }
+
+    public function setGlsAssWithoutPkPerMin(float $glsAssWithoutPkPerMin): self
+    {
+        $this->glsAssWithoutPkPerMin = $glsAssWithoutPkPerMin;
+
+        return $this;
+    }
+
+    public function getGoalsExp(): ?float
+    {
+        return $this->goalsExp;
+    }
+
+    public function setGoalsExp(float $goalsExp): self
+    {
+        $this->goalsExp = $goalsExp;
+
+        return $this;
+    }
+
+    public function getNonPenGoalsExp(): ?float
+    {
+        return $this->nonPenGoalsExp;
+    }
+
+    public function setNonPenGoalsExp(float $nonPenGoalsExp): self
+    {
+        $this->nonPenGoalsExp = $nonPenGoalsExp;
+
+        return $this;
+    }
+
+    public function getAssistsExp(): ?float
+    {
+        return $this->assistsExp;
+    }
+
+    public function setAssistsExp(float $assistsExp): self
+    {
+        $this->assistsExp = $assistsExp;
+
+        return $this;
+    }
+
+    public function getGoalsPerMinExp(): ?float
+    {
+        return $this->goalsPerMinExp;
+    }
+
+    public function setGoalsPerMinExp(float $goalsPerMinExp): self
+    {
+        $this->goalsPerMinExp = $goalsPerMinExp;
+
+        return $this;
+    }
+
+    public function getAssistsPerMinExp(): ?float
+    {
+        return $this->assistsPerMinExp;
+    }
+
+    public function setAssistsPerMinExp(float $assistsPerMinExp): self
+    {
+        $this->assistsPerMinExp = $assistsPerMinExp;
+
+        return $this;
+    }
+
+    public function getGlsAssistsPerMinExp(): ?float
+    {
+        return $this->glsAssistsPerMinExp;
+    }
+
+    public function setGlsAssistsPerMinExp(float $glsAssistsPerMinExp): self
+    {
+        $this->glsAssistsPerMinExp = $glsAssistsPerMinExp;
+
+        return $this;
+    }
+
+    public function getNonPenGoalsExpPerMin(): ?float
+    {
+        return $this->nonPenGoalsExpPerMin;
+    }
+
+    public function setNonPenGoalsExpPerMin(float $nonPenGoalsExpPerMin): self
+    {
+        $this->nonPenGoalsExpPerMin = $nonPenGoalsExpPerMin;
+
+        return $this;
+    }
+
+    public function getNonPenGoalsAssistsExpPerMin(): ?float
+    {
+        return $this->nonPenGoalsAssistsExpPerMin;
+    }
+
+    public function setNonPenGoalsAssistsExpPerMin(float $nonPenGoalsAssistsExpPerMin): self
+    {
+        $this->nonPenGoalsAssistsExpPerMin = $nonPenGoalsAssistsExpPerMin;
 
         return $this;
     }

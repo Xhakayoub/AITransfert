@@ -123,7 +123,6 @@ class importCommand extends Command
                ->setPassCompletedPenaltyArea(0)
                ->setCrossIntoPenaltyArea(0.0);
 
-               $player->setShoots(4);
             if ($index > count($standars) - 1) {
                $index = 0;
             }

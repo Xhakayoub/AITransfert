@@ -17,11 +17,6 @@ class Team
     private $id;
 
     /**
-     * @ORM\Column(type="integer")
-     */
-    private $idTeam;
-
-    /**
      * @ORM\Column(type="string", length=255)
      */
     private $nameTeam;
@@ -116,17 +111,6 @@ class Team
         return $this->id;
     }
 
-    public function getIdTeam(): ?int
-    {
-        return $this->idTeam;
-    }
-
-    public function setIdTeam(int $idTeam): self
-    {
-        $this->idTeam = $idTeam;
-
-        return $this;
-    }
 
     public function getNameTeam(): ?string
     {

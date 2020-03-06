@@ -3,6 +3,7 @@
 namespace App\Src\Command;
 
 use App\Entity\Player;
+use App\Entity\Team;
 use Symfony\Component\Console\Command\Command;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Console\Input\InputInterface;
@@ -24,6 +25,71 @@ class importCommand extends Command
          ->setDescription('importation data');
    }
 
+   public function importTeams(array $array, array $arrayBeta, string $league): void
+   {
+      if (!empty($array) and !empty($arrayBeta)) {
+         $count = count($array);
+         foreach ($array as $fakeIndex => $teams) {
+
+            $verify = $this->em->getRepository(Team::class)
+               ->findOneBy([
+                  'nameTeam' => $teams['Squad']
+               ]);
+
+            if (!$verify) {
+
+               $team = (new Team())
+                  ->setNameTeam($teams['Squad'])
+                  ->setLeague($league)
+                  ->setLevel("")
+                  ->setMatchPlayed($teams['MP'])
+                  ->setGoals($teams['Gls'])
+                  ->setAssists($teams['Ast'])
+                  ->setGoalsAgainst($arrayBeta[$fakeIndex]['GA'])
+                  ->setGoalsAgainstPerMatch($arrayBeta[$fakeIndex]['GA90'])
+                  ->setSaves($arrayBeta[$fakeIndex]['Saves'])
+                  ->setShootOnTargetAgainst($arrayBeta[$fakeIndex]['SoTA'])
+                  ->setSavePercent($arrayBeta[$fakeIndex]['Save%'])
+                  ->setCleanSheets($arrayBeta[$fakeIndex]['CS'])
+                  ->setCleanSheetPercent($arrayBeta[$fakeIndex]['CS%'])
+                  ->setPenaltyKickAllowed($arrayBeta[$fakeIndex]['PKA'])
+                  ->setPenaltyKicksSaved($arrayBeta[$fakeIndex]['PKsv'])
+                  ->setGoalPerMatch($teams['GlsPerM'])
+                  ->setTopTeamScoorer("")
+                  ->setGoalKeeper("");
+
+               $this->em->persist($team);
+            } else {
+               $verify
+                  ->setNameTeam($teams['Squad'])
+                  ->setLeague($league)
+                  ->setLevel("")
+                  ->setMatchPlayed($teams['MP'])
+                  ->setGoals($teams['Gls'])
+                  ->setAssists($teams['Ast'])
+                  ->setGoalsAgainst($arrayBeta[$fakeIndex]['GA'])
+                  ->setGoalsAgainstPerMatch($arrayBeta[$fakeIndex]['GA90'])
+                  ->setSaves($arrayBeta[$fakeIndex]['Saves'])
+                  ->setShootOnTargetAgainst($arrayBeta[$fakeIndex]['SoTA'])
+                  ->setSavePercent($arrayBeta[$fakeIndex]['Save%'])
+                  ->setCleanSheets($arrayBeta[$fakeIndex]['CS'])
+                  ->setCleanSheetPercent($arrayBeta[$fakeIndex]['CS%'])
+                  ->setPenaltyKickAllowed($arrayBeta[$fakeIndex]['PKA'])
+                  ->setPenaltyKicksSaved($arrayBeta[$fakeIndex]['PKsv'])
+                  ->setTopTeamScoorer("")
+                  ->setGoalKeeper("");
+               $this->em->persist($verify);
+            }
+         }
+         $this->em->flush();
+      }
+   }
+
+
+
+
+
+
    protected function execute(InputInterface $input, OutputInterface $output)
    {
 
@@ -35,6 +101,8 @@ class importCommand extends Command
       $readerOfShootingData = Reader::createFromPath('%kernel.root_dir%/../public/shooting_data_pl.csv');
       $readerOfTimmingData = Reader::createFromPath('%kernel.root_dir%/../public/timming_data_pl.csv');
       $readerOfMiscellaneousData = Reader::createFromPath('%kernel.root_dir%/../public/miscellaneous_data_pl.csv');
+      $readerPermierLeagueTeams = Reader::createFromPath('%kernel.root_dir%/../public/premier_league_teams.csv');
+      $readerPermierLeagueTeamsOtherData = Reader::createFromPath('%kernel.root_dir%/../public/premier_league_teams_other_data.csv');
 
 
       $readerOfStandarsData->setDelimiter(';');
@@ -42,20 +110,31 @@ class importCommand extends Command
       $readerOfShootingData->setDelimiter(';');
       $readerOfTimmingData->setDelimiter(';');
       $readerOfMiscellaneousData->setDelimiter(';');
+      $readerPermierLeagueTeams->setDelimiter(';');
+      $readerPermierLeagueTeamsOtherData->setDelimiter(';');
+
 
       $standars = $readerOfStandarsData->fetchAssoc();
       $passing = $readerOfPassingData->fetchAssoc();
       $shooting = $readerOfShootingData->fetchAssoc();
       $timming = $readerOfTimmingData->fetchAssoc();
       $miscellaneous = $readerOfMiscellaneousData->fetchAssoc();
+      $permierLeagueTeams = $readerPermierLeagueTeams->fetchAssoc();
+      $permierLeagueTeamsOtherData = $readerPermierLeagueTeamsOtherData->fetchAssoc();
 
       $standars = iterator_to_array($standars, false);
       $passing = iterator_to_array($passing, false);
       $shooting = iterator_to_array($shooting, false);
       $timming = iterator_to_array($timming, false);
       $miscellaneous = iterator_to_array($miscellaneous, false);
+      $permierLeagueTeams = iterator_to_array($permierLeagueTeams, false);
+      $permierLeagueTeamsOtherData = iterator_to_array($permierLeagueTeamsOtherData, false);
 
       $comp = 0;
+
+
+      $this->importTeams($permierLeagueTeams, $permierLeagueTeamsOtherData, 'Premier League');
+
 
       foreach ($timming as $fakeindex => $row) {
 

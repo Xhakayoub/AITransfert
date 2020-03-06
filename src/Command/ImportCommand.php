@@ -28,27 +28,32 @@ class importCommand extends Command
    {
 
       $io = new SymfonyStyle($input, $output);
-  
+
       $io->title('import en progression...');
       $readerOfStandarsData = Reader::createFromPath('%kernel.root_dir%/../public/standars_data_pl.csv');
       $readerOfPassingData = Reader::createFromPath('%kernel.root_dir%/../public/passing_data_pl.csv');
       $readerOfShootingData = Reader::createFromPath('%kernel.root_dir%/../public/shooting_data_pl.csv');
       $readerOfTimmingData = Reader::createFromPath('%kernel.root_dir%/../public/timming_data_pl.csv');
+      $readerOfMiscellaneousData = Reader::createFromPath('%kernel.root_dir%/../public/miscellaneous_data_pl.csv');
+
 
       $readerOfStandarsData->setDelimiter(';');
       $readerOfPassingData->setDelimiter(';');
       $readerOfShootingData->setDelimiter(';');
       $readerOfTimmingData->setDelimiter(';');
+      $readerOfMiscellaneousData->setDelimiter(';');
 
       $standars = $readerOfStandarsData->fetchAssoc();
       $passing = $readerOfPassingData->fetchAssoc();
       $shooting = $readerOfShootingData->fetchAssoc();
       $timming = $readerOfTimmingData->fetchAssoc();
+      $miscellaneous = $readerOfMiscellaneousData->fetchAssoc();
 
       $standars = iterator_to_array($standars, false);
       $passing = iterator_to_array($passing, false);
       $shooting = iterator_to_array($shooting, false);
       $timming = iterator_to_array($timming, false);
+      $miscellaneous = iterator_to_array($miscellaneous, false);
 
       $comp = 0;
 
@@ -60,9 +65,9 @@ class importCommand extends Command
             ->findOneBy([
                'idPlayer' => $row['id']
             ]);
-         
 
-            if (empty($verify)) {
+
+         if (empty($verify)) {
             $player = (new player())
                ->setIdPlayer($row['id'])
                ->setName($row['name'])
@@ -121,13 +126,29 @@ class importCommand extends Command
                ->setLongPassesCompPercent(0.0)
                ->setPassCompletedFinalThird(0)
                ->setPassCompletedPenaltyArea(0)
-               ->setCrossIntoPenaltyArea(0.0);
+               ->setFoulsCommited(0)
+               ->setFoulsDrawn(0)
+               ->setOffsides(0)
+               ->setCrosses(0)
+               ->setTacklesWon(0)
+               ->setInterceptions(0)
+               ->setPenaltyKicksWon(0)
+               ->setPenaltyKicksConceded(0)
+               ->setOwnGoal(0)
+               ->setDribbleCompleted(0)
+               ->setDribbleAttempted(0)
+               ->setDribblePercent(0.0)
+               ->setNumberOfPlayerDriblled(0)
+               ->setNutmegs(0)
+               ->setDribbleTackled(0)
+               ->setDribbleTackledPercent(0.0)
+               ->setTimesDribbledPast(0);
 
             if ($index > count($standars) - 1) {
                $index = 0;
             }
             if ($row['name'] == $standars[$index]['name']) {
-               
+
                $player->setMatchsPlayed(intval($standars[$index]['MP']))
                   ->setMatchStarts(intval($standars[$index]['Starts']))
                   ->setMinsPlayed(intval($standars[$index]['Min']))
@@ -151,7 +172,7 @@ class importCommand extends Command
                   ->setNonPenGoalsExpPerMin(floatval($standars[$index]['npxG_per_match']))
                   ->setNonPenGoalsAssistsExpPerMin(floatval($standars[$index]['npxG_xA']));
             } else {
-               for ($i = 0; $i <= count($standars)-1; $i++) {
+               for ($i = 0; $i <= count($standars) - 1; $i++) {
                   $comp++;
                   if ($row['name'] == $standars[$i]['name']) {
 
@@ -196,7 +217,7 @@ class importCommand extends Command
                   ->setGoalsPerShoot(floatval($shooting[$index]['G/Sh']))
                   ->setGoalPerShootOnTarget(floatval($shooting[$index]['G/SoT']));
             } else {
-               for ($i = 0; $i <= count($shooting)-1; $i++) {
+               for ($i = 0; $i <= count($shooting) - 1; $i++) {
 
                   if ($row['name'] == $shooting[$i]['name']) {
 
@@ -238,7 +259,7 @@ class importCommand extends Command
                   ->setPassCompletedPenaltyArea(intval($passing[$index]['PPA']))
                   ->setCrossIntoPenaltyArea(floatval($passing[$index]['CrsPA']));
             } else {
-               for ($i = 0; $i <= count($passing)-1; $i++) {
+               for ($i = 0; $i <= count($passing) - 1; $i++) {
 
                   if ($row['name'] == $passing[$i]['name']) {
                      $player->setKeyPasses(intval($passing[$i]['KP']))
@@ -261,14 +282,60 @@ class importCommand extends Command
                   }
                }
             }
+            $index = $fakeindex;
+            if ($index > count($miscellaneous) - 1) {
+               $index = 0;
+            }
+            if ($row['name'] == $miscellaneous[$index]['name']) {
+
+               $player->setFoulsCommited(intval($miscellaneous[$index]['Fls']))
+                  ->setFoulsDrawn(intval($miscellaneous[$index]['Fld']))
+                  ->setOffsides(intval($miscellaneous[$index]['off']))
+                  ->setCrosses(floatval($miscellaneous[$index]['Crs']))
+                  ->setTacklesWon(floatval($miscellaneous[$index]['TklW']))
+                  ->setInterceptions(floatval($miscellaneous[$index]['Int']))
+                  ->setPenaltyKicksWon(floatval($miscellaneous[$index]['PKwon']))
+                  ->setPenaltyKicksConceded(floatval($miscellaneous[$index]['Pkcon']))
+                  ->setOwnGoal(floatval($miscellaneous[$index]['OG']))
+                  ->setDribbleCompleted(floatval($miscellaneous[$index]['Succ']))
+                  ->setDribbleAttempted(floatval($miscellaneous[$index]['Att']))
+                  ->setDribblePercent(floatval($miscellaneous[$index]['Succ%']))
+                  ->setNumberOfPlayerDriblled(floatval($miscellaneous[$index]['#Pl']))
+                  ->setNutmegs(floatval($miscellaneous[$index]['Megs']))
+                  ->setDribbleTackled(floatval($miscellaneous[$index]['Tkl']))
+                  ->setDribbleTackledPercent(floatval($miscellaneous[$index]['Tkl%']))
+                  ->setTimesDribbledPast(floatval($miscellaneous[$index]['Past']));
+            } else {
+               for ($i = 0; $i <= count($miscellaneous) - 1; $i++) {
+
+                  if ($row['name'] == $miscellaneous[$i]['name']) {
+
+                     $player->setFoulsCommited(intval($miscellaneous[$i]['Fls']))
+                        ->setFoulsDrawn(intval($miscellaneous[$i]['Fld']))
+                        ->setOffsides(intval($miscellaneous[$i]['off']))
+                        ->setCrosses(floatval($miscellaneous[$i]['Crs']))
+                        ->setTacklesWon(floatval($miscellaneous[$i]['TklW']))
+                        ->setInterceptions(floatval($miscellaneous[$i]['Int']))
+                        ->setPenaltyKicksWon(floatval($miscellaneous[$i]['PKwon']))
+                        ->setPenaltyKicksConceded(floatval($miscellaneous[$i]['Pkcon']))
+                        ->setOwnGoal(floatval($miscellaneous[$i]['OG']))
+                        ->setDribbleCompleted(floatval($miscellaneous[$i]['Succ']))
+                        ->setDribbleAttempted(floatval($miscellaneous[$i]['Att']))
+                        ->setDribblePercent(floatval($miscellaneous[$i]['Succ%']))
+                        ->setNumberOfPlayerDriblled(floatval($miscellaneous[$i]['#Pl']))
+                        ->setNutmegs(floatval($miscellaneous[$i]['Megs']))
+                        ->setDribbleTackled(floatval($miscellaneous[$i]['Tkl']))
+                        ->setDribbleTackledPercent(floatval($miscellaneous[$i]['Tkl%']))
+                        ->setTimesDribbledPast(floatval($miscellaneous[$i]['Past']));
+                     break;
+                  }
+               }
+            }
 
 
 
             $this->em->persist($player);
-         }
-
-
-         else{
+         } else {
 
             $verify->setMinutesPlayed(intval($row['Min']))
                ->setMinutesPercentPlayed(floatval($row['Min%']))
@@ -304,11 +371,11 @@ class importCommand extends Command
                   ->setNonPenGoalsExpPerMin(floatval($standars[$index]['npxG_per_match']))
                   ->setNonPenGoalsAssistsExpPerMin(floatval($standars[$index]['npxG_xA']));
             } else {
-              
-               for ($i = 0; $i <= count($standars)-1; $i++) {
+
+               for ($i = 0; $i <= count($standars) - 1; $i++) {
                   $comp++;
                   if ($row['name'] == $standars[$i]['name']) {
-                    
+
                      $verify->setMatchsPlayed(intval($standars[$i]['MP']))
                         ->setMatchStarts(intval($standars[$i]['Starts']))
                         ->setMinsPlayed(intval($standars[$i]['Min']))
@@ -350,7 +417,7 @@ class importCommand extends Command
                   ->setGoalsPerShoot(floatval($shooting[$index]['G/Sh']))
                   ->setGoalPerShootOnTarget(floatval($shooting[$index]['G/SoT']));
             } else {
-               for ($i = 0; $i <= count($shooting)-1; $i++) {
+               for ($i = 0; $i <= count($shooting) - 1; $i++) {
 
                   if ($row['name'] == $shooting[$i]['name']) {
 
@@ -392,7 +459,7 @@ class importCommand extends Command
                   ->setPassCompletedPenaltyArea(intval($passing[$index]['PPA']))
                   ->setCrossIntoPenaltyArea(floatval($passing[$index]['CrsPA']));
             } else {
-               for ($i = 0; $i <= count($passing)-1; $i++) {
+               for ($i = 0; $i <= count($passing) - 1; $i++) {
 
                   if ($row['name'] == $passing[$i]['name']) {
                      $verify->setKeyPasses(intval($passing[$i]['KP']))
@@ -416,9 +483,56 @@ class importCommand extends Command
                }
             }
 
+            $index = $fakeindex;
+            if ($index > count($miscellaneous) - 1) {
+               $index = 0;
+            }
+            if ($row['name'] == $miscellaneous[$index]['name']) {
 
+               $verify->setFoulsCommited(intval($miscellaneous[$index]['Fls']))
+                  ->setFoulsDrawn(intval($miscellaneous[$index]['Fld']))
+                  ->setOffsides(intval($miscellaneous[$index]['Off']))
+                  ->setCrosses(floatval($miscellaneous[$index]['Crs']))
+                  ->setTacklesWon(floatval($miscellaneous[$index]['TklW']))
+                  ->setInterceptions(floatval($miscellaneous[$index]['Int']))
+                  ->setPenaltyKicksWon(floatval($miscellaneous[$index]['PKwon']))
+                  ->setPenaltyKicksConceded(floatval($miscellaneous[$index]['PKcon']))
+                  ->setOwnGoal(floatval($miscellaneous[$index]['OG']))
+                  ->setDribbleCompleted(floatval($miscellaneous[$index]['Succ']))
+                  ->setDribbleAttempted(floatval($miscellaneous[$index]['Att']))
+                  ->setDribblePercent(floatval($miscellaneous[$index]['Succ%']))
+                  ->setNumberOfPlayerDriblled(floatval($miscellaneous[$index]['#Pl']))
+                  ->setNutmegs(floatval($miscellaneous[$index]['Megs']))
+                  ->setDribbleTackled(floatval($miscellaneous[$index]['Tkl']))
+                  ->setDribbleTackledPercent(floatval($miscellaneous[$index]['Tkl%']))
+                  ->setTimesDribbledPast(floatval($miscellaneous[$index]['Past']));
+            } else {
+               for ($i = 0; $i <= count($miscellaneous) - 1; $i++) {
+
+                  if ($row['name'] == $miscellaneous[$i]['name']) {
+
+                     $verify->setFoulsCommited(intval($miscellaneous[$i]['Fls']))
+                        ->setFoulsDrawn(intval($miscellaneous[$i]['Fld']))
+                        ->setOffsides(intval($miscellaneous[$i]['Off']))
+                        ->setCrosses(floatval($miscellaneous[$i]['Crs']))
+                        ->setTacklesWon(floatval($miscellaneous[$i]['TklW']))
+                        ->setInterceptions(floatval($miscellaneous[$i]['Int']))
+                        ->setPenaltyKicksWon(floatval($miscellaneous[$i]['PKwon']))
+                        ->setPenaltyKicksConceded(floatval($miscellaneous[$i]['PKcon']))
+                        ->setOwnGoal(floatval($miscellaneous[$i]['OG']))
+                        ->setDribbleCompleted(floatval($miscellaneous[$i]['Succ']))
+                        ->setDribbleAttempted(floatval($miscellaneous[$i]['Att']))
+                        ->setDribblePercent(floatval($miscellaneous[$i]['Succ%']))
+                        ->setNumberOfPlayerDriblled(floatval($miscellaneous[$i]['#Pl']))
+                        ->setNutmegs(floatval($miscellaneous[$i]['Megs']))
+                        ->setDribbleTackled(floatval($miscellaneous[$i]['Tkl']))
+                        ->setDribbleTackledPercent(floatval($miscellaneous[$i]['Tkl%']))
+                        ->setTimesDribbledPast(floatval($miscellaneous[$i]['Past']));
+                     break;
+                  }
+               }
+            }
             $this->em->persist($verify);
-
          }
 
 

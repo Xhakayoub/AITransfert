@@ -306,6 +306,91 @@ class Player
      */
     private $pointsPerMatch;
 
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $foulsCommited;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $foulsDrawn;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $offsides;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $crosses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $tacklesWon;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $interceptions;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $penaltyKicksWon;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $penaltyKicksConceded;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $ownGoal;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $dribbleCompleted;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $dribbleAttempted;
+
+    /**
+     * @ORM\Column(type="float", nullable=true)
+     */
+    private $dribblePercent;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $numberOfPlayerDriblled;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $nutmegs;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $dribbleTackled;
+
+    /**
+     * @ORM\Column(type="float", nullable=true)
+     */
+    private $dribbleTackledPercent;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $timesDribbledPast;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -1003,6 +1088,210 @@ class Player
     public function setPointsPerMatch(float $pointsPerMatch): self
     {
         $this->pointsPerMatch = $pointsPerMatch;
+
+        return $this;
+    }
+
+    public function getFoulsCommited(): ?int
+    {
+        return $this->foulsCommited;
+    }
+
+    public function setFoulsCommited(?int $foulsCommited): self
+    {
+        $this->foulsCommited = $foulsCommited;
+
+        return $this;
+    }
+
+    public function getFoulsDrawn(): ?int
+    {
+        return $this->foulsDrawn;
+    }
+
+    public function setFoulsDrawn(?int $foulsDrawn): self
+    {
+        $this->foulsDrawn = $foulsDrawn;
+
+        return $this;
+    }
+
+    public function getOffsides(): ?int
+    {
+        return $this->offsides;
+    }
+
+    public function setOffsides(?int $offsides): self
+    {
+        $this->offsides = $offsides;
+
+        return $this;
+    }
+
+    public function getCrosses(): ?int
+    {
+        return $this->crosses;
+    }
+
+    public function setCrosses(?int $crosses): self
+    {
+        $this->crosses = $crosses;
+
+        return $this;
+    }
+
+    public function getTacklesWon(): ?int
+    {
+        return $this->tacklesWon;
+    }
+
+    public function setTacklesWon(?int $tacklesWon): self
+    {
+        $this->tacklesWon = $tacklesWon;
+
+        return $this;
+    }
+
+    public function getInterceptions(): ?int
+    {
+        return $this->interceptions;
+    }
+
+    public function setInterceptions(?int $interceptions): self
+    {
+        $this->interceptions = $interceptions;
+
+        return $this;
+    }
+
+    public function getPenaltyKicksWon(): ?int
+    {
+        return $this->penaltyKicksWon;
+    }
+
+    public function setPenaltyKicksWon(?int $penaltyKicksWon): self
+    {
+        $this->penaltyKicksWon = $penaltyKicksWon;
+
+        return $this;
+    }
+
+    public function getPenaltyKicksConceded(): ?int
+    {
+        return $this->penaltyKicksConceded;
+    }
+
+    public function setPenaltyKicksConceded(?int $penaltyKicksConceded): self
+    {
+        $this->penaltyKicksConceded = $penaltyKicksConceded;
+
+        return $this;
+    }
+
+    public function getOwnGoal(): ?int
+    {
+        return $this->ownGoal;
+    }
+
+    public function setOwnGoal(?int $ownGoal): self
+    {
+        $this->ownGoal = $ownGoal;
+
+        return $this;
+    }
+
+    public function getDribbleCompleted(): ?int
+    {
+        return $this->dribbleCompleted;
+    }
+
+    public function setDribbleCompleted(?int $dribbleCompleted): self
+    {
+        $this->dribbleCompleted = $dribbleCompleted;
+
+        return $this;
+    }
+
+    public function getDribbleAttempted(): ?int
+    {
+        return $this->dribbleAttempted;
+    }
+
+    public function setDribbleAttempted(?int $dribbleAttempted): self
+    {
+        $this->dribbleAttempted = $dribbleAttempted;
+
+        return $this;
+    }
+
+    public function getDribblePercent(): ?float
+    {
+        return $this->dribblePercent;
+    }
+
+    public function setDribblePercent(?float $dribblePercent): self
+    {
+        $this->dribblePercent = $dribblePercent;
+
+        return $this;
+    }
+
+    public function getNumberOfPlayerDriblled(): ?int
+    {
+        return $this->numberOfPlayerDriblled;
+    }
+
+    public function setNumberOfPlayerDriblled(?int $numberOfPlayerDriblled): self
+    {
+        $this->numberOfPlayerDriblled = $numberOfPlayerDriblled;
+
+        return $this;
+    }
+
+    public function getNutmegs(): ?int
+    {
+        return $this->nutmegs;
+    }
+
+    public function setNutmegs(?int $nutmegs): self
+    {
+        $this->nutmegs = $nutmegs;
+
+        return $this;
+    }
+
+    public function getDribbleTackled(): ?int
+    {
+        return $this->dribbleTackled;
+    }
+
+    public function setDribbleTackled(?int $dribbleTackled): self
+    {
+        $this->dribbleTackled = $dribbleTackled;
+
+        return $this;
+    }
+
+    public function getDribbleTackledPercent(): ?float
+    {
+        return $this->dribbleTackledPercent;
+    }
+
+    public function setDribbleTackledPercent(?float $dribbleTackledPercent): self
+    {
+        $this->dribbleTackledPercent = $dribbleTackledPercent;
+
+        return $this;
+    }
+
+    public function getTimesDribbledPast(): ?int
+    {
+        return $this->timesDribbledPast;
+    }
+
+    public function setTimesDribbledPast(?int $timesDribbledPast): self
+    {
+        $this->timesDribbledPast = $timesDribbledPast;
 
         return $this;
     }

@@ -96,13 +96,13 @@ class importCommand extends Command
       $io = new SymfonyStyle($input, $output);
 
       $io->title('import en progression...');
-      $readerOfStandarsData = Reader::createFromPath('%kernel.root_dir%/../public/standars_data_pl.csv');
-      $readerOfPassingData = Reader::createFromPath('%kernel.root_dir%/../public/passing_data_pl.csv');
-      $readerOfShootingData = Reader::createFromPath('%kernel.root_dir%/../public/shooting_data_pl.csv');
-      $readerOfTimmingData = Reader::createFromPath('%kernel.root_dir%/../public/timming_data_pl.csv');
-      $readerOfMiscellaneousData = Reader::createFromPath('%kernel.root_dir%/../public/miscellaneous_data_pl.csv');
-      $readerPermierLeagueTeams = Reader::createFromPath('%kernel.root_dir%/../public/premier_league_teams.csv');
-      $readerPermierLeagueTeamsOtherData = Reader::createFromPath('%kernel.root_dir%/../public/premier_league_teams_other_data.csv');
+      $readerOfStandarsData = Reader::createFromPath('%kernel.root_dir%/../public/England/standars_data_pl.csv');
+      $readerOfPassingData = Reader::createFromPath('%kernel.root_dir%/../public/England/passing_data_pl.csv');
+      $readerOfShootingData = Reader::createFromPath('%kernel.root_dir%/../public/England/shooting_data_pl.csv');
+      $readerOfTimmingData = Reader::createFromPath('%kernel.root_dir%/../public/England/timming_data_pl.csv');
+      $readerOfMiscellaneousData = Reader::createFromPath('%kernel.root_dir%/../public/England/miscellaneous_data_pl.csv');
+      $readerPermierLeagueTeams = Reader::createFromPath('%kernel.root_dir%/../public/England/premier_league_teams.csv');
+      $readerPermierLeagueTeamsOtherData = Reader::createFromPath('%kernel.root_dir%/../public/England/premier_league_teams_other_data.csv');
 
 
       $readerOfStandarsData->setDelimiter(';');

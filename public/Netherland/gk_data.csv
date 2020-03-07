@@ -1,0 +1,35 @@
+;;;;;;;Playing Time;Playing Time;Playing Time;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Penalty Kicks;Penalty Kicks;Penalty Kicks;Penalty Kicks;
+Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;GA;GA90;SoTA;Saves;Save%;W;D;L;CS;CS%;PKatt;PKA;PKsv;PKm;Matches
+1;Filip Bednarek\Filip-Bednarek;pl POL;GK;Heerenveen;26;1992;5;5;450;11;2.20;21;13;.619;1;2;2;0;0.0;3;3;0;0;Matches
+2;Justin Bijlow\Justin-Bijlow;nl NED;GK;Feyenoord;21;1998;6;6;540;8;1.33;22;16;.727;5;1;0;1;16.7;2;2;0;0;Matches
+3;Marco Bizot\Marco-Bizot;nl NED;GK;AZ Alkmaar;28;1991;23;23;1984;11;0.50;66;56;.848;17;2;4;16;69.6;2;1;0;1;Matches
+4;Janis Blaswich\Janis-Blaswich;de GER;GK;Heracles Almelo;28;1991;25;25;2250;32;1.28;110;82;.727;9;6;10;7;28.0;4;2;2;0;Matches
+5;Rody de Boer\Rody-de-Boer;nl NED;GK;AZ Alkmaar;21;1997;2;1;172;6;3.14;11;6;.545;0;0;1;0;0.0;1;1;0;0;Matches
+6;Jorn Brondeel\Jorn-Brondeel;be BEL;GK;Twente;25;1993;2;1;159;4;2.26;14;10;.714;1;0;0;0;0.0;0;0;0;0;Matches
+7;Tim Coremans\Tim-Coremans;nl NED;GK;Sparta R'dam;28;1991;10;10;899;18;1.80;46;30;.674;4;3;3;2;20.0;3;3;0;0;Matches
+8;Joel Drommel\Joel-Drommel;nl NED;GK;Twente;22;1996;24;24;2087;41;1.77;139;98;.705;6;6;12;5;20.8;2;0;1;1;Matches
+9;Warner Hahn\Warner-Hahn;nl NED;GK;Heerenveen;27;1992;20;20;1800;27;1.35;91;67;.736;7;7;6;4;20.0;4;3;1;0;Matches
+10;Ariel Harush\Ariel-Harush;il ISR;GK;Sparta R'dam;31;1988;15;15;1350;22;1.47;59;41;.695;5;3;7;4;26.7;4;4;0;0;Matches
+11;Mike Havekotte\Mike-Havekotte;nl NED;GK;ADO Den Haag;23;1995;1;1;90;3;3.00;7;6;.857;0;0;1;0;0.0;2;2;0;0;Matches
+12;Kees Heemskerk\Kees-Heemskerk;nl NED;GK;RKC Waalwijk;28;1991;4;2;228;7;2.76;15;9;.600;0;1;1;1;50.0;1;1;0;0;Matches
+13;Thorsten Kirschbaum\Thorsten-Kirschbaum;de GER;GK;VVV-Venlo;32;1987;25;25;2250;48;1.92;136;93;.676;8;4;13;4;16.0;5;4;1;0;Matches
+14;Luuk Koopmans\Luuk-Koopmans;nl NED;GK;ADO Den Haag;25;1993;19;19;1710;38;2.00;109;73;.670;2;7;10;5;26.3;2;2;0;0;Matches
+15;Alexei Koșelev\Alexei-Koselev;md MDA;GK;Fortuna Sittard;25;1993;26;26;2340;52;2.00;140;97;.693;6;8;12;6;23.1;9;9;0;0;Matches
+16;Nick Marsman\Nick-Marsman;nl NED;GK;Feyenoord;28;1990;2;2;180;0;0.00;9;10;1.000;1;1;0;2;100.0;1;0;1;0;Matches
+17;Xavier Mous\Xavier-Mous;nl NED;GK;Zwolle;23;1995;13;13;1170;32;2.46;93;63;.677;3;1;9;0;0.0;2;2;0;0;Matches
+18;André Onana\Andre-Onana;cm CMR;GK;Ajax;23;1996;23;23;2070;20;0.87;65;47;.723;17;2;4;8;34.8;2;2;0;0;Matches
+19;Sergio Padt\Sergio-Padt;nl NED;GK;Groningen;29;1990;25;25;2250;25;1.00;80;59;.725;10;5;10;9;36.0;6;3;2;1;Matches
+20;Maarten Paes\Maarten-Paes;nl NED;GK;Utrecht;21;1998;18;18;1620;25;1.39;74;52;.689;9;2;7;4;22.2;3;2;1;0;Matches
+21;Remko Pasveer\Remko-Pasveer;nl NED;GK;Vitesse;35;1983;25;25;2250;35;1.40;109;83;.752;11;5;9;7;28.0;9;8;1;0;Matches
+22;Robbin Ruiter\Robbin-Ruiter;nl NED;GK;PSV Eindhoven;32;1987;1;1;90;1;1.00;3;2;.667;1;0;0;0;0.0;0;0;0;0;Matches
+23;Dennis Telgenkamp\Dennis-Telgenkamp;nl NED;GK;Emmen;32;1987;25;25;2250;45;1.80;129;87;.674;8;5;12;6;24.0;3;3;0;0;Matches
+24;Lars Unnerstall\Lars-Unnerstall;de GER;GK;PSV Eindhoven;29;1990;13;13;1170;13;1.00;48;37;.792;6;4;3;3;23.1;3;3;0;0;Matches
+25;Etienne Vaessen\Etienne-Vaessen;nl NED;GK;RKC Waalwijk;24;1995;23;23;2022;49;2.18;119;73;.613;4;2;17;4;17.4;3;3;0;0;Matches
+26;Bruno Varela\Bruno-Varela;pt POR;GK;Ajax;24;1994;1;1;90;2;2.00;5;3;.600;0;0;1;0;0.0;0;0;0;0;Matches
+27;Kenneth Vermeer\Kenneth-Vermeer;nl NED;GK;Feyenoord;33;1986;16;16;1440;27;1.69;71;46;.634;7;6;3;2;12.5;2;1;1;0;Matches
+28;Timon Wellenreuther\Timon-Wellenreuther;de GER;GK;Willem II;23;1995;24;24;2160;32;1.33;120;91;.758;12;5;7;6;25.0;3;3;0;0;Matches
+29;Michael Woud\Michael-Woud;nz NZL;GK;Willem II;20;1999;1;1;90;0;0.00;1;1;1.000;1;0;0;1;100.0;0;0;0;0;Matches
+30;Michael Zetterer\Michael-Zetterer;de GER;GK;Zwolle;24;1995;13;13;1170;23;1.77;71;52;.718;4;4;5;3;23.1;4;3;1;0;Matches
+31;Jeroen Zoet\Jeroen-Zoet;nl NED;GK;PSV Eindhoven;28;1991;11;11;990;14;1.27;38;24;.632;6;3;2;3;27.3;0;0;0;0;Matches
+32;Jeroen Zoet\Jeroen-Zoet;nl NED;GK;Utrecht;28;1991;6;6;540;8;1.33;21;15;.667;2;3;1;1;16.7;2;1;1;0;Matches
+33;Robert Zwinkels\Robert-Zwinkels;nl NED;GK;ADO Den Haag;36;1983;5;5;450;9;1.80;30;21;.700;2;0;3;2;40.0;0;0;0;0;Matches

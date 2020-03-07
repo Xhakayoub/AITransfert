@@ -1,0 +1,34 @@
+;;;;;;;Playing Time;Playing Time;Playing Time;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Penalty Kicks;Penalty Kicks;Penalty Kicks;Penalty Kicks;
+Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;GA;GA90;SoTA;Saves;Save%;W;D;L;CS;CS%;PKatt;PKA;PKsv;PKm;Matches
+1;Igor Akinfeev\Igor-Akinfeev;ru RUS;GK;CSKA Moscow;33;1986;20;20;1800;19;0.95;74;58;.770;10;5;5;7;35.0;3;2;1;0;Matches
+2;Yegor Baburin\Yegor-Baburin;ru RUS;GK;Rostov;25;1993;12;12;1080;18;1.50;50;38;.760;6;2;4;3;25.0;7;6;0;1;Matches
+3;Oleg Baklov\Oleg-Baklov;ru RUS;GK;Ural;24;1994;3;3;270;7;2.33;12;6;.417;1;0;2;0;0.0;1;0;1;0;Matches
+4;Aleksandr Belenov\Aleksandr-Belenov;ru RUS;GK;Ufa;32;1986;18;18;1620;13;0.72;71;58;.845;6;7;5;9;50.0;2;2;0;0;Matches
+5;Aleksei Chernov\Aleksei-Chernov;ru RUS;GK;Ufa;21;1998;2;2;180;6;3.00;14;8;.571;0;0;2;0;0.0;0;0;0;0;Matches
+6;Aleksandr Dovbnya\Aleksandr-Dovbnya;ru RUS;GK;Orenburg;32;1987;6;5;450;9;1.80;19;11;.579;0;1;4;0;0.0;1;1;0;0;Matches
+7;Yuri Dyupin\Yuri-Dyupin;ru RUS;GK;Rubin Kazan;31;1988;20;20;1800;21;1.05;104;84;.808;4;8;8;8;40.0;2;1;0;1;Matches
+8;Soslan Dzhanayev\Soslan-Dzhanayev;ru RUS;GK;Sochi;32;1987;14;14;1260;19;1.36;74;58;.770;3;4;7;4;28.6;3;2;1;0;Matches
+9;Evgenii Frolov\Evgenii-Frolov;ru RUS;GK;Samara;31;1988;1;1;90;1;1.00;4;4;.750;0;1;0;0;0.0;1;0;1;0;Matches
+10;Evgenii Frolov\Evgenii-Frolov;ru RUS;GK;Sochi;31;1988;1;1;90;1;1.00;3;2;.667;0;1;0;0;0.0;0;0;0;0;Matches
+11;Yevgeni Gorodov\Yevgeni-Gorodov;ru RUS;GK;Akhmat Grozny;33;1985;16;16;1440;19;1.19;66;48;.712;4;6;6;3;18.8;1;0;1;0;Matches
+12;Vitali Gudiyev\Vitali-Gudiyev;ru RUS;GK;Akhmat Grozny;24;1995;4;4;360;6;1.50;22;16;.727;0;2;2;1;25.0;0;0;0;0;Matches
+13;Yaroslav Hodzyur\Yaroslav-Hodzyur;ua UKR;GK;Ural;34;1985;17;17;1530;25;1.47;76;53;.697;5;7;5;5;29.4;2;2;0;0;Matches
+14;Mikhail Kerzhakov\Mikhail-Kerzhakov;ru RUS;GK;Zenit;32;1987;8;8;720;4;0.50;26;23;.885;7;1;0;4;50.0;1;1;0;0;Matches
+15;Andrey Klimovich\Andrey-Klimovich;by BLR;GK;Orenburg;30;1988;11;11;990;14;1.27;55;43;.782;5;2;4;2;18.2;2;2;0;0;Matches
+16;Anton Kochenkov\Anton-Kochenkov;ru RUS;GK;Loko Moscow;32;1987;2;2;180;6;3.00;14;9;.643;0;0;2;0;0.0;1;1;0;0;Matches
+17;Stanislav Kritsyuk\Stanislav-Kritsyuk;ru RUS;GK;Krasnodar;28;1990;1;1;90;0;0.00;1;1;1.000;1;0;0;1;100.0;0;0;0;0;Matches
+18;Igor Leshchuk\Igor-Leshchuk;ru RUS;GK;Dynamo Mosc;23;1996;7;6;616;9;1.31;31;23;.742;1;2;3;3;50.0;1;1;0;0;Matches
+19;Mikhail Levashov\Mikhail-Levashov;ru RUS;GK;Arsenal Tula;27;1991;14;14;1260;17;1.21;63;50;.778;6;3;5;3;21.4;5;3;1;1;Matches
+20;Andrey Lunyov\Andrey-Lunyov;ru RUS;GK;Zenit;27;1991;12;12;1080;5;0.42;33;28;.848;7;3;2;7;58.3;0;0;0;0;Matches
+21;Aleksandr Maksimenko\Aleksandr-Maksimenko;ru RUS;GK;Spartak Moscow;21;1998;19;19;1710;19;1.00;77;59;.753;7;4;8;7;36.8;1;0;1;0;Matches
+22;Guilherme Marinato\Guilherme-Marinato;ru RUS;GK;Loko Moscow;33;1985;18;18;1620;18;1.00;63;47;.746;10;5;3;5;27.8;2;2;0;0;Matches
+23;Artur Nigmatullin\Artur-Nigmatullin;ru RUS;GK;Arsenal Tula;28;1991;1;1;90;3;3.00;8;5;.625;0;0;1;0;0.0;0;0;0;0;Matches
+24;Sergei Pesyakov\Sergei-Pesyakov;ru RUS;GK;Rostov;30;1988;8;8;720;11;1.37;34;25;.735;4;3;1;1;12.5;2;2;0;0;Matches
+25;Artyom Rebrov\Artyom-Rebrov;ru RUS;GK;Spartak Moscow;35;1984;1;1;90;2;2.00;3;1;.333;0;0;1;0;0.0;0;0;0;0;Matches
+26;Aleksandr Rudenko\Aleksandr-Rudenko;ru RUS;GK;Orenburg;26;1993;3;3;270;5;1.67;16;12;.750;0;2;1;0;0.0;1;1;0;0;Matches
+27;Sergey Ryzhikov\Sergey-Ryzhikov;ru RUS;GK;Samara;38;1980;19;19;1710;25;1.32;111;88;.784;5;3;11;6;31.6;2;1;1;0;Matches
+28;Matvei Safonov\Matvei-Safonov;ru RUS;GK;Krasnodar;20;1999;19;19;1710;20;1.05;61;45;.705;9;8;2;5;26.3;4;2;2;0;Matches
+29;Yegor Shamov\Yegor-Shamov;ru RUS;GK;Arsenal Tula;25;1994;5;5;450;4;0.80;24;20;.833;2;1;2;2;40.0;1;0;0;1;Matches
+30;Giorgi Shelia\Giorgi-Shelia;ru RUS;GK;Tambov;30;1988;20;20;1800;26;1.30;93;69;.731;6;4;10;5;25.0;2;1;1;0;Matches
+31;Anton Shunin\Anton-Shunin;ru RUS;GK;Dynamo Mosc;32;1987;14;14;1184;14;1.06;44;33;.727;5;4;5;4;28.6;4;2;1;1;Matches
+32;Nikolai Zabolotny\Nikolai-Zabolotny;ru RUS;GK;Sochi;29;1990;4;4;360;7;1.75;22;16;.727;0;1;3;0;0.0;1;1;0;0;Matches

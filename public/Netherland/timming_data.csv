@@ -1,0 +1,610 @@
+"id";"name";"nation";"position";"team";"age";"born";"MP";"Min";"Mn/MP";"Min%";"90s";"Starts";"Mn/Start";"Subs";"Mn/Sub";"unSub";"PPM";"onG";"onGA";"+/-";"+/-90";"On-Off";"onxG";"onxGA";"xG+/-";"xG+/-90";"On-Off-ex";"Matches"
+1;Mees Bakker\Mees-Bakker;nl NED;GK;AZ Alkmaar;18;2001;0;;;;;0;;0;;1;;;;;;;Matches
+2;Issah Abbas\Issah-Abbas;gh GHA;FW;Utrecht;20;1998;15;838;56;38.8;9.3;10;73;5;22;7;1.47;20;12;+8;+0.86;+0.59;Matches
+3;Dirk Abels\Dirk-Abels;nl NED;DF;Sparta R'dam;22;1997;24;1799;75;80.0;20.0;19;89;5;22;1;1.38;31;33;-2;-0.10;-0.50;Matches
+4;Abdallah Aberkane\Abdallah-Aberkane;nl NED;DF;Sparta R'dam;19;2000;1;3;3;0.1;0.0;0;;1;3;7;3.00;0;0;0;0.00;0.00;Matches
+5;Nassim El Ablak\Nassim-El-Ablak;nl NED;MF;Fortuna Sittard;19;2000;3;57;19;2.4;0.6;0;;3;19;22;1.67;0;0;0;0.00;+0.91;Matches
+6;Zakaria Aboukhlal\Zakaria-Aboukhlal;nl NED;FW;AZ Alkmaar;19;2000;12;188;16;8.7;2.1;0;;12;16;9;1.75;2;4;-2;-0.96;-2.55;Matches
+7;Zakaria Aboukhlal\Zakaria-Aboukhlal;nl NED;FW;PSV Eindhoven;19;2000;1;;0;0.0;0.0;0;;1;0;2;3.00;0;0;0;;;Matches
+8;Amir Absalem\Amir-Absalem;nl NED;DF;Groningen;22;1997;5;352;70;15.6;3.9;4;86;1;7;13;0.80;3;5;-2;-0.51;-0.70;Matches
+9;Giorgi Aburjania\Giorgi-Aburjania;ge GEO;MF;Twente;24;1995;16;553;35;24.6;6.1;4;86;12;18;9;1.44;11;11;0;0.00;+0.58;Matches
+10;Ragnar Ache\Ragnar-Ache;de GER;FW;Sparta R'dam;21;1998;19;1481;78;65.8;16.5;18;80;1;45;1;1.37;26;21;+5;+0.30;+0.89;Matches
+11;Luka Adžić\Luka-Adzic;rs SRB;FW;Emmen;20;1998;2;90;45;4.0;1.0;1;45;1;45;1;1.50;3;5;-2;-2.00;-1.42;Matches
+12;Ibrahim Afellay\Ibrahim-Afellay;nl NED;MF;PSV Eindhoven;33;1986;3;105;35;4.7;1.2;1;74;2;16;14;2.33;3;0;+3;+2.57;+1.65;Matches
+13;Özgür Aktas\Ozgur-Aktas;nl NED;DF;Vitesse;22;1997;0;;;;;0;;0;;11;;;;;;;Matches
+14;Hamdi Akujobi\Hamdi-Akujobi;nl NED;MF;Heerenveen;19;2000;3;36;12;1.6;0.4;0;;3;12;20;3.00;1;0;+1;+2.50;+2.46;Matches
+15;Mukhtar Ali\Mukhtar-Ali;sa KSA;MF;Vitesse;21;1997;0;;;;;0;;0;;4;;;;;;;Matches
+16;Edson Álvarez\Edson-Alvarez;mx MEX;MFDF;Ajax;21;1997;11;549;50;25.4;6.1;6;81;5;13;12;2.55;13;7;+6;+0.98;-1.08;Matches
+17;Gregoire Amiot\Gregoire-Amiot;fr FRA;DF;Fortuna Sittard;24;1995;9;582;65;24.9;6.5;7;83;2;2;11;0.56;6;20;-14;-2.16;-1.70;Matches
+18;Mohamed Amissi\Mohamed-Amissi;bi BDI;FW;Heracles Almelo;18;2000;0;;;;;0;;0;;1;;;;;;;Matches
+19;Martin Angha\Martin-Angha;ch SUI;DF;Fortuna Sittard;25;1994;16;1240;78;53.0;13.8;15;82;1;4;1;1.19;18;30;-12;-0.87;+0.03;Matches
+20;Marko Antunic\Marko-Antunic;;GK;VVV-Venlo;;;0;;;;;0;;0;;2;;;;;;;Matches
+21;Miguel Araujo\Miguel-Araujo;pe PER;DF;Emmen;24;1994;11;990;90;44.0;11.0;11;90;0;;2;1.36;12;16;-4;-0.36;+0.49;Matches
+22;Jafar Arias\Jafar-Arias;cw CUW;MFFW;Emmen;24;1995;17;804;47;35.7;8.9;6;79;11;30;8;0.88;9;17;-8;-0.90;-0.40;Matches
+23;Jonas Arweiler\Jonas-Arweiler;de GER;FW;Utrecht;22;1997;2;27;14;1.3;0.3;0;;2;14;2;1.50;2;0;+2;+6.67;+6.24;Matches
+24;Hennos Asmelash\Hennos-Asmelash;nl NED;DF;ADO Den Haag;20;1999;0;;;;;0;;0;;1;;;;;;;Matches
+25;Joel Asoro\Joel-Asoro;se SWE;FWMF;Groningen;20;1999;15;1183;79;52.6;13.1;13;87;2;24;7;1.47;14;10;+4;+0.30;+0.47;Matches
+26;Adil Auassar\Adil-Auassar;nl NED;MF;Sparta R'dam;32;1986;22;1725;78;76.7;19.2;22;78;0;;0;1.23;32;27;+5;+0.26;+1.12;Matches
+27;Sebbe Augustijns\Sebbe-Augustijns;be BEL;MF;RKC Waalwijk;19;1999;0;;;;;0;;0;;1;;;;;;;Matches
+28;Yassin Ayoub\Yassin-Ayoub;nl NED;MF;Feyenoord;25;1994;3;44;15;2.0;0.5;0;;3;15;7;2.33;0;1;-1;-2.05;-2.64;Matches
+29;Marouan Azarkan\Marouan-Azarkan;nl NED;FW;Feyenoord;17;2001;1;18;18;0.8;0.2;0;;1;18;6;3.00;0;2;-2;-10.00;-10.63;Matches
+30;Ryan Babel\Ryan-Babel;nl NED;FW;Ajax;32;1986;5;386;77;17.9;4.3;5;77;0;;0;1.80;7;2;+5;+1.17;-0.76;Matches
+31;Nikolai Baden Frederiksen\Nikolai-Baden-Frederiksen;dk DEN;FW;Fortuna Sittard;19;2000;2;47;24;2.0;0.5;1;45;1;2;2;1.00;0;0;0;0.00;+0.90;Matches
+32;Nikki Baggerman\Nikki-Baggerman;nl NED;MF;RKC Waalwijk;21;1997;0;;;;;0;;0;;1;;;;;;;Matches
+33;Jean-Christophe Bahebeck\Jean-Christophe-Bahebeck;fr FRA;FW;Utrecht;26;1993;15;583;39;27.0;6.5;6;68;9;19;2;1.60;11;8;+3;+0.46;-0.05;Matches
+34;Destan Bajselmani\Destan-Bajselmani;nl NED;DF;Zwolle;20;1999;3;205;68;8.8;2.3;1;71;2;67;10;1.00;3;3;0;0.00;+0.76;Matches
+35;Saïd Bakari\Said-Bakari;km COM;DFFW;RKC Waalwijk;24;1994;17;1255;74;55.8;13.9;13;87;4;30;8;0.65;17;25;-8;-0.57;+1.51;Matches
+36;Navajo Bakboord\Navajo-Bakboord;nl NED;DF;Heracles Almelo;20;1999;10;810;81;36.0;9.0;9;90;1;0;3;1.50;15;12;+3;+0.33;+0.27;Matches
+37;Danny Bakker\Danny-Bakker;nl NED;MF;ADO Den Haag;24;1995;21;1398;67;62.1;15.5;17;78;4;16;2;0.57;13;32;-19;-1.22;-0.59;Matches
+38;Nick Bakker\Nick-Bakker;nl NED;DF;Emmen;27;1992;8;630;79;28.0;7.0;8;79;0;;0;0.88;9;16;-7;-1.00;-0.50;Matches
+39;Tudor Băluță\Tudor-Baluta;ro ROU;MF;ADO Den Haag;20;1999;3;266;89;11.8;3.0;3;89;0;;3;0.33;2;7;-5;-1.69;-0.78;Matches
+40;Naoufal Bannis\Naoufal-Bannis;nl NED;MF;Feyenoord;17;2002;4;59;15;2.7;0.7;0;;4;15;4;1.25;3;1;+2;+3.05;+2.58;Matches
+41;Rida El Barjiji\Rida-El-Barjiji;nl NED;MF;Utrecht;17;2001;0;;;;;0;;0;;1;;;;;;;Matches
+42;Aaron Bastiaans\Aaron-Bastiaans;nl NED;MF;VVV-Venlo;17;2002;1;16;16;0.7;0.2;0;;1;16;1;0.00;1;0;+1;+5.63;+6.63;Matches
+43;Timo Baumgartl\Timo-Baumgartl;de GER;DF;PSV Eindhoven;23;1996;13;1092;84;48.5;12.1;12;90;1;12;11;1.85;28;15;+13;+1.07;+0.14;Matches
+44;Bilal Bayazit\Bilal-Bayazit;nl NED;GK;Vitesse;20;1999;0;;;;;0;;0;;15;;;;;;;Matches
+45;Riechedly Bazoer\Riechedly-Bazoer;nl NED;MF;Vitesse;22;1996;21;1685;80;74.9;18.7;18;88;3;35;0;1.52;32;27;+5;+0.27;-0.37;Matches
+46;Filip Bednarek\Filip-Bednarek;pl POL;GK;Heerenveen;26;1992;5;450;90;20.0;5.0;5;90;0;;20;1.00;9;11;-2;-0.40;-0.60;Matches
+47;Donny van de Beek\Donny-van-de-Beek;nl NED;MF;Ajax;22;1997;22;1826;83;84.5;20.3;21;86;1;21;0;2.14;51;19;+32;+1.58;-1.39;Matches
+48;Sven van Beek\Sven-van-Beek;nl NED;DF;Feyenoord;25;1994;1;1;1;0.0;0.0;0;;1;1;1;3.00;0;0;0;0.00;-0.54;Matches
+49;Iliass Bel Hassani\Iliass-Bel-Hassani;ma MAR;FWMF;Zwolle;26;1992;14;977;70;41.8;10.9;12;76;2;33;3;0.93;15;25;-10;-0.92;-0.39;Matches
+50;Hilal Ben Moussa\Hilal-Ben-Moussa;nl NED;MF;Emmen;27;1992;6;422;70;18.8;4.7;4;83;2;45;1;1.33;8;7;+1;+0.21;+1.05;Matches
+51;Charlison Benschop\Charlison-Benschop;cw CUW;FW;Groningen;29;1989;17;847;50;37.6;9.4;7;88;10;23;1;1.41;13;13;0;0.00;-0.13;Matches
+52;Mitchell van Bergen\Mitchell-van-Bergen;nl NED;FW;Heerenveen;19;1999;24;2148;90;95.5;23.9;24;90;0;;0;1.33;39;37;+2;+0.08;+0.08;Matches
+53;Emil Berggreen\Emil-Berggreen;dk DEN;FW;Twente;26;1993;13;349;27;15.5;3.9;2;88;11;16;7;0.54;5;11;-6;-1.55;-1.31;Matches
+54;Steven Berghuis\Steven-Berghuis;nl NED;FW;Feyenoord;27;1991;23;2018;88;93.4;22.4;23;88;0;;0;1.91;45;33;+12;+0.54;-0.10;Matches
+55;Emil Bergström\Emil-Bergstrom;se SWE;DF;Utrecht;26;1993;1;90;90;4.2;1.0;1;90;0;;3;3.00;4;2;+2;+2.00;+1.57;Matches
+56;Steven Bergwijn\Steven-Bergwijn;nl NED;FWMF;PSV Eindhoven;21;1997;16;1336;84;59.4;14.8;16;84;0;;0;2.13;36;16;+20;+1.35;+0.85;Matches
+57;Matúš Bero\Matus-Bero;sk SVK;MFFW;Vitesse;23;1995;22;1867;85;83.0;20.7;22;85;0;;0;1.55;35;30;+5;+0.24;-0.70;Matches
+58;Jan-Niklas Beste\Jan-Niklas-Beste;de GER;DF;Emmen;20;1999;6;409;68;18.2;4.5;5;82;1;0;3;1.17;7;11;-4;-0.88;-0.29;Matches
+59;Tom Beugelsdijk\Tom-Beugelsdijk;nl NED;DF;ADO Den Haag;28;1990;18;1523;85;67.7;16.9;17;89;1;15;1;0.78;18;32;-14;-0.83;+0.53;Matches
+60;Peet Bijen\Peet-Bijen;nl NED;DF;Twente;24;1995;19;1613;85;71.7;17.9;17;90;2;42;6;1.21;25;31;-6;-0.33;+0.37;Matches
+61;Glenn Bijl\Glenn-Bijl;nl NED;DF;Emmen;24;1995;23;2060;90;91.6;22.9;23;90;0;;0;1.26;28;38;-10;-0.44;+2.41;Matches
+62;Teun Bijleveld\Teun-Bijleveld;nl NED;MF;Heracles Almelo;21;1998;14;205;15;9.1;2.3;1;68;13;11;11;1.21;3;6;-3;-1.32;-1.63;Matches
+63;Justin Bijlow\Justin-Bijlow;nl NED;GK;Feyenoord;21;1998;6;540;90;25.0;6.0;6;90;0;;13;2.67;16;8;+8;+1.33;+1.06;Matches
+64;Mario Bilate\Mario-Bilate;nl NED;FW;RKC Waalwijk;28;1991;17;1258;74;55.9;14.0;14;85;3;22;0;0.53;14;32;-18;-1.29;-0.11;Matches
+65;Marco Bizot\Marco-Bizot;nl NED;GK;AZ Alkmaar;28;1991;23;1984;86;91.9;22.0;23;86;0;;0;2.30;49;11;+38;+1.72;+4.28;Matches
+66;Aleksandar Bjelica\Aleksandar-Bjelica;rs SRB;DFMF;ADO Den Haag;25;1994;2;48;24;2.1;0.5;0;;2;24;7;0.50;2;0;+2;+3.75;+4.85;Matches
+67;Janis Blaswich\Janis-Blaswich;de GER;GK;Heracles Almelo;28;1991;25;2250;90;100.0;25.0;25;90;0;;0;1.32;36;32;+4;+0.16;;Matches
+68;Daley Blind\Daley-Blind;nl NED;DFMF;Ajax;29;1990;19;1655;87;76.6;18.4;18;89;1;45;0;2.32;54;17;+37;+2.01;+0.94;Matches
+69;Myron Boadu\Myron-Boadu;nl NED;FW;AZ Alkmaar;18;2001;23;1944;85;90.0;21.6;23;85;0;;0;2.30;43;13;+30;+1.39;+0.14;Matches
+70;Jan de Boer\Jan-de-Boer;nl NED;GK;Groningen;19;2000;0;;;;;0;;0;;3;;;;;;;Matches
+71;Rody de Boer\Rody-de-Boer;nl NED;GK;AZ Alkmaar;21;1997;2;172;86;8.0;1.9;1;90;1;82;22;0.00;1;6;-5;-2.62;-4.34;Matches
+72;Tom Boere\Tom-Boere;nl NED;FW;Twente;26;1992;1;2;2;0.1;0.0;0;;1;2;4;1.00;2;1;+1;+45.00;+45.48;Matches
+73;Omar Bogle\Omar-Bogle;eng ENG;FW;ADO Den Haag;26;1993;4;264;66;11.7;2.9;3;82;1;19;0;0.50;2;6;-4;-1.36;-0.41;Matches
+74;Henk Bos\Henk-Bos;nl NED;MF;Emmen;26;1992;4;125;31;5.6;1.4;1;71;3;18;3;0.75;1;6;-5;-3.60;-3.13;Matches
+75;Olivier Boscagli\Olivier-Boscagli;fr FRA;DF;PSV Eindhoven;21;1997;11;615;56;27.3;6.8;6;86;5;19;13;1.45;15;8;+7;+1.02;+0.03;Matches
+76;Jesse Bosch\Jesse-Bosch;nl NED;MF;Twente;;;4;242;61;10.8;2.7;3;81;1;0;9;2.00;1;1;0;0.00;+0.49;Matches
+77;Levi Bosch\Levi-Bosch;nl NED;GK;VVV-Venlo;18;2001;0;;;;;0;;0;;1;;;;;;;Matches
+78;Sven Botman\Sven-Botman;nl NED;DF;Heerenveen;19;2000;25;2250;90;100.0;25.0;25;90;0;;0;1.32;40;38;+2;+0.08;;Matches
+79;Eric Botteghin\Eric-Botteghin;br BRA;DF;Feyenoord;31;1987;19;1695;89;78.5;18.8;19;89;0;;1;1.79;34;28;+6;+0.32;-1.04;Matches
+80;Achraf El Bouchataoui\Achraf-El-Bouchataoui;nl NED;MF;Feyenoord;19;2000;0;;;;;0;;0;;5;;;;;;;Matches
+81;Othman Boussaid\Othman-Boussaid;be BEL;MF;Utrecht;19;2000;0;;;;;0;;0;;2;;;;;;;Matches
+82;Yahya Boussakou\Yahya-Boussakou;nl NED;FW;ADO Den Haag;;;0;;;;;0;;0;;2;;;;;;;Matches
+83;Róbert Boženík\Robert-Bozenik;sk SVK;FW;Feyenoord;19;1999;4;215;54;10.0;2.4;2;81;2;27;0;2.50;6;3;+3;+1.26;+0.79;Matches
+84;Wout Brama\Wout-Brama;nl NED;MF;Twente;32;1986;9;601;67;26.7;6.7;6;85;3;30;6;0.78;4;17;-13;-1.95;-2.06;Matches
+85;Michael Breij\Michael-Breij;nl NED;MF;Groningen;22;1997;0;;;;;0;;0;;3;;;;;;;Matches
+86;Joshua Brenet\Joshua-Brenet;nl NED;DF;Vitesse;25;1994;3;168;56;7.5;1.9;2;83;1;3;1;0.00;4;6;-2;-1.07;-1.55;Matches
+87;Bo Breukers\Bo-Breukers;nl NED;MF;Fortuna Sittard;20;1999;0;;;;;0;;0;;1;;;;;;;Matches
+88;Tim Breukers\Tim-Breukers;nl NED;DF;Heracles Almelo;31;1987;16;1350;84;60.0;15.0;15;90;1;0;6;1.31;21;20;+1;+0.07;-0.23;Matches
+89;Jorn Brondeel\Jorn-Brondeel;be BEL;GK;Twente;25;1993;2;159;80;7.1;1.8;1;90;1;69;20;1.50;2;4;-2;-1.13;-0.74;Matches
+90;Michael Brouwer\Michael-Brouwer;nl NED;GK;Heracles Almelo;26;1993;0;;;;;0;;0;;25;;;;;;;Matches
+91;Damian van Bruggen\Damian-van-Bruggen;nl NED;MFDF;VVV-Venlo;23;1996;4;218;55;9.7;2.4;2;90;2;19;14;1.50;5;9;-4;-1.65;-0.77;Matches
+92;Jordy Bruijn\Jordy-Bruijn;nl NED;MFFW;Heerenveen;23;1996;17;673;40;29.9;7.5;8;67;9;15;8;1.24;11;13;-2;-0.27;-0.50;Matches
+93;Bruma\Bruma;pt POR;FWMF;PSV Eindhoven;24;1994;17;961;57;42.7;10.7;12;72;5;20;7;1.76;15;11;+4;+0.37;-1.09;Matches
+94;Thomas Bruns\Thomas-Bruns;nl NED;MF;Zwolle;27;1992;8;443;55;18.9;4.9;5;70;3;32;8;0.88;6;12;-6;-1.22;-0.65;Matches
+95;Thomas Bruns\Thomas-Bruns;nl NED;MF;VVV-Venlo;27;1992;5;419;84;18.6;4.7;5;84;0;;0;1.80;4;1;+3;+0.64;+1.97;Matches
+96;Koen Bucker\Koen-Bucker;nl NED;GK;Heracles Almelo;23;1996;0;;;;;0;;0;;22;;;;;;;Matches
+97;Thomas Buitink\Thomas-Buitink;nl NED;MFFW;Vitesse;19;2000;16;375;23;16.7;4.2;2;67;14;17;9;1.44;2;6;-4;-0.96;-1.58;Matches
+98;Mick van Buren\Mick-van-Buren;nl NED;FW;ADO Den Haag;26;1992;4;92;23;4.1;1.0;1;59;3;11;3;1.00;1;3;-2;-1.96;-1.00;Matches
+99;Wouter Burger\Wouter-Burger;nl NED;MF;Feyenoord;18;2001;6;242;40;11.2;2.7;2;90;4;16;13;1.50;4;5;-1;-0.37;-1.03;Matches
+100;Delano Burgzorg\Delano-Burgzorg;nl NED;FW;Heracles Almelo;20;1998;4;332;83;14.8;3.7;4;83;0;;0;1.75;3;1;+2;+0.54;+0.45;Matches
+101;Lorenzo Burnet\Lorenzo-Burnet;nl NED;DF;Emmen;28;1991;19;1526;80;67.8;17.0;18;83;1;41;0;1.32;18;29;-11;-0.65;-0.03;Matches
+102;Oriol Busquets\Oriol-Busquets;es ESP;MFDF;Twente;20;1999;20;1597;80;71.0;17.7;19;83;1;15;1;1.05;24;33;-9;-0.51;-0.23;Matches
+103;Görkem Can\Gorkem-Can;tr TUR;DF;Groningen;19;2000;0;;;;;0;;0;;1;;;;;;;Matches
+104;Aitor Cantalapiedra\Aitor-Cantalapiedra;es ESP;FW;Twente;23;1996;21;1824;87;81.1;20.3;21;87;0;;0;1.14;28;35;-7;-0.35;+0.50;Matches
+105;Àlex Carbonell\Alex-Carbonell;es ESP;MF;Fortuna Sittard;21;1997;17;690;41;29.5;7.7;7;68;10;22;1;1.18;7;13;-6;-0.78;+0.14;Matches
+106;Gabi Caschili\Gabi-Caschili;nl NED;MF;Zwolle;16;2003;0;;;;;0;;0;;1;;;;;;;Matches
+107;Amar Ćatić\Amar-Catic;ba BIH;FW;PSV Eindhoven;20;1999;0;;;;;0;;0;;3;;;;;;;Matches
+108;Lee Cattermole\Lee-Cattermole;eng ENG;MF;VVV-Venlo;31;1988;11;779;71;34.6;8.7;9;83;2;17;4;0.91;5;21;-16;-1.85;-1.36;Matches
+109;Václav Černý\Vaclav-Cerny;cz CZE;FW;Utrecht;21;1997;12;346;29;16.0;3.8;3;60;9;18;10;0.92;5;5;0;0.00;-0.60;Matches
+110;Michael Chacon\Michael-Chacon;nl NED;MF;Emmen;25;1994;23;2013;88;89.5;22.4;23;88;0;;0;1.22;27;39;-12;-0.54;+0.98;Matches
+111;Paweł Cibicki\Pawel-Cibicki;se SWE;FW;ADO Den Haag;25;1994;3;117;39;5.2;1.3;1;60;2;29;8;1.00;2;1;+1;+0.77;+1.87;Matches
+112;Jeremy Cijntje\Jeremy-Cijntje;cw CUW;MFFW;Heracles Almelo;21;1998;8;244;31;10.8;2.7;2;85;6;13;5;0.88;2;5;-3;-1.11;-1.42;Matches
+113;Amadou Ciss\Amadou-Ciss;sn SEN;MFFW;Fortuna Sittard;19;1999;22;1891;86;80.8;21.0;22;86;0;;0;1.00;26;38;-12;-0.57;+1.63;Matches
+114;Max Clark\Max-Clark;eng ENG;DF;Vitesse;23;1996;23;1969;86;87.5;21.9;22;89;1;15;1;1.52;35;28;+7;+0.32;-0.32;Matches
+115;Jordy Clasie\Jordy-Clasie;nl NED;MFDF;AZ Alkmaar;28;1991;17;907;53;42.0;10.1;9;86;8;17;7;2.35;14;5;+9;+0.89;-0.83;Matches
+116;Pelle Clement\Pelle-Clement;nl NED;MF;Zwolle;23;1996;24;2086;87;89.1;23.2;24;87;0;;0;1.08;34;46;-12;-0.52;+1.61;Matches
+117;Tim Coremans\Tim-Coremans;nl NED;GK;Sparta R'dam;28;1991;10;899;90;40.0;10.0;10;90;0;;12;1.50;18;17;+1;+0.10;+0.17;Matches
+118;Karim Coulibaly\Karim-Coulibaly;fr FRA;MF;Willem II;26;1993;1;9;9;0.4;0.1;0;;1;9;3;0.00;0;0;0;0.00;-0.20;Matches
+119;George Cox\George-Cox;eng ENG;DF;Fortuna Sittard;;;21;1812;86;77.4;20.1;21;86;0;;0;1.10;23;41;-18;-0.89;-0.04;Matches
+120;Jens Craenmehr\Jens-Craenmehr;nl NED;GK;VVV-Venlo;17;2002;0;;;;;0;;0;;16;;;;;;;Matches
+121;Delano van Crooy\Delano-van-Crooy;nl NED;GK;VVV-Venlo;28;1991;0;;;;;0;;0;;24;;;;;;;Matches
+122;Vito van Crooy\Vito-van-Crooy;nl NED;FW;Zwolle;23;1996;16;1002;63;42.8;11.1;11;85;5;14;1;1.00;13;25;-12;-1.08;-0.67;Matches
+123;Gabriel Culhaci\Gabriel-Culhaci;nl NED;DF;Utrecht;19;1999;0;;;;;0;;0;;2;;;;;;;Matches
+124;Lennart-Marten Czyborra\Lennart-Marten-Czyborra;de GER;DF;Heracles Almelo;20;1999;19;1652;87;73.4;18.4;19;87;0;;0;1.37;28;27;+1;+0.05;-0.40;Matches
+125;Pontus Dahlberg\Pontus-Dahlberg;se SWE;GK;Emmen;20;1999;0;;;;;0;;0;;4;;;;;;;Matches
+126;Thijs Dallinga\Thijs-Dallinga;nl NED;FW;Groningen;18;2000;0;;;;;0;;0;;7;;;;;;;Matches
+127;Adrián Dalmau\Adrian-Dalmau;es ESP;FW;Utrecht;25;1994;6;358;60;16.6;4.0;3;82;3;37;2;0.83;7;6;+1;+0.25;-0.30;Matches
+128;Vitalie Damașcan\Vitalie-Damascan;md MDA;FW;Fortuna Sittard;20;1999;19;1091;57;46.6;12.1;13;78;6;13;2;0.95;12;22;-10;-0.82;+0.11;Matches
+129;Wessel Dammers\Wessel-Dammers;nl NED;DF;Fortuna Sittard;24;1995;11;817;74;34.9;9.1;9;89;2;8;0;1.00;6;11;-5;-0.55;+0.51;Matches
+130;Lennerd Daneels\Lennerd-Daneels;be BEL;FW;RKC Waalwijk;21;1998;7;158;23;7.0;1.8;1;86;6;12;12;0.29;4;7;-3;-1.71;-0.50;Matches
+131;Danilo\Danilo;br BRA;FW;Ajax;20;1999;1;18;18;0.8;0.2;0;;1;18;2;0.00;0;1;-1;-5.00;-6.85;Matches
+132;Damil Dankerlui\Damil-Dankerlui;nl NED;DFMF;Willem II;22;1996;15;746;50;33.2;8.3;7;78;8;25;0;1.93;12;8;+4;+0.48;+0.42;Matches
+133;Oussama Darfalou\Oussama-Darfalou;dz ALG;FW;VVV-Venlo;25;1993;7;630;90;28.0;7.0;7;90;0;;0;1.86;7;4;+3;+0.43;+1.93;Matches
+134;Oussama Darfalou\Oussama-Darfalou;dz ALG;FW;Vitesse;25;1993;6;54;9;2.4;0.6;0;;6;9;12;1.17;1;0;+1;+1.67;+1.34;Matches
+135;Eli Dasa\Eli-Dasa;il ISR;DFMF;Vitesse;26;1992;9;753;84;33.5;8.4;8;90;1;33;1;1.33;17;15;+2;+0.24;-0.18;Matches
+136;Tijn Daverveld\Tijn-Daverveld;nl NED;DF;PSV Eindhoven;19;2000;0;;;;;0;;0;;1;;;;;;;Matches
+137;Laurens De Bock\Laurens-De-Bock;be BEL;DF;ADO Den Haag;26;1992;7;615;88;27.3;6.8;7;88;0;;0;0.86;6;12;-6;-0.88;+0.17;Matches
+138;Jeffrey De Lange\Jeffrey-De-Lange;nl NED;GK;Twente;21;1998;0;;;;;0;;0;;25;;;;;;;Matches
+139;Rick Dekker\Rick-Dekker;nl NED;MFDF;Zwolle;24;1995;17;1185;70;50.6;13.2;13;85;4;19;9;1.00;21;28;-7;-0.53;+0.33;Matches
+140;Tristan Dekker\Tristan-Dekker;nl NED;DF;VVV-Venlo;21;1998;4;56;14;2.5;0.6;0;;4;14;20;1.50;2;2;0;0.00;+0.98;Matches
+141;Anthony Dekono Lulandu\Anthony-Dekono-Lulandu;fr FRA;DF;Zwolle;18;2000;0;;;;;0;;0;;1;;;;;;;Matches
+142;Hannes Delcroix\Hannes-Delcroix;be BEL;DF;RKC Waalwijk;20;1999;22;1967;89;87.4;21.9;22;89;0;;1;0.68;21;44;-23;-1.05;+1.49;Matches
+143;Thomas van den Belt\Thomas-van-den-Belt;nl NED;MF;Zwolle;18;2001;0;;;;;0;;0;;8;;;;;;;Matches
+144;Connor van den Berg\Connor-van-den-Berg;nl NED;GK;Willem II;18;2001;0;;;;;0;;0;;11;;;;;;;Matches
+145;Victor van den Bogert\Victor-van-den-Bogert;nl NED;DF;Willem II;19;1999;0;;;;;0;;0;;18;;;;;;;Matches
+146;Quinten van den Heerik\Quinten-van-den-Heerik;;MF;Zwolle;;;0;;;;;0;;0;;1;;;;;;;Matches
+147;Ennio van der Gouw\Ennio-van-der-Gouw;nl NED;GK;Twente;18;2001;0;;;;;0;;0;;3;;;;;;;Matches
+148;Arjen van der Heide\Arjen-van-der-Heide;nl NED;FW;Heerenveen;17;2001;5;31;6;1.4;0.3;0;;5;6;15;1.20;2;0;+2;+5.81;+5.81;Matches
+149;Jan-Arie van der Heijden\Jan-Arie-van-der-Heijden;nl NED;DF;Feyenoord;31;1988;5;360;72;16.7;4.0;5;72;0;;11;1.80;8;6;+2;+0.50;-0.05;Matches
+150;Stefan van der Lei\Stefan-van-der-Lei;nl NED;GK;Emmen;26;1993;0;;;;;0;;0;;25;;;;;;;Matches
+151;Mark van der Maarel\Mark-van-der-Maarel;nl NED;DF;Utrecht;29;1989;16;1339;84;62.0;14.9;15;87;1;35;7;1.81;32;21;+11;+0.74;+0.63;Matches
+152;Dean van der Sluys\Dean-van-der-Sluys;nl NED;DF;RKC Waalwijk;23;1995;0;;;;;0;;0;;1;;;;;;;Matches
+153;Richard van der Venne\Richard-van-der-Venne;nl NED;MF;RKC Waalwijk;27;1992;6;459;77;20.4;5.1;6;77;0;;0;0.67;1;10;-9;-1.76;-0.66;Matches
+154;Silvester van der Water\Silvester-van-der-Water;nl NED;FWMF;Heracles Almelo;22;1996;22;1575;72;70.0;17.5;19;80;3;18;0;1.41;31;24;+7;+0.40;+0.80;Matches
+155;Halil Dervişoğlu\Halil-Dervisoglu;tr TUR;FW;Sparta R'dam;19;1999;17;1232;72;54.8;13.7;15;79;2;23;1;1.18;22;20;+2;+0.15;+0.32;Matches
+156;Cyriel Dessers\Cyriel-Dessers;be BEL;FW;Heracles Almelo;24;1994;25;2222;89;98.8;24.7;25;89;0;;0;1.32;35;32;+3;+0.12;-3.09;Matches
+157;Sergiño Dest\Sergino-Dest;us USA;DF;Ajax;18;2000;19;1354;71;62.7;15.0;14;87;5;28;4;2.26;41;12;+29;+1.93;+0.36;Matches
+158;Nouha Dicko\Nouha-Dicko;ml MLI;FW;Vitesse;27;1992;18;1120;62;49.8;12.4;13;76;5;25;1;1.44;25;17;+8;+0.64;+0.56;Matches
+159;Mark Diemers\Mark-Diemers;nl NED;MFFW;Fortuna Sittard;25;1993;26;2326;89;99.4;25.8;26;89;0;;0;1.00;29;52;-23;-0.89;-0.89;Matches
+160;Stan van Dijck\Stan-van-Dijck;nl NED;DF;VVV-Venlo;18;2000;3;10;3;0.4;0.1;0;;3;3;12;2.00;0;0;0;0.00;+0.96;Matches
+161;Ritsu Doan\Ritsu-Doan;jp JPN;FW;PSV Eindhoven;21;1998;18;933;52;41.5;10.4;11;78;7;10;3;1.89;27;16;+11;+1.06;+0.10;Matches
+162;Ritsu Doan\Ritsu-Doan;jp JPN;MF;Groningen;21;1998;2;180;90;8.0;2.0;2;90;0;;0;1.50;2;3;-1;-0.50;-0.63;Matches
+163;Danilho Doekhi\Danilho-Doekhi;nl NED;DF;Vitesse;21;1998;25;2250;90;100.0;25.0;25;90;0;;0;1.52;44;35;+9;+0.36;;Matches
+164;Kasper Dolberg\Kasper-Dolberg;dk DEN;FW;Ajax;21;1997;1;82;82;3.8;0.9;1;82;0;;1;1.00;2;2;0;0.00;-1.86;Matches
+165;Jacky Donkor\Jacky-Donkor;be BEL;FW;Fortuna Sittard;20;1998;1;13;13;0.6;0.1;0;;1;13;11;0.00;0;0;0;0.00;+0.89;Matches
+166;Trevor Doornbusch\Trevor-Doornbusch;nl NED;GK;Heerenveen;20;1999;0;;;;;0;;0;;25;;;;;;;Matches
+167;Dabney dos Santos\Dabney-dos-Santos;nl NED;MFFW;Heracles Almelo;23;1996;18;767;43;34.1;8.5;9;71;9;14;4;1.28;11;14;-3;-0.35;-0.78;Matches
+168;Marc-Olivier Doué\Marc-Olivier-Doue;fr FRA;MF;Zwolle;18;2000;1;2;2;0.1;0.0;0;;1;2;7;1.00;0;0;0;0.00;+0.69;Matches
+169;Ibrahim Drešević\Ibrahim-Dresevic;xk KVX;DF;Heerenveen;22;1997;25;2250;90;100.0;25.0;25;90;0;;0;1.32;40;38;+2;+0.08;;Matches
+170;Anders Dreyer\Anders-Dreyer;dk DEN;FW;Heerenveen;21;1998;11;222;20;9.9;2.5;1;79;10;14;3;1.27;6;2;+4;+1.62;+1.71;Matches
+171;Joel Drommel\Joel-Drommel;nl NED;GK;Twente;22;1996;24;2087;87;92.8;23.2;24;87;0;;0;1.00;32;41;-9;-0.39;+0.72;Matches
+172;Henrico Drost\Henrico-Drost;nl NED;DF;RKC Waalwijk;32;1987;3;225;75;10.0;2.5;3;75;0;;7;0.00;3;11;-8;-3.20;-2.18;Matches
+173;Jesper Drost\Jesper-Drost;nl NED;FWMF;Heracles Almelo;26;1993;0;;;;;0;;0;;1;;;;;;;Matches
+174;Ferdy Druijf\Ferdy-Druijf;nl NED;FW;AZ Alkmaar;21;1998;11;208;19;9.6;2.3;1;68;10;14;13;2.00;4;5;-1;-0.43;-2.00;Matches
+175;Deroy Duarte\Deroy-Duarte;nl NED;FW;Sparta R'dam;20;1999;13;392;30;17.4;4.4;2;87;11;20;12;1.38;9;6;+3;+0.69;+0.83;Matches
+176;Laros Duarte\Laros-Duarte;nl NED;MF;Sparta R'dam;22;1997;15;618;41;27.5;6.9;4;72;11;30;10;1.27;11;12;-1;-0.15;-0.20;Matches
+177;Mark Duffy\Mark-Duffy;eng ENG;MF;ADO Den Haag;33;1985;4;163;41;7.2;1.8;2;62;2;20;0;0.50;3;3;0;0.00;+1.08;Matches
+178;Marco van Duin\Marco-van-Duin;nl NED;GK;Groningen;32;1987;0;;;;;0;;0;;20;;;;;;;Matches
+179;Mike van Duinen\Mike-van-Duinen;nl NED;FW;Zwolle;27;1991;12;791;66;33.8;8.8;9;83;3;14;2;1.08;13;14;-1;-0.11;+0.87;Matches
+180;Denzel Dumfries\Denzel-Dumfries;nl NED;DF;PSV Eindhoven;23;1996;24;2152;90;95.6;23.9;24;90;0;;0;1.79;48;27;+21;+0.88;-2.80;Matches
+181;Carel Eiting\Carel-Eiting;nl NED;MF;Ajax;21;1998;6;360;60;16.7;4.0;3;90;3;30;2;1.50;5;3;+2;+0.50;-1.55;Matches
+182;Chidera Ejuke\Chidera-Ejuke;ng NGA;FW;Heerenveen;21;1998;24;1972;82;87.6;21.9;23;85;1;23;0;1.25;31;35;-4;-0.18;-2.13;Matches
+183;Jurgen Ekkelenkamp\Jurgen-Ekkelenkamp;nl NED;MF;Ajax;19;2000;4;131;33;6.1;1.5;1;79;3;17;8;2.25;8;1;+7;+4.81;+3.21;Matches
+184;Stanley Elbers\Stanley-Elbers;nl NED;FW;Zwolle;27;1992;2;69;35;2.9;0.8;1;57;1;12;1;0.00;1;3;-2;-2.61;-1.97;Matches
+185;Stanley Elbers\Stanley-Elbers;nl NED;FW;RKC Waalwijk;27;1992;11;672;61;29.9;7.5;8;79;3;14;0;0.36;6;21;-15;-2.01;-1.10;Matches
+186;Urby Emanuelson\Urby-Emanuelson;nl NED;DFMF;Utrecht;33;1986;13;573;44;26.5;6.4;5;85;8;19;11;1.92;16;6;+10;+1.57;+1.46;Matches
+187;Runar Espejord\Runar-Espejord;no NOR;FW;Heerenveen;23;1996;6;119;20;5.3;1.3;0;;6;20;0;0.33;3;2;+1;+0.76;+0.71;Matches
+188;Javier Espinosa\Javier-Espinosa;es ESP;MFFW;Twente;26;1992;19;1476;78;65.6;16.4;18;81;1;18;5;1.05;22;29;-7;-0.43;+0.04;Matches
+189;Wassim Essanoussi\Wassim-Essanoussi;;MF;VVV-Venlo;;;0;;;;;0;;0;;2;;;;;;;Matches
+190;Clint Essers\Clint-Essers;nl NED;DF;Fortuna Sittard;22;1997;18;1127;63;48.2;12.5;12;78;6;33;8;1.22;20;23;-3;-0.24;+1.24;Matches
+191;Håkon Evjen\Hakon-Evjen;no NOR;MF;AZ Alkmaar;19;2000;2;83;42;3.8;0.9;1;64;1;19;4;3.00;2;0;+2;+2.17;+0.83;Matches
+192;Elber Evora\Elber-Evora;cv CPV;GK;Feyenoord;19;1999;0;;;;;0;;0;;7;;;;;;;Matches
+193;Milan van Ewijk\Milan-van-Ewijk;nl NED;DF;ADO Den Haag;;;12;1010;84;44.9;11.2;12;84;0;;3;0.67;11;23;-12;-1.07;-0.13;Matches
+194;Michael Fabrie\Michael-Fabrie;nl NED;GK;Sparta R'dam;21;1997;0;;;;;0;;0;;23;;;;;;;Matches
+195;Hicham Faik\Hicham-Faik;nl NED;MF;Heerenveen;27;1992;25;2132;85;94.8;23.7;25;85;0;;0;1.32;37;37;0;0.00;-1.53;Matches
+196;Erik Falkenburg\Erik-Falkenburg;nl NED;FWMF;ADO Den Haag;31;1988;16;947;59;42.1;10.5;10;76;6;31;8;0.75;12;24;-12;-1.14;-0.24;Matches
+197;Lassana Faye\Lassana-Faye;nl NED;DF;Sparta R'dam;21;1998;22;1929;88;85.7;21.4;22;88;0;;3;1.45;37;32;+5;+0.23;+1.64;Matches
+198;Leroy Fer\Leroy-Fer;nl NED;MF;Feyenoord;29;1990;22;1880;85;87.0;20.9;21;87;1;45;0;2.09;46;28;+18;+0.86;+2.47;Matches
+199;Leandro Fernandes\Leandro-Fernandes;nl NED;MF;Fortuna Sittard;19;1999;5;121;24;5.2;1.3;1;67;4;14;4;0.80;1;3;-2;-1.49;-0.64;Matches
+200;Zian Flemming\Zian-Flemming;nl NED;MF;Zwolle;20;1998;4;218;55;9.3;2.4;2;86;2;24;1;0.75;1;7;-6;-2.48;-1.97;Matches
+201;Sherel Floranus\Sherel-Floranus;nl NED;DF;Heerenveen;20;1998;24;2141;89;95.2;23.8;24;89;0;;0;1.38;37;35;+2;+0.08;+0.08;Matches
+202;Navarone Foor\Navarone-Foor;nl NED;MF;Vitesse;27;1992;17;951;56;42.3;10.6;11;77;6;18;2;2.00;21;10;+11;+1.04;+1.18;Matches
+203;Jeffry Fortes\Jeffry-Fortes;cv CPV;DF;Sparta R'dam;30;1989;5;365;73;16.2;4.1;4;90;1;5;0;1.80;11;6;+5;+1.23;+1.47;Matches
+204;Lassina Franck Traoré\Lassina-Franck-Traore;bf BFA;FW;Ajax;18;2001;8;262;33;12.1;2.9;2;76;6;19;7;1.88;9;2;+7;+2.40;+0.70;Matches
+205;Emil Frederiksen\Emil-Frederiksen;dk DEN;MF;Heerenveen;18;2000;0;;;;;0;;0;;6;;;;;;;Matches
+206;Kerim Frei\Kerim-Frei;tr TUR;MFFW;Emmen;25;1993;4;315;79;14.0;3.5;4;79;0;;0;1.75;3;3;0;0.00;+0.74;Matches
+207;Juriën Gaari\Jurien-Gaari;cw CUW;DF;RKC Waalwijk;25;1993;17;1489;88;66.2;16.5;17;88;0;;5;0.65;16;37;-21;-1.27;-0.09;Matches
+208;Cody Gakpo\Cody-Gakpo;nl NED;FWMF;PSV Eindhoven;20;1999;25;1458;58;64.8;16.2;14;83;11;27;0;1.84;36;18;+18;+1.11;+0.32;Matches
+209;Lutsharel Geertruida\Lutsharel-Geertruida;nl NED;DF;Feyenoord;19;2000;17;1044;61;48.3;11.6;11;86;6;17;7;2.18;23;14;+9;+0.78;+0.45;Matches
+210;Roy Gelmi\Roy-Gelmi;ch SUI;DF;VVV-Venlo;24;1995;2;90;45;4.0;1.0;1;90;1;0;2;3.00;1;0;+1;+1.00;+2.04;Matches
+211;Reza Ghoochannejad\Reza-Ghoochannejad;ir IRN;FW;Zwolle;31;1987;13;710;55;30.3;7.9;7;80;6;25;6;1.08;15;18;-3;-0.38;+0.45;Matches
+212;Paul Gladon\Paul-Gladon;nl NED;FW;Willem II;27;1992;18;183;10;8.1;2.0;0;;18;10;6;1.61;1;5;-4;-1.97;-2.36;Matches
+213;Hilary Gong\Hilary-Gong;ng NGA;FW;Vitesse;20;1998;1;24;24;1.1;0.3;0;;1;24;0;1.00;0;1;-1;-3.75;-4.15;Matches
+214;John Goossens\John-Goossens;nl NED;MFFW;ADO Den Haag;31;1988;22;1840;84;81.8;20.4;22;84;0;;1;0.86;20;37;-17;-0.83;+0.92;Matches
+215;Thijmen Goppel\Thijmen-Goppel;nl NED;FW;ADO Den Haag;22;1997;4;221;55;9.8;2.5;3;66;1;24;1;0.75;4;8;-4;-1.63;-0.70;Matches
+216;Ferhat Görgülü\Ferhat-Gorgulu;nl NED;DF;Emmen;27;1991;4;251;63;11.2;2.8;2;90;2;36;17;1.75;5;6;-1;-0.36;+0.32;Matches
+217;Donny Gorter\Donny-Gorter;nl NED;DFMF;ADO Den Haag;31;1988;0;;;;;0;;0;;9;;;;;;;Matches
+218;Kenzo Goudmijn\Kenzo-Goudmijn;nl NED;MF;AZ Alkmaar;17;2001;0;;;;;0;;0;;15;;;;;;;Matches
+219;Ryan Gravenberch\Ryan-Gravenberch;nl NED;MF;Ajax;17;2002;8;458;57;21.2;5.1;5;79;3;21;8;2.25;12;5;+7;+1.38;-0.53;Matches
+220;Mike Grim\Mike-Grim;nl NED;GK;RKC Waalwijk;22;1996;0;;;;;0;;0;;24;;;;;;;Matches
+221;Jay-Roy Grot\Jay-Roy-Grot;nl NED;MFFW;Vitesse;21;1998;21;805;38;35.8;8.9;9;67;12;17;4;1.33;7;16;-9;-1.01;-2.13;Matches
+222;Gabriel Gudmundsson\Gabriel-Gudmundsson;se SWE;MF;Groningen;20;1999;11;402;37;17.9;4.5;4;66;7;20;0;1.09;4;6;-2;-0.45;-0.64;Matches
+223;Simon Gustafson\Simon-Gustafson;se SWE;MFFW;Utrecht;24;1995;22;1960;89;90.7;21.8;22;89;0;;0;1.45;39;31;+8;+0.37;-1.43;Matches
+224;Erick Gutiérrez\Erick-Gutierrez;mx MEX;MF;PSV Eindhoven;24;1995;15;826;55;36.7;9.2;9;77;6;22;6;1.80;15;17;-2;-0.22;-1.92;Matches
+225;Leon Guwara\Leon-Guwara;de GER;DF;Utrecht;23;1996;14;1146;82;53.1;12.7;13;87;1;17;6;1.21;21;17;+4;+0.31;-0.40;Matches
+226;Albert Guðmundsson\Albert-Gudmundsson;is ISL;FW;AZ Alkmaar;22;1997;4;119;30;5.5;1.3;1;28;3;30;4;2.25;1;1;0;0.00;-1.46;Matches
+227;Brian Haak\Brian-Haak;nl NED;GK;Emmen;;;0;;;;;0;;0;;2;;;;;;;Matches
+228;Morad El Haddouti\Morad-El-Haddouti;nl NED;FW;RKC Waalwijk;21;1998;0;;;;;0;;0;;1;;;;;;;Matches
+229;Warner Hahn\Warner-Hahn;nl NED;GK;Heerenveen;27;1992;20;1800;90;80.0;20.0;20;90;0;;0;1.40;31;27;+4;+0.20;+0.60;Matches
+230;Rami Hajal\Rami-Hajal;se SWE;MF;Heerenveen;17;2001;4;90;23;4.0;1.0;0;;4;23;6;0.50;2;0;+2;+2.00;+2.00;Matches
+231;Tomáš Hájek\Tomas-Hajek;cz CZE;DF;Vitesse;27;1991;0;;;;;0;;0;;24;;;;;;;Matches
+232;Alen Halilović\Alen-Halilovic;hr CRO;FWMF;Heerenveen;23;1996;16;424;27;18.8;4.7;3;69;13;17;4;1.38;8;5;+3;+0.64;+0.69;Matches
+233;Denzel Hall\Denzel-Hall;nl NED;DF;Feyenoord;18;2001;0;;;;;0;;0;;1;;;;;;;Matches
+234;Gustavo Hamer\Gustavo-Hamer;nl NED;DFMF;Zwolle;22;1997;25;2180;87;93.2;24.2;25;87;0;;0;1.04;36;50;-14;-0.58;+1.67;Matches
+235;Matthias Hamrol\Matthias-Hamrol;de GER;GK;Emmen;25;1993;0;;;;;0;;0;;2;;;;;;;Matches
+236;Mohamed El Hankouri\Mohamed-El-Hankouri;nl NED;MF;Groningen;22;1997;20;1007;50;44.8;11.2;9;90;11;18;0;1.25;17;14;+3;+0.27;+0.34;Matches
+237;Sontje Hansen\Sontje-Hansen;nl NED;FW;Ajax;19;2000;1;11;11;0.5;0.1;0;;1;11;0;3.00;0;1;-1;-8.18;-10.02;Matches
+238;Emil Hansson\Emil-Hansson;se SWE;FW;RKC Waalwijk;21;1998;6;539;90;24.0;6.0;6;90;0;;0;0.67;3;11;-8;-1.34;-0.13;Matches
+239;Emil Hansson\Emil-Hansson;se SWE;FWMF;Feyenoord;21;1998;0;;;;;0;;0;;2;;;;;;;Matches
+240;Ridgeciano Haps\Ridgeciano-Haps;nl NED;DF;Feyenoord;26;1993;15;1271;85;58.8;14.1;14;90;1;11;1;1.60;26;25;+1;+0.07;-1.14;Matches
+241;Jeff Hardeveld\Jeff-Hardeveld;nl NED;DF;Heracles Almelo;24;1995;7;598;85;26.6;6.6;6;90;1;58;18;1.43;8;5;+3;+0.45;+0.40;Matches
+242;Cian Harries\Cian-Harries;wal WAL;DF;Fortuna Sittard;22;1997;8;378;47;16.2;4.2;4;68;4;27;3;0.88;6;12;-6;-1.43;-0.65;Matches
+243;Abdou Harroui\Abdou-Harroui;nl NED;MF;Sparta R'dam;21;1998;25;2057;82;91.4;22.9;25;82;0;;0;1.32;39;38;+1;+0.04;+0.51;Matches
+244;Ariel Harush\Ariel-Harush;il ISR;GK;Sparta R'dam;31;1988;15;1350;90;60.0;15.0;15;90;0;;10;1.20;22;22;0;0.00;0.00;Matches
+245;Pantelis Hatzidiakos\Pantelis-Hatzidiakos;gr GRE;DF;AZ Alkmaar;22;1997;11;738;67;34.2;8.2;7;90;4;27;3;2.09;17;1;+16;+1.95;+0.88;Matches
+246;Mike Hauptmeijer\Mike-Hauptmeijer;nl NED;GK;Zwolle;22;1997;0;;;;;0;;0;;26;;;;;;;Matches
+247;Mike Havekotte\Mike-Havekotte;nl NED;GK;ADO Den Haag;23;1995;1;90;90;4.0;1.0;1;90;0;;17;0.00;2;3;-1;-1.00;0.00;Matches
+248;Thom Haye\Thom-Haye;nl NED;MF;ADO Den Haag;24;1995;9;299;33;13.3;3.3;2;74;7;22;6;0.56;5;13;-8;-2.41;-1.62;Matches
+249;Kees Heemskerk\Kees-Heemskerk;nl NED;GK;RKC Waalwijk;28;1991;4;228;57;10.1;2.5;2;90;2;24;21;1.00;5;7;-2;-0.79;+0.50;Matches
+250;Freek Heerkens\Freek-Heerkens;nl NED;DF;Willem II;29;1989;22;1980;90;88.0;22.0;22;90;0;;0;1.82;31;25;+6;+0.27;+0.61;Matches
+251;Tom Hendriks\Tom-Hendriks;nl NED;GK;Fortuna Sittard;;;0;;;;;0;;0;;1;;;;;;;Matches
+252;Jorrit Hendrix\Jorrit-Hendrix;nl NED;MF;PSV Eindhoven;24;1995;16;1045;65;46.4;11.6;12;79;4;26;2;2.13;26;8;+18;+1.55;+1.03;Matches
+253;Michaël Heylen\Michael-Heylen;be BEL;DF;Emmen;25;1994;18;1602;89;71.2;17.8;18;89;0;;0;1.11;21;33;-12;-0.67;-0.12;Matches
+254;Tom Hiariej\Tom-Hiariej;nl NED;MF;Emmen;31;1988;17;1296;76;57.6;14.4;16;81;1;2;3;1.18;17;22;-5;-0.35;+0.69;Matches
+255;Bart van Hintum\Bart-van-Hintum;nl NED;DF;Groningen;32;1987;14;1196;85;53.2;13.3;14;85;0;;11;1.43;12;12;0;0.00;-0.17;Matches
+256;Jan Hoekstra\Jan-Hoekstra;nl NED;GK;Groningen;20;1998;0;;;;;0;;0;;25;;;;;;;Matches
+257;Sebastian Holmén\Sebastian-Holmen;se SWE;DF;Willem II;27;1992;25;2250;90;100.0;25.0;25;90;0;;0;1.76;37;32;+5;+0.20;;Matches
+258;Tim Hölscher\Tim-Holscher;de GER;MF;Twente;24;1995;0;;;;;0;;0;;5;;;;;;;Matches
+259;Keisuke Honda\Keisuke-Honda;jp JPN;MF;Vitesse;33;1986;4;270;68;12.0;3.0;3;87;1;9;0;1.00;5;4;+1;+0.33;-0.03;Matches
+260;Justin Hoogma\Justin-Hoogma;nl NED;DF;Utrecht;21;1998;22;1968;89;91.1;21.9;22;89;0;;1;1.55;38;28;+10;+0.46;-0.48;Matches
+261;Elson Hooi\Elson-Hooi;cw CUW;FWMF;ADO Den Haag;27;1991;13;711;55;31.6;7.9;8;73;5;26;12;1.00;9;8;+1;+0.13;+1.65;Matches
+262;Joey Houweling\Joey-Houweling;nl NED;GK;Utrecht;19;2000;0;;;;;0;;0;;3;;;;;;;Matches
+263;Ajdin Hrustic\Ajdin-Hrustic;au AUS;MF;Groningen;23;1996;24;1807;75;80.3;20.1;22;81;2;15;0;1.46;20;19;+1;+0.05;-0.15;Matches
+264;Dean Huiberts\Dean-Huiberts;nl NED;MF;Zwolle;19;2000;11;709;64;30.3;7.9;7;83;4;31;13;0.73;9;19;-10;-1.27;-0.83;Matches
+265;Klaas-Jan Huntelaar\Klaas-Jan-Huntelaar;nl NED;FW;Ajax;35;1983;17;835;49;38.7;9.3;6;88;11;28;6;2.12;28;9;+19;+2.05;+0.42;Matches
+266;Daniel Høegh\Daniel-Hoegh;dk DEN;DF;Heerenveen;28;1991;4;7;2;0.3;0.1;0;;4;2;12;3.00;0;0;0;0.00;-0.08;Matches
+267;Oussama Idrissi\Oussama-Idrissi;ma MAR;FW;AZ Alkmaar;23;1996;24;1889;79;87.5;21.0;24;79;0;;0;2.21;48;13;+35;+1.67;+2.33;Matches
+268;Edgar Ié\Edgar-Ie;pt POR;DF;Feyenoord;25;1994;11;900;82;41.7;10.0;10;86;1;45;3;1.91;24;17;+7;+0.70;+0.27;Matches
+269;Mohammed Ihattaren\Mohammed-Ihattaren;nl NED;MFFW;PSV Eindhoven;17;2002;22;1783;81;79.2;19.8;20;86;2;30;1;1.82;40;19;+21;+1.06;+0.29;Matches
+270;Lex Immers\Lex-Immers;nl NED;MF;ADO Den Haag;33;1986;23;1955;85;86.9;21.7;22;88;1;23;0;0.78;22;41;-19;-0.87;+0.96;Matches
+271;Dimitrios Ioannidis\Dimitrios-Ioannidis;de GER;MF;Fortuna Sittard;19;2000;2;44;22;1.9;0.5;0;;2;22;10;0.50;0;1;-1;-2.05;-1.18;Matches
+272;Ko Itakura\Ko-Itakura;jp JPN;DF;Groningen;22;1997;21;1576;75;70.0;17.5;17;90;4;12;4;1.48;18;19;-1;-0.06;-0.46;Matches
+273;Sebastian Jakubiak\Sebastian-Jakubiak;de GER;MF;Heracles Almelo;26;1993;5;139;28;6.2;1.5;1;57;4;21;10;2.00;4;3;+1;+0.65;+0.52;Matches
+274;Robin Jalving\Robin-Jalving;nl NED;GK;Emmen;19;2000;0;;;;;0;;0;;17;;;;;;;Matches
+275;Anco Jansen\Anco-Jansen;nl NED;FWMF;Emmen;30;1989;6;76;13;3.4;0.8;0;;6;13;1;1.67;1;2;-1;-1.18;-0.56;Matches
+276;Roel Janssen\Roel-Janssen;nl NED;DF;VVV-Venlo;29;1990;20;1765;88;78.4;19.6;20;88;0;;2;1.10;20;37;-17;-0.87;+0.43;Matches
+277;Willem Janssen\Willem-Janssen;nl NED;DF;Utrecht;33;1986;19;1710;90;79.2;19.0;19;90;0;;0;1.58;36;28;+8;+0.42;-0.38;Matches
+278;Simon Jansson\Simon-Jansson;nl NED;MF;VVV-Venlo;18;2000;6;228;38;10.1;2.5;1;87;5;28;9;1.50;3;4;-1;-0.39;+0.63;Matches
+279;David Jensen\David-Jensen;dk DEN;GK;Utrecht;27;1992;0;;;;;0;;0;;17;;;;;;;Matches
+280;Bjørn Johnsen\Bjorn-Johnsen;no NOR;FW;AZ Alkmaar;27;1991;0;;;;;0;;0;;2;;;;;;;Matches
+281;Dennis Johnsen\Dennis-Johnsen;no NOR;FW;Zwolle;21;1998;23;1100;48;47.0;12.2;10;83;13;20;2;1.04;15;30;-15;-1.23;-1.01;Matches
+282;George Johnston\George-Johnston;sco SCO;DF;Feyenoord;20;1998;0;;;;;0;;0;;18;;;;;;;Matches
+283;Siem de Jong\Siem-de-Jong;nl NED;MF;Ajax;30;1989;4;107;27;5.0;1.2;1;59;3;16;14;1.50;0;3;-3;-2.52;-4.54;Matches
+284;Patrick Joosten\Patrick-Joosten;nl NED;FW;Utrecht;23;1996;7;308;44;14.3;3.4;3;67;4;27;9;1.00;2;6;-4;-1.17;-1.95;Matches
+285;Patrick Joosten\Patrick-Joosten;nl NED;FW;Sparta R'dam;23;1996;7;571;82;25.4;6.3;7;82;0;;0;1.43;11;8;+3;+0.47;+0.63;Matches
+286;Ažbe Jug\Azbe-Jug;si SVN;GK;Fortuna Sittard;27;1992;0;;;;;0;;0;;26;;;;;;;Matches
+287;Mauro Júnior\Mauro-Junior;br BRA;MFFW;Heracles Almelo;20;1999;25;2077;83;92.3;23.1;23;87;2;37;0;1.32;35;24;+11;+0.48;+4.12;Matches
+288;Nicolai Jørgensen\Nicolai-Jorgensen;dk DEN;FW;Feyenoord;28;1991;13;978;75;45.3;10.9;11;83;2;32;0;2.23;22;13;+9;+0.83;+0.52;Matches
+289;Daniël van Kaam\Daniel-van-Kaam;nl NED;MF;Groningen;19;2000;10;704;70;31.3;7.8;8;84;2;18;15;1.90;10;6;+4;+0.51;+0.63;Matches
+290;Joël van Kaam\Joel-van-Kaam;nl NED;FW;Groningen;17;2002;0;;;;;0;;0;;5;;;;;;;Matches
+291;Elton Kabangu\Elton-Kabangu;cd COD;FWMF;Willem II;21;1998;4;37;9;1.6;0.4;0;;4;9;15;1.50;0;0;0;0.00;-0.20;Matches
+292;Youssef El Kachati\Youssef-El-Kachati;nl NED;FW;Sparta R'dam;19;1999;1;27;27;1.2;0.3;0;;1;27;0;1.00;1;0;+1;+3.33;+3.37;Matches
+293;Wilfried Kanon\Wilfried-Kanon;ci CIV;DF;ADO Den Haag;26;1993;4;261;65;11.6;2.9;3;83;1;13;1;0.75;5;9;-4;-1.38;-0.43;Matches
+294;Khalid Karami\Khalid-Karami;nl NED;DF;Sparta R'dam;29;1989;6;340;57;15.1;3.8;3;90;3;23;18;1.17;3;9;-6;-1.59;-1.87;Matches
+295;Vyacheslav Karavayev\Vyacheslav-Karavayev;ru RUS;DF;Vitesse;24;1995;5;450;90;20.0;5.0;5;90;0;;0;2.20;10;4;+6;+1.20;+1.05;Matches
+296;Rasmus Karjalainen\Rasmus-Karjalainen;fi FIN;FW;Fortuna Sittard;23;1996;15;508;34;21.7;5.6;4;72;11;20;11;0.93;7;13;-6;-1.06;-0.23;Matches
+297;Rick Karsdorp\Rick-Karsdorp;nl NED;DF;Feyenoord;24;1995;14;1049;75;48.6;11.7;12;83;2;26;3;1.86;23;19;+4;+0.34;-0.39;Matches
+298;Fabian de Keijzer\Fabian-de-Keijzer;nl NED;GK;Utrecht;19;2000;0;;;;;0;;0;;15;;;;;;;Matches
+299;Liam Kelly\Liam-Kelly;ie IRL;MF;Feyenoord;23;1995;1;90;90;4.2;1.0;1;90;0;;12;1.00;1;1;0;0.00;-0.57;Matches
+300;Boy Kemper\Boy-Kemper;nl NED;DF;Ajax;20;1999;0;;;;;0;;0;;1;;;;;;;Matches
+301;Gyrano Kerk\Gyrano-Kerk;nl NED;FW;Utrecht;23;1995;23;1993;87;92.3;22.1;23;87;0;;0;1.61;41;30;+11;+0.50;-0.04;Matches
+302;Sam Kersten\Sam-Kersten;nl NED;DF;Zwolle;21;1998;16;1115;70;47.6;12.4;12;89;4;11;7;1.19;18;21;-3;-0.24;+0.86;Matches
+303;Orestis Kiomourtzoglou\Orestis-Kiomourtzoglou;de GER;MF;Heracles Almelo;21;1998;23;2025;88;90.0;22.5;23;88;0;;1;1.30;30;27;+3;+0.13;-0.27;Matches
+304;Thorsten Kirschbaum\Thorsten-Kirschbaum;de GER;GK;VVV-Venlo;32;1987;25;2250;90;100.0;25.0;25;90;0;;0;1.12;24;48;-24;-0.96;;Matches
+305;Sean Klaiber\Sean-Klaiber;nl NED;DF;Utrecht;25;1994;23;2055;89;95.1;22.8;23;89;0;;0;1.65;44;31;+13;+0.57;+1.43;Matches
+306;Lorenzo van Kleef\Lorenzo-van-Kleef;nl NED;MF;ADO Den Haag;18;2001;2;38;19;1.7;0.4;0;;2;19;9;0.00;1;1;0;0.00;+1.02;Matches
+307;Mats Knoester\Mats-Knoester;nl NED;DF;Heracles Almelo;20;1998;25;2196;88;97.6;24.4;24;89;1;60;0;1.32;36;29;+7;+0.29;+5.29;Matches
+308;Mats Köhlert\Mats-Kohlert;de GER;FW;Willem II;21;1998;25;2108;84;93.7;23.4;25;84;0;;0;1.76;35;28;+7;+0.30;+1.57;Matches
+309;Orkun Kökçü\Orkun-Kokcu;tr TUR;MF;Feyenoord;18;2000;21;1634;78;75.6;18.2;20;81;1;13;2;2.05;38;22;+16;+0.88;+1.39;Matches
+310;Marko Kolar\Marko-Kolar;hr CRO;FWMF;Emmen;24;1995;20;1397;70;62.1;15.5;18;76;2;14;0;1.25;18;26;-8;-0.52;+0.33;Matches
+311;Rodney Kongolo\Rodney-Kongolo;nl NED;MF;Heerenveen;21;1998;25;1993;80;88.6;22.1;24;82;1;31;0;1.32;35;35;0;0.00;-0.70;Matches
+312;Joey Konings\Joey-Konings;nl NED;FWMF;Heracles Almelo;21;1998;15;746;50;33.2;8.3;8;83;7;12;4;1.47;13;9;+4;+0.48;+0.48;Matches
+313;Luuk Koopmans\Luuk-Koopmans;nl NED;GK;PSV Eindhoven;25;1993;0;;;;;0;;0;;1;;;;;;;Matches
+314;Luuk Koopmans\Luuk-Koopmans;nl NED;GK;ADO Den Haag;25;1993;19;1710;90;76.0;19.0;19;90;0;;3;0.68;15;38;-23;-1.21;-0.88;Matches
+315;Teun Koopmeiners\Teun-Koopmeiners;nl NED;MFDF;AZ Alkmaar;21;1998;24;2131;89;98.7;23.7;24;89;0;;0;2.21;49;17;+32;+1.35;-1.75;Matches
+316;Jarni Koorman\Jarni-Koorman;nl NED;MF;Zwolle;20;1999;3;133;44;5.7;1.5;1;70;2;32;9;1.33;1;0;+1;+0.68;+1.45;Matches
+317;Rowen Koot\Rowen-Koot;nl NED;GK;Fortuna Sittard;20;1999;0;;;;;0;;0;;25;;;;;;;Matches
+318;Alexei Koșelev\Alexei-Koselev;md MDA;GK;Fortuna Sittard;25;1993;26;2340;90;100.0;26.0;26;90;0;;0;1.00;29;52;-23;-0.88;;Matches
+319;Dominik Kotarski\Dominik-Kotarski;hr CRO;GK;Ajax;19;2000;0;;;;;0;;0;;14;;;;;;;Matches
+320;Joris Kramer\Joris-Kramer;nl NED;DF;AZ Alkmaar;22;1996;1;27;27;1.3;0.3;0;;1;27;21;1.00;0;0;0;0.00;-1.39;Matches
+321;Michiel Kramer\Michiel-Kramer;nl NED;FW;ADO Den Haag;30;1988;13;678;52;30.1;7.5;7;80;6;20;11;0.54;5;13;-8;-1.06;-0.09;Matches
+322;Nick Kuipers\Nick-Kuipers;nl NED;DF;ADO Den Haag;26;1992;1;22;22;1.0;0.2;0;;1;22;0;0.00;0;0;0;0.00;+1.01;Matches
+323;Christian Kum\Christian-Kum;nl NED;DF;VVV-Venlo;33;1985;19;1595;84;70.9;17.7;18;86;1;45;3;1.32;17;22;-5;-0.28;+2.33;Matches
+324;Zakaria Labyad\Zakaria-Labyad;ma MAR;FW;Ajax;26;1993;2;149;75;6.9;1.7;2;75;0;;8;3.00;7;0;+7;+4.23;+2.62;Matches
+325;Darryl Lachman\Darryl-Lachman;cw CUW;DF;Zwolle;29;1989;13;1084;83;46.3;12.0;12;90;1;4;3;0.92;15;29;-14;-1.16;-0.88;Matches
+326;Thomas Lam\Thomas-Lam;fi FIN;DF;Zwolle;25;1993;14;1231;88;52.6;13.7;14;88;0;;2;0.93;20;29;-9;-0.66;+0.07;Matches
+327;Sam Lammers\Sam-Lammers;nl NED;FW;PSV Eindhoven;22;1997;6;463;77;20.6;5.1;6;77;0;;0;1.83;8;3;+5;+0.97;-0.04;Matches
+328;Kostas Lamprou\Kostas-Lamprou;gr GRE;GK;Vitesse;27;1991;0;;;;;0;;0;;25;;;;;;;Matches
+329;Chardi Landu\Chardi-Landu;;FW;Zwolle;;;0;;;;;0;;0;;1;;;;;;;Matches
+330;Noa Lang\Noa-Lang;nl NED;MFFW;Ajax;20;1999;5;210;42;9.7;2.3;2;70;3;24;4;2.40;6;4;+2;+0.86;-1.04;Matches
+331;Noa Lang\Noa-Lang;nl NED;FW;Twente;20;1999;6;516;86;22.9;5.7;6;86;0;;0;1.17;7;8;-1;-0.17;+0.34;Matches
+332;Sam Larsson\Sam-Larsson;se SWE;FW;Feyenoord;26;1993;21;954;45;44.2;10.6;9;76;12;22;1;2.00;25;18;+7;+0.66;+0.21;Matches
+333;Joël Latibeaudière\Joel-Latibeaudiere;eng ENG;DF;Twente;19;2000;5;441;88;19.6;4.9;5;88;0;;13;1.20;7;8;-1;-0.20;+0.29;Matches
+334;Toni Lato\Toni-Lato;es ESP;DF;PSV Eindhoven;21;1997;0;;;;;0;;0;;15;;;;;;;Matches
+335;Alexander Laukart\Alexander-Laukart;de GER;MF;Twente;20;1998;0;;;;;0;;0;;2;;;;;;;Matches
+336;Nikolai Laursen\Nikolai-Laursen;dk DEN;MFFW;Emmen;21;1998;17;1303;77;57.9;14.5;15;84;2;23;4;1.00;12;29;-17;-1.17;-1.27;Matches
+337;Richard Ledezma\Richard-Ledezma;us USA;MF;PSV Eindhoven;18;2000;0;;;;;0;;0;;1;;;;;;;Matches
+338;Brend Leeflang\Brend-Leeflang;;DF;Vitesse;;;0;;;;;0;;0;;4;;;;;;;Matches
+339;Clint Leemans\Clint-Leemans;nl NED;MF;RKC Waalwijk;23;1995;20;1746;87;77.6;19.4;20;87;0;;0;0.70;20;38;-18;-0.93;+1.39;Matches
+340;Clint Leemans\Clint-Leemans;nl NED;DFMF;Zwolle;23;1995;1;59;59;2.5;0.7;0;;1;59;2;0.00;1;3;-2;-3.05;-2.42;Matches
+341;Niels Leemhuis\Niels-Leemhuis;nl NED;MF;Heracles Almelo;21;1997;0;;;;;0;;0;;5;;;;;;;Matches
+342;Michael de Leeuw\Michael-de-Leeuw;nl NED;FWMF;Emmen;32;1986;25;2235;89;99.3;24.8;25;89;0;;0;1.16;29;44;-15;-0.60;+5.40;Matches
+343;Ramon Leeuwin\Ramon-Leeuwin;nl NED;DF;AZ Alkmaar;31;1987;4;274;69;12.7;3.0;3;90;1;4;2;2.25;4;2;+2;+0.66;-0.82;Matches
+344;Julian Lelieveld\Julian-Lelieveld;nl NED;DF;Vitesse;21;1997;16;1231;77;54.7;13.7;14;86;2;15;8;1.38;20;19;+1;+0.07;-0.63;Matches
+345;Fernando Lewis\Fernando-Lewis;nl NED;DF;Willem II;26;1993;3;270;90;12.0;3.0;3;90;0;;0;2.00;6;5;+1;+0.33;+0.15;Matches
+346;Bryan Linssen\Bryan-Linssen;nl NED;FWMF;Vitesse;28;1990;24;2038;85;90.6;22.6;24;85;0;;0;1.58;41;30;+11;+0.49;+1.33;Matches
+347;Evert Linthorst\Evert-Linthorst;nl NED;MF;VVV-Venlo;19;2000;18;1379;77;61.3;15.3;17;81;1;8;3;0.94;15;31;-16;-1.04;-0.22;Matches
+348;Kenny Lipman\Kenny-Lipman;nl NED;GK;Sparta R'dam;20;1999;0;;;;;0;;0;;5;;;;;;;Matches
+349;Pol Llonch\Pol-Llonch;es ESP;MF;Willem II;26;1992;23;2007;87;89.2;22.3;23;87;0;;0;1.74;34;28;+6;+0.27;+0.64;Matches
+350;Justin Lonwijk\Justin-Lonwijk;nl NED;FW;Utrecht;19;1999;1;38;38;1.8;0.4;1;38;0;;10;3.00;1;2;-1;-2.37;-2.92;Matches
+351;Tom van de Looi\Tom-van-de-Looi;nl NED;MF;Groningen;20;1999;0;;;;;0;;0;;2;;;;;;;Matches
+352;Hirving Lozano\Hirving-Lozano;mx MEX;FW;PSV Eindhoven;24;1995;1;50;50;2.2;0.6;1;50;0;;1;3.00;1;1;0;0.00;-1.02;Matches
+353;Derrick Luckassen\Derrick-Luckassen;nl NED;DFMF;PSV Eindhoven;24;1995;0;;;;;0;;0;;1;;;;;;;Matches
+354;Ramon Lundqvist\Ramon-Lundqvist;se SWE;MF;Groningen;22;1997;19;1259;66;56.0;14.0;16;77;3;9;1;1.16;13;10;+3;+0.21;+0.31;Matches
+355;Issam El Maach\Issam-El-Maach;ma MAR;GK;Ajax;19;2000;0;;;;;0;;0;;1;;;;;;;Matches
+356;Darren Maatsen\Darren-Maatsen;nl NED;FW;RKC Waalwijk;28;1991;18;1113;62;49.5;12.4;13;78;5;20;5;0.67;12;28;-16;-1.29;-0.11;Matches
+357;Eros Maddy\Eros-Maddy;nl NED;FW;Utrecht;18;2001;0;;;;;0;;0;;1;;;;;;;Matches
+358;Chukwunonso Madueke\Chukwunonso-Madueke;eng ENG;MF;PSV Eindhoven;17;2002;3;38;13;1.7;0.4;0;;3;13;5;1.33;2;0;+2;+4.74;+3.80;Matches
+359;Lisandro Magallán\Lisandro-Magallan;ar ARG;DF;Ajax;25;1993;0;;;;;0;;0;;4;;;;;;;Matches
+360;Adam Maher\Adam-Maher;nl NED;MF;Utrecht;26;1993;22;1836;83;85.0;20.4;21;86;1;29;0;1.55;36;28;+8;+0.39;-0.72;Matches
+361;Simon Makienok\Simon-Makienok;dk DEN;FW;Utrecht;28;1990;3;49;16;2.3;0.5;0;;3;16;6;1.00;1;0;+1;+1.84;+1.37;Matches
+362;Tyrell Malacia\Tyrell-Malacia;nl NED;DF;Feyenoord;19;1999;11;990;90;45.8;11.0;11;90;0;;13;2.45;23;11;+12;+1.09;+1.01;Matches
+363;Donyell Malen\Donyell-Malen;nl NED;FW;PSV Eindhoven;20;1999;14;1191;85;52.9;13.2;14;85;0;;0;2.14;33;12;+21;+1.59;+1.25;Matches
+364;Dion Malone\Dion-Malone;nl NED;DFMF;ADO Den Haag;30;1989;20;1534;77;68.2;17.0;17;85;3;27;1;0.85;13;33;-20;-1.17;-0.54;Matches
+365;Răzvan Marin\Razvan-Marin;ro ROU;MF;Ajax;23;1996;10;503;50;23.3;5.6;5;84;5;16;14;2.50;19;5;+14;+2.50;+0.93;Matches
+366;Wouter Marinus\Wouter-Marinus;nl NED;MF;Emmen;24;1995;3;33;11;1.5;0.4;0;;3;11;7;0.33;0;2;-2;-5.45;-4.89;Matches
+367;Nick Marsman\Nick-Marsman;nl NED;GK;Feyenoord;28;1990;2;180;90;8.3;2.0;2;90;0;;21;2.00;1;0;+1;+0.50;-0.05;Matches
+368;Lisandro Martínez\Lisandro-Martinez;ar ARG;MFDF;Ajax;21;1998;23;1942;84;89.9;21.6;23;84;0;;1;2.17;58;18;+40;+1.85;+0.62;Matches
+369;Tim Matavž\Tim-Matavz;si SVN;FW;Vitesse;30;1989;24;1961;82;87.2;21.8;23;83;1;45;0;1.54;42;29;+13;+0.60;+1.84;Matches
+370;Jose Matos\Jose-Matos;es ESP;DF;Twente;24;1995;2;180;90;8.0;2.0;2;90;0;;0;2.00;4;2;+2;+1.00;+1.57;Matches
+371;Jurgen Mattheij\Jurgen-Mattheij;nl NED;DF;Sparta R'dam;26;1993;25;2250;90;100.0;25.0;25;90;0;;0;1.32;40;40;0;0.00;;Matches
+372;Azor Matusiwa\Azor-Matusiwa;nl NED;MF;Groningen;21;1998;23;2050;89;91.1;22.8;23;89;0;;2;1.48;24;22;+2;+0.09;+0.09;Matches
+373;Noussair Mazraoui\Noussair-Mazraoui;ma MAR;DF;Ajax;21;1997;13;744;57;34.4;8.3;9;74;4;21;4;2.38;21;7;+14;+1.69;-0.15;Matches
+374;James McGarry\James-McGarry;nz NZL;MF;Willem II;21;1998;1;6;6;0.3;0.1;0;;1;6;19;3.00;0;0;0;0.00;-0.20;Matches
+375;Aaron Meijers\Aaron-Meijers;nl NED;DFMF;ADO Den Haag;31;1987;25;2030;81;90.2;22.6;22;89;3;26;0;0.76;23;44;-21;-0.93;+0.71;Matches
+376;Samir Memišević\Samir-Memisevic;ba BIH;DFMF;Groningen;25;1993;11;637;58;28.3;7.1;6;90;5;19;5;1.64;4;6;-2;-0.28;-0.51;Matches
+377;Queensy Menig\Queensy-Menig;nl NED;FW;Twente;23;1995;10;373;37;16.6;4.1;3;87;7;16;8;1.00;7;6;+1;+0.24;+0.82;Matches
+378;Alexander Merkel\Alexander-Merkel;kz KAZ;MF;Heracles Almelo;27;1992;24;2111;88;93.8;23.5;24;88;0;;0;1.38;35;29;+6;+0.26;+1.55;Matches
+379;Ahmed El Messaoudi\Ahmed-El-Messaoudi;ma MAR;MF;Groningen;23;1995;19;1284;68;57.1;14.3;14;87;5;14;4;1.42;16;15;+1;+0.07;-0.02;Matches
+380;Mike van de Meulenhof\Mike-van-de-Meulenhof;nl NED;GK;PSV Eindhoven;20;1999;0;;;;;0;;0;;5;;;;;;;Matches
+381;Melle Meulensteen\Melle-Meulensteen;nl NED;DF;RKC Waalwijk;20;1999;13;964;74;42.8;10.7;10;90;3;21;12;0.54;11;29;-18;-1.68;-0.77;Matches
+382;Fredrik Midtsjø\Fredrik-Midtsjo;no NOR;MF;AZ Alkmaar;25;1993;22;1859;85;86.1;20.7;21;88;1;8;0;2.27;47;15;+32;+1.55;+1.25;Matches
+383;Nemanja Mihajlović\Nemanja-Mihajlovic;rs SRB;FW;Heerenveen;23;1996;0;;;;;0;;0;;3;;;;;;;Matches
+384;Sven Mijnans\Sven-Mijnans;nl NED;MF;Sparta R'dam;19;2000;0;;;;;0;;0;;1;;;;;;;Matches
+385;Killian van Mil\Killian-van-Mil;nl NED;FW;ADO Den Haag;19;1999;0;;;;;0;;0;;1;;;;;;;Matches
+386;Kostas Mitroglou\Kostas-Mitroglou;gr GRE;FW;PSV Eindhoven;31;1988;12;256;21;11.4;2.8;0;;12;21;6;1.33;10;6;+4;+1.41;+0.46;Matches
+387;Sylian Mokono\Sylian-Mokono;nl NED;DF;Utrecht;20;1999;0;;;;;0;;0;;1;;;;;;;Matches
+388;Xavier Mous\Xavier-Mous;nl NED;GK;Zwolle;23;1995;13;1170;90;50.0;13.0;13;90;0;;13;0.77;19;32;-13;-1.00;-0.62;Matches
+389;Hans Mulder\Hans-Mulder;nl NED;DF;RKC Waalwijk;32;1987;18;1269;71;56.4;14.1;15;82;3;11;5;0.67;15;27;-12;-0.85;+0.89;Matches
+390;Dehninio Muringen\Dehninio-Muringen;nl NED;DF;ADO Den Haag;20;1999;1;55;55;2.4;0.6;1;55;0;;10;1.00;1;3;-2;-3.27;-2.33;Matches
+391;Charly Musonda Jr.\Charly-Musonda-Jr;be BEL;MF;Vitesse;22;1996;3;65;22;2.9;0.7;0;;3;22;0;2.33;3;0;+3;+4.15;+3.91;Matches
+392;Keito Nakamura\Keito-Nakamura;jp JPN;FW;Twente;19;2000;16;852;53;37.9;9.5;13;65;3;4;8;0.88;12;15;-3;-0.32;+0.20;Matches
+393;Yuta Nakayama\Yuta-Nakayama;jp JPN;DFMF;Zwolle;22;1997;14;1145;82;48.9;12.7;13;87;1;20;7;0.93;17;29;-12;-0.94;-0.49;Matches
+394;Luciano Narsingh\Luciano-Narsingh;nl NED;FW;Feyenoord;28;1990;14;631;45;29.2;7.0;6;82;8;17;8;1.36;11;16;-5;-0.71;-1.77;Matches
+395;Mike Ndayishimye\Mike-Ndayishimye;be BEL;MF;Willem II;20;1999;19;1429;75;63.5;15.9;15;88;4;28;0;1.68;23;23;0;0.00;-0.55;Matches
+396;Tomáš Necid\Tomas-Necid;cz CZE;FW;ADO Den Haag;29;1989;20;1233;62;54.8;13.7;14;81;6;16;5;0.85;17;31;-14;-1.02;-0.05;Matches
+397;Miquel Nelom\Miquel-Nelom;nl NED;DF;Willem II;28;1990;15;1042;69;46.3;11.6;12;79;3;33;0;1.53;16;17;-1;-0.09;-0.53;Matches
+398;David Neres\David-Neres;br BRA;FWMF;Ajax;22;1997;12;635;53;29.4;7.1;7;73;5;25;0;2.67;24;4;+20;+2.83;+1.48;Matches
+399;Richard Neudecker\Richard-Neudecker;de GER;MF;VVV-Venlo;22;1996;16;1002;63;44.5;11.1;12;82;4;4;7;0.81;12;31;-19;-1.71;-1.35;Matches
+400;Cyril Ngonge\Cyril-Ngonge;be BEL;FW;PSV Eindhoven;19;2000;0;;;;;0;;0;;2;;;;;;;Matches
+401;Bart Nieuwkoop\Bart-Nieuwkoop;nl NED;DFMF;Willem II;23;1996;16;949;59;42.2;10.5;10;81;6;23;0;1.75;17;15;+2;+0.19;-0.02;Matches
+402;Lars Nieuwpoort\Lars-Nieuwpoort;nl NED;DF;RKC Waalwijk;24;1994;3;222;74;9.9;2.5;2;88;1;47;17;0.00;3;9;-6;-2.43;-1.32;Matches
+403;Thijmen Nijhuis\Thijmen-Nijhuis;nl NED;GK;Utrecht;21;1998;0;;;;;0;;0;;3;;;;;;;Matches
+404;Branislav Niňaj\Branislav-Ninaj;sk SVK;DF;Fortuna Sittard;25;1994;24;2130;89;91.0;23.7;24;89;0;;0;1.08;25;46;-21;-0.89;-0.03;Matches
+405;Nando Nöstlinger\Nando-Nostlinger;be BEL;MF;RKC Waalwijk;21;1998;0;;;;;0;;0;;2;;;;;;;Matches
+406;Ché Nunnely\Che-Nunnely;nl NED;FW;Willem II;20;1999;24;1946;81;86.5;21.6;24;81;0;;1;1.83;32;27;+5;+0.23;+0.23;Matches
+407;Armando Obispo\Armando-Obispo;nl NED;DF;Vitesse;20;1999;25;2247;90;99.9;25.0;25;90;0;;0;1.52;44;35;+9;+0.36;+0.36;Matches
+408;Jens Odgaard\Jens-Odgaard;dk DEN;FW;Heerenveen;20;1999;23;1846;80;82.0;20.5;22;83;1;12;0;1.39;31;30;+1;+0.05;-0.17;Matches
+409;Justin Ogenia\Justin-Ogenia;cw CUW;FW;Willem II;20;1999;1;18;18;0.8;0.2;0;;1;18;3;0.00;0;1;-1;-5.00;-5.24;Matches
+410;André Onana\Andre-Onana;cm CMR;GK;Ajax;23;1996;23;2070;90;95.8;23.0;23;90;0;;0;2.30;64;20;+44;+1.91;+2.91;Matches
+411;Peter van Ooijen\Peter-van-Ooijen;nl NED;MFFW;VVV-Venlo;27;1992;22;1728;79;76.8;19.2;21;82;1;12;1;1.09;19;41;-22;-1.15;-0.80;Matches
+412;Johnatan Opoku\Johnatan-Opoku;nl NED;FWMF;VVV-Venlo;29;1990;18;1234;69;54.8;13.7;13;86;5;24;2;1.22;16;17;-1;-0.07;+1.96;Matches
+413;Yanick van Osch\Yanick-van-Osch;nl NED;GK;PSV Eindhoven;22;1997;0;;;;;0;;0;;3;;;;;;;Matches
+414;Mohammed Osman\Mohammed-Osman;sy SYR;MF;Heracles Almelo;25;1994;13;931;72;41.4;10.3;10;84;3;32;1;1.00;11;12;-1;-0.10;-0.44;Matches
+415;Yassin Oukili\Yassin-Oukili;;MF;Vitesse;;;2;18;9;0.8;0.2;0;;2;9;3;3.00;0;0;0;0.00;-0.36;Matches
+416;Bilal Ould-Chikh\Bilal-Ould-Chikh;ma MAR;FW;ADO Den Haag;22;1997;12;354;30;15.7;3.9;3;58;9;20;8;0.83;4;11;-7;-1.78;-0.93;Matches
+417;Thomas Ouwejan\Thomas-Ouwejan;nl NED;MFDF;AZ Alkmaar;22;1996;10;438;44;20.3;4.9;4;87;6;15;13;2.80;9;1;+8;+1.64;+0.34;Matches
+418;Joris van Overeem\Joris-van-Overeem;nl NED;MF;Utrecht;25;1994;13;935;72;43.3;10.4;10;85;3;28;0;1.54;19;19;0;0.00;-0.88;Matches
+419;Oğuzhan Özyakup\Oguzhan-Ozyakup;tr TUR;MF;Feyenoord;26;1992;1;63;63;2.9;0.7;1;63;0;;1;3.00;1;0;+1;+1.43;+0.91;Matches
+420;Kenneth Paal\Kenneth-Paal;nl NED;DF;Zwolle;22;1997;19;1660;87;70.9;18.4;19;87;0;;0;1.05;31;42;-11;-0.60;+0.33;Matches
+421;Mark Pabei\Mark-Pabei;nl NED;DF;Utrecht;18;2000;0;;;;;0;;0;;3;;;;;;;Matches
+422;Tobias Pachonik\Tobias-Pachonik;de GER;DF;VVV-Venlo;24;1995;25;2224;89;98.8;24.7;25;89;0;;0;1.12;23;48;-25;-1.01;-4.47;Matches
+423;Sergio Padt\Sergio-Padt;nl NED;GK;Groningen;29;1990;25;2250;90;100.0;25.0;25;90;0;;0;1.40;27;25;+2;+0.08;;Matches
+424;Maarten Paes\Maarten-Paes;nl NED;GK;Utrecht;21;1998;18;1620;90;75.0;18.0;18;90;0;;0;1.61;33;25;+8;+0.44;-0.22;Matches
+425;Felix Passlack\Felix-Passlack;de GER;MFDF;Fortuna Sittard;21;1998;25;2177;87;93.0;24.2;25;87;0;;0;1.00;29;48;-19;-0.79;+1.42;Matches
+426;Remko Pasveer\Remko-Pasveer;nl NED;GK;Vitesse;35;1983;25;2250;90;100.0;25.0;25;90;0;;0;1.52;44;35;+9;+0.36;;Matches
+427;Vangelis Pavlidis\Vangelis-Pavlidis;gr GRE;FW;Willem II;20;1998;24;2088;87;92.8;23.2;24;87;0;;0;1.83;37;29;+8;+0.34;+2.01;Matches
+428;Desevio Payne\Desevio-Payne;us USA;DF;Emmen;23;1995;2;56;28;2.5;0.6;0;;2;28;3;1.50;0;1;-1;-1.61;-0.99;Matches
+429;Sergio Peña\Sergio-Pena;pe PER;MF;Emmen;23;1995;22;1871;85;83.2;20.8;21;88;1;14;0;1.18;25;36;-11;-0.53;+0.66;Matches
+430;Gastón Pereiro\Gaston-Pereiro;uy URU;MF;PSV Eindhoven;24;1995;4;102;26;4.5;1.1;1;62;3;13;7;1.00;2;1;+1;+0.88;-0.12;Matches
+431;Jordens Peters\Jordens-Peters;nl NED;DF;Willem II;32;1987;25;2248;90;99.9;25.0;25;90;0;;0;1.76;36;32;+4;+0.16;-44.84;Matches
+432;Kristoffer Peterson\Kristoffer-Peterson;se SWE;FW;Utrecht;24;1994;5;352;70;16.3;3.9;5;70;0;;0;1.60;5;1;+4;+1.02;+0.62;Matches
+433;Kik Pierie\Kik-Pierie;nl NED;DF;Ajax;19;2000;0;;;;;0;;0;;3;;;;;;;Matches
+434;Shaquille Pinas\Shaquille-Pinas;nl NED;DFMF;ADO Den Haag;21;1998;25;2236;89;99.4;24.8;25;89;0;;0;0.76;24;50;-26;-1.05;-7.48;Matches
+435;Michael Pinto\Michael-Pinto;pt POR;DF;Fortuna Sittard;26;1993;7;577;82;24.7;6.4;7;82;0;;1;0.43;5;17;-12;-1.87;-1.31;Matches
+436;Michael Pinto\Michael-Pinto;pt POR;DF;Sparta R'dam;26;1993;3;189;63;8.4;2.1;2;90;1;9;3;0.33;1;3;-2;-0.95;-1.04;Matches
+437;Joël Piroe\Joel-Piroe;nl NED;FW;PSV Eindhoven;19;1999;0;;;;;0;;0;;1;;;;;;;Matches
+438;Joël Piroe\Joel-Piroe;nl NED;FW;Sparta R'dam;19;1999;17;338;20;15.0;3.8;1;90;16;16;5;1.24;5;6;-1;-0.27;-0.31;Matches
+439;Julio Pleguezuelo\Julio-Pleguezuelo;es ESP;DF;Twente;22;1997;18;1418;79;63.0;15.8;15;90;3;25;4;1.17;24;27;-3;-0.19;+0.67;Matches
+440;Bram van Polen\Bram-van-Polen;nl NED;DF;Zwolle;33;1985;8;630;79;26.9;7.0;7;87;1;18;2;1.50;11;10;+1;+0.14;+1.14;Matches
+441;Thomas Poll\Thomas-Poll;nl NED;DF;Groningen;18;2001;1;90;90;4.0;1.0;1;90;0;;6;0.00;1;3;-2;-2.00;-2.17;Matches
+442;Robin Polley\Robin-Polley;gh GHA;DF;ADO Den Haag;20;1998;2;100;50;4.4;1.1;1;90;1;10;11;1.50;1;3;-2;-1.80;-0.84;Matches
+443;Danny Post\Danny-Post;nl NED;MF;VVV-Venlo;30;1989;19;1615;85;71.8;17.9;18;88;1;33;0;1.11;15;33;-18;-1.00;-0.15;Matches
+444;Romano Postema\Romano-Postema;nl NED;FW;Groningen;17;2002;10;253;25;11.2;2.8;2;69;8;14;6;1.30;3;4;-1;-0.36;-0.49;Matches
+445;Quincy Promes\Quincy-Promes;nl NED;FWMF;Ajax;27;1992;19;1405;74;65.0;15.6;17;80;2;26;0;2.47;43;14;+29;+1.86;+0.19;Matches
+446;Robin Pröpper\Robin-Propper;nl NED;DF;Heracles Almelo;25;1993;18;1536;85;68.3;17.1;18;85;0;;0;1.56;30;20;+10;+0.59;+1.34;Matches
+447;Giacomo Quagliata\Giacomo-Quagliata;it ITA;DF;Heracles Almelo;19;2000;0;;;;;0;;0;;1;;;;;;;Matches
+448;Paul Quasten\Paul-Quasten;cz CZE;DF;RKC Waalwijk;34;1985;12;887;74;39.4;9.9;10;84;2;23;2;0.67;7;21;-14;-1.42;-0.30;Matches
+449;João Queirós\Joao-Queiros;pt POR;DF;Willem II;21;1998;0;;;;;0;;0;;16;;;;;;;Matches
+450;Johnny Quiñónez\Johnny-Quinonez;ec ECU;MF;Willem II;21;1998;5;102;20;4.5;1.1;0;;5;20;8;1.40;0;3;-3;-2.65;-2.98;Matches
+451;Freddy Quispel\Freddy-Quispel;nl NED;FW;Emmen;;;3;27;9;1.2;0.3;0;;3;9;14;1.00;0;0;0;0.00;+0.65;Matches
+452;Patrik Raitanen\Patrik-Raitanen;fi FIN;DF;Fortuna Sittard;18;2001;2;29;15;1.2;0.3;0;;2;15;8;2.00;0;0;0;0.00;+0.90;Matches
+453;Bart Ramselaar\Bart-Ramselaar;nl NED;MF;PSV Eindhoven;23;1996;0;;;;;0;;0;;2;;;;;;;Matches
+454;Bart Ramselaar\Bart-Ramselaar;nl NED;MF;Utrecht;23;1996;15;971;65;45.0;10.8;11;79;4;25;2;1.80;21;15;+6;+0.56;+0.10;Matches
+455;Jan Ras\Jan-Ras;nl NED;MF;Heerenveen;20;1999;3;45;15;2.0;0.5;0;;3;15;1;0.67;1;0;+1;+2.00;+1.96;Matches
+456;Mohamed Rayhi\Mohamed-Rayhi;nl NED;MFFW;Sparta R'dam;25;1994;24;1876;78;83.4;20.8;23;81;1;13;0;1.25;31;36;-5;-0.24;-1.44;Matches
+457;Daishawn Redan\Daishawn-Redan;nl NED;FW;Groningen;18;2001;4;268;67;11.9;3.0;3;75;1;42;0;1.50;2;3;-1;-0.34;-0.47;Matches
+458;Eliano Reijnders\Eliano-Reijnders;nl NED;MF;Zwolle;;;0;;;;;0;;0;;1;;;;;;;Matches
+459;Tijjani Reijnders\Tijjani-Reijnders;nl NED;MF;RKC Waalwijk;21;1998;7;452;65;20.1;5.0;4;90;3;31;0;0.57;3;9;-6;-1.19;+0.06;Matches
+460;Tijjani Reijnders\Tijjani-Reijnders;nl NED;MF;AZ Alkmaar;21;1998;3;38;13;1.8;0.4;0;;3;13;15;3.00;1;0;+1;+2.37;+1.01;Matches
+461;Etiënne Reijnen\Etienne-Reijnen;nl NED;DF;Zwolle;32;1987;4;264;66;11.3;2.9;3;88;1;0;9;0.75;2;9;-7;-2.39;-1.91;Matches
+462;Ricardo van Rhijn\Ricardo-van-Rhijn;nl NED;DF;Heerenveen;28;1991;18;1384;77;61.5;15.4;15;87;3;26;7;1.33;25;25;0;0.00;-0.21;Matches
+463;Maarten Rieder\Maarten-Rieder;nl NED;MF;ADO Den Haag;19;1999;0;;;;;0;;0;;2;;;;;;;Matches
+464;Ben Rienstra\Ben-Rienstra;nl NED;MF;Heerenveen;29;1990;1;74;74;3.3;0.8;1;74;0;;0;3.00;3;0;+3;+3.65;+3.69;Matches
+465;Daan Rienstra\Daan-Rienstra;nl NED;MF;RKC Waalwijk;26;1992;21;1671;80;74.3;18.6;20;83;1;15;3;0.52;18;45;-27;-1.45;-0.83;Matches
+466;Dante Rigo\Dante-Rigo;be BEL;MFFW;Sparta R'dam;20;1998;15;822;55;36.5;9.1;10;78;5;8;9;1.33;11;20;-9;-0.99;-1.55;Matches
+467;Ricardo Rodríguez\Ricardo-Rodriguez;ch SUI;DF;PSV Eindhoven;26;1992;5;380;76;16.9;4.2;4;90;1;20;0;2.00;9;2;+7;+1.66;+0.79;Matches
+468;Yahcuroo Roemer\Yahcuroo-Roemer;nl NED;FW;VVV-Venlo;18;2001;0;;;;;0;;0;;6;;;;;;;Matches
+469;Godfried Roemeratoe\Godfried-Roemeratoe;nl NED;MF;Twente;19;1999;15;1119;75;49.7;12.4;12;87;3;26;8;1.07;17;20;-3;-0.24;+0.40;Matches
+470;Danté Roethof\Dante-Roethof;nl NED;DF;ADO Den Haag;18;2001;0;;;;;0;;0;;1;;;;;;;Matches
+471;Mitchell van Rooijen\Mitchell-van-Rooijen;nl NED;MF;Utrecht;20;1998;1;66;66;3.1;0.7;1;66;0;;0;1.00;1;2;-1;-1.36;-1.92;Matches
+472;Ruben Roosken\Ruben-Roosken;nl NED;DF;Emmen;;;3;45;15;2.0;0.5;0;;3;15;15;0.33;0;2;-2;-4.00;-3.43;Matches
+473;Pablo Rosario\Pablo-Rosario;nl NED;MF;PSV Eindhoven;22;1997;25;2165;87;96.2;24.1;25;87;0;;0;1.84;48;27;+21;+0.87;-3.36;Matches
+474;Nils Röseler\Nils-Roseler;de GER;DF;VVV-Venlo;27;1992;24;2104;88;93.5;23.4;24;88;0;;0;1.04;21;43;-22;-0.94;+0.29;Matches
+475;Maximilian Rossmann\Maximilian-Rossmann;de GER;DF;Heracles Almelo;24;1995;7;299;43;13.3;3.3;4;59;3;21;12;1.14;2;7;-5;-1.51;-1.92;Matches
+476;Llazaros Rota\Llazaros-Rota;al ALB;DF;Fortuna Sittard;21;1997;5;413;83;17.6;4.6;4;90;1;53;0;0.60;2;4;-2;-0.44;+0.54;Matches
+477;Youri Roulaux\Youri-Roulaux;nl NED;GK;PSV Eindhoven;20;1999;0;;;;;0;;0;;2;;;;;;;Matches
+478;Robbin Ruiter\Robbin-Ruiter;nl NED;GK;PSV Eindhoven;32;1987;1;90;90;4.0;1.0;1;90;0;;24;3.00;4;1;+3;+3.00;+2.08;Matches
+479;Dylan Ryan\Dylan-Ryan;au AUS;DF;Willem II;19;2000;0;;;;;0;;0;;13;;;;;;;Matches
+480;Dries Saddiki\Dries-Saddiki;nl NED;MF;Willem II;22;1996;24;2037;85;90.5;22.6;24;85;0;;0;1.71;35;26;+9;+0.40;+2.09;Matches
+481;Michal Sadílek\Michal-Sadilek;cz CZE;DF;PSV Eindhoven;20;1999;14;1101;79;48.9;12.2;13;85;1;2;3;1.79;25;16;+9;+0.74;-0.52;Matches
+482;Görkem Sağlam\Gorkem-Saglam;de GER;MF;Willem II;21;1998;2;92;46;4.1;1.0;1;90;1;2;4;2.00;4;1;+3;+2.93;+2.85;Matches
+483;Trent Sainsbury\Trent-Sainsbury;au AUS;DF;PSV Eindhoven;27;1992;1;90;90;4.0;1.0;1;90;0;;0;1.00;1;1;0;0.00;-1.04;Matches
+484;Bassala Sambou\Bassala-Sambou;eng ENG;FW;Fortuna Sittard;21;1997;22;1199;55;51.2;13.3;12;81;10;23;1;0.95;17;26;-9;-0.68;+0.43;Matches
+485;Lamine Sané\Lamine-Sane;sn SEN;DFMF;Utrecht;32;1987;1;1;1;0.0;0.0;0;;1;1;2;1.00;0;1;-1;-90.00;-90.54;Matches
+486;Mustafa Saymak\Mustafa-Saymak;nl NED;MFFW;Zwolle;26;1993;15;852;57;36.4;9.5;12;65;3;26;1;1.20;15;19;-4;-0.42;+0.42;Matches
+487;Steffen Schäfer\Steffen-Schafer;de GER;DF;VVV-Venlo;25;1994;9;677;75;30.1;7.5;8;84;1;2;15;0.67;6;27;-21;-2.79;-2.62;Matches
+488;Samuel Scheimann\Samuel-Scheimann;il ISR;DF;VVV-Venlo;31;1987;8;316;40;14.0;3.5;3;90;5;9;11;1.13;4;9;-5;-1.42;-0.54;Matches
+489;Jasper Schendelaar\Jasper-Schendelaar;nl NED;GK;AZ Alkmaar;18;2000;0;;;;;0;;0;;24;;;;;;;Matches
+490;Xandro Schenk\Xandro-Schenk;nl NED;DF;Twente;26;1993;22;1900;86;84.4;21.1;22;86;0;;3;1.09;28;36;-8;-0.38;+0.39;Matches
+491;Kjell Scherpen\Kjell-Scherpen;nl NED;GK;Ajax;19;2000;0;;;;;0;;0;;10;;;;;;;Matches
+492;Lasse Schöne\Lasse-Schone;dk DEN;MF;Ajax;33;1986;0;;;;;0;;0;;1;;;;;;;Matches
+493;Lucas Schoofs\Lucas-Schoofs;be BEL;DF;Heracles Almelo;22;1997;1;90;90;4.0;1.0;1;90;0;;11;1.00;0;0;0;0.00;-0.17;Matches
+494;Youri Schoonderwaldt\Youri-Schoonderwaldt;nl NED;GK;ADO Den Haag;19;2000;0;;;;;0;;0;;7;;;;;;;Matches
+495;Sam Schreck\Sam-Schreck;de GER;MF;Groningen;20;1999;12;409;34;18.2;4.5;5;74;7;5;13;1.50;3;5;-2;-0.44;-0.64;Matches
+496;Perr Schuurs\Perr-Schuurs;nl NED;DF;Ajax;19;1999;10;732;73;33.9;8.1;7;90;3;34;13;1.90;17;10;+7;+0.86;-1.41;Matches
+497;Daniel Schwaab\Daniel-Schwaab;de GER;DF;PSV Eindhoven;30;1988;17;1432;84;63.6;15.9;16;89;1;4;6;1.71;31;20;+11;+0.69;-0.85;Matches
+498;Lindon Selahi\Lindon-Selahi;al ALB;MF;Twente;20;1999;24;1784;74;79.3;19.8;22;80;2;17;0;1.00;24;35;-11;-0.55;-0.55;Matches
+499;Marcos Senesi\Marcos-Senesi;ar ARG;DF;Feyenoord;22;1997;15;1305;87;60.4;14.5;14;90;1;45;5;2.13;28;19;+9;+0.62;+0.20;Matches
+500;Thulani Serero\Thulani-Serero;za RSA;MF;Vitesse;29;1990;3;216;72;9.6;2.4;2;85;1;47;0;2.33;7;2;+5;+2.08;+1.91;Matches
+501;Dylan Seys\Dylan-Seys;be BEL;FW;RKC Waalwijk;22;1996;3;60;20;2.7;0.7;0;;3;20;1;0.00;0;2;-2;-3.00;-1.81;Matches
+502;Kaj Sierhuis\Kaj-Sierhuis;nl NED;FW;Groningen;21;1998;16;1048;66;46.6;11.6;14;73;2;14;2;1.44;14;8;+6;+0.52;+0.81;Matches
+503;Jerome Sinclair\Jerome-Sinclair;eng ENG;FW;VVV-Venlo;22;1996;22;1040;47;46.2;11.6;10;80;12;20;3;1.14;11;17;-6;-0.52;+0.82;Matches
+504;Luis Sinisterra\Luis-Sinisterra;co COL;FW;Feyenoord;20;1999;21;1627;77;75.3;18.1;21;77;0;;0;2.00;34;23;+11;+0.61;+0.27;Matches
+505;Andreas Skovgaard\Andreas-Skovgaard;dk DEN;DF;Heerenveen;22;1997;0;;;;;0;;0;;21;;;;;;;Matches
+506;Luciano Slagveer\Luciano-Slagveer;nl NED;MFFW;Emmen;25;1993;9;530;59;23.6;5.9;7;72;2;14;5;1.22;9;11;-2;-0.34;+0.39;Matches
+507;Kian Slor\Kian-Slor;nl NED;FW;Groningen;17;2002;1;25;25;1.1;0.3;0;;1;25;6;0.00;0;0;0;0.00;-0.08;Matches
+508;Bryan Smeets\Bryan-Smeets;nl NED;FWMF;Sparta R'dam;26;1992;22;1776;81;78.9;19.7;20;87;2;21;0;1.45;32;30;+2;+0.10;+0.48;Matches
+509;Jorrit Smeets\Jorrit-Smeets;nl NED;MF;Fortuna Sittard;24;1995;23;1976;86;84.4;22.0;23;86;0;;0;0.96;24;47;-23;-1.05;-1.05;Matches
+510;Rein Smit\Rein-Smit;nl NED;FW;Heerenveen;18;2001;1;11;11;0.5;0.1;0;;1;11;5;1.00;0;0;0;0.00;-0.08;Matches
+511;Tapmahoe Sopacua\Tapmahoe-Sopacua;nl NED;DF;Groningen;19;2000;0;;;;;0;;0;;15;;;;;;;Matches
+512;Leon Sopic\Leon-Sopic;hr CRO;FW;Emmen;18;2000;1;2;2;0.1;0.0;0;;1;2;12;0.00;0;0;0;0.00;+0.64;Matches
+513;Elia Soriano\Elia-Soriano;it ITA;FW;VVV-Venlo;30;1989;16;1082;68;48.1;12.0;12;82;4;25;2;0.75;9;28;-19;-1.58;-1.20;Matches
+514;Sylla Sow\Sylla-Sow;nl NED;FW;RKC Waalwijk;22;1996;20;1239;62;55.1;13.8;14;79;6;22;5;0.70;17;26;-9;-0.65;+1.30;Matches
+515;Jordan Spence\Jordan-Spence;eng ENG;DF;ADO Den Haag;29;1990;3;249;83;11.1;2.8;2;86;1;78;3;0.67;2;4;-2;-0.72;+0.31;Matches
+516;Stijn Spierings\Stijn-Spierings;nl NED;MF;RKC Waalwijk;23;1996;17;1524;90;67.7;16.9;17;90;0;;0;0.59;21;42;-21;-1.24;0.00;Matches
+517;Sadik Spijodic\Sadik-Spijodic;nl NED;MF;Zwolle;22;1996;0;;;;;0;;0;;1;;;;;;;Matches
+518;Fabian Sporkslede\Fabian-Sporkslede;nl NED;DF;RKC Waalwijk;25;1993;6;540;90;24.0;6.0;6;90;0;;12;0.50;6;12;-6;-1.00;+0.32;Matches
+519;Tommy St. Jago\Tommy-St-Jago;nl NED;DF;Utrecht;19;2000;1;4;4;0.2;0.0;0;;1;4;8;3.00;0;0;0;0.00;-0.50;Matches
+520;Jerry St. Juste\Jerry-St-Juste;nl NED;DF;Feyenoord;22;1996;1;90;90;4.2;1.0;1;90;0;;0;1.00;2;2;0;0.00;-0.57;Matches
+521;Calvin Stengs\Calvin-Stengs;nl NED;FWMF;AZ Alkmaar;20;1998;24;2068;86;95.7;23.0;23;87;1;62;0;2.21;49;16;+33;+1.44;+1.44;Matches
+522;Sander van de Streek\Sander-van-de-Streek;nl NED;FWMF;Utrecht;26;1993;21;1680;80;77.8;18.7;20;83;1;21;0;1.76;37;26;+11;+0.59;+0.40;Matches
+523;Giorgos Strezos\Giorgos-Strezos;gr GRE;GK;Willem II;24;1995;0;;;;;0;;0;;18;;;;;;;Matches
+524;Rico Strieder\Rico-Strieder;de GER;MF;Zwolle;27;1992;6;465;78;19.9;5.2;6;78;0;;0;1.33;8;7;+1;+0.19;+1.11;Matches
+525;Rico Strieder\Rico-Strieder;de GER;MF;Utrecht;27;1992;5;160;32;7.4;1.8;2;59;3;14;12;1.60;1;3;-2;-1.13;-1.76;Matches
+526;Nicklas Strunck\Nicklas-Strunck;dk DEN;MF;Groningen;19;1999;0;;;;;0;;0;;17;;;;;;;Matches
+527;Sam Stubbs\Sam-Stubbs;eng ENG;DF;ADO Den Haag;20;1998;7;630;90;28.0;7.0;7;90;0;;0;0.86;6;13;-7;-1.00;0.00;Matches
+528;Yukinari Sugawara\Yukinari-Sugawara;jp JPN;FWDF;AZ Alkmaar;19;2000;16;638;40;29.5;7.1;5;82;11;21;8;2.19;14;2;+12;+1.69;+0.45;Matches
+529;Crysencio Summerville\Crysencio-Summerville;nl NED;FW;ADO Den Haag;17;2001;20;1419;71;63.1;15.8;16;82;4;26;1;0.75;13;31;-18;-1.14;-0.38;Matches
+530;Tomáš Suslov\Tomas-Suslov;sk SVK;FW;Groningen;17;2002;1;3;3;0.1;0.0;0;;1;3;4;0.00;0;0;0;0.00;-0.08;Matches
+531;Jonas Svensson\Jonas-Svensson;no NOR;DF;AZ Alkmaar;26;1993;22;1933;88;89.5;21.5;22;88;0;;0;2.14;43;17;+26;+1.21;-1.56;Matches
+532;Adrian Szöke\Adrian-Szoke;rs SRB;MF;Heracles Almelo;21;1998;10;168;17;7.5;1.9;1;74;9;10;10;0.80;3;5;-2;-1.07;-1.33;Matches
+533;Mohamed Taabouni\Mohamed-Taabouni;nl NED;MF;AZ Alkmaar;17;2002;0;;;;;0;;0;;3;;;;;;;Matches
+534;Dušan Tadić\Dusan-Tadic;rs SRB;FW;Ajax;30;1988;24;2082;87;96.4;23.1;24;87;0;;0;2.21;63;22;+41;+1.77;-0.54;Matches
+535;Nicolás Tagliafico\Nicolas-Tagliafico;ar ARG;DF;Ajax;26;1992;23;1964;85;90.9;21.8;22;89;1;7;0;2.17;61;21;+40;+1.83;+0.46;Matches
+536;Anas Tahiri\Anas-Tahiri;be BEL;MFFW;RKC Waalwijk;24;1995;22;1190;54;52.9;13.2;13;77;9;21;3;0.55;15;32;-17;-1.29;-0.10;Matches
+537;Oussama Tannane\Oussama-Tannane;ma MAR;MFFW;Vitesse;25;1994;17;1347;79;59.9;15.0;16;83;1;22;1;1.82;30;22;+8;+0.53;+0.43;Matches
+538;Renato Tapia\Renato-Tapia;pe PER;MF;Feyenoord;24;1995;15;752;50;34.8;8.4;7;80;8;24;8;2.00;15;14;+1;+0.12;-0.65;Matches
+539;Shani Tarashaj\Shani-Tarashaj;ch SUI;FWMF;Emmen;24;1995;0;;;;;0;;0;;4;;;;;;;Matches
+540;Mike te Wierik\Mike-te-Wierik;nl NED;DF;Groningen;27;1992;22;1923;87;85.5;21.4;22;87;0;;0;1.55;26;20;+6;+0.28;+1.38;Matches
+541;Tesfaldet Tekie\Tesfaldet-Tekie;se SWE;MF;Fortuna Sittard;22;1997;20;1665;83;71.2;18.5;19;85;1;45;2;1.20;21;36;-15;-0.81;+0.26;Matches
+542;Dennis Telgenkamp\Dennis-Telgenkamp;nl NED;GK;Emmen;32;1987;25;2250;90;100.0;25.0;25;90;0;;0;1.16;29;45;-16;-0.64;;Matches
+543;Ramón ten Hove\Ramon-ten-Hove;nl NED;GK;Feyenoord;21;1998;0;;;;;0;;0;;4;;;;;;;Matches
+544;Jordan Teze\Jordan-Teze;nl NED;DF;PSV Eindhoven;19;1999;2;135;68;6.0;1.5;1;90;1;45;23;1.50;4;3;+1;+0.67;-0.35;Matches
+545;George Thomas\George-Thomas;wal WAL;MFFW;ADO Den Haag;22;1997;2;178;89;7.9;2.0;2;89;0;;5;1.50;2;4;-2;-1.01;-0.01;Matches
+546;Ryan Thomas\Ryan-Thomas;nz NZL;MF;PSV Eindhoven;24;1994;10;709;71;31.5;7.9;9;78;1;5;6;2.10;17;5;+12;+1.52;+0.76;Matches
+547;Lennart Thy\Lennart-Thy;de GER;FWMF;Zwolle;27;1992;24;1671;70;71.4;18.6;19;86;5;9;2;0.83;24;40;-16;-0.86;-0.59;Matches
+548;Jurrien Timber\Jurrien-Timber;nl NED;DF;Ajax;18;2001;0;;;;;0;;0;;4;;;;;;;Matches
+549;Victor Timmers\Victor-Timmers;nl NED;GK;RKC Waalwijk;19;2000;0;;;;;0;;0;;2;;;;;;;Matches
+550;Jens Toornstra\Jens-Toornstra;nl NED;MF;Feyenoord;30;1989;20;1626;81;75.3;18.1;18;88;2;22;0;2.05;38;28;+10;+0.55;+0.05;Matches
+551;Sondre Tronstad\Sondre-Tronstad;no NOR;MF;Vitesse;23;1995;5;375;75;16.7;4.2;4;90;1;15;0;0.80;8;9;-1;-0.24;-0.72;Matches
+552;Giovanni Troupée\Giovanni-Troupee;nl NED;DF;Twente;21;1998;7;630;90;28.0;7.0;7;90;0;;0;1.14;8;8;0;0.00;+0.61;Matches
+553;Giovanni Troupée\Giovanni-Troupee;nl NED;DF;Utrecht;21;1998;8;54;7;2.5;0.6;0;;8;7;10;2.25;5;0;+5;+8.33;+8.03;Matches
+554;Filip Ugrinic\Filip-Ugrinic;ch SUI;MF;Emmen;20;1999;13;598;46;26.6;6.6;6;90;7;8;11;0.62;5;15;-10;-1.51;-1.18;Matches
+555;Adnan Ugur\Adnan-Ugur;be BEL;MF;Fortuna Sittard;18;2001;6;294;49;12.6;3.3;4;63;2;21;13;0.33;1;10;-9;-2.76;-2.14;Matches
+556;Lars Unnerstall\Lars-Unnerstall;de GER;GK;PSV Eindhoven;29;1990;13;1170;90;52.0;13.0;13;90;0;;7;1.69;25;13;+12;+0.92;-0.16;Matches
+557;Etienne Vaessen\Etienne-Vaessen;nl NED;GK;RKC Waalwijk;24;1995;23;2022;88;89.9;22.5;23;88;0;;0;0.61;22;49;-27;-1.20;+0.38;Matches
+558;Dario Van den Buijs\Dario-Van-den-Buijs;be BEL;DF;Heracles Almelo;23;1995;11;426;39;18.9;4.7;4;78;7;16;14;1.45;4;8;-4;-0.85;-1.24;Matches
+559;Jeroen Van der Lely\Jeroen-Van-der-Lely;nl NED;DF;Twente;23;1996;0;;;;;0;;0;;2;;;;;;;Matches
+560;Đoàn Văn Hậu\Djoan-Van-Hau;vn VIE;DF;Heerenveen;20;1999;0;;;;;0;;0;;16;;;;;;;Matches
+561;Bruno Varela\Bruno-Varela;pt POR;GK;Ajax;24;1994;1;90;90;4.2;1.0;1;90;0;;23;0.00;1;2;-1;-1.00;-2.91;Matches
+562;Keziah Veendorp\Keziah-Veendorp;nl NED;DF;Emmen;22;1997;18;1384;77;61.5;15.4;14;89;4;33;7;1.11;16;26;-10;-0.65;-0.03;Matches
+563;Joey Veerman\Joey-Veerman;nl NED;MF;Heerenveen;20;1998;21;1677;80;74.5;18.6;19;86;2;22;0;1.33;30;32;-2;-0.11;-0.74;Matches
+564;Marko Vejinović\Marko-Vejinovic;nl NED;MF;AZ Alkmaar;29;1990;0;;;;;0;;0;;1;;;;;;;Matches
+565;Odysseus Velanas\Odysseus-Velanas;nl NED;MF;Utrecht;21;1998;0;;;;;0;;0;;2;;;;;;;Matches
+566;Lars Veldwijk\Lars-Veldwijk;za RSA;FW;Sparta R'dam;27;1991;15;453;30;20.1;5.0;3;72;12;20;1;1.27;7;11;-4;-0.79;-1.00;Matches
+567;Stefan Velkov\Stefan-Velkov;bg BUL;DF;RKC Waalwijk;22;1996;3;270;90;12.0;3.0;3;90;0;;3;0.00;1;7;-6;-2.00;-0.86;Matches
+568;Joël Veltman\Joel-Veltman;nl NED;DF;Ajax;27;1992;19;1651;87;76.4;18.3;19;87;0;;1;2.32;53;17;+36;+1.96;+0.72;Matches
+569;Nick Venema\Nick-Venema;nl NED;FW;Utrecht;20;1999;3;107;36;5.0;1.2;1;63;2;22;1;2.33;3;1;+2;+1.68;+1.24;Matches
+570;Dylan Vente\Dylan-Vente;nl NED;FW;RKC Waalwijk;20;1999;17;949;56;42.2;10.5;10;83;7;18;1;0.65;10;24;-14;-1.33;-0.15;Matches
+571;Dylan Vente\Dylan-Vente;nl NED;FW;Feyenoord;20;1999;1;64;64;3.0;0.7;1;64;0;;0;1.00;0;1;-1;-1.41;-2.01;Matches
+572;Bram Verbong\Bram-Verbong;nl NED;GK;VVV-Venlo;19;1999;0;;;;;0;;0;;7;;;;;;;Matches
+573;Calvin Verdonk\Calvin-Verdonk;nl NED;DF;Twente;22;1997;21;1861;89;82.7;20.7;21;89;0;;0;1.00;28;42;-14;-0.68;-1.37;Matches
+574;Calvin Verdonk\Calvin-Verdonk;nl NED;DF;Feyenoord;22;1997;0;;;;;0;;0;;2;;;;;;;Matches
+575;Paul Verhaegh\Paul-Verhaegh;nl NED;DF;Twente;35;1983;6;385;64;17.1;4.3;5;76;1;3;10;1.33;4;9;-5;-1.17;-0.88;Matches
+576;Kenneth Vermeer\Kenneth-Vermeer;nl NED;GK;Feyenoord;33;1986;16;1440;90;66.7;16.0;16;90;0;;0;1.69;31;27;+4;+0.25;-0.88;Matches
+577;Kevin Vermeulen\Kevin-Vermeulen;nl NED;MF;RKC Waalwijk;28;1990;5;92;18;4.1;1.0;1;56;4;9;10;0.80;1;2;-1;-0.98;+0.27;Matches
+578;Nick Viergever\Nick-Viergever;nl NED;DF;PSV Eindhoven;29;1989;22;1957;89;87.0;21.7;22;89;0;;0;2.00;50;19;+31;+1.43;+3.27;Matches
+579;Ron Vlaar\Ron-Vlaar;nl NED;DF;AZ Alkmaar;34;1985;10;781;78;36.2;8.7;10;78;0;;3;1.90;24;10;+14;+1.61;+0.37;Matches
+580;Robbert de Vos\Robbert-de-Vos;nl NED;MF;Emmen;23;1996;10;371;37;16.5;4.1;4;82;6;7;15;1.20;7;6;+1;+0.24;+1.06;Matches
+581;Bart Vriends\Bart-Vriends;nl NED;DF;Sparta R'dam;28;1991;25;2244;90;99.7;24.9;25;90;0;;0;1.32;40;40;0;0.00;0.00;Matches
+582;Patrick Vroegh\Patrick-Vroegh;nl NED;MF;Vitesse;19;1999;6;216;36;9.6;2.4;2;61;4;24;18;2.00;5;5;0;0.00;-0.40;Matches
+583;Marious Vrousai\Marious-Vrousai;gr GRE;MFFW;Willem II;21;1998;20;934;47;41.5;10.4;10;83;10;11;2;1.75;14;15;-1;-0.10;-0.51;Matches
+584;Haris Vučkić\Haris-Vuckic;si SVN;FW;Twente;26;1992;24;1963;82;87.2;21.8;22;87;2;20;1;1.13;33;41;-8;-0.37;+0.57;Matches
+585;Django Warmerdam\Django-Warmerdam;nl NED;DFMF;Groningen;23;1995;21;1633;78;72.6;18.1;19;84;2;15;1;1.38;22;14;+8;+0.44;+1.32;Matches
+586;Ingo van Weert\Ingo-van-Weert;nl NED;DF;RKC Waalwijk;25;1994;8;210;26;9.3;2.3;2;90;6;5;12;1.25;4;8;-4;-1.71;-0.52;Matches
+587;Timon Wellenreuther\Timon-Wellenreuther;de GER;GK;Willem II;23;1995;24;2160;90;96.0;24.0;24;90;0;;0;1.71;36;32;+4;+0.17;-0.83;Matches
+588;Sai van Wermeskerken\Sai-van-Wermeskerken;jp JPN;DF;Zwolle;25;1994;18;1277;71;54.6;14.2;14;85;4;24;8;1.28;21;29;-8;-0.56;+0.28;Matches
+589;Jarno Westerman\Jarno-Westerman;nl NED;FW;Zwolle;17;2002;4;91;23;3.9;1.0;1;56;3;12;5;0.25;2;2;0;0.00;+0.72;Matches
+590;Owen Wijndal\Owen-Wijndal;nl NED;DF;AZ Alkmaar;19;1999;23;2017;88;93.4;22.4;23;88;0;;0;2.17;47;16;+31;+1.38;+0.12;Matches
+591;Dani de Wit\Dani-de-Wit;nl NED;MF;Ajax;21;1998;0;;;;;0;;0;;3;;;;;;;Matches
+592;Dani de Wit\Dani-de-Wit;nl NED;MF;AZ Alkmaar;21;1998;21;1439;69;66.6;16.0;18;77;3;20;0;2.19;37;12;+25;+1.56;+0.56;Matches
+593;Michael Woud\Michael-Woud;nz NZL;GK;Willem II;20;1999;1;90;90;4.0;1.0;1;90;0;;15;3.00;1;0;+1;+1.00;+0.83;Matches
+594;Lucas Woudenberg\Lucas-Woudenberg;nl NED;DF;Heerenveen;25;1994;14;975;70;43.3;10.8;11;84;3;19;11;1.21;18;16;+2;+0.18;+0.18;Matches
+595;Haji Wright\Haji-Wright;us USA;FW;VVV-Venlo;21;1998;21;1331;63;59.2;14.8;15;82;6;17;4;0.86;15;36;-21;-1.42;-1.13;Matches
+596;Dries Wuytens\Dries-Wuytens;be BEL;DF;Sparta R'dam;28;1991;0;;;;;0;;0;;2;;;;;;;Matches
+597;Stijn Wuytens\Stijn-Wuytens;be BEL;DF;AZ Alkmaar;29;1989;21;1798;86;83.2;20.0;21;86;0;;0;2.19;45;17;+28;+1.40;+0.16;Matches
+598;John Yeboah\John-Yeboah;de GER;FWMF;VVV-Venlo;19;2000;17;918;54;40.8;10.2;9;82;8;22;2;1.18;9;18;-9;-0.88;+0.13;Matches
+599;Deyovaisio Zeefuik\Deyovaisio-Zeefuik;nl NED;DF;Groningen;21;1998;25;2204;88;98.0;24.5;25;88;0;;0;1.40;27;25;+2;+0.08;+0.08;Matches
+600;Agim Zeka\Agim-Zeka;al ALB;FW;Fortuna Sittard;20;1998;5;79;16;3.4;0.9;0;;5;16;3;0.20;3;2;+1;+1.14;+2.09;Matches
+601;Rafik Zekhnini\Rafik-Zekhnini;no NOR;FW;Twente;21;1998;20;690;35;30.7;7.7;5;67;15;24;5;1.15;14;18;-4;-0.52;-0.12;Matches
+602;Ramiz Zerrouki\Ramiz-Zerrouki;nl NED;MF;Twente;21;1998;0;;;;;0;;0;;7;;;;;;;Matches
+603;Michael Zetterer\Michael-Zetterer;de GER;GK;Zwolle;24;1995;13;1170;90;50.0;13.0;13;90;0;;12;1.23;18;23;-5;-0.38;+0.62;Matches
+604;Hakim Ziyech\Hakim-Ziyech;ma MAR;MFFW;Ajax;26;1993;20;1549;77;71.7;17.2;20;77;0;;0;2.35;48;14;+34;+1.98;+0.65;Matches
+605;Jeroen Zoet\Jeroen-Zoet;nl NED;GK;PSV Eindhoven;28;1991;11;990;90;44.0;11.0;11;90;0;;6;1.91;24;14;+10;+0.91;-0.16;Matches
+606;Jeroen Zoet\Jeroen-Zoet;nl NED;GK;Utrecht;28;1991;6;540;90;25.0;6.0;6;90;0;;0;1.50;12;8;+4;+0.67;+0.22;Matches
+607;Rick Zuijderwijk\Rick-Zuijderwijk;nl NED;MF;Willem II;18;2001;2;19;10;0.8;0.2;0;;2;10;19;1.50;0;0;0;0.00;-0.20;Matches
+608;Giovanni Zwikstra\Giovanni-Zwikstra;nl NED;FW;Groningen;18;2001;0;;;;;0;;0;;1;;;;;;;Matches
+609;Robert Zwinkels\Robert-Zwinkels;nl NED;GK;ADO Den Haag;36;1983;5;450;90;20.0;5.0;5;90;0;;15;1.20;8;9;-1;-0.20;+1.00;Matches

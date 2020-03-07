@@ -1,0 +1,419 @@
+"id";"name";"nation";"position";"team";"age";"born";"MP";"Starts";"Min";"Gls";"Ast";"PK";"PKatt";"CrdY";"CrdR";"Gls_per_match";"Ast_per_match";"G_A_per_match";"G_PK_per_match";"G_A_PK_per_match";"Matches"
+1;Oliver Abildgaard\Oliver-Abildgaard;dk DEN;MF;Rubin Kazan;23;1996;1;1;62;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+2;Luiz Adriano\Luiz-Adriano;br BRA;FW;Spartak Moscow;32;1987;3;3;259;1;0;1;1;1;0;0.35;0.00;0.35;0.00;0.00;Matches
+3;Guram Adzhoyev\Guram-Adzhoyev;ru RUS;FW;Arsenal Tula;24;1995;1;0;4;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+4;Vadim Afonin\Vadim-Afonin;uz UZB;MFDF;Orenburg;31;1987;10;5;537;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+5;Gamid Agalarov\Gamid-Agalarov;ru RUS;FW;Ufa;19;2000;1;0;21;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+6;Roman Akbashev\Roman-Akbashev;ru RUS;MF;Rubin Kazan;27;1991;1;0;14;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+7;Ilzat Akhmetov\Ilzat-Akhmetov;ru RUS;MF;CSKA Moscow;21;1997;20;16;1356;2;1;0;0;3;0;0.13;0.07;0.20;0.13;0.20;Matches
+8;Igor Akinfeev\Igor-Akinfeev;ru RUS;GK;CSKA Moscow;33;1986;20;20;1800;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+9;Pavel Alikin\Pavel-Alikin;ru RUS;DF;Ufa;35;1984;6;4;381;1;0;0;0;1;0;0.24;0.00;0.24;0.24;0.24;Matches
+10;Azer Aliyev\Azer-Aliyev;ru RUS;DFMF;Ufa;25;1994;12;11;970;1;1;0;0;0;0;0.09;0.09;0.19;0.09;0.19;Matches
+11;Víctor Álvarez\Victor-Alvarez;es ESP;DFMF;Arsenal Tula;26;1993;18;18;1545;1;1;0;0;6;0;0.06;0.06;0.12;0.06;0.12;Matches
+12;Jano Ananidze\Jano-Ananidze;ge GEO;MF;Spartak Moscow;26;1992;6;4;325;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+13;Aleksei Anatolyevich Kozlov\Aleksei-Anatolyevich-Kozlov;ru RUS;DF;Rostov;32;1986;20;20;1785;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+14;Wilker Ángel\Wilker-Angel;ve VEN;DF;Akhmat Grozny;26;1993;16;15;1306;1;0;0;0;3;0;0.07;0.00;0.07;0.07;0.07;Matches
+15;Paul Anton\Paul-Anton;ro ROU;MF;Samara;28;1991;11;10;787;2;1;1;1;2;0;0.23;0.11;0.34;0.11;0.23;Matches
+16;Aleksandr Anyukov\Aleksandr-Anyukov;ru RUS;DF;Samara;36;1982;16;16;1303;0;0;0;0;4;1;0.00;0.00;0.00;0.00;0.00;Matches
+17;Khyzyr Appayev\Khyzyr-Appayev;ru RUS;FWMF;Tambov;29;1990;13;7;712;0;1;0;0;2;0;0.00;0.13;0.13;0.00;0.13;Matches
+18;Ari\Ari;ru RUS;FW;Krasnodar;33;1985;16;16;1369;5;4;2;4;4;0;0.33;0.26;0.59;0.20;0.46;Matches
+19;Rafał Augustyniak\Rafal-Augustyniak;pl POL;MF;Ural;25;1993;20;19;1727;1;2;0;0;2;0;0.05;0.10;0.16;0.05;0.16;Matches
+20;Timur Ayupov\Timur-Ayupov;ru RUS;MFDF;Orenburg;26;1993;15;13;1204;0;0;0;0;8;0;0.00;0.00;0.00;0.00;0.00;Matches
+21;Abdul Aziz Tetteh\Abdul-Aziz-Tetteh;gh GHA;MF;Dynamo Mosc;29;1990;3;1;140;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+22;Sardar Azmoun\Sardar-Azmoun;ir IRN;FW;Zenit;24;1995;19;18;1515;7;5;1;2;3;0;0.42;0.30;0.71;0.36;0.65;Matches
+23;Yegor Baburin\Yegor-Baburin;ru RUS;GK;Rostov;25;1993;12;12;1080;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+24;Soltmurad Bakaev\Soltmurad-Bakaev;ru RUS;MF;Rubin Kazan;19;1999;1;0;22;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+25;Soltmurad Bakaev\Soltmurad-Bakaev;ru RUS;MF;Spartak Moscow;19;1999;2;0;16;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+26;Zelimkhan Bakayev\Zelimkhan-Bakayev;ru RUS;MF;Spartak Moscow;23;1996;18;17;1496;4;8;1;1;6;0;0.24;0.48;0.72;0.18;0.66;Matches
+27;Akmal Bakhtiyarov\Akmal-Bakhtiyarov;kz KAZ;FW;Sochi;21;1998;2;0;26;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+28;Oleg Baklov\Oleg-Baklov;ru RUS;GK;Ural;24;1994;3;3;270;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+29;Lameck Banda\Lameck-Banda;zm ZAM;FW;Arsenal Tula;18;2001;5;1;95;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+30;Dmitri Barinov\Dmitri-Barinov;ru RUS;MF;Loko Moscow;22;1996;17;17;1530;1;0;0;0;7;0;0.06;0.00;0.06;0.06;0.06;Matches
+31;Wílmar Barrios\Wilmar-Barrios;co COL;MF;Zenit;25;1993;19;18;1615;1;1;0;0;5;0;0.06;0.06;0.11;0.06;0.11;Matches
+32;Yevgeni Bashkirov\Yevgeni-Bashkirov;ru RUS;MF;Rubin Kazan;28;1991;11;8;654;1;1;0;0;4;1;0.14;0.14;0.28;0.14;0.28;Matches
+33;Robert Bauer\Robert-Bauer;de GER;DFMF;Arsenal Tula;24;1995;13;11;1035;1;1;0;0;2;0;0.09;0.09;0.17;0.09;0.17;Matches
+34;Yuri Bavin\Yuri-Bavin;ru RUS;MF;Ural;25;1994;14;5;532;3;1;0;0;1;0;0.51;0.17;0.68;0.51;0.68;Matches
+35;Khoren Bayramyan\Khoren-Bayramyan;ru RUS;MFFW;Rostov;27;1992;18;17;1321;4;4;0;0;3;0;0.27;0.27;0.55;0.27;0.55;Matches
+36;Aleksandr Belenov\Aleksandr-Belenov;ru RUS;GK;Ufa;32;1986;18;18;1620;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+37;Maksim Belyayev\Maksim-Belyayev;ru RUS;DF;Arsenal Tula;27;1991;20;20;1800;0;1;0;0;1;0;0.00;0.05;0.05;0.00;0.05;Matches
+38;Marcus Berg\Marcus-Berg;se SWE;FW;Krasnodar;32;1986;15;7;701;5;0;0;0;3;1;0.64;0.00;0.64;0.64;0.64;Matches
+39;Bernard Berisha\Bernard-Berisha;xk KVX;MFFW;Akhmat Grozny;27;1991;16;13;1096;2;0;0;1;4;0;0.16;0.00;0.16;0.16;0.16;Matches
+40;Kantemir Berkhamov\Kantemir-Berkhamov;ru RUS;FW;Arsenal Tula;30;1988;1;1;64;1;0;0;0;0;0;1.41;0.00;1.41;1.41;1.41;Matches
+41;Eric Bicfalvi\Eric-Bicfalvi;ro ROU;MF;Ural;31;1988;17;15;1339;5;0;1;1;2;0;0.34;0.00;0.34;0.27;0.27;Matches
+42;Jaka Bijol\Jaka-Bijol;si SVN;MFFW;CSKA Moscow;20;1999;17;4;503;1;1;0;0;3;1;0.18;0.18;0.36;0.18;0.36;Matches
+43;Kristijan Bistrović\Kristijan-Bistrovic;hr CRO;MF;CSKA Moscow;21;1998;20;12;1082;1;2;0;0;3;0;0.08;0.17;0.25;0.08;0.25;Matches
+44;Lovro Bizjak\Lovro-Bizjak;si SVN;FW;Ufa;25;1993;17;8;911;2;1;1;1;1;0;0.20;0.10;0.30;0.10;0.20;Matches
+45;Miroslav Bogosavac\Miroslav-Bogosavac;rs SRB;DF;Akhmat Grozny;22;1996;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+46;Petrus Boumal\Petrus-Boumal;cm CMR;MF;Ural;26;1993;9;7;631;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+47;Taras Burlak\Taras-Burlak;ru RUS;DF;Samara;29;1990;5;5;450;1;0;0;0;0;0;0.20;0.00;0.20;0.20;0.20;Matches
+48;Nikita Burmistrov\Nikita-Burmistrov;ru RUS;MF;Sochi;30;1989;17;14;1129;0;2;0;0;4;0;0.00;0.16;0.16;0.00;0.16;Matches
+49;Rémy Cabella\Remy-Cabella;fr FRA;MFFW;Krasnodar;29;1990;2;2;146;0;1;0;0;2;0;0.00;0.62;0.62;0.00;0.62;Matches
+50;Miguel Filipe Nunes Cardoso\Miguel-Filipe-Nunes-Cardoso;pt POR;MF;Tambov;25;1994;1;0;5;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+51;Miguel Filipe Nunes Cardoso\Miguel-Filipe-Nunes-Cardoso;pt POR;MF;Dynamo Mosc;25;1994;6;3;273;1;0;0;0;1;0;0.33;0.00;0.33;0.33;0.33;Matches
+52;Cătălin Carp\Catalin-Carp;md MDA;MF;Ufa;25;1993;18;18;1596;1;0;0;0;5;0;0.06;0.00;0.06;0.06;0.06;Matches
+53;Goran Čaušić\Goran-Causic;rs SRB;MF;Arsenal Tula;27;1992;13;13;1118;2;1;0;0;1;0;0.16;0.08;0.24;0.16;0.24;Matches
+54;Fiodor Černych\Fiodor-Cernych;lt LTU;MFFW;Orenburg;28;1991;6;2;231;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+55;Murilo Cerqueira\Murilo-Cerqueira;br BRA;DFMF;Loko Moscow;22;1997;17;14;1244;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+56;Fyodor Chalov\Fyodor-Chalov;ru RUS;FW;CSKA Moscow;21;1998;20;20;1760;5;2;1;3;2;0;0.26;0.10;0.36;0.20;0.31;Matches
+57;Andrei Chasovskikh\Andrei-Chasovskikh;ru RUS;FW;Tambov;28;1991;3;0;39;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+58;Aleksandr Chernikov\Aleksandr-Chernikov;ru RUS;MF;Krasnodar;19;2000;1;1;45;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+59;Aleksei Chernov\Aleksei-Chernov;ru RUS;GK;Ufa;21;1998;2;2;180;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+60;Nikita Chernov\Nikita-Chernov;ru RUS;DF;Samara;23;1996;16;16;1440;1;0;0;0;4;0;0.06;0.00;0.06;0.06;0.06;Matches
+61;Yevgeni Chernov\Yevgeni-Chernov;ru RUS;DF;Rostov;26;1992;20;20;1800;0;2;0;0;1;0;0.00;0.10;0.10;0.00;0.10;Matches
+62;Oleg Chernyshov\Oleg-Chernyshov;ru RUS;MF;Tambov;32;1986;8;2;215;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+63;Nikita Chicherin\Nikita-Chicherin;ru RUS;DF;Samara;28;1990;1;0;14;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+64;Dmitri Chistyakov\Dmitri-Chistyakov;ru RUS;DF;Rostov;25;1994;18;18;1533;1;0;0;0;4;0;0.06;0.00;0.06;0.06;0.06;Matches
+65;Andrea Chukanov\Andrea-Chukanov;ru RUS;DFMF;Orenburg;23;1995;10;4;402;0;1;0;0;0;0;0.00;0.22;0.22;0.00;0.22;Matches
+66;Valeriu Ciupercă\Valeriu-Ciuperca;md MDA;MF;Tambov;27;1992;16;13;1185;0;2;0;0;8;3;0.00;0.15;0.15;0.00;0.15;Matches
+67;Vedran Ćorluka\Vedran-Corluka;hr CRO;DF;Loko Moscow;33;1986;19;19;1660;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00;Matches
+68;Oleh Danchenko\Oleh-Danchenko;ua UKR;DF;Rubin Kazan;24;1994;17;17;1428;0;2;0;0;3;0;0.00;0.13;0.13;0.00;0.13;Matches
+69;Zuriko Davitashvili\Zuriko-Davitashvili;ge GEO;MF;Rubin Kazan;18;2001;16;15;1235;1;0;0;0;4;0;0.07;0.00;0.07;0.07;0.07;Matches
+70;Aleksandr Denisov\Aleksandr-Denisov;ru RUS;DFMF;Arsenal Tula;30;1989;7;6;516;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+71;Vitaliy Denisov\Vitaliy-Denisov;uz UZB;DF;Rubin Kazan;32;1987;8;7;597;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+72;Đorđe Despotović\Djordje-Despotovic;rs SRB;FW;Orenburg;27;1992;17;17;1497;6;0;1;2;5;0;0.36;0.00;0.36;0.30;0.30;Matches
+73;Nikolay Dimitrov\Nikolay-Dimitrov;bg BUL;MF;Ural;31;1987;16;13;1014;1;5;0;0;1;0;0.09;0.44;0.53;0.09;0.53;Matches
+74;Igor Diveev\Igor-Diveev;ru RUS;DF;CSKA Moscow;19;1999;17;17;1485;0;1;0;0;4;0;0.00;0.06;0.06;0.00;0.06;Matches
+75;Aleksandr Dolgov\Aleksandr-Dolgov;ru RUS;FW;Rostov;20;1998;8;0;37;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+76;Aleksandr Dovbnya\Aleksandr-Dovbnya;ru RUS;GK;Orenburg;32;1987;6;5;450;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+77;Sebastián Driussi\Sebastian-Driussi;ar ARG;MFFW;Zenit;23;1996;16;15;1201;1;1;1;1;1;0;0.07;0.07;0.15;0.00;0.07;Matches
+78;Yuri Dyupin\Yuri-Dyupin;ru RUS;GK;Rubin Kazan;31;1988;20;20;1800;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+79;Alan Dzagoev\Alan-Dzagoev;ru RUS;MFFW;CSKA Moscow;29;1990;5;3;253;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+80;Soslan Dzhanayev\Soslan-Dzhanayev;ru RUS;GK;Sochi;32;1987;14;14;1260;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+81;Georgi Dzhikiya\Georgi-Dzhikiya;ru RUS;DF;Spartak Moscow;25;1993;18;18;1612;1;0;0;0;5;1;0.06;0.00;0.06;0.06;0.06;Matches
+82;Artem Dzyuba\Artem-Dzyuba;ru RUS;FW;Zenit;30;1988;19;17;1553;11;9;3;3;1;0;0.64;0.52;1.16;0.46;0.99;Matches
+83;Éder\Eder;pt POR;FW;Loko Moscow;31;1987;14;11;999;4;0;0;0;2;0;0.36;0.00;0.36;0.36;0.36;Matches
+84;Danila Emelyanov\Danila-Emelyanov;ru RUS;MF;Ufa;19;2000;9;6;504;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+85;Roman Eremenko\Roman-Eremenko;fi FIN;MF;Rostov;32;1987;15;14;1305;3;3;1;1;4;0;0.21;0.21;0.41;0.14;0.34;Matches
+86;Aleksandr Erokhin\Aleksandr-Erokhin;ru RUS;MFFW;Zenit;29;1989;16;7;665;2;0;0;0;2;0;0.27;0.00;0.27;0.27;0.27;Matches
+87;Joel Fameyeh\Joel-Fameyeh;gh GHA;MFFW;Orenburg;22;1997;16;6;616;3;0;0;0;0;0;0.44;0.00;0.44;0.44;0.44;Matches
+88;Manuel Fernandes\Manuel-Fernandes;pt POR;MFFW;Krasnodar;33;1986;7;5;385;1;0;0;0;0;0;0.23;0.00;0.23;0.23;0.23;Matches
+89;Mário Fernandes\Mario-Fernandes;ru RUS;MF;CSKA Moscow;28;1990;20;20;1800;3;2;0;0;2;0;0.15;0.10;0.25;0.15;0.25;Matches
+90;Fernando\Fernando;br BRA;MF;Spartak Moscow;27;1992;3;3;270;0;2;0;0;1;0;0.00;0.67;0.67;0.00;0.67;Matches
+91;Artyom Fidler\Artyom-Fidler;ru RUS;MF;Ural;36;1983;7;6;472;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+92;Oleksandr Filin\Oleksandr-Filin;ru RUS;DF;Tambov;23;1996;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+93;Daniil Fomin\Daniil-Fomin;ru RUS;MF;Ufa;22;1997;19;19;1710;3;0;1;1;5;0;0.16;0.00;0.16;0.11;0.11;Matches
+94;Evgenii Frolov\Evgenii-Frolov;ru RUS;GK;Samara;31;1988;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+95;Evgenii Frolov\Evgenii-Frolov;ru RUS;GK;Sochi;31;1988;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+96;Artyom Galadzhan\Artyom-Galadzhan;ru RUS;FW;Orenburg;21;1998;4;0;42;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+97;Ilya Gaponov\Ilya-Gaponov;ru RUS;DF;Spartak Moscow;21;1997;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+98;Mikhail Gashchenkov\Mikhail-Gashchenkov;ru RUS;DFMF;Akhmat Grozny;27;1992;6;3;287;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+99;Alexandru Gațcan\Alexandru-Gatcan;md MDA;MF;Samara;35;1984;16;15;1248;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+100;Alexandru Gațcan\Alexandru-Gatcan;md MDA;MF;Rostov;35;1984;1;0;2;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+101;Yuri Gazinskiy\Yuri-Gazinskiy;ru RUS;MF;Krasnodar;30;1989;3;2;213;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+102;Roland Gigolayev\Roland-Gigolayev;ru RUS;DF;Akhmat Grozny;29;1990;6;6;505;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+103;Samuel Gigot\Samuel-Gigot;fr FRA;DF;Spartak Moscow;25;1993;17;17;1530;4;0;0;0;4;0;0.24;0.00;0.24;0.24;0.24;Matches
+104;Radu Gînsari\Radu-Ginsari;md MDA;MF;Samara;27;1991;10;7;586;1;0;0;0;2;0;0.15;0.00;0.15;0.15;0.15;Matches
+105;Nikolai Giorgobiani\Nikolai-Giorgobiani;ru RUS;MF;Ufa;22;1997;10;4;355;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+106;Danil Glebov\Danil-Glebov;ru RUS;MF;Rostov;19;1999;11;7;589;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+107;Denis Glushakov\Denis-Glushakov;ru RUS;MF;Akhmat Grozny;32;1987;15;14;1147;1;0;0;0;3;0;0.08;0.00;0.08;0.08;0.08;Matches
+108;Maksim Glushenkov\Maksim-Glushenkov;ru RUS;MF;Samara;20;1999;1;0;7;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+109;Maksim Glushenkov\Maksim-Glushenkov;ru RUS;MF;Spartak Moscow;20;1999;1;0;;0;0;0;0;0;0;;;;;;Matches
+110;Cèdric Gogoua\Cedric-Gogoua;ci CIV;DF;Tambov;25;1994;5;5;450;2;0;0;0;2;0;0.40;0.00;0.40;0.40;0.40;Matches
+111;Cèdric Gogoua\Cedric-Gogoua;ci CIV;DF;CSKA Moscow;25;1994;4;3;183;1;0;0;0;1;0;0.49;0.00;0.49;0.49;0.49;Matches
+112;Yegor Golenkov\Yegor-Golenkov;ru RUS;FW;Samara;20;1999;6;0;67;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+113;Artem Golubev\Artem-Golubev;ru RUS;MF;Ufa;20;1999;10;3;367;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+114;Igor Gorbatenko\Igor-Gorbatenko;ru RUS;MFFW;Arsenal Tula;30;1989;18;16;1445;1;2;0;0;2;0;0.06;0.12;0.19;0.06;0.19;Matches
+115;Yevgeni Gorodov\Yevgeni-Gorodov;ru RUS;GK;Akhmat Grozny;33;1985;16;16;1440;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+116;Gia Grigalava\Gia-Grigalava;ge GEO;DF;Arsenal Tula;29;1989;18;18;1620;1;0;0;0;6;0;0.06;0.00;0.06;0.06;0.06;Matches
+117;Aleksei Gritsayenko\Aleksei-Gritsayenko;ru RUS;DF;Tambov;24;1995;11;11;990;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+118;Vyacheslav Grulyov\Vyacheslav-Grulyov;ru RUS;FW;Dynamo Mosc;20;1999;10;2;268;0;1;0;0;0;0;0.00;0.34;0.34;0.00;0.34;Matches
+119;Vitali Gudiyev\Vitali-Gudiyev;ru RUS;GK;Akhmat Grozny;24;1995;4;4;360;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+120;Ayaz Guliyev\Ayaz-Guliyev;ru RUS;MF;Spartak Moscow;22;1996;11;8;644;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00;Matches
+121;Edi Gutliv\Edi-Gutliv;il ISR;DF;Orenburg;26;1992;2;2;118;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+122;Jón Guðni Fjóluson\Jon-Gudni-Fjoluson;is ISL;DF;Krasnodar;30;1989;9;8;720;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+123;Dennis Hadzikadunic\Dennis-Hadzikadunic;se SWE;DF;Rostov;21;1998;10;9;825;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+124;Varazdat Haroyan\Varazdat-Haroyan;am ARM;DF;Ural;26;1992;17;17;1524;1;1;0;0;7;0;0.06;0.06;0.12;0.06;0.12;Matches
+125;Oscar Hiljemark\Oscar-Hiljemark;se SWE;MF;Dynamo Mosc;27;1992;5;1;199;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+126;Yaroslav Hodzyur\Yaroslav-Hodzyur;ua UKR;GK;Ural;34;1985;17;17;1530;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+127;Benedikt Höwedes\Benedikt-Howedes;de GER;DF;Loko Moscow;31;1988;16;16;1384;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+128;Brian Idowu\Brian-Idowu;ng NGA;DF;Loko Moscow;27;1992;7;3;283;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+129;Sylvester Igboun\Sylvester-Igboun;ng NGA;FW;Dynamo Mosc;28;1990;11;11;954;2;0;0;0;3;0;0.19;0.00;0.19;0.19;0.19;Matches
+130;Sylvester Igboun\Sylvester-Igboun;ng NGA;MFFW;Ufa;28;1990;6;6;483;2;0;0;0;1;0;0.37;0.00;0.37;0.37;0.37;Matches
+131;Mikhail Ignatov\Mikhail-Ignatov;ru RUS;MF;Spartak Moscow;19;2000;1;0;25;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+132;Ivan Ignatyev\Ivan-Ignatyev;ru RUS;FW;Krasnodar;20;1999;13;5;528;4;0;0;1;1;0;0.68;0.00;0.68;0.68;0.68;Matches
+133;Ivan Ignatyev\Ivan-Ignatyev;ru RUS;FW;Rubin Kazan;20;1999;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+134;Vladislav Ignatyev\Vladislav-Ignatyev;ru RUS;DFMF;Loko Moscow;32;1987;15;15;1305;1;1;0;0;8;0;0.07;0.07;0.14;0.07;0.14;Matches
+135;Vladimir Ilyin\Vladimir-Ilyin;ru RUS;FWMF;Ural;27;1992;18;11;1214;4;1;0;0;4;0;0.30;0.07;0.37;0.30;0.37;Matches
+136;Vladimir Ilyin\Vladimir-Ilyin;ru RUS;FW;Akhmat Grozny;27;1992;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+137;Aleksei Ionov\Aleksei-Ionov;ru RUS;MFFW;Rostov;30;1989;19;19;1596;5;7;0;1;0;0;0.28;0.39;0.68;0.28;0.68;Matches
+138;Oleg Ivanov\Oleg-Ivanov;ru RUS;MFFW;Akhmat Grozny;32;1986;18;16;1461;0;1;0;0;4;0;0.00;0.06;0.06;0.00;0.06;Matches
+139;Branislav Ivanović\Branislav-Ivanovic;rs SRB;DF;Zenit;35;1984;20;20;1771;3;0;0;0;4;0;0.15;0.00;0.15;0.15;0.15;Matches
+140;Darko Jevtić\Darko-Jevtic;ch SUI;MF;Rubin Kazan;26;1993;1;1;68;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+141;Joãozinho\Joaozinho;br BRA;MF;Dynamo Mosc;30;1988;11;11;850;0;2;0;0;3;0;0.00;0.21;0.21;0.00;0.21;Matches
+142;Bojan Jokić\Bojan-Jokic;si SVN;DF;Ufa;33;1986;11;10;922;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+143;Othman El Kabir\Othman-El-Kabir;nl NED;MF;Ural;28;1991;15;14;1190;4;2;0;1;2;0;0.30;0.15;0.45;0.30;0.45;Matches
+144;Charles Kaboré\Charles-Kabore;bf BFA;MF;Dynamo Mosc;31;1988;16;13;1137;0;0;0;0;9;1;0.00;0.00;0.00;0.00;0.00;Matches
+145;Dmitri Kabutov\Dmitri-Kabutov;ru RUS;MF;Samara;27;1992;19;15;1286;0;3;0;0;4;0;0.00;0.21;0.21;0.00;0.21;Matches
+146;Nikita Kalugin\Nikita-Kalugin;ru RUS;DF;Sochi;21;1998;15;13;1162;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+147;Ruslan Kambolov\Ruslan-Kambolov;ru RUS;MF;Krasnodar;29;1990;16;10;901;0;1;0;0;3;0;0.00;0.10;0.10;0.00;0.10;Matches
+148;Evans Kangwa\Evans-Kangwa;zm ZAM;FWMF;Arsenal Tula;26;1992;14;8;725;3;0;0;0;2;0;0.37;0.00;0.37;0.37;0.37;Matches
+149;Kings Kangwa\Kings-Kangwa;zm ZAM;MF;Arsenal Tula;20;1999;1;0;1;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+150;Maksim Kanunnikov\Maksim-Kanunnikov;ru RUS;MF;Samara;28;1991;15;12;1127;1;1;0;0;1;0;0.08;0.08;0.16;0.08;0.16;Matches
+151;Oleksandr Kapliyenko\Oleksandr-Kapliyenko;ua UKR;DF;Tambov;23;1996;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+152;Aleksandre Karapetian\Aleksandre-Karapetian;am ARM;FW;Sochi;31;1987;14;3;425;2;0;0;0;2;0;0.42;0.00;0.42;0.42;0.42;Matches
+153;Pavel Karasyov\Pavel-Karasyov;ru RUS;MF;Tambov;27;1992;19;15;1384;0;3;0;0;3;0;0.00;0.20;0.20;0.00;0.20;Matches
+154;Vyacheslav Karavayev\Vyacheslav-Karavayev;ru RUS;DFMF;Zenit;24;1995;11;10;870;1;3;0;0;3;0;0.10;0.31;0.41;0.10;0.41;Matches
+155;Maksim Karpov\Maksim-Karpov;ru RUS;DF;Samara;24;1995;18;18;1611;1;0;0;0;3;1;0.06;0.00;0.06;0.06;0.06;Matches
+156;Vadim Karpov\Vadim-Karpov;ru RUS;DF;CSKA Moscow;17;2002;9;9;747;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+157;Yan Kazayev\Yan-Kazayev;ru RUS;MF;Sochi;27;1991;4;3;269;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+158;Mikhail Kerzhakov\Mikhail-Kerzhakov;ru RUS;GK;Zenit;32;1987;8;8;720;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+159;Anri Khagush\Anri-Khagush;ru RUS;DF;Arsenal Tula;32;1986;3;1;125;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+160;Evgenii Kharin\Evgenii-Kharin;ee EST;MFDF;Akhmat Grozny;24;1995;14;11;1097;1;2;0;0;6;0;0.08;0.16;0.25;0.08;0.25;Matches
+161;Khetag Khosonov\Khetag-Khosonov;ru RUS;MF;Tambov;21;1998;7;0;81;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+162;Anton Kilin\Anton-Kilin;ru RUS;DFMF;Tambov;28;1990;17;16;1239;1;2;0;0;3;0;0.07;0.15;0.22;0.07;0.22;Matches
+163;Nikolai Kipiani\Nikolai-Kipiani;ru RUS;FW;Rubin Kazan;22;1997;3;0;42;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+164;Danil Klenkin\Danil-Klenkin;ru RUS;MF;Tambov;29;1990;3;0;125;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+165;Andrey Klimovich\Andrey-Klimovich;by BLR;GK;Orenburg;30;1988;11;11;990;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+166;Anton Kochenkov\Anton-Kochenkov;ru RUS;GK;Loko Moscow;32;1987;2;2;180;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+167;Aleksandr Kokorin\Aleksandr-Kokorin;ru RUS;FW;Sochi;28;1991;1;1;90;1;0;0;0;0;0;1.00;0.00;1.00;1.00;1.00;Matches
+168;Nikita Koldunov\Nikita-Koldunov;ru RUS;MF;Sochi;19;2000;1;0;28;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+169;Aleksandr Kolomeytsev\Aleksandr-Kolomeytsev;ru RUS;MF;Loko Moscow;30;1989;10;5;493;1;0;0;0;1;0;0.18;0.00;0.18;0.18;0.18;Matches
+170;Dmitri Kombarov\Dmitri-Kombarov;ru RUS;DF;Samara;32;1987;14;14;1139;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+171;Kirill Kombarov\Kirill-Kombarov;ru RUS;DFMF;Arsenal Tula;32;1987;16;14;1251;0;3;0;0;1;0;0.00;0.22;0.22;0.00;0.22;Matches
+172;Nikolay Komlichenko\Nikolay-Komlichenko;ru RUS;FW;Dynamo Mosc;24;1995;1;0;34;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+173;Mohamed Konaté\Mohamed-Konate;ci CIV;FW;Tambov;21;1997;2;1;88;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+174;Igor Konovalov\Igor-Konovalov;ru RUS;MF;Rubin Kazan;23;1996;19;19;1710;1;1;0;0;6;0;0.05;0.05;0.11;0.05;0.11;Matches
+175;Georgi Kostadinov\Georgi-Kostadinov;bg BUL;MF;Arsenal Tula;28;1990;17;16;1412;0;1;0;0;4;0;0.00;0.06;0.06;0.00;0.06;Matches
+176;Mikhail Kostyukov\Mikhail-Kostyukov;ru RUS;MFFW;Tambov;27;1991;20;18;1449;4;2;0;1;3;0;0.25;0.12;0.37;0.25;0.37;Matches
+177;Andrei Kozlov\Andrei-Kozlov;ru RUS;FW;Ufa;30;1989;12;7;573;1;1;0;0;0;0;0.16;0.16;0.31;0.16;0.31;Matches
+178;Savelii Kozlov\Savelii-Kozlov;ru RUS;DF;Orenburg;22;1997;7;4;441;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+179;Alex Král\Alex-Kral;cz CZE;MFDF;Spartak Moscow;21;1998;10;9;825;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+180;Matías Kranevitter\Matias-Kranevitter;ar ARG;MF;Zenit;26;1993;2;0;28;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+181;Stanislav Kritsyuk\Stanislav-Kritsyuk;ru RUS;GK;Krasnodar;28;1990;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+182;Vyacheslav Krotov\Vyacheslav-Krotov;ru RUS;FW;Ufa;26;1993;14;10;842;2;1;0;0;2;0;0.21;0.11;0.32;0.21;0.32;Matches
+183;Danil Krugovoy\Danil-Krugovoy;ru RUS;DF;Ufa;21;1998;6;4;398;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+184;Grzegorz Krychowiak\Grzegorz-Krychowiak;pl POL;MF;Loko Moscow;29;1990;18;18;1553;8;1;0;0;7;0;0.46;0.06;0.52;0.46;0.52;Matches
+185;Islambek Kuat\Islambek-Kuat;kz KAZ;MF;Orenburg;26;1993;1;1;66;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+186;Michał Kucharczyk\Michal-Kucharczyk;pl POL;MF;Ural;28;1991;9;4;422;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+187;Konstantin Kuchayev\Konstantin-Kuchayev;ru RUS;MF;CSKA Moscow;21;1998;17;12;1105;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+188;Fyodor Kudryashov\Fyodor-Kudryashov;ru RUS;DF;Sochi;32;1987;16;15;1337;1;0;0;0;6;1;0.07;0.00;0.07;0.07;0.07;Matches
+189;Denys Kulakov\Denys-Kulakov;ua UKR;DF;Ural;33;1986;20;20;1800;0;4;0;0;2;0;0.00;0.20;0.20;0.00;0.20;Matches
+190;Vladislav Kulik\Vladislav-Kulik;ru RUS;MF;Tambov;34;1985;5;2;118;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+191;Daniil Kulikov\Daniil-Kulikov;ru RUS;MF;Loko Moscow;21;1998;3;1;134;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+192;Artyom Kulishev\Artyom-Kulishev;ru RUS;MFFW;Orenburg;25;1993;13;5;533;3;1;1;1;0;0;0.51;0.17;0.68;0.34;0.51;Matches
+193;Ilya Kutepov\Ilya-Kutepov;ru RUS;DF;Spartak Moscow;26;1993;10;9;727;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+194;Daler Kuzyaev\Daler-Kuzyaev;ru RUS;MF;Zenit;26;1993;12;4;395;0;1;0;0;1;0;0.00;0.23;0.23;0.00;0.23;Matches
+195;Khvicha Kvaratskhelia\Khvicha-Kvaratskhelia;ge GEO;MF;Rubin Kazan;18;2001;18;5;728;2;1;0;0;3;0;0.25;0.12;0.37;0.25;0.37;Matches
+196;Solomon Kvirkvelia\Solomon-Kvirkvelia;ge GEO;DF;Loko Moscow;27;1992;2;1;135;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+197;Dušan Lagator\Dusan-Lagator;me MNE;MFDF;Sochi;25;1994;12;6;683;1;0;0;0;5;0;0.13;0.00;0.13;0.13;0.13;Matches
+198;Jordan Larsson\Jordan-Larsson;se SWE;MFFW;Spartak Moscow;22;1997;16;11;973;4;1;0;0;2;0;0.37;0.09;0.46;0.37;0.46;Matches
+199;Igor Leshchuk\Igor-Leshchuk;ru RUS;GK;Dynamo Mosc;23;1996;7;6;616;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+200;Daniil Lesovoy\Daniil-Lesovoy;ru RUS;MFFW;Arsenal Tula;21;1998;18;13;1288;2;2;0;0;1;0;0.14;0.14;0.28;0.14;0.28;Matches
+201;Mikhail Levashov\Mikhail-Levashov;ru RUS;GK;Arsenal Tula;27;1991;14;14;1260;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+202;Arseny Logashov\Arseny-Logashov;ru RUS;DF;Rostov;27;1991;6;0;123;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+203;Aleksandr Lomovitskiy\Aleksandr-Lomovitskiy;ru RUS;MF;Spartak Moscow;21;1998;1;1;61;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+204;Aleksandr Lomovitskiy\Aleksandr-Lomovitskiy;ru RUS;FWMF;Arsenal Tula;21;1998;16;11;1001;2;0;1;1;6;0;0.18;0.00;0.18;0.09;0.09;Matches
+205;Ayrton Lucas\Ayrton-Lucas;br BRA;DFMF;Spartak Moscow;22;1997;18;18;1539;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+206;Andrey Lunyov\Andrey-Lunyov;ru RUS;GK;Zenit;27;1991;12;12;1080;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+207;Yevgeni Lutsenko\Yevgeni-Lutsenko;ru RUS;FW;Arsenal Tula;32;1987;18;15;1300;9;2;0;0;4;0;0.62;0.14;0.76;0.62;0.76;Matches
+208;Mikhail Lysov\Mikhail-Lysov;ru RUS;FW;Loko Moscow;21;1998;1;0;27;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+209;Vitali Lystsov\Vitali-Lystsov;ru RUS;MFDF;Samara;24;1995;3;2;153;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+210;Stanislav Magkeev\Stanislav-Magkeev;ru RUS;MFDF;Loko Moscow;20;1999;3;2;225;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+211;Hörður Magnússon\Hordur-Magnusson;is ISL;DF;CSKA Moscow;26;1993;18;18;1620;2;1;0;0;5;0;0.11;0.06;0.17;0.11;0.17;Matches
+212;Róbert Mak\Robert-Mak;sk SVK;FWMF;Zenit;28;1991;5;0;54;1;0;0;0;0;0;1.67;0.00;1.67;1.67;1.67;Matches
+213;Denis Makarov\Denis-Makarov;ru RUS;MF;Rubin Kazan;21;1998;1;0;1;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+214;Nikita Makarov\Nikita-Makarov;ru RUS;MF;Rubin Kazan;18;2001;3;1;132;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+215;Aleksandr Maksimenko\Aleksandr-Maksimenko;ru RUS;GK;Spartak Moscow;21;1998;19;19;1710;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+216;Malcom\Malcom;br BRA;MF;Zenit;22;1997;3;1;154;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+217;Nikita Malyarov\Nikita-Malyarov;ru RUS;MF;Orenburg;29;1989;3;3;195;1;0;0;0;1;0;0.46;0.00;0.46;0.46;0.46;Matches
+218;Andrei Malykh\Andrei-Malykh;ru RUS;DFMF;Orenburg;30;1988;15;15;1299;1;2;0;0;2;0;0.07;0.14;0.21;0.07;0.21;Matches
+219;Emanuel Mammana\Emanuel-Mammana;ar ARG;MF;Zenit;23;1996;2;1;32;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+220;Khasan Mamtov\Khasan-Mamtov;ru RUS;FW;Tambov;35;1984;10;2;174;1;0;0;0;1;0;0.52;0.00;0.52;0.52;0.52;Matches
+221;Konstantin Maradishvili\Konstantin-Maradishvili;ru RUS;MF;CSKA Moscow;19;2000;3;0;2;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+222;Timofei Margasov\Timofei-Margasov;ru RUS;DF;Sochi;27;1992;7;4;373;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+223;Guilherme Marinato\Guilherme-Marinato;ru RUS;GK;Loko Moscow;33;1985;18;18;1620;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+224;João Mário\Joao-Mario;pt POR;MFFW;Loko Moscow;26;1993;9;8;778;1;2;0;0;1;0;0.12;0.23;0.35;0.12;0.35;Matches
+225;Ivan Markelov\Ivan-Markelov;ru RUS;MFFW;Tambov;31;1988;5;3;197;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+226;Yevgeni Markov\Yevgeni-Markov;ru RUS;FW;Rubin Kazan;25;1994;14;9;716;4;0;0;0;3;0;0.50;0.00;0.50;0.50;0.50;Matches
+227;Alyaksandr Martynovich\Alyaksandr-Martynovich;by BLR;DF;Krasnodar;31;1987;15;15;1350;1;0;0;0;4;0;0.07;0.00;0.07;0.07;0.07;Matches
+228;Ablaye Mbengue\Ablaye-Mbengue;sn SEN;FW;Akhmat Grozny;27;1992;12;5;572;1;1;0;0;2;1;0.16;0.16;0.31;0.16;0.31;Matches
+229;Lorenzo Melgarejo\Lorenzo-Melgarejo;py PAR;FWMF;Spartak Moscow;28;1990;11;6;603;1;0;0;0;0;0;0.15;0.00;0.15;0.15;0.15;Matches
+230;Georgi Melkadze\Georgi-Melkadze;ru RUS;MFFW;Tambov;22;1997;11;11;936;5;2;0;0;5;0;0.48;0.19;0.67;0.48;0.67;Matches
+231;Georgi Melkadze\Georgi-Melkadze;ru RUS;FWMF;Spartak Moscow;22;1997;2;0;34;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+232;Mikhail Merkulov\Mikhail-Merkulov;ru RUS;DF;Ural;25;1994;18;18;1568;0;1;0;0;1;0;0.00;0.06;0.06;0.00;0.06;Matches
+233;Miha Mevlja\Miha-Mevlja;si SVN;DF;Sochi;29;1990;10;10;860;1;0;0;0;0;0;0.10;0.00;0.10;0.10;0.10;Matches
+234;Konrad Michalak\Konrad-Michalak;pl POL;MF;Akhmat Grozny;21;1997;6;2;230;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+235;Srđan Mijailović\Srdjan-Mijailovic;rs SRB;MF;Samara;25;1993;15;12;1042;1;0;0;0;5;2;0.09;0.00;0.09;0.09;0.09;Matches
+236;Beka Mikeltadze\Beka-Mikeltadze;ge GEO;MF;Rubin Kazan;21;1997;11;3;415;1;0;0;0;2;0;0.22;0.00;0.22;0.22;0.22;Matches
+237;Ivan Miladinović\Ivan-Miladinovic;rs SRB;DF;Sochi;24;1994;14;14;1204;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00;Matches
+238;Aleksei Miranchuk\Aleksei-Miranchuk;ru RUS;MFFW;Loko Moscow;23;1995;17;15;1373;5;2;3;3;1;0;0.33;0.13;0.46;0.13;0.26;Matches
+239;Anton Miranchuk\Anton-Miranchuk;ru RUS;MFFW;Loko Moscow;23;1995;10;9;749;2;1;0;1;1;0;0.24;0.12;0.36;0.24;0.36;Matches
+240;Reziuan Mirzov\Reziuan-Mirzov;ru RUS;MFFW;Spartak Moscow;26;1993;12;4;465;0;1;0;0;2;0;0.00;0.19;0.19;0.00;0.19;Matches
+241;Danijel Miškić\Danijel-Miskic;hr CRO;MF;Orenburg;25;1993;18;18;1600;0;2;0;0;4;1;0.00;0.11;0.11;0.00;0.11;Matches
+242;Magomed Mitrishev\Magomed-Mitrishev;ru RUS;FW;Akhmat Grozny;26;1992;7;2;139;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+243;Pavel Mogilevets\Pavel-Mogilevets;ru RUS;MF;Rubin Kazan;26;1993;15;14;1216;0;2;0;0;2;0;0.00;0.15;0.15;0.00;0.15;Matches
+244;Grigori Morozov\Grigori-Morozov;ru RUS;DFMF;Dynamo Mosc;25;1994;13;10;976;1;0;0;0;1;0;0.09;0.00;0.09;0.09;0.09;Matches
+245;Andrei Mostovoy\Andrei-Mostovoy;ru RUS;FWMF;Sochi;21;1997;17;16;1361;3;3;0;0;1;0;0.20;0.20;0.40;0.20;0.40;Matches
+246;Magomed Musalov\Magomed-Musalov;ru RUS;DF;Akhmat Grozny;25;1994;9;9;773;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+247;Leon Musayev\Leon-Musayev;ru RUS;MF;Zenit;20;1999;2;0;9;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+248;Olabiran Muyiwa\Olabiran-Muyiwa;ng NGA;FW;Tambov;20;1998;8;0;278;1;0;0;0;2;0;0.32;0.00;0.32;0.32;0.32;Matches
+249;Clinton N'Jie\Clinton-NJie;cm CMR;MFFW;Dynamo Mosc;25;1993;14;6;622;1;0;0;0;2;0;0.14;0.00;0.14;0.14;0.14;Matches
+250;Kirill Nababkin\Kirill-Nababkin;ru RUS;DF;CSKA Moscow;32;1986;6;2;251;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+251;Elmir Nabiullin\Elmir-Nabiullin;ru RUS;DFMF;Sochi;24;1995;14;9;863;0;0;0;0;4;1;0.00;0.00;0.00;0.00;0.00;Matches
+252;Younes Namli\Younes-Namli;dk DEN;FWMF;Krasnodar;25;1994;10;6;436;1;1;0;0;2;1;0.21;0.21;0.41;0.21;0.41;Matches
+253;Islamzhan Nasyrov\Islamzhan-Nasyrov;ru RUS;DF;Ural;21;1998;5;1;91;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+254;Ionuț Nedelcearu\Ionut-Nedelcearu;ro ROU;DF;Ufa;23;1996;14;14;1260;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+255;Maksim Nenakhov\Maksim-Nenakhov;ru RUS;DF;Akhmat Grozny;20;1998;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+256;Roman Neustädter\Roman-Neustadter;ru RUS;MF;Dynamo Mosc;31;1988;11;11;954;0;1;0;0;3;0;0.00;0.09;0.09;0.00;0.09;Matches
+257;Artur Nigmatullin\Artur-Nigmatullin;ru RUS;GK;Arsenal Tula;28;1991;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+258;Aleksei Nikitin\Aleksei-Nikitin;ru RUS;DF;Ufa;27;1992;3;3;270;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+259;Takuma Nishimura\Takuma-Nishimura;jp JPN;FW;CSKA Moscow;22;1996;5;1;225;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+260;Zoran Nižić\Zoran-Nizic;hr CRO;DF;Akhmat Grozny;29;1989;14;11;1013;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00;Matches
+261;Christian Noboa\Christian-Noboa;ec ECU;MF;Sochi;34;1985;13;13;1142;2;1;0;0;2;0;0.16;0.08;0.24;0.16;0.24;Matches
+262;Mathias Normann\Mathias-Normann;no NOR;MF;Rostov;23;1996;17;17;1526;1;3;0;0;4;0;0.06;0.18;0.24;0.06;0.24;Matches
+263;Ivan Novoseltsev\Ivan-Novoseltsev;ru RUS;DFMF;Sochi;27;1991;10;10;879;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+264;Ivan Oblyakov\Ivan-Oblyakov;ru RUS;MF;CSKA Moscow;21;1998;19;19;1678;2;4;0;0;7;0;0.11;0.21;0.32;0.11;0.32;Matches
+265;Vladimir Obukhov\Vladimir-Obukhov;ru RUS;FW;Sochi;27;1992;3;1;101;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+266;Vladimir Obukhov\Vladimir-Obukhov;ru RUS;FW;Tambov;27;1992;11;11;967;5;2;1;1;0;0;0.47;0.19;0.65;0.37;0.56;Matches
+267;Kristoffer Olsson\Kristoffer-Olsson;se SWE;MF;Krasnodar;24;1995;18;15;1239;1;1;0;0;5;0;0.07;0.07;0.15;0.07;0.15;Matches
+268;Ivan Ordets\Ivan-Ordets;ua UKR;DF;Dynamo Mosc;27;1992;8;7;631;1;0;0;0;3;1;0.14;0.00;0.14;0.14;0.14;Matches
+269;Viðar Örn Kjartansson\Vidar-Orn-Kjartansson;is ISL;FW;Rubin Kazan;29;1990;16;10;964;1;1;0;0;1;0;0.09;0.09;0.19;0.09;0.19;Matches
+270;Maksim Osipenko\Maksim-Osipenko;ru RUS;DF;Rostov;25;1994;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+271;Maksim Osipenko\Maksim-Osipenko;ru RUS;DFMF;Tambov;25;1994;17;17;1520;1;0;0;0;1;0;0.06;0.00;0.06;0.06;0.06;Matches
+272;Yordan Osorio\Yordan-Osorio;ve VEN;DF;Zenit;25;1994;2;1;119;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+273;Adessoye Oyewole\Adessoye-Oyewole;ru RUS;DF;Tambov;36;1982;19;19;1703;1;1;0;0;6;0;0.05;0.05;0.11;0.05;0.11;Matches
+274;Magomed Ozdoyev\Magomed-Ozdoyev;ru RUS;MF;Zenit;26;1992;18;18;1565;3;2;0;0;8;1;0.17;0.12;0.29;0.17;0.29;Matches
+275;Dzyanis Palyakow\Dzyanis-Palyakow;by BLR;DF;Ural;28;1991;15;14;1305;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+276;Kirill Panchenko\Kirill-Panchenko;ru RUS;MF;Dynamo Mosc;29;1989;13;8;705;2;0;0;1;2;0;0.26;0.00;0.26;0.26;0.26;Matches
+277;Kaio Pantaleão\Kaio-Pantaleao;br BRA;MFDF;Krasnodar;23;1995;3;2;204;0;0;0;0;3;1;0.00;0.00;0.00;0.00;0.00;Matches
+278;Andrei Panyukov\Andrei-Panyukov;ru RUS;FW;Ural;24;1994;16;12;887;3;0;0;0;1;0;0.30;0.00;0.30;0.30;0.30;Matches
+279;Sergei Parshivlyuk\Sergei-Parshivlyuk;ru RUS;DF;Dynamo Mosc;30;1989;15;13;1163;0;1;0;0;2;0;0.00;0.08;0.08;0.00;0.08;Matches
+280;Yevgeni Pesegov\Yevgeni-Pesegov;ru RUS;MF;Sochi;30;1989;4;4;304;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+281;Sergei Pesyakov\Sergei-Pesyakov;ru RUS;GK;Rostov;30;1988;8;8;720;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+282;Sergei Petrov\Sergei-Petrov;ru RUS;DF;Krasnodar;28;1991;20;20;1709;2;3;0;0;3;0;0.11;0.16;0.26;0.11;0.26;Matches
+283;Maximilian Philipp\Maximilian-Philipp;de GER;MFFW;Dynamo Mosc;25;1994;12;9;792;6;0;3;3;2;0;0.68;0.00;0.68;0.34;0.34;Matches
+284;Konstantin Pliyev\Konstantin-Pliyev;ru RUS;DF;Rubin Kazan;22;1996;12;11;990;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+285;Zaurbek Pliyev\Zaurbek-Pliyev;kz KAZ;DF;Dynamo Mosc;27;1991;10;10;800;0;0;0;0;3;1;0.00;0.00;0.00;0.00;0.00;Matches
+286;Vyacheslav Podberyozkin\Vyacheslav-Podberyozkin;ru RUS;MF;Rubin Kazan;27;1992;17;16;1276;0;2;0;0;2;0;0.00;0.14;0.14;0.00;0.14;Matches
+287;Pavel Pogrebnyak\Pavel-Pogrebnyak;ru RUS;FW;Ural;35;1983;11;4;405;2;0;0;0;0;0;0.44;0.00;0.44;0.44;0.44;Matches
+288;Nikolai Poiarkov\Nikolai-Poiarkov;ru RUS;DF;Rubin Kazan;19;1999;6;6;528;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+289;Dmitry Poloz\Dmitry-Poloz;ru RUS;FW;Sochi;28;1991;18;12;1076;3;2;2;2;0;0;0.25;0.17;0.42;0.08;0.25;Matches
+290;Vladimir Poluyakhtov\Vladimir-Poluyakhtov;ru RUS;DF;Samara;30;1989;10;9;885;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+291;Aleksei Pomerko\Aleksei-Pomerko;ru RUS;MF;Sochi;29;1990;10;8;641;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+292;Andrés Ponce\Andres-Ponce;ve VEN;FW;Akhmat Grozny;22;1996;14;9;771;3;0;2;2;2;0;0.35;0.00;0.35;0.12;0.12;Matches
+293;Ezequiel Ponce\Ezequiel-Ponce;ar ARG;FWMF;Spartak Moscow;22;1997;17;10;923;3;0;0;0;2;1;0.29;0.00;0.29;0.29;0.29;Matches
+294;Ivelin Popov\Ivelin-Popov;bg BUL;MF;Rostov;31;1987;18;18;1462;2;2;0;1;5;0;0.12;0.12;0.25;0.12;0.25;Matches
+295;Denis Popović\Denis-Popovic;si SVN;MF;Samara;29;1989;1;1;90;1;0;0;0;1;0;1.00;0.00;1.00;1.00;1.00;Matches
+296;Aleksandr Putsko\Aleksandr-Putsko;ru RUS;DF;Ufa;26;1993;16;16;1391;0;1;0;0;4;1;0.00;0.06;0.06;0.00;0.06;Matches
+297;Uroš Radaković\Uros-Radakovic;rs SRB;DF;Orenburg;25;1994;11;11;990;1;0;0;0;3;0;0.09;0.00;0.09;0.09;0.09;Matches
+298;Dejan Radonjić\Dejan-Radonjic;hr CRO;FW;Samara;29;1990;19;3;542;2;2;0;0;3;0;0.33;0.33;0.66;0.33;0.66;Matches
+299;Yaroslav Rakitskiy\Yaroslav-Rakitskiy;ua UKR;DF;Zenit;29;1989;19;19;1710;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00;Matches
+300;Cristian Ramírez\Cristian-Ramirez;ec ECU;DF;Krasnodar;24;1994;17;15;1385;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00;Matches
+301;Nikolai Rasskazov\Nikolai-Rasskazov;ru RUS;DFMF;Spartak Moscow;21;1998;11;9;895;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+302;Konstantin Rausch\Konstantin-Rausch;ru RUS;DFMF;Dynamo Mosc;29;1990;13;13;1120;0;2;0;0;2;0;0.00;0.16;0.16;0.00;0.16;Matches
+303;Ravanelli\Ravanelli;br BRA;MF;Akhmat Grozny;21;1997;1;1;45;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+304;Artyom Rebrov\Artyom-Rebrov;ru RUS;GK;Spartak Moscow;35;1984;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+305;Emiliano Rigoni\Emiliano-Rigoni;ar ARG;MF;Zenit;26;1993;5;3;200;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+306;Artur Rimovič Jusupov\Artur-Rimovic-Jusupov;ru RUS;MF;Dynamo Mosc;29;1989;16;14;1093;1;0;0;0;6;2;0.08;0.00;0.08;0.08;0.08;Matches
+307;Filip Rogić\Filip-Rogic;se SWE;MF;Orenburg;26;1993;9;9;770;1;1;0;0;2;0;0.12;0.12;0.23;0.12;0.23;Matches
+308;Odise Roshi\Odise-Roshi;al ALB;MF;Akhmat Grozny;28;1991;19;13;1180;4;0;2;2;6;1;0.31;0.00;0.31;0.15;0.15;Matches
+309;Aleksandr Rudenko\Aleksandr-Rudenko;ru RUS;GK;Orenburg;26;1993;3;3;270;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+310;Dmitrii Rybchinskii\Dmitrii-Rybchinskii;ru RUS;MF;Loko Moscow;20;1998;1;0;9;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+311;Maciej Rybus\Maciej-Rybus;pl POL;DF;Loko Moscow;29;1989;12;12;1054;0;3;0;0;4;1;0.00;0.26;0.26;0.00;0.26;Matches
+312;Vladimir Rykov\Vladimir-Rykov;ru RUS;DF;Dynamo Mosc;31;1987;13;13;1142;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+313;Sergey Ryzhikov\Sergey-Ryzhikov;ru RUS;GK;Samara;38;1980;19;19;1710;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+314;Lechii Sadulaev\Lechii-Sadulaev;ru RUS;MF;Akhmat Grozny;19;2000;6;2;210;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+315;Matvei Safonov\Matvei-Safonov;ru RUS;GK;Krasnodar;20;1999;19;19;1710;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+316;Douglas Santos\Douglas-Santos;br BRA;DFMF;Zenit;25;1994;20;20;1800;0;1;0;0;3;0;0.00;0.05;0.05;0.00;0.05;Matches
+317;Lucas Santos\Lucas-Santos;br BRA;FW;CSKA Moscow;20;1999;2;0;56;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+318;Pablo Santos\Pablo-Santos;br BRA;DF;Rubin Kazan;27;1992;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+319;Aleksandr Saplinov\Aleksandr-Saplinov;ru RUS;MF;Rostov;21;1997;13;2;340;1;0;0;0;3;0;0.26;0.00;0.26;0.26;0.26;Matches
+320;Zvonimir Šarlija\Zvonimir-Sarlija;hr CRO;DF;CSKA Moscow;22;1996;11;6;740;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+321;André Schürrle\Andre-Schurrle;de GER;FWMF;Spartak Moscow;28;1990;13;9;829;1;2;0;0;3;0;0.11;0.22;0.33;0.11;0.33;Matches
+322;Andrei Semyonov\Andrei-Semyonov;ru RUS;DF;Akhmat Grozny;30;1989;20;20;1800;1;0;0;0;3;0;0.05;0.00;0.05;0.05;0.05;Matches
+323;Nikita Sergeev\Nikita-Sergeev;ru RUS;FW;Krasnodar;19;1999;1;0;2;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+324;Vitali Shakhov\Vitali-Shakhov;ru RUS;DF;Orenburg;28;1991;13;13;1107;0;0;0;0;5;1;0.00;0.00;0.00;0.00;0.00;Matches
+325;Pavel Shakuro\Pavel-Shakuro;ru RUS;DF;Sochi;22;1997;2;1;120;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+326;Yegor Shamov\Yegor-Shamov;ru RUS;GK;Arsenal Tula;25;1994;5;5;450;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+327;Oleg Shatov\Oleg-Shatov;ru RUS;MF;Zenit;29;1990;8;4;446;2;2;0;0;1;0;0.40;0.40;0.81;0.40;0.81;Matches
+328;Giorgi Shelia\Giorgi-Shelia;ru RUS;GK;Tambov;30;1988;20;20;1800;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+329;Ramil Sheydayev\Ramil-Sheydayev;az AZE;FW;Dynamo Mosc;23;1996;8;5;502;0;1;0;0;0;0;0.00;0.18;0.18;0.00;0.18;Matches
+330;Ilya Shkurin\Ilya-Shkurin;by BLR;FW;CSKA Moscow;19;1999;1;0;18;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+331;Eldor Shomurodov\Eldor-Shomurodov;uz UZB;FW;Rostov;24;1995;20;20;1740;11;4;0;0;3;0;0.57;0.21;0.78;0.57;0.78;Matches
+332;Anton Shunin\Anton-Shunin;ru RUS;GK;Dynamo Mosc;32;1987;14;14;1184;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+333;Anton Shvets\Anton-Shvets;ru RUS;MFDF;Akhmat Grozny;26;1993;14;11;998;0;0;0;0;4;1;0.00;0.00;0.00;0.00;0.00;Matches
+334;Björn Sigurðarson\Bjorn-Sigurdarson;is ISL;FW;Rostov;28;1991;6;1;149;2;0;0;0;1;0;1.21;0.00;1.21;1.21;1.21;Matches
+335;Arnór Sigurðsson\Arnor-Sigurdsson;is ISL;FWMF;CSKA Moscow;20;1999;14;12;906;2;0;0;0;2;0;0.20;0.00;0.20;0.20;0.20;Matches
+336;Ragnar Sigurðsson\Ragnar-Sigurdsson;is ISL;DF;Rostov;33;1986;13;12;1084;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+337;Ismael Silva Lima\Ismael-Silva-Lima;br BRA;MF;Akhmat Grozny;24;1994;20;19;1701;0;1;0;0;3;0;0.00;0.05;0.05;0.00;0.05;Matches
+338;Ricardo Alves Coelho Silva\Ricardo-Alves-Coelho-Silva;pt POR;MF;Orenburg;26;1993;17;17;1388;3;3;0;0;1;0;0.19;0.19;0.39;0.19;0.39;Matches
+339;Mikhail Sivakow\Mikhail-Sivakow;by BLR;DF;Orenburg;31;1988;11;9;862;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+340;Žiga Škoflek\Ziga-Skoflek;si SVN;MFFW;Orenburg;25;1994;7;5;374;1;1;0;0;2;0;0.24;0.24;0.48;0.24;0.48;Matches
+341;Dmitri Skopintsev\Dmitri-Skopintsev;ru RUS;MF;Dynamo Mosc;22;1997;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+342;Dmitri Skopintsev\Dmitri-Skopintsev;ru RUS;MF;Krasnodar;22;1997;5;2;219;1;0;0;0;1;0;0.41;0.00;0.41;0.41;0.41;Matches
+343;Igor Smolnikov\Igor-Smolnikov;ru RUS;DF;Zenit;30;1988;8;8;623;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+344;Fyodor Smolov\Fyodor-Smolov;ru RUS;FW;Loko Moscow;29;1990;14;10;924;3;3;1;1;1;0;0.29;0.29;0.58;0.19;0.49;Matches
+345;Aleksandr Sobolev\Aleksandr-Sobolev;ru RUS;FW;Samara;22;1997;18;18;1583;10;3;2;4;5;0;0.57;0.17;0.74;0.45;0.63;Matches
+346;Aleksandr Sobolev\Aleksandr-Sobolev;ru RUS;FW;Spartak Moscow;22;1997;1;1;83;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+347;Yegor Sorokin\Yegor-Sorokin;ru RUS;DF;Krasnodar;23;1995;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+348;Yegor Sorokin\Yegor-Sorokin;ru RUS;DF;Rubin Kazan;23;1995;14;13;1241;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+349;Samba Sow\Samba-Sow;ml MLI;MF;Dynamo Mosc;30;1989;1;0;10;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+350;Uroš Spajić\Uros-Spajic;rs SRB;DF;Krasnodar;26;1993;15;15;1350;1;0;0;0;5;0;0.07;0.00;0.07;0.07;0.07;Matches
+351;Carl Starfelt\Carl-Starfelt;se SWE;DF;Rubin Kazan;24;1995;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+352;Danil Stepanov\Danil-Stepanov;ru RUS;DF;Rubin Kazan;19;2000;9;7;677;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+353;Dmitry Stotsky\Dmitry-Stotsky;ru RUS;DFMF;Krasnodar;29;1989;12;8;720;0;2;0;0;0;0;0.00;0.25;0.25;0.00;0.25;Matches
+354;Aleksandr Sukhov\Aleksandr-Sukhov;ru RUS;DFMF;Ufa;33;1986;20;20;1800;0;2;0;0;4;0;0.00;0.10;0.10;0.00;0.10;Matches
+355;Timur Suleimanov\Timur-Suleimanov;ru RUS;FW;Loko Moscow;19;2000;1;0;5;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+356;Magomed-Shapi Suleymanov\Magomed-Shapi-Suleymanov;ru RUS;MFFW;Krasnodar;19;1999;18;11;1140;4;4;0;0;4;0;0.32;0.32;0.63;0.32;0.63;Matches
+357;Toni Šunjić\Toni-Sunjic;ba BIH;DF;Dynamo Mosc;30;1988;14;12;1089;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+358;Aleksei Sutormin\Aleksei-Sutormin;ru RUS;MF;Zenit;25;1994;16;6;679;2;1;0;0;2;0;0.27;0.13;0.40;0.27;0.40;Matches
+359;Mamadou Sylla\Mamadou-Sylla;sn SEN;MF;Orenburg;25;1994;1;1;66;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+360;Dmitri Sysuyev\Dmitri-Sysuyev;ru RUS;MF;Ufa;31;1988;2;1;84;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+361;Damian Szymański\Damian-Szymanski;pl POL;MF;Akhmat Grozny;24;1995;4;2;179;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+362;Sebastian Szymański\Sebastian-Szymanski;pl POL;MF;Dynamo Mosc;20;1999;19;17;1474;1;1;0;0;5;0;0.06;0.06;0.12;0.06;0.12;Matches
+363;Jemal Tabidze\Jemal-Tabidze;ge GEO;DF;Ufa;23;1996;16;16;1417;1;1;0;0;2;0;0.06;0.06;0.13;0.06;0.13;Matches
+364;Soslan Takazov\Soslan-Takazov;ru RUS;DFMF;Tambov;26;1993;15;13;1175;1;0;0;0;4;0;0.08;0.00;0.08;0.08;0.08;Matches
+365;Aleksandr Tashayev\Aleksandr-Tashayev;ru RUS;MF;Spartak Moscow;25;1994;3;1;75;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+366;Aleksandr Tashayev\Aleksandr-Tashayev;ru RUS;MF;Rubin Kazan;25;1994;7;7;571;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+367;Anton Terekhov\Anton-Terekhov;ru RUS;MF;Samara;21;1998;10;1;235;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+368;Sergei Terekhov\Sergei-Terekhov;ru RUS;DF;Orenburg;29;1990;19;19;1710;0;2;0;0;3;0;0.00;0.11;0.11;0.00;0.11;Matches
+369;Denis Terentyev\Denis-Terentyev;ru RUS;DF;Zenit;26;1992;2;1;117;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+370;Denis Terentyev\Denis-Terentyev;ru RUS;DF;Ufa;26;1992;5;2;159;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+371;Guram Tetrashvili\Guram-Tetrashvili;ru RUS;MFDF;Tambov;30;1988;19;19;1706;0;2;0;0;6;0;0.00;0.11;0.11;0.00;0.11;Matches
+372;Olivier Thill\Olivier-Thill;lu LUX;MFFW;Ufa;22;1996;18;15;1188;0;2;0;0;2;0;0.00;0.15;0.15;0.00;0.15;Matches
+373;Nair Tiknizyan\Nair-Tiknizyan;ru RUS;MF;CSKA Moscow;20;1999;1;0;1;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+374;Guus Til\Guus-Til;nl NED;MFFW;Spartak Moscow;21;1997;14;10;896;1;2;0;0;3;0;0.10;0.20;0.30;0.10;0.30;Matches
+375;Artyom Timofeyev\Artyom-Timofeyev;ru RUS;MF;Samara;25;1994;13;10;887;0;1;0;0;1;0;0.00;0.10;0.10;0.00;0.10;Matches
+376;Sergei Tkachyov\Sergei-Tkachyov;ru RUS;MFFW;Arsenal Tula;30;1989;18;16;1378;1;7;0;0;2;0;0.07;0.46;0.52;0.07;0.52;Matches
+377;Ibragim Tsallagov\Ibragim-Tsallagov;ru RUS;MF;Sochi;28;1990;18;17;1515;1;0;0;0;6;0;0.06;0.00;0.06;0.06;0.06;Matches
+378;Alexandru Tudorie\Alexandru-Tudorie;ro ROU;FW;Arsenal Tula;23;1996;7;2;202;1;0;0;0;0;0;0.45;0.00;0.45;0.45;0.45;Matches
+379;Roman Tugarev\Roman-Tugarev;ru RUS;MF;Loko Moscow;21;1998;5;1;143;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+380;Nail Umyarov\Nail-Umyarov;ru RUS;MF;Spartak Moscow;19;2000;10;8;709;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+381;Filip Uremović\Filip-Uremovic;hr CRO;DF;Rubin Kazan;22;1997;17;17;1530;0;0;0;0;8;0;0.00;0.00;0.00;0.00;0.00;Matches
+382;Oston Urunov\Oston-Urunov;uz UZB;MF;Ufa;18;2000;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+383;Mohammed Usman\Mohammed-Usman;ng NGA;FW;Tambov;25;1994;1;1;25;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+384;Daniil Utkin\Daniil-Utkin;ru RUS;MF;Krasnodar;19;1999;13;5;470;2;1;0;0;1;0;0.38;0.19;0.57;0.38;0.57;Matches
+385;Rizvan Utsiyev\Rizvan-Utsiyev;ru RUS;DFMF;Akhmat Grozny;31;1988;13;13;1086;0;1;0;0;3;1;0.00;0.08;0.08;0.00;0.08;Matches
+386;Maksim Valadzko\Maksim-Valadzko;by BLR;DFMF;Arsenal Tula;26;1992;1;0;75;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+387;Viktor Vasin\Viktor-Vasin;ru RUS;DF;CSKA Moscow;30;1988;5;5;393;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+388;Danila Vedernikov\Danila-Vedernikov;ru RUS;DF;Rostov;18;2001;1;0;3;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+389;Tonny Vilhena\Tonny-Vilhena;nl NED;MF;Krasnodar;24;1995;17;17;1490;2;0;0;0;6;1;0.12;0.00;0.12;0.12;0.12;Matches
+390;Aleksei Vladimirovich Rybin\Aleksei-Vladimirovich-Rybin;ru RUS;DFMF;Tambov;31;1988;12;12;1027;0;1;0;0;1;0;0.00;0.09;0.09;0.00;0.09;Matches
+391;Nikola Vlašić\Nikola-Vlasic;hr CRO;MFFW;CSKA Moscow;21;1997;20;20;1771;7;4;2;3;2;0;0.36;0.20;0.56;0.25;0.46;Matches
+392;Andrés Vombergar\Andres-Vombergar;si SVN;FW;Ufa;24;1994;9;2;256;1;0;0;0;3;0;0.35;0.00;0.35;0.35;0.35;Matches
+393;Wanderson\Wanderson;br BRA;FWMF;Krasnodar;24;1994;13;12;1127;2;2;0;0;2;0;0.16;0.16;0.32;0.16;0.32;Matches
+394;Maciej Wilusz\Maciej-Wilusz;pl POL;DF;Ural;30;1988;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+395;Dmitry Yefremov\Dmitry-Yefremov;ru RUS;MF;CSKA Moscow;24;1995;2;1;28;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+396;Andrei Yegorychev\Andrei-Yegorychev;ru RUS;MF;Ural;26;1993;17;9;922;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+397;Roman Yemelyanov\Roman-Yemelyanov;ru RUS;DFMF;Ural;27;1992;9;9;751;0;0;0;0;5;1;0.00;0.00;0.00;0.00;0.00;Matches
+398;Andrey Yeshchenko\Andrey-Yeshchenko;ru RUS;DF;Spartak Moscow;35;1984;8;6;492;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+399;Roman Yevgenyev\Roman-Yevgenyev;ru RUS;DF;Dynamo Mosc;20;1999;12;9;841;0;1;0;0;3;0;0.00;0.11;0.11;0.00;0.11;Matches
+400;Igor Yurganov\Igor-Yurganov;ru RUS;DF;Sochi;25;1993;9;6;552;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+401;Artyom Yusupov\Artyom-Yusupov;ru RUS;FW;Ural;22;1997;1;0;2;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+402;Anton Zabolotny\Anton-Zabolotny;ru RUS;FW;Sochi;28;1991;13;9;840;2;2;0;0;3;0;0.21;0.21;0.43;0.21;0.43;Matches
+403;Nikolai Zabolotny\Nikolai-Zabolotny;ru RUS;GK;Sochi;29;1990;4;4;360;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+404;Kirill Zaika\Kirill-Zaika;ru RUS;MF;Sochi;26;1992;1;1;79;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+405;Baktiyor Zainutdinov\Baktiyor-Zainutdinov;kz KAZ;MF;Rostov;21;1998;10;4;506;3;0;0;0;2;0;0.53;0.00;0.53;0.53;0.53;Matches
+406;Kamil Zakirov\Kamil-Zakirov;ru RUS;MF;Rubin Kazan;20;1998;3;1;85;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+407;Azamat Zaseyev\Azamat-Zaseyev;ru RUS;DFMF;Ufa;31;1988;1;0;6;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+408;Mehdi Zeffane\Mehdi-Zeffane;dz ALG;DF;Samara;27;1992;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+409;Rifat Zhemaletdinov\Rifat-Zhemaletdinov;ru RUS;MF;Loko Moscow;22;1996;14;13;1119;1;2;0;0;4;0;0.08;0.16;0.24;0.08;0.24;Matches
+410;Yuri Zhirkov\Yuri-Zhirkov;ru RUS;DFMF;Zenit;35;1983;15;9;837;2;2;0;0;2;0;0.22;0.22;0.43;0.22;0.43;Matches
+411;Dmitri Zhivoglyadov\Dmitri-Zhivoglyadov;ru RUS;DFMF;Loko Moscow;25;1994;10;9;776;0;1;0;0;4;0;0.00;0.12;0.12;0.00;0.12;Matches
+412;Anton Zinkovskiy\Anton-Zinkovskiy;ru RUS;MF;Samara;23;1996;19;15;1330;0;6;0;0;0;0;0.00;0.41;0.41;0.00;0.41;Matches
+413;Roman Zobnin\Roman-Zobnin;ru RUS;MFDF;Spartak Moscow;25;1994;18;17;1547;1;0;0;0;2;0;0.06;0.00;0.06;0.06;0.06;Matches
+414;Nikolay Zolotov\Nikolay-Zolotov;by BLR;DF;Ural;24;1994;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+415;Georgi Zotov\Georgi-Zotov;ru RUS;DFMF;Orenburg;29;1990;12;11;954;1;1;0;0;2;1;0.09;0.09;0.19;0.09;0.19;Matches
+416;Aleksandr Zuyev\Aleksandr-Zuyev;ru RUS;MFDF;Rubin Kazan;23;1996;9;9;727;0;0;0;0;3;1;0.00;0.00;0.00;0.00;0.00;Matches
+417;Aleksandr Zuyev\Aleksandr-Zuyev;ru RUS;MF;Rostov;23;1996;7;1;184;1;1;0;0;1;0;0.49;0.49;0.98;0.49;0.98;Matches
+418;Luka Đorđević\Luka-Djordjevic;me MNE;FW;Loko Moscow;25;1994;4;1;80;0;1;0;0;0;0;0.00;1.13;1.13;0.00;1.13;Matches

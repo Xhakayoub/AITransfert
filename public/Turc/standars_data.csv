@@ -1,0 +1,521 @@
+"id";"name";"nation";"position";"team";"age";"born";"MP";"Starts";"Min";"Gls";"Ast";"PK";"PKatt";"CrdY";"CrdR";"Gls_per_match";"Ast_per_match";"G_A_per_match";"G_PK_per_match";"G_A_PK_per_match";"Matches"
+1;Mohamed Abarhoun\Mohamed-Abarhoun;ma MAR;DF;Rizespor;30;1989;20;19;1738;2;0;0;0;2;0;0.10;0.00;0.10;0.10;0.10;Matches
+2;Aymen Abdennour\Aymen-Abdennour;tn TUN;DF;Kayserispor;29;1989;12;11;901;0;0;0;0;4;1;0.00;0.00;0.00;0.00;0.00;Matches
+3;Afriyie Acquah\Afriyie-Acquah;gh GHA;MF;Yeni Mal'spor;27;1992;18;16;1434;0;3;0;0;5;0;0.00;0.19;0.19;0.00;0.19;Matches
+4;Emmanuel Adebayor\Emmanuel-Adebayor;tg TOG;FW;Kayserispor;35;1984;8;8;670;2;1;1;1;1;0;0.27;0.13;0.40;0.13;0.27;Matches
+5;Adryan\Adryan;br BRA;FWMF;Kayserispor;24;1994;3;0;91;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+6;Sedat Ağçay\Sedat-Agcay;tr TUR;MF;Ankaragücü;37;1981;19;19;1413;0;2;0;0;5;1;0.00;0.13;0.13;0.00;0.13;Matches
+7;Ismaïl Aissati\Ismail-Aissati;ma MAR;MF;Denizlispor;30;1988;23;19;1733;0;5;0;0;4;0;0.00;0.26;0.26;0.00;0.26;Matches
+8;Emre Akbaba\Emre-Akbaba;tr TUR;MF;Galatasaray;26;1992;7;5;412;2;0;0;0;0;0;0.44;0.00;0.44;0.44;0.44;Matches
+9;Mustafa Akbaş\Mustafa-Akbas;tr TUR;DF;Yeni Mal'spor;29;1990;14;13;1144;0;0;0;0;3;2;0.00;0.00;0.00;0.00;0.00;Matches
+10;Halil Akbunar\Halil-Akbunar;tr TUR;MFFW;Göztepe;25;1993;23;17;1511;5;1;0;0;3;0;0.30;0.06;0.36;0.30;0.36;Matches
+11;Yunus Akgün\Yunus-Akgun;tr TUR;FW;Galatasaray;19;2000;1;0;7;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+12;Gökhan Akkan\Gokhan-Akkan;tr TUR;GK;Rizespor;24;1995;20;20;1766;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+13;Atakan Akkaynak\Atakan-Akkaynak;de GER;MF;Rizespor;20;1999;1;0;9;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+14;Fatih Aksoy\Fatih-Aksoy;tr TUR;MF;Sivasspor;21;1997;15;15;1242;0;1;0;0;6;0;0.00;0.07;0.07;0.00;0.07;Matches
+15;Aksel Aktas\Aksel-Aktas;tr TUR;MF;Kayserispor;20;1999;10;1;151;0;1;0;0;1;0;0.00;0.60;0.60;0.00;0.60;Matches
+16;Kubilay Aktaş\Kubilay-Aktas;tr TUR;MFDF;Gaziantep FK;24;1995;2;2;180;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+17;Ufuk Akyol\Ufuk-Akyol;de GER;MF;Antalyaspor;21;1997;19;17;1380;2;0;0;0;4;0;0.13;0.00;0.13;0.13;0.13;Matches
+18;Mehmet Akyüz\Mehmet-Akyuz;tr TUR;FW;Denizlispor;33;1986;7;1;172;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+19;Burak Albayrak\Burak-Albayrak;tr TUR;DF;Rizespor;21;1998;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+20;Eren Albayrak\Eren-Albayrak;tr TUR;DF;Antalyaspor;28;1991;9;7;669;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+21;Danijel Aleksić\Danijel-Aleksic;rs SRB;MF;Başakşehir;28;1991;15;7;736;4;1;0;0;2;0;0.49;0.12;0.61;0.49;0.61;Matches
+22;Hasan Ali Kaldırım\Hasan-Ali-Kaldirim;tr TUR;DF;Fenerbahçe;29;1989;9;8;715;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+23;Ömer Ali Şahiner\Omer-Ali-Sahiner;tr TUR;MFFW;Konyaspor;27;1992;22;22;1868;3;0;0;0;4;1;0.14;0.00;0.14;0.14;0.14;Matches
+24;Barış Alıcı\Baris-Alici;tr TUR;MF;Rizespor;22;1997;7;0;138;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+25;Ziya Alkurt\Ziya-Alkurt;tr TUR;MF;Kayserispor;28;1990;11;6;702;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+26;Harun Alpsoy\Harun-Alpsoy;ch SUI;MF;Antalyaspor;22;1997;3;0;35;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+27;Gökhan Alsan\Gokhan-Alsan;tr TUR;MF;Gaziantep FK;29;1990;1;0;13;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+28;Emircan Altıntaş\Emircan-Altintas;tr TUR;MF;Alanyaspor;24;1995;1;0;15;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+29;Hüseyin Altıntaş\Huseyin-Altintas;tr TUR;GK;Denizlispor;24;1994;1;0;;0;0;0;0;1;0;;;;;;Matches
+30;Amilton\Amilton;br BRA;MFFW;Antalyaspor;29;1989;18;14;1262;1;0;0;0;2;0;0.07;0.00;0.07;0.07;0.07;Matches
+31;Florin Andone\Florin-Andone;ro ROU;FW;Galatasaray;26;1993;7;6;462;2;0;1;1;1;0;0.39;0.00;0.39;0.19;0.19;Matches
+32;Diego Ângelo\Diego-Angelo;br BRA;DF;Antalyaspor;33;1986;15;15;1344;1;2;0;0;3;1;0.07;0.13;0.20;0.07;0.20;Matches
+33;Diego Ângelo\Diego-Angelo;br BRA;DF;Kayserispor;33;1986;5;5;450;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+34;Marin Aničić\Marin-Anicic;ba BIH;DF;Konyaspor;29;1989;20;20;1800;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+35;Taylan Antalyalı\Taylan-Antalyali;tr TUR;MF;Galatasaray;24;1995;8;2;250;1;0;0;0;0;0;0.36;0.00;0.36;0.36;0.36;Matches
+36;Aaron Appindangoyé\Aaron-Appindangoye;ga GAB;DF;Sivasspor;27;1992;24;24;2160;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+37;Hakan Arslan\Hakan-Arslan;tr TUR;MF;Sivasspor;31;1988;23;23;2070;6;2;0;0;6;0;0.26;0.09;0.35;0.26;0.35;Matches
+38;Tolgay Arslan\Tolgay-Arslan;de GER;MF;Fenerbahçe;28;1990;8;1;84;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+39;Muhammet Arslantaş\Muhammet-Arslantas;tr TUR;FW;Başakşehir;18;2001;1;0;2;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+40;Serkan Asan\Serkan-Asan;tr TUR;DF;Trabzonspor;20;1999;3;1;123;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+41;Kerem Atakan Kesgin\Kerem-Atakan-Kesgin;tr TUR;MF;Göztepe;18;2000;1;0;5;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+42;Donis Avdijaj\Donis-Avdijaj;xk KVX;MF;Trabzonspor;22;1996;8;3;239;1;1;0;0;1;0;0.38;0.38;0.75;0.38;0.75;Matches
+43;Selim Ay\Selim-Ay;tr TUR;DF;Konyaspor;28;1991;10;10;900;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+44;Berat Ayberk Özdemir\Berat-Ayberk-Ozdemir;tr TUR;MF;Gençlerbirliği;21;1998;21;14;1237;1;0;0;0;4;0;0.07;0.00;0.07;0.07;0.07;Matches
+45;Soner Aydoğdu\Soner-Aydogdu;tr TUR;MF;Başakşehir;28;1991;1;1;64;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+46;Soner Aydoğdu\Soner-Aydogdu;tr TUR;MF;Göztepe;28;1991;20;20;1686;3;6;0;1;7;0;0.16;0.32;0.48;0.16;0.48;Matches
+47;Ender Aygören\Ender-Aygoren;tr TUR;MF;Ankaragücü;19;2000;1;0;25;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+48;Yalçın Ayhan\Yalcin-Ayhan;tr TUR;DF;Ankaragücü;37;1982;4;1;96;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+49;Floyd Ayité\Floyd-Ayite;tg TOG;MFFW;Gençlerbirliği;30;1988;14;9;909;3;0;0;0;0;0;0.30;0.00;0.30;0.30;0.30;Matches
+50;Sakıb Aytaç\Sakib-Aytac;tr TUR;DF;Yeni Mal'spor;27;1991;17;17;1496;0;1;0;0;4;0;0.00;0.06;0.06;0.00;0.06;Matches
+51;Abdul Aziz Tetteh\Abdul-Aziz-Tetteh;gh GHA;MF;Gaziantep FK;29;1990;6;6;460;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+52;Serdar Aziz\Serdar-Aziz;tr TUR;DF;Fenerbahçe;28;1990;16;16;1374;3;0;0;0;7;0;0.20;0.00;0.20;0.20;0.20;Matches
+53;Demba Ba\Demba-Ba;sn SEN;FWMF;Başakşehir;34;1985;18;9;992;8;2;1;1;4;0;0.73;0.18;0.91;0.64;0.82;Matches
+54;Mame Baba Thiam\Mame-Baba-Thiam;sn SEN;MFFW;Kasımpaşa;26;1992;15;14;1176;6;1;0;0;4;0;0.46;0.08;0.54;0.46;0.54;Matches
+55;Ryan Babel\Ryan-Babel;nl NED;MFFW;Galatasaray;32;1986;15;13;1243;5;0;1;1;5;0;0.36;0.00;0.36;0.29;0.29;Matches
+56;Baiano\Baiano;br BRA;DF;Alanyaspor;32;1987;9;9;728;0;2;0;0;3;0;0.00;0.25;0.25;0.00;0.25;Matches
+57;Fabrício Baiano\Fabricio-Baiano;br BRA;MFDF;Gençlerbirliği;27;1992;19;18;1492;0;0;0;0;7;0;0.00;0.00;0.00;0.00;0.00;Matches
+58;Riad Bajić\Riad-Bajic;ba BIH;FW;Konyaspor;25;1994;19;12;1077;1;1;0;0;1;0;0.08;0.08;0.17;0.08;0.17;Matches
+59;Anastasios Bakasetas\Anastasios-Bakasetas;gr GRE;MF;Alanyaspor;26;1993;24;24;1999;6;4;0;0;3;0;0.27;0.18;0.45;0.27;0.45;Matches
+60;Göktuğ Bakırbaş\Goktug-Bakirbas;tr TUR;GK;Göztepe;23;1996;4;2;262;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+61;Bünyamin Balcı\Bunyamin-Balci;tr TUR;DF;Antalyaspor;19;2000;7;6;585;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+62;Yacine Bammou\Yacine-Bammou;ma MAR;FWMF;Alanyaspor;27;1991;16;5;528;1;0;0;0;1;0;0.17;0.00;0.17;0.17;0.17;Matches
+63;Modou Barrow\Modou-Barrow;gm GAM;MF;Denizlispor;26;1992;22;21;1720;3;2;0;0;3;1;0.16;0.10;0.26;0.16;0.26;Matches
+64;Bilal Başaçıkoğlu\Bilal-Basacikoglu;tr TUR;MFFW;Kayserispor;24;1995;11;5;483;0;3;0;0;1;0;0.00;0.56;0.56;0.00;0.56;Matches
+65;Bilal Başaçıkoğlu\Bilal-Basacikoglu;tr TUR;FWMF;Trabzonspor;24;1995;1;0;3;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+66;Altay Bayındır\Altay-Bayindir;tr TUR;GK;Fenerbahçe;21;1998;24;24;2160;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+67;Emin Bayram\Emin-Bayram;tr TUR;DF;Galatasaray;16;2003;1;0;;0;0;0;0;0;0;;;;;;Matches
+68;Ömer Bayram\Omer-Bayram;tr TUR;MF;Galatasaray;28;1991;20;18;1641;1;10;0;0;6;0;0.05;0.55;0.60;0.05;0.60;Matches
+69;Aziz Behich\Aziz-Behich;au AUS;DF;Başakşehir;28;1990;4;4;328;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+70;Younès Belhanda\Younes-Belhanda;ma MAR;MF;Galatasaray;29;1990;14;13;1115;3;1;3;3;6;1;0.24;0.08;0.32;0.00;0.08;Matches
+71;Emre Belözoğlu\Emre-Belozoglu;tr TUR;MF;Fenerbahçe;38;1980;18;13;1099;1;4;1;2;4;0;0.08;0.33;0.41;0.00;0.33;Matches
+72;Syam Ben Youssef\Syam-Ben-Youssef;tn TUN;DF;Kasımpaşa;30;1989;15;15;1350;1;0;0;0;4;0;0.07;0.00;0.07;0.07;0.07;Matches
+73;Syam Ben Youssef\Syam-Ben-Youssef;tn TUN;DF;Denizlispor;30;1989;2;2;180;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+74;Zakarya Bergdich\Zakarya-Bergdich;ma MAR;DF;Denizlispor;30;1989;14;14;1215;1;2;0;0;4;0;0.07;0.15;0.22;0.07;0.22;Matches
+75;Rahmetullah Berişbek\Rahmetullah-Berisbek;tr TUR;MF;Gençlerbirliği;20;1999;14;1;257;1;1;0;0;1;0;0.35;0.35;0.70;0.35;0.70;Matches
+76;Beto\Beto;pt POR;GK;Göztepe;37;1982;21;21;1804;0;0;0;0;4;1;0.00;0.00;0.00;0.00;0.00;Matches
+77;Thievy Bifouma\Thievy-Bifouma;cg CGO;MFFW;Yeni Mal'spor;27;1992;18;14;1266;6;1;0;0;2;0;0.43;0.07;0.50;0.43;0.50;Matches
+78;Tayfur Bingöl\Tayfur-Bingol;tr TUR;MF;Alanyaspor;26;1993;1;0;4;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+79;André Biyogo Poko\Andre-Biyogo-Poko;ga GAB;MF;Göztepe;26;1993;9;8;626;0;0;0;0;3;1;0.00;0.00;0.00;0.00;0.00;Matches
+80;Mattias Bjärsmyr\Mattias-Bjarsmyr;se SWE;DF;Gençlerbirliği;33;1986;8;7;630;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+81;Gustavo Blanco Leschuk\Gustavo-Blanco-Leschuk;ar ARG;FW;Antalyaspor;27;1991;16;11;1136;3;2;0;0;3;0;0.24;0.16;0.40;0.24;0.40;Matches
+82;Kevin-Prince Boateng\Kevin-Prince-Boateng;gh GHA;MF;Beşiktaş;32;1987;5;3;307;2;0;0;0;1;0;0.59;0.00;0.59;0.59;0.59;Matches
+83;Ruud Boffin\Ruud-Boffin;be BEL;GK;Antalyaspor;31;1987;16;16;1440;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+84;Fernando Boldrin\Fernando-Boldrin;br BRA;MFFW;Rizespor;30;1989;20;20;1771;4;1;1;2;3;0;0.20;0.05;0.25;0.15;0.20;Matches
+85;Celso Borges\Celso-Borges;cr CRC;MFDF;Göztepe;31;1988;12;6;589;1;0;0;0;1;0;0.15;0.00;0.15;0.15;0.15;Matches
+86;Andriy Boryachuk\Andriy-Boryachuk;ua UKR;DFFW;Rizespor;23;1996;1;0;7;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+87;Tyler Boyd\Tyler-Boyd;us USA;MF;Beşiktaş;24;1994;13;7;565;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+88;Tomáš Břečka\Tomas-Brecka;cz CZE;DF;Kasımpaşa;25;1994;7;7;553;1;0;0;0;1;0;0.16;0.00;0.16;0.16;0.16;Matches
+89;Onur Bulut\Onur-Bulut;tr TUR;DF;Alanyaspor;25;1994;14;9;868;1;3;0;0;2;0;0.10;0.31;0.41;0.10;0.41;Matches
+90;Umut Bulut\Umut-Bulut;tr TUR;FW;Yeni Mal'spor;36;1983;6;4;391;1;1;0;0;0;0;0.23;0.23;0.46;0.23;0.46;Matches
+91;Umut Bulut\Umut-Bulut;tr TUR;MFFW;Kayserispor;36;1983;11;11;905;3;0;0;0;3;1;0.30;0.00;0.30;0.30;0.30;Matches
+92;Adem Büyük\Adem-Buyuk;tr TUR;FWMF;Galatasaray;31;1987;20;8;844;6;0;2;2;3;0;0.64;0.00;0.64;0.43;0.43;Matches
+93;Musa Çağıran\Musa-Cagiran;tr TUR;MF;Alanyaspor;26;1992;13;3;329;0;1;0;0;0;0;0.00;0.27;0.27;0.00;0.27;Matches
+94;Rahman Çağıran\Rahman-Cagiran;tr TUR;MF;Yeni Mal'spor;24;1995;5;1;123;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+95;Oğulcan Çağlayan\Ogulcan-Caglayan;tr TUR;FWMF;Rizespor;23;1996;18;13;1142;3;2;0;0;4;0;0.24;0.16;0.39;0.24;0.39;Matches
+96;Júnior Caiçara\Junior-Caicara;br BRA;DF;Başakşehir;30;1989;23;23;2070;0;3;0;0;1;0;0.00;0.13;0.13;0.00;0.13;Matches
+97;Uğurcan Çakır\Ugurcan-Cakir;tr TUR;GK;Trabzonspor;23;1996;22;22;1946;0;1;0;0;5;0;0.00;0.05;0.05;0.00;0.05;Matches
+98;Burak Çalık\Burak-Calik;tr TUR;MF;Denizlispor;30;1989;3;1;88;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+99;Samba Camara\Samba-Camara;fr FRA;DF;Sivasspor;26;1992;2;1;131;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+100;Tarık Çamdal\Tarik-Camdal;tr TUR;DFMF;Antalyaspor;28;1991;4;3;276;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+101;Ali Çamdalı\Ali-Camdali;tr TUR;MF;Konyaspor;35;1984;2;0;55;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+102;Gustavo Campanharo\Gustavo-Campanharo;br BRA;MF;Kayserispor;27;1992;7;6;565;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+103;Gastón Campi\Gaston-Campi;ar ARG;DF;Trabzonspor;28;1991;15;14;1260;0;1;0;0;4;0;0.00;0.07;0.07;0.00;0.07;Matches
+104;Djalma Campos\Djalma-Campos;ao ANG;MF;Alanyaspor;32;1987;19;9;966;4;3;0;0;1;0;0.37;0.28;0.65;0.37;0.65;Matches
+105;Mücahit Can Akçay\Mucahit-Can-Akcay;tr TUR;FW;Konyaspor;21;1998;7;1;105;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+106;Ahmet Can Arık\Ahmet-Can-Arik;tr TUR;DF;Ankaragücü;21;1997;1;0;;0;0;0;0;0;0;;;;;;Matches
+107;Osman Can Çötür\Osman-Can-Cotur;tr TUR;DF;Kayserispor;17;2001;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+108;Ahmet Canbaz\Ahmet-Canbaz;tr TUR;MF;Trabzonspor;21;1998;4;1;67;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+109;Daniel Candeias\Daniel-Candeias;pt POR;MF;Gençlerbirliği;31;1988;23;23;1951;3;4;0;0;8;0;0.14;0.18;0.32;0.14;0.32;Matches
+110;Héctor Canteros\Hector-Canteros;ar ARG;MF;Ankaragücü;30;1989;14;12;1055;1;1;0;0;4;0;0.09;0.09;0.17;0.09;0.17;Matches
+111;Oğuzhan Çapar\Oguzhan-Capar;tr TUR;DF;Kayserispor;22;1996;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+112;José Carlos Marafona\Jose-Carlos-Marafona;pt POR;GK;Alanyaspor;32;1987;24;24;2160;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+113;André Castro\Andre-Castro;pt POR;MF;Göztepe;31;1988;21;16;1534;3;0;0;0;2;0;0.18;0.00;0.18;0.18;0.18;Matches
+114;Steven Caulker\Steven-Caulker;eng ENG;DF;Alanyaspor;27;1991;20;19;1720;0;4;0;0;1;0;0.00;0.21;0.21;0.00;0.21;Matches
+115;Özgür Çek\Ozgur-Cek;tr TUR;DF;Kasımpaşa;28;1991;4;3;288;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+116;Özgür Çek\Ozgur-Cek;tr TUR;DF;Denizlispor;28;1991;5;4;392;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+117;Alpay Çelebi\Alpay-Celebi;tr TUR;DF;Kayserispor;20;1999;1;1;5;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+118;Muğdat Çelik\Mugdat-Celik;tr TUR;FW;Gaziantep FK;29;1990;1;0;25;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+119;Korcan Çelikay\Korcan-Celikay;tr TUR;GK;Ankaragücü;31;1987;20;20;1800;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+120;Ondřej Čelůstka\Ondrej-Celustka;cz CZE;DF;Antalyaspor;30;1989;21;21;1876;1;0;0;0;4;0;0.05;0.00;0.05;0.05;0.05;Matches
+121;Tarık Çetin\Tarik-Cetin;tr TUR;GK;Rizespor;22;1997;2;1;87;0;0;0;0;0;1;0.00;0.00;0.00;0.00;0.00;Matches
+122;Oğuz Ceylan\Oguz-Ceylan;tr TUR;DFMF;Gaziantep FK;28;1990;21;21;1890;1;1;0;0;8;0;0.05;0.05;0.10;0.05;0.10;Matches
+123;Ghaylène Chaalali\Ghaylene-Chaalali;tn TUN;MF;Yeni Mal'spor;25;1994;9;6;547;0;1;0;0;4;0;0.00;0.16;0.16;0.00;0.16;Matches
+124;Aatif Chahechouhe\Aatif-Chahechouhe;ma MAR;MFFW;Antalyaspor;33;1986;17;13;1066;1;0;0;1;0;0;0.08;0.00;0.08;0.08;0.08;Matches
+125;Dimitris Chatziisaias\Dimitris-Chatziisaias;gr GRE;DF;Rizespor;26;1992;9;8;680;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+126;Issam Chebake\Issam-Chebake;ma MAR;DF;Yeni Mal'spor;29;1989;17;17;1483;1;1;0;0;4;0;0.06;0.06;0.12;0.06;0.12;Matches
+127;Aurélien Chedjou\Aurelien-Chedjou;cm CMR;DF;Başakşehir;34;1985;2;2;180;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+128;Raman Chibsah\Raman-Chibsah;gh GHA;MF;Gaziantep FK;26;1993;21;10;1112;1;0;0;0;5;0;0.08;0.00;0.08;0.08;0.08;Matches
+129;Chico\Chico;br BRA;MFDF;Antalyaspor;32;1987;15;10;920;1;0;0;0;0;0;0.10;0.00;0.10;0.10;0.10;Matches
+130;Nadir Çiftçi\Nadir-Ciftci;nl NED;MFFW;Gençlerbirliği;27;1992;13;5;464;0;0;0;0;3;1;0.00;0.00;0.00;0.00;0.00;Matches
+131;Uğur Çiftçi\Ugur-Ciftci;tr TUR;DF;Sivasspor;27;1992;18;18;1529;1;2;0;0;6;1;0.06;0.12;0.18;0.06;0.18;Matches
+132;Sadık Çiftpınar\Sadik-Ciftpinar;tr TUR;DF;Fenerbahçe;26;1993;4;2;133;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+133;Tolga Ciğerci\Tolga-Cigerci;tr TUR;MF;Fenerbahçe;27;1992;20;17;1331;2;2;0;0;2;0;0.14;0.14;0.27;0.14;0.27;Matches
+134;Orkan Çınar\Orkan-Cinar;tr TUR;MF;Ankaragücü;23;1996;2;0;28;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+135;Orkan Çınar\Orkan-Cinar;tr TUR;MF;Beşiktaş;23;1996;3;0;44;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+136;Şamil Çinaz\Samil-Cinaz;tr TUR;MF;Kayserispor;33;1986;5;5;373;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+137;İsmail Çipe\Ismail-Cipe;tr TUR;GK;Kayserispor;24;1995;5;5;450;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+138;Papiss Cissé\Papiss-Cisse;sn SEN;FW;Alanyaspor;34;1985;23;20;1849;16;1;2;3;4;0;0.78;0.05;0.83;0.68;0.73;Matches
+139;Emirhan Civelek\Emirhan-Civelek;tr TUR;DF;Kayserispor;19;2000;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+140;Gaël Clichy\Gael-Clichy;fr FRA;DF;Başakşehir;34;1985;21;21;1890;2;3;0;0;2;0;0.10;0.14;0.24;0.10;0.24;Matches
+141;Isaac Cofie\Isaac-Cofie;gh GHA;MF;Sivasspor;27;1991;11;6;423;0;1;0;0;4;1;0.00;0.21;0.21;0.00;0.21;Matches
+142;Kamil Çörekçi\Kamil-Corekci;tr TUR;MFDF;Trabzonspor;27;1992;12;10;899;0;1;0;0;2;0;0.00;0.10;0.10;0.00;0.10;Matches
+143;Manuel da Costa\Manuel-da-Costa;ma MAR;DF;Trabzonspor;33;1986;3;3;270;1;0;0;0;1;0;0.33;0.00;0.33;0.33;0.33;Matches
+144;Enzo Crivelli\Enzo-Crivelli;fr FRA;FW;Başakşehir;24;1995;21;21;1788;9;1;0;0;8;0;0.45;0.05;0.50;0.45;0.50;Matches
+145;Erdon Daci\Erdon-Daci;mk MKD;MFFW;Konyaspor;21;1998;16;6;617;1;2;0;0;2;0;0.15;0.29;0.44;0.15;0.44;Matches
+146;Nill De Pauw\Nill-De-Pauw;be BEL;MFFW;Rizespor;29;1990;7;6;425;0;2;0;0;1;0;0.00;0.42;0.42;0.00;0.42;Matches
+147;Emre Demir\Emre-Demir;tr TUR;MFFW;Kayserispor;15;2004;11;5;501;1;0;0;0;1;0;0.18;0.00;0.18;0.18;0.18;Matches
+148;Muhammet Demir\Muhammet-Demir;tr TUR;FW;Gaziantep FK;27;1992;14;9;704;2;0;0;2;1;0;0.26;0.00;0.26;0.26;0.26;Matches
+149;Uğur Demirok\Ugur-Demirok;tr TUR;DF;Konyaspor;31;1988;3;3;270;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+150;İlhan Depe\Ilhan-Depe;tr TUR;MF;Kasımpaşa;26;1992;23;7;817;0;3;0;0;2;0;0.00;0.33;0.33;0.00;0.33;Matches
+151;Eren Derdiyok\Eren-Derdiyok;ch SUI;FW;Göztepe;31;1988;5;3;266;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+152;Abdoulay Diaby\Abdoulay-Diaby;ml MLI;MF;Beşiktaş;28;1991;22;16;1342;2;0;0;0;0;0;0.13;0.00;0.13;0.13;0.13;Matches
+153;Fallou Diagne\Fallou-Diagne;sn SEN;DF;Konyaspor;29;1989;4;3;270;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+154;Mbaye Diagne\Mbaye-Diagne;sn SEN;FW;Galatasaray;27;1991;3;3;203;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+155;Abdoulaye Diallo\Abdoulaye-Diallo;sn SEN;GK;Gençlerbirliği;27;1992;4;4;360;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+156;Sadio Diallo\Sadio-Diallo;gn GUI;MF;Gençlerbirliği;28;1990;6;1;158;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+157;Souleymane Diarra\Souleymane-Diarra;ml MLI;MF;Gaziantep FK;24;1995;20;12;1136;2;0;0;0;8;0;0.16;0.00;0.16;0.16;0.16;Matches
+158;Soner Dikmen\Soner-Dikmen;tr TUR;MF;Gençlerbirliği;25;1993;3;0;59;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+159;Ismaël Diomandé\Ismael-Diomande;ci CIV;MF;Rizespor;26;1992;17;14;1202;0;0;0;0;8;1;0.00;0.00;0.00;0.00;0.00;Matches
+160;Nabil Dirar\Nabil-Dirar;ma MAR;DF;Fenerbahçe;33;1986;20;19;1687;2;0;0;0;5;0;0.11;0.00;0.11;0.11;0.11;Matches
+161;Brice Dja Djédjé\Brice-Dja-Djedje;ci CIV;MF;Kayserispor;28;1990;21;19;1711;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00;Matches
+162;Armin Djerlek\Armin-Djerlek;rs SRB;FW;Sivasspor;19;2000;5;0;51;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+163;Papy Djilobodji\Papy-Djilobodji;sn SEN;DFMF;Gaziantep FK;30;1988;23;23;2025;4;1;0;0;4;0;0.18;0.04;0.22;0.18;0.22;Matches
+164;Mitchell Donald\Mitchell-Donald;nl NED;MF;Yeni Mal'spor;30;1988;22;17;1373;3;1;0;0;3;0;0.20;0.07;0.26;0.20;0.26;Matches
+165;Ryan Donk\Ryan-Donk;nl NED;DF;Galatasaray;33;1986;18;15;1410;3;1;0;0;3;0;0.19;0.06;0.26;0.19;0.26;Matches
+166;Douglas\Douglas;br BRA;DF;Beşiktaş;28;1990;5;3;275;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+167;Abdullah Durak\Abdullah-Durak;tr TUR;MFDF;Rizespor;32;1987;17;13;1124;0;1;0;0;2;0;0.00;0.08;0.08;0.00;0.08;Matches
+168;Jimmy Durmaz\Jimmy-Durmaz;se SWE;MF;Galatasaray;30;1989;7;1;183;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+169;Abdurrahim Dursun\Abdurrahim-Dursun;tr TUR;DF;Trabzonspor;20;1998;1;0;37;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+170;Salih Dursun\Salih-Dursun;tr TUR;DF;Antalyaspor;28;1991;3;1;69;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+171;Volkan Egri\Volkan-Egri;tr TUR;DF;Sivasspor;21;1998;1;0;14;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+172;Mehmet Ekici\Mehmet-Ekici;tr TUR;MF;Fenerbahçe;29;1990;3;1;92;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+173;Caleb Ekuban\Caleb-Ekuban;gh GHA;MF;Trabzonspor;25;1994;12;5;546;2;2;0;0;0;0;0.33;0.33;0.66;0.33;0.66;Matches
+174;Eljero Elia\Eljero-Elia;nl NED;MF;Başakşehir;32;1987;18;15;1168;1;2;0;0;1;0;0.08;0.15;0.23;0.08;0.23;Matches
+175;Mohamed Elneny\Mohamed-Elneny;eg EGY;MF;Beşiktaş;27;1992;18;18;1584;0;2;0;0;6;1;0.00;0.11;0.11;0.00;0.11;Matches
+176;Berkan Emir\Berkan-Emir;tr TUR;DF;Göztepe;31;1988;20;20;1795;1;1;0;0;4;0;0.05;0.05;0.10;0.05;0.10;Matches
+177;Alexandru Epureanu\Alexandru-Epureanu;md MDA;DF;Başakşehir;32;1986;21;21;1890;0;1;0;0;3;0;0.00;0.05;0.05;0.00;0.05;Matches
+178;Ziya Erdal\Ziya-Erdal;tr TUR;DFMF;Sivasspor;31;1988;15;10;860;1;2;0;0;2;0;0.10;0.21;0.31;0.10;0.31;Matches
+179;Mehmet Erdem Uğurlu\Mehmet-Erdem-Ugurlu;tr TUR;DF;Gaziantep FK;31;1988;2;1;81;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+180;Mevlüt Erdinç\Mevlut-Erdinc;tr TUR;FW;Fenerbahçe;32;1987;8;0;61;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+181;Doğan Erdoğan\Dogan-Erdogan;tr TUR;MF;Trabzonspor;22;1996;16;3;438;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+182;Yusuf Erdoğan\Yusuf-Erdogan;tr TUR;MF;Kasımpaşa;26;1992;11;5;399;1;2;0;0;0;0;0.23;0.45;0.68;0.23;0.68;Matches
+183;Caner Erkin\Caner-Erkin;tr TUR;DFMF;Beşiktaş;30;1988;24;23;2062;2;8;0;0;9;1;0.09;0.35;0.44;0.09;0.44;Matches
+184;Oscar Estupiñan\Oscar-Estupinan;co COL;FWMF;Denizlispor;22;1996;18;5;590;4;0;0;0;0;0;0.61;0.00;0.61;0.61;0.61;Matches
+185;Radamel Falcao\Radamel-Falcao;co COL;FW;Galatasaray;33;1986;12;9;763;8;0;2;2;1;0;0.94;0.00;0.94;0.71;0.71;Matches
+186;Simon Falette\Simon-Falette;gn GUI;DF;Fenerbahçe;27;1992;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+187;Fabien Farnolle\Fabien-Farnolle;bj BEN;GK;Yeni Mal'spor;34;1984;23;23;2070;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+188;Ricardo Faty\Ricardo-Faty;sn SEN;MF;Ankaragücü;32;1986;22;16;1447;0;0;0;0;8;1;0.00;0.00;0.00;0.00;0.00;Matches
+189;Sofiane Feghouli\Sofiane-Feghouli;dz ALG;MF;Galatasaray;29;1989;19;19;1554;4;1;0;0;3;0;0.23;0.06;0.29;0.23;0.29;Matches
+190;Ivanildo Fernandes\Ivanildo-Fernandes;pt POR;DF;Trabzonspor;23;1996;3;3;224;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+191;Ivanildo Fernandes\Ivanildo-Fernandes;pt POR;DF;Rizespor;23;1996;3;3;235;0;0;0;0;3;1;0.00;0.00;0.00;0.00;0.00;Matches
+192;Jorge Filipe Oliveira Fernandes\Jorge-Filipe-Oliveira-Fernandes;pt POR;DF;Kasımpaşa;22;1997;13;9;934;0;0;0;0;6;1;0.00;0.00;0.00;0.00;0.00;Matches
+193;Junior Fernándes\Junior-Fernandes;cl CHI;MF;Alanyaspor;31;1988;21;17;1427;7;5;0;0;3;1;0.44;0.32;0.76;0.44;0.76;Matches
+194;Fernando\Fernando;br BRA;MFFW;Sivasspor;26;1993;20;14;1197;5;2;0;0;3;0;0.38;0.15;0.53;0.38;0.53;Matches
+195;Volkan Fındıklı\Volkan-Findikli;tr TUR;MF;Konyaspor;28;1990;11;5;532;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+196;Moryké Fofana\Moryke-Fofana;ci CIV;MF;Yeni Mal'spor;27;1991;18;11;977;1;0;0;0;2;0;0.09;0.00;0.09;0.09;0.09;Matches
+197;Fredy\Fredy;ao ANG;MFFW;Antalyaspor;29;1990;16;7;768;2;2;0;0;1;0;0.23;0.23;0.47;0.23;0.47;Matches
+198;Kerim Frei\Kerim-Frei;tr TUR;MF;Başakşehir;25;1993;3;0;104;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+199;Lamine Gassama\Lamine-Gassama;sn SEN;DF;Göztepe;29;1989;21;21;1845;0;2;0;0;5;0;0.00;0.10;0.10;0.00;0.10;Matches
+200;Gelson\Gelson;ao ANG;FW;Antalyaspor;23;1996;6;2;160;0;1;0;0;0;0;0.00;0.56;0.56;0.00;0.56;Matches
+201;Okechukwu Godson Azubuike\Okechukwu-Godson-Azubuike;ng NGA;MF;Başakşehir;22;1997;15;9;753;0;1;0;0;1;0;0.00;0.12;0.12;0.00;0.12;Matches
+202;Gerard Gohou\Gerard-Gohou;ci CIV;FW;Kasımpaşa;30;1988;3;0;45;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+203;Marcelo Goiano\Marcelo-Goiano;br BRA;DF;Sivasspor;31;1987;21;21;1863;0;2;0;0;6;0;0.00;0.10;0.10;0.00;0.10;Matches
+204;Gökhan Gönül\Gokhan-Gonul;tr TUR;DF;Beşiktaş;34;1985;21;20;1827;2;3;0;0;4;0;0.10;0.15;0.25;0.10;0.25;Matches
+205;Zafer Görgen\Zafer-Gorgen;tr TUR;GK;Rizespor;19;2000;4;2;214;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+206;Guilherme\Guilherme;br BRA;MF;Trabzonspor;28;1991;5;4;313;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+207;Guilherme\Guilherme;br BRA;MF;Yeni Mal'spor;28;1991;18;16;1320;5;6;0;0;3;0;0.34;0.41;0.75;0.34;0.75;Matches
+208;Fredrik Gulbrandsen\Fredrik-Gulbrandsen;no NOR;MFFW;Başakşehir;26;1992;13;6;522;3;0;0;0;1;0;0.52;0.00;0.52;0.52;0.52;Matches
+209;Levent Gülen\Levent-Gulen;ch SUI;DF;Kayserispor;25;1994;2;1;82;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+210;Ceyhun Gülselam\Ceyhun-Gulselam;tr TUR;MF;Alanyaspor;31;1987;22;17;1449;3;1;0;0;7;0;0.19;0.06;0.25;0.19;0.25;Matches
+211;Sinan Gümüş\Sinan-Gumus;tr TUR;MFFW;Antalyaspor;25;1994;5;5;357;3;1;1;1;4;1;0.76;0.25;1.01;0.50;0.76;Matches
+212;Umut Güneş\Umut-Gunes;tr TUR;MF;Alanyaspor;19;2000;1;0;1;0;1;0;0;0;0;0.00;90.00;90.00;0.00;90.00;Matches
+213;Mert Günok\Mert-Gunok;tr TUR;GK;Başakşehir;30;1989;24;24;2160;0;1;0;0;0;0;0.00;0.04;0.04;0.00;0.04;Matches
+214;Berke Gürbüz\Berke-Gurbuz;tr TUR;FW;Ankaragücü;16;2003;1;0;11;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+215;Serdar Gürler\Serdar-Gurler;tr TUR;MF;Göztepe;27;1991;21;21;1833;6;5;0;1;3;0;0.29;0.25;0.54;0.29;0.54;Matches
+216;Luiz Gustavo\Luiz-Gustavo;br BRA;MF;Fenerbahçe;32;1987;20;20;1798;2;1;0;0;9;2;0.10;0.05;0.15;0.10;0.15;Matches
+217;Günay Güvenç\Gunay-Guvenc;tr TUR;GK;Gaziantep FK;28;1991;22;22;1980;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+218;Oussama Haddadi\Oussama-Haddadi;tn TUN;DF;Kasımpaşa;27;1992;6;6;540;0;2;0;0;1;0;0.00;0.33;0.33;0.00;0.33;Matches
+219;Teenage Hadebe\Teenage-Hadebe;zw ZIM;DF;Yeni Mal'spor;23;1995;16;16;1331;0;1;0;0;4;1;0.00;0.07;0.07;0.00;0.07;Matches
+220;Florent Hadergjonaj\Florent-Hadergjonaj;xk KVX;DF;Kasımpaşa;25;1994;5;5;450;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+221;Amir Hadžiahmetović\Amir-Hadziahmetovic;ba BIH;MF;Konyaspor;22;1997;15;8;785;1;0;0;0;3;0;0.11;0.00;0.11;0.11;0.11;Matches
+222;Karim Hafez\Karim-Hafez;eg EGY;DF;Kasımpaşa;23;1996;13;13;1040;0;0;0;0;5;2;0.00;0.00;0.00;0.00;0.00;Matches
+223;Karim Hafez\Karim-Hafez;eg EGY;DFFW;Yeni Mal'spor;23;1996;4;4;338;0;1;0;0;0;0;0.00;0.27;0.27;0.00;0.27;Matches
+224;Haris Hajradinović\Haris-Hajradinovic;ba BIH;MF;Kasımpaşa;25;1994;20;19;1683;3;4;0;0;5;1;0.16;0.21;0.37;0.16;0.37;Matches
+225;Ahmet Hakan Demirli\Ahmet-Hakan-Demirli;tr TUR;FW;Kasımpaşa;18;2000;2;0;5;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+226;Denys Harmash\Denys-Harmash;ua UKR;MF;Rizespor;29;1990;4;2;204;1;0;0;0;0;0;0.44;0.00;0.44;0.44;0.44;Matches
+227;Dogucan Haspolat\Dogucan-Haspolat;nl NED;DF;Kasımpaşa;19;2000;3;1;100;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+228;Tobias Heintz\Tobias-Heintz;no NOR;MF;Kasımpaşa;21;1998;8;2;217;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+229;Pedro Henrique\Pedro-Henrique;br BRA;MF;Kayserispor;29;1990;18;16;1360;7;0;0;0;11;2;0.46;0.00;0.46;0.46;0.46;Matches
+230;Majid Hosseini\Majid-Hosseini;ir IRN;DFMF;Trabzonspor;23;1996;13;11;938;1;0;1;2;3;0;0.10;0.00;0.10;0.00;0.00;Matches
+231;Paolo Hurtado\Paolo-Hurtado;pe PER;FW;Konyaspor;29;1990;9;1;168;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+232;Hasan Hüseyin Acar\Hasan-Huseyin-Acar;tr TUR;MF;Kayserispor;24;1994;12;12;1040;0;2;0;0;4;0;0.00;0.17;0.17;0.00;0.17;Matches
+233;Atiba Hutchinson\Atiba-Hutchinson;ca CAN;MF;Beşiktaş;36;1983;22;21;1898;4;4;0;0;3;0;0.19;0.19;0.38;0.19;0.38;Matches
+234;Ahmed Ildiz\Ahmed-Ildiz;tr TUR;MF;Yeni Mal'spor;22;1996;9;1;124;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+235;Selçuk İnan\Selcuk-Inan;tr TUR;MF;Galatasaray;34;1985;6;3;267;0;0;0;1;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+236;Gökhan Inler\Gokhan-Inler;ch SUI;MF;Başakşehir;35;1984;6;1;169;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+237;Mauricio Isla\Mauricio-Isla;cl CHI;DF;Fenerbahçe;31;1988;17;17;1441;0;3;0;0;4;1;0.00;0.19;0.19;0.00;0.19;Matches
+238;Adis Jahović\Adis-Jahovic;mk MKD;FW;Antalyaspor;32;1987;4;4;315;2;0;0;0;2;0;0.57;0.00;0.57;0.57;0.57;Matches
+239;Adis Jahović\Adis-Jahovic;mk MKD;FW;Yeni Mal'spor;32;1987;18;18;1582;11;1;4;4;1;1;0.63;0.06;0.68;0.40;0.46;Matches
+240;Jefferson\Jefferson;br BRA;MFFW;Gaziantep FK;25;1994;11;10;857;1;0;0;0;6;0;0.11;0.00;0.11;0.11;0.11;Matches
+241;Cameron Jerome\Cameron-Jerome;eng ENG;FW;Göztepe;32;1986;18;16;1390;3;0;0;0;6;0;0.19;0.00;0.19;0.19;0.19;Matches
+242;Marko Jevtović\Marko-Jevtovic;rs SRB;MF;Konyaspor;26;1993;16;16;1267;2;0;2;3;3;0;0.14;0.00;0.14;0.00;0.00;Matches
+243;Juanfran\Juanfran;es ESP;DF;Alanyaspor;30;1988;6;6;512;0;2;0;0;1;0;0.00;0.35;0.35;0.00;0.35;Matches
+244;Jens Jønsson\Jens-Jonsson;dk DEN;MF;Konyaspor;26;1993;24;24;2056;1;0;0;0;3;0;0.04;0.00;0.04;0.04;0.04;Matches
+245;Mathias Jørgensen\Mathias-Jorgensen;dk DEN;DF;Fenerbahçe;29;1990;16;14;1233;2;0;0;0;2;0;0.15;0.00;0.15;0.15;0.15;Matches
+246;Moestafa El Kabir\Moestafa-El-Kabir;ma MAR;FW;Rizespor;30;1988;2;2;103;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+247;Deniz Kadah\Deniz-Kadah;tr TUR;FWMF;Göztepe;33;1986;12;3;333;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+248;Ferdi Kadioglu\Ferdi-Kadioglu;nl NED;MF;Fenerbahçe;19;1999;13;0;258;2;2;0;0;1;0;0.70;0.70;1.40;0.70;1.40;Matches
+249;Oğuz Kağan Güçtekin\Oguz-Kagan-Guctekin;tr TUR;MF;Rizespor;20;1999;8;3;268;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+250;İrfan Kahveci\Irfan-Kahveci;tr TUR;MF;Başakşehir;24;1995;20;20;1656;3;2;0;0;7;1;0.16;0.11;0.27;0.16;0.27;Matches
+251;Jean-Armel Kana-Biyik\Jean-Armel-Kana-Biyik;cm CMR;DF;Gaziantep FK;30;1989;23;23;2070;1;0;0;0;4;0;0.04;0.00;0.04;0.04;0.04;Matches
+252;Kaan Kanak\Kaan-Kanak;tr TUR;DF;Alanyaspor;28;1990;3;3;270;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+253;Ferhat Kaplan\Ferhat-Kaplan;tr TUR;GK;Antalyaspor;30;1989;9;8;720;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+254;Aytaç Kara\Aytac-Kara;tr TUR;MF;Kasımpaşa;26;1993;22;22;1973;4;0;0;0;8;0;0.18;0.00;0.18;0.18;0.18;Matches
+255;Aydın Karabulut\Aydin-Karabulut;tr TUR;MF;Ankaragücü;31;1988;15;8;697;1;1;0;0;2;0;0.13;0.13;0.26;0.13;0.26;Matches
+256;Efecan Karaca\Efecan-Karaca;tr TUR;MF;Alanyaspor;29;1989;23;21;1761;0;3;0;0;3;0;0.00;0.15;0.15;0.00;0.15;Matches
+257;İlker Karakaş\Ilker-Karakas;tr TUR;FW;Gençlerbirliği;20;1999;2;0;32;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+258;Cebrail Karayel\Cebrail-Karayel;tr TUR;DF;Ankaragücü;24;1994;14;8;780;0;1;0;0;5;1;0.00;0.12;0.12;0.00;0.12;Matches
+259;Erce Kardeşler\Erce-Kardesler;tr TUR;GK;Trabzonspor;25;1994;2;1;124;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+260;Loris Karius\Loris-Karius;de GER;GK;Beşiktaş;26;1993;24;24;2160;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+261;Erkan Kaş\Erkan-Kas;tr TUR;DF;Yeni Mal'spor;27;1991;6;3;304;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+262;Hasan Kaya\Hasan-Kaya;tr TUR;MF;Ankaragücü;23;1995;11;5;448;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+263;Yalçın Kayan\Yalcin-Kayan;tr TUR;MF;Göztepe;20;1999;6;0;109;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+264;Olarenwaju Kayode\Olarenwaju-Kayode;ng NGA;FW;Gaziantep FK;26;1993;20;20;1673;8;6;3;4;2;2;0.43;0.32;0.75;0.27;0.59;Matches
+265;Abdul Khalili\Abdul-Khalili;se SWE;MF;Kasımpaşa;27;1992;16;12;1021;2;2;0;0;4;0;0.18;0.18;0.35;0.18;0.35;Matches
+266;Marc Kibong Mbamba\Marc-Kibong-Mbamba;cm CMR;MF;Denizlispor;30;1988;7;2;216;0;1;0;0;0;0;0.00;0.42;0.42;0.00;0.42;Matches
+267;Emre Kılınç\Emre-Kilinc;tr TUR;MFFW;Sivasspor;24;1994;19;18;1604;6;5;0;0;6;0;0.34;0.28;0.62;0.34;0.62;Matches
+268;Koray Kilinc\Koray-Kilinc;tr TUR;FW;Trabzonspor;19;2000;3;0;45;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+269;Batuhan Kırdaroğlu\Batuhan-Kirdaroglu;tr TUR;MF;Göztepe;18;2000;1;0;14;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+270;Serkan Kırıntılı\Serkan-Kirintili;tr TUR;GK;Konyaspor;34;1985;23;23;1980;0;0;0;0;1;1;0.00;0.00;0.00;0.00;0.00;Matches
+271;Stelios Kitsiou\Stelios-Kitsiou;gr GRE;DFMF;Ankaragücü;25;1993;24;24;2145;2;2;0;0;4;1;0.08;0.08;0.17;0.08;0.17;Matches
+272;Arda Kızıldağ\Arda-Kizildag;tr TUR;DF;Gençlerbirliği;20;1998;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+273;Anıl Koç\Anil-Koc;tr TUR;MF;Kasımpaşa;24;1995;3;0;54;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+274;Okan Kocuk\Okan-Kocuk;tr TUR;GK;Galatasaray;24;1995;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+275;Bengali-Fodé Koita\Bengali-Fode-Koita;gn GUI;FWMF;Kasımpaşa;28;1990;16;15;1278;4;2;0;0;2;0;0.28;0.14;0.42;0.28;0.42;Matches
+276;Arouna Koné\Arouna-Kone;ci CIV;FW;Sivasspor;35;1983;19;4;556;4;4;0;0;0;0;0.65;0.65;1.29;0.65;1.29;Matches
+277;Nurettin Korkmaz\Nurettin-Korkmaz;tr TUR;MF;Kayserispor;17;2002;4;1;130;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+278;Ramazan Köse\Ramazan-Kose;tr TUR;GK;Kasımpaşa;31;1988;4;4;360;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+279;Artem Kravets\Artem-Kravets;ua UKR;FW;Kayserispor;30;1989;10;7;654;4;0;0;0;1;0;0.55;0.00;0.55;0.55;0.55;Matches
+280;Max Kruse\Max-Kruse;de GER;MF;Fenerbahçe;31;1988;19;19;1664;7;6;3;3;0;0;0.38;0.32;0.70;0.22;0.54;Matches
+281;Alihan Kubalas\Alihan-Kubalas;tr TUR;DF;Ankaragücü;27;1991;9;7;669;1;0;0;0;4;0;0.13;0.00;0.13;0.13;0.13;Matches
+282;Fyodor Kudryashov\Fyodor-Kudryashov;ru RUS;DF;Antalyaspor;32;1987;7;7;630;0;1;0;0;0;0;0.00;0.14;0.14;0.00;0.14;Matches
+283;Mert Kula\Mert-Kula;tr TUR;DF;Kayserispor;24;1995;7;5;515;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+284;Ante Kulušić\Ante-Kulusic;hr CRO;DF;Ankaragücü;33;1986;23;23;2025;0;0;0;0;6;0;0.00;0.00;0.00;0.00;0.00;Matches
+285;Yekta Kurtuluş\Yekta-Kurtulus;tr TUR;MF;Antalyaspor;33;1985;3;2;152;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+286;Zoran Kvržić\Zoran-Kvrzic;ba BIH;DF;Kayserispor;30;1988;2;2;134;0;0;0;0;0;1;0.00;0.00;0.00;0.00;0.00;Matches
+287;Joseph Larweh Attamah\Joseph-Larweh-Attamah;gh GHA;MF;Rizespor;25;1994;14;11;1003;0;1;0;0;3;0;0.00;0.09;0.09;0.00;0.09;Matches
+288;Mario Lemina\Mario-Lemina;ga GAB;MF;Galatasaray;25;1993;15;14;1134;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+289;Jeremain Lens\Jeremain-Lens;nl NED;MFDF;Beşiktaş;31;1987;15;11;902;1;2;0;0;6;0;0.10;0.20;0.30;0.10;0.30;Matches
+290;Martin Linnes\Martin-Linnes;no NOR;DF;Galatasaray;27;1991;5;2;316;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+291;Adem Ljajić\Adem-Ljajic;rs SRB;MF;Beşiktaş;27;1991;21;16;1444;3;6;0;0;5;0;0.19;0.37;0.56;0.19;0.56;Matches
+292;Saba Lobzhanidze\Saba-Lobzhanidze;ge GEO;MF;Ankaragücü;24;1994;6;5;405;1;0;0;0;0;0;0.22;0.00;0.22;0.22;0.22;Matches
+293;Yuri Lodygin\Yuri-Lodygin;ru RUS;GK;Gaziantep FK;29;1990;2;2;180;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+294;Miguel Lopes\Miguel-Lopes;pt POR;DF;Kayserispor;32;1986;21;21;1890;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+295;Tiago Jorge Oliveira Lopes\Tiago-Jorge-Oliveira-Lopes;pt POR;DF;Denizlispor;30;1989;17;15;1400;0;0;0;0;6;1;0.00;0.00;0.00;0.00;0.00;Matches
+296;Silviu Lung Jr.\Silviu-Lung-Jr;ro ROU;GK;Kayserispor;30;1989;19;19;1710;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+297;Christian Luyindama\Christian-Luyindama;cd COD;DF;Galatasaray;25;1994;10;10;885;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+298;Róbert Mak\Robert-Mak;sk SVK;MF;Konyaspor;28;1991;4;2;202;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+299;Marcão\Marcao;br BRA;DF;Galatasaray;23;1996;21;21;1842;0;0;0;0;11;1;0.00;0.00;0.00;0.00;0.00;Matches
+300;Mariano\Mariano;br BRA;DFMF;Galatasaray;33;1986;20;19;1741;0;5;0;0;6;0;0.00;0.26;0.26;0.00;0.26;Matches
+301;Alexandru Maxim\Alexandru-Maxim;ro ROU;MFFW;Gaziantep FK;29;1990;5;5;426;2;1;0;0;2;0;0.42;0.21;0.63;0.42;0.63;Matches
+302;Gary Medel\Gary-Medel;cl CHI;MF;Beşiktaş;31;1987;2;2;129;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+303;Dario Melnjak\Dario-Melnjak;hr CRO;DF;Rizespor;26;1992;23;23;2070;3;1;0;0;2;0;0.13;0.04;0.17;0.13;0.17;Matches
+304;Bernard Mensah\Bernard-Mensah;gh GHA;MFFW;Kayserispor;24;1994;18;18;1514;2;6;2;2;7;1;0.12;0.36;0.48;0.00;0.36;Matches
+305;Yassine Meriah\Yassine-Meriah;tn TUN;DF;Kasımpaşa;26;1993;5;5;450;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+306;Muris Mešanović\Muris-Mesanovic;ba BIH;FWMF;Kayserispor;29;1990;7;7;614;2;0;0;0;0;0;0.29;0.00;0.29;0.29;0.29;Matches
+307;Konrad Michalak\Konrad-Michalak;pl POL;MF;Ankaragücü;21;1997;6;4;345;0;2;0;0;1;0;0.00;0.52;0.52;0.00;0.52;Matches
+308;Deni Milošević\Deni-Milosevic;ba BIH;MF;Konyaspor;24;1995;23;22;1960;3;1;0;0;5;0;0.14;0.05;0.18;0.14;0.18;Matches
+309;Arturo Mina\Arturo-Mina;ec ECU;DF;Yeni Mal'spor;28;1990;13;11;914;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+310;Farouk Miya\Farouk-Miya;ug UGA;FWMF;Konyaspor;21;1997;19;12;1235;5;1;1;1;2;0;0.36;0.07;0.44;0.29;0.36;Matches
+311;Wilfred Moke\Wilfred-Moke;cd COD;MF;Ankaragücü;31;1988;17;13;1135;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+312;Emre Mor\Emre-Mor;tr TUR;MF;Galatasaray;22;1997;10;3;365;0;0;0;0;2;1;0.00;0.00;0.00;0.00;0.00;Matches
+313;Júnior Morais\Junior-Morais;br BRA;DFMF;Gaziantep FK;33;1986;20;20;1800;0;1;0;0;2;0;0.00;0.05;0.05;0.00;0.05;Matches
+314;Mykola Morozyuk\Mykola-Morozyuk;ua UKR;DF;Rizespor;31;1988;18;16;1456;0;1;0;0;4;0;0.00;0.06;0.06;0.00;0.06;Matches
+315;Victor Moses\Victor-Moses;ng NGA;MFFW;Fenerbahçe;28;1990;6;6;492;1;1;1;2;1;0;0.18;0.18;0.37;0.00;0.18;Matches
+316;Mossoró\Mossoro;br BRA;MF;Başakşehir;36;1983;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+317;Mossoró\Mossoro;br BRA;MFFW;Göztepe;36;1983;14;9;797;0;1;0;0;4;0;0.00;0.11;0.11;0.00;0.11;Matches
+318;Paul Mukairu\Paul-Mukairu;ng NGA;MFFW;Antalyaspor;19;2000;20;12;1144;3;1;0;0;3;0;0.24;0.08;0.31;0.24;0.31;Matches
+319;Radosław Murawski\Radoslaw-Murawski;pl POL;MF;Denizlispor;25;1994;23;23;2070;3;0;2;2;7;0;0.13;0.00;0.13;0.04;0.04;Matches
+320;Vedat Muriqi\Vedat-Muriqi;xk KVX;FW;Fenerbahçe;25;1994;23;22;1992;13;4;2;2;5;1;0.59;0.18;0.77;0.50;0.68;Matches
+321;Fernando Muslera\Fernando-Muslera;uy URU;GK;Galatasaray;33;1986;23;23;2070;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+322;Delvin N'Dinga\Delvin-NDinga;cg CGO;MF;Antalyaspor;31;1988;4;4;294;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+323;Georges-Kévin N'Koudou\Georges-Kevin-NKoudou;fr FRA;MF;Beşiktaş;24;1995;19;14;1372;2;0;0;0;3;0;0.13;0.00;0.13;0.13;0.13;Matches
+324;Fabrice N'Sakala\Fabrice-NSakala;cd COD;DF;Alanyaspor;29;1990;21;21;1859;0;1;0;0;5;1;0.00;0.05;0.05;0.00;0.05;Matches
+325;Yuto Nagatomo\Yuto-Nagatomo;jp JPN;DF;Galatasaray;32;1986;15;14;1202;1;0;0;0;0;0;0.07;0.00;0.07;0.07;0.07;Matches
+326;Stefano Napoleoni\Stefano-Napoleoni;it ITA;MFFW;Göztepe;33;1986;18;17;1374;2;2;0;0;0;0;0.13;0.13;0.26;0.13;0.26;Matches
+327;Umut Nayir\Umut-Nayir;tr TUR;FW;Beşiktaş;26;1993;15;3;409;4;0;0;0;3;0;0.88;0.00;0.88;0.88;0.88;Matches
+328;Youssouf Ndayishimiye\Youssouf-Ndayishimiye;bi BDI;MF;Yeni Mal'spor;20;1998;1;0;13;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+329;Badou Ndiaye\Badou-Ndiaye;sn SEN;MF;Trabzonspor;28;1990;6;6;523;1;2;0;0;2;0;0.17;0.34;0.52;0.17;0.52;Matches
+330;Dieumerci Ndongala\Dieumerci-Ndongala;cd COD;MF;Kasımpaşa;28;1991;7;5;439;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+331;Recep Niyaz\Recep-Niyaz;tr TUR;MF;Denizlispor;23;1995;13;7;690;1;0;0;0;0;0;0.13;0.00;0.13;0.13;0.13;Matches
+332;Kristoffer Nordfeldt\Kristoffer-Nordfeldt;se SWE;GK;Gençlerbirliği;30;1989;7;7;630;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+333;Filip Novák\Filip-Novak;cz CZE;DF;Trabzonspor;29;1990;19;19;1651;2;0;0;0;2;0;0.11;0.00;0.11;0.11;0.11;Matches
+334;Paul-Georges Ntep\Paul-Georges-Ntep;cm CMR;MFFW;Kayserispor;27;1992;5;2;140;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+335;Atınç Nukan\Atinc-Nukan;tr TUR;DF;Göztepe;26;1993;1;0;1;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+336;Anthony Nwakaeme\Anthony-Nwakaeme;ng NGA;MFFW;Trabzonspor;30;1989;21;20;1756;9;6;0;0;3;0;0.46;0.31;0.77;0.46;0.77;Matches
+337;Steven Nzonzi\Steven-Nzonzi;fr FRA;MF;Galatasaray;30;1988;10;10;900;0;1;0;0;1;0;0.00;0.10;0.10;0.00;0.10;Matches
+338;John Obi Mikel\John-Obi-Mikel;ng NGA;MF;Trabzonspor;32;1987;17;16;1401;0;0;0;0;6;1;0.00;0.00;0.00;0.00;0.00;Matches
+339;Ahmet Oğuz\Ahmet-Oguz;tr TUR;DF;Gençlerbirliği;26;1993;12;8;644;0;0;0;0;3;2;0.00;0.00;0.00;0.00;0.00;Matches
+340;Muhayer Oktay\Muhayer-Oktay;tr TUR;MF;Beşiktaş;20;1999;1;0;6;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+341;Paweł Olkowski\Pawel-Olkowski;pl POL;DFMF;Gaziantep FK;29;1990;8;5;411;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+342;Abdülkadir Ömür\Abdulkadir-Omur;tr TUR;MF;Trabzonspor;20;1999;3;2;163;1;1;0;0;0;0;0.55;0.55;1.10;0.55;1.10;Matches
+343;Alper Önal\Alper-Onal;tr TUR;MF;Ankaragücü;23;1996;6;0;115;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+344;Ogenyi Onazi\Ogenyi-Onazi;ng NGA;MF;Denizlispor;26;1992;4;3;161;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+345;Henry Onyekuru\Henry-Onyekuru;ng NGA;MF;Galatasaray;22;1997;5;3;303;1;1;0;0;1;0;0.30;0.30;0.59;0.30;0.59;Matches
+346;Dever Orgill\Dever-Orgill;jm JAM;FW;Ankaragücü;29;1990;21;21;1871;4;0;0;0;8;1;0.19;0.00;0.19;0.19;0.19;Matches
+347;Viðar Örn Kjartansson\Vidar-Orn-Kjartansson;is ISL;FW;Yeni Mal'spor;29;1990;5;1;192;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+348;Caner Osmanpaşa\Caner-Osmanpasa;tr TUR;DF;Sivasspor;31;1988;23;23;2029;0;1;0;0;2;0;0.00;0.04;0.04;0.00;0.04;Matches
+349;Orhan Ovacıklı\Orhan-Ovacikli;tr TUR;DFMF;Rizespor;30;1988;7;4;404;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+350;Şener Özbayraklı\Sener-Ozbayrakli;tr TUR;DF;Galatasaray;29;1990;5;4;297;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+351;Ertaç Özbir\Ertac-Ozbir;tr TUR;GK;Gençlerbirliği;29;1989;13;13;1170;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+352;Berkay Özcan\Berkay-Ozcan;tr TUR;MF;Başakşehir;21;1998;9;2;192;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+353;Özer Özdemir\Ozer-Ozdemir;tr TUR;DF;Yeni Mal'spor;21;1998;8;5;544;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+354;Kenan Özer\Kenan-Ozer;tr TUR;FWMF;Gaziantep FK;31;1987;19;4;503;3;1;0;0;4;0;0.54;0.18;0.72;0.54;0.72;Matches
+355;Erdem Özgenç\Erdem-Ozgenc;tr TUR;DF;Gençlerbirliği;34;1984;14;13;1129;0;2;0;0;3;0;0.00;0.16;0.16;0.00;0.16;Matches
+356;Muhammet Özkal\Muhammet-Ozkal;tr TUR;DF;Denizlispor;19;1999;1;0;31;1;0;0;0;0;0;2.90;0.00;2.90;2.90;2.90;Matches
+357;Serdar Özkan\Serdar-Ozkan;tr TUR;MF;Antalyaspor;32;1987;12;7;732;3;1;3;3;3;0;0.37;0.12;0.49;0.00;0.12;Matches
+358;Ege Özkayimoglu\Ege-Ozkayimoglu;tr TUR;MF;Göztepe;18;2001;1;0;4;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+359;Hakan Özmert\Hakan-Ozmert;tr TUR;MF;Antalyaspor;34;1985;19;16;1345;2;2;0;0;11;1;0.13;0.13;0.27;0.13;0.27;Matches
+360;Yasin Öztekin\Yasin-Oztekin;tr TUR;MF;Sivasspor;32;1987;7;1;245;1;1;0;0;1;0;0.37;0.37;0.73;0.37;0.73;Matches
+361;Yasin Öztekin\Yasin-Oztekin;tr TUR;MF;Göztepe;32;1987;8;1;157;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+362;Ferhat Öztorun\Ferhat-Oztorun;tr TUR;DF;Konyaspor;32;1987;8;8;590;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+363;Alpaslan Öztürk\Alpaslan-Ozturk;be BEL;DF;Göztepe;26;1993;18;15;1304;3;0;2;2;7;1;0.21;0.00;0.21;0.07;0.07;Matches
+364;Bahadır Öztürk\Bahadir-Ozturk;tr TUR;DF;Antalyaspor;23;1995;11;11;893;0;1;0;0;2;1;0.00;0.10;0.10;0.00;0.10;Matches
+365;Fatih Öztürk\Fatih-Ozturk;tr TUR;GK;Kasımpaşa;32;1986;20;20;1800;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+366;Oğuzhan Özyakup\Oguzhan-Ozyakup;tr TUR;MF;Beşiktaş;26;1992;12;4;448;1;1;0;0;1;0;0.20;0.20;0.40;0.20;0.40;Matches
+367;Murat Paluli\Murat-Paluli;tr TUR;DF;Göztepe;24;1994;3;2;225;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+368;Paul Papp\Paul-Papp;ro ROU;DF;Sivasspor;29;1989;3;1;75;0;1;0;0;0;0;0.00;1.20;1.20;0.00;1.20;Matches
+369;İlhan Parlak\Ilhan-Parlak;tr TUR;MFFW;Ankaragücü;32;1987;24;20;1804;6;1;2;2;6;0;0.30;0.05;0.35;0.20;0.25;Matches
+370;Abdülkadir Parmak\Abdulkadir-Parmak;tr TUR;MF;Trabzonspor;24;1994;17;11;1050;1;2;0;0;1;1;0.09;0.17;0.26;0.09;0.26;Matches
+371;David Pavelka\David-Pavelka;cz CZE;DF;Kasımpaşa;28;1991;3;2;206;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+372;Bartłomiej Pawłowski\Bartlomiej-Pawlowski;pl POL;FW;Gaziantep FK;26;1992;15;2;419;0;2;0;0;0;0;0.00;0.43;0.43;0.00;0.43;Matches
+373;Michał Pazdan\Michal-Pazdan;pl POL;DF;Ankaragücü;31;1987;23;22;1949;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+374;Halil Pehlivan\Halil-Pehlivan;tr TUR;DF;Gençlerbirliği;26;1993;13;11;990;0;1;0;0;2;0;0.00;0.09;0.09;0.00;0.09;Matches
+375;Yasin Pehlivan\Yasin-Pehlivan;at AUT;MF;Gençlerbirliği;30;1989;11;9;753;1;0;0;0;3;1;0.12;0.00;0.12;0.12;0.12;Matches
+376;Mustafa Pektemek\Mustafa-Pektemek;tr TUR;MFFW;Kasımpaşa;30;1988;16;11;981;3;1;0;0;1;0;0.28;0.09;0.37;0.28;0.37;Matches
+377;Mustafa Pektemek\Mustafa-Pektemek;tr TUR;FW;Alanyaspor;30;1988;4;0;69;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+378;João Pereira\Joao-Pereira;pt POR;DF;Trabzonspor;35;1984;21;21;1890;1;3;0;0;3;0;0.05;0.14;0.19;0.05;0.19;Matches
+379;Tiago Pinto\Tiago-Pinto;pt POR;DF;Ankaragücü;31;1988;21;20;1824;0;3;0;0;6;0;0.00;0.15;0.15;0.00;0.15;Matches
+380;Lukas Podolski\Lukas-Podolski;de GER;MF;Antalyaspor;34;1985;4;1;121;1;2;0;0;2;0;0.74;1.49;2.23;0.74;2.23;Matches
+381;Furkan Polat\Furkan-Polat;tr TUR;MF;Kayserispor;21;1998;4;0;61;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+382;Pierre-Yves Polomat\Pierre-Yves-Polomat;fr FRA;DFMF;Gençlerbirliği;25;1993;15;15;1274;0;0;0;0;7;1;0.00;0.00;0.00;0.00;0.00;Matches
+383;Carlos Ponck\Carlos-Ponck;cv CPV;DF;Başakşehir;24;1995;15;13;1171;1;0;0;0;0;0;0.08;0.00;0.08;0.08;0.08;Matches
+384;Strahil Popov\Strahil-Popov;bg BUL;DF;Kasımpaşa;28;1990;14;14;1198;0;2;0;0;1;0;0.00;0.15;0.15;0.00;0.15;Matches
+385;Alper Potuk\Alper-Potuk;tr TUR;FW;Fenerbahçe;28;1991;5;1;102;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+386;Benoît Poulain\Benoit-Poulain;fr FRA;DF;Kayserispor;32;1987;14;14;1197;1;1;0;0;1;0;0.08;0.08;0.15;0.08;0.15;Matches
+387;Ricardo Quaresma\Ricardo-Quaresma;pt POR;MF;Beşiktaş;35;1983;1;1;62;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+388;Ricardo Quaresma\Ricardo-Quaresma;pt POR;MF;Kasımpaşa;35;1983;17;15;1217;4;0;3;4;6;0;0.30;0.00;0.30;0.07;0.07;Matches
+389;Adil Rami\Adil-Rami;fr FRA;DF;Fenerbahçe;33;1985;1;1;45;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+390;Flávio Ramos\Flavio-Ramos;br BRA;DF;Gençlerbirliği;25;1994;17;17;1453;0;0;0;0;5;1;0.00;0.00;0.00;0.00;0.00;Matches
+391;Abdou Razack Traoré\Abdou-Razack-Traore;bf BFA;MF;Sivasspor;30;1988;9;3;300;0;2;0;0;0;0;0.00;0.60;0.60;0.00;0.60;Matches
+392;Pedro Rebocho\Pedro-Rebocho;pt POR;DF;Beşiktaş;24;1995;9;8;626;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+393;Wallace Reis\Wallace-Reis;br BRA;DF;Göztepe;31;1987;8;5;511;1;0;0;0;0;0;0.18;0.00;0.18;0.18;0.18;Matches
+394;Ricardo\Ricardo;br BRA;GK;Ankaragücü;26;1993;5;5;450;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+395;Ben Rienstra\Ben-Rienstra;nl NED;MFDF;Kayserispor;29;1990;18;13;1274;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+396;Gelmin Rivas\Gelmin-Rivas;ve VEN;FW;Ankaragücü;30;1989;2;0;25;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+397;Robinho\Robinho;br BRA;MF;Başakşehir;35;1984;8;2;274;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+398;Enzo Roco\Enzo-Roco;cl CHI;DF;Beşiktaş;26;1992;6;6;522;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+399;Hugo Rodallega\Hugo-Rodallega;co COL;FW;Denizlispor;34;1985;21;20;1822;5;1;0;0;2;0;0.25;0.05;0.30;0.25;0.30;Matches
+400;Garry Rodrigues\Garry-Rodrigues;cv CPV;MF;Fenerbahçe;28;1990;18;15;1245;3;3;0;0;2;1;0.22;0.22;0.43;0.22;0.43;Matches
+401;Gerson Rodrigues\Gerson-Rodrigues;lu LUX;MFFW;Ankaragücü;24;1995;6;6;532;2;1;1;1;0;0;0.34;0.17;0.51;0.17;0.34;Matches
+402;Víctor Ruiz\Victor-Ruiz;es ESP;DF;Beşiktaş;30;1989;16;16;1440;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00;Matches
+403;Serhiy Rybalka\Serhiy-Rybalka;ua UKR;MF;Sivasspor;29;1990;3;0;69;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+404;Isaac Sackey\Isaac-Sackey;gh GHA;MF;Denizlispor;25;1994;15;13;1009;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00;Matches
+405;Hadi Sacko\Hadi-Sacko;ml MLI;MF;Denizlispor;25;1994;20;13;1076;1;1;0;0;2;0;0.08;0.08;0.17;0.08;0.17;Matches
+406;Zaur Sadayev\Zaur-Sadayev;ru RUS;FW;Ankaragücü;29;1989;5;0;59;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+407;Loret Sadiku\Loret-Sadiku;al ALB;MFDF;Kasımpaşa;28;1991;8;7;624;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+408;Olcay Şahan\Olcay-Sahan;tr TUR;MFDF;Denizlispor;32;1987;19;12;1114;1;1;0;0;2;0;0.08;0.08;0.16;0.08;0.16;Matches
+409;Cenk Şahin\Cenk-Sahin;tr TUR;MF;Kayserispor;24;1994;5;1;150;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+410;Sedat Şahintürk\Sedat-Sahinturk;tr TUR;MF;Denizlispor;23;1996;6;1;172;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+411;Mehmet Sak\Mehmet-Sak;tr TUR;DFMF;Ankaragücü;29;1990;9;5;421;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+412;Mamadou Samassa\Mamadou-Samassa;ml MLI;GK;Sivasspor;29;1990;24;24;2115;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+413;Braian Samudio\Braian-Samudio;py PAR;MFFW;Rizespor;23;1995;21;14;1235;3;1;2;2;2;0;0.22;0.07;0.29;0.07;0.15;Matches
+414;Nazim Sangaré\Nazim-Sangare;tr TUR;DF;Antalyaspor;25;1994;17;17;1530;1;0;0;0;3;0;0.06;0.00;0.06;0.06;0.06;Matches
+415;Bubacarr Sanneh\Bubacarr-Sanneh;gm GAM;DF;Göztepe;24;1994;2;2;180;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+416;Cristian Săpunaru\Cristian-Sapunaru;ro ROU;DF;Kayserispor;35;1984;4;4;360;1;0;0;0;2;0;0.25;0.00;0.25;0.25;0.25;Matches
+417;Cristian Săpunaru\Cristian-Sapunaru;ro ROU;DF;Denizlispor;35;1984;14;13;1155;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+418;Marcelo Saracchi\Marcelo-Saracchi;uy URU;DF;Galatasaray;21;1998;5;5;346;0;2;0;0;0;0;0.00;0.52;0.52;0.00;0.52;Matches
+419;Veysel Sarı\Veysel-Sari;tr TUR;DF;Kasımpaşa;31;1988;13;11;973;2;1;0;0;2;0;0.18;0.09;0.28;0.18;0.28;Matches
+420;Veysel Sarı\Veysel-Sari;tr TUR;DF;Antalyaspor;31;1988;5;5;450;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+421;Yusuf Sari\Yusuf-Sari;tr TUR;MFFW;Trabzonspor;20;1998;13;8;693;3;2;0;0;4;0;0.39;0.26;0.65;0.39;0.65;Matches
+422;Zvonimir Šarlija\Zvonimir-Sarlija;hr CRO;DF;Kasımpaşa;22;1996;2;1;130;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+423;Yan Sasse\Yan-Sasse;br BRA;MFFW;Rizespor;22;1997;10;3;386;1;0;0;0;3;0;0.23;0.00;0.23;0.23;0.23;Matches
+424;Ezequiel Scarione\Ezequiel-Scarione;ar ARG;MFFW;Ankaragücü;34;1985;6;3;265;2;0;0;0;0;0;0.68;0.00;0.68;0.68;0.68;Matches
+425;Marko Šćepović\Marko-Scepovic;rs SRB;FW;Rizespor;28;1991;10;3;356;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+426;Léo Schwechlen\Leo-Schwechlen;fr FRA;DF;Göztepe;30;1989;5;5;450;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+427;Jesse Sekidika\Jesse-Sekidika;ng NGA;FW;Galatasaray;23;1996;3;0;14;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+428;Tarkan Serbest\Tarkan-Serbest;tr TUR;MF;Kasımpaşa;25;1994;6;5;428;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+429;Jean Seri\Jean-Seri;ci CIV;MF;Galatasaray;28;1991;17;13;1182;1;2;0;0;2;1;0.08;0.15;0.23;0.08;0.23;Matches
+430;Stéphane Sessègnon\Stephane-Sessegnon;bj BEN;MF;Gençlerbirliği;35;1984;23;23;2055;2;3;1;1;0;0;0.09;0.13;0.22;0.04;0.18;Matches
+431;Mats Seuntjens\Mats-Seuntjens;nl NED;MF;Gençlerbirliği;27;1992;11;3;266;0;1;0;0;1;0;0.00;0.34;0.34;0.00;0.34;Matches
+432;Selahattin Seyhun\Selahattin-Seyhun;tr TUR;FW;Kayserispor;20;1999;1;0;13;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+433;Levan Shengelia\Levan-Shengelia;ge GEO;MF;Konyaspor;23;1995;16;10;938;1;1;0;0;2;1;0.10;0.10;0.19;0.10;0.19;Matches
+434;Charles Fernando Basílio da Silva\Charles-Fernando-Basilio-da-Silva;br BRA;MF;Antalyaspor;34;1985;17;14;1240;0;1;0;0;5;0;0.00;0.07;0.07;0.00;0.07;Matches
+435;Doğukan Sınık\Dogukan-Sinik;tr TUR;MF;Antalyaspor;20;1999;14;8;716;0;1;0;0;4;0;0.00;0.13;0.13;0.00;0.13;Matches
+436;Giovanni Sio\Giovanni-Sio;ci CIV;MFFW;Gençlerbirliği;30;1989;20;18;1582;8;3;0;0;10;0;0.46;0.17;0.63;0.46;0.63;Matches
+437;Emmanouil Siopis\Emmanouil-Siopis;gr GRE;MF;Alanyaspor;25;1994;22;21;1913;0;3;0;0;6;0;0.00;0.14;0.14;0.00;0.14;Matches
+438;Jailson Siqueira\Jailson-Siqueira;br BRA;DF;Fenerbahçe;23;1995;21;15;1472;1;0;0;0;2;0;0.06;0.00;0.06;0.06;0.06;Matches
+439;Mario Šitum\Mario-Situm;hr CRO;MFDF;Kayserispor;27;1992;7;5;401;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+440;Guilherme Sityá\Guilherme-Sitya;pt POR;DF;Konyaspor;29;1990;5;5;450;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+441;Milan Škoda\Milan-Skoda;cz CZE;FW;Rizespor;33;1986;6;6;536;4;1;1;1;1;0;0.67;0.17;0.84;0.50;0.67;Matches
+442;Martin Škrtel\Martin-Skrtel;sk SVK;DF;Başakşehir;34;1984;12;10;893;3;0;0;0;3;0;0.30;0.00;0.30;0.30;0.30;Matches
+443;Nejc Skubic\Nejc-Skubic;si SVN;DF;Konyaspor;30;1989;22;22;1952;0;2;0;0;5;0;0.00;0.09;0.09;0.00;0.09;Matches
+444;Petar Škuletić\Petar-Skuletic;rs SRB;FW;Sivasspor;29;1990;1;0;27;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+445;José Sosa\Jose-Sosa;ar ARG;MF;Trabzonspor;34;1985;21;21;1828;5;5;2;2;5;0;0.25;0.25;0.49;0.15;0.39;Matches
+446;André Sousa\Andre-Sousa;pt POR;MF;Gaziantep FK;29;1990;5;5;436;1;0;0;0;2;0;0.21;0.00;0.21;0.21;0.21;Matches
+447;Claudemir de Souza\Claudemir-de-Souza;br BRA;MF;Sivasspor;31;1988;5;0;154;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+448;Furkan Soyalp\Furkan-Soyalp;tr TUR;FWMF;Başakşehir;24;1995;1;0;24;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+449;Furkan Soyalp\Furkan-Soyalp;tr TUR;MF;Gaziantep FK;24;1995;9;3;232;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+450;Adam Stachowiak\Adam-Stachowiak;pl POL;GK;Denizlispor;32;1986;24;24;2160;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+451;Bogdan Stancu\Bogdan-Stancu;ro ROU;FWMF;Gençlerbirliği;32;1987;17;14;1252;12;3;3;3;4;0;0.86;0.22;1.08;0.65;0.86;Matches
+452;Miloš Stanojević\Milos-Stanojevic;rs SRB;MF;Ankaragücü;25;1993;1;1;35;0;0;0;0;2;1;0.00;0.00;0.00;0.00;0.00;Matches
+453;Daniel Sturridge\Daniel-Sturridge;eng ENG;MFFW;Trabzonspor;29;1989;11;7;521;4;4;2;2;1;0;0.69;0.69;1.38;0.35;1.04;Matches
+454;Alexander Sørloth\Alexander-Sorloth;no NOR;FW;Trabzonspor;23;1995;23;23;2050;19;7;1;2;1;1;0.83;0.31;1.14;0.79;1.10;Matches
+455;Montassar Talbi\Montassar-Talbi;tn TUN;DF;Rizespor;21;1998;16;16;1440;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+456;Emre Taşdemir\Emre-Tasdemir;tr TUR;DF;Kayserispor;23;1995;5;5;450;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+457;Emre Taşdemir\Emre-Tasdemir;tr TUR;MFDF;Galatasaray;23;1995;6;3;264;0;1;0;0;0;0;0.00;0.34;0.34;0.00;0.34;Matches
+458;Ertuğrul Taşkıran\Ertugrul-Taskiran;tr TUR;GK;Konyaspor;29;1989;2;1;177;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+459;Mahmut Tekdemir\Mahmut-Tekdemir;tr TUR;MF;Başakşehir;31;1988;15;15;1281;1;0;0;0;5;0;0.07;0.00;0.07;0.07;0.07;Matches
+460;Thuram\Thuram;br BRA;FW;Konyaspor;28;1991;6;4;416;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+461;Mickaël Tirpan\Mickael-Tirpan;be BEL;MFDF;Kasımpaşa;25;1993;6;6;530;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+462;Titi\Titi;br BRA;DF;Göztepe;31;1988;21;21;1890;0;1;0;0;4;0;0.00;0.05;0.05;0.00;0.05;Matches
+463;Dorukhan Toköz\Dorukhan-Tokoz;tr TUR;MFDF;Beşiktaş;23;1996;6;6;484;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+464;Mehmet Topal\Mehmet-Topal;tr TUR;MFDF;Başakşehir;33;1986;15;10;924;0;1;0;0;0;0;0.00;0.10;0.10;0.00;0.10;Matches
+465;Gökhan Töre\Gokhan-Tore;tr TUR;MFFW;Yeni Mal'spor;27;1992;13;8;718;1;2;1;1;1;0;0.13;0.25;0.38;0.00;0.25;Matches
+466;Tunay Torun\Tunay-Torun;tr TUR;FWMF;Rizespor;29;1990;1;0;25;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+467;Alin Toșca\Alin-Tosca;ro ROU;DF;Gaziantep FK;27;1992;24;24;2160;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+468;Cafer Tosun\Cafer-Tosun;tr TUR;MF;Trabzonspor;19;1999;2;0;16;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+469;Zargo Touré\Zargo-Toure;sn SEN;DF;Gençlerbirliği;29;1989;23;23;2066;0;0;0;0;6;0;0.00;0.00;0.00;0.00;0.00;Matches
+470;Eren Tozlu\Eren-Tozlu;tr TUR;FW;Yeni Mal'spor;28;1990;6;0;114;1;0;0;0;2;1;0.79;0.00;0.79;0.79;0.79;Matches
+471;Zlatko Tripić\Zlatko-Tripic;no NOR;FWMF;Göztepe;26;1992;2;0;13;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+472;Ozan Tufan\Ozan-Tufan;tr TUR;MFDF;Fenerbahçe;24;1995;24;24;2155;2;5;0;0;5;1;0.08;0.21;0.29;0.08;0.29;Matches
+473;Ali Turan\Ali-Turan;tr TUR;DF;Konyaspor;35;1983;14;13;1063;0;0;0;0;4;0;0.00;0.00;0.00;0.00;0.00;Matches
+474;Arda Turan\Arda-Turan;tr TUR;MF;Başakşehir;32;1987;9;2;179;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+475;Atila Turan\Atila-Turan;tr TUR;DF;Ankaragücü;27;1992;4;1;149;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+476;Atila Turan\Atila-Turan;tr TUR;DFMF;Kayserispor;27;1992;5;4;351;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+477;Hüseyin Türkmen\Huseyin-Turkmen;tr TUR;DF;Trabzonspor;21;1998;20;18;1667;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+478;Deniz Turuc\Deniz-Turuc;tr TUR;MF;Fenerbahçe;26;1993;18;8;899;2;0;0;0;2;1;0.20;0.00;0.20;0.20;0.20;Matches
+479;Patrick Twumasi\Patrick-Twumasi;gh GHA;MFFW;Gaziantep FK;25;1994;21;16;1429;5;4;2;2;1;0;0.31;0.25;0.57;0.19;0.44;Matches
+480;Georgios Tzavellas\Georgios-Tzavellas;gr GRE;DF;Alanyaspor;31;1987;10;8;769;1;0;0;0;2;0;0.12;0.00;0.12;0.12;0.12;Matches
+481;Salih Uçan\Salih-Ucan;tr TUR;MF;Alanyaspor;25;1994;17;7;666;1;1;0;0;1;0;0.14;0.14;0.27;0.14;0.27;Matches
+482;Uğur Uçar\Ugur-Ucar;tr TUR;DF;Başakşehir;32;1987;1;0;;0;0;0;0;1;0;;;;;;Matches
+483;Alper Uludağ\Alper-Uludag;tr TUR;DF;Konyaspor;28;1990;12;11;898;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches
+484;Aminu Umar\Aminu-Umar;ng NGA;MF;Rizespor;24;1995;18;15;1346;3;1;0;0;2;0;0.20;0.07;0.27;0.20;0.27;Matches
+485;Necip Uysal\Necip-Uysal;tr TUR;DFMF;Beşiktaş;28;1991;9;4;396;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00;Matches
+486;Anthony Uzodimma\Anthony-Uzodimma;ng NGA;MF;Kayserispor;20;1999;1;1;57;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+487;Fıratcan Üzüm\Firatcan-Uzum;tr TUR;MF;Trabzonspor;20;1999;3;0;21;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+488;Ömer Uzun\Omer-Uzun;tr TUR;MF;Kayserispor;19;2000;2;1;89;1;1;0;0;0;0;1.01;1.01;2.02;1.01;2.02;Matches
+489;Olivier Veigneau\Olivier-Veigneau;fr FRA;DF;Kasımpaşa;34;1985;5;3;333;0;0;0;0;1;0;0.00;0.00;0.00;0.00;0.00;Matches
+490;Amedej Vetrih\Amedej-Vetrih;si SVN;MF;Rizespor;28;1990;17;15;1226;0;0;0;0;5;0;0.00;0.00;0.00;0.00;0.00;Matches
+491;Domagoj Vida\Domagoj-Vida;hr CRO;DF;Beşiktaş;30;1989;24;24;2052;4;0;0;0;1;1;0.18;0.00;0.18;0.18;0.18;Matches
+492;Miguel Vieira\Miguel-Vieira;pt POR;DF;Başakşehir;28;1990;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+493;Edin Višća\Edin-Visca;ba BIH;MF;Başakşehir;29;1990;24;24;2146;8;9;2;2;1;0;0.34;0.38;0.71;0.25;0.63;Matches
+494;Güray Vural\Guray-Vural;tr TUR;MFDF;Gaziantep FK;31;1988;19;19;1419;4;1;0;0;4;2;0.25;0.06;0.32;0.25;0.32;Matches
+495;Rémi Walter\Remi-Walter;fr FRA;MF;Yeni Mal'spor;24;1995;3;2;188;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+496;Welinton\Welinton;br BRA;DF;Alanyaspor;30;1989;21;21;1857;2;0;0;0;7;0;0.10;0.00;0.10;0.10;0.10;Matches
+497;Kamil Wilczek\Kamil-Wilczek;pl POL;FW;Göztepe;31;1988;5;2;179;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+498;Güven Yalçın\Guven-Yalcin;tr TUR;FWMF;Beşiktaş;20;1999;13;5;496;2;0;0;0;2;0;0.36;0.00;0.36;0.36;0.36;Matches
+499;Robin Yalçın\Robin-Yalcin;de GER;MFDF;Yeni Mal'spor;25;1994;21;21;1853;3;0;0;0;9;1;0.15;0.00;0.15;0.15;0.15;Matches
+500;Mert Yandaş\Mert-Yandas;tr TUR;MF;Sivasspor;24;1994;23;23;1978;6;3;1;2;6;0;0.27;0.14;0.41;0.23;0.36;Matches
+501;Barış Yardımcı\Baris-Yardimci;tr TUR;DF;Sivasspor;26;1992;1;1;10;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+502;Ali Yasar\Ali-Yasar;be BEL;DF;Konyaspor;24;1995;3;0;17;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+503;Karahan Yasir Subaşı\Karahan-Yasir-Subasi;tr TUR;DF;Kayserispor;23;1996;15;14;1249;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+504;Mustapha Yatabaré\Mustapha-Yatabare;ml MLI;FW;Sivasspor;33;1986;23;23;2007;11;3;0;0;5;0;0.49;0.13;0.63;0.49;0.63;Matches
+505;Zeki Yavru\Zeki-Yavru;tr TUR;DFMF;Denizlispor;27;1991;21;19;1599;0;2;0;0;3;0;0.00;0.11;0.11;0.00;0.11;Matches
+506;Uğurcan Yazgılı\Ugurcan-Yazgili;tr TUR;DF;Kasımpaşa;20;1999;1;0;;0;0;0;0;0;0;;;;;;Matches
+507;Erdoğan Yeşilyurt\Erdogan-Yesilyurt;tr TUR;MFFW;Sivasspor;25;1993;20;11;939;4;2;0;0;6;0;0.38;0.19;0.58;0.38;0.58;Matches
+508;Muammer Yıldırım\Muammer-Yildirim;tr TUR;GK;Sivasspor;28;1990;1;0;45;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+509;Murat Yıldırım\Murat-Yildirim;tr TUR;MF;Yeni Mal'spor;32;1987;14;8;788;0;1;0;0;5;0;0.00;0.11;0.11;0.00;0.11;Matches
+510;Ahmet Yılmaz Çalık\Ahmet-Yilmaz-Calik;tr TUR;DF;Galatasaray;25;1994;7;4;382;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+511;Burak Yılmaz\Burak-Yilmaz;tr TUR;FW;Beşiktaş;34;1985;19;18;1609;11;3;6;6;3;0;0.62;0.17;0.78;0.28;0.45;Matches
+512;Kartal Yılmaz\Kartal-Yilmaz;tr TUR;MF;Beşiktaş;18;2000;1;0;7;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+513;Oğuz Yılmaz\Oguz-Yilmaz;tr TUR;DF;Denizlispor;26;1993;18;17;1572;0;0;0;0;3;0;0.00;0.00;0.00;0.00;0.00;Matches
+514;Rıdvan Yılmaz\Ridvan-Yilmaz;tr TUR;DF;Beşiktaş;18;2001;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+515;Sefa Yılmaz\Sefa-Yilmaz;tr TUR;MFFW;Gençlerbirliği;29;1990;11;7;548;0;1;0;0;0;0;0.00;0.16;0.16;0.00;0.16;Matches
+516;Mustafa Yumlu\Mustafa-Yumlu;tr TUR;DF;Denizlispor;31;1987;18;15;1324;2;1;0;0;5;0;0.14;0.07;0.20;0.14;0.20;Matches
+517;Utku Yuvakuran\Utku-Yuvakuran;tr TUR;GK;Beşiktaş;21;1997;1;1;90;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+518;Miha Zajc\Miha-Zajc;si SVN;MF;Fenerbahçe;25;1994;4;0;107;1;0;0;0;0;0;0.84;0.00;0.84;0.84;0.84;Matches
+519;Ümran Zambak\Umran-Zambak;nl NED;MF;Kayserispor;18;2000;1;0;4;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches
+520;Daniel Łukasik\Daniel-Lukasik;pl POL;MF;Ankaragücü;28;1991;6;6;534;0;0;0;0;2;0;0.00;0.00;0.00;0.00;0.00;Matches

@@ -1,4 +1,4 @@
-"id";"name";"nation";"position";"team";"age";"born";"MP";"Min";"Mn/MP";"Min%";"90s";"Starts";"Mn/Start";"Subs";"Mn/Sub";"unSub";"PPM";"onG";"onGA";"+/-";"+/-90";"On-Off";"onxG";"onxGA";"xG+/-";"xG+/-90";"On-Off-ex";"Matches"
+"id";"name";"nation";"position";"Squad";"age";"born";"MP";"Min";"Mn/MP";"Min%";"90s";"Starts";"Mn/Start";"Subs";"Mn/Sub";"unSub";"PPM";"onG";"onGA";"+/-";"+/-90";"On-Off";"onxG";"onxGA";"xG+/-";"xG+/-90";"On-Off-ex";"Matches"
 1;Mees Bakker\Mees-Bakker;nl NED;GK;AZ Alkmaar;18;2001;0;;;;;0;;0;;1;;;;;;;Matches
 2;Issah Abbas\Issah-Abbas;gh GHA;FW;Utrecht;20;1998;15;838;56;38.8;9.3;10;73;5;22;7;1.47;20;12;+8;+0.86;+0.59;Matches
 3;Dirk Abels\Dirk-Abels;nl NED;DF;Sparta R'dam;22;1997;24;1799;75;80.0;20.0;19;89;5;22;1;1.38;31;33;-2;-0.10;-0.50;Matches

@@ -1,4 +1,4 @@
-"id";"name";"nation";"position";"team";"age";"born";"MP";"Starts";"Min";"Gls";"Ast";"PK";"PKatt";"CrdY";"CrdR";"Gls_per_match";"Ast_per_match";"G_A_per_match";"G_PK_per_match";"G_A_PK_per_match";"xG";"npxG";"xA";"xG_per_match";"xA_per_match";"xG_xA";"npxG_per_match";"npxG_xA";"Matches"
+"id";"name";"nation";"position";"Squad";"age";"born";"MP";"Starts";"Min";"Gls";"Ast";"PK";"PKatt";"CrdY";"CrdR";"Gls_per_match";"Ast_per_match";"G_A_per_match";"G_PK_per_match";"G_A_PK_per_match";"xG";"npxG";"xA";"xG_per_match";"xA_per_match";"xG_xA";"npxG_per_match";"npxG_xA";"Matches"
 1;Issah Abbas\Issah-Abbas;gh GHA;FW;Utrecht;20;1998;15;10;838;2;0;0;0;4;0;0.21;0.00;0.21;0.21;0.21;Matches
 2;Dirk Abels\Dirk-Abels;nl NED;DF;Sparta R'dam;22;1997;24;19;1799;0;2;0;0;1;0;0.00;0.10;0.10;0.00;0.10;Matches
 3;Abdallah Aberkane\Abdallah-Aberkane;nl NED;DF;Sparta R'dam;19;2000;1;0;3;0;0;0;0;0;0;0.00;0.00;0.00;0.00;0.00;Matches

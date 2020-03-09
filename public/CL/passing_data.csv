@@ -1,4 +1,4 @@
-"id";"name";"nation";"position";"team";"age";"born";"90s";"Ast";"xA";"A-xA";"KP";"Cmp";"Att";"CmpPER";"shortCmp";"shortAtt";"shortCmpPER";"mediumCmp";"mediumAtt";"mediumCmpPER";"longCmp";"longAtt";"longCmpPER";"Left";"Right";"FK";"TB";"CK";"TI";"1/3";"PPA";"CrsPA";"Matches"
+"id";"name";"nation";"position";"Squad";"age";"born";"90s";"Ast";"xA";"A-xA";"KP";"Cmp";"Att";"CmpPER";"shortCmp";"shortAtt";"shortCmpPER";"mediumCmp";"mediumAtt";"mediumCmpPER";"longCmp";"longAtt";"longCmpPER";"Left";"Right";"FK";"TB";"CK";"TI";"1/3";"PPA";"CrsPA";"Matches"
 1;Tammy Abraham\Tammy-Abraham;eng ENG;FW;eng Chelsea;21;1997;5.4;1;0.5;+0.5;6;65;96;67.7;6;10;60.0;51;71;71.8;8;15;53.3;4;70;0;0;0;0;3;1;0;Matches
 2;Arijan Ademi\Arijan-Ademi;mk MKD;MFDF;hr Dinamo Zagreb;28;1991;5.8;1;1.1;-0.1;4;145;165;87.9;4;6;66.7;124;138;89.9;17;21;81.0;18;129;5;0;0;0;5;1;0;Matches
 3;Adrián\Adrian;es ESP;GK;eng Liverpool;32;1987;2.0;0;0.0;0.0;0;47;60;78.3;0;0;;18;19;94.7;29;41;70.7;7;41;5;0;0;0;0;0;0;Matches

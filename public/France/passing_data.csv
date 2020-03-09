@@ -1,4 +1,4 @@
-"id";"name";"nation";"position";"team";"age";"born";"90s";"Ast";"xA";"A-xA";"KP";"Cmp";"Att";"CmpPER";"shortCmp";"shortAtt";"shortCmpPER";"mediumCmp";"mediumAtt";"mediumCmpPER";"longCmp";"longAtt";"longCmpPER";"Left";"Right";"FK";"TB";"CK";"TI";"1/3";"PPA";"CrsPA";"Matches"
+"id";"name";"nation";"position";"Squad";"age";"born";"90s";"Ast";"xA";"A-xA";"KP";"Cmp";"Att";"CmpPER";"shortCmp";"shortAtt";"shortCmpPER";"mediumCmp";"mediumAtt";"mediumCmpPER";"longCmp";"longAtt";"longCmpPER";"Left";"Right";"FK";"TB";"CK";"TI";"1/3";"PPA";"CrsPA";"Matches"
 1;Yunis Abdelhamid\Yunis-Abdelhamid;ma MAR;DF;Reims;31;1987;27.0;0;0.2;-0.2;2;1275;1460;87.3;8;22;36.4;814;886;91.9;453;552;82.1;967;397;74;1;0;3;45;3;0;Matches
 2;Mehdi Abeid\Mehdi-Abeid;dz ALG;MF;Nantes;26;1992;19.5;2;1.4;+0.6;25;768;921;83.4;6;21;28.6;604;655;92.2;158;245;64.5;102;757;42;1;47;4;81;6;4;Matches
 3;Charles Abi\Charles-Abi;fr FRA;FW;Saint-Étienne;19;2000;6.5;0;1.0;-1.0;5;71;125;56.8;9;21;42.9;56;92;60.9;6;12;50.0;75;16;0;1;0;0;5;2;0;Matches

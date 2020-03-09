@@ -1,4 +1,4 @@
-"id";"name";"nation";"position";"team";"age";"born";"MP";"Min";"Mn/MP";"Min%";"90s";"Starts";"Mn/Start";"Subs";"Mn/Sub";"unSub";"PPM";"onG";"onGA";"+/-";"+/-90";"On-Off";"onxG";"onxGA";"xG+/-";"xG+/-90";"On-Off-ex";"Matches"
+"id";"name";"nation";"position";"Squad";"age";"born";"MP";"Min";"Mn/MP";"Min%";"90s";"Starts";"Mn/Start";"Subs";"Mn/Sub";"unSub";"PPM";"onG";"onGA";"+/-";"+/-90";"On-Off";"onxG";"onxGA";"xG+/-";"xG+/-90";"On-Off-ex";"Matches"
 1;Ismael Aaneba\Ismael-Aaneba;fr FRA;MF;Strasbourg;20;1999;0;;;;;0;;0;;8;;;;;;;;;;;;Matches
 2;Yunis Abdelhamid\Yunis-Abdelhamid;ma MAR;DF;Reims;31;1987;27;2430;90;100.0;27.0;27;90;0;;0;1.41;25;21;+4;+0.15;;27.1;25.9;+1.2;+0.05;;Matches
 3;Mehdi Abeid\Mehdi-Abeid;dz ALG;MF;Nantes;26;1992;24;1758;73;72.3;19.5;19;87;5;22;1;1.50;20;23;-3;-0.15;-0.42;19.5;27.3;-7.9;-0.40;-0.55;Matches

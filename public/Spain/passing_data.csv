@@ -1,4 +1,4 @@
-"id";"name";"nation";"position";"team";"age";"born";"90s";"Ast";"xA";"A-xA";"KP";"Cmp";"Att";"CmpPER";"shortCmp";"shortAtt";"shortCmpPER";"mediumCmp";"mediumAtt";"mediumCmpPER";"longCmp";"longAtt";"longCmpPER";"Left";"Right";"FK";"TB";"CK";"TI";"1/3";"PPA";"CrsPA";"Matches"
+"id";"name";"nation";"position";"Squad";"age";"born";"90s";"Ast";"xA";"A-xA";"KP";"Cmp";"Att";"CmpPER";"shortCmp";"shortAtt";"shortCmpPER";"mediumCmp";"mediumAtt";"mediumCmpPER";"longCmp";"longAtt";"longCmpPER";"Left";"Right";"FK";"TB";"CK";"TI";"1/3";"PPA";"CrsPA";"Matches"
 1;Antonio Adán\Antonio-Adan;es ESP;GK;Atlético Madrid;32;1987;0.3;0;0.0;0.0;0;4;6;66.7;0;0;;2;2;100.0;2;4;50.0;2;2;0;0;0;0;0;0;0;Matches
 2;Aritz Aduriz\Aritz-Aduriz;es ESP;FW;Athletic Bilbao;38;1981;2.1;0;0.0;0.0;0;32;56;57.1;0;1;0.0;31;47;66.0;1;8;12.5;3;25;0;0;0;0;3;0;0;Matches
 3;Lumor Agbenyenu\Lumor-Agbenyenu;gh GHA;DF;Mallorca;22;1996;16.9;0;1.1;-1.1;12;602;819;73.5;10;44;22.7;503;612;82.2;89;163;54.6;541;52;9;1;0;186;42;19;11;Matches

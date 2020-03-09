@@ -1,4 +1,4 @@
-"id";"name";"nation";"position";"team";"age";"born";"MP";"Min";"Mn/MP";"Min%";"90s";"Starts";"Mn/Start";"Subs";"Mn/Sub";"unSub";"PPM";"onG";"onGA";"+/-";"+/-90";"On-Off";"onxG";"onxGA";"xG+/-";"xG+/-90";"On-Off-ex";"Matches"
+"id";"name";"nation";"position";"Squad";"age";"born";"MP";"Min";"Mn/MP";"Min%";"90s";"Starts";"Mn/Start";"Subs";"Mn/Sub";"unSub";"PPM";"onG";"onGA";"+/-";"+/-90";"On-Off";"onxG";"onxGA";"xG+/-";"xG+/-90";"On-Off-ex";"Matches"
 1;Mohamed Abarhoun\Mohamed-Abarhoun;ma MAR;DF;Rizespor;30;1989;20;1738;87;84.0;19.3;19;90;1;28;3;1.20;20;29;-9;-0.47;+1.16;Matches
 2;Aymen Abdennour\Aymen-Abdennour;tn TUN;DF;Kayserispor;29;1989;12;901;75;41.7;10.0;11;81;1;8;3;0.67;8;21;-13;-1.30;-0.01;Matches
 3;Tolgahan Acar\Tolgahan-Acar;tr TUR;GK;Denizlispor;33;1986;0;;;;;0;;0;;22;;;;;;;Matches

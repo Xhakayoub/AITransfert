@@ -3,22 +3,18 @@
 namespace App\Services;
 
 use Symfony\Component\HttpClient\HttpClient;
+use Symfony\Component\BrowserKit\HttpBrowser;
 
 
 class ExtractDataFromWeb{
 
-public function getPremierleagueData(String $api) :array{
+public function getPremierleagueData(String $api){
     
     //$api = 'https://fantasy.premierleague.com/api/bootstrap-static/';
-
-    $client = HttpClient::create();
-
-    $response = $client->request('GET', $api);
-    
-    $content = $response->getContent();
-    $content = $response->toArray();
+    $browser = new HttpBrowser(HttpClient::create());
+    $crawler = $browser->request('GET', 'https://fbref.com/en/comps/8/misc/Champions-League-Stats');
             
-    return $content;
+    return $crawler;
 
 }
 

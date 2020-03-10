@@ -3,15 +3,16 @@
 namespace App\Services;
 
 use App\Entity\Player;
+use App\Entity\Team;
 use Symfony\Flex\Unpack\Result;
 
 class Laboratory
 {
-    /**
-     * 
-     * Function finished 
-     */
 
+
+    /**
+     * Les fonctions de base
+     */
     public function getPassingCompletedNote(float $value): int
     {
 
@@ -25,12 +26,10 @@ class Laboratory
             else $res = 0;
         }
         return $res;
-     
     }
 
     public function getAssistNote(float $value): int
     {
-
         if ($value) {
             if ($value > 2) $res = 10;
             if ($value > 1.5 and $value < 2)  $res = 9;
@@ -38,6 +37,34 @@ class Laboratory
             if (0.5 < $value and $value < 1)  $res = 7;
             if (0.3 < $value and $value < 0.5) $res = 6;
             if (0 < $value and $value < 0.3) $res = 5;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+    public function getShootNote(float $value): int
+    {
+        if ($value) {
+            if ($value > 5) $res = 10;
+            if ($value > 4 and $value < 5)  $res = 9;
+            if (3.5 < $value and $value < 4)  $res = 8;
+            if (3 < $value and $value < 3.5)  $res = 7;
+            if (2 < $value and $value < 3) $res = 6;
+            if (1 < $value and $value < 2) $res = 5;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+    public function getShootOnTargetNote(float $value): int
+    {
+        if ($value) {
+            if ($value > 3.8) $res = 10;
+            if ($value > 2.5 and $value < 3.8)  $res = 9;
+            if (2 < $value and $value < 2.5)  $res = 8;
+            if (1.7 < $value and $value < 2)  $res = 7;
+            if (1.5 < $value and $value < 1.7) $res = 6;
+            if (1 < $value and $value < 1.5) $res = 5;
             else $res = 0;
         }
         return $res;

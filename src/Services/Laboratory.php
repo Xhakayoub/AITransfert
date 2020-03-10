@@ -17,12 +17,12 @@ class Laboratory
     {
 
         if ($value) {
-            if ($value > 1) $res = 10;
-            if ($value > 0.8 and $value < 1)  $res = 9;
-            if (0.5 < $value and $value < 0.8)  $res = 8;
-            if (0.3 < $value and $value < 0.5)  $res = 7;
-            if (0.2 < $value and $value < 0.3) $res = 6;
-            if (0.1 < $value and $value < 0.2) $res = 5;
+            if ($value >= 1) $res = 10;
+            if ($value >= 0.8 and $value < 1)  $res = 9;
+            if (0.5 <= $value and $value < 0.8)  $res = 8;
+            if (0.3 <= $value and $value < 0.5)  $res = 7;
+            if (0.2 <= $value and $value < 0.3) $res = 6;
+            if (0.1 <= $value and $value < 0.2) $res = 5;
             else $res = 0;
         }
         return $res;
@@ -31,12 +31,12 @@ class Laboratory
     public function getAssistNote(float $value): int
     {
         if ($value) {
-            if ($value > 2) $res = 10;
-            if ($value > 1.5 and $value < 2)  $res = 9;
-            if (1 < $value and $value < 1.5)  $res = 8;
-            if (0.5 < $value and $value < 1)  $res = 7;
-            if (0.3 < $value and $value < 0.5) $res = 6;
-            if (0 < $value and $value < 0.3) $res = 5;
+            if ($value >= 2) $res = 10;
+            if ($value >= 1.5 and $value < 2)  $res = 9;
+            if (1 <= $value and $value < 1.5)  $res = 8;
+            if (0.5 <= $value and $value < 1)  $res = 7;
+            if (0.3 <= $value and $value < 0.5) $res = 6;
+            if (0 <= $value and $value < 0.3) $res = 5;
             else $res = 0;
         }
         return $res;
@@ -45,12 +45,12 @@ class Laboratory
     public function getShootNote(float $value): int
     {
         if ($value) {
-            if ($value > 5) $res = 10;
-            if ($value > 4 and $value < 5)  $res = 9;
-            if (3.5 < $value and $value < 4)  $res = 8;
-            if (3 < $value and $value < 3.5)  $res = 7;
-            if (2 < $value and $value < 3) $res = 6;
-            if (1 < $value and $value < 2) $res = 5;
+            if ($value >= 5) $res = 10;
+            if ($value >= 4 and $value < 5)  $res = 9;
+            if (3.5 <= $value and $value < 4)  $res = 8;
+            if (3 <= $value and $value < 3.5)  $res = 7;
+            if (2 <= $value and $value < 3) $res = 6;
+            if (1 <= $value and $value < 2) $res = 5;
             else $res = 0;
         }
         return $res;
@@ -59,12 +59,26 @@ class Laboratory
     public function getShootOnTargetNote(float $value): int
     {
         if ($value) {
-            if ($value > 3.8) $res = 10;
-            if ($value > 2.5 and $value < 3.8)  $res = 9;
-            if (2 < $value and $value < 2.5)  $res = 8;
-            if (1.7 < $value and $value < 2)  $res = 7;
-            if (1.5 < $value and $value < 1.7) $res = 6;
-            if (1 < $value and $value < 1.5) $res = 5;
+            if ($value >= 3.8) $res = 10;
+            if ($value >= 2.5 and $value < 3.8)  $res = 9;
+            if (2 <= $value and $value < 2.5)  $res = 8;
+            if (1.7 <= $value and $value < 2)  $res = 7;
+            if (1.5 <= $value and $value < 1.7) $res = 6;
+            if (1 <= $value and $value < 1.5) $res = 5;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+    public function getGoalPerShootNote(float $value): int
+    {
+        if ($value) {
+            if ($value >= 0.5) $res = 10;
+            if ($value >= 0.28 and $value < 0.5)  $res = 9;
+            if (0.2 <= $value and $value < 0.28)  $res = 8;
+            if (0.15 <= $value and $value < 0.2)  $res = 7;
+            if (0.1 <= $value and $value < 0.15) $res = 5;
+            if (0.04 <= $value and $value < 0.1) $res = 4;
             else $res = 0;
         }
         return $res;

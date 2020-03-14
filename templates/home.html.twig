@@ -5,15 +5,5 @@
 
 {% block body %}
 Welcome To AITransfert 
-{{ dump(test) }}
-<ul>
-{% for player in data['elements'] %}
-<li>
-{{ player.first_name ~' '~ player.second_name }}
-</li>
-{% endfor %}
-</ul>
-<pre>
-    
-</pre>
+<h1>{{dump(data)}}</h1>
 {% endblock %}

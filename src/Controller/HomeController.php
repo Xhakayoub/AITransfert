@@ -20,9 +20,9 @@ class HomeController extends AbstractController
     public function index(ExtractDataFromWeb $service)
     {
 
-       $response = $service->updateLeagueData('ligue1');
+       $response = $service->updateLeagueData(9, 'passing', 'England');
         // $api1 = 'https://www.premierleague.com/stats/top/players/goals';
-
+ 
         return $this->render('home.html.twig', [
             'controller_name' => 'HomeController',
             'data' => $response

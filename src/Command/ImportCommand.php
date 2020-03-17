@@ -24,7 +24,7 @@ class importCommand extends Command
       $this->setName('csv:import')
          ->setDescription('importation data');
    }
-
+   
    public function importTeams(array $array, array $arrayBeta, string $league): void
    {
       if (!empty($array) and !empty($arrayBeta)) {

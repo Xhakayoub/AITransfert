@@ -7,7 +7,7 @@ use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
-use App\Services\updateAllData;
+use App\Services\ExtractDataFromWeb;
 
 class scrapingCommand extends Command
 {
@@ -23,19 +23,20 @@ class scrapingCommand extends Command
             ->setDescription('update data');
     }
 
-    public function update()
+    public function update(ExtractDataFromWeb $service)
     {
+        $data = $service->updateData();
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output, updateAllData $service)
+    protected function execute(InputInterface $input, OutputInterface $output)
     {
-
+        $service = new ExtractDataFromWeb ;
         $io = new SymfonyStyle($input, $output);
 
         $io->title('import en progression...');
 
-        $service->mainFunction();
-        echo "done!";
+        $data = $service->updateData();
+        echo $data;
 
         $io->success('importation avec succÃ©s');
     }

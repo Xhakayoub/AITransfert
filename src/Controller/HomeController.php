@@ -14,8 +14,10 @@ class HomeController extends AbstractController
      */
     public function index(ExtractDataFromWeb $service)
     {
+     
         return $this->render('home.html.twig', [
             'controller_name' => 'HomeController'
+          
         ]);
     }
 }

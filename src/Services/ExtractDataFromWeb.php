@@ -18,6 +18,21 @@ class ExtractDataFromWeb
         $line = fgets($fp);
         fwrite($fp, $response->getContent());
         fclose($fp);
+    }
 
+    public function updateData()
+    {
+
+        $client = HttpClient::create();
+        $response = $client->request('GET', 'http://127.0.0.1:5000/all', ['timeout' => 2000.5]);
+        $data = $response->getContent();
+
+        // foreach ($data as $item) {
+        //     $fp = fopen("C:/wamp64/www/AiTransfert/public/" . $dir . "/standars_data.csv", "r+");
+        //     $line = fgets($fp);
+        //     fwrite($fp, $response->getContent());
+        //     fclose($fp);
+        // }
+        return $data;
     }
 }

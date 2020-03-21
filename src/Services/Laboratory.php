@@ -13,10 +13,14 @@ class Laboratory
     /**
      * Les fonctions de base
      */
-    public function getPassingCompletedNote(float $value): int
-    {
 
-        if ($value) {
+    /**
+     * return the rate of the passe completed
+     */
+    public function getPassingCompletedPercentNote(Player $player): int
+    {
+        if ($player) {
+            $value = $player->getPassCompPercent() / 100;
             if ($value >= 1) $res = 10;
             if ($value >= 0.8 and $value < 1)  $res = 9;
             if (0.5 <= $value and $value < 0.8)  $res = 8;
@@ -28,6 +32,30 @@ class Laboratory
         return $res;
     }
 
+    /**
+     * return the rate of the passe completed percent
+     */
+    public function getPassingCompletedPercent(Player $player): int
+    {
+        if ($player) {
+            $passes = $player->getPassesCompleted();
+            $minutes = $player->getMinsPlayed();
+            $value = $passes / $minutes;
+            if ($value >= 1) $res = 10;
+            if ($value >= 0.8 and $value < 1)  $res = 9;
+            if (0.5 <= $value and $value < 0.8)  $res = 8;
+            if (0.3 <= $value and $value < 0.5)  $res = 7;
+            if (0.2 <= $value and $value < 0.3) $res = 6;
+            if (0.1 <= $value and $value < 0.2) $res = 5;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+
+    /**
+     * return the rate of the assist
+     */
     public function getAssistNote(float $value): int
     {
         if ($value) {
@@ -42,6 +70,9 @@ class Laboratory
         return $res;
     }
 
+    /**
+     * return the rate of the shoot
+     */
     public function getShootNote(float $value): int
     {
         if ($value) {
@@ -56,6 +87,28 @@ class Laboratory
         return $res;
     }
 
+    /**
+     * return the rate of the age
+     */
+    public function getAgeNote(Player $player): int
+    {
+        if ($player) {
+            $value = $player->getAge();
+            if ($value <= 18) $res = 10;
+            if ($value <= 20 and $value > 18)  $res = 9.5;
+            if (24 >= $value and $value > 20)  $res = 8.5;
+            if (27 >= $value and $value > 24)  $res = 7.5;
+            if (29 >= $value and $value > 27) $res = 7;
+            if (31 >= $value and $value > 29) $res = 6;
+            if (33 >= $value and $value > 31) $res = 5;
+            else $res = 4;
+        }
+        return $res;
+    }
+
+    /**
+     * return the rate of the shoot on target
+     */
     public function getShootOnTargetNote(float $value): int
     {
         if ($value) {
@@ -70,6 +123,9 @@ class Laboratory
         return $res;
     }
 
+    /**
+     * return the rate of the goal per shoot
+     */
     public function getGoalPerShootNote(float $value): int
     {
         if ($value) {
@@ -83,6 +139,38 @@ class Laboratory
         }
         return $res;
     }
+
+    /**
+     * return the rate of the role in the squad
+     */
+    public function getRoleInSquadRating(Player $player, Team $team): int
+    {
+
+        $played = $player->getMatchsPlayed();
+        $started = $player->getMatchStarts();
+        $MacthsOfTeam = $team->getMatchPlayed();
+
+        $playedNote = $played / $MacthsOfTeam;
+        $startedNote = $started / $MacthsOfTeam;
+        $finalNote = (($playedNote * 3) + ($startedNote * 7)) / 10;
+
+        return $finalNote;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     public function getPassQuality(Player $player): float

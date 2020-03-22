@@ -56,15 +56,17 @@ class Laboratory
     /**
      * return the rate of the assist
      */
-    public function getAssistNote(float $value): int
+    public function getAssistNote(Player $player): int
     {
-        if ($value) {
-            if ($value >= 2) $res = 10;
-            if ($value >= 1.5 and $value < 2)  $res = 9;
-            if (1 <= $value and $value < 1.5)  $res = 8;
-            if (0.5 <= $value and $value < 1)  $res = 7;
-            if (0.3 <= $value and $value < 0.5) $res = 6;
-            if (0 <= $value and $value < 0.3) $res = 5;
+        if ($player) {
+            $value = $player->getAssistsPerMin();
+            if ($value >= 1) $res = 10;
+            if ($value <= 1 and $value > 0.7)  $res = 9;
+            if (0.7 >= $value and $value > 0.5)  $res = 8;
+            if (0.5 >= $value and $value > 0.3)  $res = 7;
+            if (0.3 >= $value and $value > 0.2) $res = 6;
+            if (0.2 >= $value and $value > 0.1) $res = 5;
+            if (0.1 >= $value and $value > 0) $res = 4;
             else $res = 0;
         }
         return $res;
@@ -73,15 +75,17 @@ class Laboratory
     /**
      * return the rate of the shoot
      */
-    public function getShootNote(float $value): int
+    public function getShootNote(Player $player): int
     {
-        if ($value) {
-            if ($value >= 5) $res = 10;
-            if ($value >= 4 and $value < 5)  $res = 9;
-            if (3.5 <= $value and $value < 4)  $res = 8;
-            if (3 <= $value and $value < 3.5)  $res = 7;
-            if (2 <= $value and $value < 3) $res = 6;
-            if (1 <= $value and $value < 2) $res = 5;
+        if ($player) {
+            $value = $player->getShootsPerMatch();
+            if ($value >= 6) $res = 10;
+            if ($value >= 4 and $value < 6)  $res = 9;
+            if (3 <= $value and $value < 4)  $res = 8;
+            if (2 <= $value and $value < 2.5)  $res = 7;
+            if (1.5 <= $value and $value < 2) $res = 6;
+            if (0.5 <= $value and $value < 1.5) $res = 5;
+            if (0 < $value and $value < 0.5) $res = 4;
             else $res = 0;
         }
         return $res;
@@ -109,15 +113,17 @@ class Laboratory
     /**
      * return the rate of the shoot on target
      */
-    public function getShootOnTargetNote(float $value): int
+    public function getShootOnTargetNote(Player $player): int
     {
-        if ($value) {
+        if ($player) {
+            $value = $player->getShootsOnTargetPerMatch();
             if ($value >= 3.8) $res = 10;
             if ($value >= 2.5 and $value < 3.8)  $res = 9;
             if (2 <= $value and $value < 2.5)  $res = 8;
             if (1.7 <= $value and $value < 2)  $res = 7;
             if (1.5 <= $value and $value < 1.7) $res = 6;
             if (1 <= $value and $value < 1.5) $res = 5;
+            if (0 < $value and $value < 1) $res = 5;
             else $res = 0;
         }
         return $res;
@@ -126,9 +132,10 @@ class Laboratory
     /**
      * return the rate of the goal per shoot
      */
-    public function getGoalPerShootNote(float $value): int
+    public function getGoalPerShootNote(Player $player): int
     {
-        if ($value) {
+        if ($player) {
+            $value = $player->getGoalsPerShoot();
             if ($value >= 0.5) $res = 10;
             if ($value >= 0.28 and $value < 0.5)  $res = 9;
             if (0.2 <= $value and $value < 0.28)  $res = 8;

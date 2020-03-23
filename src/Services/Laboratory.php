@@ -4,7 +4,6 @@ namespace App\Services;
 
 use App\Entity\Player;
 use App\Entity\Team;
-use Symfony\Flex\Unpack\Result;
 
 class Laboratory
 {
@@ -17,7 +16,7 @@ class Laboratory
     /**
      * return the rate of the passe completed
      */
-    public function getPassingCompletedPercentNote(Player $player): int
+    public function getPassingCompletedPercentRating(Player $player): int
     {
         if ($player) {
             $value = $player->getPassCompPercent() / 100;
@@ -35,7 +34,7 @@ class Laboratory
     /**
      * return the rate of the passe completed percent
      */
-    public function getPassingCompletedPercent(Player $player): int
+    public function getPassingCompletedPerMinuteRating(Player $player): int
     {
         if ($player) {
             $passes = $player->getPassesCompleted();
@@ -56,7 +55,7 @@ class Laboratory
     /**
      * return the rate of the assist
      */
-    public function getAssistNote(Player $player): int
+    public function getAssistRating(Player $player): int
     {
         if ($player) {
             $value = $player->getAssistsPerMin();
@@ -75,7 +74,7 @@ class Laboratory
     /**
      * return the rate of the shoot
      */
-    public function getShootNote(Player $player): int
+    public function getShootRating(Player $player): int
     {
         if ($player) {
             $value = $player->getShootsPerMatch();
@@ -94,7 +93,7 @@ class Laboratory
     /**
      * return the rate of the age
      */
-    public function getAgeNote(Player $player): int
+    public function getAgeRating(Player $player): int
     {
         if ($player) {
             $value = $player->getAge();
@@ -113,7 +112,7 @@ class Laboratory
     /**
      * return the rate of the shoot on target
      */
-    public function getShootOnTargetNote(Player $player): int
+    public function getShootOnTargetRating(Player $player): int
     {
         if ($player) {
             $value = $player->getShootsOnTargetPerMatch();
@@ -132,7 +131,7 @@ class Laboratory
     /**
      * return the rate of the goal per shoot
      */
-    public function getGoalPerShootNote(Player $player): int
+    public function getGoalPerShootRating(Player $player): int
     {
         if ($player) {
             $value = $player->getGoalsPerShoot();
@@ -164,6 +163,73 @@ class Laboratory
         return $finalNote;
     }
 
+    /**
+     * return the rate of the role in the squad
+     */
+    public function getGoalPerTenMinuteRating(Player $player): int
+    {
+
+        if ($player) {
+            $goals = $player->getGoals();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($goals / $minutes) * 10;
+            if ($value >= 0.1) $res = 10;
+            if ($value < 0.1 and $value >= 0.08)  $res = 9;
+            if ($value < 0.08 and $value >= 0.07)  $res = 8;
+            if ($value < 0.07 and $value >= 0.06)  $res = 7;
+            if ($value < 0.06 and $value >= 0.05)  $res = 6;
+            if ($value < 0.05 and $value >= 0.04)  $res = 5;
+            if ($value < 0.04 and $value >= 0.02)  $res = 4;
+            if ($value < 0.02 and $value > 0)  $res = 3;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+    /**
+     * return the rate of the role in the squad
+     */
+    public function getCrossesPerMinuteRating(Player $player): int
+    {
+
+        if ($player) {
+            $crosses = $player->getCrosses();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($crosses / $minutes);
+            if ($value >= 0.1) $res = 10;
+            if ($value < 0.1 and $value >= 0.08)  $res = 9;
+            if ($value < 0.08 and $value >= 0.07)  $res = 8;
+            if ($value < 0.07 and $value >= 0.06)  $res = 7;
+            if ($value < 0.06 and $value >= 0.05)  $res = 6;
+            if ($value < 0.05 and $value >= 0.04)  $res = 5;
+            if ($value < 0.04 and $value >= 0.02)  $res = 4;
+            if ($value < 0.02 and $value > 0)  $res = 3;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+    /**
+     * return the rate of the shoot
+     */
+    public function getFoulsPerMinuteNote(Player $player): int
+    {
+        if ($player) {
+            $fouls = $player->getFoulsCommited();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($fouls / $minutes) * 10;
+            if ($value >= 0.3) $res = 10;
+            if ($value < 0.3 and $value >= 0.2)  $res = 9;
+            if ($value < 0.2 and $value >= 0.16)  $res = 8;
+            if ($value < 0.16 and $value >= 0.12)  $res = 7;
+            if ($value < 0.12 and $value >= 0.1)  $res = 6;
+            if ($value < 0.1 and $value >= 0.08)  $res = 5;
+            if ($value < 0.08 and $value >= 0.06)  $res = 4;
+            if ($value < 0.06 and $value >= 0)  $res = 3;
+            else $res = 0;
+        }
+        return $res;
+    }
 
 
 

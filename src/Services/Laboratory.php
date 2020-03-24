@@ -53,9 +53,9 @@ class Laboratory
 
 
     /**
-     * return the rate of the assist
+     * return the rate of the assist to redo
      */
-    public function getAssistRating(Player $player): int
+    public function getAssistNote(Player $player): int
     {
         if ($player) {
             $value = $player->getAssistsPerMin();
@@ -349,13 +349,22 @@ class Laboratory
     /**
      * return the rate of the yellow cards
      */
-    public function getTacklesPercentRating(Player $player): float
+    public function getTacklesPercentRating(Player $player): int
     {
         if ($player) {
             $dribblesTackled = $player->getDribbleTackledPercent();
             $value = ($dribblesTackled / 10);
+            if ($value >= 5) $res = 10;
+            if ($value < 5 and $value >= 4)  $res = 9;
+            if ($value < 4 and $value >= 3)  $res = 8;
+            if ($value < 3 and $value >= 2)  $res = 7;
+            if ($value < 2 and $value >= 1.5)  $res = 6;
+            if ($value < 1.5 and $value >= 1)  $res = 5;
+            if ($value < 1 and $value >= 0.5)  $res = 4;
+            if ($value < 0.5 and $value > 0)  $res = 3;
+            else $res = 0;
         }
-        return $value;
+        return $res;
     }
 
 
@@ -383,6 +392,234 @@ class Laboratory
     }
 
 
+    /**
+     * return the rate of the yellow cards
+     */
+    public function getDribbleCompletedPer90MintuesRating(Player $player): int
+    {
+        if ($player) {
+            $dribbles = $player->getDribbleCompleted();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($dribbles / $minutes) * 90;
+            if ($value >= 5) $res = 10;
+            if ($value < 5 and $value >= 4)  $res = 9;
+            if ($value < 4 and $value >= 3)  $res = 8;
+            if ($value < 3 and $value >= 2)  $res = 7;
+            if ($value < 2 and $value >= 1.5)  $res = 6;
+            if ($value < 1.5 and $value >= 1)  $res = 5;
+            if ($value < 1 and $value >= 0.5)  $res = 4;
+            if ($value < 0.5 and $value > 0)  $res = 3;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+
+
+    /**
+     * return the rate of the yellow cards
+     */
+    public function getDribbleCompletedPerCentRating(Player $player): float
+    {
+        if ($player) {
+            $dribbles = $player->getDribblePercent();
+            $value = $dribbles / 10;
+        }
+        return $value;
+    }
+
+
+    /**
+     * return the rate of the yellow cards
+     */
+    public function getOffsideRating(Player $player): int
+    {
+        if ($player) {
+            $offsides = $player->getOffsides();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($offsides / $minutes) * 90;
+            if ($value >= 3) $res = 0;
+            if ($value < 3 and $value >= 2)  $res = 3;
+            if ($value < 2 and $value >= 1.5)  $res = 4;
+            if ($value < 1.5 and $value >= 1)  $res = 5;
+            if ($value < 1 and $value >= 0.7)  $res = 6;
+            if ($value < 0.7 and $value >= 0.4)  $res = 7;
+            if ($value < 0.4 and $value >= 0.2)  $res = 8;
+            if ($value < 0.2 and $value > 0)  $res = 9;
+            else $res = 10;
+        }
+        return $res;
+    }
+
+
+    /**
+     * return the rate of the yellow cards
+     */
+    public function getAssistRating(Player $player): int
+    {
+        if ($player) {
+            $assists = $player->getAssits();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($assists / $minutes) * 90;
+            if ($value >= 1) $res = 10;
+            if ($value < 1 and $value >= 0.8)  $res = 9;
+            if ($value < 0.8 and $value >= 0.7)  $res = 8;
+            if ($value < 0.7 and $value >= 0.5)  $res = 7;
+            if ($value < 0.5 and $value >= 0.3)  $res = 6;
+            if ($value < 0.3 and $value >= 0.2)  $res = 5;
+            if ($value < 0.2 and $value >= 0.1)  $res = 4;
+            if ($value < 0.1 and $value > 0)  $res = 3;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+    /**
+     * return the rate of the yellow cards
+     */
+    public function getKeyPassRating(Player $player): int
+    {
+        if ($player) {
+            $keyPasses = $player->getKeyPasses();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($keyPasses / $minutes) * 90;
+            if ($value >= 5) $res = 10;
+            if ($value < 5 and $value >= 4)  $res = 9;
+            if ($value < 4 and $value >= 2.5)  $res = 8;
+            if ($value < 2.5 and $value >= 2)  $res = 7;
+            if ($value < 2 and $value >= 1.5)  $res = 6;
+            if ($value < 1.5 and $value >= 1)  $res = 5;
+            if ($value < 1 and $value >= 0.5)  $res = 4;
+            if ($value < 0.5 and $value > 0)  $res = 3;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+    public function getPassCompletedRating(Player $player): int
+    {
+        if ($player) {
+            $passesCompleted = $player->getPassesCompleted();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($passesCompleted / $minutes);
+            if ($value >= 1) $res = 10;
+            if ($value < 1 and $value >= 0.8)  $res = 9;
+            if ($value < 0.8 and $value >= 0.7)  $res = 8;
+            if ($value < 0.7 and $value >= 0.5)  $res = 7;
+            if ($value < 0.5 and $value >= 0.3)  $res = 6;
+            if ($value < 0.3 and $value >= 0.2)  $res = 5;
+            if ($value < 0.2 and $value >= 0.1)  $res = 4;
+            if ($value < 0.1 and $value > 0)  $res = 3;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+    /**
+     * return the rate of the yellow cards
+     */
+    public function getPassCompletionPerCentRating(Player $player): float
+    {
+        if ($player) {
+            $dribbles = $player->getPassCompPercent();
+            $value = $dribbles / 10;
+        }
+        return $value;
+    }
+
+    public function getShortPassCompletedRating(Player $player): int
+    {
+        if ($player) {
+            $shortPassesCompleted = $player->getShortPassesCompleted();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($shortPassesCompleted / $minutes) * 90;
+            if ($value >= 5) $res = 10;
+            if ($value < 5 and $value >= 3)  $res = 9;
+            if ($value < 3 and $value >= 2.5)  $res = 8;
+            if ($value < 2.5 and $value >= 2)  $res = 7;
+            if ($value < 2 and $value >= 1.5)  $res = 6;
+            if ($value < 1.5 and $value >= 1)  $res = 5;
+            if ($value < 1 and $value >= 0.5)  $res = 4;
+            if ($value < 0.5 and $value > 0)  $res = 3;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+    /**
+     * return the rate of the yellow cards
+     */
+    public function getShortPassCompletionPerCentRating(Player $player): float
+    {
+        if ($player) {
+            $dribbles = $player->getShortPassesCompPercent();
+            $value = $dribbles / 10;
+        }
+        return $value;
+    }
+
+
+    public function getLongPassCompletedRating(Player $player): int
+    {
+        if ($player) {
+            $longPassesCompleted = $player->getLongPassesCompPercent();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($longPassesCompleted / $minutes) *10;
+            if ($value >= 5) $res = 10;
+            if ($value < 5 and $value >= 3)  $res = 9;
+            if ($value < 3 and $value >= 2.5)  $res = 8;
+            if ($value < 2.5 and $value >= 2)  $res = 7;
+            if ($value < 2 and $value >= 1.5)  $res = 6;
+            if ($value < 1.5 and $value >= 1)  $res = 5;
+            if ($value < 1 and $value >= 0.5)  $res = 4;
+            if ($value < 0.5 and $value > 0)  $res = 3;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+    /**
+     * return the rate of the yellow cards
+     */
+    public function getLongPassCompletionPerCentRating(Player $player): float
+    {
+        if ($player) {
+            $dribbles = $player->getLongPassesCompPercent();
+            $value = $dribbles / 10;
+        }
+        return $value;
+    }
+
+    public function getMediumPassCompletedRating(Player $player): int
+    {
+        if ($player) {
+            $mediumPassesCompleted = $player->getLongPassesCompPercent();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($mediumPassesCompleted / $minutes) *10;
+            if ($value >= 7) $res = 10;
+            if ($value < 7 and $value >= 5)  $res = 9;
+            if ($value < 5 and $value >= 4)  $res = 8;
+            if ($value < 4 and $value >= 3)  $res = 7;
+            if ($value < 3 and $value >= 2.5)  $res = 6;
+            if ($value < 2.5 and $value >= 2)  $res = 5;
+            if ($value < 2 and $value >= 1.5)  $res = 4;
+            if ($value < 1.5 and $value > 0.5)  $res = 3;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+    /**
+     * return the rate of the yellow cards
+     */
+    public function getMediumPassCompletionPerCentRating(Player $player): float
+    {
+        if ($player) {
+            $dribbles = $player->getLongPassesCompPercent();
+            $value = $dribbles / 10;
+        }
+        return $value;
+    }
 
 
 
@@ -392,6 +629,11 @@ class Laboratory
 
 
 
+
+
+    /**
+     * passe quality to redo
+     */
     public function getPassQuality(Player $player): float
     {
 
@@ -417,6 +659,10 @@ class Laboratory
         }
     }
 
+
+    /**
+     * passe quality to redo
+     */
     public function getShortPassQuality(Player $player): float
     {
 
@@ -438,6 +684,9 @@ class Laboratory
         }
     }
 
+    /**
+     * passe quality to redo
+     */
     public function getLongPassQuality(Player $player): float
     {
 
@@ -462,6 +711,9 @@ class Laboratory
         }
     }
 
+    /**
+     * passe quality to redo
+     */
     public function getMediumPassQuality(Player $player): float
     {
 

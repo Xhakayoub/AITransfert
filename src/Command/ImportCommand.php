@@ -336,7 +336,9 @@ class importCommand extends Command
                   ->setLongPassesCompPercent(floatval($passing[$index]['longCmpPER'] ?? 0.0))
                   ->setPassCompletedFinalThird(intval($passing[$index]['1/3'] ?? 0))
                   ->setPassCompletedPenaltyArea(intval($passing[$index]['PPA'] ?? 0))
+                  ->setThroughBalls(intval($passing[$index]['TB'] ?? 0))
                   ->setCrossIntoPenaltyArea(floatval($passing[$index]['CrsPA'] ?? 0.0));
+                  
             } else {
                for ($i = 0; $i <= count($passing) - 1; $i++) {
 
@@ -356,6 +358,7 @@ class importCommand extends Command
                         ->setLongPassesCompPercent(floatval($passing[$i]['longCmpPER'] ?? 0.0))
                         ->setPassCompletedFinalThird(intval($passing[$i]['1/3'] ?? 0))
                         ->setPassCompletedPenaltyArea(intval($passing[$i]['PPA'] ?? 0))
+                        ->setThroughBalls(intval($passing[$i]['TB'] ?? 0))
                         ->setCrossIntoPenaltyArea(floatval($passing[$i]['CrsPA'] ?? 0.0));
                      break;
                   }

@@ -391,6 +391,11 @@ class Player
      */
     private $timesDribbledPast;
 
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $throughBalls;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -1292,6 +1297,18 @@ class Player
     public function setTimesDribbledPast(?int $timesDribbledPast): self
     {
         $this->timesDribbledPast = $timesDribbledPast;
+
+        return $this;
+    }
+
+    public function getThroughBalls(): ?int
+    {
+        return $this->throughBalls;
+    }
+
+    public function setThroughBalls(?int $throughBalls): self
+    {
+        $this->throughBalls = $throughBalls;
 
         return $this;
     }

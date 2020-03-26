@@ -94,41 +94,60 @@ class importCommand extends Command
 
 
       $readerOfStandarsData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/standars_data.csv');
+      $readerOfStandarsTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/standars_team_data.csv');
       $readerOfPassingData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/passing_data.csv');
+      $readerOfPassingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/passing_team_data.csv');
       $readerOfShootingData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/shooting_data.csv');
+      $readerOfShootingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/shooting_team_data.csv');
       $readerOfTimmingData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/timming_data.csv');
+      $readerOfTimmingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/timming_team_data.csv');
       $readerOfMiscellaneousData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_data.csv');
-      $readerPermierLeagueTeams = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/teams.csv');
-      $readerPermierLeagueTeamsOtherData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/teams_other_data.csv');
+      $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
+      
       $readerOfStandarsData->setDelimiter(';');
+      $readerOfStandarsTeamData->setDelimiter(';');
       $readerOfPassingData->setDelimiter(';');
+      $readerOfPassingTeamData->setDelimiter(';');
       $readerOfShootingData->setDelimiter(';');
+      $readerOfShootingTeamData->setDelimiter(';');
       $readerOfTimmingData->setDelimiter(';');
+      $readerOfTimmingTeamData->setDelimiter(';');
       $readerOfMiscellaneousData->setDelimiter(';');
-      $readerPermierLeagueTeams->setDelimiter(';');
-      $readerPermierLeagueTeamsOtherData->setDelimiter(';');
+      $readerOfMiscellaneousTeamData->setDelimiter(';');
+ 
 
 
       $standars = $readerOfStandarsData->fetchAssoc();
       $passing = $readerOfPassingData->fetchAssoc();
       $shooting = $readerOfShootingData->fetchAssoc();
       $timming = $readerOfTimmingData->fetchAssoc();
-      $miscellaneous = $readerOfMiscellaneousData->fetchAssoc();
-      $permierLeagueTeams = $readerPermierLeagueTeams->fetchAssoc();
-      $permierLeagueTeamsOtherData = $readerPermierLeagueTeamsOtherData->fetchAssoc();
+      $miscellaneous = $readerOfMiscellaneousTeamData->fetchAssoc();
+      $standarsTeams = $readerOfStandarsTeamData->fetchAssoc();
+      $passingTeams = $readerOfPassingTeamData->fetchAssoc();
+      $shootingTeams = $readerOfShootingTeamData->fetchAssoc();
+      $timmingTeams = $readerOfTimmingTeamData->fetchAssoc();
+      $miscellaneousTeams = $readerOfMiscellaneousData->fetchAssoc();
+
+      // $permierLeagueTeams = $readerPermierLeagueTeams->fetchAssoc();
+      // $permierLeagueTeamsOtherData = $readerPermierLeagueTeamsOtherData->fetchAssoc();
 
       $standars = iterator_to_array($standars, false);
       $passing = iterator_to_array($passing, false);
       $shooting = iterator_to_array($shooting, false);
       $timming = iterator_to_array($timming, false);
-      $miscellaneous = iterator_to_array($miscellaneous, false);
-      $permierLeagueTeams = iterator_to_array($permierLeagueTeams, false);
-      $permierLeagueTeamsOtherData = iterator_to_array($permierLeagueTeamsOtherData, false);
+      $miscellaneous = iterator_to_array($miscellaneousTeams, false);
+      $standarsTeams = iterator_to_array($standarsTeams, false);
+      $passingTeams = iterator_to_array($passingTeams, false);
+      $shootingTeams = iterator_to_array($shootingTeams, false);
+      $timmingTeams = iterator_to_array($timmingTeams, false);
+      $miscellaneousTeams = iterator_to_array($miscellaneousTeams, false);
+      // $permierLeagueTeams = iterator_to_array($permierLeagueTeams, false);
+      // $permierLeagueTeamsOtherData = iterator_to_array($permierLeagueTeamsOtherData, false);
 
       $comp = 0;
 
 
-      $this->importTeams($permierLeagueTeams, $permierLeagueTeamsOtherData, $dir);
+    //  $this->importTeams($permierLeagueTeams, $permierLeagueTeamsOtherData, $dir);
 
 
       foreach ($timming as $fakeindex => $row) {

@@ -89,7 +89,7 @@ class importCommand extends Command
       }
    }
 
-   public function import(SymfonyStyle $io, String $dir)
+   public function import(String $dir)
    {
 
 
@@ -134,7 +134,7 @@ class importCommand extends Command
       foreach ($timming as $fakeindex => $row) {
          $comp++;
          $index = $fakeindex;
-         if ($dir == 'CL') $squad = explode(' ', $row['Squad'], 2)[1];
+         if ($dir == 'CL' || $dir == 'EL') $squad = explode(' ', $row['Squad'], 2)[1];
          else $squad = $row['Squad'];
          $verify = $this->em->getRepository(Player::class)
             ->findOneBy([
@@ -639,13 +639,13 @@ class importCommand extends Command
 
       $io->title('import en progression...');
 
-      $this->import($io, 'Spain');
-      $this->import($io, 'England');
-      $this->import($io, 'Italy');
-      $this->import($io, 'France');
-      $this->import($io, 'Germany');
-      $this->import($io, 'CL');
-      $this->import($io, 'EL');
+      $this->import('Spain');
+      $this->import('England');
+      $this->import('Italy');
+      $this->import('France');
+      $this->import('Germany');
+      $this->import('CL');
+      $this->import('EL');
 
       $io->success('importation avec succés');
    }

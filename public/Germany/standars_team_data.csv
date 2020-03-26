@@ -1,4 +1,4 @@
-Squad;# Pl;MP;Starts;Min;Gls;Ast;PK;PKatt;CrdY;CrdR;GlsPerM;AstPerM;G+A;G-PK;G+A-PK;xG;npxG;xA;xGPerM;xAPerM;xG+xA;npxGPerM;npxG+xA
+Squad;# Pl;MP;Starts;Min;Gls;Ast;PK;PKatt;CrdY;CrdR;Gls_per_match;Ast_per_match;G_A_per_match;G_PK_per_match;G_A_PK_per_match;xG;npxG;xA;xG_per_match;xA_per_match;xG_xA;npxG_per_match;npxG_xA
 Augsburg;28;24;264;2160;36;25;3;4;50;2;1.50;1.04;2.54;1.38;2.42;33.1;30.1;21.9;1.38;0.91;2.29;1.25;2.17
 Bayern Munich;25;24;264;2160;70;56;4;4;44;2;2.92;2.33;5.25;2.75;5.08;61.6;58.6;48.3;2.57;2.01;4.58;2.44;4.46
 Dortmund;25;24;264;2160;66;57;2;2;22;1;2.75;2.38;5.13;2.67;5.04;44.2;42.9;34.1;1.84;1.42;3.26;1.79;3.21

@@ -1,4 +1,4 @@
-Squad;# Pl;MP;Starts;Min;Gls;Ast;PK;PKatt;CrdY;CrdR;GlsPerM;AstPerM;G+A;G-PK;G+A-PK;xG;npxG;xA;xGPerM;xAPerM;xG+xA;npxGPerM;npxG+xA
+Squad;# Pl;MP;Starts;Min;Gls;Ast;PK;PKatt;CrdY;CrdR;Gls_per_match;Ast_per_match;G_A_per_match;G_PK_per_match;G_A_PK_per_match;xG;npxG;xA;xG_per_match;xA_per_match;xG_xA;npxG_per_match;npxG_xA
 Atalanta;24;25;275;2250;69;49;6;8;55;2;2.76;1.96;4.72;2.52;4.48;61.4;55.3;38.9;2.46;1.56;4.01;2.21;3.77
 Bologna;27;26;286;2340;34;23;4;5;88;6;1.31;0.88;2.19;1.15;2.04;39.6;35.8;26.4;1.52;1.02;2.54;1.38;2.39
 Brescia;30;25;275;2250;21;14;2;2;65;6;0.84;0.56;1.40;0.76;1.32;29.5;27.9;17.2;1.18;0.69;1.87;1.12;1.81

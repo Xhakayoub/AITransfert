@@ -25,12 +25,51 @@ class importCommand extends Command
          ->setDescription('importation data');
    }
    
-   public function importTeams(array $array, array $arrayBeta, string $league): void
+   public function importTeams(string $league): void
    {
-      if (!empty($array) and !empty($arrayBeta)) {
-         $count = count($array);
 
-         foreach ($array as $fakeIndex => $teams) {
+      $readerOfStandarsTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/standars_team_data.csv');
+      $readerOfPassingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/passing_team_data.csv');
+      $readerOfShootingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/shooting_team_data.csv');
+      $readerOfTimmingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/timming_team_data.csv');
+      $readerOfGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/standars_team_data.csv');
+      $readerOfAdvancedGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/passing_team_data.csv');
+      $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/miscellaneous_team_data.csv');
+      
+      $readerOfStandarsTeamData->setDelimiter(';');
+      $readerOfPassingTeamData->setDelimiter(';');
+      $readerOfShootingTeamData->setDelimiter(';');
+      $readerOfTimmingTeamData->setDelimiter(';');
+      $readerOfMiscellaneousTeamData->setDelimiter(';');
+      $readerOfGkTeamData->setDelimiter(';');
+      $readerOfAdvancedGkTeamData->setDelimiter(';');
+ 
+
+      $standarsTeams = $readerOfStandarsTeamData->fetchAssoc();
+      $passingTeams = $readerOfPassingTeamData->fetchAssoc();
+      $shootingTeams = $readerOfShootingTeamData->fetchAssoc();
+      $timmingTeams = $readerOfTimmingTeamData->fetchAssoc();
+      $miscellaneousTeams = $readerOfMiscellaneousTeamData->fetchAssoc();
+      $gkTeams = $readerOfGkTeamData->fetchAssoc();
+      $advancedGkTeams = $readerOfAdvancedGkTeamData->fetchAssoc();
+
+      // $permierLeagueTeams = $readerPermierLeagueTeams->fetchAssoc();
+      // $permierLeagueTeamsOtherData = $readerPermierLeagueTeamsOtherData->fetchAssoc();
+
+    
+      $standarsTeams = iterator_to_array($standarsTeams, false);
+      $passingTeams = iterator_to_array($passingTeams, false);
+      $shootingTeams = iterator_to_array($shootingTeams, false);
+      $timmingTeams = iterator_to_array($timmingTeams, false);
+      $miscellaneousTeams = iterator_to_array($miscellaneousTeams, false);
+      $gkTeams = iterator_to_array($gkTeams, false);
+      $advancedGkTeams = iterator_to_array($advancedGkTeams, false);
+
+
+      if (!empty($standarsTeams) and !empty($gkTeams)) {
+         $count = count($standarsTeams);
+
+         foreach ($readerOfStandarsTeamData as $fakeIndex => $teams) {
             $squad = "";
             if ($league == 'CL' || $league == 'EL') $squad = explode(' ', $teams['Squad'], 2)[1];
             else $squad = $teams['Squad'];
@@ -49,18 +88,83 @@ class importCommand extends Command
                   ->setMatchPlayed($teams['MP'])
                   ->setGoals($teams['Gls'])
                   ->setAssists($teams['Ast'])
-                  ->setGoalsAgainst($arrayBeta[$fakeIndex]['GA'])
-                  ->setGoalsAgainstPerMatch($arrayBeta[$fakeIndex]['GA90'])
-                  ->setSaves($arrayBeta[$fakeIndex]['Saves'])
-                  ->setShootOnTargetAgainst($arrayBeta[$fakeIndex]['SoTA'])
-                  ->setSavePercent($arrayBeta[$fakeIndex]['Save%'])
-                  ->setCleanSheets($arrayBeta[$fakeIndex]['CS'])
-                  ->setCleanSheetPercent($arrayBeta[$fakeIndex]['CS%'])
-                  ->setPenaltyKickAllowed($arrayBeta[$fakeIndex]['PKA'])
-                  ->setPenaltyKicksSaved($arrayBeta[$fakeIndex]['PKsv'])
+                  //goalkepping
+                  ->setGoalsAgainst($gkTeams[$fakeIndex]['GA'])
+                  ->setGoalsAgainstPerMatch($gkTeams[$fakeIndex]['GA90'])
+                  ->setSaves($gkTeams[$fakeIndex]['Saves'])
+                  ->setShootOnTargetAgainst($gkTeams[$fakeIndex]['SoTA'])
+                  ->setSavePercent($gkTeams[$fakeIndex]['Save%'])
+                  ->setCleanSheets($gkTeams[$fakeIndex]['CS'])
+                  ->setCleanSheetPercent($gkTeams[$fakeIndex]['CS%'])
+                  ->setPenaltyKickAllowed($gkTeams[$fakeIndex]['PKA'])
+                  ->setPenaltyKicksSaved($gkTeams[$fakeIndex]['PKsv'])
                   ->setGoalPerMatch($teams['GlsPerM'])
                   ->setTopTeamScoorer("")
-                  ->setGoalKeeper("");
+                  ->setGoalKeeper("")
+                  //advanced goalkeeping
+                  ->setGkPassLaunchedComp($advancedGkTeams[$fakeIndex]['Cmp'])
+                  ->setGkPassLaunchedAtt($advancedGkTeams[$fakeIndex]['AttLaunched'])
+                  ->setGkPassLaunchedCompletion($advancedGkTeams[$fakeIndex]['Cmp%'])
+                  ->setGkPassAttempted($advancedGkTeams[$fakeIndex]['AttPass'])
+                  ->setGkPassThrows($advancedGkTeams[$fakeIndex]['Thr'])
+                  ->setGkPassLaunchedPercent($advancedGkTeams[$fakeIndex]['PassLaunch%'])
+                  ->setAvgLengthOfPasses($advancedGkTeams[$fakeIndex]['AvgLenPass'])
+                  ->setGoalKicksAtt($advancedGkTeams[$fakeIndex]['AttGks'])
+                  ->setGoalKicksLaunchedPercent($advancedGkTeams[$fakeIndex]['GksLaunch%'])
+                  ->setGoalKicksAvgLength($advancedGkTeams[$fakeIndex]['AvgLenGks'])
+                  ->setGkCrossesAttempted($advancedGkTeams[$fakeIndex]['Att'])
+                  ->setGkCrossesStopped($advancedGkTeams[$fakeIndex]['Stp'])
+                  ->setGkCrossesStpPercent($advancedGkTeams[$fakeIndex]['Stp%'])
+                  ->setOpa($advancedGkTeams[$fakeIndex]['#OPA'])
+                  ->setOpaPerMatch($advancedGkTeams[$fakeIndex]['#OPA/90'])
+                  ->setAverageDistance($advancedGkTeams[$fakeIndex]['AvgDist'])
+                  //shooting
+                  ->setShootOnTarget($shootingTeams[$fakeIndex]['SoT'])
+                  ->setShootFromFreeKick($shootingTeams[$fakeIndex]['FK'])
+                  ->setShootOnTargetPercent($shootingTeams[$fakeIndex]['SoT%'])
+                  ->setShootPer90Minutes($shootingTeams[$fakeIndex]['Sh/90'])
+                  ->setShootOnTargetPer90Minutes($shootingTeams[$fakeIndex]['SoT/90'])
+                  ->setGoalPerShoot($shootingTeams[$fakeIndex]['G/Sh'])
+                  ->setGoalPerShootOnTarget($shootingTeams[$fakeIndex]['G/SoT'])
+                  //passing
+                  ->setPassesCompleted($passingTeams[$fakeIndex]['Cmp'])
+                  ->setPassesAttempted($passingTeams[$fakeIndex]['Att'])
+                  ->setPassCompletion($passingTeams[$fakeIndex]['CmpPER'])
+                  ->setShortPassCompleted($passingTeams[$fakeIndex]['shortCmp'])
+                  ->setShortPassAttempted($passingTeams[$fakeIndex]['shortAtt'])
+                  ->setShortPassCompletion($passingTeams[$fakeIndex]['shortCmpPER'])
+                  ->setMediumPassCompleted($passingTeams[$fakeIndex]['mediumCmp'])
+                  ->setMediumPassAttempted($passingTeams[$fakeIndex]['mediumAtt'])
+                  ->setMediumPassCompletion($passingTeams[$fakeIndex]['mediumCmpPER'])
+                  ->setLongPassCompleted($passingTeams[$fakeIndex]['longCmp'])
+                  ->setLongPassAttempted($passingTeams[$fakeIndex]['longAtt'])
+                  ->setLongPassCompletion($passingTeams[$fakeIndex]['longCmpPER'])
+                  ->setPassAttemptedFromFK($passingTeams[$fakeIndex]['FK'])
+                  ->setThroughBalls($passingTeams[$fakeIndex]['TB'])
+                  ->setCornerKicks($passingTeams[$fakeIndex]['CK'])
+                  ->setThrowInsTaken($passingTeams[$fakeIndex]['TI'])
+                  ->setPassIntoFinalThird($passingTeams[$fakeIndex]['1/3'])
+                  ->setPassIntoPenaltyArea($passingTeams[$fakeIndex]['PPA'])
+                  ->setCrossIntoPenaltyArea($passingTeams[$fakeIndex]['CrsPA'])
+                  //timming
+                  ->setMinutesPlayed($timmingTeams[$fakeIndex]['Min'])
+                  ->setSubstitutions($timmingTeams[$fakeIndex]['Subs'])
+                  ->setPointPerMatch($timmingTeams[$fakeIndex]['PPM'])
+                  //miscellaneous
+                  ->setYellowCards($miscellaneousTeams[$fakeIndex]['CrdY'])
+                  ->setRedCards($miscellaneousTeams[$fakeIndex]['CrdR'])
+                  ->setFoulCommited($miscellaneousTeams[$fakeIndex]['Fls'])
+                  ->setFoulDrawn($miscellaneousTeams[$fakeIndex]['Fld'])
+                  ->setOffsides($miscellaneousTeams[$fakeIndex]['Off'])
+                  ->setCrosses($miscellaneousTeams[$fakeIndex]['Crs'])
+                  ->setTacklesWon($miscellaneousTeams[$fakeIndex]['TklW'])
+                  ->setInterceptions($miscellaneousTeams[$fakeIndex]['Int'])
+                  ->setPenaltyKickWon($miscellaneousTeams[$fakeIndex]['PKwon'])
+                  ->setPenaltyKickConceded($miscellaneousTeams[$fakeIndex]['PKcon'])
+                  ->setOwnGoal($miscellaneousTeams[$fakeIndex]['OG'])
+                  ->setDribblesSucceded($miscellaneousTeams[$fakeIndex]['Succ'])
+                  ->setDribblesAttempted($miscellaneousTeams[$fakeIndex]['Att'])
+                  ->setDribblesCompletion($miscellaneousTeams[$fakeIndex]['Succ%']);
 
                $this->em->persist($team);
             } else {
@@ -71,17 +175,77 @@ class importCommand extends Command
                   ->setMatchPlayed($verify->getMatchPlayed() + $teams['MP'])
                   ->setGoals($verify->getGoals() + $teams['Gls'])
                   ->setAssists($verify->getAssists() + $teams['Ast'])
-                  ->setGoalsAgainst($verify->getGoalsAgainst() + $arrayBeta[$fakeIndex]['GA'])
-                  ->setGoalsAgainstPerMatch($arrayBeta[$fakeIndex]['GA90'])
-                  ->setSaves($verify->getSaves() + $arrayBeta[$fakeIndex]['Saves'])
-                  ->setShootOnTargetAgainst($verify->getShootOnTargetAgainst() + $arrayBeta[$fakeIndex]['SoTA'])
-                  ->setSavePercent(($verify->getSavePercent() + $arrayBeta[$fakeIndex]['Save%']) / 2)
-                  ->setCleanSheets($verify->getCleanSheets() + $arrayBeta[$fakeIndex]['CS'])
-                  ->setCleanSheetPercent(($verify->getCleanSheetPercent() + $arrayBeta[$fakeIndex]['CS%']) / 2)
-                  ->setPenaltyKickAllowed($verify->getPenaltyKickAllowed() + $arrayBeta[$fakeIndex]['PKA'])
-                  ->setPenaltyKicksSaved($verify->getPenaltyKicksSaved() + $arrayBeta[$fakeIndex]['PKsv'])
+                  ->setGoalsAgainst($verify->getGoalsAgainst() + $gkTeams[$fakeIndex]['GA'])
+                  ->setGoalsAgainstPerMatch($gkTeams[$fakeIndex]['GA90'])
+                  ->setSaves($verify->getSaves() + $gkTeams[$fakeIndex]['Saves'])
+                  ->setShootOnTargetAgainst($verify->getShootOnTargetAgainst() + $gkTeams[$fakeIndex]['SoTA'])
+                  ->setSavePercent(($verify->getSavePercent() + $gkTeams[$fakeIndex]['Save%']) / 2)
+                  ->setCleanSheets($verify->getCleanSheets() + $gkTeams[$fakeIndex]['CS'])
+                  ->setCleanSheetPercent(($verify->getCleanSheetPercent() + $gkTeams[$fakeIndex]['CS%']) / 2)
+                  ->setPenaltyKickAllowed($verify->getPenaltyKickAllowed() + $gkTeams[$fakeIndex]['PKA'])
+                  ->setPenaltyKicksSaved($verify->getPenaltyKicksSaved() + $gkTeams[$fakeIndex]['PKsv'])
                   ->setTopTeamScoorer("")
-                  ->setGoalKeeper("");
+                  ->setGoalKeeper("")
+                  ->setGkPassLaunchedComp($verify->getGkPassLaunchedComp() + $advancedGkTeams[$fakeIndex]['Cmp'])
+                  ->setGkPassLaunchedAtt($verify->getGkPassLaunchedAtt() + $advancedGkTeams[$fakeIndex]['AttLaunched'])
+                  ->setGkPassLaunchedCompletion(($verify->getGkPassLaunchedCompletion() + $advancedGkTeams[$fakeIndex]['Cmp%']) / 2)
+                  ->setGkPassAttempted($verify->getGkPassAttempted() + $advancedGkTeams[$fakeIndex]['AttPass'])
+                  ->setGkPassThrows($verify->getGkPassThrows() + $advancedGkTeams[$fakeIndex]['Thr'])
+                  ->setGkPassLaunchedPercent(($verify->getGkPassLaunchedPercent() + $advancedGkTeams[$fakeIndex]['PassLaunch%']) / 2)
+                  ->setAvgLengthOfPasses($verify->getAvgLengthOfPasses() + $advancedGkTeams[$fakeIndex]['AvgLenPass'])
+                  ->setGoalKicksAtt($verify->getGoalKicksAtt() + $advancedGkTeams[$fakeIndex]['AttGks'])
+                  ->setGoalKicksLaunchedPercent(($verify->getGoalKicksLaunchedPercent() + $advancedGkTeams[$fakeIndex]['GksLaunch%']) / 2)
+                  ->setGoalKicksAvgLength($verify->getGoalKicksAvgLength() + $advancedGkTeams[$fakeIndex]['AvgLenGks'])
+                  ->setGkCrossesAttempted($verify->getGkCrossesAttempted() + $advancedGkTeams[$fakeIndex]['Att'])
+                  ->setGkCrossesStopped($verify->getGkCrossesStopped() + $advancedGkTeams[$fakeIndex]['Stp'])
+                  ->setGkCrossesStpPercent(($verify->getGkCrossesStpPercent() + $advancedGkTeams[$fakeIndex]['Stp%']) / 2)
+                  ->setOpa($verify->getOpa() + $advancedGkTeams[$fakeIndex]['#OPA'])
+                  ->setOpaPerMatch(($verify->getOpaPerMatch() + $advancedGkTeams[$fakeIndex]['#OPA/90']) / 2)
+                  ->setAverageDistance($verify->getAverageDistance() + $advancedGkTeams[$fakeIndex]['AvgDist'])
+                  ->setShootOnTarget($verify->getShootOnTarget() + $shootingTeams[$fakeIndex]['SoT'])
+                  ->setShootFromFreeKick($verify->getShootFromFreeKick() + $shootingTeams[$fakeIndex]['FK'])
+                  ->setShootOnTargetPercent(($verify->getShootOnTargetPercent() + $shootingTeams[$fakeIndex]['SoT%']) / 2)
+                  ->setShootPer90Minutes(($verify->getShootPer90Minutes() + $shootingTeams[$fakeIndex]['Sh/90']) / 2)
+                  ->setShootOnTargetPer90Minutes(($verify->getShootOnTargetPer90Minutes() + $shootingTeams[$fakeIndex]['SoT/90']) / 2)
+                  ->setGoalPerShoot($verify->getGoalPerShoot() + $shootingTeams[$fakeIndex]['G/Sh'])
+                  ->setGoalPerShootOnTarget($verify->getGoalPerShootOnTarget() + $shootingTeams[$fakeIndex]['G/SoT'])
+                  ->setPassesCompleted($verify->getPassesCompleted() + $passingTeams[$fakeIndex]['Cmp'])
+                  ->setPassesAttempted($verify->getPassesAttempted() + $passingTeams[$fakeIndex]['Att'])
+                  ->setPassCompletion(($verify->getPassCompletion() + $passingTeams[$fakeIndex]['CmpPER']) / 2)
+                  ->setShortPassCompleted($verify->getShortPassCompleted() + $passingTeams[$fakeIndex]['shortCmp'])
+                  ->setShortPassAttempted($verify->getShortPassAttempted() + $passingTeams[$fakeIndex]['shortAtt'])
+                  ->setShortPassCompletion(($verify->getShortPassCompletion() + $passingTeams[$fakeIndex]['shortCmpPER']) / 2)
+                  ->setMediumPassCompleted($verify->getMediumPassCompleted() + $passingTeams[$fakeIndex]['mediumCmp'])
+                  ->setMediumPassAttempted($verify->getMediumPassAttempted() + $passingTeams[$fakeIndex]['mediumAtt'])
+                  ->setMediumPassCompletion(($verify->getMediumPassCompletion() + $passingTeams[$fakeIndex]['mediumCmpPER']) / 2)
+                  ->setLongPassCompleted($verify->getLongPassCompleted() + $passingTeams[$fakeIndex]['longCmp'])
+                  ->setLongPassAttempted($verify->getLongPassAttempted() + $passingTeams[$fakeIndex]['longAtt'])
+                  ->setLongPassCompletion(($verify->getLongPassCompletion() + $passingTeams[$fakeIndex]['longCmpPER']) / 2)
+                  ->setPassAttemptedFromFK($verify->getPassAttemptedFromFK() + $passingTeams[$fakeIndex]['FK'])
+                  ->setThroughBalls($verify->getThroughBalls() + $passingTeams[$fakeIndex]['TB'])
+                  ->setCornerKicks($verify->getCornerKicks() + $passingTeams[$fakeIndex]['CK'])
+                  ->setThrowInsTaken($verify->getThrowInsTaken() + $passingTeams[$fakeIndex]['TI'])
+                  ->setPassIntoFinalThird($verify->getPassIntoFinalThird() + $passingTeams[$fakeIndex]['1/3'])
+                  ->setPassIntoPenaltyArea($verify->getPassIntoPenaltyArea() + $passingTeams[$fakeIndex]['PPA'])
+                  ->setCrossIntoPenaltyArea($verify->getCrossIntoPenaltyArea() + $passingTeams[$fakeIndex]['CrsPA'])
+                  ->setMinutesPlayed($verify->getMinutesPlayed() + $timmingTeams[$fakeIndex]['Min'])
+                  ->setSubstitutions($verify->getSubstitutions() + $timmingTeams[$fakeIndex]['Subs'])
+                  ->setPointPerMatch(($verify->getPointPerMatch() + $timmingTeams[$fakeIndex]['PPM']) / 2)
+                  ->setYellowCards($verify->getYellowCards() + $miscellaneousTeams[$fakeIndex]['CrdY'])
+                  ->setRedCards($verify->getRedCards() + $miscellaneousTeams[$fakeIndex]['CrdR'])
+                  ->setFoulCommited($verify->getFoulCommited() + $miscellaneousTeams[$fakeIndex]['Fls'])
+                  ->setFoulDrawn($verify->getFoulDrawn() + $miscellaneousTeams[$fakeIndex]['Fld'])
+                  ->setOffsides($verify->getOffsides() + $miscellaneousTeams[$fakeIndex]['Off'])
+                  ->setCrosses($verify->getCrosses() + $miscellaneousTeams[$fakeIndex]['Crs'])
+                  ->setTacklesWon($verify->getTacklesWon() + $miscellaneousTeams[$fakeIndex]['TklW'])
+                  ->setInterceptions($verify->getInterceptions() + $miscellaneousTeams[$fakeIndex]['Int'])
+                  ->setPenaltyKickWon($verify->getPenaltyKickWon() + $miscellaneousTeams[$fakeIndex]['PKwon'])
+                  ->setPenaltyKickConceded($$verify->getGkPassLaunchedComp() + $miscellaneousTeams[$fakeIndex]['PKcon'])
+                  ->setOwnGoal($verify->getOwnGoal() + $miscellaneousTeams[$fakeIndex]['OG'])
+                  ->setDribblesSucceded($verify->getDribblesSucceded() + $miscellaneousTeams[$fakeIndex]['Succ'])
+                  ->setDribblesAttempted($verify->getDribblesAttempted() + $miscellaneousTeams[$fakeIndex]['Att'])
+                  ->setDribblesCompletion(($verify->getDribblesCompletion() + $miscellaneousTeams[$fakeIndex]['Succ%']) / 2);
+
                $this->em->persist($verify);
             }
          }
@@ -121,7 +285,7 @@ class importCommand extends Command
       $passing = $readerOfPassingData->fetchAssoc();
       $shooting = $readerOfShootingData->fetchAssoc();
       $timming = $readerOfTimmingData->fetchAssoc();
-      $miscellaneous = $readerOfMiscellaneousTeamData->fetchAssoc();
+      $miscellaneous = $readerOfMiscellaneousData->fetchAssoc();
       $standarsTeams = $readerOfStandarsTeamData->fetchAssoc();
       $passingTeams = $readerOfPassingTeamData->fetchAssoc();
       $shootingTeams = $readerOfShootingTeamData->fetchAssoc();
@@ -135,7 +299,7 @@ class importCommand extends Command
       $passing = iterator_to_array($passing, false);
       $shooting = iterator_to_array($shooting, false);
       $timming = iterator_to_array($timming, false);
-      $miscellaneous = iterator_to_array($miscellaneousTeams, false);
+      $miscellaneous = iterator_to_array($miscellaneous, false);
       $standarsTeams = iterator_to_array($standarsTeams, false);
       $passingTeams = iterator_to_array($passingTeams, false);
       $shootingTeams = iterator_to_array($shootingTeams, false);

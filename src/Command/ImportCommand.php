@@ -24,7 +24,7 @@ class importCommand extends Command
       $this->setName('csv:import')
          ->setDescription('importation data');
    }
-   
+
    public function importTeams(string $league): void
    {
 
@@ -32,10 +32,10 @@ class importCommand extends Command
       $readerOfPassingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/passing_team_data.csv');
       $readerOfShootingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/shooting_team_data.csv');
       $readerOfTimmingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/timming_team_data.csv');
-      $readerOfGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/standars_team_data.csv');
-      $readerOfAdvancedGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/passing_team_data.csv');
+      $readerOfGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/gk_team_data.csv');
+      $readerOfAdvancedGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/ad_gk_team_data.csv');
       $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/miscellaneous_team_data.csv');
-      
+
       $readerOfStandarsTeamData->setDelimiter(';');
       $readerOfPassingTeamData->setDelimiter(';');
       $readerOfShootingTeamData->setDelimiter(';');
@@ -43,7 +43,7 @@ class importCommand extends Command
       $readerOfMiscellaneousTeamData->setDelimiter(';');
       $readerOfGkTeamData->setDelimiter(';');
       $readerOfAdvancedGkTeamData->setDelimiter(';');
- 
+
 
       $standarsTeams = $readerOfStandarsTeamData->fetchAssoc();
       $passingTeams = $readerOfPassingTeamData->fetchAssoc();
@@ -56,7 +56,7 @@ class importCommand extends Command
       // $permierLeagueTeams = $readerPermierLeagueTeams->fetchAssoc();
       // $permierLeagueTeamsOtherData = $readerPermierLeagueTeamsOtherData->fetchAssoc();
 
-    
+
       $standarsTeams = iterator_to_array($standarsTeams, false);
       $passingTeams = iterator_to_array($passingTeams, false);
       $shootingTeams = iterator_to_array($shootingTeams, false);
@@ -67,9 +67,15 @@ class importCommand extends Command
 
 
       if (!empty($standarsTeams) and !empty($gkTeams)) {
-         $count = count($standarsTeams);
 
-         foreach ($readerOfStandarsTeamData as $fakeIndex => $teams) {
+         // $count = sizeof($standarsTeams);
+         // // echo sizeof($gkTeams);
+         // echo $count ."\n";
+         // echo sizeof($gkTeams)."\n";
+         echo "import for ".$league." league";
+
+         foreach ($standarsTeams as $fakeIndex => $teams) {
+            //echo sizeof($gkTeams);
             $squad = "";
             if ($league == 'CL' || $league == 'EL') $squad = explode(' ', $teams['Squad'], 2)[1];
             else $squad = $teams['Squad'];
@@ -88,6 +94,7 @@ class importCommand extends Command
                   ->setMatchPlayed($teams['MP'])
                   ->setGoals($teams['Gls'])
                   ->setAssists($teams['Ast'])
+                  ->setGoalPerMatch($teams['Gls_per_match'])
                   //goalkepping
                   ->setGoalsAgainst($gkTeams[$fakeIndex]['GA'])
                   ->setGoalsAgainstPerMatch($gkTeams[$fakeIndex]['GA90'])
@@ -98,7 +105,6 @@ class importCommand extends Command
                   ->setCleanSheetPercent($gkTeams[$fakeIndex]['CS%'])
                   ->setPenaltyKickAllowed($gkTeams[$fakeIndex]['PKA'])
                   ->setPenaltyKicksSaved($gkTeams[$fakeIndex]['PKsv'])
-                  ->setGoalPerMatch($teams['GlsPerM'])
                   ->setTopTeamScoorer("")
                   ->setGoalKeeper("")
                   //advanced goalkeeping
@@ -240,7 +246,7 @@ class importCommand extends Command
                   ->setTacklesWon($verify->getTacklesWon() + $miscellaneousTeams[$fakeIndex]['TklW'])
                   ->setInterceptions($verify->getInterceptions() + $miscellaneousTeams[$fakeIndex]['Int'])
                   ->setPenaltyKickWon($verify->getPenaltyKickWon() + $miscellaneousTeams[$fakeIndex]['PKwon'])
-                  ->setPenaltyKickConceded($$verify->getGkPassLaunchedComp() + $miscellaneousTeams[$fakeIndex]['PKcon'])
+                  ->setPenaltyKickConceded($verify->getGkPassLaunchedComp() + $miscellaneousTeams[$fakeIndex]['PKcon'])
                   ->setOwnGoal($verify->getOwnGoal() + $miscellaneousTeams[$fakeIndex]['OG'])
                   ->setDribblesSucceded($verify->getDribblesSucceded() + $miscellaneousTeams[$fakeIndex]['Succ'])
                   ->setDribblesAttempted($verify->getDribblesAttempted() + $miscellaneousTeams[$fakeIndex]['Att'])
@@ -258,27 +264,27 @@ class importCommand extends Command
 
 
       $readerOfStandarsData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/standars_data.csv');
-      $readerOfStandarsTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/standars_team_data.csv');
+      // $readerOfStandarsTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/standars_team_data.csv');
       $readerOfPassingData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/passing_data.csv');
-      $readerOfPassingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/passing_team_data.csv');
+      //  $readerOfPassingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/passing_team_data.csv');
       $readerOfShootingData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/shooting_data.csv');
-      $readerOfShootingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/shooting_team_data.csv');
+      //  $readerOfShootingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/shooting_team_data.csv');
       $readerOfTimmingData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/timming_data.csv');
-      $readerOfTimmingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/timming_team_data.csv');
+      //  $readerOfTimmingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/timming_team_data.csv');
       $readerOfMiscellaneousData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_data.csv');
-      $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
-      
+      // $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
+
       $readerOfStandarsData->setDelimiter(';');
-      $readerOfStandarsTeamData->setDelimiter(';');
+      //  $readerOfStandarsTeamData->setDelimiter(';');
       $readerOfPassingData->setDelimiter(';');
-      $readerOfPassingTeamData->setDelimiter(';');
+      // $readerOfPassingTeamData->setDelimiter(';');
       $readerOfShootingData->setDelimiter(';');
-      $readerOfShootingTeamData->setDelimiter(';');
+      // $readerOfShootingTeamData->setDelimiter(';');
       $readerOfTimmingData->setDelimiter(';');
-      $readerOfTimmingTeamData->setDelimiter(';');
+      // $readerOfTimmingTeamData->setDelimiter(';');
       $readerOfMiscellaneousData->setDelimiter(';');
-      $readerOfMiscellaneousTeamData->setDelimiter(';');
- 
+      //  $readerOfMiscellaneousTeamData->setDelimiter(';');
+
 
 
       $standars = $readerOfStandarsData->fetchAssoc();
@@ -286,11 +292,11 @@ class importCommand extends Command
       $shooting = $readerOfShootingData->fetchAssoc();
       $timming = $readerOfTimmingData->fetchAssoc();
       $miscellaneous = $readerOfMiscellaneousData->fetchAssoc();
-      $standarsTeams = $readerOfStandarsTeamData->fetchAssoc();
-      $passingTeams = $readerOfPassingTeamData->fetchAssoc();
-      $shootingTeams = $readerOfShootingTeamData->fetchAssoc();
-      $timmingTeams = $readerOfTimmingTeamData->fetchAssoc();
-      $miscellaneousTeams = $readerOfMiscellaneousData->fetchAssoc();
+      // $standarsTeams = $readerOfStandarsTeamData->fetchAssoc();
+      // $passingTeams = $readerOfPassingTeamData->fetchAssoc();
+      // $shootingTeams = $readerOfShootingTeamData->fetchAssoc();
+      // $timmingTeams = $readerOfTimmingTeamData->fetchAssoc();
+      // $miscellaneousTeams = $readerOfMiscellaneousData->fetchAssoc();
 
       // $permierLeagueTeams = $readerPermierLeagueTeams->fetchAssoc();
       // $permierLeagueTeamsOtherData = $readerPermierLeagueTeamsOtherData->fetchAssoc();
@@ -300,18 +306,18 @@ class importCommand extends Command
       $shooting = iterator_to_array($shooting, false);
       $timming = iterator_to_array($timming, false);
       $miscellaneous = iterator_to_array($miscellaneous, false);
-      $standarsTeams = iterator_to_array($standarsTeams, false);
-      $passingTeams = iterator_to_array($passingTeams, false);
-      $shootingTeams = iterator_to_array($shootingTeams, false);
-      $timmingTeams = iterator_to_array($timmingTeams, false);
-      $miscellaneousTeams = iterator_to_array($miscellaneousTeams, false);
+      // $standarsTeams = iterator_to_array($standarsTeams, false);
+      // $passingTeams = iterator_to_array($passingTeams, false);
+      // $shootingTeams = iterator_to_array($shootingTeams, false);
+      // $timmingTeams = iterator_to_array($timmingTeams, false);
+      // $miscellaneousTeams = iterator_to_array($miscellaneousTeams, false);
       // $permierLeagueTeams = iterator_to_array($permierLeagueTeams, false);
       // $permierLeagueTeamsOtherData = iterator_to_array($permierLeagueTeamsOtherData, false);
 
       $comp = 0;
 
 
-    //  $this->importTeams($permierLeagueTeams, $permierLeagueTeamsOtherData, $dir);
+      $this->importTeams($dir);
 
 
       foreach ($timming as $fakeindex => $row) {
@@ -522,7 +528,6 @@ class importCommand extends Command
                   ->setPassCompletedPenaltyArea(intval($passing[$index]['PPA'] ?? 0))
                   ->setThroughBalls(intval($passing[$index]['TB'] ?? 0))
                   ->setCrossIntoPenaltyArea(floatval($passing[$index]['CrsPA'] ?? 0.0));
-                  
             } else {
                for ($i = 0; $i <= count($passing) - 1; $i++) {
 
@@ -822,13 +827,13 @@ class importCommand extends Command
 
       $io->title('import en progression...');
 
-      $this->import('Spain');
+      // $this->import('Spain');
       $this->import('England');
-      $this->import('Italy');
-      $this->import('France');
-      $this->import('Germany');
-      $this->import('CL');
-      $this->import('EL');
+      // $this->import('Italy');
+      // $this->import('France');
+      // $this->import('Germany');
+      // $this->import('CL');
+      // $this->import('EL');
 
       $io->success('importation avec succés');
    }

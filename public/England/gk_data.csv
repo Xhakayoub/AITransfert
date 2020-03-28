@@ -1,5 +1,4 @@
-;;;;;;;Playing Time;Playing Time;Playing Time;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Penalty Kicks;Penalty Kicks;Penalty Kicks;Penalty Kicks;
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;GA;GA90;SoTA;Saves;Save%;W;D;L;CS;CS%;PKatt;PKA;PKsv;PKm;Matches
+id;name;nation;position;Squad;age;born;MP;Starts;Min;GA;GA90;SoTA;Saves;Save%;W;D;L;CS;CS%;PKatt;PKA;PKsv;PKm;Matches
 1;Adrián\Adrian;es ESP;GK;Liverpool;32;1987;10;8;783;9;1.03;25;16;.640;8;0;0;2;25.0;0;0;0;0;Matches
 2;Alisson\Alisson;br BRA;GK;Liverpool;26;1992;20;20;1734;11;0.57;56;45;.804;18;1;1;10;50.0;0;0;0;0;Matches
 3;Kepa Arrizabalaga\Kepa-Arrizabalaga;es ESP;GK;Chelsea;24;1994;24;24;2160;32;1.33;69;41;.536;12;4;8;5;20.8;2;2;0;0;Matches

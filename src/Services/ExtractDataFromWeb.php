@@ -104,6 +104,7 @@ class ExtractDataFromWeb
                 $fp = fopen("C:/wamp64/www/AiTransfert/public/" . $dir . "/" . $type . "_data.csv", "r+");
                 $csv = $line . "\n" . $element;
                 //echo $csv;
+                $csv = utf8_encode($csv);
                 fwrite($fp, $csv);
               //  fwrite($fp, $element . $fakeindex);
                 fclose($fp);

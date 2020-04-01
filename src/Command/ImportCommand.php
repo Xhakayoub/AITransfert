@@ -72,7 +72,8 @@ class importCommand extends Command
          // // echo sizeof($gkTeams);
          // echo $count ."\n";
          // echo sizeof($gkTeams)."\n";
-         echo "import for " . $league . " league";
+         echo "import for " . $league . " league\n";
+         echo "_________________________\n" ;
 
          foreach ($standarsTeams as $fakeIndex => $teams) {
             //echo sizeof($gkTeams);

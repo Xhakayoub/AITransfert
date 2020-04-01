@@ -33,7 +33,7 @@ id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;
 32;Charles Aránguiz\Charles-Aranguiz;cl CHI;MF;de Leverkusen;30;1989;4.6;2;0;0;9;9;0;5;3;1;0;0;0;6;9;66.7;7;0;8;21;38.1;13;Matches
 33;Luiz Araújo\Luiz-Araujo;br BRA;FWMF;fr Lille;23;1996;3.1;1;0;0;4;3;0;4;1;5;0;0;0;7;14;50.0;8;0;2;7;28.6;5;Matches
 34;Alphonse Areola\Alphonse-Areola;fr FRA;GK;es Real Madrid;26;1993;1.5;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-35;Santiago Arias\Santiago-Arias;co COL;DF;es Atlético Madrid;27;1992;2.0;0;0;0;1;5;0;8;3;3;0;0;0;1;3;33.3;2;0;4;4;100.0;0;Matches
+35;Santiago Arias\Santiago-Arias;co COL;DF;es Atletico Madrid;27;1992;2.0;0;0;0;1;5;0;8;3;3;0;0;0;1;3;33.3;2;0;4;4;100.0;0;Matches
 36;Kepa Arrizabalaga\Kepa-Arrizabalaga;es ESP;GK;eng Chelsea;24;1994;6.0;1;0;0;0;0;0;0;0;0;0;0;1;0;0;;0;0;0;0;;0;Matches
 37;Kwadwo Asamoah\Kwadwo-Asamoah;gh GHA;DF;it Inter;30;1988;2.9;1;0;0;3;5;0;2;1;1;0;0;0;1;3;33.3;1;0;2;6;33.3;4;Matches
 38;Majeed Ashimeru\Majeed-Ashimeru;gh GHA;MFFW;at RB Salzburg;21;1997;0.7;0;0;0;0;1;0;0;2;0;0;0;0;0;0;;0;0;2;4;50.0;2;Matches
@@ -118,9 +118,9 @@ id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;
 117;Vedran Ćorluka\Vedran-Corluka;hr CRO;DF;ru Loko Moscow;33;1986;5.8;1;0;0;6;3;1;0;6;13;0;0;0;0;0;;0;0;10;14;71.4;4;Matches
 118;Maxwel Cornet\Maxwel-Cornet;ci CIV;MFDF;fr Lyon;22;1996;3.1;1;0;0;4;4;1;14;3;2;0;0;0;8;12;66.7;9;0;5;11;45.5;6;Matches
 119;Carlos Coronel\Carlos-Coronel;br BRA;GK;at RB Salzburg;22;1996;2.6;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-120;Ángel Correa\Angel-Correa;ar ARG;MFFW;es Atlético Madrid;24;1995;3.8;2;0;0;6;3;1;4;5;5;0;0;0;7;15;46.7;8;0;8;14;57.1;6;Matches
+120;Ángel Correa\Angel-Correa;ar ARG;MFFW;es Atletico Madrid;24;1995;3.8;2;0;0;6;3;1;4;5;5;0;0;0;7;15;46.7;8;0;8;14;57.1;6;Matches
 121;Thierry Correia\Thierry-Correia;pt POR;DF;es Valencia;20;1999;0.2;0;0;0;0;0;0;3;1;1;0;0;0;0;0;;0;0;1;1;100.0;0;Matches
-122;Diego Costa\Diego-Costa;es ESP;FW;es Atlético Madrid;30;1988;3.7;1;0;0;5;4;2;1;2;0;0;0;0;1;2;50.0;1;0;2;3;66.7;1;Matches
+122;Diego Costa\Diego-Costa;es ESP;FW;es Atletico Madrid;30;1988;3.7;1;0;0;5;4;2;1;2;0;0;0;0;1;2;50.0;1;0;2;3;66.7;1;Matches
 123;Douglas Costa\Douglas-Costa;br BRA;MF;it Juventus;28;1990;0.2;1;0;0;0;1;0;2;1;0;0;0;0;6;7;85.7;7;0;1;1;100.0;0;Matches
 124;Jaume Costa\Jaume-Costa;es ESP;DF;es Valencia;31;1988;2.7;1;0;0;4;5;0;3;6;4;0;0;0;0;1;0.0;0;0;9;12;75.0;3;Matches
 125;Gaëtan Coucke\Gaetan-Coucke;be BEL;GK;be Genk;20;1998;5.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
@@ -193,8 +193,8 @@ id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;
 192;Ansu Fati\Ansu-Fati;es ESP;FW;es Barcelona;16;2002;1.0;0;0;0;0;3;0;2;0;1;0;0;0;1;4;25.0;1;0;2;6;33.3;4;Matches
 193;Sofiane Feghouli\Sofiane-Feghouli;dz ALG;FW;tr Galatasaray;29;1989;3.8;0;0;0;3;5;1;11;1;3;0;0;0;2;5;40.0;2;0;2;7;28.6;5;Matches
 194;Ljubomir Fejsa\Ljubomir-Fejsa;rs SRB;MF;pt Benfica;30;1988;1.7;0;0;0;3;2;0;0;3;4;0;0;0;0;0;;0;0;6;6;100.0;0;Matches
-195;Felipe\Felipe;br BRA;DF;es Atlético Madrid;30;1989;6.0;1;0;0;8;5;0;0;7;12;0;0;0;0;0;;0;0;11;18;61.1;7;Matches
-196;João Félix\Joao-Felix;pt POR;FWMF;es Atlético Madrid;19;1999;3.2;0;0;0;2;9;0;3;1;1;1;0;0;6;10;60.0;6;0;1;4;25.0;3;Matches
+195;Felipe\Felipe;br BRA;DF;es Atletico Madrid;30;1989;6.0;1;0;0;8;5;0;0;7;12;0;0;0;0;0;;0;0;11;18;61.1;7;Matches
+196;João Félix\Joao-Felix;pt POR;FWMF;es Atletico Madrid;19;1999;3.2;0;0;0;2;9;0;3;1;1;1;0;0;6;10;60.0;6;0;1;4;25.0;3;Matches
 197;Gedson Fernandes\Gedson-Fernandes;pt POR;MF;eng Tottenham;20;1999;0.7;0;0;0;1;2;0;3;0;0;0;0;0;1;2;50.0;2;0;1;2;50.0;1;Matches
 198;Gedson Fernandes\Gedson-Fernandes;pt POR;MFFW;pt Benfica;20;1999;1.5;1;0;0;4;2;2;5;3;1;0;0;0;3;4;75.0;3;0;5;9;55.6;4;Matches
 199;Fernandinho\Fernandinho;br BRA;DF;eng Manchester City;34;1985;5.6;3;0;0;13;2;0;0;8;11;0;1;0;2;2;100.0;2;0;9;11;81.8;2;Matches
@@ -251,10 +251,10 @@ id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;
 250;Thorgan Hazard\Thorgan-Hazard;be BEL;FW;de Dortmund;26;1993;4.6;2;0;0;6;4;1;20;9;1;0;0;0;5;12;41.7;5;0;12;20;60.0;8;Matches
 251;Hwang Hee-chan\Hwang-Hee-chan;kr KOR;FW;at RB Salzburg;23;1996;6.0;0;0;0;11;6;4;4;2;1;2;0;0;11;20;55.0;11;1;5;7;71.4;2;Matches
 252;Jordan Henderson\Jordan-Henderson;eng ENG;MF;eng Liverpool;29;1990;4.5;0;0;0;3;2;0;13;4;6;0;0;0;0;5;0.0;2;1;8;12;66.7;4;Matches
-253;Mario Hermoso\Mario-Hermoso;es ESP;DF;es Atlético Madrid;24;1995;3.9;1;0;0;6;4;0;1;1;9;0;0;0;2;3;66.7;2;0;5;9;55.6;4;Matches
+253;Mario Hermoso\Mario-Hermoso;es ESP;DF;es Atletico Madrid;24;1995;3.9;1;0;0;6;4;0;1;1;9;0;0;0;2;3;66.7;2;0;5;9;55.6;4;Matches
 254;Lucas Hernández\Lucas-Hernandez;fr FRA;DF;de Bayern Munich;23;1996;1.7;0;0;0;0;0;0;6;2;2;0;0;0;3;3;100.0;3;0;3;4;75.0;1;Matches
 255;Ander Herrera\Ander-Herrera;es ESP;MFFW;fr Paris S-G;29;1989;1.1;1;0;0;2;3;0;0;2;3;0;0;0;4;6;66.7;4;0;3;4;75.0;1;Matches
-256;Héctor Herrera\Hector-Herrera;mx MEX;MF;es Atlético Madrid;29;1990;2.3;1;0;0;4;3;1;5;3;2;0;0;0;3;7;42.9;3;0;3;8;37.5;5;Matches
+256;Héctor Herrera\Hector-Herrera;mx MEX;MF;es Atletico Madrid;29;1990;2.3;1;0;0;4;3;1;5;3;2;0;0;0;3;7;42.9;3;0;3;8;37.5;5;Matches
 257;Son Heung-min\Son-Heung-min;kr KOR;FW;eng Tottenham;27;1992;4.1;0;0;0;4;4;3;7;1;1;0;0;0;18;29;62.1;19;3;6;17;35.3;11;Matches
 258;Bryan Heynen\Bryan-Heynen;be BEL;MF;be Genk;22;1997;2.9;0;0;0;1;2;0;4;7;5;0;0;0;0;1;0.0;0;0;9;17;52.9;8;Matches
 259;Gonzalo Higuaín\Gonzalo-Higuain;ar ARG;FW;it Juventus;31;1987;4.7;0;0;0;1;2;1;4;1;0;0;0;0;13;17;76.5;13;0;1;5;20.0;4;Matches
@@ -307,7 +307,7 @@ id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;
 306;Lukas Klostermann\Lukas-Klostermann;de GER;DF;de RB Leipzig;23;1996;6.1;0;0;0;2;0;1;9;3;7;0;0;0;4;4;100.0;4;0;8;17;47.1;9;Matches
 307;Anton Kochenkov\Anton-Kochenkov;ru RUS;GK;ru Loko Moscow;32;1987;1.0;0;0;0;1;0;0;0;0;0;0;1;0;0;0;;0;0;0;0;;0;Matches
 308;Sekou Koita\Sekou-Koita;ml MLI;MF;at RB Salzburg;19;1999;0.0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;;0;0;0;0;;0;Matches
-309;Koke\Koke;es ESP;MF;es Atlético Madrid;27;1992;6.6;1;0;0;4;10;0;15;10;5;0;0;0;5;6;83.3;5;0;19;35;54.3;16;Matches
+309;Koke\Koke;es ESP;MF;es Atletico Madrid;27;1992;6.6;1;0;0;4;10;0;15;10;5;0;0;0;5;6;83.3;5;0;19;35;54.3;16;Matches
 310;Ondřej Kolář\Ondrej-Kolar;cz CZE;GK;cz Slavia Prague;24;1994;6.0;1;0;0;0;0;0;0;0;0;0;0;0;1;2;50.0;1;0;0;2;0.0;2;Matches
 311;Aleksandr Kolomeytsev\Aleksandr-Kolomeytsev;ru RUS;MFFW;ru Loko Moscow;30;1989;0.2;0;0;0;0;0;0;0;0;0;0;0;0;1;1;100.0;1;0;0;1;0.0;1;Matches
 312;Ibrahima Konaté\Ibrahima-Konate;fr FRA;DF;de RB Leipzig;20;1999;1.3;0;0;0;3;4;0;0;2;2;0;0;0;0;0;;0;0;2;3;66.7;1;Matches
@@ -334,7 +334,7 @@ id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;
 333;Noa Lang\Noa-Lang;nl NED;FW;nl Ajax;20;1999;1.4;0;0;0;0;2;1;3;4;3;0;0;0;4;4;100.0;4;1;6;9;66.7;3;Matches
 334;Aymeric Laporte\Aymeric-Laporte;fr FRA;DF;eng Manchester City;25;1994;0.4;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
 335;Valentino Lazaro\Valentino-Lazaro;at AUT;DF;it Inter;23;1996;1.1;0;0;0;0;1;1;6;1;1;0;0;0;4;5;80.0;5;0;2;5;40.0;3;Matches
-336;Thomas Lemar\Thomas-Lemar;fr FRA;MF;es Atlético Madrid;23;1995;2.5;0;0;0;2;2;1;10;2;2;0;0;0;5;9;55.6;5;0;3;4;75.0;1;Matches
+336;Thomas Lemar\Thomas-Lemar;fr FRA;MF;es Atletico Madrid;23;1995;2.5;0;0;0;2;2;1;10;2;2;0;0;0;5;9;55.6;5;0;3;4;75.0;1;Matches
 337;Mario Lemina\Mario-Lemina;ga GAB;MF;tr Galatasaray;25;1993;3.7;3;0;0;12;5;1;1;9;4;0;0;0;5;7;71.4;6;0;12;18;66.7;6;Matches
 338;Clément Lenglet\Clement-Lenglet;fr FRA;DF;es Barcelona;24;1995;6.0;1;0;0;11;5;0;1;2;8;0;0;0;1;2;50.0;1;0;4;10;40.0;6;Matches
 339;Marin Leovac\Marin-Leovac;hr CRO;DF;hr Dinamo Zagreb;30;1988;5.0;0;0;0;7;1;0;15;7;7;0;0;0;0;2;0.0;0;0;9;20;45.0;11;Matches
@@ -342,10 +342,10 @@ id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;
 341;Matthijs de Ligt\Matthijs-de-Ligt;nl NED;DF;it Juventus;19;1999;5.0;0;0;0;4;2;0;0;2;2;0;0;0;0;0;;0;0;6;6;100.0;0;Matches
 342;Dominik Livaković\Dominik-Livakovic;hr CRO;GK;hr Dinamo Zagreb;24;1995;6.0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
 343;Fernando Llorente\Fernando-Llorente;es ESP;FW;it Napoli;34;1985;1.0;2;0;0;5;1;1;0;1;1;0;0;0;1;1;100.0;1;0;1;2;50.0;1;Matches
-344;Marcos Llorente\Marcos-Llorente;es ESP;MF;es Atlético Madrid;24;1995;0.6;0;0;0;0;0;0;0;0;0;0;0;0;1;1;100.0;1;0;1;2;50.0;1;Matches
+344;Marcos Llorente\Marcos-Llorente;es ESP;MF;es Atletico Madrid;24;1995;0.6;0;0;0;0;0;0;0;0;0;0;0;0;1;1;100.0;1;0;1;2;50.0;1;Matches
 345;Hugo Lloris\Hugo-Lloris;fr FRA;GK;eng Tottenham;32;1986;3.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
 346;Giovani Lo Celso\Giovani-Lo-Celso;ar ARG;FWMF;eng Tottenham;23;1996;2.8;2;0;0;3;5;0;13;3;4;0;0;0;4;7;57.1;4;0;7;13;53.8;6;Matches
-347;Renan Lodi\Renan-Lodi;br BRA;DF;es Atlético Madrid;21;1998;6.1;1;0;0;13;10;2;30;19;14;0;0;0;4;12;33.3;7;2;23;29;79.3;6;Matches
+347;Renan Lodi\Renan-Lodi;br BRA;DF;es Atletico Madrid;21;1998;6.1;1;0;0;13;10;2;30;19;14;0;0;0;4;12;33.3;7;2;23;29;79.3;6;Matches
 348;Ademola Lookman\Ademola-Lookman;eng ENG;FW;de RB Leipzig;21;1997;0.8;0;0;0;2;0;0;0;0;0;0;0;0;0;4;0.0;0;0;0;1;0.0;1;Matches
 349;Anthony Lopes\Anthony-Lopes;pt POR;GK;fr Lyon;28;1990;7.0;0;0;0;1;1;0;0;0;0;0;1;0;0;0;;0;0;0;0;;0;Matches
 350;Maximiliano Lovera\Maximiliano-Lovera;ar ARG;FWMF;gr Olympiacos;20;1999;1.1;0;0;0;2;0;0;4;0;0;0;0;0;1;3;33.3;1;0;0;1;0.0;1;Matches
@@ -378,7 +378,7 @@ id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;
 377;Marcão\Marcao;br BRA;DF;tr Galatasaray;23;1996;6.0;2;0;0;9;8;0;1;8;10;0;0;0;3;3;100.0;3;0;16;19;84.2;3;Matches
 378;Marcelo\Marcelo;br BRA;DF;es Real Madrid;31;1988;3.0;1;0;0;5;3;0;24;1;4;0;0;0;4;7;57.1;4;0;2;6;33.3;4;Matches
 379;Marcelo\Marcelo;br BRA;DF;fr Lyon;32;1987;5.0;2;0;0;4;2;0;0;1;3;0;0;0;0;0;;0;0;5;6;83.3;1;Matches
-380;José María Giménez\Jose-Maria-Gimenez;uy URU;DF;es Atlético Madrid;24;1995;2.2;0;0;0;2;0;0;0;0;0;0;0;0;0;0;;0;0;1;4;25.0;3;Matches
+380;José María Giménez\Jose-Maria-Gimenez;uy URU;DF;es Atletico Madrid;24;1995;2.2;0;0;0;2;0;0;0;0;0;0;0;0;0;0;;0;0;1;4;25.0;3;Matches
 381;Mariano\Mariano;br BRA;DF;tr Galatasaray;33;1986;6.0;2;0;0;5;5;0;17;7;11;0;0;0;10;16;62.5;10;0;12;20;60.0;8;Matches
 382;Marko Marin\Marko-Marin;de GER;MF;rs Red Star;30;1989;6.0;1;0;0;6;11;0;38;2;3;1;0;0;13;17;76.5;13;0;5;16;31.3;11;Matches
 383;Guilherme Marinato\Guilherme-Marinato;ru RUS;GK;ru Loko Moscow;33;1985;5.0;0;0;0;0;1;0;0;0;1;0;0;0;0;0;;0;0;0;0;;0;Matches
@@ -420,7 +420,7 @@ id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;
 419;Luka Modrić\Luka-Modric;hr CRO;MF;es Real Madrid;33;1985;3.4;2;0;0;4;8;0;10;4;6;0;0;0;3;6;50.0;3;0;5;10;50.0;5;Matches
 420;Emre Mor\Emre-Mor;tr TUR;FWMF;tr Galatasaray;22;1997;1.2;1;0;0;2;4;1;3;1;2;0;0;0;7;8;87.5;7;0;1;3;33.3;2;Matches
 421;Júnior Moraes\Junior-Moraes;ua UKR;FW;ua Shakhtar;32;1987;5.9;1;0;0;15;16;6;1;2;2;0;0;0;11;24;45.8;12;1;5;14;35.7;9;Matches
-422;Álvaro Morata\Alvaro-Morata;es ESP;FW;es Atlético Madrid;26;1992;5.0;1;0;0;10;11;10;6;7;4;0;0;0;9;14;64.3;10;0;7;10;70.0;3;Matches
+422;Álvaro Morata\Alvaro-Morata;es ESP;FW;es Atletico Madrid;26;1992;5.0;1;0;0;10;11;10;6;7;4;0;0;0;9;14;64.3;10;0;7;10;70.0;3;Matches
 423;Nikola Moro\Nikola-Moro;hr CRO;MF;hr Dinamo Zagreb;21;1998;4.6;3;1;1;10;2;0;0;10;11;0;0;0;0;2;0.0;1;1;16;25;64.0;9;Matches
 424;François Moubandje\Francois-Moubandje;ch SUI;DF;hr Dinamo Zagreb;29;1990;1.0;0;0;0;2;0;0;2;2;1;0;0;0;0;0;;0;0;3;4;75.0;1;Matches
 425;Mason Mount\Mason-Mount;eng ENG;MFFW;eng Chelsea;20;1999;4.0;0;0;0;2;7;1;10;8;2;0;0;0;9;15;60.0;10;0;11;17;64.7;6;Matches
@@ -442,12 +442,12 @@ id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;
 441;Neto\Neto;br BRA;GK;es Barcelona;30;1989;1.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
 442;Manuel Neuer\Manuel-Neuer;de GER;GK;de Bayern Munich;33;1986;7.0;1;0;0;0;1;0;0;0;0;0;0;0;1;1;100.0;1;0;0;1;0.0;1;Matches
 443;Neymar\Neymar;br BRA;MFFW;fr Paris S-G;27;1992;2.5;1;0;0;4;6;1;11;3;2;0;0;0;12;21;57.1;13;0;6;7;85.7;1;Matches
-444;Saúl Ñíguez\Saul-Niguez;es ESP;MFDF;es Atlético Madrid;24;1994;7.0;1;0;0;8;3;0;3;11;6;0;0;0;12;15;80.0;12;0;18;28;64.3;10;Matches
+444;Saúl Ñíguez\Saul-Niguez;es ESP;MFDF;es Atletico Madrid;24;1994;7.0;1;0;0;8;3;0;3;11;6;0;0;0;12;15;80.0;12;0;18;28;64.3;10;Matches
 445;Rasmus Nissen\Rasmus-Nissen;dk DEN;DF;at RB Salzburg;22;1997;5.9;2;0;0;7;1;0;4;11;7;0;0;0;4;11;36.4;4;1;21;36;58.3;15;Matches
 446;Christopher Nkunku\Christopher-Nkunku;fr FRA;MFFW;de RB Leipzig;21;1997;3.6;1;0;0;10;8;1;23;8;0;1;0;0;6;9;66.7;6;1;13;17;76.5;4;Matches
 447;Casper de Norre\Casper-de-Norre;be BEL;DF;be Genk;22;1997;2.9;2;0;0;7;1;1;1;2;3;0;1;0;4;6;66.7;5;0;4;12;33.3;8;Matches
 448;Steven Nzonzi\Steven-Nzonzi;fr FRA;MFDF;tr Galatasaray;30;1988;4.3;4;0;0;8;1;0;0;8;2;0;1;0;0;2;0.0;1;1;8;10;80.0;2;Matches
-449;Jan Oblak\Jan-Oblak;si SVN;GK;es Atlético Madrid;26;1993;7.0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
+449;Jan Oblak\Jan-Oblak;si SVN;GK;es Atletico Madrid;26;1993;7.0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
 450;Stephen Odey\Stephen-Odey;ng NGA;FW;be Genk;21;1998;0.1;1;0;0;1;1;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
 451;Álvaro Odriozola\Alvaro-Odriozola;es ESP;DF;es Real Madrid;23;1995;1.0;0;0;0;2;1;0;3;0;0;0;0;0;3;3;100.0;3;0;0;0;;0;Matches
 452;David Okereke\David-Okereke;ng NGA;FWDF;be Club Brugge;21;1997;1.9;0;0;0;1;2;0;3;0;0;0;0;0;1;6;16.7;1;0;0;2;0.0;2;Matches
@@ -473,7 +473,7 @@ id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;
 472;Radovan Pankov\Radovan-Pankov;rs SRB;DF;rs Red Star;23;1995;0.2;0;0;0;1;0;0;0;1;1;0;0;0;0;0;;0;0;1;2;50.0;1;Matches
 473;Leandro Paredes\Leandro-Paredes;ar ARG;MF;fr Paris S-G;25;1994;1.3;0;0;0;2;6;0;0;6;2;0;0;0;0;0;;0;0;8;12;66.7;4;Matches
 474;Daniel Parejo\Daniel-Parejo;es ESP;MF;es Valencia;30;1989;7.0;1;0;0;3;15;0;33;11;10;0;0;0;8;14;57.1;8;2;14;34;41.2;20;Matches
-475;Thomas Partey\Thomas-Partey;gh GHA;MF;es Atlético Madrid;26;1993;6.8;1;0;0;6;6;0;6;16;9;0;0;1;16;17;94.1;16;0;22;35;62.9;13;Matches
+475;Thomas Partey\Thomas-Partey;gh GHA;MF;es Atletico Madrid;26;1993;6.8;1;0;0;6;6;0;6;16;9;0;0;1;16;17;94.1;16;0;22;35;62.9;13;Matches
 476;Mario Pašalić\Mario-Pasalic;hr CRO;MFFW;it Atalanta;24;1995;6.0;1;0;0;5;3;0;5;7;2;0;0;0;7;13;53.8;7;0;8;15;53.3;7;Matches
 477;Alan Patrick\Alan-Patrick;br BRA;MF;ua Shakhtar;28;1991;5.5;2;0;0;5;9;0;3;5;5;0;0;0;7;10;70.0;8;0;7;20;35.0;13;Matches
 478;Paulinho\Paulinho;br BRA;FWMF;de Leverkusen;19;2000;0.4;0;0;0;0;0;0;0;0;0;0;0;0;2;3;66.7;2;0;0;1;0.0;1;Matches
@@ -546,7 +546,7 @@ id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;
 545;Douglas Santos\Douglas-Santos;br BRA;DFMF;ru Zenit;25;1994;5.6;2;1;1;4;2;0;23;9;10;0;0;0;9;16;56.3;10;0;18;34;52.9;16;Matches
 546;Pablo Sarabia\Pablo-Sarabia;es ESP;FWMF;fr Paris S-G;27;1992;3.1;0;0;0;6;5;2;9;5;1;0;0;0;4;8;50.0;4;0;6;21;28.6;15;Matches
 547;Marcelo Saracchi\Marcelo-Saracchi;uy URU;DF;de RB Leipzig;21;1998;1.8;1;0;0;4;3;0;11;2;2;0;0;0;2;4;50.0;2;0;4;6;66.7;2;Matches
-548;Stefan Savić\Stefan-Savic;me MNE;DF;es Atlético Madrid;28;1991;2.0;0;0;0;1;0;0;0;0;2;0;0;0;0;0;;0;0;0;2;0.0;2;Matches
+548;Stefan Savić\Stefan-Savic;me MNE;DF;es Atletico Madrid;28;1991;2.0;0;0;0;1;0;0;0;0;2;0;0;0;0;0;;0;0;0;2;0.0;2;Matches
 549;Patrik Schick\Patrik-Schick;cz CZE;FW;de RB Leipzig;23;1996;1.1;0;0;0;2;3;1;0;0;0;1;0;0;1;1;100.0;1;0;0;0;;0;Matches
 550;Marcel Schmelzer\Marcel-Schmelzer;de GER;FW;de Dortmund;31;1988;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
 551;Siebe Schrijvers\Siebe-Schrijvers;be BEL;MFFW;be Club Brugge;23;1996;0.8;0;0;0;1;3;2;6;2;3;0;0;0;1;4;25.0;1;0;3;5;60.0;2;Matches
@@ -619,7 +619,7 @@ id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;
 618;Lucas Tousart\Lucas-Tousart;fr FRA;MF;fr Lyon;22;1997;6.7;0;0;0;15;3;0;6;13;8;0;1;0;3;4;75.0;3;0;20;35;57.1;15;Matches
 619;Bertrand Traoré\Bertrand-Traore;bf BFA;MFFW;fr Lyon;23;1995;2.5;0;0;0;2;2;0;18;0;1;0;0;0;9;18;50.0;13;0;2;4;50.0;2;Matches
 620;Ibrahim Traoré\Ibrahim-Traore;ci CIV;MFFW;cz Slavia Prague;30;1988;1.9;0;0;0;7;3;0;0;1;2;0;0;0;0;1;0.0;0;0;1;6;16.7;5;Matches
-621;Kieran Trippier\Kieran-Trippier;eng ENG;DF;es Atlético Madrid;28;1990;4.0;0;0;0;1;3;2;38;6;6;0;0;0;6;9;66.7;6;0;11;14;78.6;3;Matches
+621;Kieran Trippier\Kieran-Trippier;eng ENG;DF;es Atletico Madrid;28;1990;4.0;0;0;0;1;3;2;38;6;6;0;0;0;6;9;66.7;6;0;11;14;78.6;3;Matches
 622;Kostas Tsimikas\Kostas-Tsimikas;gr GRE;DF;gr Olympiacos;23;1996;6.0;1;0;0;5;13;1;27;14;11;0;0;0;14;19;73.7;14;3;22;29;75.9;7;Matches
 623;Andreas Ulmer\Andreas-Ulmer;at AUT;DF;at RB Salzburg;33;1985;6.0;0;0;0;2;2;0;23;10;6;0;0;0;5;7;71.4;5;0;16;22;72.7;6;Matches
 624;Samuel Umtiti\Samuel-Umtiti;fr FRA;DF;es Barcelona;25;1993;3.0;0;0;0;2;3;0;0;1;5;0;0;0;1;1;100.0;1;0;1;4;25.0;3;Matches
@@ -639,13 +639,13 @@ id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;
 638;Marco Verratti\Marco-Verratti;it ITA;MF;fr Paris S-G;26;1992;6.2;3;0;0;6;21;0;3;23;3;0;0;0;9;11;81.8;9;0;25;43;58.1;18;Matches
 639;Jan Vertonghen\Jan-Vertonghen;be BEL;DF;eng Tottenham;32;1987;2.8;0;0;0;3;2;0;1;2;1;0;1;0;0;0;;0;0;2;5;40.0;3;Matches
 640;Arturo Vidal\Arturo-Vidal;cl CHI;MFFW;es Barcelona;32;1987;3.7;3;1;1;11;3;2;3;9;1;0;0;0;1;3;33.3;1;1;12;14;85.7;2;Matches
-641;Vitolo\Vitolo;es ESP;FWMF;es Atlético Madrid;29;1989;1.3;0;0;0;3;5;0;0;0;1;0;0;0;10;11;90.9;10;0;0;0;;0;Matches
+641;Vitolo\Vitolo;es ESP;FWMF;es Atletico Madrid;29;1989;1.3;0;0;0;3;5;0;0;0;1;0;0;0;10;11;90.9;10;0;0;0;;0;Matches
 642;Odisseas Vlachodimos\Odisseas-Vlachodimos;gr GRE;GK;pt Benfica;25;1994;6.0;0;0;0;0;2;0;0;0;2;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
 643;Thibault Vlietinck\Thibault-Vlietinck;be BEL;DF;be Club Brugge;21;1997;0.8;0;0;0;1;2;0;3;1;1;0;0;0;0;0;;0;0;1;2;50.0;1;Matches
 644;Kevin Volland\Kevin-Volland;de GER;FW;de Leverkusen;27;1992;5.1;0;0;0;12;5;2;10;3;1;0;0;0;4;9;44.4;5;1;3;6;50.0;3;Matches
 645;Ruud Vormer\Ruud-Vormer;nl NED;MF;be Club Brugge;31;1988;2.9;3;1;1;5;3;1;15;5;2;0;0;0;1;1;100.0;1;0;7;12;58.3;5;Matches
 646;Stefan de Vrij\Stefan-de-Vrij;nl NED;DF;it Inter;27;1992;6.0;1;0;0;4;1;0;0;7;16;0;1;0;3;3;100.0;3;0;12;17;70.6;5;Matches
-647;Šime Vrsaljko\Sime-Vrsaljko;hr CRO;DF;es Atlético Madrid;27;1992;1.0;0;0;0;1;2;0;3;3;1;0;0;0;0;0;;0;0;3;5;60.0;2;Matches
+647;Šime Vrsaljko\Sime-Vrsaljko;hr CRO;DF;es Atletico Madrid;27;1992;1.0;0;0;0;1;2;0;3;3;1;0;0;0;0;0;;0;0;3;5;60.0;2;Matches
 648;Aleksa Vukanović\Aleksa-Vukanovic;rs SRB;FWMF;rs Red Star;27;1992;1.9;0;0;0;0;1;1;2;1;4;0;0;0;2;4;50.0;2;0;6;12;50.0;6;Matches
 649;Miloš Vulić\Milos-Vulic;rs SRB;MF;rs Red Star;22;1996;2.0;1;0;0;2;3;0;0;1;4;0;0;0;1;2;50.0;1;0;3;8;37.5;5;Matches
 650;Moussa Wagué\Moussa-Wague;sn SEN;DF;es Barcelona;20;1998;1.0;0;0;0;1;0;0;1;4;1;0;0;0;2;3;66.7;2;0;4;5;80.0;1;Matches

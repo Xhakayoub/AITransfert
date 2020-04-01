@@ -33,7 +33,7 @@
 32;Charles Aránguiz\Charles-Aranguiz;cl CHI;MF;de Leverkusen;30;1989;4.6;0;0;0;5;0;0;0.0;1.08;0.00;0.00;;0.5;0.5;0.09;-0.5;-0.5;Matches
 33;Luiz Araújo\Luiz-Araujo;br BRA;FWMF;fr Lille;23;1996;3.1;0;0;0;9;4;0;44.4;2.92;1.30;0.00;0.00;0.4;0.4;0.05;-0.4;-0.4;Matches
 34;Alphonse Areola\Alphonse-Areola;fr FRA;GK;es Real Madrid;26;1993;1.5;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
-35;Santiago Arias\Santiago-Arias;co COL;DF;es Atlético Madrid;27;1992;2.0;0;0;0;2;0;0;0.0;1.00;0.00;0.00;;0.0;0.0;0.02;0.0;0.0;Matches
+35;Santiago Arias\Santiago-Arias;co COL;DF;es Atletico Madrid;27;1992;2.0;0;0;0;2;0;0;0.0;1.00;0.00;0.00;;0.0;0.0;0.02;0.0;0.0;Matches
 36;Kepa Arrizabalaga\Kepa-Arrizabalaga;es ESP;GK;eng Chelsea;24;1994;6.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 37;Kwadwo Asamoah\Kwadwo-Asamoah;gh GHA;DF;it Inter;30;1988;2.9;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 38;Majeed Ashimeru\Majeed-Ashimeru;gh GHA;MFFW;at RB Salzburg;21;1997;0.7;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
@@ -118,9 +118,9 @@
 117;Vedran Ćorluka\Vedran-Corluka;hr CRO;DF;ru Loko Moscow;33;1986;5.8;0;0;0;1;0;0;0.0;0.17;0.00;0.00;;0.1;0.1;0.08;-0.1;-0.1;Matches
 118;Maxwel Cornet\Maxwel-Cornet;ci CIV;MFDF;fr Lyon;22;1996;3.1;0;0;0;5;0;0;0.0;1.61;0.00;0.00;;0.3;0.3;0.07;-0.3;-0.3;Matches
 119;Carlos Coronel\Carlos-Coronel;br BRA;GK;at RB Salzburg;22;1996;2.6;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
-120;Ángel Correa\Angel-Correa;ar ARG;MFFW;es Atlético Madrid;24;1995;3.8;0;0;0;7;2;0;28.6;1.85;0.53;0.00;0.00;1.1;1.1;0.15;-1.1;-1.1;Matches
+120;Ángel Correa\Angel-Correa;ar ARG;MFFW;es Atletico Madrid;24;1995;3.8;0;0;0;7;2;0;28.6;1.85;0.53;0.00;0.00;1.1;1.1;0.15;-1.1;-1.1;Matches
 121;Thierry Correia\Thierry-Correia;pt POR;DF;es Valencia;20;1999;0.2;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
-122;Diego Costa\Diego-Costa;es ESP;FW;es Atlético Madrid;30;1988;3.7;0;0;0;4;0;0;0.0;1.09;0.00;0.00;;1.0;1.0;0.26;-1.0;-1.0;Matches
+122;Diego Costa\Diego-Costa;es ESP;FW;es Atletico Madrid;30;1988;3.7;0;0;0;4;0;0;0.0;1.09;0.00;0.00;;1.0;1.0;0.26;-1.0;-1.0;Matches
 123;Douglas Costa\Douglas-Costa;br BRA;MF;it Juventus;28;1990;0.2;1;0;0;1;1;0;100.0;4.50;4.50;1.00;1.00;0.5;0.5;0.46;+0.5;+0.5;Matches
 124;Jaume Costa\Jaume-Costa;es ESP;DF;es Valencia;31;1988;2.7;0;0;0;2;0;0;0.0;0.73;0.00;0.00;;0.1;0.1;0.03;-0.1;-0.1;Matches
 125;Gaëtan Coucke\Gaetan-Coucke;be BEL;GK;be Genk;20;1998;5.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
@@ -193,8 +193,8 @@
 192;Ansu Fati\Ansu-Fati;es ESP;FW;es Barcelona;16;2002;1.0;1;0;0;2;1;0;50.0;1.96;0.98;0.50;1.00;0.1;0.1;0.07;+0.9;+0.9;Matches
 193;Sofiane Feghouli\Sofiane-Feghouli;dz ALG;FW;tr Galatasaray;29;1989;3.8;0;0;0;4;1;0;25.0;1.05;0.26;0.00;0.00;0.2;0.2;0.04;-0.2;-0.2;Matches
 194;Ljubomir Fejsa\Ljubomir-Fejsa;rs SRB;MF;pt Benfica;30;1988;1.7;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
-195;Felipe\Felipe;br BRA;DF;es Atlético Madrid;30;1989;6.0;1;0;0;3;2;0;66.7;0.50;0.33;0.33;0.50;0.2;0.2;0.08;+0.8;+0.8;Matches
-196;João Félix\Joao-Felix;pt POR;FWMF;es Atlético Madrid;19;1999;3.2;2;1;1;15;5;0;33.3;4.64;1.55;0.07;0.20;2.2;1.5;0.10;-0.2;-0.5;Matches
+195;Felipe\Felipe;br BRA;DF;es Atletico Madrid;30;1989;6.0;1;0;0;3;2;0;66.7;0.50;0.33;0.33;0.50;0.2;0.2;0.08;+0.8;+0.8;Matches
+196;João Félix\Joao-Felix;pt POR;FWMF;es Atletico Madrid;19;1999;3.2;2;1;1;15;5;0;33.3;4.64;1.55;0.07;0.20;2.2;1.5;0.10;-0.2;-0.5;Matches
 197;Gedson Fernandes\Gedson-Fernandes;pt POR;MF;eng Tottenham;20;1999;0.7;0;0;0;1;0;0;0.0;1.41;0.00;0.00;;0.0;0.0;0.04;0.0;0.0;Matches
 198;Gedson Fernandes\Gedson-Fernandes;pt POR;MFFW;pt Benfica;20;1999;1.5;0;0;0;4;0;0;0.0;2.67;0.00;0.00;;0.2;0.2;0.06;-0.2;-0.2;Matches
 199;Fernandinho\Fernandinho;br BRA;DF;eng Manchester City;34;1985;5.6;0;0;0;2;0;0;0.0;0.36;0.00;0.00;;0.1;0.1;0.07;-0.1;-0.1;Matches
@@ -251,10 +251,10 @@
 250;Thorgan Hazard\Thorgan-Hazard;be BEL;FW;de Dortmund;26;1993;4.6;0;0;0;5;3;0;60.0;1.09;0.66;0.00;0.00;0.7;0.7;0.15;-0.7;-0.7;Matches
 251;Hwang Hee-chan\Hwang-Hee-chan;kr KOR;FW;at RB Salzburg;23;1996;6.0;3;0;0;14;9;0;64.3;2.33;1.50;0.21;0.33;2.2;2.2;0.15;+0.8;+0.8;Matches
 252;Jordan Henderson\Jordan-Henderson;eng ENG;MF;eng Liverpool;29;1990;4.5;0;0;0;4;0;0;0.0;0.88;0.00;0.00;;0.1;0.1;0.03;-0.1;-0.1;Matches
-253;Mario Hermoso\Mario-Hermoso;es ESP;DF;es Atlético Madrid;24;1995;3.9;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
+253;Mario Hermoso\Mario-Hermoso;es ESP;DF;es Atletico Madrid;24;1995;3.9;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 254;Lucas Hernández\Lucas-Hernandez;fr FRA;DF;de Bayern Munich;23;1996;1.7;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 255;Ander Herrera\Ander-Herrera;es ESP;MFFW;fr Paris S-G;29;1989;1.1;0;0;0;1;0;0;0.0;0.91;0.00;0.00;;0.0;0.0;0.03;0.0;0.0;Matches
-256;Héctor Herrera\Hector-Herrera;mx MEX;MF;es Atlético Madrid;29;1990;2.3;1;0;0;3;1;0;33.3;1.31;0.44;0.33;1.00;0.2;0.2;0.05;+0.8;+0.8;Matches
+256;Héctor Herrera\Hector-Herrera;mx MEX;MF;es Atletico Madrid;29;1990;2.3;1;0;0;3;1;0;33.3;1.31;0.44;0.33;1.00;0.2;0.2;0.05;+0.8;+0.8;Matches
 257;Son Heung-min\Son-Heung-min;kr KOR;FW;eng Tottenham;27;1992;4.1;5;0;0;18;10;0;55.6;4.44;2.47;0.28;0.50;3.5;3.5;0.21;+1.5;+1.5;Matches
 258;Bryan Heynen\Bryan-Heynen;be BEL;MF;be Genk;22;1997;2.9;0;0;0;4;2;0;50.0;1.36;0.68;0.00;0.00;0.3;0.3;0.07;-0.3;-0.3;Matches
 259;Gonzalo Higuaín\Gonzalo-Higuain;ar ARG;FW;it Juventus;31;1987;4.7;2;0;0;13;6;0;46.2;2.79;1.29;0.15;0.33;1.5;1.5;0.11;+0.5;+0.5;Matches
@@ -307,7 +307,7 @@
 306;Lukas Klostermann\Lukas-Klostermann;de GER;DF;de RB Leipzig;23;1996;6.1;0;0;0;5;2;0;40.0;0.82;0.33;0.00;0.00;0.3;0.3;0.06;-0.3;-0.3;Matches
 307;Anton Kochenkov\Anton-Kochenkov;ru RUS;GK;ru Loko Moscow;32;1987;1.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 308;Sekou Koita\Sekou-Koita;ml MLI;MF;at RB Salzburg;19;1999;0.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
-309;Koke\Koke;es ESP;MF;es Atlético Madrid;27;1992;6.6;0;0;0;1;1;0;100.0;0.15;0.15;0.00;0.00;0.0;0.0;0.01;0.0;0.0;Matches
+309;Koke\Koke;es ESP;MF;es Atletico Madrid;27;1992;6.6;0;0;0;1;1;0;100.0;0.15;0.15;0.00;0.00;0.0;0.0;0.01;0.0;0.0;Matches
 310;Ondřej Kolář\Ondrej-Kolar;cz CZE;GK;cz Slavia Prague;24;1994;6.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 311;Aleksandr Kolomeytsev\Aleksandr-Kolomeytsev;ru RUS;MFFW;ru Loko Moscow;30;1989;0.2;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 312;Ibrahima Konaté\Ibrahima-Konate;fr FRA;DF;de RB Leipzig;20;1999;1.3;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
@@ -334,7 +334,7 @@
 333;Noa Lang\Noa-Lang;nl NED;FW;nl Ajax;20;1999;1.4;0;0;0;2;0;0;0.0;1.41;0.00;0.00;;0.2;0.2;0.10;-0.2;-0.2;Matches
 334;Aymeric Laporte\Aymeric-Laporte;fr FRA;DF;eng Manchester City;25;1994;0.4;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 335;Valentino Lazaro\Valentino-Lazaro;at AUT;DF;it Inter;23;1996;1.1;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
-336;Thomas Lemar\Thomas-Lemar;fr FRA;MF;es Atlético Madrid;23;1995;2.5;0;0;0;6;3;1;50.0;2.38;1.19;0.00;0.00;0.2;0.2;0.03;-0.2;-0.2;Matches
+336;Thomas Lemar\Thomas-Lemar;fr FRA;MF;es Atletico Madrid;23;1995;2.5;0;0;0;6;3;1;50.0;2.38;1.19;0.00;0.00;0.2;0.2;0.03;-0.2;-0.2;Matches
 337;Mario Lemina\Mario-Lemina;ga GAB;MF;tr Galatasaray;25;1993;3.7;0;0;0;7;2;0;28.6;1.91;0.55;0.00;0.00;0.3;0.3;0.05;-0.3;-0.3;Matches
 338;Clément Lenglet\Clement-Lenglet;fr FRA;DF;es Barcelona;24;1995;6.0;0;0;0;2;0;0;0.0;0.33;0.00;0.00;;0.2;0.2;0.10;-0.2;-0.2;Matches
 339;Marin Leovac\Marin-Leovac;hr CRO;DF;hr Dinamo Zagreb;30;1988;5.0;1;0;0;5;2;0;40.0;1.00;0.40;0.20;0.50;0.8;0.8;0.16;+0.2;+0.2;Matches
@@ -342,10 +342,10 @@
 341;Matthijs de Ligt\Matthijs-de-Ligt;nl NED;DF;it Juventus;19;1999;5.0;0;0;0;2;0;0;0.0;0.40;0.00;0.00;;0.2;0.2;0.09;-0.2;-0.2;Matches
 342;Dominik Livaković\Dominik-Livakovic;hr CRO;GK;hr Dinamo Zagreb;24;1995;6.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 343;Fernando Llorente\Fernando-Llorente;es ESP;FW;it Napoli;34;1985;1.0;1;0;0;3;1;0;33.3;3.14;1.05;0.33;1.00;0.6;0.6;0.20;+0.4;+0.4;Matches
-344;Marcos Llorente\Marcos-Llorente;es ESP;MF;es Atlético Madrid;24;1995;0.6;0;0;0;1;0;0;0.0;1.67;0.00;0.00;;0.0;0.0;0.03;0.0;0.0;Matches
+344;Marcos Llorente\Marcos-Llorente;es ESP;MF;es Atletico Madrid;24;1995;0.6;0;0;0;1;0;0;0.0;1.67;0.00;0.00;;0.0;0.0;0.03;0.0;0.0;Matches
 345;Hugo Lloris\Hugo-Lloris;fr FRA;GK;eng Tottenham;32;1986;3.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 346;Giovani Lo Celso\Giovani-Lo-Celso;ar ARG;FWMF;eng Tottenham;23;1996;2.8;1;0;0;7;3;2;42.9;2.50;1.07;0.14;0.33;0.6;0.6;0.09;+0.4;+0.4;Matches
-347;Renan Lodi\Renan-Lodi;br BRA;DF;es Atlético Madrid;21;1998;6.1;0;0;0;6;4;0;66.7;0.98;0.65;0.00;0.00;0.2;0.2;0.03;-0.2;-0.2;Matches
+347;Renan Lodi\Renan-Lodi;br BRA;DF;es Atletico Madrid;21;1998;6.1;0;0;0;6;4;0;66.7;0.98;0.65;0.00;0.00;0.2;0.2;0.03;-0.2;-0.2;Matches
 348;Ademola Lookman\Ademola-Lookman;eng ENG;FW;de RB Leipzig;21;1997;0.8;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 349;Anthony Lopes\Anthony-Lopes;pt POR;GK;fr Lyon;28;1990;7.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 350;Maximiliano Lovera\Maximiliano-Lovera;ar ARG;FWMF;gr Olympiacos;20;1999;1.1;0;0;0;2;0;0;0.0;1.78;0.00;0.00;;0.1;0.1;0.05;-0.1;-0.1;Matches
@@ -378,7 +378,7 @@
 377;Marcão\Marcao;br BRA;DF;tr Galatasaray;23;1996;6.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 378;Marcelo\Marcelo;br BRA;DF;es Real Madrid;31;1988;3.0;0;0;0;8;3;0;37.5;2.70;1.01;0.00;0.00;0.2;0.2;0.03;-0.2;-0.2;Matches
 379;Marcelo\Marcelo;br BRA;DF;fr Lyon;32;1987;5.0;0;0;0;5;1;0;20.0;0.99;0.20;0.00;0.00;0.3;0.3;0.06;-0.3;-0.3;Matches
-380;José María Giménez\Jose-Maria-Gimenez;uy URU;DF;es Atlético Madrid;24;1995;2.2;0;0;0;6;1;0;16.7;2.77;0.46;0.00;0.00;0.5;0.5;0.09;-0.5;-0.5;Matches
+380;José María Giménez\Jose-Maria-Gimenez;uy URU;DF;es Atletico Madrid;24;1995;2.2;0;0;0;6;1;0;16.7;2.77;0.46;0.00;0.00;0.5;0.5;0.09;-0.5;-0.5;Matches
 381;Mariano\Mariano;br BRA;DF;tr Galatasaray;33;1986;6.0;0;0;0;1;0;0;0.0;0.17;0.00;0.00;;0.0;0.0;0.02;0.0;0.0;Matches
 382;Marko Marin\Marko-Marin;de GER;MF;rs Red Star;30;1989;6.0;0;0;0;10;2;2;20.0;1.67;0.33;0.00;0.00;0.7;0.7;0.07;-0.7;-0.7;Matches
 383;Guilherme Marinato\Guilherme-Marinato;ru RUS;GK;ru Loko Moscow;33;1985;5.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
@@ -420,7 +420,7 @@
 419;Luka Modrić\Luka-Modric;hr CRO;MF;es Real Madrid;33;1985;3.4;1;0;0;4;1;0;25.0;1.17;0.29;0.25;1.00;0.3;0.3;0.08;+0.7;+0.7;Matches
 420;Emre Mor\Emre-Mor;tr TUR;FWMF;tr Galatasaray;22;1997;1.2;0;0;0;1;0;0;0.0;0.83;0.00;0.00;;0.1;0.1;0.06;-0.1;-0.1;Matches
 421;Júnior Moraes\Junior-Moraes;ua UKR;FW;ua Shakhtar;32;1987;5.9;2;0;0;14;6;0;42.9;2.39;1.02;0.14;0.33;2.4;2.4;0.17;-0.4;-0.4;Matches
-422;Álvaro Morata\Alvaro-Morata;es ESP;FW;es Atlético Madrid;26;1992;5.0;2;0;0;12;6;0;50.0;2.40;1.20;0.17;0.33;1.8;1.8;0.15;+0.2;+0.2;Matches
+422;Álvaro Morata\Alvaro-Morata;es ESP;FW;es Atletico Madrid;26;1992;5.0;2;0;0;12;6;0;50.0;2.40;1.20;0.17;0.33;1.8;1.8;0.15;+0.2;+0.2;Matches
 423;Nikola Moro\Nikola-Moro;hr CRO;MF;hr Dinamo Zagreb;21;1998;4.6;0;0;0;3;2;0;66.7;0.65;0.43;0.00;0.00;0.1;0.1;0.03;-0.1;-0.1;Matches
 424;François Moubandje\Francois-Moubandje;ch SUI;DF;hr Dinamo Zagreb;29;1990;1.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 425;Mason Mount\Mason-Mount;eng ENG;MFFW;eng Chelsea;20;1999;4.0;0;0;0;11;3;0;27.3;2.74;0.75;0.00;0.00;0.8;0.8;0.07;-0.8;-0.8;Matches
@@ -442,12 +442,12 @@
 441;Neto\Neto;br BRA;GK;es Barcelona;30;1989;1.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 442;Manuel Neuer\Manuel-Neuer;de GER;GK;de Bayern Munich;33;1986;7.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 443;Neymar\Neymar;br BRA;MFFW;fr Paris S-G;27;1992;2.5;2;0;0;9;3;1;33.3;3.60;1.20;0.22;0.67;1.8;1.8;0.20;+0.2;+0.2;Matches
-444;Saúl Ñíguez\Saul-Niguez;es ESP;MFDF;es Atlético Madrid;24;1994;7.0;1;0;0;13;5;0;38.5;1.86;0.71;0.08;0.20;1.1;1.1;0.08;-0.1;-0.1;Matches
+444;Saúl Ñíguez\Saul-Niguez;es ESP;MFDF;es Atletico Madrid;24;1994;7.0;1;0;0;13;5;0;38.5;1.86;0.71;0.08;0.20;1.1;1.1;0.08;-0.1;-0.1;Matches
 445;Rasmus Nissen\Rasmus-Nissen;dk DEN;DF;at RB Salzburg;22;1997;5.9;0;0;0;1;0;0;0.0;0.17;0.00;0.00;;0.0;0.0;0.04;0.0;0.0;Matches
 446;Christopher Nkunku\Christopher-Nkunku;fr FRA;MFFW;de RB Leipzig;21;1997;3.6;0;0;0;7;3;1;42.9;1.93;0.83;0.00;0.00;0.7;0.7;0.10;-0.7;-0.7;Matches
 447;Casper de Norre\Casper-de-Norre;be BEL;DF;be Genk;22;1997;2.9;0;0;0;1;0;0;0.0;0.35;0.00;0.00;;0.1;0.1;0.05;-0.1;-0.1;Matches
 448;Steven Nzonzi\Steven-Nzonzi;fr FRA;MFDF;tr Galatasaray;30;1988;4.3;0;0;0;2;0;0;0.0;0.47;0.00;0.00;;0.2;0.2;0.08;-0.2;-0.2;Matches
-449;Jan Oblak\Jan-Oblak;si SVN;GK;es Atlético Madrid;26;1993;7.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
+449;Jan Oblak\Jan-Oblak;si SVN;GK;es Atletico Madrid;26;1993;7.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 450;Stephen Odey\Stephen-Odey;ng NGA;FW;be Genk;21;1998;0.1;1;0;0;1;1;0;100.0;10.00;10.00;1.00;1.00;0.2;0.2;0.18;+0.8;+0.8;Matches
 451;Álvaro Odriozola\Alvaro-Odriozola;es ESP;DF;es Real Madrid;23;1995;1.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 452;David Okereke\David-Okereke;ng NGA;FWDF;be Club Brugge;21;1997;1.9;0;0;0;11;2;0;18.2;5.72;1.04;0.00;0.00;1.3;1.3;0.12;-1.3;-1.3;Matches
@@ -473,7 +473,7 @@
 472;Radovan Pankov\Radovan-Pankov;rs SRB;DF;rs Red Star;23;1995;0.2;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 473;Leandro Paredes\Leandro-Paredes;ar ARG;MF;fr Paris S-G;25;1994;1.3;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 474;Daniel Parejo\Daniel-Parejo;es ESP;MF;es Valencia;30;1989;7.0;1;1;3;6;3;3;50.0;0.86;0.43;0.00;0.00;2.6;0.4;0.06;-1.6;-0.4;Matches
-475;Thomas Partey\Thomas-Partey;gh GHA;MF;es Atlético Madrid;26;1993;6.8;1;0;0;15;2;1;13.3;2.19;0.29;0.07;0.50;1.2;1.2;0.08;-0.2;-0.2;Matches
+475;Thomas Partey\Thomas-Partey;gh GHA;MF;es Atletico Madrid;26;1993;6.8;1;0;0;15;2;1;13.3;2.19;0.29;0.07;0.50;1.2;1.2;0.08;-0.2;-0.2;Matches
 476;Mario Pašalić\Mario-Pasalic;hr CRO;MFFW;it Atalanta;24;1995;6.0;2;0;0;13;4;0;30.8;2.17;0.67;0.15;0.50;2.7;2.7;0.20;-0.7;-0.7;Matches
 477;Alan Patrick\Alan-Patrick;br BRA;MF;ua Shakhtar;28;1991;5.5;1;0;0;7;3;0;42.9;1.27;0.54;0.14;0.33;0.6;0.6;0.08;+0.4;+0.4;Matches
 478;Paulinho\Paulinho;br BRA;FWMF;de Leverkusen;19;2000;0.4;0;0;0;2;0;0;0.0;5.00;0.00;0.00;;0.4;0.4;0.19;-0.4;-0.4;Matches
@@ -546,7 +546,7 @@
 545;Douglas Santos\Douglas-Santos;br BRA;DFMF;ru Zenit;25;1994;5.6;0;0;0;3;3;0;100.0;0.53;0.53;0.00;0.00;0.1;0.1;0.03;-0.1;-0.1;Matches
 546;Pablo Sarabia\Pablo-Sarabia;es ESP;FWMF;fr Paris S-G;27;1992;3.1;2;0;0;9;6;0;66.7;2.90;1.94;0.22;0.33;0.7;0.7;0.07;+1.3;+1.3;Matches
 547;Marcelo Saracchi\Marcelo-Saracchi;uy URU;DF;de RB Leipzig;21;1998;1.8;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
-548;Stefan Savić\Stefan-Savic;me MNE;DF;es Atlético Madrid;28;1991;2.0;1;0;0;2;1;0;50.0;1.00;0.50;0.50;1.00;0.6;0.6;0.32;+0.4;+0.4;Matches
+548;Stefan Savić\Stefan-Savic;me MNE;DF;es Atletico Madrid;28;1991;2.0;1;0;0;2;1;0;50.0;1.00;0.50;0.50;1.00;0.6;0.6;0.32;+0.4;+0.4;Matches
 549;Patrik Schick\Patrik-Schick;cz CZE;FW;de RB Leipzig;23;1996;1.1;0;0;0;7;2;0;28.6;6.49;1.86;0.00;0.00;1.1;1.1;0.15;-1.1;-1.1;Matches
 550;Marcel Schmelzer\Marcel-Schmelzer;de GER;FW;de Dortmund;31;1988;0.0;0;0;0;0;0;0;;;;;;0.0;0.0;;0.0;0.0;Matches
 551;Siebe Schrijvers\Siebe-Schrijvers;be BEL;MFFW;be Club Brugge;23;1996;0.8;0;0;0;2;0;0;0.0;2.37;0.00;0.00;;0.2;0.2;0.12;-0.2;-0.2;Matches
@@ -619,7 +619,7 @@
 618;Lucas Tousart\Lucas-Tousart;fr FRA;MF;fr Lyon;22;1997;6.7;1;0;0;10;2;0;20.0;1.49;0.30;0.10;0.50;0.7;0.7;0.07;+0.3;+0.3;Matches
 619;Bertrand Traoré\Bertrand-Traore;bf BFA;MFFW;fr Lyon;23;1995;2.5;1;0;0;8;5;0;62.5;3.14;1.97;0.13;0.20;0.2;0.2;0.03;+0.8;+0.8;Matches
 620;Ibrahim Traoré\Ibrahim-Traore;ci CIV;MFFW;cz Slavia Prague;30;1988;1.9;0;0;0;1;0;0;0.0;0.54;0.00;0.00;;0.0;0.0;0.03;0.0;0.0;Matches
-621;Kieran Trippier\Kieran-Trippier;eng ENG;DF;es Atlético Madrid;28;1990;4.0;0;0;1;1;0;0;0.0;0.25;0.00;0.00;;0.8;0.0;0.02;-0.8;0.0;Matches
+621;Kieran Trippier\Kieran-Trippier;eng ENG;DF;es Atletico Madrid;28;1990;4.0;0;0;1;1;0;0;0.0;0.25;0.00;0.00;;0.8;0.0;0.02;-0.8;0.0;Matches
 622;Kostas Tsimikas\Kostas-Tsimikas;gr GRE;DF;gr Olympiacos;23;1996;6.0;0;0;0;2;0;0;0.0;0.33;0.00;0.00;;0.0;0.0;0.02;0.0;0.0;Matches
 623;Andreas Ulmer\Andreas-Ulmer;at AUT;DF;at RB Salzburg;33;1985;6.0;1;0;0;5;1;0;20.0;0.83;0.17;0.20;1.00;0.4;0.4;0.07;+0.6;+0.6;Matches
 624;Samuel Umtiti\Samuel-Umtiti;fr FRA;DF;es Barcelona;25;1993;3.0;0;0;0;1;0;0;0.0;0.33;0.00;0.00;;0.2;0.2;0.24;-0.2;-0.2;Matches
@@ -639,13 +639,13 @@
 638;Marco Verratti\Marco-Verratti;it ITA;MF;fr Paris S-G;26;1992;6.2;0;0;0;1;1;0;100.0;0.16;0.16;0.00;0.00;0.0;0.0;0.01;0.0;0.0;Matches
 639;Jan Vertonghen\Jan-Vertonghen;be BEL;DF;eng Tottenham;32;1987;2.8;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 640;Arturo Vidal\Arturo-Vidal;cl CHI;MFFW;es Barcelona;32;1987;3.7;0;0;0;2;0;0;0.0;0.55;0.00;0.00;;0.2;0.2;0.08;-0.2;-0.2;Matches
-641;Vitolo\Vitolo;es ESP;FWMF;es Atlético Madrid;29;1989;1.3;0;0;0;4;2;0;50.0;3.08;1.54;0.00;0.00;0.3;0.3;0.07;-0.3;-0.3;Matches
+641;Vitolo\Vitolo;es ESP;FWMF;es Atletico Madrid;29;1989;1.3;0;0;0;4;2;0;50.0;3.08;1.54;0.00;0.00;0.3;0.3;0.07;-0.3;-0.3;Matches
 642;Odisseas Vlachodimos\Odisseas-Vlachodimos;gr GRE;GK;pt Benfica;25;1994;6.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 643;Thibault Vlietinck\Thibault-Vlietinck;be BEL;DF;be Club Brugge;21;1997;0.8;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 644;Kevin Volland\Kevin-Volland;de GER;FW;de Leverkusen;27;1992;5.1;1;0;0;11;2;1;18.2;2.16;0.39;0.09;0.50;1.0;1.0;0.09;0.0;0.0;Matches
 645;Ruud Vormer\Ruud-Vormer;nl NED;MF;be Club Brugge;31;1988;2.9;0;0;0;1;0;0;0.0;0.34;0.00;0.00;;0.0;0.0;0.02;0.0;0.0;Matches
 646;Stefan de Vrij\Stefan-de-Vrij;nl NED;DF;it Inter;27;1992;6.0;0;0;0;1;0;0;0.0;0.17;0.00;0.00;;0.3;0.3;0.30;-0.3;-0.3;Matches
-647;Šime Vrsaljko\Sime-Vrsaljko;hr CRO;DF;es Atlético Madrid;27;1992;1.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
+647;Šime Vrsaljko\Sime-Vrsaljko;hr CRO;DF;es Atletico Madrid;27;1992;1.0;0;0;0;0;0;0;;0.00;0.00;;;0.0;0.0;;0.0;0.0;Matches
 648;Aleksa Vukanović\Aleksa-Vukanovic;rs SRB;FWMF;rs Red Star;27;1992;1.9;0;0;0;2;0;0;0.0;1.06;0.00;0.00;;0.2;0.2;0.08;-0.2;-0.2;Matches
 649;Miloš Vulić\Milos-Vulic;rs SRB;MF;rs Red Star;22;1996;2.0;1;0;0;5;2;0;40.0;2.47;0.99;0.20;0.50;0.2;0.2;0.03;+0.8;+0.8;Matches
 650;Moussa Wagué\Moussa-Wague;sn SEN;DF;es Barcelona;20;1998;1.0;0;0;0;2;0;0;0.0;2.00;0.00;0.00;;0.1;0.1;0.03;-0.1;-0.1;Matches

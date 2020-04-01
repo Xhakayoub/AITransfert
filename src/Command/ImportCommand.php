@@ -72,7 +72,7 @@ class importCommand extends Command
          // // echo sizeof($gkTeams);
          // echo $count ."\n";
          // echo sizeof($gkTeams)."\n";
-         echo "import for ".$league." league";
+         echo "import for " . $league . " league";
 
          foreach ($standarsTeams as $fakeIndex => $teams) {
             //echo sizeof($gkTeams);
@@ -825,16 +825,16 @@ class importCommand extends Command
 
       $io = new SymfonyStyle($input, $output);
 
-      $io->title('import en progression...');
+      $io->title('import on loading...');
 
-      // $this->import('Spain');
+      $this->import('Spain');
       $this->import('England');
-      // $this->import('Italy');
-      // $this->import('France');
-      // $this->import('Germany');
-      // $this->import('CL');
-      // $this->import('EL');
+      $this->import('Italy');
+      $this->import('France');
+      $this->import('Germany');
+      $this->import('CL');
+      $this->import('EL');
 
-      $io->success('importation avec succés');
+      $io->success('import succesfully');
    }
 }

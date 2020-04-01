@@ -1,5 +1,4 @@
-;;;;;;;;Goals;Goals;Goals;Goals;Goals;Expected;Expected;Expected;Expected;Launched;Launched;Launched;Passes;Passes;Passes;Passes;Goal Kicks;Goal Kicks;Goal Kicks;Crosses;Crosses;Crosses;Sweeper;Sweeper;Sweeper;
-Rk;Player;Nation;Pos;Squad;Age;Born;90s;GA;PKA;FK;CK;OG;PSxG;PSxG/SoT;PSxG+/-;/90;Cmp;Att;Cmp%;Att;Thr;Launch%;AvgLen;Att;Launch%;AvgLen;Att;Stp;Stp%;#OPA;#OPA/90;AvgDist;Matches
+id;name;Nation;Position;Squad;Age;Born;90s;GA;PKA;FK;CK;OG;PSxG;PSxG/SoT;PSxG+/-;/90;Cmp;Att;Cmp%;Att;Thr;Launch%;AvgLen;Att;Launch%;AvgLen;Att;Stp;Stp%;#OPA;#OPA/90;AvgDist;Matches
 ;Gökhan Akkan\Gokhan-Akkan;tr TUR;GK;Rizespor;24;1995;19.6;36;3;;;;;;;;;;;;;;;;;;;;;;;;Matches
 2;Hüseyin Altıntaş\Huseyin-Altintas;tr TUR;GK;Denizlispor;24;1994;0.0;0;0;;;;;;;;;;;;;;;;;;;;;;;;Matches
 3;Göktuğ Bakırbaş\Goktug-Bakirbas;tr TUR;GK;Göztepe;23;1996;2.9;2;0;;;;;;;;;;;;;;;;;;;;;;;;Matches

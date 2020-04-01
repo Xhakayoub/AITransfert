@@ -1,5 +1,4 @@
-;;;;;;;;Goals;Goals;Goals;Goals;Goals;Expected;Expected;Expected;Expected;Launched;Launched;Launched;Passes;Passes;Passes;Passes;Goal Kicks;Goal Kicks;Goal Kicks;Crosses;Crosses;Crosses;Sweeper;Sweeper;Sweeper;
-Rk;Player;Nation;Pos;Squad;Age;Born;90s;GA;PKA;FK;CK;OG;PSxG;PSxG/SoT;PSxG+/-;/90;Cmp;Att;Cmp%;Att;Thr;Launch%;AvgLen;Att;Launch%;AvgLen;Att;Stp;Stp%;#OPA;#OPA/90;AvgDist;Matches
+id;name;Nation;Position;Squad;Age;Born;90s;GA;PKA;FK;CK;OG;PSxG;PSxG/SoT;PSxG+/-;/90;Cmp;Att;Cmp%;Att;Thr;Launch%;AvgLen;Att;Launch%;AvgLen;Att;Stp;Stp%;#OPA;#OPA/90;AvgDist;Matches
 1;Igor Akinfeev\Igor-Akinfeev;ru RUS;GK;CSKA Moscow;33;1986;20.0;19;2;;;;;;;;;;;;;;;;;;;;;;;;Matches
 2;Yegor Baburin\Yegor-Baburin;ru RUS;GK;Rostov;25;1993;12.0;18;6;;;;;;;;;;;;;;;;;;;;;;;;Matches
 3;Oleg Baklov\Oleg-Baklov;ru RUS;GK;Ural;24;1994;3.0;7;0;;;;;;;;;;;;;;;;;;;;;;;;Matches

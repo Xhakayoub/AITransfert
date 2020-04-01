@@ -1,5 +1,4 @@
-;;;;;;;;Goals;Goals;Goals;Goals;Goals;Expected;Expected;Expected;Expected;Launched;Launched;Launched;Passes;Passes;Passes;Passes;Goal Kicks;Goal Kicks;Goal Kicks;Crosses;Crosses;Crosses;Sweeper;Sweeper;Sweeper;
-Rk;Player;Nation;Pos;Squad;Age;Born;90s;GA;PKA;FK;CK;OG;PSxG;PSxG/SoT;PSxG+/-;/90;Cmp;Att;Cmp%;Att;Thr;Launch%;AvgLen;Att;Launch%;AvgLen;Att;Stp;Stp%;#OPA;#OPA/90;AvgDist;Matches
+id;name;Nation;Position;Squad;Age;Born;90s;GA;PKA;FK;CK;OG;PSxG;PSxG/SoT;PSxG+/-;/90;Cmp;Att;Cmp%;Att;Thr;Launch%;AvgLen;Att;Launch%;AvgLen;Att;Stp;Stp%;#OPA;#OPA/90;AvgDist;Matches
 1;Rúnar Alex Rúnarsson\Runar-Alex-Runarsson;is ISL;GK;Dijon;24;1995;9.0;16;0;0;3;1;12.8;0.30;-2.2;-0.25;58;134;43.3;221;51;38.5;36.1;75;65.3;49.2;59;7;11.9;5;0.56;14.0;Matches
 2;Alphonse Areola\Alphonse-Areola;fr FRA;GK;Paris S-G;26;1993;3.0;2;0;0;0;0;1.5;0.38;-0.5;-0.16;3;4;75.0;48;9;4.2;20.0;10;20.0;24.5;10;0;0.0;6;2.00;23.8;Matches
 3;Stefan Bajic\Stefan-Bajic;fr FRA;GK;Saint-Étienne;17;2001;1.0;1;0;0;0;0;0.6;0.29;-0.4;-0.42;3;3;100.0;11;4;0.0;21.1;8;37.5;34.8;5;0;0.0;2;2.00;20.4;Matches

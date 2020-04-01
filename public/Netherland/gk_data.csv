@@ -1,5 +1,4 @@
-;;;;;;;Playing Time;Playing Time;Playing Time;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Penalty Kicks;Penalty Kicks;Penalty Kicks;Penalty Kicks;
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;GA;GA90;SoTA;Saves;Save%;W;D;L;CS;CS%;PKatt;PKA;PKsv;PKm;Matches
+id;name;Nation;Position;Squad;Age;Born;MP;Starts;Min;GA;GA90;SoTA;Saves;Save%;W;D;L;CS;CS%;PKatt;PKA;PKsv;PKm;Matches
 1;Filip Bednarek\Filip-Bednarek;pl POL;GK;Heerenveen;26;1992;5;5;450;11;2.20;21;13;.619;1;2;2;0;0.0;3;3;0;0;Matches
 2;Justin Bijlow\Justin-Bijlow;nl NED;GK;Feyenoord;21;1998;6;6;540;8;1.33;22;16;.727;5;1;0;1;16.7;2;2;0;0;Matches
 3;Marco Bizot\Marco-Bizot;nl NED;GK;AZ Alkmaar;28;1991;23;23;1984;11;0.50;66;56;.848;17;2;4;16;69.6;2;1;0;1;Matches

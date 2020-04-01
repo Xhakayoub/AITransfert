@@ -1,5 +1,4 @@
-;;;;;;;Playing Time;Playing Time;Playing Time;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Penalty Kicks;Penalty Kicks;Penalty Kicks;Penalty Kicks;
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;GA;GA90;SoTA;Saves;Save%;W;D;L;CS;CS%;PKatt;PKA;PKsv;PKm;Matches
+id;name;Nation;Position;Squad;Age;Born;MP;Starts;Min;GA;GA90;SoTA;Saves;Save%;W;D;L;CS;CS%;PKatt;PKA;PKsv;PKm;Matches
 1;Igor Akinfeev\Igor-Akinfeev;ru RUS;GK;ru CSKA Moscow;33;1986;5;5;450;9;1.80;22;13;.636;0;2;3;1;20.0;1;1;0;0;Matches
 2;Giedrius Arlauskis\Giedrius-Arlauskis;lt LTU;GK;ro CFR Cluj;31;1987;8;8;720;5;0.62;33;28;.848;4;2;2;4;50.0;1;0;0;1;Matches
 3;David von Ballmoos\David-von-Ballmoos;ch SUI;GK;ch Young Boys;24;1994;6;6;540;7;1.17;28;22;.786;2;2;2;1;16.7;1;1;0;0;Matches

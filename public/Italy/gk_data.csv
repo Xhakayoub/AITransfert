@@ -1,5 +1,4 @@
-;;;;;;;Playing Time;Playing Time;Playing Time;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Penalty Kicks;Penalty Kicks;Penalty Kicks;Penalty Kicks;
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;GA;GA90;SoTA;Saves;Save%;W;D;L;CS;CS%;PKatt;PKA;PKsv;PKm;Matches
+id;name;Nation;Position;Squad;Age;Born;MP;Starts;Min;GA;GA90;SoTA;Saves;Save%;W;D;L;CS;CS%;PKatt;PKA;PKsv;PKm;Matches
 1;Enrico Alfonso\Enrico-Alfonso;it ITA;GK;Brescia;31;1988;4;4;280;4;1.29;11;7;.636;1;0;3;1;25.0;0;0;0;0;Matches
 2;Lorenzo Andrenacci\Lorenzo-Andrenacci;it ITA;GK;Brescia;24;1995;1;0;80;2;2.25;8;5;.750;0;0;0;0;;0;0;0;0;Matches
 3;Emil Audero\Emil-Audero;it ITA;GK;Sampdoria;22;1997;24;24;2160;43;1.79;108;70;.639;6;5;13;7;29.2;4;4;0;0;Matches

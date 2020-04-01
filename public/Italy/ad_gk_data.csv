@@ -1,5 +1,4 @@
-;;;;;;;;Goals;Goals;Goals;Goals;Goals;Expected;Expected;Expected;Expected;Launched;Launched;Launched;Passes;Passes;Passes;Passes;Goal Kicks;Goal Kicks;Goal Kicks;Crosses;Crosses;Crosses;Sweeper;Sweeper;Sweeper;
-Rk;Player;Nation;Pos;Squad;Age;Born;90s;GA;PKA;FK;CK;OG;PSxG;PSxG/SoT;PSxG+/-;/90;Cmp;Att;Cmp%;Att;Thr;Launch%;AvgLen;Att;Launch%;AvgLen;Att;Stp;Stp%;#OPA;#OPA/90;AvgDist;Matches
+id;name;Nation;Position;Squad;Age;Born;90s;GA;PKA;FK;CK;OG;PSxG;PSxG/SoT;PSxG+/-;/90;Cmp;Att;Cmp%;Att;Thr;Launch%;AvgLen;Att;Launch%;AvgLen;Att;Stp;Stp%;#OPA;#OPA/90;AvgDist;Matches
 1;Enrico Alfonso\Enrico-Alfonso;it ITA;GK;Brescia;31;1988;3.1;4;0;0;0;0;2.1;0.19;-1.9;-0.61;11;32;34.4;51;8;45.1;37.0;24;37.5;32.8;20;1;5.0;4;1.29;16.3;Matches
 2;Lorenzo Andrenacci\Lorenzo-Andrenacci;it ITA;GK;Brescia;24;1995;0.9;2;0;1;0;0;2.3;0.29;+0.3;+0.37;8;21;38.1;18;8;55.6;43.8;14;78.6;54.7;10;0;0.0;0;0.00;11.0;Matches
 3;Emil Audero\Emil-Audero;it ITA;GK;Sampdoria;22;1997;24.0;43;4;0;8;2;35.6;0.33;-5.4;-0.23;117;352;33.2;478;89;50.2;41.6;183;61.2;45.4;187;16;8.6;16;0.67;14.4;Matches

@@ -1,5 +1,4 @@
-;;;;;;;Playing Time;Playing Time;Playing Time;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Performance;Penalty Kicks;Penalty Kicks;Penalty Kicks;Penalty Kicks;
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;GA;GA90;SoTA;Saves;Save%;W;D;L;CS;CS%;PKatt;PKA;PKsv;PKm;Matches
+id;name;Nation;Position;Squad;Age;Born;MP;Starts;Min;GA;GA90;SoTA;Saves;Save%;W;D;L;CS;CS%;PKatt;PKA;PKsv;PKm;Matches
 1;Igor Akinfeev\Igor-Akinfeev;ru RUS;GK;CSKA Moscow;33;1986;20;20;1800;19;0.95;74;58;.770;10;5;5;7;35.0;3;2;1;0;Matches
 2;Yegor Baburin\Yegor-Baburin;ru RUS;GK;Rostov;25;1993;12;12;1080;18;1.50;50;38;.760;6;2;4;3;25.0;7;6;0;1;Matches
 3;Oleg Baklov\Oleg-Baklov;ru RUS;GK;Ural;24;1994;3;3;270;7;2.33;12;6;.417;1;0;2;0;0.0;1;0;1;0;Matches

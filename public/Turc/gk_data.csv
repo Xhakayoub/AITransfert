@@ -1,4 +1,4 @@
-Rk;Player;Nation;Pos;Squad;Age;Born;MP;Starts;Min;GA;GA90;SoTA;Saves;Save%;W;D;L;CS;CS%;PKatt;PKA;PKsv;PKm;Matches
+id;name;Nation;Position;Squad;Age;Born;MP;Starts;Min;GA;GA90;SoTA;Saves;Save%;W;D;L;CS;CS%;PKatt;PKA;PKsv;PKm;Matches
 1;Gökhan Akkan\Gokhan-Akkan;tr TUR;GK;Rizespor;24;1995;20;20;1766;36;1.83;80;47;.588;5;3;12;5;25.0;5;3;0;2;Matches
 2;Hüseyin Altıntaş\Huseyin-Altintas;tr TUR;GK;Denizlispor;24;1994;1;0;;0;;0;0;;0;0;0;0;;0;0;0;0;Matches
 3;Göktuğ Bakırbaş\Goktug-Bakirbas;tr TUR;GK;Göztepe;23;1996;4;2;262;2;0.69;11;9;.818;2;0;0;1;50.0;0;0;0;0;Matches

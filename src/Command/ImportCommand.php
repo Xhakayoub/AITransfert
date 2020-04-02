@@ -10,6 +10,8 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
 use League\Csv\Reader;
+use Symfony\Component\Console\Helper\ProgressBar;
+use Symfony\Component\Console\Output\ConsoleOutput;
 
 class importCommand extends Command
 {
@@ -28,7 +30,7 @@ class importCommand extends Command
    public function importTeams(string $league): void
    {
 
-      $readerOfStandarsTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/standars_team_data.csv');
+      $readerOfStandarsTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/standard_team_data.csv');
       $readerOfPassingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/passing_team_data.csv');
       $readerOfShootingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/shooting_team_data.csv');
       $readerOfTimmingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/timming_team_data.csv');
@@ -66,6 +68,8 @@ class importCommand extends Command
       $advancedGkTeams = iterator_to_array($advancedGkTeams, false);
 
 
+
+
       if (!empty($standarsTeams) and !empty($gkTeams)) {
 
          // $count = sizeof($standarsTeams);
@@ -73,7 +77,7 @@ class importCommand extends Command
          // echo $count ."\n";
          // echo sizeof($gkTeams)."\n";
          echo "import for " . $league . " league\n";
-         echo "_________________________\n" ;
+
 
          foreach ($standarsTeams as $fakeIndex => $teams) {
             //echo sizeof($gkTeams);
@@ -264,7 +268,7 @@ class importCommand extends Command
    {
 
 
-      $readerOfStandarsData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/standars_data.csv');
+      $readerOfStandarsData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/standard_data.csv');
       // $readerOfStandarsTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/standars_team_data.csv');
       $readerOfPassingData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/passing_data.csv');
       //  $readerOfPassingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/passing_team_data.csv');
@@ -317,18 +321,28 @@ class importCommand extends Command
 
       $comp = 0;
 
+      $output = new ConsoleOutput();
+      $length = sizeOf($timming);
+      $bar1 = new ProgressBar($output, $length);
+      print "\n";
 
       $this->importTeams($dir);
-
-
+      $bar1->start();
       foreach ($timming as $fakeindex => $row) {
+       
+         $bar1->advance();
+         print "\n";
+         $output->write("\033[1A");
+         usleep(100000);
          $comp++;
          $index = $fakeindex;
          if ($dir == 'CL' || $dir == 'EL') $squad = explode(' ', $row['Squad'], 2)[1];
          else $squad = $row['Squad'];
+
+         $name = explode("\\", $row['name'], 2)[1];
          $verify = $this->em->getRepository(Player::class)
             ->findOneBy([
-               'Name' => $row['name'],
+               'Name' => $name,
                'born' => $row['born'],
                'position' =>  $row['position'],
                'squad' => $squad
@@ -338,7 +352,7 @@ class importCommand extends Command
          if (empty($verify)) {
             $player = (new player())
                ->setIdPlayer($comp)
-               ->setName($row['name'])
+               ->setName($name)
                ->setNation($row['nation'])
                ->setPosition($row['position'])
                ->setSquad($squad)
@@ -815,6 +829,8 @@ class importCommand extends Command
 
          $this->em->flush();
       }
+      $bar1->finish();
+      echo "_________________________Success__________________________\n";
    }
 
 

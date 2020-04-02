@@ -29,15 +29,19 @@ class ExtractDataFromWeb
             'gk_data.csv', 'ad_gk_data.csv', 'miscellaneous_data.csv'
         );
 
-        // $client = HttpClient::create();
-        // $response = $client->request('GET', 'http://127.0.0.1:5000/all', ['timeout' => 2000.5]);
-        // $data = $response->getContent();
+          $client = HttpClient::create();
+          $response = $client->request('GET', 'http://127.0.0.1:5000/all', ['timeout' => 2000.5]);
+          $data = $response->getContent();
+         
+        //  $data = array(
+        //      "Ligue-1-Stats" => array("shooting" => 'yy', "passing" => 'uu'),
+        //      "Champions-League-Stats" => array("timming" => 'yy', "standars" =>  'kk')
+        //  );
 
-        $data = array(
-            "Ligue-1-Stats" => array("shooting" => 'yy', "passing" => 'uu'),
-            "Champions-League-Stats" => array("timming" => 'yy', "standars" =>  'kk')
-        );
-        
+        $current_charset = 'ISO-8859-15';
+        $data = iconv('UTF-8//TRANSLIT',$current_charset,$data);
+        $data = json_decode($data, JSON_UNESCAPED_UNICODE);
+
         foreach ($data as $index => $item) {
           echo $index ."\n";
             switch ($index) {
@@ -92,19 +96,48 @@ class ExtractDataFromWeb
                     case "misc":
                         $type = "miscellaneous";
                         echo $type;
+                    case "squad standard":
+                        $type = "standard_team";
+                        echo $type;
+                        break;
+                    case "squad playing_time":
+                        $type = "timming_team";
+                        echo $type;
+                        break;
+                    case "squad keeper":
+                        $type = "gk_team";
+                        echo $type;
+                        break;
+                    case "squad keeper_adv":
+                        $type = "ad_gk_team";
+                        echo $type;
+                        break;
+                    case "squad shooting":
+                        $type = "shooting_team";
+                        echo $type;
+                        break;
+                    case "squad passing":
+                        $type = "passing_team";
+                        echo $type;
+                        break;
+                    case "squad misc":
+                        $type = "miscellaneous_team";
+                        echo $type;
                         break;
                 }
 
                // echo $element . "\n";
                 $fp = fopen("C:/wamp64/www/AiTransfert/public/" . $dir . "/" . $type . "_data.csv", "r+");
+                //$fp = fopen("C:/wamp64/www/AiTransfert/public/England/shooting_data.csv", "r+");
                 $line = fgets($fp);
                 ftruncate($fp, 0);
                 fclose($fp);
 
                 $fp = fopen("C:/wamp64/www/AiTransfert/public/" . $dir . "/" . $type . "_data.csv", "r+");
-                $csv = $line . "\n" . $element;
+               // $csv = $line . "\n" . $element;
                 //echo $csv;
-                $csv = utf8_encode($csv);
+                $csv = utf8_encode($element);
+                fwrite($fp, $line);
                 fwrite($fp, $csv);
               //  fwrite($fp, $element . $fakeindex);
                 fclose($fp);

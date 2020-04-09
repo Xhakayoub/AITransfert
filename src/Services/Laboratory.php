@@ -695,7 +695,29 @@ class Laboratory
         return $res;
     }
 
-
+    /**
+     * return the rate of the yellow cards
+     */
+    public function getCrossIntoPenaltyAreaRating(Player $player): int
+    {
+        if ($player) {
+            $mediumPassesCompleted = $player->getCrossIntoPenaltyArea();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($mediumPassesCompleted / $minutes) *90;
+            if ($value >= 1) $res = 10;
+            if ($value < 1 and $value >= 0.9)  $res = 9;
+            if ($value < 0.9 and $value >= 0.8)  $res = 8;
+            if ($value < 0.8 and $value >= 0.7)  $res = 7;
+            if ($value < 0.7 and $value >= 0.6)  $res = 6;
+            if ($value < 0.6 and $value >= 0.5)  $res = 5;
+            if ($value < 0.5 and $value >= 0.4)  $res = 4;
+            if ($value < 0.4 and $value > 0.3)  $res = 3;
+            if ($value < 0.3 and $value > 0.2)  $res = 2;
+            if ($value < 0.2 and $value > 0)  $res = 1;
+            else $res = 0;
+        }
+        return $res;
+    }
 
 
 

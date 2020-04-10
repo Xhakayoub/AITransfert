@@ -13,43 +13,6 @@ class Laboratory
      * Les fonctions de base
      */
 
-    /**
-     * return the rate of the passe completed
-     */
-    public function getPassingCompletedPercentRating(Player $player): int
-    {
-        if ($player) {
-            $value = $player->getPassCompPercent() / 100;
-            if ($value >= 1) $res = 10;
-            if ($value >= 0.8 and $value < 1)  $res = 9;
-            if (0.5 <= $value and $value < 0.8)  $res = 8;
-            if (0.3 <= $value and $value < 0.5)  $res = 7;
-            if (0.2 <= $value and $value < 0.3) $res = 6;
-            if (0.1 <= $value and $value < 0.2) $res = 5;
-            else $res = 0;
-        }
-        return $res;
-    }
-
-    /**
-     * return the rate of the passe completed percent
-     */
-    public function getPassingCompletedPerMinuteRating(Player $player): int
-    {
-        if ($player) {
-            $passes = $player->getPassesCompleted();
-            $minutes = $player->getMinsPlayed();
-            $value = $passes / $minutes;
-            if ($value >= 1) $res = 10;
-            if ($value >= 0.8 and $value < 1)  $res = 9;
-            if (0.5 <= $value and $value < 0.8)  $res = 8;
-            if (0.3 <= $value and $value < 0.5)  $res = 7;
-            if (0.2 <= $value and $value < 0.3) $res = 6;
-            if (0.1 <= $value and $value < 0.2) $res = 5;
-            else $res = 0;
-        }
-        return $res;
-    }
 
 
     /**
@@ -300,7 +263,6 @@ class Laboratory
     }
 
 
-
     /**
      * return the rate of the yellow cards
      */
@@ -346,6 +308,7 @@ class Laboratory
         return $res;
     }
 
+
     /**
      * return the rate of the yellow cards
      */
@@ -366,7 +329,6 @@ class Laboratory
         }
         return $res;
     }
-
 
 
     /**
@@ -413,7 +375,6 @@ class Laboratory
         }
         return $res;
     }
-
 
 
     /**
@@ -496,6 +457,29 @@ class Laboratory
         return $res;
     }
 
+
+    /**
+     * return the rate of the passe completed
+     */
+    public function getPassCompletedPercentRating(Player $player): int
+    {
+        if ($player) {
+            $value = $player->getPassCompPercent() / 100;
+            if ($value >= 1) $res = 10;
+            if ($value >= 0.8 and $value < 1)  $res = 9;
+            if (0.5 <= $value and $value < 0.8)  $res = 8;
+            if (0.3 <= $value and $value < 0.5)  $res = 7;
+            if (0.2 <= $value and $value < 0.3) $res = 6;
+            if (0.1 <= $value and $value < 0.2) $res = 5;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+
+    /**
+     * return the rate of the yellow cards
+     */
     public function getPassCompletedRating(Player $player): int
     {
         if ($player) {
@@ -515,18 +499,10 @@ class Laboratory
         return $res;
     }
 
+
     /**
      * return the rate of the yellow cards
      */
-    public function getPassCompletionPerCentRating(Player $player): float
-    {
-        if ($player) {
-            $dribbles = $player->getPassCompPercent();
-            $value = $dribbles / 10;
-        }
-        return $value;
-    }
-
     public function getShortPassCompletedRating(Player $player): int
     {
         if ($player) {
@@ -546,6 +522,7 @@ class Laboratory
         return $res;
     }
 
+
     /**
      * return the rate of the yellow cards
      */
@@ -557,8 +534,10 @@ class Laboratory
         }
         return $value;
     }
-
-
+ 
+    /**
+     * return the rate of the yellow cards
+     */
     public function getLongPassCompletedRating(Player $player): int
     {
         if ($player) {
@@ -590,6 +569,10 @@ class Laboratory
         return $value;
     }
 
+
+    /**
+     * return the rate of the yellow cards
+     */
     public function getMediumPassCompletedRating(Player $player): int
     {
         if ($player) {
@@ -608,6 +591,7 @@ class Laboratory
         }
         return $res;
     }
+
 
     /**
      * return the rate of the yellow cards
@@ -671,7 +655,7 @@ class Laboratory
     }
 
 
-   /**
+     /**
      * return the rate of the yellow cards
      */
     public function getPassIntoPenaltyAreaRating(Player $player): int
@@ -719,6 +703,11 @@ class Laboratory
         return $res;
     }
 
+
+  
+
+
+    
 
 
 

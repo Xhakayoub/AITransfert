@@ -177,7 +177,7 @@ class importCommand extends Command
                   ->setDribblesSucceded($miscellaneousTeams[$fakeIndex]['Succ'])
                   ->setDribblesAttempted($miscellaneousTeams[$fakeIndex]['Att'])
                   ->setDribblesCompletion($miscellaneousTeams[$fakeIndex]['Succ%']);
-
+                  
                $this->em->persist($team);
             } else {
                // echo $league." ".$verify->getLeague()."\n";
@@ -524,6 +524,7 @@ class importCommand extends Command
                ->setDribbleTackledPercent(0.0)
                ->setTimesDribbledPast(0)
                ->setCrossIntoPenaltyArea(0);
+               
 
             if ($index > count($standars) - 1) {
                $index = 0;
@@ -687,7 +688,9 @@ class importCommand extends Command
                   ->setNutmegs(intval($miscellaneous[$index]['Megs'] ?? 0))
                   ->setDribbleTackled(intval($miscellaneous[$index]['Tkl'] ?? 0))
                   ->setDribbleTackledPercent(floatval($miscellaneous[$index]['Tkl%'] ?? 0.0))
-                  ->setTimesDribbledPast(intval($miscellaneous[$index]['Past'] ?? 0));
+                  ->setTimesDribbledPast(intval($miscellaneous[$index]['Past'] ?? 0))
+                  ->setSecondYellowCard($miscellaneous[$index]['2CrdY']);
+                  ;
             } else {
                for ($i = 0; $i <= count($miscellaneous) - 1; $i++) {
 
@@ -709,7 +712,8 @@ class importCommand extends Command
                         ->setNutmegs(intval($miscellaneous[$i]['Megs'] ?? 0))
                         ->setDribbleTackled(intval($miscellaneous[$i]['Tkl'] ?? 0))
                         ->setDribbleTackledPercent(floatval($miscellaneous[$i]['Tkl%'] ?? 0.0))
-                        ->setTimesDribbledPast(intval($miscellaneous[$i]['Past'] ?? 0));
+                        ->setTimesDribbledPast(intval($miscellaneous[$i]['Past'] ?? 0))
+                        ->setSecondYellowCard(intval($miscellaneous[$i]['2CrdY'] ?? 0));
                      break;
                   }
                }
@@ -890,7 +894,9 @@ class importCommand extends Command
                   ->setNutmegs(floatval($miscellaneous[$index]['Megs'] ?? 0.0))
                   ->setDribbleTackled(floatval($miscellaneous[$index]['Tkl'] ?? 0.0))
                   ->setDribbleTackledPercent(floatval($miscellaneous[$index]['Tkl%'] ?? 0.0))
-                  ->setTimesDribbledPast(floatval($miscellaneous[$index]['Past'] ?? 0.0));
+                  ->setTimesDribbledPast(floatval($miscellaneous[$index]['Past'] ?? 0.0))
+                  ->setSecondYellowCard(intval($miscellaneous[$index]['2CrdY'] ?? 0));
+                  
             } else {
                for ($i = 0; $i <= count($miscellaneous) - 1; $i++) {
 
@@ -912,7 +918,8 @@ class importCommand extends Command
                         ->setNutmegs(intval($miscellaneous[$i]['Megs'] ?? 0))
                         ->setDribbleTackled(intval($miscellaneous[$i]['Tkl'] ?? 0))
                         ->setDribbleTackledPercent(floatval($miscellaneous[$i]['Tkl%'] ?? 0.0))
-                        ->setTimesDribbledPast(intval($miscellaneous[$i]['Past'] ?? 0));
+                        ->setTimesDribbledPast(intval($miscellaneous[$i]['Past'] ?? 0))
+                        ->setSecondYellowCard(intval($miscellaneous[$i]['2CrdY'] ?? 0));
                      break;
                   }
                }

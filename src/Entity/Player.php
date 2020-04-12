@@ -396,6 +396,11 @@ class Player
      */
     private $throughBalls;
 
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $secondYellowCard;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -1309,6 +1314,18 @@ class Player
     public function setThroughBalls(?int $throughBalls): self
     {
         $this->throughBalls = $throughBalls;
+
+        return $this;
+    }
+
+    public function getSecondYellowCard(): ?int
+    {
+        return $this->secondYellowCard;
+    }
+
+    public function setSecondYellowCard(?int $secondYellowCard): self
+    {
+        $this->secondYellowCard = $secondYellowCard;
 
         return $this;
     }

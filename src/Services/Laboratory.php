@@ -263,6 +263,27 @@ class Laboratory
         return $res;
     }
 
+     /**
+     * return the rate of the yellow cards
+     */
+    public function getSecondYellowCardPer90MinutesRating(Player $player): int
+    {
+        if ($player) {
+            $secondYellowCards = $player->getSecondYellowCard();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($secondYellowCards / $minutes) * 90;
+            if ($value >= 0.1) $res = 0;
+            if ($value < 0.1 and $value >= 0.07)  $res = 3;
+            if ($value < 0.07 and $value >= 0.05)  $res = 4;
+            if ($value < 0.05 and $value >= 0.04)  $res = 5;
+            if ($value < 0.04 and $value >= 0.03)  $res = 6;
+            if ($value < 0.03 and $value >= 0.02)  $res = 7;
+            if ($value < 0.02 and $value >= 0.01)  $res = 8;
+            if ($value < 0.01 and $value > 0)  $res = 9;
+            else $res = 10;
+        }
+        return $res;
+    }
 
     /**
      * return the rate of the yellow cards
@@ -748,10 +769,9 @@ class Laboratory
 
 
     /**
-     * passe quality to redo
+     * passe quality 
      */
-    public function getPassQuality(Player $player): array
-    {
+    public function getPassQuality(Player $player): array {
 
         $keyPasses = $this->getKeyPassRating($player); //$player->getKeyPasses();
         $assistsPerMinute = $this->getAssistRating($player); //$player->getAssistsPerMin();
@@ -770,9 +790,10 @@ class Laboratory
             // $keyPassesPerMin = $keyPasses / $minutesPlayed;
 
 
-            $rate = $passesAttempted * 0.05 + (($passesCompletion  +  $passesCompleted) / 2) * 0.4
-                + $keyPasses * 0.11 +  $assistsPerMinute * 0.11 + $TB * 0.11 + $passIntoFinalThird * 0.11
-                + $passIntoPenArea * 0.11;
+            $rate = $passesAttempted * 0.05 + 
+                    (($passesCompletion  +  $passesCompleted) / 2) * 0.4 + 
+                    $keyPasses * 0.11 +  $assistsPerMinute * 0.11 + $TB * 0.11 + $passIntoFinalThird * 0.11 + 
+                    $passIntoPenArea * 0.11;
 
             $message = "" ;
 
@@ -783,6 +804,50 @@ class Laboratory
     }
 
 
+    public function getNegativeAggressiveness(Player $player): array {
+     
+    
+     $fouls = $this->getFoulsPerMinuteRating($player);
+     $yellowCards = $this->getYellowCardPer90MinutesRating($player);
+     $redCards = $this->getRedCardPer90MinutesRating($player);
+     $secondYellowCard = $this->getSecondYellowCardPer90MinutesRating($player);
+     $tackles = $this->getTacklesVsDribblesAttemptedPer90MinutesRating($player);
+
+     $rate = $fouls * 0.25 +
+             $yellowCards * 0.15 +
+             $redCards * 0.3 +
+             $secondYellowCard * 0.2 + 
+             $tackles * 0.1 ;
+
+     $message = "";
+
+     $result = array("rate" => $rate, "message" => $message);  
+
+     return $result;
+    }
+
+
+    public function getPositiveAggressiveness(Player $player): array {
+     
+    
+        $tacklesWon = $this->getTacklesWonPerMinuteRating($player);
+        $tackles = $this->getTacklesVsDribblesAttemptedPer90MinutesRating($player);
+        $tackleCompletion = $this->getTacklesPercentRating($player);
+        $secondYellowCard = $this->getSecondYellowCardPer90MinutesRating($player);
+        $redCards = $this->getRedCardPer90MinutesRating($player);
+        
+   
+        $rate = ($tacklesWon * 0.4 + $tackleCompletion * 0.6) * 0.35 +
+                $redCards * 0.25 +
+                $secondYellowCard * 0.2 +
+                $tackles * 0.2 ;
+   
+        $message = "";
+   
+        $result = array("rate" => $rate, "message" => $message);  
+        
+        return $result;
+       }
     /**
      * passe quality to redo
      */

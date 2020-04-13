@@ -401,6 +401,16 @@ class Player
      */
     private $secondYellowCard;
 
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $goalsScoredWhileOnPitch;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $goalsAllowedWhileOnPitch;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -1326,6 +1336,30 @@ class Player
     public function setSecondYellowCard(?int $secondYellowCard): self
     {
         $this->secondYellowCard = $secondYellowCard;
+
+        return $this;
+    }
+
+    public function getGoalsScoredWhileOnPitch(): ?int
+    {
+        return $this->goalsScoredWhileOnPitch;
+    }
+
+    public function setGoalsScoredWhileOnPitch(?int $goalsScoredWhileOnPitch): self
+    {
+        $this->goalsScoredWhileOnPitch = $goalsScoredWhileOnPitch;
+
+        return $this;
+    }
+
+    public function getGoalsAllowedWhileOnPitch(): ?int
+    {
+        return $this->goalsAllowedWhileOnPitch;
+    }
+
+    public function setGoalsAllowedWhileOnPitch(?int $goalsAllowedWhileOnPitch): self
+    {
+        $this->goalsAllowedWhileOnPitch = $goalsAllowedWhileOnPitch;
 
         return $this;
     }

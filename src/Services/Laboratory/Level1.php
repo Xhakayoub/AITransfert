@@ -5,7 +5,7 @@ namespace App\Services;
 use App\Entity\Player;
 use App\Entity\Team;
 
-class Laboratory
+class Level1
 {
 
 
@@ -354,12 +354,12 @@ class Laboratory
 
 
     /**
-     * return the rate of the yellow cards
+     * to review ::::::::::
      */
     public function getDribblePastRating(Player $player): int
     {
         if ($player) {
-            $redCards = $player->getRedCard();
+            $redCards = $player->getTimesDribbledPast();
             $minutes = $player->getMinutesPlayed();
             $value = ($redCards / $minutes) * 90;
             if ($value >= 5) $res = 0;
@@ -749,10 +749,111 @@ class Laboratory
     }
 
 
+    /**
+     * return the rate of the yellow cards
+     */
+    public function getPenaltyKickWonRating(Player $player): int
+    {
+        if ($player) {
+            $mediumPassesCompleted = $player->getPenaltyKicksWon();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($mediumPassesCompleted / $minutes) *90;
+            if ($value >= 0.4) $res = 10;
+            if ($value < 0.4 and $value >= 0.32)  $res = 9;
+            if ($value < 0.32 and $value >= 0.24)  $res = 8;
+            if ($value < 0.24 and $value >= 0.16)  $res = 7;
+            if ($value < 0.16 and $value >= 0.12)  $res = 6;
+            if ($value < 0.12 and $value >= 0.08)  $res = 5;
+            if ($value < 0.08 and $value >= 0.04)  $res = 4;
+            if ($value < 0.04 and $value > 0.02)  $res = 3;
+            if ($value < 0.02 and $value > 0.01)  $res = 2;
+            if ($value < 0.01 and $value > 0)  $res = 1;
+            else $res = 0;
+        }
+        return $res;
+    }
+
   
 
 
     
+    /**
+     * return the rate of the yellow cards
+     */
+    public function getPenaltyKickConcededRating(Player $player): int
+    {
+        if ($player) {
+            $mediumPassesCompleted = $player->getPenaltyKicksConceded();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($mediumPassesCompleted / $minutes) *90;
+            if ($value >= 0.2) $res = 0;
+            if ($value < 0.2 and $value >= 0.18)  $res = 1;
+            if ($value < 0.18 and $value >= 0.16)  $res = 2;
+            if ($value < 0.16 and $value >= 0.13)  $res = 3;
+            if ($value < 0.13 and $value >= 0.1)  $res = 4;
+            if ($value < 0.1 and $value >= 0.07)  $res = 5;
+            if ($value < 0.07 and $value >= 0.05)  $res = 6;
+            if ($value < 0.05 and $value > 0.03)  $res = 7;
+            if ($value < 0.03 and $value > 0.02)  $res = 8;
+            if ($value < 0.02 and $value > 0)  $res = 9;
+            else $res = 10;
+        }
+        return $res;
+    }
+
+  
+  /**
+     * return the rate of the yellow cards
+     */
+    public function getGoalsScoredWhileOnPitchRating(Player $player): int
+    {
+        if ($player) {
+            $mediumPassesCompleted = $player->getGoalsScoredWhileOnPitch();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($mediumPassesCompleted / $minutes) *90;
+            if ($value >= 3) $res = 10;
+            if ($value < 3 and $value >= 2.5)  $res = 9;
+            if ($value < 2.5 and $value >= 2)  $res = 8;
+            if ($value < 2 and $value >= 1.5)  $res = 7;
+            if ($value < 1.5 and $value >= 1.2)  $res = 6;
+            if ($value < 1.2 and $value >= 1)  $res = 5;
+            if ($value < 1 and $value >= 0.8)  $res = 4;
+            if ($value < 0.8 and $value > 0.5)  $res = 3;
+            if ($value < 0.5 and $value > 0.3)  $res = 2;
+            if ($value < 0.3 and $value > 0)  $res = 1;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+
+    public function getGoalsAllowedWhileOnPitchRating(Player $player): int
+    {
+        if ($player) {
+            $mediumPassesCompleted = $player->getGoalsAllowedWhileOnPitch();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($mediumPassesCompleted / $minutes) *90;
+            if ($value >= 3) $res = 0;
+            if ($value < 3 and $value >= 2.6)  $res = 1;
+            if ($value < 2.5 and $value >= 2.3)  $res = 2;
+            if ($value < 2.3 and $value >= 2)  $res = 3;
+            if ($value < 2 and $value >= 1.6)  $res = 4;
+            if ($value < 1.6 and $value >= 1.3)  $res = 5;
+            if ($value < 1.3 and $value >= 1)  $res = 6;
+            if ($value < 1 and $value > 0.7)  $res = 7;
+            if ($value < 0.7 and $value > 0.5)  $res = 8;
+            if ($value < 0.5 and $value > 0)  $res = 9;
+            else $res = 10;
+        }
+        return $res;
+    }
+
+  
+
+    
+
+
+
 
 
 

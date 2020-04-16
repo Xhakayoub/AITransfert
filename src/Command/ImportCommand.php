@@ -30,13 +30,13 @@ class importCommand extends Command
    public function importTeams(string $league): void
    {
 
-      $readerOfStandarsTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/standard_team_data.csv');
-      $readerOfPassingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/passing_team_data.csv');
-      $readerOfShootingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/shooting_team_data.csv');
-      $readerOfTimmingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/timming_team_data.csv');
-      $readerOfGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/gk_team_data.csv');
-      $readerOfAdvancedGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/ad_gk_team_data.csv');
-      $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $league . '/miscellaneous_team_data.csv');
+      $readerOfStandarsTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/standard_team_data.csv');
+      $readerOfPassingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/passing_team_data.csv');
+      $readerOfShootingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/shooting_team_data.csv');
+      $readerOfTimmingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/timming_team_data.csv');
+      $readerOfGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/gk_team_data.csv');
+      $readerOfAdvancedGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/ad_gk_team_data.csv');
+      $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/miscellaneous_team_data.csv');
 
       $readerOfStandarsTeamData->setDelimiter(';');
       $readerOfPassingTeamData->setDelimiter(';');
@@ -365,15 +365,15 @@ class importCommand extends Command
    {
 
 
-      $readerOfStandarsData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/standard_data.csv');
+      $readerOfStandarsData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/standard_data.csv');
       // $readerOfStandarsTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/standars_team_data.csv');
-      $readerOfPassingData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/passing_data.csv');
+      $readerOfPassingData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/passing_data.csv');
       //  $readerOfPassingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/passing_team_data.csv');
-      $readerOfShootingData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/shooting_data.csv');
+      $readerOfShootingData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/shooting_data.csv');
       //  $readerOfShootingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/shooting_team_data.csv');
-      $readerOfTimmingData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/timming_data.csv');
+      $readerOfTimmingData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/timming_data.csv');
       //  $readerOfTimmingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/timming_team_data.csv');
-      $readerOfMiscellaneousData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_data.csv');
+      $readerOfMiscellaneousData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/miscellaneous_data.csv');
       // $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
 
       $readerOfStandarsData->setDelimiter(';');

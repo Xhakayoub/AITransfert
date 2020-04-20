@@ -1,0 +1,32 @@
+{
+  "name": "aitransfert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xhakayoub/AITranfert.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xhakayoub/AITranfert/issues"
+  },
+  "homepage": "https://github.com/Xhakayoub/AITranfert#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.0.0",
+    "@symfony/webpack-encore": "^0.29.1",
+    "webpack-notifier": "^1.6.0"
+  }
+}

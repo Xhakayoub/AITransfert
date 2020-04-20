@@ -1,0 +1,10 @@
+{
+  "entrypoints": {
+    "LikeButton": {
+      "js": [
+        "/public/ReactJs/runtime.js",
+        "/public/ReactJs/LikeButton.js"
+      ]
+    }
+  }
+}

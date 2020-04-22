@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Qualy";
+    src: url("TheLightFont.otf");
+   }
+
+   h1,h5,p{
+       font-family: "Qualy";
+   }
+
+   body{
+       background-color: black;
+   }
+ 

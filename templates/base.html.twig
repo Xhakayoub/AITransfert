@@ -4,9 +4,14 @@
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
-    </head>
-    <body>
-        {% block body %}{% endblock %}
+    </head>	
+   
+    <body class="bgBlack">
+        {% block body %}
+        
+        	<link rel="stylesheet" href="{{asset('css/style.css')}}">
+
+        {% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
 </html>

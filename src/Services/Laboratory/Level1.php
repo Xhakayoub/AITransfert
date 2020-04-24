@@ -1028,18 +1028,4 @@ class Level1
         }
     }
 
-    public function getShootQuality(Player $player): float
-    {
-        return 0.0;
-    }
-
-    public function getScoringQuality(Player $player): float
-    {
-        return 0.0;
-    }
-
-    public function getDefendingQuality(Player $player): float
-    {
-        return 0.0;
-    }
 }

@@ -3,11 +3,11 @@
     src: url("TheLightFont.otf");
    }
 
-   h1,h5,p{
+   body{
        font-family: "Qualy";
    }
 
-   body{
+   .bgBlack{
        background-color: black;
    }
  

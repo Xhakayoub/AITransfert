@@ -1125,7 +1125,6 @@ function init_cropper() {
     console.log('init_cropper');
 
     var $image = $('#image');
-    var $download = $('#download');
     var $dataX = $('#dataX');
     var $dataY = $('#dataY');
     var $dataHeight = $('#dataHeight');
@@ -1188,11 +1187,6 @@ function init_cropper() {
         $('button[data-method="scale"]').prop('disabled', true);
     }
 
-
-    // Download
-    if (typeof $download[0].download === 'undefined') {
-        $download.addClass('disabled');
-    }
 
 
     // Options
@@ -1542,10 +1536,10 @@ function init_IonRangeSlider() {
     });
     $(".range_min_max").ionRangeSlider({
         type: "double",
-        min: 0,
-        max: 100,
-        from: 30,
-        to: 70,
+        min: 16,
+        max: 50,
+        from: 20,
+        to: 30,
         max_interval: 50
     });
     $(".range_time24").ionRangeSlider({
@@ -2249,7 +2243,7 @@ function init_charts() {
     // Radar chart
 
     if ($('#canvasRadar').length) {
-
+console.log("drghj")
         var ctx = document.getElementById("canvasRadar");
         var data = {
             labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
@@ -2478,14 +2472,14 @@ function init_calendar() {
 /* DATA TABLES */
 
 function init_DataTables() {
-
+    console.log('gtgts');
     console.log('run_datatables');
 
     if (typeof ($.fn.DataTable) === 'undefined') { return; }
     console.log('init_DataTables');
 
-    var handleDataTableButtons = function () {
-        if ($("#datatable-buttons").length) {
+    
+        
             $("#datatable-buttons").DataTable({
                 dom: "Blfrtip",
                 buttons: [
@@ -2512,8 +2506,8 @@ function init_DataTables() {
                 ],
                 responsive: true
             });
-        }
-    };
+       
+   
 
     TableManageButtons = function () {
         "use strict";

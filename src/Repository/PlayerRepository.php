@@ -47,4 +47,36 @@ class PlayerRepository extends ServiceEntityRepository
         ;
     }
     */
+
+    public function findAllYoungerPlayer($min, $max): array
+    {
+        $entityManager = $this->getEntityManager();
+
+        $query = $entityManager->createQuery(
+            'SELECT p
+            FROM App\Entity\Player p
+            WHERE p.age between :mini and :maxi'
+        )->setParameter('mini', $min)
+        ->setParameter('maxi', $max);
+
+        // returns an array of Product objects
+        return $query->getResult();
+    }
+
+    public function findNationsCount(): array
+    {
+        $entityManager = $this->getEntityManager();
+
+        $query = $entityManager->createQuery(
+            'SELECT count(p), p.nation
+            FROM App\Entity\Player p
+            GROUP BY p.nation 
+            ORDER BY count(p) DESC
+            '
+        );
+        $query->setMaxResults(20);
+
+        // returns an array of Product objects
+        return $query->getResult();
+    }
 }

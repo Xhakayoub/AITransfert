@@ -12,7 +12,8 @@ class Level2
     /**
      * passe quality 
      */
-    public function getPassQuality(Player $player): array {
+    public function getPassQuality(Player $player): array
+    {
 
         $keyPasses = Level1::getKeyPassRating($player); //$player->getKeyPasses();
         $assistsPerMinute = Level1::getAssistRating($player); //$player->getAssistsPerMin();
@@ -31,13 +32,37 @@ class Level2
             // $keyPassesPerMin = $keyPasses / $minutesPlayed;
 
 
-            $rate = $passesAttempted * 0.05 + 
-                    (($passesCompletion  +  $passesCompleted) / 2) * 0.4 + 
-                    $keyPasses * 0.11 +  $assistsPerMinute * 0.11 + $TB * 0.11 + $passIntoFinalThird * 0.11 + 
-                    $passIntoPenArea * 0.11;
+            $rate = $passesAttempted * 0.05 +
+                (($passesCompletion  +  $passesCompleted) / 2) * 0.4 +
+                $keyPasses * 0.11 +  $assistsPerMinute * 0.11 + $TB * 0.11 + $passIntoFinalThird * 0.11 +
+                $passIntoPenArea * 0.11;
 
-            $message = "" ;
-
+            $message = "";
+            switch ($rate) {
+                case 10:
+                    $message = "Player with an huge impact, can be a big leader for any club";
+                    break;
+                case 9:
+                    $message = "";
+                    break;
+                case 8:
+                    $message = "";
+                    break;
+                case 7:
+                    $message = "";
+                    break;
+                case 6:
+                    $message = "";
+                    break;
+                case 5:
+                    $message = "";
+                    break;
+                case 4:
+                    $message = "";
+                    break;
+                default;    
+            } 
+            
             $result = array("rate" => $rate, "message" => $message);
 
             return $result;
@@ -45,87 +70,204 @@ class Level2
     }
 
 
-    public function getNegativeAggressiveness(Player $player): array {
-     
-    
-     $fouls = Level1::getFoulsPerMinuteRating($player);
-     $yellowCards = Level1::getYellowCardPer90MinutesRating($player);
-     $redCards = Level1::getRedCardPer90MinutesRating($player);
-     $secondYellowCard = Level1::getSecondYellowCardPer90MinutesRating($player);
-     $tackles = Level1::getTacklesVsDribblesAttemptedPer90MinutesRating($player);
-     $penaltiesConceded = Level1::getPenaltyKickConcededRating($player);
+    public function getNegativeAggressiveness(Player $player): array
+    {
 
-     $rate = $fouls * 0.2 +
-             $yellowCards * 0.1 +
-             $penaltiesConceded * 0.15 +
-             $redCards * 0.25 +
-             $secondYellowCard * 0.2 + 
-             $tackles * 0.1 ;
 
-     $message = "";
+        $fouls = Level1::getFoulsPerMinuteRating($player);
+        $yellowCards = Level1::getYellowCardPer90MinutesRating($player);
+        $redCards = Level1::getRedCardPer90MinutesRating($player);
+        $secondYellowCard = Level1::getSecondYellowCardPer90MinutesRating($player);
+        $tackles = Level1::getTacklesVsDribblesAttemptedPer90MinutesRating($player);
+        $penaltiesConceded = Level1::getPenaltyKickConcededRating($player);
 
-     $result = array("rate" => $rate, "message" => $message);  
+        $rate = $fouls * 0.2 +
+            $yellowCards * 0.1 +
+            $penaltiesConceded * 0.15 +
+            $redCards * 0.25 +
+            $secondYellowCard * 0.2 +
+            $tackles * 0.1;
 
-     return $result;
+        $message = "";
+        switch ($rate) {
+            case 10:
+                $message = "Player with an huge impact, can be a big leader for any club";
+                break;
+            case 9:
+                $message = "";
+                break;
+            case 8:
+                $message = "";
+                break;
+            case 7:
+                $message = "";
+                break;
+            case 6:
+                $message = "";
+                break;
+            case 5:
+                $message = "";
+                break;
+            case 4:
+                $message = "";
+                break;
+            default;    
+        }
 
+        $result = array("rate" => $rate, "message" => $message);
+
+        return $result;
     }
 
 
-    public function getPositiveAggressiveness(Player $player): array {
-     
-    
+    public function getPositiveAggressiveness(Player $player): array
+    {
+
+
         $tacklesWon = Level1::getTacklesWonPerMinuteRating($player);
         $tackles = Level1::getTacklesVsDribblesAttemptedPer90MinutesRating($player);
         $tackleCompletion = Level1::getTacklesPercentRating($player);
         $secondYellowCard = Level1::getSecondYellowCardPer90MinutesRating($player);
         $redCards = Level1::getRedCardPer90MinutesRating($player);
-        
-   
+
+
         $rate = ($tacklesWon * 0.4 + $tackleCompletion * 0.6) * 0.35 +
-                $redCards * 0.25 +
-                $secondYellowCard * 0.2 +
-                $tackles * 0.2 ;
-   
+            $redCards * 0.25 +
+            $secondYellowCard * 0.2 +
+            $tackles * 0.2;
+
         $message = "";
-   
-        $result = array("rate" => $rate, "message" => $message);  
-        
+        switch ($rate) {
+            case 10:
+                $message = "Player with an huge impact, can be a big leader for any club";
+                break;
+            case 9:
+                $message = "";
+                break;
+            case 8:
+                $message = "";
+                break;
+            case 7:
+                $message = "";
+                break;
+            case 6:
+                $message = "";
+                break;
+            case 5:
+                $message = "";
+                break;
+            case 4:
+                $message = "";
+                break;
+            default;    
+        }
+        $result = array("rate" => $rate, "message" => $message);
+
         return $result;
-       
     }
-  
-    
-    
-    public function getDefensiveQuality(Player $player): array {
-       
-        
+
+
+
+    public function getDefensiveQuality(Player $player): array
+    {
+
+
         $tacklesWon = Level1::getTacklesWonPerMinuteRating($player);
         $tackleCompletion = Level1::getTacklesPercentRating($player);
         $interceptions = Level1::getInterceptionsPerMinuteRating($player);
         $goalsAllowed = Level1::getGoalsAllowedWhileOnPitchRating($player);
         $message = "";
-        
-        $rate = $tacklesWon * 0.2 + 
-                $tackleCompletion * 0.3 +
-                $interceptions * 0.3 +
-                $goalsAllowed * 0.2 ;
 
-        $result = array("rate" => $rate, "message" => $message);  
-        
+        $rate = $tacklesWon * 0.2 +
+            $tackleCompletion * 0.3 +
+            $interceptions * 0.3 +
+            $goalsAllowed * 0.2;
+
+            switch ($rate) {
+                case 10:
+                    $message = "Player with an huge impact, can be a big leader for any club";
+                    break;
+                case 9:
+                    $message = "";
+                    break;
+                case 8:
+                    $message = "";
+                    break;
+                case 7:
+                    $message = "";
+                    break;
+                case 6:
+                    $message = "";
+                    break;
+                case 5:
+                    $message = "";
+                    break;
+                case 4:
+                    $message = "";
+                    break;
+                default;    
+            }
+
+        $result = array("rate" => $rate, "message" => $message);
+
+        return $result;
+    }
+
+
+    public function positiveImpact(Player $player): array
+    {
+
+        $scoring = Level1::getGoalPerTenMinuteRating($player);
+        $assisting = Level1::getAssistRating($player);
+        $tackling = Level1::getTacklesWonPerMinuteRating($player);
+        $defending = Level1::getInterceptionsPerMinuteRating($player);
+
+
+        $message = "";
+
+        $rate = $scoring * 0.2 +
+            $assisting * 0.3 +
+            $tackling  * 0.3 +
+            $defending * 0.2;
+
+        switch ($rate) {
+            case 10:
+                $message = "Player with an huge impact, can be a big leader for any club";
+                break;
+            case 9:
+                $message = "";
+                break;
+            case 8:
+                $message = "";
+                break;
+            case 7:
+                $message = "";
+                break;
+            case 6:
+                $message = "";
+                break;
+            case 5:
+                $message = "";
+                break;
+            case 4:
+                $message = "";
+                break;
+            default;    
+        }
+
+        $result = array("rate" => $rate, "message" => $message);
         return $result;
     }
 
 
 
 
-    
 
 
 
 
 
 
-    
 
     public function getShortPassQuality(Player $player): float
     {

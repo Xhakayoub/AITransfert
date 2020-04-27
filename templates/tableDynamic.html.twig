@@ -1,8 +1,13 @@
 {% extends 'base.html.twig' %}
 
+{% block head %}
+
+
+	{{ parent() }}
+{% endblock %}
 
 {% block body %}
-	<link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
 
 	<link href="cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
 	<link
@@ -25,9 +30,9 @@
 	href="{{asset('template/datatables.net-scroller-bs/css/scroller.bootstrap.min.css')}}" rel="stylesheet">
 	<!-- Custom Theme Style -->
 	<link href="{{asset('build/css/custom.min.css')}}" rel="stylesheet">
-	<link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
 
-
+    
 	<div class="col-md-12 col-sm-12 ">
 		<div class="x_panel">
 			<div class="x_title">
@@ -49,7 +54,9 @@
 							<a class="dropdown-item" href="#">Settings 2</a>
 						</div>
 					</li>
-					<li></li>
+					<li>
+					
+					</li>
 				</ul>
 				<div class="clearfix"></div>
 			</div>
@@ -57,7 +64,9 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="card-box table-responsive">
-							<p class="text-muted font-13 m-b-30"></p>
+							<p class="text-muted font-13 m-b-30">
+
+							</p>
 							<table id="datatable-buttons" class="table table-striped jambo_table bulk_action table-bordered" style="width:100%">
 								<thead>
 									<tr>
@@ -72,16 +81,16 @@
 
 
 								<tbody>
-									{% for player in data %}
-										<tr>
-											<td>{{player.name}}</td>
-											<td>{{player.position}}</td>
-											<td>{{player.nation}}</td>
-											<td>{{player.age}}</td>
-											<td>{{player.squad}}</td>
-											<td>{{player.born}}</td>
-										</tr>
-									{% endfor %}
+                                 {% for player in data %}
+									<tr>
+										<td>{{player.name}}</td>
+										<td>{{player.position}}</td>
+										<td>{{player.nation}}</td>
+										<td>{{player.age}}</td>
+										<td>{{player.squad}}</td>
+										<td>{{player.born}}</td>
+									</tr>
+                                    {% endfor %}
 								</tbody>
 							</table>
 						</div>
@@ -90,9 +99,6 @@
 			</div>
 		</div>
 
-	{% endblock %}
-
-	{% block javascript %}
 		<!-- jQuery -->
 		<script src="{{asset('template/jquery/dist/jquery.min.js')}}"></script>
 		<!-- Bootstrap -->
@@ -116,50 +122,48 @@
 		<script src="{{asset('template/datatables.net-responsive/js/dataTables.responsive.min.js')}}"></script>
 		<script src="{{asset('template/datatables.net-responsive-bs/js/responsive.bootstrap.js')}}"></script>
 		<script src="{{asset('template/datatables.net-scroller/js/dataTables.scroller.min.js')}}"></script>
-		<script src="{{asset('template/datatables.net-responsive-bs/js/responsive.bootstrap.js')}}"></script>
-        <script src="{{asset('template/datatables.net-scroller/js/dataTables.scroller.min.js')}}"></script>
-		{# <script src="{{asset('template/jszip/dist/jszip.min.js')}}"></script> #}
-		<script src="{{asset('template/pdfmake/build/pdfmake.min.js')}}"></script>
-		<script src="{{asset('template/pdfmake/build/vfs_fonts.js')}}"></script>
 		<script src="{{asset('template/jszip/dist/jszip.min.js')}}"></script>
 		<script src="{{asset('template/pdfmake/build/pdfmake.min.js')}}"></script>
 		<script src="{{asset('template/pdfmake/build/vfs_fonts.js')}}"></script>
 
 		<!-- Custom Theme Scripts -->
-			<script src="{{asset('build/js/custom.min.js')}}"></script>
-
+		<script src="{{asset('build/js/custom.min.js')}}"></script>
 		<script>
-{# 
-
-			{
-# $("#datatable-buttons").DataTable(
-{
-dom: "Blfrtip",
-buttons: [
-{
-extend: "copy",
-className: "btn-sm"
-},
-{
-extend: "csv",
-className: "btn-sm"
-},
-{
-extend: "excel",
-className: "btn-sm"
-},
-{
-extend: "pdfHtml5",
-className: "btn-sm"
-}, {
-extend: "print",
-className: "btn-sm"
-},
-],
-responsive: true
-}
-);
-#
-} #}
+			
+       
+            {# $("#datatable-buttons").DataTable({
+                dom: "Blfrtip",
+                buttons: [
+                    {
+                        extend: "copy",
+                        className: "btn-sm"
+                    },
+                    {
+                        extend: "csv",
+                        className: "btn-sm"
+                    },
+                    {
+                        extend: "excel",
+                        className: "btn-sm"
+                    },
+                    {
+                        extend: "pdfHtml5",
+                        className: "btn-sm"
+                    },
+                    {
+                        extend: "print",
+                        className: "btn-sm"
+                    },
+                ],
+                responsive: true
+            });
+         #}
+    
 		</script>
+	{% endblock %}
+
+	{% block javascript %}
+
+		{{ parent() }}
+
 	{% endblock %}

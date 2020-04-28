@@ -262,36 +262,111 @@ class Level2
         return $result;
     }
 
-
-
-
-
-
-
-
-
-
-
-    public function getShortPassQuality(Player $player): float
+    public function getNegativeImpact(Player $player): array
     {
 
-        $minutesPlayed = $player->getMinsPlayed();
-        $shortPassesCompleted = $player->getShortPassesCompleted();
-        $shortPassesAttempted = $player->getShortpassesAttempted();
-        $shortPassesCompletedPercent = $player->getShortPassesCompPercent();
-        $shortPassesAttemptedPerMinute = $shortPassesAttempted / $minutesPlayed;
-        $shortPassesCompletedPerMinute = $shortPassesCompleted / $minutesPlayed;
+        $agressivness = $this->getNegativeAggressiveness($player);
+        $goalsAllowed = Level1::getGoalsAllowedWhileOnPitchRating($player);
+        $ownGoals = Level1::getOwnGoalsRating($player);
+        $offsides = Level1::getOffsideRating($player);
+        $shootOut = (Level1::getShootRating($player) - Level1::getShootOnTargetRating($player)) * 1.666666666666667;
 
 
-        if ($minutesPlayed >= 160) {
+        $message = "";
+        $position = $player->getPosition();
+        if($position == 'DF'){ $agressivnessCoef = 0.3; $goalsAllowedCoef = 0.2; $offsidesCoef = 0.05; $ownGoalsCoef = 0.3; $shootOutCoeff = 0.05;}
+        elseif ($position =='MF'){ $agressivnessCoef = 0.2; $goalsAllowedCoef = 0.15; $offsidesCoef = 0.2; $ownGoalsCoef = 0.2; $shootOutCoeff = 0.2;}
+        elseif ($position == 'FW'){ $agressivnessCoef = 0.1; $goalsAllowedCoef = 0.1; $offsidesCoef = 0.3; $ownGoalsCoef = 0.1; $shootOutCoeff = 0.4;}
+        $rate = $agressivness * $agressivnessCoef +
+            $goalsAllowed * $goalsAllowedCoef +
+            $ownGoals  * $ownGoalsCoef +
+            $shootOut  * $shootOutCoeff +
+            $offsides * $offsidesCoef;
 
-            $result = $shortPassesAttemptedPerMinute * 0.08 + $shortPassesCompletedPercent * 0.32
-                + $shortPassesCompletedPerMinute * 0.2 +  $shortPassesCompletedPerMinute * 0.3
-                + ($minutesPlayed / 1000);
-
-            return $result;
+        switch ($rate) {
+            case 10:
+                $message = "To avoid, player with a big negative impact";
+                break;
+            case 9:
+                $message = "";
+                break;
+            case 8:
+                $message = "";
+                break;
+            case 7:
+                $message = "";
+                break;
+            case 6:
+                $message = "";
+                break;
+            case 5:
+                $message = "";
+                break;
+            case 4:
+                $message = "";
+                break;
+            default;    
         }
+
+        $result = array("rate" => $rate, "message" => $message);
+        return $result;
     }
+
+
+
+
+    public function getShortPassQuality(Player $player): array
+    {
+
+        $shortPassesCompleted = Level1::getShortPassCompletedRating($player);
+        $shortPassesAttempted = Level1::getShortPassAttemptedRating($player);
+        $shortPassesCompletion = Level1::getShortPassCompletionPerCentRating($player);
+        $mediumPassesCompleted = Level1::getMediumPassCompletedRating($player);
+        $mediumPassesAttempted = Level1::getMediumPassAttemptedRating($player);
+        $mediumPassesCompletion = Level1::getMediumPassCompletionPerCentRating($player);
+
+       $shortRate = ($shortPassesAttempted * 0.2 +
+               $shortPassesCompleted * 0.35 +
+               $shortPassesCompletion * 0.45 ) ;
+
+       $mediumRate = ($mediumPassesAttempted * 0.2 +
+               $mediumPassesCompleted * 0.35 +
+               $mediumPassesCompletion * 0.45 )  ;
+
+        $rate = $shortRate * 0.3 + $mediumRate * 0.7 ;
+
+        switch ($rate) {
+            case 10:
+                $message = "With a massive pass Quality, considrered as a possesion player ";
+                break;
+            case 9:
+                $message = "";
+                break;
+            case 8:
+                $message = "";
+                break;
+            case 7:
+                $message = "";
+                break;
+            case 6:
+                $message = "";
+                break;
+            case 5:
+                $message = "";
+                break;
+            case 4:
+                $message = "";
+                break;
+            default;    
+        }
+
+        $result = array("rate" => $rate, "message" => $message);
+        return $result;
+        
+    }
+
+
+
 
     /**
      * passe quality to redo

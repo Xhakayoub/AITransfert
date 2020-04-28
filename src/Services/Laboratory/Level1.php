@@ -54,6 +54,26 @@ class Level1
         return $res;
     }
 
+     /**
+     * return the rate of the shoot on target
+     */
+    public function getShootOnTargetRating(Player $player): int
+    {
+        if ($player) {
+            $value = $player->getShootsOnTargetPerMatch();
+            if ($value >= 3.8) $res = 10;
+            if ($value >= 2.5 and $value < 3.8)  $res = 9;
+            if (2 <= $value and $value < 2.5)  $res = 8;
+            if (1.7 <= $value and $value < 2)  $res = 7;
+            if (1.5 <= $value and $value < 1.7) $res = 6;
+            if (1 <= $value and $value < 1.5) $res = 5;
+            if (0 < $value and $value < 1) $res = 4;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+
     /**
      * return the rate of the age
      */
@@ -73,25 +93,7 @@ class Level1
         return $res;
     }
 
-    /**
-     * return the rate of the shoot on target
-     */
-    public function getShootOnTargetRating(Player $player): int
-    {
-        if ($player) {
-            $value = $player->getShootsOnTargetPerMatch();
-            if ($value >= 3.8) $res = 10;
-            if ($value >= 2.5 and $value < 3.8)  $res = 9;
-            if (2 <= $value and $value < 2.5)  $res = 8;
-            if (1.7 <= $value and $value < 2)  $res = 7;
-            if (1.5 <= $value and $value < 1.7) $res = 6;
-            if (1 <= $value and $value < 1.5) $res = 5;
-            if (0 < $value and $value < 1) $res = 5;
-            else $res = 0;
-        }
-        return $res;
-    }
-
+   
     /**
      * return the rate of the goal per shoot
      */
@@ -566,6 +568,64 @@ class Level1
         return $res;
     }
 
+    public function getShortPassAttemptedRating(Player $player): int
+    {
+        if ($player) {
+            $shortPassesCompleted = $player->getShortpassesAttempted();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($shortPassesCompleted / $minutes) * 90;
+            if ($value >= 5) $res = 10;
+            if ($value < 5 and $value >= 3)  $res = 9;
+            if ($value < 3 and $value >= 2.5)  $res = 8;
+            if ($value < 2.5 and $value >= 2)  $res = 7;
+            if ($value < 2 and $value >= 1.5)  $res = 6;
+            if ($value < 1.5 and $value >= 1)  $res = 5;
+            if ($value < 1 and $value >= 0.5)  $res = 4;
+            if ($value < 0.5 and $value > 0)  $res = 3;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+    public function getMediumPassAttemptedRating(Player $player): int
+    {
+        if ($player) {
+            $shortPassesCompleted = $player->getMediumpassesAttempted();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($shortPassesCompleted / $minutes) * 90;
+            if ($value >= 100) $res = 10;
+            if ($value < 100 and $value >= 80)  $res = 9;
+            if ($value < 80 and $value >= 70)  $res = 8;
+            if ($value < 70 and $value >= 60)  $res = 7;
+            if ($value < 60 and $value >= 50)  $res = 6;
+            if ($value < 50 and $value >= 40)  $res = 5;
+            if ($value < 40 and $value >= 30)  $res = 4;
+            if ($value < 30 and $value > 20)  $res = 3;
+            if ($value < 20 and $value > 10)  $res = 2;
+            if ($value < 10 and $value > 0)  $res = 1;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+    public function getLongPassAttemptedRating(Player $player): int
+    {
+        if ($player) {
+            $shortPassesCompleted = $player->getLongPassesAttempted();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($shortPassesCompleted / $minutes) * 90;
+            if ($value >= 40) $res = 10;
+            if ($value < 40 and $value >= 30)  $res = 9;
+            if ($value < 30 and $value >= 25)  $res = 8;
+            if ($value < 25 and $value >= 20)  $res = 7;
+            if ($value < 20 and $value >= 15)  $res = 6;
+            if ($value < 15 and $value >= 10)  $res = 5;
+            if ($value < 10 and $value >= 5)  $res = 4;
+            if ($value < 5 and $value > 0)  $res = 3;
+            else $res = 0;
+        }
+        return $res;
+    }
 
     /**
      * return the rate of the yellow cards
@@ -822,6 +882,30 @@ class Level1
             if ($value < 0.5 and $value > 0.3)  $res = 2;
             if ($value < 0.3 and $value > 0)  $res = 1;
             else $res = 0;
+        }
+        return $res;
+    }
+
+    /**
+     * return the rate of the yellow cards
+     */
+    public function getOwnGoalsRating(Player $player): int
+    {
+        if ($player) {
+            $ownGoals = $player->getOwnGoal();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($ownGoals / $minutes) *90;
+            if ($value >= 0.09) $res = 0;
+            if ($value < 0.09 and $value >= 0.08)  $res = 1;
+            if ($value < 0.08 and $value >= 0.07)  $res = 2;
+            if ($value < 0.07 and $value >= 0.06)  $res = 3;
+            if ($value < 0.06 and $value >= 0.05)  $res = 4;
+            if ($value < 0.05 and $value >= 0.04)  $res = 5;
+            if ($value < 0.04 and $value >= 0.03)  $res = 6;
+            if ($value < 0.03  and $value > 0.02)  $res = 7;
+            if ($value < 0.02 and $value > 0.01)  $res = 8;
+            if ($value < 0.01 and $value > 0)  $res = 9;
+            else $res = 10;
         }
         return $res;
     }

@@ -214,7 +214,7 @@ class Level2
     }
 
 
-    public function positiveImpact(Player $player): array
+    public function getPositiveImpact(Player $player): array
     {
 
         $scoring = Level1::getGoalPerTenMinuteRating($player);
@@ -224,11 +224,14 @@ class Level2
 
 
         $message = "";
-
-        $rate = $scoring * 0.2 +
-            $assisting * 0.3 +
-            $tackling  * 0.3 +
-            $defending * 0.2;
+        $position = $player->getPosition();
+        if($position == 'DF'){ $scoringCoef = 0.1; $assistingCoef = 0.1; $tackilngCoef = 0.4; $defendingCoef = 0.4;}
+        elseif ($position =='MF'){ $scoringCoef = 0.22; $assistingCoef = 0.23; $tackilngCoef = 0.23; $defendingCoef = 0.22;}
+        elseif ($position == 'FW'){ $scoringCoef = 0.4; $assistingCoef = 0.4; $tackilngCoef = 0.1; $defendingCoef = 0.1;}
+        $rate = $scoring * $scoringCoef +
+            $assisting * $assistingCoef +
+            $tackling  * $tackilngCoef +
+            $defending * $defendingCoef;
 
         switch ($rate) {
             case 10:

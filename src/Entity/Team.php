@@ -466,6 +466,51 @@ class Team
      */
     private $progressDistance;
 
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $pressures;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $pressureSucceded;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $pressureCompletion;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $ballBlocked;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $shootBlocked;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $shootOnTargetBlocked;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $passBlocked;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $clearances;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $errors;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -1548,6 +1593,114 @@ class Team
     public function setProgressDistance(?int $progressDistance): self
     {
         $this->progressDistance = $progressDistance;
+
+        return $this;
+    }
+
+    public function getPressures(): ?int
+    {
+        return $this->pressures;
+    }
+
+    public function setPressures(?int $pressures): self
+    {
+        $this->pressures = $pressures;
+
+        return $this;
+    }
+
+    public function getPressureSucceded(): ?int
+    {
+        return $this->pressureSucceded;
+    }
+
+    public function setPressureSucceded(?int $pressureSucceded): self
+    {
+        $this->pressureSucceded = $pressureSucceded;
+
+        return $this;
+    }
+
+    public function getPressureCompletion(): ?int
+    {
+        return $this->pressureCompletion;
+    }
+
+    public function setPressureCompletion(?int $pressureCompletion): self
+    {
+        $this->pressureCompletion = $pressureCompletion;
+
+        return $this;
+    }
+
+    public function getBallBlocked(): ?int
+    {
+        return $this->ballBlocked;
+    }
+
+    public function setBallBlocked(?int $ballBlocked): self
+    {
+        $this->ballBlocked = $ballBlocked;
+
+        return $this;
+    }
+
+    public function getShootBlocked(): ?int
+    {
+        return $this->shootBlocked;
+    }
+
+    public function setShootBlocked(?int $shootBlocked): self
+    {
+        $this->shootBlocked = $shootBlocked;
+
+        return $this;
+    }
+
+    public function getShootOnTargetBlocked(): ?int
+    {
+        return $this->shootOnTargetBlocked;
+    }
+
+    public function setShootOnTargetBlocked(?int $shootOnTargetBlocked): self
+    {
+        $this->shootOnTargetBlocked = $shootOnTargetBlocked;
+
+        return $this;
+    }
+
+    public function getPassBlocked(): ?int
+    {
+        return $this->passBlocked;
+    }
+
+    public function setPassBlocked(?int $passBlocked): self
+    {
+        $this->passBlocked = $passBlocked;
+
+        return $this;
+    }
+
+    public function getClearances(): ?int
+    {
+        return $this->clearances;
+    }
+
+    public function setClearances(?int $clearances): self
+    {
+        $this->clearances = $clearances;
+
+        return $this;
+    }
+
+    public function getErrors(): ?int
+    {
+        return $this->errors;
+    }
+
+    public function setErrors(?int $errors): self
+    {
+        $this->errors = $errors;
 
         return $this;
     }

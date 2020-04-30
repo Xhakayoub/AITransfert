@@ -511,6 +511,36 @@ class Team
      */
     private $errors;
 
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $arialDuelsWon;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $arialDuelsLost;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $arialDuelsCompletion;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $ballControlls;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $ballControllsMoveDistance;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $ballControllsMoveDistanceProgressive;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -1701,6 +1731,78 @@ class Team
     public function setErrors(?int $errors): self
     {
         $this->errors = $errors;
+
+        return $this;
+    }
+
+    public function getArialDuelsWon(): ?int
+    {
+        return $this->arialDuelsWon;
+    }
+
+    public function setArialDuelsWon(?int $arialDuelsWon): self
+    {
+        $this->arialDuelsWon = $arialDuelsWon;
+
+        return $this;
+    }
+
+    public function getArialDuelsLost(): ?int
+    {
+        return $this->arialDuelsLost;
+    }
+
+    public function setArialDuelsLost(?int $arialDuelsLost): self
+    {
+        $this->arialDuelsLost = $arialDuelsLost;
+
+        return $this;
+    }
+
+    public function getArialDuelsCompletion(): ?int
+    {
+        return $this->arialDuelsCompletion;
+    }
+
+    public function setArialDuelsCompletion(?int $arialDuelsCompletion): self
+    {
+        $this->arialDuelsCompletion = $arialDuelsCompletion;
+
+        return $this;
+    }
+
+    public function getBallControlls(): ?int
+    {
+        return $this->ballControlls;
+    }
+
+    public function setBallControlls(?int $ballControlls): self
+    {
+        $this->ballControlls = $ballControlls;
+
+        return $this;
+    }
+
+    public function getBallControllsMoveDistance(): ?int
+    {
+        return $this->ballControllsMoveDistance;
+    }
+
+    public function setBallControllsMoveDistance(?int $ballControllsMoveDistance): self
+    {
+        $this->ballControllsMoveDistance = $ballControllsMoveDistance;
+
+        return $this;
+    }
+
+    public function getBallControllsMoveDistanceProgressive(): ?int
+    {
+        return $this->ballControllsMoveDistanceProgressive;
+    }
+
+    public function setBallControllsMoveDistanceProgressive(?int $ballControllsMoveDistanceProgressive): self
+    {
+        $this->ballControllsMoveDistanceProgressive = $ballControllsMoveDistanceProgressive;
 
         return $this;
     }

@@ -104,6 +104,9 @@ class ExtractDataFromWeb
                     case "defense":
                         $type = "defense";
                         echo $type;
+                        case "possession":
+                            $type = "possession";
+                            echo $type;
                         break;
                     case "squad standard":
                         $type = "standard_team";
@@ -141,6 +144,10 @@ class ExtractDataFromWeb
                         $type = "defense_team";
                         echo $type;
                         break;
+                        case "squad possession":
+                            $type = "possession_team";
+                            echo $type;
+                            break;
                 }
 
                 // echo $element . "\n";

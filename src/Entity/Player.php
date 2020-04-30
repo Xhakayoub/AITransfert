@@ -526,6 +526,61 @@ class Player
      */
     private $errors;
 
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $arialDuelsWon;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $arialDuelsLost;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $arialDuelsCompletion;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $ballControlls;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $ballControllsMoveDistance;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $ballControllsMoveDistanceProgressive;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $receivingBallAttempted;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $receivingBallCompleted;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $receivingBallCompletion;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $misControlls;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $dispossessed;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -1751,6 +1806,138 @@ class Player
     public function setErrors(?int $errors): self
     {
         $this->errors = $errors;
+
+        return $this;
+    }
+
+    public function getArialDuelsWon(): ?int
+    {
+        return $this->arialDuelsWon;
+    }
+
+    public function setArialDuelsWon(?int $arialDuelsWon): self
+    {
+        $this->arialDuelsWon = $arialDuelsWon;
+
+        return $this;
+    }
+
+    public function getArialDuelsLost(): ?int
+    {
+        return $this->arialDuelsLost;
+    }
+
+    public function setArialDuelsLost(?int $arialDuelsLost): self
+    {
+        $this->arialDuelsLost = $arialDuelsLost;
+
+        return $this;
+    }
+
+    public function getArialDuelsCompletion(): ?int
+    {
+        return $this->arialDuelsCompletion;
+    }
+
+    public function setArialDuelsCompletion(?int $arialDuelsCompletion): self
+    {
+        $this->arialDuelsCompletion = $arialDuelsCompletion;
+
+        return $this;
+    }
+
+    public function getBallControlls(): ?int
+    {
+        return $this->ballControlls;
+    }
+
+    public function setBallControlls(?int $ballControlls): self
+    {
+        $this->ballControlls = $ballControlls;
+
+        return $this;
+    }
+
+    public function getBallControllsMoveDistance(): ?int
+    {
+        return $this->ballControllsMoveDistance;
+    }
+
+    public function setBallControllsMoveDistance(?int $ballControllsMoveDistance): self
+    {
+        $this->ballControllsMoveDistance = $ballControllsMoveDistance;
+
+        return $this;
+    }
+
+    public function getBallControllsMoveDistanceProgressive(): ?int
+    {
+        return $this->ballControllsMoveDistanceProgressive;
+    }
+
+    public function setBallControllsMoveDistanceProgressive(?int $ballControllsMoveDistanceProgressive): self
+    {
+        $this->ballControllsMoveDistanceProgressive = $ballControllsMoveDistanceProgressive;
+
+        return $this;
+    }
+
+    public function getReceivingBallAttempted(): ?int
+    {
+        return $this->receivingBallAttempted;
+    }
+
+    public function setReceivingBallAttempted(?int $receivingBallAttempted): self
+    {
+        $this->receivingBallAttempted = $receivingBallAttempted;
+
+        return $this;
+    }
+
+    public function getReceivingBallCompleted(): ?int
+    {
+        return $this->receivingBallCompleted;
+    }
+
+    public function setReceivingBallCompleted(?int $receivingBallCompleted): self
+    {
+        $this->receivingBallCompleted = $receivingBallCompleted;
+
+        return $this;
+    }
+
+    public function getReceivingBallCompletion(): ?int
+    {
+        return $this->receivingBallCompletion;
+    }
+
+    public function setReceivingBallCompletion(?int $receivingBallCompletion): self
+    {
+        $this->receivingBallCompletion = $receivingBallCompletion;
+
+        return $this;
+    }
+
+    public function getMisControlls(): ?int
+    {
+        return $this->misControlls;
+    }
+
+    public function setMisControlls(?int $misControlls): self
+    {
+        $this->misControlls = $misControlls;
+
+        return $this;
+    }
+
+    public function getDispossessed(): ?int
+    {
+        return $this->dispossessed;
+    }
+
+    public function setDispossessed(?int $dispossessed): self
+    {
+        $this->dispossessed = $dispossessed;
 
         return $this;
     }

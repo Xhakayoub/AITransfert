@@ -14,9 +14,9 @@ class ExtractDataFromWeb
 
         $client = HttpClient::create();
         $response = $client->request('GET', 'http://127.0.0.1:5000/' . $league . '/' . $type);
-        $fp = fopen("C:/wamp64/www/AiTransfert/public/" . $dir . "/standars_data.csv", "r+");
+        $fp = fopen("C:/wamp64/www/AiTransfert/public/csv/" . $dir . "/standars_data.csv", "r+");
         $line = fgets($fp);
-        fwrite($fp, $response->getContent());
+        fwrite($fp, $response->getContent());0+
         fclose($fp);
     }
 
@@ -26,7 +26,7 @@ class ExtractDataFromWeb
 
         $files = array(
             'standars_data.csv', 'passing_data.csv', 'shooting_data.csv', 'timming_data.csv',
-            'gk_data.csv', 'ad_gk_data.csv', 'miscellaneous_data.csv'
+            'gk_data.csv', 'ad_gk_data.csv', 'miscellaneous_data.csv', 'pass_type_data.csv'
         );
 
           $client = HttpClient::create();

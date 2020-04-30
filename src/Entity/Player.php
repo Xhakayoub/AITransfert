@@ -411,6 +411,76 @@ class Player
      */
     private $goalsAllowedWhileOnPitch;
 
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $livePass;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $deadPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $pressPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $switchPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $groundPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $lowPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $highPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $leftFootPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $rightFootPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $blockedPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $offsidesPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $totalDistance;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $progressDistance;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $passAttemptedFromFK;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -1360,6 +1430,174 @@ class Player
     public function setGoalsAllowedWhileOnPitch(?int $goalsAllowedWhileOnPitch): self
     {
         $this->goalsAllowedWhileOnPitch = $goalsAllowedWhileOnPitch;
+
+        return $this;
+    }
+
+    public function getLivePass(): ?int
+    {
+        return $this->livePass;
+    }
+
+    public function setLivePass(?int $livePass): self
+    {
+        $this->livePass = $livePass;
+
+        return $this;
+    }
+
+    public function getDeadPasses(): ?int
+    {
+        return $this->deadPasses;
+    }
+
+    public function setDeadPasses(?int $deadPasses): self
+    {
+        $this->deadPasses = $deadPasses;
+
+        return $this;
+    }
+
+    public function getPressPasses(): ?int
+    {
+        return $this->pressPasses;
+    }
+
+    public function setPressPasses(?int $pressPasses): self
+    {
+        $this->pressPasses = $pressPasses;
+
+        return $this;
+    }
+
+    public function getSwitchPasses(): ?int
+    {
+        return $this->switchPasses;
+    }
+
+    public function setSwitchPasses(?int $switchPasses): self
+    {
+        $this->switchPasses = $switchPasses;
+
+        return $this;
+    }
+
+    public function getGroundPasses(): ?int
+    {
+        return $this->groundPasses;
+    }
+
+    public function setGroundPasses(?int $groundPasses): self
+    {
+        $this->groundPasses = $groundPasses;
+
+        return $this;
+    }
+
+    public function getLowPasses(): ?int
+    {
+        return $this->lowPasses;
+    }
+
+    public function setLowPasses(?int $lowPasses): self
+    {
+        $this->lowPasses = $lowPasses;
+
+        return $this;
+    }
+
+    public function getHighPasses(): ?int
+    {
+        return $this->highPasses;
+    }
+
+    public function setHighPasses(?int $highPasses): self
+    {
+        $this->highPasses = $highPasses;
+
+        return $this;
+    }
+
+    public function getLeftFootPasses(): ?int
+    {
+        return $this->leftFootPasses;
+    }
+
+    public function setLeftFootPasses(?int $leftFootPasses): self
+    {
+        $this->leftFootPasses = $leftFootPasses;
+
+        return $this;
+    }
+
+    public function getRightFootPasses(): ?int
+    {
+        return $this->rightFootPasses;
+    }
+
+    public function setRightFootPasses(?int $rightFootPasses): self
+    {
+        $this->rightFootPasses = $rightFootPasses;
+
+        return $this;
+    }
+
+    public function getBlockedPasses(): ?int
+    {
+        return $this->blockedPasses;
+    }
+
+    public function setBlockedPasses(?int $blockedPasses): self
+    {
+        $this->blockedPasses = $blockedPasses;
+
+        return $this;
+    }
+
+    public function getOffsidesPasses(): ?int
+    {
+        return $this->offsidesPasses;
+    }
+
+    public function setOffsidesPasses(?int $offsidesPasses): self
+    {
+        $this->offsidesPasses = $offsidesPasses;
+
+        return $this;
+    }
+
+    public function getTotalDistance(): ?int
+    {
+        return $this->totalDistance;
+    }
+
+    public function setTotalDistance(?int $totalDistance): self
+    {
+        $this->totalDistance = $totalDistance;
+
+        return $this;
+    }
+
+    public function getProgressDistance(): ?int
+    {
+        return $this->progressDistance;
+    }
+
+    public function setProgressDistance(?int $progressDistance): self
+    {
+        $this->progressDistance = $progressDistance;
+
+        return $this;
+    }
+
+    public function getPassAttemptedFromFK(): ?int
+    {
+        return $this->passAttemptedFromFK;
+    }
+
+    public function setPassAttemptedFromFK(?int $passAttemptedFromFK): self
+    {
+        $this->passAttemptedFromFK = $passAttemptedFromFK;
 
         return $this;
     }

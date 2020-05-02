@@ -74,7 +74,7 @@ class Player
     /**
      * @ORM\Column(type="integer")
      */
-    private $assits;
+    private $assists;
 
     /**
      * @ORM\Column(type="integer", nullable=true)

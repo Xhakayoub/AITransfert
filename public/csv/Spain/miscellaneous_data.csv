@@ -1,527 +1,531 @@
-id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;Int;PKwon;PKcon;OG;Succ;Att;Succ%;#Pl;Megs;Tkl;Cont;Tkl%;Past;Matches
-1;Antonio Adán\Antonio-Adan;es ESP;GK;Atletico Madrid;32;1987;0.3;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-2;Aritz Aduriz\Aritz-Aduriz;es ESP;FW;Athletic Bilbao;38;1981;2.1;3;0;0;7;1;0;0;1;0;0;0;0;1;1;100.0;1;0;1;1;100.0;0;Matches
-3;Lumor Agbenyenu\Lumor-Agbenyenu;gh GHA;DF;Mallorca;22;1996;16.9;5;1;1;13;9;0;64;20;21;0;0;0;20;36;55.6;24;0;30;45;66.7;15;Matches
-4;Martin Agirregabiria\Martin-Agirregabiria;es ESP;DF;Alavés;23;1996;17.0;3;0;0;27;15;1;24;18;11;0;1;0;10;18;55.6;12;3;36;56;64.3;20;Matches
-5;Joseph Aidoo\Joseph-Aidoo;gh GHA;DF;Celta Vigo;23;1995;19.9;4;0;0;12;14;0;0;16;35;0;2;0;9;12;75.0;9;0;24;38;63.2;14;Matches
-6;Jordi Alba\Jordi-Alba;es ESP;DF;Barcelona;30;1989;14.3;4;0;0;8;11;4;38;8;20;0;0;1;7;14;50.0;8;1;16;25;64.0;9;Matches
-7;Raúl Albiol\Raul-Albiol;es ESP;DF;Villarreal;33;1985;25.0;8;0;0;22;16;1;3;28;29;0;2;0;3;3;100.0;3;0;40;44;90.9;4;Matches
-8;Paco Alcácer\Paco-Alcacer;es ESP;FW;Villarreal;25;1993;4.5;0;0;0;1;7;5;0;1;1;1;0;0;1;3;33.3;1;0;3;5;60.0;2;Matches
-9;Rubén Alcaraz\Ruben-Alcaraz;es ESP;MF;Valladolid;28;1991;13.0;7;0;0;24;38;0;23;26;10;0;1;0;16;21;76.2;16;1;39;61;63.9;22;Matches
-10;Álex Alegría\Alex-Alegria;es ESP;FW;Mallorca;26;1992;1.1;0;0;0;5;4;1;1;0;0;0;0;0;1;2;50.0;1;0;1;1;100.0;0;Matches
-11;Carles Aleñá\Carles-Alena;es ESP;MFFW;Betis;21;1998;4.9;1;0;0;6;14;2;1;9;1;0;0;0;10;14;71.4;10;0;17;23;73.9;6;Matches
-12;Carles Aleñá\Carles-Alena;es ESP;MF;Barcelona;21;1998;1.9;0;0;0;3;2;0;4;1;0;0;0;0;2;3;66.7;2;0;2;6;33.3;4;Matches
-13;Sergio Álvarez\Sergio-Alvarez;es ESP;GK;Celta Vigo;32;1986;2.0;3;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-14;Sergio Álvarez\Sergio-Alvarez;es ESP;MFDF;Eibar;27;1992;7.1;4;0;0;10;6;0;2;9;9;0;1;0;4;4;100.0;4;0;16;27;59.3;11;Matches
-15;Yeray Álvarez\Yeray-Alvarez;es ESP;DF;Athletic Bilbao;24;1995;24.0;2;0;0;15;24;1;10;19;48;0;1;0;9;11;81.8;9;1;30;44;68.2;14;Matches
-16;Amath\Amath;sn SEN;MF;Getafe;23;1996;0.5;0;0;0;2;2;0;0;0;0;0;0;0;4;5;80.0;4;0;0;3;0.0;3;Matches
-17;Miguel Ángel Guerrero\Miguel-Angel-Guerrero;es ESP;FW;Leganés;29;1990;1.5;0;0;0;4;1;1;1;0;0;0;0;0;3;4;75.0;4;0;0;1;0.0;1;Matches
-18;Miguel Ángel Moyá\Miguel-Angel-Moya;es ESP;GK;Real Sociedad;35;1984;7.0;0;0;0;0;0;0;0;0;1;0;0;0;1;1;100.0;1;0;0;1;0.0;1;Matches
-19;José Ángel\Jose-Angel;es ESP;DF;Eibar;29;1989;18.4;2;0;0;18;13;0;107;22;24;0;1;0;16;18;88.9;16;1;46;58;79.3;12;Matches
-20;Antoñito\Antonito;es ESP;DFMF;Valladolid;31;1987;5.8;1;0;0;5;5;1;21;6;12;0;0;0;2;10;20.0;4;0;10;19;52.6;9;Matches
-21;Vitorino Antunes\Vitorino-Antunes;pt POR;MF;Getafe;32;1987;0.1;0;0;0;0;0;0;1;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-22;Anuar\Anuar;ma MAR;MFFW;Valladolid;24;1995;2.0;1;0;0;3;5;0;1;4;5;0;0;0;2;3;66.7;2;0;4;6;66.7;2;Matches
-23;Mauro Arambarri\Mauro-Arambarri;uy URU;MF;Getafe;23;1995;23.4;7;0;0;57;42;0;21;35;35;0;0;0;22;31;71.0;24;1;50;76;65.8;26;Matches
-24;Néstor Araujo\Nestor-Araujo;mx MEX;DF;Celta Vigo;27;1991;23.2;7;0;0;20;6;0;0;21;34;0;0;0;1;1;100.0;1;0;32;46;69.6;14;Matches
-25;Ronald Araújo\Ronald-Araujo;uy URU;DF;Barcelona;20;1999;0.1;0;1;0;1;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-26;Anaitz Arbilla\Anaitz-Arbilla;es ESP;DF;Eibar;32;1987;17.2;5;0;0;17;11;0;17;14;24;0;0;0;4;6;66.7;4;0;22;44;50.0;22;Matches
-27;Alphonse Areola\Alphonse-Areola;fr FRA;GK;Real Madrid;26;1993;3.0;1;0;0;1;0;0;0;0;0;0;1;0;0;0;;0;0;0;0;;0;Matches
-28;Santiago Arias\Santiago-Arias;co COL;DF;Atletico Madrid;27;1992;6.1;0;0;0;6;10;0;13;8;9;0;0;0;1;4;25.0;2;0;15;19;78.9;4;Matches
-29;José Arnaiz\Jose-Arnaiz;es ESP;MFFW;Leganés;24;1995;3.6;2;0;0;9;6;1;12;3;2;0;0;0;13;23;56.5;14;0;4;7;57.1;3;Matches
-30;José Arnaiz\Jose-Arnaiz;es ESP;FWMF;Osasuna;24;1995;1.9;0;0;0;3;2;0;2;2;3;0;0;0;0;0;;0;0;2;4;50.0;2;Matches
-31;Sergio Asenjo\Sergio-Asenjo;es ESP;GK;Villarreal;30;1989;23.0;1;0;0;2;4;0;0;0;0;0;1;0;1;1;100.0;1;0;0;1;0.0;1;Matches
-32;Iago Aspas\Iago-Aspas;es ESP;FW;Celta Vigo;31;1987;25.9;7;0;0;21;49;16;20;17;14;1;0;0;49;74;66.2;55;1;21;36;58.3;15;Matches
-33;Roger Assalé\Roger-Assale;ci CIV;FWDF;Leganés;25;1993;0.8;0;0;0;1;2;1;2;0;0;0;0;0;1;1;100.0;1;0;0;0;;0;Matches
-34;Miguel Atienza\Miguel-Atienza;es ESP;MF;Eibar;;;0.3;0;0;0;1;1;0;0;0;1;0;0;0;0;0;;0;0;0;0;;0;Matches
-35;Ezequiel Ávila\Ezequiel-Avila;ar ARG;FW;Osasuna;25;1994;17.7;6;0;0;46;43;24;22;16;4;1;0;0;15;33;45.5;19;1;19;29;65.5;10;Matches
-36;Javier Avilés\Javier-Aviles;es ESP;MF;Leganés;21;1997;0.1;0;0;0;0;0;0;3;0;0;0;0;0;0;0;;0;0;1;1;100.0;0;Matches
-37;Chidozie Awaziem\Chidozie-Awaziem;ng NGA;DF;Leganés;22;1997;15.7;6;0;0;15;9;2;4;22;23;0;0;0;3;3;100.0;3;0;33;43;76.7;10;Matches
-38;Ramon Azeez\Ramon-Azeez;ng NGA;MF;Granada;26;1992;9.8;3;0;0;24;15;1;6;12;11;0;0;0;2;7;28.6;2;0;15;22;68.2;7;Matches
-39;Iddrisu Baba\Iddrisu-Baba;gh GHA;MF;Mallorca;23;1996;22.2;5;0;0;31;45;1;2;32;31;0;3;1;32;36;88.9;32;1;49;83;59.0;34;Matches
-40;Carlos Bacca\Carlos-Bacca;co COL;FWMF;Villarreal;32;1986;4.7;1;0;0;5;0;5;2;0;0;0;0;0;2;6;33.3;3;0;2;5;40.0;3;Matches
-41;Gareth Bale\Gareth-Bale;wal WAL;FWMF;Real Madrid;30;1989;11.0;4;1;1;15;10;4;45;6;5;0;0;0;16;29;55.2;19;0;8;20;40.0;12;Matches
-42;Mikel Balenziaga\Mikel-Balenziaga;es ESP;DF;Athletic Bilbao;31;1988;3.0;1;0;0;3;2;0;8;4;0;0;0;0;1;1;100.0;1;0;8;11;72.7;3;Matches
-43;Éver Banega\Ever-Banega;ar ARG;MF;Sevilla;31;1988;19.6;5;0;0;20;40;2;116;18;6;0;0;0;27;44;61.4;29;0;32;62;51.6;30;Matches
-44;Federico Barba\Federico-Barba;it ITA;DF;Valladolid;25;1993;5.0;3;0;0;8;5;0;5;8;8;0;0;0;1;2;50.0;1;0;11;12;91.7;1;Matches
-45;Enis Bardhi\Enis-Bardhi;mk MKD;MF;Levante;24;1995;15.1;4;0;0;31;29;4;45;15;9;1;0;0;21;35;60.0;22;0;21;37;56.8;16;Matches
-46;Antonio Barragán\Antonio-Barragan;es ESP;DF;Betis;32;1987;4.6;1;0;0;6;9;0;18;0;6;0;1;0;3;4;75.0;3;1;1;5;20.0;4;Matches
-47;Ander Barrenetxea\Ander-Barrenetxea;es ESP;MFFW;Real Sociedad;17;2001;1.7;0;0;0;7;2;1;7;2;1;0;1;0;8;17;47.1;9;1;4;8;50.0;4;Matches
-48;Marc Bartra\Marc-Bartra;es ESP;DFMF;Betis;28;1991;20.9;5;0;0;26;25;0;1;31;25;0;1;0;10;15;66.7;13;2;51;64;79.7;13;Matches
-49;Gil Bastião Dias\Gil-Bastiao-Dias;pt POR;FWDF;Granada;22;1996;0.9;0;0;0;2;1;0;2;0;0;0;0;0;3;3;100.0;3;1;2;3;66.7;1;Matches
-50;Fran Beltrán\Fran-Beltran;es ESP;MF;Celta Vigo;20;1999;14.1;2;1;0;11;8;0;10;14;13;0;1;0;12;18;66.7;13;1;23;37;62.2;14;Matches
-51;Hatem Ben Arfa\Hatem-Ben-Arfa;fr FRA;MF;Valladolid;32;1987;0.1;0;0;0;0;0;0;0;0;0;0;0;0;1;2;50.0;1;0;0;1;0.0;1;Matches
-52;Karim Benzema\Karim-Benzema;fr FRA;FW;Real Madrid;31;1987;23.7;0;0;0;14;11;15;17;9;6;0;0;0;24;41;58.5;25;1;12;22;54.5;10;Matches
-53;Yuri Berchiche\Yuri-Berchiche;es ESP;DF;Athletic Bilbao;29;1990;23.0;4;0;0;25;43;2;77;22;23;0;1;0;35;51;68.6;36;0;37;47;78.7;10;Matches
-54;Markel Bergara\Markel-Bergara;es ESP;MF;Getafe;33;1986;0.8;2;0;0;3;0;0;2;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-55;Sergio Bermejo\Sergio-Bermejo;es ESP;FW;Celta Vigo;21;1997;0.0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;100.0;1;0;0;0;;0;Matches
-56;Pedro Bigas\Pedro-Bigas;es ESP;DF;Eibar;28;1990;9.6;1;0;0;5;11;0;6;10;15;0;0;0;0;1;0.0;1;0;12;20;60.0;8;Matches
-57;Rubén Blanco\Ruben-Blanco;es ESP;GK;Celta Vigo;24;1995;24.0;3;0;0;1;4;0;0;0;0;0;1;0;0;0;;0;0;0;1;0.0;1;Matches
-58;Pablo de Blasis\Pablo-de-Blasis;ar ARG;DFMF;Eibar;31;1988;11.1;0;0;0;10;8;0;54;20;17;0;1;0;8;17;47.1;10;0;30;58;51.7;28;Matches
-59;Yassine Bounou\Yassine-Bounou;ma MAR;GK;Sevilla;28;1991;1.5;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-60;Filip Bradarić\Filip-Bradaric;hr CRO;MF;Celta Vigo;27;1992;1.4;0;1;0;3;0;0;2;1;2;0;0;0;1;1;100.0;1;0;1;2;50.0;1;Matches
-61;Martin Braithwaite\Martin-Braithwaite;dk DEN;FW;Barcelona;28;1991;0.4;0;0;0;0;1;0;2;0;0;0;0;0;2;2;100.0;2;0;0;0;;0;Matches
-62;Martin Braithwaite\Martin-Braithwaite;dk DEN;FWMF;Leganés;28;1991;21.5;3;0;0;30;31;9;9;9;4;0;0;0;32;52;61.5;35;3;15;24;62.5;9;Matches
-63;Brandon\Brandon;es ESP;FW;Osasuna;24;1995;4.5;4;0;0;6;6;0;4;2;1;0;0;0;3;8;37.5;3;0;4;9;44.4;5;Matches
-64;Darko Brašanac\Darko-Brasanac;rs SRB;MF;Osasuna;27;1992;17.7;7;0;0;42;17;1;12;21;14;1;0;0;9;15;60.0;9;0;32;51;62.7;19;Matches
-65;Yan Brice Eteki\Yan-Brice-Eteki;cm CMR;MF;Granada;21;1997;9.1;3;0;0;34;13;0;0;12;7;0;0;0;9;14;64.3;10;0;20;28;71.4;8;Matches
-66;Bryan\Bryan;es ESP;MFFW;Leganés;18;2001;1.0;2;0;0;6;4;1;3;1;0;0;0;0;2;5;40.0;2;0;2;2;100.0;0;Matches
-67;Bryan\Bryan;es ESP;FW;Sevilla;18;2001;0.7;2;0;0;1;0;0;2;1;0;0;0;0;3;5;60.0;3;0;1;3;33.3;2;Matches
-68;Ante Budimir\Ante-Budimir;hr CRO;FW;Mallorca;28;1991;22.1;6;0;0;51;47;14;2;17;4;1;0;0;12;25;48.0;13;2;23;33;69.7;10;Matches
-69;Esteban Burgos\Esteban-Burgos;ar ARG;DF;Eibar;27;1992;5.8;2;0;0;5;3;0;0;5;9;0;0;0;4;4;100.0;4;0;8;9;88.9;1;Matches
-70;Burgui\Burgui;es ESP;MF;Alavés;25;1993;0.2;0;0;0;0;1;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-71;Oliver Burke\Oliver-Burke;sco SCO;MFFW;Alavés;22;1997;8.8;1;0;0;11;8;0;9;4;8;0;0;0;17;29;58.6;20;0;12;21;57.1;9;Matches
-72;Sergio Busquets\Sergio-Busquets;es ESP;MF;Barcelona;31;1988;19.0;6;0;0;29;37;0;1;49;31;0;1;0;16;18;88.9;17;1;58;78;74.4;20;Matches
-73;Unai Bustinza\Unai-Bustinza;es ESP;DF;Leganés;27;1992;21.2;3;0;0;41;36;3;37;32;49;0;1;0;6;15;40.0;8;0;53;70;75.7;17;Matches
-74;Erick Cabaco\Erick-Cabaco;uy URU;DF;Levante;24;1995;9.0;4;0;0;7;7;0;1;10;13;0;0;0;4;5;80.0;4;0;14;17;82.4;3;Matches
-75;Ariday Cabrera\Ariday-Cabrera;es ESP;MFFW;Mallorca;30;1988;0.4;0;0;0;2;0;0;0;1;0;0;0;0;0;2;0.0;0;0;1;1;100.0;0;Matches
-76;Leandro Cabrera\Leandro-Cabrera;uy URU;DF;Getafe;28;1991;17.0;3;0;0;16;9;1;7;2;21;0;0;0;5;6;83.3;5;0;8;14;57.1;6;Matches
-77;Leandro Cabrera\Leandro-Cabrera;uy URU;DF;Espanyol;28;1991;6.0;1;0;0;6;4;0;1;6;4;0;0;0;0;0;;0;0;15;21;71.4;6;Matches
-78;Fernando Calero\Fernando-Calero;es ESP;DF;Espanyol;23;1995;10.8;4;1;0;7;5;0;0;6;7;0;0;0;1;1;100.0;1;0;12;19;63.2;7;Matches
-79;Jonathan Calleri\Jonathan-Calleri;ar ARG;FW;Espanyol;25;1993;14.6;1;0;0;31;31;7;17;7;6;0;0;0;11;21;52.4;15;1;12;22;54.5;10;Matches
-80;Víctor Camarasa\Victor-Camarasa;es ESP;MF;Alavés;25;1994;6.7;1;0;0;7;4;2;7;6;8;0;0;0;5;11;45.5;5;1;7;13;53.8;6;Matches
-81;Sergio Camello\Sergio-Camello;es ESP;FW;Atletico Madrid;18;2001;0.3;0;0;0;0;1;0;0;1;0;0;0;0;0;0;;0;0;1;1;100.0;0;Matches
-82;José Campaña\Jose-Campana;es ESP;MF;Levante;26;1993;24.6;3;1;1;20;41;1;124;17;26;0;1;0;31;52;59.6;38;4;23;58;39.7;35;Matches
-83;Xisco Campos\Xisco-Campos;es ESP;DF;Mallorca;37;1982;3.8;1;0;0;6;3;1;0;4;9;0;0;0;0;0;;0;0;6;10;60.0;4;Matches
-84;Víctor Campuzano\Victor-Campuzano;es ESP;FW;Espanyol;22;1997;7.7;2;0;0;22;11;11;7;12;1;0;0;0;7;9;77.8;7;0;13;23;56.5;10;Matches
-85;Sergio Canales\Sergio-Canales;es ESP;MF;Betis;28;1991;24.5;4;0;0;19;32;1;94;18;8;0;1;0;29;46;63.0;33;1;22;42;52.4;20;Matches
-86;Ander Capa\Ander-Capa;es ESP;DF;Athletic Bilbao;27;1992;23.8;10;0;0;40;13;4;79;22;24;0;0;0;34;54;63.0;38;4;42;69;60.9;27;Matches
-87;Marc Cardona\Marc-Cardona;es ESP;FW;Osasuna;24;1995;5.7;1;0;0;6;7;5;3;1;1;0;0;0;2;6;33.3;2;0;1;7;14.3;6;Matches
-88;Diego Carlos\Diego-Carlos;br BRA;DF;Sevilla;26;1993;23.8;6;0;0;32;7;2;4;28;23;0;0;0;7;8;87.5;7;0;38;48;79.2;10;Matches
-89;Yannick Carrasco\Yannick-Carrasco;be BEL;MFFW;Atletico Madrid;25;1993;1.3;0;0;0;2;2;1;6;0;0;0;0;0;7;11;63.6;7;0;0;1;0.0;1;Matches
-90;Daniel Carriço\Daniel-Carrico;pt POR;DF;Sevilla;30;1988;9.4;3;0;0;8;2;0;0;9;8;0;0;0;3;3;100.0;3;0;11;16;68.8;5;Matches
-91;Guido Carrillo\Guido-Carrillo;ar ARG;FW;Leganés;28;1991;10.1;1;0;0;22;20;1;2;9;1;0;0;0;2;4;50.0;2;0;14;23;60.9;9;Matches
-92;Dani Carvajal\Dani-Carvajal;es ESP;DF;Real Madrid;27;1992;22.0;8;0;0;35;20;3;87;38;30;0;0;0;18;37;48.6;19;1;54;75;72.0;21;Matches
-93;William Carvalho\William-Carvalho;pt POR;MF;Betis;27;1992;7.9;4;1;0;11;5;0;1;3;3;0;0;0;11;12;91.7;11;1;4;12;33.3;8;Matches
-94;Casemiro\Casemiro;br BRA;MF;Real Madrid;27;1992;23.7;9;0;0;61;39;3;15;66;53;0;0;0;13;19;68.4;13;1;96;152;63.2;56;Matches
-95;Santi Cazorla\Santi-Cazorla;es ESP;MF;Villarreal;34;1984;19.3;3;0;0;19;27;2;101;20;10;0;0;0;36;49;73.5;37;3;33;64;51.6;31;Matches
-96;Charles\Charles;br BRA;FW;Eibar;35;1984;9.1;5;0;0;28;13;5;2;2;3;0;0;0;2;2;100.0;2;0;7;13;53.8;6;Matches
-97;Pablo Chavarría\Pablo-Chavarria;ar ARG;FWMF;Mallorca;31;1988;1.1;1;0;0;7;0;5;1;1;0;0;0;0;0;0;;0;0;2;3;66.7;1;Matches
-98;Pape Cheikh Diop\Pape-Cheikh-Diop;es ESP;MF;Celta Vigo;21;1997;6.0;4;1;1;22;14;0;0;4;2;0;0;0;6;7;85.7;6;0;9;19;47.4;10;Matches
-99;Chema\Chema;es ESP;DF;Getafe;27;1992;1.0;1;0;0;2;0;1;1;1;2;0;0;0;0;0;;0;0;1;1;100.0;0;Matches
-100;Denis Cheryshev\Denis-Cheryshev;ru RUS;MFFW;Valencia;28;1990;7.8;5;0;0;17;11;1;31;4;6;1;1;0;9;19;47.4;9;1;9;22;40.9;13;Matches
-101;Samuel Chukwueze\Samuel-Chukwueze;ng NGA;MFFW;Villarreal;20;1999;15.3;1;0;0;9;30;10;27;12;4;2;0;0;39;64;60.9;42;2;14;21;66.7;7;Matches
-102;Jasper Cillessen\Jasper-Cillessen;nl NED;GK;Valencia;30;1989;15.3;1;0;0;0;2;0;0;0;2;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-103;Óscar Clemente\Oscar-Clemente;es ESP;MF;Atletico Madrid;20;1999;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-104;Carlos Clerc\Carlos-Clerc;es ESP;DF;Levante;27;1992;13.0;4;0;0;16;13;1;39;9;16;0;0;0;20;30;66.7;21;1;22;28;78.6;6;Matches
-105;Coke\Coke;es ESP;DF;Levante;32;1987;6.1;2;0;0;9;9;0;8;8;6;0;0;0;8;10;80.0;8;0;15;25;60.0;10;Matches
-106;Álex Collado\Alex-Collado;es ESP;DF;Barcelona;20;1999;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-107;Francis Coquelin\Francis-Coquelin;fr FRA;MF;Valencia;28;1991;16.5;7;1;1;23;24;1;1;18;35;1;1;0;14;21;66.7;14;0;27;41;65.9;14;Matches
-108;Sébastien Corchia\Sebastien-Corchia;fr FRA;DF;Espanyol;28;1990;3.0;1;0;0;4;5;0;25;0;5;0;0;0;6;10;60.0;6;0;2;4;50.0;2;Matches
-109;Iñigo Córdoba\Inigo-Cordoba;es ESP;FW;Athletic Bilbao;22;1997;8.6;4;0;0;16;11;4;21;7;5;0;0;0;8;16;50.0;8;0;12;33;36.4;21;Matches
-110;Ángel Correa\Angel-Correa;ar ARG;MFFW;Atletico Madrid;24;1995;15.6;5;0;0;19;23;7;25;10;8;0;0;0;29;57;50.9;33;1;16;41;39.0;25;Matches
-111;Rober Correa\Rober-Correa;es ESP;DF;Eibar;26;1992;2.9;0;0;0;3;4;0;9;3;1;0;0;0;0;1;0.0;0;0;6;8;75.0;2;Matches
-112;Thierry Correia\Thierry-Correia;pt POR;DF;Valencia;20;1999;2.0;0;0;0;3;5;0;1;3;2;0;0;0;0;1;0.0;0;0;5;6;83.3;1;Matches
-113;Diego Costa\Diego-Costa;es ESP;FW;Atletico Madrid;30;1988;8.7;2;0;0;15;11;11;3;3;1;0;0;0;6;13;46.2;6;0;3;7;42.9;4;Matches
-114;Jaume Costa\Jaume-Costa;es ESP;DF;Valencia;31;1988;10.7;1;0;0;14;16;1;20;18;15;0;0;0;9;14;64.3;9;1;26;33;78.8;7;Matches
-115;David Costas\David-Costas;es ESP;DF;Celta Vigo;24;1995;3.7;1;0;0;5;2;0;0;4;6;0;0;0;0;0;;0;0;7;10;70.0;3;Matches
-116;Thibaut Courtois\Thibaut-Courtois;be BEL;GK;Real Madrid;27;1992;23.0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-117;Sebastián Cristóforo\Sebastian-Cristoforo;uy URU;MF;Eibar;25;1993;2.7;0;0;0;5;6;1;3;4;3;0;0;0;0;1;0.0;0;0;7;10;70.0;3;Matches
-118;Cucho\Cucho;co COL;FWMF;Mallorca;20;1999;7.9;3;0;0;10;17;3;10;6;3;0;1;0;14;20;70.0;14;1;11;17;64.7;6;Matches
-119;Marc Cucurella\Marc-Cucurella;es ESP;MFDF;Getafe;21;1998;24.8;5;0;0;49;43;2;70;42;16;1;0;0;13;23;56.5;13;0;63;100;63.0;37;Matches
-120;Iván Cuéllar\Ivan-Cuellar;es ESP;GK;Leganés;35;1984;15.0;3;1;1;0;2;0;0;0;1;0;0;0;0;0;;0;0;0;2;0.0;2;Matches
-121;Moanes Dabour\Moanes-Dabour;il ISR;FW;Sevilla;27;1992;0.3;0;0;0;0;0;0;1;1;0;0;0;0;0;0;;0;0;1;1;100.0;0;Matches
-122;Sergi Darder\Sergi-Darder;es ESP;MFFW;Espanyol;25;1993;22.5;2;0;0;21;23;1;50;21;17;0;0;0;16;31;51.6;17;1;38;72;52.8;34;Matches
-123;Ousmane Dembélé\Ousmane-Dembele;fr FRA;FW;Barcelona;22;1997;4.0;1;1;0;1;5;4;20;0;0;0;0;0;16;31;51.6;17;0;0;3;0.0;3;Matches
-124;Deyverson\Deyverson;br BRA;FW;Getafe;28;1991;1.6;2;0;0;5;0;0;2;0;0;0;0;0;3;4;75.0;3;2;0;1;0.0;1;Matches
-125;Mouctar Diakhaby\Mouctar-Diakhaby;fr FRA;DF;Valencia;22;1996;11.1;3;0;0;13;12;0;1;9;10;0;0;0;7;7;100.0;7;0;12;18;66.7;6;Matches
-126;Brahim Díaz\Brahim-Diaz;es ESP;FWMF;Real Madrid;19;1999;0.3;0;0;0;0;4;0;0;0;0;0;0;0;1;3;33.3;1;0;0;0;;0;Matches
-127;Víctor Díaz\Victor-Diaz;es ESP;DF;Granada;31;1988;23.7;3;0;0;15;7;1;95;30;39;0;0;0;9;16;56.3;9;1;56;84;66.7;28;Matches
-128;Papakouli Diop\Papakouli-Diop;sn SEN;MF;Eibar;33;1986;17.7;6;0;0;36;26;1;6;18;28;0;0;0;3;5;60.0;4;0;28;49;57.1;21;Matches
-129;Djené\Djene;tg TOG;DF;Getafe;27;1991;24.0;3;0;0;35;18;1;6;18;20;0;1;0;7;10;70.0;8;0;32;41;78.0;9;Matches
-130;Marko Dmitrović\Marko-Dmitrovic;rs SRB;GK;Eibar;27;1992;24.0;3;0;0;1;1;0;0;0;2;0;0;0;0;0;;0;0;0;3;0.0;3;Matches
-131;Jaume Doménech\Jaume-Domenech;es ESP;GK;Valencia;28;1990;11.7;1;0;0;0;0;0;0;0;1;0;0;0;0;0;;0;0;0;2;0.0;2;Matches
-132;Domingos Duarte\Domingos-Duarte;pt POR;DF;Granada;24;1995;24.5;5;0;0;26;15;3;0;10;22;0;3;0;4;6;66.7;6;1;17;23;73.9;6;Matches
-133;Óscar Duarte\Oscar-Duarte;cr CRC;DF;Levante;30;1989;3.4;0;0;0;8;2;0;0;4;3;0;1;0;1;1;100.0;1;0;6;6;100.0;0;Matches
-134;Rubén Duarte\Ruben-Duarte;es ESP;DF;Alavés;23;1995;25.0;9;0;0;36;31;0;53;33;37;1;4;0;4;9;44.4;5;0;61;83;73.5;22;Matches
-135;Hugo Duro\Hugo-Duro;es ESP;FW;Getafe;19;1999;0.9;1;0;0;6;3;0;2;0;0;0;0;0;0;0;;0;0;1;2;50.0;1;Matches
-136;Aritz Elustondo\Aritz-Elustondo;es ESP;DF;Real Sociedad;25;1994;9.3;1;0;0;5;6;0;0;8;8;0;0;0;0;1;0.0;0;0;20;29;69.0;9;Matches
-137;Rodrigo Ely\Rodrigo-Ely;br BRA;DF;Alavés;25;1993;17.6;7;0;0;23;10;2;2;10;33;0;0;0;3;3;100.0;3;0;21;36;58.3;15;Matches
-138;Adri Embarba\Adri-Embarba;es ESP;MFFW;Espanyol;27;1992;5.1;2;0;0;10;9;1;36;8;3;0;0;0;10;21;47.6;12;2;13;19;68.4;6;Matches
-139;Emerson\Emerson;br BRA;DF;Betis;20;1999;21.5;8;0;0;28;59;1;49;31;21;0;0;0;15;28;53.6;16;2;51;85;60.0;34;Matches
-140;Youssef En-Nesyri\Youssef-En-Nesyri;ma MAR;FW;Sevilla;22;1997;3.3;0;0;0;4;4;7;4;2;0;0;0;0;1;4;25.0;1;0;2;5;40.0;3;Matches
-141;Youssef En-Nesyri\Youssef-En-Nesyri;ma MAR;FW;Leganés;22;1997;15.4;2;0;0;21;19;17;10;5;4;1;0;0;17;35;48.6;19;3;8;23;34.8;15;Matches
-142;Sergi Enrich\Sergi-Enrich;es ESP;FW;Eibar;29;1990;15.1;3;0;0;49;18;14;2;14;8;0;0;0;6;9;66.7;7;3;18;26;69.2;8;Matches
-143;Javier Eraso\Javier-Eraso;es ESP;MFFW;Leganés;29;1990;6.7;2;0;0;13;11;1;32;6;6;0;0;0;3;4;75.0;3;1;7;15;46.7;8;Matches
-144;Gonzalo Escalante\Gonzalo-Escalante;ar ARG;MF;Eibar;26;1993;14.5;6;1;1;25;26;1;14;25;23;1;0;0;15;20;75.0;18;0;37;56;66.1;19;Matches
-145;Aarón Escandell\Aaron-Escandell;es ESP;GK;Granada;23;1995;1.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-146;Sergio Escudero\Sergio-Escudero;es ESP;DF;Sevilla;29;1989;4.6;2;0;0;8;4;0;9;9;11;0;1;0;4;7;57.1;5;1;17;23;73.9;6;Matches
-147;Bernardo Espinosa\Bernardo-Espinosa;co COL;DF;Espanyol;30;1989;17.0;4;0;0;21;12;1;1;14;13;0;0;0;1;1;100.0;1;0;20;32;62.5;12;Matches
-148;Esquerdo\Esquerdo;es ESP;MF;Valencia;20;1999;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0.0;0;0;0;0;;0;Matches
-149;Pervis Estupiñán\Pervis-Estupinan;ec ECU;DF;Osasuna;21;1998;25.0;6;0;0;28;29;2;117;48;49;0;0;0;47;78;60.3;50;3;71;97;73.2;26;Matches
-150;Oghenekaro Etebo\Oghenekaro-Etebo;ng NGA;MF;Getafe;23;1995;3.1;2;0;0;5;4;0;2;8;8;0;0;0;5;7;71.4;5;0;11;15;73.3;4;Matches
-151;Beñat Etxebarria\Benat-Etxebarria;es ESP;MF;Athletic Bilbao;32;1987;4.3;0;0;0;2;2;0;21;4;2;0;0;0;0;1;0.0;1;0;7;16;43.8;9;Matches
-152;Xabier Etxeita\Xabier-Etxeita;es ESP;DF;Getafe;31;1987;8.5;5;0;0;8;6;0;0;4;11;0;0;0;0;0;;0;0;11;19;57.9;8;Matches
-153;Edu Expósito\Edu-Exposito;es ESP;MF;Eibar;22;1996;16.2;3;0;0;17;9;0;6;28;25;0;0;0;18;26;69.2;18;0;37;64;57.8;27;Matches
-154;Fabricio\Fabricio;es ESP;GK;Mallorca;31;1987;1.0;1;0;0;1;0;0;0;0;0;0;1;0;0;0;;0;0;0;0;;0;Matches
-155;Fayçal Fajr\Faycal-Fajr;ma MAR;MF;Getafe;30;1988;4.3;2;0;0;3;5;0;31;1;3;0;0;0;1;1;100.0;1;1;1;5;20.0;4;Matches
-156;Eliseo Falcon\Eliseo-Falcon;es ESP;DF;Levante;22;1997;0.8;2;1;1;2;0;0;0;0;0;0;0;0;2;2;100.0;2;0;1;2;50.0;1;Matches
-157;Ansu Fati\Ansu-Fati;es ESP;FWDF;Barcelona;16;2002;7.5;2;0;0;11;10;3;19;8;2;0;0;0;14;36;38.9;15;0;14;18;77.8;4;Matches
-158;Aleix Febas\Aleix-Febas;es ESP;MF;Mallorca;23;1996;15.6;3;0;0;12;36;0;2;22;14;1;0;0;22;39;56.4;22;2;34;51;66.7;17;Matches
-159;Zouhair Feddal\Zouhair-Feddal;ma MAR;DF;Betis;30;1989;9.4;7;2;0;14;7;0;0;4;18;0;0;0;3;3;100.0;3;0;10;14;71.4;4;Matches
-160;Ljubomir Fejsa\Ljubomir-Fejsa;rs SRB;MF;Alavés;30;1988;4.1;1;0;0;10;5;0;0;10;3;0;0;0;1;2;50.0;2;0;14;18;77.8;4;Matches
-161;Nabil Fekir\Nabil-Fekir;fr FRA;MFFW;Betis;26;1993;19.2;7;1;1;47;82;6;38;20;11;4;0;0;50;81;61.7;53;2;31;51;60.8;20;Matches
-162;Felipe\Felipe;br BRA;DF;Atletico Madrid;30;1989;19.0;6;0;0;23;12;1;1;16;33;0;0;0;4;5;80.0;4;1;26;34;76.5;8;Matches
-163;João Félix\Joao-Felix;pt POR;FWMF;Atletico Madrid;19;1999;14.9;4;0;0;25;33;6;16;4;7;1;0;0;14;44;31.8;18;5;7;17;41.2;10;Matches
-164;Aitor Fernández\Aitor-Fernandez;es ESP;GK;Levante;28;1991;26.0;2;0;0;0;4;0;0;0;3;0;0;0;0;0;;0;0;0;0;;0;Matches
-165;Andrés Fernández\Andres-Fernandez;es ESP;GK;Villarreal;32;1986;3.3;1;0;0;1;1;0;0;0;0;0;1;0;0;0;;0;0;0;0;;0;Matches
-166;Carlos Fernández\Carlos-Fernandez;es ESP;FWMF;Granada;23;1996;14.6;6;0;0;41;22;4;3;9;10;1;0;0;18;29;62.1;19;2;20;40;50.0;20;Matches
-167;Gabriel Fernández\Gabriel-Fernandez;uy URU;FWMF;Celta Vigo;25;1994;5.5;3;1;1;14;6;5;2;2;2;0;0;0;8;10;80.0;8;0;3;4;75.0;1;Matches
-168;Joaquín Fernández\Joaquin-Fernandez;es ESP;MFDF;Valladolid;23;1996;11.9;7;0;0;22;5;4;0;16;19;0;0;0;5;6;83.3;6;0;28;48;58.3;20;Matches
-169;Fernando\Fernando;br BRA;MF;Sevilla;32;1987;23.2;10;0;0;32;19;2;2;37;46;0;0;0;13;17;76.5;15;1;52;83;62.7;31;Matches
-170;Facundo Ferreyra\Facundo-Ferreyra;ar ARG;FW;Espanyol;28;1991;6.0;2;0;0;23;8;5;2;4;2;0;0;0;3;5;60.0;3;0;4;9;44.4;5;Matches
-171;Junior Firpo\Junior-Firpo;es ESP;DF;Barcelona;22;1996;9.0;3;0;0;28;11;2;7;14;12;0;0;0;5;12;41.7;6;1;24;31;77.4;7;Matches
-172;Alessandro Florenzi\Alessandro-Florenzi;it ITA;DFMF;Valencia;28;1991;2.2;1;1;0;4;1;0;4;2;4;0;0;0;1;2;50.0;1;1;2;6;33.3;4;Matches
-173;Hernâni Fortes\Hernani-Fortes;pt POR;MFFW;Levante;27;1991;4.7;2;1;1;2;10;3;25;3;3;0;0;0;7;18;38.9;9;0;4;7;57.1;3;Matches
-174;Dimitri Foulquier\Dimitri-Foulquier;fr FRA;DF;Granada;26;1993;6.1;2;0;0;13;6;0;11;7;11;0;0;0;3;12;25.0;5;0;15;17;88.2;2;Matches
-175;Jorge de Frutos\Jorge-de-Frutos;es ESP;MFFW;Valladolid;22;1997;0.6;0;0;0;2;0;0;2;0;0;0;0;0;0;1;0.0;0;0;2;3;66.7;1;Matches
-176;Ramiro Funes Mori\Ramiro-Funes-Mori;ar ARG;DF;Villarreal;28;1991;5.0;1;0;0;7;4;0;0;2;3;0;0;0;1;1;100.0;1;0;5;7;71.4;2;Matches
-177;Enric Gallego\Enric-Gallego;es ESP;FW;Osasuna;32;1986;3.6;2;0;0;14;4;6;0;1;2;0;0;0;2;4;50.0;2;0;2;4;50.0;2;Matches
-178;Enric Gallego\Enric-Gallego;es ESP;FW;Getafe;32;1986;1.8;0;0;0;4;2;0;1;2;2;0;0;0;2;4;50.0;2;0;4;6;66.7;2;Matches
-179;Kévin Gameiro\Kevin-Gameiro;fr FRA;FW;Valencia;32;1987;11.6;0;0;0;10;11;10;11;10;4;0;0;0;16;23;69.6;17;0;13;23;56.5;10;Matches
-180;Fran Gámez\Fran-Gamez;es ESP;DF;Mallorca;28;1991;13.7;2;0;0;19;3;2;40;33;27;0;1;1;13;16;81.3;14;1;52;81;64.2;29;Matches
-181;Ezequiel Garay\Ezequiel-Garay;ar ARG;DF;Valencia;32;1986;16.0;2;0;0;10;1;0;2;7;13;0;1;0;0;0;;0;0;12;15;80.0;3;Matches
-182;Dani García\Dani-Garcia;es ESP;MF;Athletic Bilbao;29;1990;24.3;6;0;0;40;27;0;3;32;37;0;0;0;6;7;85.7;6;1;57;98;58.2;41;Matches
-183;David García\David-Garcia;es ESP;DF;Osasuna;25;1994;21.0;4;0;0;29;12;0;1;21;27;0;0;0;0;1;0.0;0;0;31;42;73.8;11;Matches
-184;Javi García\Javi-Garcia;es ESP;MF;Betis;32;1987;4.0;2;0;0;3;5;0;0;1;4;0;0;1;1;2;50.0;1;0;2;3;66.7;1;Matches
-185;Manu García\Manu-Garcia;es ESP;MF;Alavés;33;1986;19.6;10;1;1;52;36;3;3;35;21;0;3;0;10;15;66.7;12;0;46;95;48.4;49;Matches
-186;Raúl García\Raul-Garcia;es ESP;MFFW;Athletic Bilbao;33;1986;22.2;7;0;0;57;42;14;26;25;13;1;0;0;6;10;60.0;6;2;40;82;48.8;42;Matches
-187;Raúl García\Raul-Garcia;es ESP;DF;Getafe;30;1989;2.7;0;0;0;4;4;0;30;5;4;0;0;0;4;5;80.0;4;0;7;11;63.6;4;Matches
-188;Raúl García\Raul-Garcia;es ESP;DF;Valladolid;30;1989;7.0;2;0;0;6;3;0;42;10;2;0;0;0;3;6;50.0;3;0;16;26;61.5;10;Matches
-189;Rubén García\Ruben-Garcia;es ESP;MFFW;Osasuna;26;1993;19.7;4;0;0;37;22;4;122;21;10;0;0;0;24;33;72.7;24;1;36;59;61.0;23;Matches
-190;Unai García\Unai-Garcia;es ESP;DF;Osasuna;27;1992;2.2;0;0;0;3;1;0;0;1;1;0;0;0;2;2;100.0;2;0;2;2;100.0;0;Matches
-191;Mario Gaspar\Mario-Gaspar;es ESP;DF;Villarreal;28;1990;15.7;2;0;0;22;7;0;18;17;19;0;0;0;2;7;28.6;3;0;33;48;68.8;15;Matches
-192;José Antonio Martínez Gil\Jose-Antonio-Martinez-Gil;es ESP;DF;Granada;26;1993;11.5;0;0;0;4;7;0;1;11;19;0;0;0;2;2;100.0;2;1;21;27;77.8;6;Matches
-193;Ibai Gómez\Ibai-Gomez;es ESP;FW;Athletic Bilbao;29;1989;7.2;0;0;0;3;3;5;85;3;5;0;0;0;7;13;53.8;9;0;5;12;41.7;7;Matches
-194;Maxi Gómez\Maxi-Gomez;uy URU;FW;Valencia;22;1996;16.8;5;0;0;35;46;22;6;7;5;0;0;0;4;9;44.4;4;0;9;12;75.0;3;Matches
-195;Moi Gómez\Moi-Gomez;es ESP;FWMF;Villarreal;25;1994;19.0;1;0;0;17;18;7;62;12;17;1;0;0;20;38;52.6;24;2;19;31;61.3;12;Matches
-196;Sergi Gómez\Sergi-Gomez;es ESP;DF;Sevilla;27;1992;5.3;2;0;0;3;0;0;1;2;5;0;0;0;1;1;100.0;1;0;5;5;100.0;0;Matches
-197;Maxime Gonalons\Maxime-Gonalons;fr FRA;MF;Granada;30;1989;15.1;6;0;0;33;24;0;1;38;19;0;0;0;11;14;78.6;11;0;56;87;64.4;31;Matches
-198;Bruno González\Bruno-Gonzalez;es ESP;DF;Getafe;29;1990;2.0;1;0;0;5;2;1;0;2;0;0;1;0;0;0;;0;0;4;4;100.0;0;Matches
-199;Bruno González\Bruno-Gonzalez;es ESP;DF;Levante;29;1990;2.0;0;0;0;1;1;0;0;2;1;0;0;0;0;0;;0;0;2;2;100.0;0;Matches
-200;Édgar González\Edgar-Gonzalez;es ESP;MF;Betis;22;1997;5.4;2;0;0;5;3;0;0;3;7;0;1;0;2;4;50.0;2;0;6;14;42.9;8;Matches
-201;Andoni Gorosabel\Andoni-Gorosabel;es ESP;DF;Real Sociedad;22;1996;3.3;0;0;0;3;5;0;10;5;5;0;0;0;1;1;100.0;1;0;10;12;83.3;2;Matches
-202;Esteban Granero\Esteban-Granero;es ESP;MF;Espanyol;32;1987;5.2;5;0;0;15;6;0;24;7;3;0;0;0;5;6;83.3;6;0;9;16;56.3;7;Matches
-203;Antoine Griezmann\Antoine-Griezmann;fr FRA;FW;Barcelona;28;1991;22.8;2;0;0;9;16;15;20;14;8;0;0;0;12;27;44.4;14;1;26;44;59.1;18;Matches
-204;Andrés Guardado\Andres-Guardado;mx MEX;MF;Betis;32;1986;16.0;8;0;0;27;14;1;14;11;14;0;1;0;15;18;83.3;15;1;19;41;46.3;22;Matches
-205;Sergi Guardiola\Sergi-Guardiola;es ESP;FW;Valladolid;28;1991;22.9;5;0;0;35;43;16;30;9;6;0;0;0;27;52;51.9;29;3;16;29;55.2;13;Matches
-206;Nemanja Gudelj\Nemanja-Gudelj;rs SRB;MFDF;Sevilla;27;1991;6.8;4;0;0;14;7;0;2;6;11;0;1;0;3;5;60.0;4;0;11;14;78.6;3;Matches
-207;Gonçalo Guedes\Goncalo-Guedes;pt POR;MFFW;Valencia;22;1996;6.6;0;0;0;9;27;3;14;12;4;0;0;0;26;36;72.2;26;0;14;25;56.0;11;Matches
-208;Ander Guevara\Ander-Guevara;es ESP;MF;Real Sociedad;22;1997;9.1;3;0;0;24;5;0;1;16;9;0;0;0;9;11;81.8;9;0;25;37;67.6;12;Matches
-209;John Guidetti\John-Guidetti;se SWE;FW;Alavés;27;1992;1.0;0;0;0;0;1;0;0;2;0;0;0;0;2;4;50.0;2;0;3;4;75.0;1;Matches
-210;Hugo Guillamón\Hugo-Guillamon;es ESP;DF;Valencia;19;2000;0.5;0;0;0;0;1;0;1;0;0;0;0;0;0;0;;0;0;1;1;100.0;0;Matches
-211;Ismael Gutiérrez\Ismael-Gutierrez;es ESP;MF;Betis;18;2000;0.9;1;0;0;1;1;0;0;1;2;0;0;0;0;0;;0;0;2;2;100.0;0;Matches
-212;Munir El Haddadi\Munir-El-Haddadi;es ESP;FW;Sevilla;23;1995;7.1;1;0;0;11;19;5;5;9;3;0;0;0;5;8;62.5;6;0;11;12;91.7;1;Matches
-213;Eden Hazard\Eden-Hazard;be BEL;FWMF;Real Madrid;28;1991;8.3;0;0;0;11;35;2;15;4;5;3;0;0;31;49;63.3;34;0;6;14;42.9;8;Matches
-214;Mario Hermoso\Mario-Hermoso;es ESP;DF;Atletico Madrid;24;1995;10.7;2;0;0;14;8;2;0;7;11;0;0;0;3;3;100.0;3;0;10;19;52.6;9;Matches
-215;Aridane Hernández\Aridane-Hernandez;gq EQG;DF;Osasuna;30;1989;20.0;5;0;0;10;8;0;0;17;22;0;1;0;2;2;100.0;2;0;29;33;87.9;4;Matches
-216;Javier Hernández\Javier-Hernandez;mx MEX;FW;Sevilla;31;1988;5.0;0;0;0;7;12;10;4;4;5;0;0;0;1;2;50.0;1;0;4;8;50.0;4;Matches
-217;Juan Hernández\Juan-Hernandez;es ESP;MF;Celta Vigo;24;1994;0.2;0;0;0;0;0;0;2;0;0;0;0;0;3;5;60.0;3;0;0;0;;0;Matches
-218;Héctor Herrera\Hector-Herrera;mx MEX;MF;Atletico Madrid;29;1990;9.3;0;0;0;12;11;1;23;20;16;0;0;0;12;13;92.3;12;1;26;40;65.0;14;Matches
-219;Sergio Herrera\Sergio-Herrera;es ESP;GK;Osasuna;26;1993;11.4;2;1;0;1;6;0;0;0;1;0;0;0;3;3;100.0;3;0;0;2;0.0;2;Matches
-220;Yangel Herrera\Yangel-Herrera;ve VEN;MF;Granada;21;1998;17.5;9;0;0;54;33;3;5;43;22;0;0;0;10;12;83.3;10;0;62;92;67.4;30;Matches
-221;Iago Herrerín\Iago-Herrerin;es ESP;GK;Athletic Bilbao;31;1988;3.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-222;Pablo Hervías\Pablo-Hervias;es ESP;MF;Valladolid;26;1993;4.9;0;0;0;5;12;1;26;4;2;0;0;0;13;22;59.1;14;1;6;12;50.0;6;Matches
-223;Robert Ibáñez\Robert-Ibanez;es ESP;MFFW;Osasuna;26;1993;5.9;3;0;0;9;20;1;5;3;4;0;0;0;15;25;60.0;17;0;12;18;66.7;6;Matches
-224;Vicente Iborra\Vicente-Iborra;es ESP;MF;Villarreal;31;1988;22.6;8;0;0;42;34;0;2;38;38;0;1;0;9;13;69.2;10;2;53;79;67.1;26;Matches
-225;Borja Iglesias\Borja-Iglesias;es ESP;FW;Betis;26;1993;15.3;1;1;0;26;13;13;5;5;3;0;1;0;10;25;40.0;11;1;5;11;45.5;6;Matches
-226;Asier Illarramendi\Asier-Illarramendi;es ESP;MF;Real Sociedad;29;1990;2.4;0;0;0;2;3;0;0;2;5;0;0;0;0;1;0.0;0;0;3;5;60.0;2;Matches
-227;Takashi Inui\Takashi-Inui;jp JPN;MFFW;Eibar;31;1988;15.5;2;0;0;25;19;4;33;11;14;1;0;0;14;31;45.2;15;1;22;43;51.2;21;Matches
-228;Alexander Isak\Alexander-Isak;se SWE;FW;Real Sociedad;19;1999;10.8;2;0;0;16;9;10;6;4;3;0;0;0;16;30;53.3;18;0;5;10;50.0;5;Matches
-229;Isco\Isco;es ESP;FWMF;Real Madrid;27;1992;9.7;1;0;0;9;19;4;30;7;3;0;0;0;25;41;61.0;26;1;11;18;61.1;7;Matches
-230;Ander Iturraspe\Ander-Iturraspe;es ESP;MF;Espanyol;30;1989;2.0;1;0;0;4;1;0;0;0;1;0;0;0;0;0;;0;0;0;5;0.0;5;Matches
-231;Adnan Januzaj\Adnan-Januzaj;be BEL;FWMF;Real Sociedad;24;1995;8.2;1;0;0;16;23;2;35;3;2;0;0;0;14;35;40.0;15;2;7;21;33.3;14;Matches
-232;Jason\Jason;es ESP;MF;Getafe;25;1994;9.7;5;0;0;16;20;1;59;15;14;0;0;0;14;39;35.9;15;0;22;39;56.4;17;Matches
-233;Joaquín\Joaquin;es ESP;MFFW;Betis;38;1981;18.3;3;0;0;9;20;5;68;9;13;0;0;0;42;62;67.7;45;2;15;23;65.2;8;Matches
-234;Frenkie de Jong\Frenkie-de-Jong;nl NED;MF;Barcelona;22;1997;21.1;3;1;1;22;27;1;4;21;21;0;0;0;33;48;68.8;35;1;29;41;70.7;12;Matches
-235;Luuk de Jong\Luuk-de-Jong;nl NED;FW;Sevilla;28;1990;17.0;2;0;0;22;29;12;2;7;6;0;0;0;8;12;66.7;8;0;13;21;61.9;8;Matches
-236;Joan Jordán\Joan-Jordan;es ESP;MF;Sevilla;25;1994;16.3;4;0;0;46;18;1;71;27;11;1;0;0;26;31;83.9;26;0;35;68;51.5;33;Matches
-237;Willian José\Willian-Jose;br BRA;FW;Real Sociedad;27;1991;15.1;4;0;0;21;11;10;6;3;0;0;0;0;5;12;41.7;6;0;3;9;33.3;6;Matches
-238;Joselu\Joselu;es ESP;FW;Alavés;29;1990;22.9;5;0;0;39;41;5;3;14;10;1;0;0;8;15;53.3;8;0;22;44;50.0;22;Matches
-239;Luka Jović\Luka-Jovic;rs SRB;FW;Real Madrid;21;1997;4.3;2;0;0;4;1;4;0;2;2;0;0;0;4;7;57.1;5;0;3;3;100.0;0;Matches
-240;Juanmi\Juanmi;es ESP;FWMF;Betis;26;1993;0.8;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-241;David Juncà\David-Junca;es ESP;DF;Celta Vigo;25;1993;2.9;1;0;0;5;7;1;14;3;1;0;0;0;3;5;60.0;3;0;4;4;100.0;0;Matches
-242;Lago Junior\Lago-Junior;ci CIV;MFFW;Mallorca;28;1990;19.4;2;0;0;32;34;8;47;15;11;0;2;0;22;53;41.5;25;1;24;39;61.5;15;Matches
-243;Vinicius Júnior\Vinicius-Junior;br BRA;FWMF;Real Madrid;19;2000;9.0;3;0;0;12;14;4;25;6;4;0;0;0;34;74;45.9;38;2;11;22;50.0;11;Matches
-244;Lee Kangin\Lee-Kangin;kr KOR;MFFW;Valencia;18;2001;3.3;1;1;0;7;6;0;11;2;1;0;0;0;7;9;77.8;7;1;3;6;50.0;3;Matches
-245;Wilfrid Kaptoum\Wilfrid-Kaptoum;cm CMR;MF;Betis;23;1996;2.1;1;0;0;1;3;0;2;5;1;0;0;0;2;2;100.0;2;1;6;6;100.0;0;Matches
-246;Kenedy\Kenedy;br BRA;MFDF;Getafe;23;1996;5.6;2;0;0;13;7;1;22;7;10;0;0;0;16;25;64.0;16;2;10;11;90.9;1;Matches
-247;Kike\Kike;es ESP;FW;Eibar;29;1989;11.1;2;0;0;32;14;8;9;3;1;0;0;0;3;10;30.0;4;1;6;9;66.7;3;Matches
-248;Kenan Kodro\Kenan-Kodro;ba BIH;FWMF;Athletic Bilbao;25;1993;3.7;0;0;0;5;6;3;1;0;0;0;0;0;2;2;100.0;2;0;0;1;0.0;1;Matches
-249;Koke\Koke;es ESP;MF;Atletico Madrid;27;1992;19.8;4;0;0;11;23;1;68;40;25;1;0;0;10;14;71.4;10;0;53;91;58.2;38;Matches
-250;Geoffrey Kondogbia\Geoffrey-Kondogbia;cf CTA;MF;Valencia;26;1993;13.5;4;0;0;24;15;2;0;29;33;0;1;0;6;9;66.7;6;0;41;62;66.1;21;Matches
-251;Jules Koundé\Jules-Kounde;fr FRA;DF;Sevilla;20;1998;14.6;3;0;0;9;4;0;9;12;13;0;1;0;12;14;85.7;13;0;16;20;80.0;4;Matches
-252;Leonardo Koutris\Leonardo-Koutris;gr GRE;DF;Mallorca;24;1995;1.0;0;0;0;3;0;0;3;0;1;0;1;0;0;0;;0;0;1;1;100.0;0;Matches
-253;İsmail Köybaşı\Ismail-Koybasi;tr TUR;DFFW;Granada;30;1989;2.5;1;0;0;3;2;0;8;6;5;0;0;0;2;4;50.0;2;0;8;9;88.9;1;Matches
-254;Toni Kroos\Toni-Kroos;de GER;MF;Real Madrid;29;1990;20.1;1;0;0;15;35;0;110;25;17;0;0;0;12;16;75.0;13;0;34;68;50.0;34;Matches
-255;Takefusa Kubo\Takefusa-Kubo;jp JPN;MFFW;Mallorca;18;2001;15.0;2;0;0;26;40;2;49;15;15;2;0;0;36;63;57.1;42;1;23;47;48.9;24;Matches
-256;Víctor Laguardia\Victor-Laguardia;es ESP;DF;Alavés;29;1989;20.5;7;1;0;28;6;1;2;11;30;0;0;0;2;4;50.0;2;0;18;29;62.1;11;Matches
-257;Diego Lainez\Diego-Lainez;mx MEX;MF;Betis;19;2000;2.3;0;0;0;4;10;0;7;4;1;0;0;0;10;17;58.8;10;0;5;10;50.0;5;Matches
-258;Larra\Larra;es ESP;FWMF;Athletic Bilbao;21;1997;2.0;0;0;0;6;3;1;12;1;0;1;0;0;3;7;42.9;4;0;1;1;100.0;0;Matches
-259;Toni Lato\Toni-Lato;es ESP;MF;Osasuna;21;1997;0.9;0;0;0;3;0;0;2;3;1;0;0;0;0;1;0.0;0;0;4;4;100.0;0;Matches
-260;Robin Le Normand\Robin-Le-Normand;fr FRA;DF;Real Sociedad;22;1996;15.2;5;0;0;17;11;0;0;14;8;0;0;0;0;0;;0;0;26;36;72.2;10;Matches
-261;Wu Lei\Wu-Lei;cn CHN;FWMF;Espanyol;27;1991;12.3;2;0;0;12;12;7;17;7;11;0;0;0;12;22;54.5;12;0;13;37;35.1;24;Matches
-262;Iñigo Lekue\Inigo-Lekue;es ESP;DFFW;Athletic Bilbao;26;1993;3.6;0;0;0;7;1;1;22;9;2;0;1;0;7;25;28.0;8;2;13;16;81.3;3;Matches
-263;Thomas Lemar\Thomas-Lemar;fr FRA;MF;Atletico Madrid;23;1995;9.0;1;0;0;6;9;0;24;7;6;0;0;0;21;32;65.6;22;1;10;16;62.5;6;Matches
-264;Clément Lenglet\Clement-Lenglet;fr FRA;DF;Barcelona;24;1995;17.8;8;2;2;21;17;2;0;31;22;0;1;0;5;7;71.4;5;0;40;47;85.1;7;Matches
-265;Pedro León\Pedro-Leon;es ESP;MFFW;Eibar;32;1986;15.6;3;0;0;16;12;7;122;10;14;0;0;0;15;26;57.7;17;2;21;31;67.7;10;Matches
-266;Sergio León\Sergio-Leon;es ESP;FW;Levante;30;1989;5.1;2;0;0;7;5;10;4;2;0;0;0;0;0;2;0.0;1;0;3;5;60.0;2;Matches
-267;Lillo\Lillo;es ESP;DF;Osasuna;30;1989;2.1;2;0;0;3;2;1;11;2;3;0;0;0;1;1;100.0;1;0;5;5;100.0;0;Matches
-268;Diego Llorente\Diego-Llorente;es ESP;DF;Real Sociedad;25;1993;17.1;4;1;1;15;12;2;0;12;19;1;0;0;3;4;75.0;3;0;19;24;79.2;5;Matches
-269;Marcos Llorente\Marcos-Llorente;es ESP;MF;Atletico Madrid;24;1995;7.0;4;0;0;12;5;1;1;12;10;0;0;0;5;9;55.6;5;0;19;29;65.5;10;Matches
-270;Stanislav Lobotka\Stanislav-Lobotka;sk SVK;MF;Celta Vigo;24;1994;15.5;1;0;0;11;22;1;4;17;8;0;0;0;10;15;66.7;10;0;23;43;53.5;20;Matches
-271;Renan Lodi\Renan-Lodi;br BRA;DF;Atletico Madrid;21;1998;18.6;5;1;1;28;32;7;68;33;31;0;0;0;12;21;57.1;12;1;51;77;66.2;26;Matches
-272;Rony Lopes\Rony-Lopes;pt POR;FWMF;Sevilla;23;1995;1.0;0;0;0;0;1;0;5;1;1;0;0;0;1;2;50.0;1;0;1;1;100.0;0;Matches
-273;Adrián López\Adrian-Lopez;es ESP;FWMF;Osasuna;31;1988;9.8;0;0;0;5;4;3;10;3;1;0;0;0;13;25;52.0;13;1;6;16;37.5;10;Matches
-274;David López\David-Lopez;es ESP;DFMF;Espanyol;29;1989;15.6;4;1;1;26;18;0;8;17;20;0;0;0;3;3;100.0;3;0;23;45;51.1;22;Matches
-275;Diego López\Diego-Lopez;es ESP;GK;Espanyol;37;1981;26.0;2;0;0;0;5;0;0;1;2;0;0;0;2;3;66.7;3;0;1;2;50.0;1;Matches
-276;Javi López\Javi-Lopez;es ESP;DF;Espanyol;33;1986;11.6;5;1;1;22;18;0;23;18;18;0;1;0;13;19;68.4;14;2;34;48;70.8;14;Matches
-277;Lluis López\Lluis-Lopez;es ESP;DF;Espanyol;22;1997;3.3;1;0;0;2;1;0;2;1;1;0;0;0;0;2;0.0;1;0;2;3;66.7;1;Matches
-278;Unai López\Unai-Lopez;es ESP;MF;Athletic Bilbao;23;1995;12.2;5;0;0;22;12;1;67;14;9;0;0;0;10;12;83.3;11;0;19;42;45.2;23;Matches
-279;Iker Losada\Iker-Losada;es ESP;MFFW;Celta Vigo;17;2001;0.1;0;0;0;0;0;0;3;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-280;Pol Lozano\Pol-Lozano;es ESP;MF;Espanyol;19;1999;0.2;0;0;0;0;0;0;1;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-281;José Luis Gayà\Jose-Luis-Gaya;es ESP;DF;Valencia;24;1995;18.6;4;0;0;15;27;0;67;22;15;1;0;0;27;42;64.3;28;0;41;58;70.7;17;Matches
-282;José Luis Morales\Jose-Luis-Morales;es ESP;FWMF;Levante;32;1987;20.8;1;0;0;9;11;11;47;7;6;0;0;0;40;78;51.3;44;4;14;33;42.4;19;Matches
-283;Darwin Machís\Darwin-Machis;ve VEN;FWMF;Granada;26;1993;15.3;3;0;0;29;28;9;79;14;19;0;0;0;35;58;60.3;35;3;21;36;58.3;15;Matches
-284;Lisandro Magallán\Lisandro-Magallan;ar ARG;DF;Alavés;25;1993;8.3;4;0;0;10;3;1;0;6;7;0;1;0;2;2;100.0;2;0;14;19;73.7;5;Matches
-285;Nemanja Maksimović\Nemanja-Maksimovic;rs SRB;MF;Getafe;24;1995;22.5;4;0;0;13;7;1;6;28;36;0;0;0;5;7;71.4;6;0;42;68;61.8;26;Matches
-286;Hugo Mallo\Hugo-Mallo;es ESP;DF;Celta Vigo;28;1991;16.4;6;0;0;21;20;3;57;22;18;0;0;0;7;9;77.8;7;0;46;68;67.6;22;Matches
-287;Aïssa Mandi\Aissa-Mandi;dz ALG;DF;Betis;27;1991;21.6;8;0;0;23;14;4;1;13;35;0;0;0;4;6;66.7;5;0;27;39;69.2;12;Matches
-288;Eliaquim Mangala\Eliaquim-Mangala;fr FRA;DF;Valencia;28;1991;3.5;1;0;0;5;0;0;0;1;2;0;1;0;0;0;;0;0;1;1;100.0;0;Matches
-289;Marcelo\Marcelo;br BRA;DF;Real Madrid;31;1988;9.8;1;0;0;5;12;0;47;7;12;0;0;0;8;10;80.0;8;0;10;24;41.7;14;Matches
-290;Óscar de Marcos\Oscar-de-Marcos;es ESP;FW;Athletic Bilbao;30;1989;2.1;0;0;0;1;3;2;7;0;1;0;0;0;0;0;;0;0;0;2;0.0;2;Matches
-291;José María Giménez\Jose-Maria-Gimenez;uy URU;DF;Atletico Madrid;24;1995;11.0;0;0;0;7;9;1;0;9;12;0;0;0;1;1;100.0;1;0;18;24;75.0;6;Matches
-292;Mariano\Mariano;do DOM;FW;Real Madrid;25;1993;0.0;0;0;0;0;0;0;0;0;0;0;0;0;1;1;100.0;1;0;0;0;;0;Matches
-293;Adrián Marín\Adrian-Marin;es ESP;DF;Alavés;22;1997;3.8;0;0;0;10;1;0;6;2;6;0;1;0;2;9;22.2;3;1;7;9;77.8;2;Matches
-294;Guillermo Maripán\Guillermo-Maripan;cl CHI;DF;Alavés;25;1994;1.0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-295;Roger Martí\Roger-Marti;es ESP;FW;Levante;28;1991;17.5;4;0;0;41;22;6;9;6;2;2;0;1;6;15;40.0;7;1;14;31;45.2;17;Matches
-296;Daniel Martín\Daniel-Martin;es ESP;GK;Betis;21;1998;1.9;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-297;Álex Martínez\Alex-Martinez;es ESP;DF;Granada;28;1990;0.2;1;0;0;0;0;0;4;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-298;Iñigo Martínez\Inigo-Martinez;es ESP;DF;Athletic Bilbao;28;1991;23.0;7;0;0;24;32;3;14;22;36;1;0;1;6;9;66.7;6;0;37;51;72.5;14;Matches
-299;Pablo Martínez\Pablo-Martinez;es ESP;MF;Levante;21;1998;0.2;0;0;0;1;1;0;0;2;0;0;0;0;0;1;0.0;0;0;2;3;66.7;1;Matches
-300;Jordi Masip\Jordi-Masip;es ESP;GK;Valladolid;30;1989;26.0;2;0;0;0;1;0;0;0;0;0;0;0;0;0;;0;0;0;2;0.0;2;Matches
-301;Jaime Mata\Jaime-Mata;es ESP;FW;Getafe;30;1988;20.7;9;0;0;67;40;26;35;6;5;1;0;0;15;30;50.0;18;1;16;26;61.5;10;Matches
-302;Borja Mayoral\Borja-Mayoral;es ESP;FW;Levante;22;1997;16.5;2;0;0;17;20;9;15;3;2;0;0;0;17;35;48.6;19;1;6;12;50.0;6;Matches
-303;Óscar Melendo\Oscar-Melendo;es ESP;MFFW;Espanyol;21;1997;6.9;0;0;0;6;19;0;5;3;2;0;0;0;5;12;41.7;6;0;6;11;54.5;5;Matches
-304;Gonzalo Melero\Gonzalo-Melero;es ESP;MF;Levante;25;1994;8.9;3;0;0;17;20;2;2;10;5;0;0;0;7;14;50.0;9;2;20;33;60.6;13;Matches
-305;Arthur Melo\Arthur-Melo;br BRA;MF;Barcelona;22;1996;11.2;1;0;0;11;36;1;12;8;2;0;0;0;27;31;87.1;27;1;11;15;73.3;4;Matches
-306;Brais Méndez\Brais-Mendez;es ESP;MFFW;Celta Vigo;22;1997;11.3;2;0;0;19;27;3;28;11;7;0;0;0;19;31;61.3;21;2;18;33;54.5;15;Matches
-307;Édgar Méndez\Edgar-Mendez;es ESP;MF;Alavés;28;1991;2.8;1;0;0;6;5;4;4;1;2;0;0;0;5;6;83.3;5;0;5;9;55.6;4;Matches
-308;Ferland Mendy\Ferland-Mendy;fr FRA;DF;Real Madrid;24;1995;12.2;6;1;1;17;14;1;52;13;18;0;0;0;34;48;70.8;35;3;23;29;79.3;6;Matches
-309;Fran Mérida\Fran-Merida;es ESP;MF;Osasuna;29;1990;10.3;8;1;1;14;15;0;13;10;27;0;0;0;19;28;67.9;21;0;19;32;59.4;13;Matches
-310;Mikel Merino\Mikel-Merino;es ESP;MF;Real Sociedad;23;1996;23.0;4;0;0;53;53;0;22;40;37;1;0;0;24;40;60.0;28;3;53;89;59.6;36;Matches
-311;Sabin Merino\Sabin-Merino;es ESP;FW;Leganés;27;1992;0.9;0;0;0;0;1;0;0;0;0;0;0;0;1;1;100.0;1;0;0;0;;0;Matches
-312;Roque Mesa\Roque-Mesa;es ESP;MF;Leganés;30;1989;16.7;8;0;0;28;35;1;40;23;6;0;0;0;22;43;51.2;28;0;36;48;75.0;12;Matches
-313;Lionel Messi\Lionel-Messi;ar ARG;FW;Barcelona;32;1987;20.0;2;0;0;9;35;10;56;7;4;0;0;0;106;152;69.7;112;6;10;22;45.5;12;Matches
-314;Míchel\Michel;es ESP;MF;Valladolid;31;1988;19.4;4;0;0;27;13;2;82;27;28;0;0;0;15;22;68.2;15;1;37;74;50.0;37;Matches
-315;Miguel\Miguel;es ESP;FW;Valladolid;19;1999;0.3;0;0;0;1;0;0;2;0;0;0;0;0;0;0;;0;0;1;1;100.0;0;Matches
-316;Éder Militão\Eder-Militao;br BRA;DF;Real Madrid;21;1998;6.0;2;0;0;9;12;2;1;7;11;0;0;0;1;2;50.0;1;0;13;13;100.0;0;Matches
-317;Santi Mina\Santi-Mina;es ESP;FW;Celta Vigo;23;1995;14.4;4;0;0;35;26;6;18;7;5;0;0;0;10;21;47.6;10;2;11;38;28.9;27;Matches
-318;Jorge Miramón\Jorge-Miramon;es ESP;DF;Levante;30;1989;20.9;3;0;0;11;19;0;56;26;28;0;2;0;15;26;57.7;15;0;52;72;72.2;20;Matches
-319;Luka Modrić\Luka-Modric;hr CRO;MF;Real Madrid;33;1985;14.2;3;1;0;19;14;1;41;10;16;1;0;0;24;41;58.5;27;1;24;37;64.9;13;Matches
-320;Jorge Molina\Jorge-Molina;es ESP;FW;Getafe;37;1982;15.2;4;1;0;23;28;15;8;3;4;1;0;0;16;25;64.0;18;0;6;15;40.0;9;Matches
-321;Jon Moncayola\Jon-Moncayola;es ESP;MFDF;Osasuna;21;1998;10.8;4;0;0;21;3;0;7;19;10;0;0;0;6;11;54.5;6;1;34;55;61.8;21;Matches
-322;Nacho Monreal\Nacho-Monreal;es ESP;DF;Real Sociedad;33;1986;18.5;1;0;0;26;10;1;37;18;30;0;0;0;6;8;75.0;6;0;29;46;63.0;17;Matches
-323;Ángel Montoro\Angel-Montoro;es ESP;MF;Granada;31;1988;9.8;5;0;0;21;15;0;44;11;12;0;0;0;6;9;66.7;6;2;16;27;59.3;11;Matches
-324;Álvaro Morata\Alvaro-Morata;es ESP;FW;Atletico Madrid;26;1992;17.3;5;1;1;43;50;27;10;11;4;0;0;0;14;24;58.3;14;0;14;20;70.0;6;Matches
-325;Alberto Moreno\Alberto-Moreno;es ESP;DF;Villarreal;27;1992;6.6;1;0;0;6;5;0;13;12;10;0;0;0;5;11;45.5;6;0;20;26;76.9;6;Matches
-326;Álex Moreno\Alex-Moreno;es ESP;DF;Betis;26;1993;19.1;3;0;0;25;27;4;57;22;17;0;2;0;35;63;55.6;39;1;34;59;57.6;25;Matches
-327;Gerard Moreno\Gerard-Moreno;es ESP;FWMF;Villarreal;27;1992;21.9;4;0;0;26;34;12;38;13;11;2;0;0;44;70;62.9;46;0;16;44;36.4;28;Matches
-328;Manu Morlanes\Manu-Morlanes;es ESP;MF;Villarreal;20;1999;1.0;0;0;0;1;0;0;1;2;2;0;0;0;1;1;100.0;1;0;2;4;50.0;2;Matches
-329;Loren Morón\Loren-Moron;es ESP;FW;Betis;25;1993;16.2;2;1;0;20;34;21;6;9;9;0;0;0;13;21;61.9;15;1;12;23;52.2;11;Matches
-330;Toni Moya\Toni-Moya;es ESP;MF;Atletico Madrid;21;1998;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-331;Javi Moyano\Javi-Moyano;es ESP;DF;Valladolid;33;1986;17.8;3;0;0;16;16;0;27;10;18;0;1;0;13;15;86.7;13;2;22;29;75.9;7;Matches
-332;Iker Muniain\Iker-Muniain;es ESP;FWMF;Athletic Bilbao;26;1992;17.4;0;1;0;17;39;2;38;12;8;0;0;0;35;59;59.3;37;4;21;31;67.7;10;Matches
-333;Aihen Muñoz\Aihen-Munoz;es ESP;DF;Real Sociedad;21;1997;6.0;0;0;0;3;2;0;27;7;2;0;0;0;3;6;50.0;3;0;16;23;69.6;7;Matches
-334;Javier Muñoz\Javier-Munoz;es ESP;MF;Alavés;24;1995;0.6;0;0;0;1;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-335;Jeison Murillo\Jeison-Murillo;co COL;DF;Celta Vigo;27;1992;7.0;2;0;0;8;6;3;1;9;2;0;0;0;0;0;;0;0;17;23;73.9;6;Matches
-336;Nacho\Nacho;es ESP;DF;Real Madrid;29;1990;4.4;3;0;0;9;7;0;16;5;9;0;0;0;1;5;20.0;1;0;11;18;61.1;7;Matches
-337;Nacho\Nacho;es ESP;DF;Valladolid;30;1989;12.1;2;0;0;18;6;2;33;20;15;0;0;0;5;12;41.7;6;0;39;55;70.9;16;Matches
-338;Naldo\Naldo;br BRA;DF;Espanyol;30;1988;13.7;7;1;1;18;4;1;2;14;19;0;0;0;3;3;100.0;3;0;23;30;76.7;7;Matches
-339;Marc Navarro\Marc-Navarro;es ESP;DF;Leganés;24;1995;2.4;1;0;0;6;0;0;7;2;0;0;0;0;2;2;100.0;2;0;3;3;100.0;0;Matches
-340;Ximo Navarro\Ximo-Navarro;es ESP;DF;Alavés;29;1990;16.6;8;0;0;25;20;0;18;22;41;0;0;0;11;17;64.7;12;0;38;52;73.1;14;Matches
-341;Jesús Navas\Jesus-Navas;es ESP;DF;Sevilla;33;1985;26.0;3;0;0;14;20;0;175;14;18;0;0;0;38;54;70.4;39;1;23;34;67.6;11;Matches
-342;Raúl Navas\Raul-Navas;es ESP;DF;Osasuna;31;1988;4.4;1;0;0;3;3;0;0;6;8;0;0;0;1;1;100.0;1;0;8;14;57.1;6;Matches
-343;Neto\Neto;br BRA;GK;Barcelona;30;1989;1.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-344;Carlos Neva\Carlos-Neva;es ESP;DF;Granada;23;1996;15.1;1;0;0;6;23;0;52;4;15;0;0;0;4;8;50.0;4;0;8;13;61.5;5;Matches
-345;Saúl Ñíguez\Saul-Niguez;es ESP;MFDF;Atletico Madrid;24;1994;25.0;6;0;0;46;20;6;28;48;39;0;0;0;19;30;63.3;20;0;71;113;62.8;42;Matches
-346;Fernando Niño\Fernando-Nino;es ESP;FW;Villarreal;18;2000;0.2;1;0;0;5;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-347;Nolito\Nolito;es ESP;FW;Sevilla;32;1986;10.0;0;0;0;22;9;10;14;9;1;1;0;0;12;16;75.0;12;0;12;30;40.0;18;Matches
-348;Unai Núñez\Unai-Nunez;es ESP;DF;Athletic Bilbao;22;1997;10.6;5;0;0;15;4;0;1;8;17;0;0;1;3;4;75.0;4;0;10;19;52.6;9;Matches
-349;Allan Nyom\Allan-Nyom;cm CMR;DFMF;Getafe;31;1988;19.0;10;0;0;43;13;3;56;14;12;0;0;0;10;21;47.6;12;0;33;46;71.7;13;Matches
-350;Jan Oblak\Jan-Oblak;si SVN;GK;Atletico Madrid;26;1993;25.7;0;0;0;0;7;0;0;0;1;0;0;0;1;1;100.0;1;0;0;0;;0;Matches
-351;Lucas Ocampos\Lucas-Ocampos;ar ARG;FW;Sevilla;25;1994;20.4;8;1;1;30;42;9;70;23;18;0;0;0;61;121;50.4;68;5;35;73;47.9;38;Matches
-352;Álvaro Odriozola\Alvaro-Odriozola;es ESP;DF;Real Madrid;23;1995;3.8;3;1;1;7;5;0;6;4;1;0;0;0;9;13;69.2;10;0;8;12;66.7;4;Matches
-353;Lucas Olaza\Lucas-Olaza;uy URU;DF;Celta Vigo;25;1994;24.0;4;0;0;20;15;0;151;26;26;1;0;0;8;13;61.5;8;1;45;66;68.2;21;Matches
-354;Kiko Olivas\Kiko-Olivas;es ESP;DF;Valladolid;30;1988;26.0;1;0;0;9;24;3;0;27;47;0;1;0;9;9;100.0;9;0;34;58;58.6;24;Matches
-355;Paulo Oliveira\Paulo-Oliveira;pt POR;DF;Eibar;27;1992;16.7;6;1;1;13;13;0;2;9;32;0;0;1;2;2;100.0;2;0;22;29;75.9;7;Matches
-356;Mathías Olivera\Mathias-Olivera;uy URU;DF;Getafe;21;1997;10.4;4;1;1;18;9;2;22;26;15;0;0;0;10;15;66.7;10;0;39;54;72.2;15;Matches
-357;Kenneth Omeruo\Kenneth-Omeruo;ng NGA;DF;Leganés;25;1993;17.5;5;0;0;14;6;0;0;23;30;0;1;0;2;2;100.0;2;0;32;36;88.9;4;Matches
-358;Javier Ontiveros\Javier-Ontiveros;es ESP;FWMF;Villarreal;21;1997;4.5;1;0;0;13;8;0;24;15;1;1;0;0;20;31;64.5;21;1;20;36;55.6;16;Matches
-359;Fabián Orellana\Fabian-Orellana;cl CHI;MFFW;Eibar;33;1986;21.1;7;1;0;18;45;8;89;15;19;1;0;0;54;107;50.5;59;3;24;57;42.1;33;Matches
-360;Mikel Oyarzabal\Mikel-Oyarzabal;es ESP;FWMF;Real Sociedad;22;1997;22.7;2;0;0;27;34;10;63;11;10;0;0;0;48;67;71.6;49;3;24;44;54.5;20;Matches
-361;Fernando Pacheco\Fernando-Pacheco;es ESP;GK;Alavés;27;1992;24.0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;;0;0;0;3;0.0;3;Matches
-362;Daniel Parejo\Daniel-Parejo;es ESP;MF;Valencia;30;1989;24.6;6;1;1;18;74;3;125;38;18;1;1;0;33;47;70.2;34;1;50;104;48.1;54;Matches
-363;Thomas Partey\Thomas-Partey;gh GHA;MF;Atletico Madrid;26;1993;20.4;10;0;0;38;20;0;23;25;36;0;1;0;34;39;87.2;35;1;39;69;56.5;30;Matches
-364;Gabriel Paulista\Gabriel-Paulista;br BRA;DF;Valencia;28;1990;23.2;5;0;0;14;17;0;1;8;45;0;0;0;6;7;85.7;6;0;14;27;51.9;13;Matches
-365;Alfonso Pedraza\Alfonso-Pedraza;es ESP;DF;Betis;23;1996;8.7;1;0;0;10;12;1;18;14;10;0;0;0;12;19;63.2;14;3;23;32;71.9;9;Matches
-366;Marc Pedraza\Marc-Pedraza;es ESP;MF;Mallorca;32;1987;0.8;0;0;0;2;0;0;0;2;1;0;0;0;0;0;;0;0;2;5;40.0;3;Matches
-367;Pedrosa\Pedrosa;es ESP;DFMF;Espanyol;21;1998;9.5;1;0;0;7;11;1;25;10;8;0;0;0;17;31;54.8;19;0;15;31;48.4;16;Matches
-368;Rubén Peña\Ruben-Pena;es ESP;DF;Villarreal;28;1991;14.8;4;0;0;28;19;0;60;19;21;0;0;1;16;38;42.1;19;1;29;49;59.2;20;Matches
-369;Luis Perea\Luis-Perea;es ESP;FWMF;Osasuna;21;1997;0.2;0;0;0;0;1;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-370;Victor Perea\Victor-Perea;es ESP;DF;Espanyol;19;2000;9.8;2;0;0;14;19;0;48;6;9;0;0;1;4;10;40.0;5;1;13;20;65.0;7;Matches
-371;Gonzalo Pereira Cejudo\Gonzalo-Pereira-Cejudo;es ESP;DF;Levante;22;1997;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-372;Carles Pérez\Carles-Perez;es ESP;FW;Barcelona;21;1998;5.3;0;0;0;4;4;2;16;3;1;0;0;0;10;22;45.5;11;0;5;13;38.5;8;Matches
-373;Iñigo Pérez\Inigo-Perez;es ESP;MFDF;Osasuna;31;1988;5.4;0;0;0;5;5;0;20;4;4;0;0;0;2;4;50.0;3;0;10;16;62.5;6;Matches
-374;Juan Pérez\Juan-Perez;es ESP;GK;Osasuna;23;1996;2.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-375;Lucas Pérez\Lucas-Perez;es ESP;FW;Alavés;30;1988;21.6;3;0;0;21;9;19;101;9;2;0;0;0;18;33;54.5;18;0;9;22;40.9;13;Matches
-376;Rubén Pérez\Ruben-Perez;es ESP;MF;Leganés;30;1989;16.4;6;0;0;23;25;0;6;26;28;0;1;0;6;8;75.0;8;0;41;69;59.4;28;Matches
-377;Pablo Piatti\Pablo-Piatti;ar ARG;DFMF;Espanyol;30;1989;0.6;0;0;0;0;2;1;5;1;0;0;0;0;0;0;;0;0;2;3;66.7;1;Matches
-378;Cristiano Piccini\Cristiano-Piccini;it ITA;DF;Valencia;26;1992;0.8;0;0;0;1;1;0;2;0;2;0;0;0;3;4;75.0;3;0;4;5;80.0;1;Matches
-379;Tomás Pina Isla\Tomas-Pina-Isla;es ESP;MF;Alavés;31;1987;10.0;3;0;0;24;12;0;1;16;12;1;0;0;6;7;85.7;7;0;23;31;74.2;8;Matches
-380;Pipa\Pipa;es ESP;DFMF;Espanyol;21;1998;1.3;1;0;0;3;1;0;4;1;1;0;1;0;2;3;66.7;2;0;2;5;40.0;3;Matches
-381;Gerard Piqué\Gerard-Pique;es ESP;DF;Barcelona;32;1987;23.7;10;0;0;24;15;0;0;17;24;0;2;0;7;7;100.0;7;0;27;37;73.0;10;Matches
-382;Óscar Plano\Oscar-Plano;es ESP;MF;Valladolid;28;1991;21.0;3;0;0;38;43;4;33;25;25;1;0;0;10;19;52.6;10;1;36;58;62.1;22;Matches
-383;Pere Pons\Pere-Pons;es ESP;MF;Alavés;26;1993;8.1;1;0;0;19;8;0;6;14;10;1;0;0;4;11;36.4;7;0;18;24;75.0;6;Matches
-384;Pedro Porro\Pedro-Porro;es ESP;DFMF;Valladolid;19;1999;7.2;1;0;0;3;9;0;26;13;7;0;0;0;7;14;50.0;8;1;16;26;61.5;10;Matches
-385;Francisco Portillo\Francisco-Portillo;es ESP;MF;Getafe;29;1990;3.7;2;0;0;9;3;0;5;5;1;0;0;0;9;11;81.8;9;0;9;14;64.3;5;Matches
-386;Portu\Portu;es ESP;FWMF;Real Sociedad;27;1992;18.5;5;0;0;23;16;14;72;18;8;0;0;0;6;17;35.3;6;0;27;49;55.1;22;Matches
-387;Sergio Postigo\Sergio-Postigo;es ESP;DF;Levante;30;1988;19.5;5;0;0;13;10;2;0;16;27;0;0;0;2;5;40.0;2;0;24;34;70.6;10;Matches
-388;Darío Poveda\Dario-Poveda;es ESP;FW;Atletico Madrid;22;1997;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-389;Alejandro Pozo Pozo\Alejandro-Pozo-Pozo;es ESP;DF;Mallorca;20;1999;4.7;0;0;0;5;5;1;20;11;10;0;0;0;2;6;33.3;2;0;16;24;66.7;8;Matches
-390;Alejandro Pozo Pozo\Alejandro-Pozo-Pozo;es ESP;FWMF;Sevilla;20;1999;0.4;0;0;0;0;0;0;1;1;0;0;0;0;0;2;0.0;0;0;2;4;50.0;2;Matches
-391;Abdón Prats\Abdon-Prats;es ESP;FWMF;Mallorca;26;1992;1.9;1;0;0;6;2;0;1;0;0;0;0;0;2;5;40.0;2;0;2;3;66.7;1;Matches
-392;Andrés Prieto\Andres-Prieto;es ESP;GK;Espanyol;25;1993;0.0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-393;Antonio Puertas\Antonio-Puertas;es ESP;FWMF;Granada;27;1992;19.7;4;0;0;26;31;2;33;17;10;0;0;0;37;64;57.8;46;2;30;55;54.5;25;Matches
-394;Riqui Puig\Riqui-Puig;es ESP;MF;Barcelona;19;1999;0.2;0;0;0;1;0;0;0;0;1;0;0;0;0;0;;0;0;0;0;;0;Matches
-395;Quini\Quini;es ESP;DF;Granada;29;1989;8.0;2;0;0;8;6;0;17;12;10;0;0;0;6;11;54.5;6;0;25;33;75.8;8;Matches
-396;Xavi Quintillà\Xavi-Quintilla;es ESP;DF;Villarreal;22;1996;15.3;5;0;0;24;11;1;73;10;9;0;0;0;4;6;66.7;4;0;24;29;82.8;5;Matches
-397;Quique\Quique;es ESP;FW;Eibar;29;1990;4.1;0;0;0;8;10;2;2;2;0;0;0;0;2;3;66.7;2;0;2;4;50.0;2;Matches
-398;Nemanja Radoja\Nemanja-Radoja;rs SRB;MF;Levante;26;1993;15.2;2;0;0;10;16;2;5;13;17;0;0;0;19;24;79.2;19;0;22;45;48.9;23;Matches
-399;Rafinha\Rafinha;br BRA;FWMF;Barcelona;26;1993;2.1;0;0;0;3;12;0;12;3;1;0;0;0;5;11;45.5;5;0;3;4;75.0;1;Matches
-400;Rafinha\Rafinha;br BRA;MF;Celta Vigo;26;1993;15.5;2;0;0;22;62;2;17;33;25;0;0;0;32;48;66.7;32;0;49;75;65.3;26;Matches
-401;Baba Rahman\Baba-Rahman;gh GHA;DF;Mallorca;25;1994;1.2;1;0;0;1;0;0;6;2;1;0;0;0;0;1;0.0;0;0;2;2;100.0;0;Matches
-402;Antonio Raillo\Antonio-Raillo;es ESP;DF;Mallorca;27;1991;21.2;5;1;1;20;7;3;0;21;16;0;2;0;0;0;;0;0;28;32;87.5;4;Matches
-403;Ivan Rakitić\Ivan-Rakitic;hr CRO;MF;Barcelona;31;1988;9.9;2;0;0;13;23;0;12;6;9;0;0;0;5;13;38.5;7;2;10;19;52.6;9;Matches
-404;Sandro Ramírez\Sandro-Ramirez;es ESP;FW;Valladolid;24;1995;11.1;2;0;0;14;31;5;22;8;4;1;0;0;16;31;51.6;16;0;8;19;42.1;11;Matches
-405;Iván Ramis\Ivan-Ramis;es ESP;DF;Eibar;34;1984;5.1;1;0;0;4;5;0;1;2;4;0;0;0;3;3;100.0;3;0;6;11;54.5;5;Matches
-406;Adrián Ramos\Adrian-Ramos;co COL;FW;Granada;33;1986;2.5;0;0;0;5;6;3;3;1;1;0;0;0;0;1;0.0;0;0;3;6;50.0;3;Matches
-407;Sergio Ramos\Sergio-Ramos;es ESP;DF;Real Madrid;33;1986;23.7;7;0;0;37;20;4;1;34;35;0;1;0;5;5;100.0;5;0;44;60;73.3;16;Matches
-408;Raúl\Raul;es ESP;FWMF;Betis;18;2000;0.2;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0.0;1;0;0;1;0.0;1;Matches
-409;Recio\Recio;es ESP;MF;Leganés;28;1991;14.5;9;0;0;33;39;1;20;18;16;0;0;0;11;21;52.4;15;0;24;50;48.0;26;Matches
-410;Sergio Reguilón\Sergio-Reguilon;es ESP;DF;Sevilla;22;1996;19.8;7;0;0;40;32;3;91;26;28;0;0;0;33;54;61.1;39;1;45;67;67.2;22;Matches
-411;Manolo Reina\Manolo-Reina;es ESP;GK;Mallorca;34;1985;25.0;3;0;0;0;6;0;0;0;5;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-412;Álex Remiro\Alex-Remiro;es ESP;GK;Real Sociedad;24;1995;18.0;0;0;0;0;4;0;0;0;0;0;0;0;1;1;100.0;1;0;0;1;0.0;1;Matches
-413;Luis Rioja\Luis-Rioja;es ESP;MF;Alavés;25;1993;13.3;2;0;0;14;10;1;48;8;15;0;0;0;19;29;65.5;20;0;11;23;47.8;12;Matches
-414;Rodrigo Riquelme\Rodrigo-Riquelme;es ESP;MF;Atletico Madrid;19;2000;0.1;0;0;0;0;1;0;1;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-415;Cristian Rivera\Cristian-Rivera;es ESP;MF;Leganés;22;1997;3.4;3;0;0;6;5;0;2;3;4;0;0;0;2;3;66.7;2;0;3;5;60.0;2;Matches
-416;Sergi Roberto\Sergi-Roberto;es ESP;DFMF;Barcelona;27;1992;19.3;8;0;0;17;29;1;22;14;24;0;0;0;7;12;58.3;8;0;20;32;62.5;12;Matches
-417;Joel Robles\Joel-Robles;es ESP;GK;Betis;29;1990;24.1;3;1;0;1;1;0;0;0;0;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-418;Marc Roca\Marc-Roca;es ESP;MF;Espanyol;22;1996;23.0;7;0;0;54;16;0;36;43;23;0;0;0;10;17;58.8;10;0;62;103;60.2;41;Matches
-419;Rubén Rochina\Ruben-Rochina;es ESP;MF;Levante;28;1991;14.0;4;0;0;22;39;1;49;19;11;1;0;0;28;44;63.6;32;1;32;56;57.1;24;Matches
-420;Rodrigo\Rodrigo;es ESP;FW;Valencia;28;1991;15.3;2;1;0;14;23;5;17;7;7;1;0;0;15;33;45.5;20;0;11;21;52.4;10;Matches
-421;Kévin Rodrigues\Kevin-Rodrigues;pt POR;DF;Real Sociedad;25;1994;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;1;1;100.0;0;Matches
-422;Kévin Rodrigues\Kevin-Rodrigues;pt POR;DFFW;Leganés;25;1994;14.1;3;1;1;25;14;1;87;21;21;0;0;0;18;28;64.3;21;3;46;63;73.0;17;Matches
-423;Óscar Rodríguez Arnaiz\Oscar-Rodriguez-Arnaiz;es ESP;MFFW;Leganés;21;1998;17.6;4;1;0;22;32;1;78;8;17;0;0;0;34;69;49.3;39;2;15;42;35.7;27;Matches
-424;Ángel Rodríguez\Angel-Rodriguez;es ESP;FW;Getafe;32;1987;11.8;4;0;0;43;24;23;22;8;3;0;0;0;13;22;59.1;13;0;11;20;55.0;9;Matches
-425;Dani Rodríguez\Dani-Rodriguez;es ESP;MFFW;Mallorca;31;1988;23.5;3;0;0;44;49;5;24;30;25;2;0;0;27;48;56.3;29;3;53;85;62.4;32;Matches
-426;Guido Rodríguez\Guido-Rodriguez;ar ARG;MF;Betis;25;1994;1.8;2;0;0;3;3;1;0;5;5;0;0;0;0;1;0.0;0;0;7;9;77.8;2;Matches
-427;James Rodríguez\James-Rodriguez;co COL;MF;Real Madrid;28;1991;3.8;1;0;0;5;5;2;22;8;2;0;0;0;0;1;0.0;0;0;12;16;75.0;4;Matches
-428;Rodrygo\Rodrygo;br BRA;FW;Real Madrid;18;2001;7.4;0;0;0;7;13;1;27;3;8;0;0;0;11;26;42.3;12;1;4;17;23.5;13;Matches
-429;Facundo Roncaglia\Facundo-Roncaglia;ar ARG;DF;Osasuna;32;1987;10.3;4;2;1;15;8;0;8;9;11;0;2;0;9;12;75.0;10;0;18;25;72.0;7;Matches
-430;Roberto Rosales\Roberto-Rosales;ve VEN;DF;Leganés;30;1988;12.5;5;0;0;21;5;1;50;14;15;0;0;0;6;12;50.0;7;0;27;40;67.5;13;Matches
-431;Rubén\Ruben;es ESP;GK;Osasuna;35;1984;12.6;0;0;0;0;1;0;0;0;1;0;0;0;1;1;100.0;1;0;0;0;;0;Matches
-432;Waldo Rubio\Waldo-Rubio;es ESP;MFFW;Valladolid;23;1995;4.9;3;0;0;8;4;2;10;4;4;0;0;0;11;23;47.8;12;1;7;16;43.8;9;Matches
-433;Aitor Ruibal\Aitor-Ruibal;es ESP;DFFW;Leganés;23;1996;4.9;2;0;0;14;5;4;16;9;1;0;0;0;13;23;56.5;15;0;13;23;56.5;10;Matches
-434;Jorge Sáenz\Jorge-Saenz;es ESP;DFMF;Celta Vigo;22;1996;1.4;1;1;0;2;1;0;0;0;3;0;0;0;0;0;;0;0;3;3;100.0;0;Matches
-435;Borja Sainz\Borja-Sainz;es ESP;MFFW;Alavés;18;2001;3.8;1;0;0;10;5;2;7;6;2;0;0;0;6;15;40.0;8;0;9;15;60.0;6;Matches
-436;Yannis Salibur\Yannis-Salibur;fr FRA;FWMF;Mallorca;28;1991;0.6;0;0;0;2;3;0;2;0;1;0;0;0;2;3;66.7;2;0;0;0;;0;Matches
-437;Mohammed Salisu\Mohammed-Salisu;gh GHA;DF;Valladolid;20;1999;25.3;2;0;0;18;10;1;1;27;30;0;1;0;5;6;83.3;5;0;46;65;70.8;19;Matches
-438;Fede San Emeterio\Fede-San-Emeterio;es ESP;MF;Valladolid;22;1997;11.8;3;0;0;17;16;0;3;13;22;0;0;0;2;3;66.7;2;0;21;41;51.2;20;Matches
-439;Mikel San José\Mikel-San-Jose;es ESP;MF;Athletic Bilbao;30;1989;3.9;3;0;0;6;1;1;0;7;11;0;0;0;0;4;0.0;0;0;8;18;44.4;10;Matches
-440;Oihan Sancet\Oihan-Sancet;es ESP;MF;Athletic Bilbao;19;2000;3.6;1;0;0;7;4;0;1;3;0;0;0;0;4;8;50.0;4;0;4;9;44.4;5;Matches
-441;Germán Sánchez\German-Sanchez;es ESP;DF;Granada;32;1986;16.7;9;1;1;19;16;0;0;10;23;0;0;0;0;0;;0;0;15;18;83.3;3;Matches
-442;Manuel Sánchez\Manuel-Sanchez;es ESP;DF;Atletico Madrid;18;2000;0.7;1;0;0;2;0;1;4;1;0;0;0;0;1;1;100.0;1;0;1;1;100.0;0;Matches
-443;Víctor Sánchez\Victor-Sanchez;es ESP;MFDF;Espanyol;31;1987;16.6;10;1;1;45;26;0;67;30;20;0;1;0;11;15;73.3;12;1;56;94;59.6;38;Matches
-444;Luca Sangalli\Luca-Sangalli;es ESP;MF;Real Sociedad;24;1995;3.4;0;0;0;1;7;0;5;1;1;0;0;0;5;6;83.3;5;0;1;8;12.5;7;Matches
-445;Oier Sanjurjo\Oier-Sanjurjo;es ESP;MF;Osasuna;33;1986;17.5;9;1;1;31;30;1;8;21;18;0;0;0;5;9;55.6;5;0;37;56;66.1;19;Matches
-446;Ivan Šaponjić\Ivan-Saponjic;rs SRB;DF;Atletico Madrid;21;1997;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-447;Joan Sastre Vanrell\Joan-Sastre-Vanrell;es ESP;DF;Mallorca;22;1997;14.2;4;0;0;18;19;0;62;16;21;0;1;0;2;12;16.7;2;0;24;45;53.3;21;Matches
-448;Stefan Savić\Stefan-Savic;me MNE;DF;Atletico Madrid;28;1991;13.0;3;0;0;11;7;0;0;5;17;0;0;1;3;4;75.0;3;0;10;13;76.9;3;Matches
-449;Aleksandar Sedlar\Aleksandar-Sedlar;rs SRB;DF;Mallorca;27;1991;1.8;1;0;0;3;3;0;0;1;5;0;0;0;0;0;;0;0;1;5;20.0;4;Matches
-450;Nélson Semedo\Nelson-Semedo;pt POR;DF;Barcelona;25;1993;14.4;1;0;0;15;22;2;10;25;14;1;0;0;26;40;65.0;27;1;35;47;74.5;12;Matches
-451;Josep Señé\Josep-Sene;es ESP;MF;Mallorca;27;1991;1.5;0;0;0;1;3;0;1;1;1;0;0;0;2;3;66.7;2;0;3;4;75.0;1;Matches
-452;Salva Sevilla\Salva-Sevilla;es ESP;MF;Mallorca;35;1984;20.6;9;1;1;25;15;1;99;14;10;0;0;0;8;19;42.1;9;0;19;37;51.4;18;Matches
-453;Sidnei\Sidnei;br BRA;DF;Betis;29;1989;7.6;1;0;0;4;4;0;0;6;13;0;0;0;3;4;75.0;4;1;9;11;81.8;2;Matches
-454;Jonathan Silva\Jonathan-Silva;ar ARG;DF;Leganés;25;1994;22.6;10;0;0;31;29;3;99;14;25;0;0;1;13;20;65.0;13;0;41;63;65.1;22;Matches
-455;Rui Silva\Rui-Silva;pt POR;GK;Granada;25;1994;25.0;1;0;0;0;2;0;0;0;1;0;0;0;1;1;100.0;1;0;0;0;;0;Matches
-456;Unai Simón\Unai-Simon;es ESP;GK;Athletic Bilbao;22;1997;23.0;2;0;0;1;2;0;0;0;1;0;0;0;0;1;0.0;0;0;0;1;0.0;1;Matches
-457;Dimitris Siovas\Dimitris-Siovas;gr GRE;DF;Leganés;30;1988;14.6;4;0;0;17;5;2;4;21;30;0;1;0;5;6;83.3;5;0;32;44;72.7;12;Matches
-458;Pione Sisto\Pione-Sisto;dk DEN;FWMF;Celta Vigo;24;1995;8.5;2;0;0;6;21;5;35;9;4;0;0;0;17;25;68.0;17;0;15;28;53.6;13;Matches
-459;Antonio Sivera\Antonio-Sivera;es ESP;GK;Alavés;22;1996;3.0;1;0;0;1;0;0;0;0;0;0;1;0;0;0;;0;0;0;0;;0;Matches
-460;Fyodor Smolov\Fyodor-Smolov;ru RUS;FW;Celta Vigo;29;1990;3.2;1;0;0;5;3;4;3;0;4;0;0;0;5;10;50.0;5;0;0;4;0.0;4;Matches
-461;Rubén Sobrino\Ruben-Sobrino;es ESP;FWMF;Valencia;27;1992;1.4;0;0;0;6;6;1;2;4;0;0;0;0;4;7;57.1;4;0;5;8;62.5;3;Matches
-462;Roberto Soldado\Roberto-Soldado;es ESP;FW;Granada;34;1985;18.6;11;0;0;33;32;16;11;3;4;1;0;0;8;18;44.4;11;3;10;19;52.6;9;Matches
-463;Carlos Soler\Carlos-Soler;es ESP;MF;Valencia;22;1997;15.4;3;0;0;19;13;1;12;15;9;0;0;0;12;18;66.7;14;1;23;41;56.1;18;Matches
-464;Kévin Soni\Kevin-Soni;cm CMR;FW;Espanyol;21;1998;0.0;0;0;0;2;0;0;0;0;0;0;0;0;0;1;0.0;0;0;0;0;;0;Matches
-465;David Soria\David-Soria;es ESP;GK;Getafe;26;1993;26.0;1;0;0;1;0;0;0;0;0;0;0;0;0;0;;0;0;0;2;0.0;2;Matches
-466;Juan Soriano\Juan-Soriano;es ESP;GK;Leganés;21;1997;11.0;2;0;0;1;1;0;0;0;0;0;1;0;0;0;;0;0;0;0;;0;Matches
-467;Damián Suárez\Damian-Suarez;uy URU;DF;Getafe;31;1988;20.5;10;0;0;40;38;0;115;33;22;0;0;0;16;27;59.3;17;1;42;74;56.8;32;Matches
-468;Denis Suárez\Denis-Suarez;es ESP;MFFW;Celta Vigo;25;1994;14.7;2;0;0;13;30;0;82;10;14;1;0;0;46;85;54.1;50;4;18;36;50.0;18;Matches
-469;Luis Suárez\Luis-Suarez;uy URU;FW;Barcelona;32;1987;14.2;4;0;0;13;14;9;9;2;0;0;0;0;20;39;51.3;20;3;3;10;30.0;7;Matches
-470;Suso\Suso;es ESP;FW;Sevilla;25;1993;3.2;0;0;0;3;3;0;20;1;1;0;0;0;10;15;66.7;11;1;5;8;62.5;3;Matches
-471;Tachi\Tachi;es ESP;MFDF;Alavés;21;1997;0.1;0;0;0;1;0;0;0;0;2;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-472;Rodrigo Tarín\Rodrigo-Tarin;es ESP;DF;Leganés;23;1996;4.0;1;0;0;3;3;0;0;2;2;0;0;0;0;0;;0;0;4;11;36.4;7;Matches
-473;Álvaro Tejero\Alvaro-Tejero;es ESP;DF;Eibar;23;1996;13.3;3;0;0;15;15;1;65;10;24;0;0;0;1;3;33.3;1;1;25;35;71.4;10;Matches
-474;Cristian Tello\Cristian-Tello;es ESP;MFFW;Betis;27;1991;4.7;0;0;0;3;2;0;19;2;2;0;0;0;8;11;72.7;8;1;3;6;50.0;3;Matches
-475;Marc-André ter Stegen\Marc-Andre-ter-Stegen;de GER;GK;Barcelona;27;1992;25.0;0;0;0;0;2;0;0;0;1;0;0;0;0;0;;0;0;1;2;50.0;1;Matches
-476;David Timor\David-Timor;es ESP;MF;Getafe;29;1989;3.5;2;0;0;6;7;0;3;2;5;0;0;0;1;1;100.0;1;0;4;5;80.0;1;Matches
-477;Jean-Clair Todibo\Jean-Clair-Todibo;fr FRA;DF;Barcelona;19;1999;0.9;0;0;0;1;0;0;0;1;0;0;0;0;0;1;0.0;0;0;1;2;50.0;1;Matches
-478;Karl Toko Ekambi\Karl-Toko-Ekambi;cm CMR;FW;Villarreal;26;1992;11.1;0;0;0;7;7;7;4;2;3;0;1;0;16;27;59.3;19;1;4;7;57.1;3;Matches
-479;Raúl de Tomás\Raul-de-Tomas;es ESP;FW;Espanyol;24;1994;5.0;1;0;0;9;10;2;3;1;2;1;0;0;19;27;70.4;20;3;2;7;28.6;5;Matches
-480;Toño\Tono;es ESP;DF;Levante;29;1989;13.0;0;0;0;13;13;5;42;10;7;0;0;0;15;25;60.0;16;1;20;32;62.5;12;Matches
-481;Ferrán Torres\Ferran-Torres;es ESP;MFFW;Valencia;19;2000;19.7;5;0;0;15;29;11;65;13;10;0;0;0;46;78;59.0;50;2;18;37;48.6;19;Matches
-482;Óliver Torres\Oliver-Torres;es ESP;FWMF;Sevilla;24;1994;12.4;5;0;0;23;13;0;30;21;9;0;0;0;19;26;73.1;19;1;34;55;61.8;21;Matches
-483;Pau Torres\Pau-Torres;es ESP;DF;Villarreal;22;1997;22.0;4;0;0;23;5;0;1;19;18;0;1;0;7;9;77.8;8;1;29;35;82.9;6;Matches
-484;Roberto Torres\Roberto-Torres;es ESP;MFFW;Osasuna;30;1989;22.0;1;0;0;13;25;2;116;14;20;0;1;0;20;33;60.6;22;3;17;48;35.4;31;Matches
-485;Aleksandar Trajkovski\Aleksandar-Trajkovski;mk MKD;MF;Mallorca;26;1992;1.6;0;0;0;4;4;0;13;2;2;0;0;0;2;3;66.7;2;0;2;5;40.0;3;Matches
-486;Manu Trigueros\Manu-Trigueros;es ESP;MF;Villarreal;27;1991;12.7;4;0;0;21;25;0;24;18;3;0;0;0;10;16;62.5;11;0;27;54;50.0;27;Matches
-487;Kieran Trippier\Kieran-Trippier;eng ENG;DF;Atletico Madrid;28;1990;16.0;1;0;0;15;9;2;103;23;17;0;0;0;12;18;66.7;12;1;41;67;61.2;26;Matches
-488;Samuel Umtiti\Samuel-Umtiti;fr FRA;DF;Barcelona;25;1993;9.3;4;0;0;17;14;1;0;8;24;0;0;0;4;6;66.7;4;0;13;18;72.2;5;Matches
-489;Enes Ünal\Enes-Unal;tr TUR;FW;Valladolid;22;1997;18.0;2;0;0;30;44;13;8;6;6;1;0;0;17;30;56.7;18;0;10;23;43.5;13;Matches
-490;Tomáš Vaclík\Tomas-Vaclik;cz CZE;GK;Sevilla;30;1989;24.5;0;0;0;0;3;0;0;0;0;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-491;Álvaro Vadillo\Alvaro-Vadillo;es ESP;FWMF;Granada;24;1994;13.6;0;0;0;9;20;9;92;9;7;0;0;0;20;41;48.8;22;2;12;21;57.1;9;Matches
-492;Germán Valera\German-Valera;es ESP;FW;Atletico Madrid;17;2002;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-493;Martin Valjent\Martin-Valjent;sk SVK;DF;Mallorca;23;1995;26.0;4;0;0;13;8;1;1;16;30;0;0;0;6;8;75.0;6;0;25;32;78.1;7;Matches
-494;Jesús Vallejo\Jesus-Vallejo;es ESP;DF;Granada;22;1997;1.0;0;0;0;0;0;1;1;0;1;0;0;0;0;0;;0;0;0;0;;0;Matches
-495;Manu Vallejo\Manu-Vallejo;es ESP;MFFW;Valencia;22;1997;3.5;0;0;0;5;3;1;3;2;3;0;0;0;4;6;66.7;4;0;5;9;55.6;4;Matches
-496;Federico Valverde\Federico-Valverde;uy URU;MF;Real Madrid;21;1998;13.9;1;0;0;15;7;0;10;13;19;0;0;0;12;25;48.0;15;1;27;40;67.5;13;Matches
-497;Raphaël Varane\Raphael-Varane;fr FRA;DF;Real Madrid;26;1993;22.0;2;0;0;13;6;1;2;18;18;0;0;0;7;10;70.0;8;0;26;37;70.3;11;Matches
-498;Matías Vargas\Matias-Vargas;ar ARG;FWMF;Espanyol;21;1997;10.5;1;0;0;8;18;1;38;9;2;0;0;0;23;40;57.5;24;1;10;23;43.5;13;Matches
-499;Franco Vázquez\Franco-Vazquez;ar ARG;MFFW;Sevilla;30;1989;9.8;4;0;0;21;33;6;16;17;7;0;0;0;17;21;81.0;18;1;27;50;54.0;23;Matches
-500;Kevin Vázquez\Kevin-Vazquez;es ESP;DF;Celta Vigo;26;1993;8.2;5;0;0;10;13;1;15;8;14;0;0;0;8;12;66.7;8;0;13;20;65.0;7;Matches
-501;Lucas Vázquez\Lucas-Vazquez;es ESP;FWMF;Real Madrid;28;1991;6.1;1;0;0;17;10;1;28;10;6;1;0;0;9;16;56.3;10;0;14;24;58.3;10;Matches
-502;Unai Vencedor Paris\Unai-Vencedor-Paris;es ESP;MF;Athletic Bilbao;18;2000;0.8;1;0;0;0;1;0;4;0;0;0;0;0;1;1;100.0;1;0;0;0;;0;Matches
-503;Mikel Vesga\Mikel-Vesga;es ESP;MF;Athletic Bilbao;26;1993;7.2;2;0;0;13;4;0;6;14;12;0;0;0;5;7;71.4;5;0;18;32;56.3;14;Matches
-504;Rúben Vezo\Ruben-Vezo;pt POR;DF;Levante;25;1994;18.0;4;0;0;20;19;1;0;15;22;0;1;0;1;2;50.0;1;1;29;45;64.4;16;Matches
-505;Fede Vico\Fede-Vico;es ESP;MFFW;Granada;25;1994;4.0;1;0;0;3;7;0;18;0;1;0;0;0;7;13;53.8;8;0;0;5;0.0;5;Matches
-506;Aleix Vidal\Aleix-Vidal;es ESP;MF;Alavés;29;1989;22.2;6;0;0;16;41;2;101;14;21;1;0;0;21;47;44.7;26;3;20;44;45.5;24;Matches
-507;Arturo Vidal\Arturo-Vidal;cl CHI;MFFW;Barcelona;32;1987;10.1;3;0;0;28;16;6;6;26;11;0;1;0;5;11;45.5;5;1;39;57;68.4;18;Matches
-508;Nacho Vidal\Nacho-Vidal;es ESP;DF;Osasuna;24;1995;17.3;5;0;0;22;25;0;48;17;35;0;1;0;21;26;80.8;21;0;31;43;72.1;12;Matches
-509;Dídac Vilà\Didac-Vila;es ESP;DF;Espanyol;30;1989;18.4;5;0;0;22;20;2;46;30;28;0;0;0;8;15;53.3;9;1;47;74;63.5;27;Matches
-510;Toni Villa\Toni-Villa;es ESP;MF;Valladolid;24;1995;12.0;4;0;0;14;28;2;24;16;8;0;0;0;33;78;42.3;37;3;20;48;41.7;28;Matches
-511;Asier Villalibre\Asier-Villalibre;es ESP;FW;Athletic Bilbao;21;1997;3.8;0;0;0;8;8;5;6;1;1;0;0;0;3;7;42.9;3;0;2;6;33.3;4;Matches
-512;Juan Villar\Juan-Villar;es ESP;FW;Osasuna;31;1988;2.6;1;0;0;7;2;6;1;0;0;0;0;0;1;1;100.0;1;0;0;1;0.0;1;Matches
-513;Vitolo\Vitolo;es ESP;MFFW;Atletico Madrid;29;1989;11.4;3;0;0;20;36;5;5;8;9;0;0;0;33;60;55.0;35;0;13;26;50.0;13;Matches
-514;Šime Vrsaljko\Sime-Vrsaljko;hr CRO;DF;Atletico Madrid;27;1992;4.0;3;0;0;7;3;0;14;4;8;0;0;0;0;0;;0;0;8;10;80.0;2;Matches
-515;Nikola Vukčević\Nikola-Vukcevic;me MNE;MF;Levante;27;1991;11.2;7;0;0;25;17;0;1;18;9;0;0;0;4;4;100.0;4;0;29;49;59.2;20;Matches
-516;Moussa Wagué\Moussa-Wague;sn SEN;DF;Barcelona;20;1998;1.0;0;0;0;1;0;0;6;3;1;0;0;0;4;5;80.0;4;0;3;4;75.0;1;Matches
-517;Wakaso\Wakaso;gh GHA;MF;Alavés;29;1990;14.3;12;1;1;41;24;0;15;28;20;0;0;0;24;36;66.7;25;0;51;70;72.9;19;Matches
-518;Daniel Wass\Daniel-Wass;dk DEN;DFMF;Valencia;30;1989;24.1;5;0;0;25;29;3;69;24;27;0;0;0;10;17;58.8;10;0;39;63;61.9;24;Matches
-519;Iñaki Williams\Inaki-Williams;es ESP;FW;Athletic Bilbao;25;1994;23.5;2;0;0;19;35;19;42;10;4;2;0;0;35;60;58.3;38;1;14;22;63.6;8;Matches
-520;Yoel\Yoel;es ESP;GK;Eibar;30;1988;1.0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;;0;0;0;0;;0;Matches
-521;Okay Yokuşlu\Okay-Yokuslu;tr TUR;MF;Celta Vigo;25;1994;14.2;3;0;0;26;8;0;3;20;22;0;0;0;18;26;69.2;19;0;26;41;63.4;15;Matches
-522;Joseba Zaldúa\Joseba-Zaldua;es ESP;DF;Real Sociedad;27;1992;21.8;6;0;0;27;48;1;82;29;33;0;0;1;12;26;46.2;12;0;43;68;63.2;25;Matches
-523;Andre-Frank Zambo Anguissa\Andre-Frank-Zambo-Anguissa;cm CMR;MF;Villarreal;23;1995;18.7;6;0;0;30;25;0;9;32;30;0;0;0;56;65;86.2;57;1;55;82;67.1;27;Matches
-524;Igor Zubeldia\Igor-Zubeldia;es ESP;MFDF;Real Sociedad;22;1997;21.0;6;0;0;40;17;0;4;32;12;0;1;0;17;19;89.5;17;0;49;66;74.2;17;Matches
-525;David Zurutuza\David-Zurutuza;es ESP;MF;Real Sociedad;33;1986;1.0;0;0;0;2;0;0;1;1;3;0;0;0;1;2;50.0;1;0;2;3;66.7;1;Matches
-526;Martin Ødegaard\Martin-Odegaard;no NOR;MF;Real Sociedad;20;1998;21.4;3;0;0;21;28;0;90;12;8;0;0;0;55;78;70.5;57;1;20;46;43.5;26;Matches
+id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;Int;TklW;PKwon;PKcon;OG;Recov;Won;Lost;Won%;Matches
+1;Antonio Adán\Antonio-Adan;es ESP;GK;Atlético Madrid;32;1987;0.3;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;;Matches
+2;Aritz Aduriz\Aritz-Aduriz;es ESP;FW;Athletic Bilbao;38;1981;2.2;3;0;0;7;1;0;0;0;1;0;0;0;7;20;6;76.9;Matches
+3;Lumor Agbenyenu\Lumor-Agbenyenu;gh GHA;DF;Mallorca;22;1996;17.9;5;1;1;13;9;0;68;24;20;0;0;0;182;12;15;44.4;Matches
+4;Martin Agirregabiria\Martin-Agirregabiria;es ESP;DF;Alavés;23;1996;17.0;3;0;0;27;15;1;24;11;18;0;1;0;150;15;16;48.4;Matches
+5;Joseph Aidoo\Joseph-Aidoo;gh GHA;DF;Celta Vigo;23;1995;20.9;4;0;0;14;15;0;0;37;15;0;2;0;179;46;37;55.4;Matches
+6;Jordi Alba\Jordi-Alba;es ESP;DF;Barcelona;30;1989;15.3;4;0;0;8;11;4;41;22;8;0;0;1;141;6;10;37.5;Matches
+7;Raúl Albiol\Raul-Albiol;es ESP;DF;Villarreal;33;1985;26.0;8;0;0;24;17;1;3;32;29;0;2;0;235;50;25;66.7;Matches
+8;Paco Alcácer\Paco-Alcacer;es ESP;FW;Villarreal;25;1993;5.5;1;0;0;3;7;6;1;1;1;1;0;0;20;5;9;35.7;Matches
+9;Rubén Alcaraz\Ruben-Alcaraz;es ESP;MF;Valladolid;28;1991;13.7;7;0;0;25;38;0;23;10;27;0;1;0;188;26;31;45.6;Matches
+10;Álex Alegría\Alex-Alegria;es ESP;FW;Mallorca;26;1992;1.1;0;0;0;5;4;1;1;0;0;0;0;0;5;11;9;55.0;Matches
+11;Carles Aleñá\Carles-Alena;es ESP;MFFW;Betis;21;1998;4.9;1;0;0;6;14;2;1;1;9;0;0;0;29;2;10;16.7;Matches
+12;Carles Aleñá\Carles-Alena;es ESP;MF;Barcelona;21;1998;1.9;0;0;0;3;2;0;4;0;1;0;0;0;12;2;3;40.0;Matches
+13;Sergio Álvarez\Sergio-Alvarez;es ESP;MFDF;Eibar;27;1992;7.8;4;0;0;10;6;0;2;10;10;0;0;0;87;14;20;41.2;Matches
+14;Sergio Álvarez\Sergio-Alvarez;es ESP;GK;Celta Vigo;32;1986;2.0;3;0;0;0;0;0;0;0;0;0;0;0;4;0;0;;Matches
+15;Yeray Álvarez\Yeray-Alvarez;es ESP;DF;Athletic Bilbao;24;1995;25.0;2;0;0;15;24;1;10;50;19;0;1;0;259;67;44;60.4;Matches
+16;Ibrahim Amadou\Ibrahim-Amadou;fr FRA;MF;Leganés;26;1993;1.0;0;0;0;1;1;0;0;0;2;0;0;0;8;2;0;100.0;Matches
+17;Amath\Amath;sn SEN;MF;Getafe;23;1996;0.5;0;0;0;2;2;0;0;0;0;0;0;0;3;1;1;50.0;Matches
+18;Miguel Ángel Guerrero\Miguel-Angel-Guerrero;es ESP;FW;Leganés;29;1990;1.5;0;0;0;4;1;1;1;0;0;0;0;0;6;3;6;33.3;Matches
+19;Miguel Ángel Moyá\Miguel-Angel-Moya;es ESP;GK;Real Sociedad;35;1984;7.0;0;0;0;0;0;0;0;1;0;0;0;0;38;0;0;;Matches
+20;José Ángel\Jose-Angel;es ESP;DF;Eibar;29;1989;20.4;4;0;0;21;13;0;115;27;24;0;1;0;223;27;14;65.9;Matches
+21;Antoñito\Antonito;es ESP;DFMF;Valladolid;31;1987;5.8;1;0;0;5;5;1;21;12;6;0;0;0;35;6;4;60.0;Matches
+22;Vitorino Antunes\Vitorino-Antunes;pt POR;MF;Getafe;32;1987;0.1;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;;Matches
+23;Anuar\Anuar;ma MAR;MFFW;Valladolid;24;1995;2.0;1;0;0;3;5;0;1;5;4;0;0;0;25;2;5;28.6;Matches
+24;Mauro Arambarri\Mauro-Arambarri;uy URU;MF;Getafe;23;1995;24.3;9;1;1;60;43;0;26;36;37;0;0;0;318;39;45;46.4;Matches
+25;Néstor Araujo\Nestor-Araujo;mx MEX;DF;Celta Vigo;27;1991;24.2;8;0;0;21;8;0;0;38;24;0;0;0;213;74;31;70.5;Matches
+26;Ronald Araújo\Ronald-Araujo;uy URU;DF;Barcelona;20;1999;0.1;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;;Matches
+27;Anaitz Arbilla\Anaitz-Arbilla;es ESP;DF;Eibar;32;1987;19.2;5;0;0;20;11;0;24;26;18;0;0;0;278;48;25;65.8;Matches
+28;Alphonse Areola\Alphonse-Areola;fr FRA;GK;Real Madrid;26;1993;3.0;1;0;0;1;0;0;0;0;0;0;1;0;21;0;0;;Matches
+29;Santiago Arias\Santiago-Arias;co COL;DF;Atlético Madrid;27;1992;6.1;0;0;0;6;10;0;13;9;8;0;0;0;44;10;3;76.9;Matches
+30;José Arnaiz\Jose-Arnaiz;es ESP;MFFW;Leganés;24;1995;3.6;2;0;0;9;6;1;12;2;3;0;0;0;33;1;5;16.7;Matches
+31;José Arnaiz\Jose-Arnaiz;es ESP;FWMF;Osasuna;24;1995;1.9;0;0;0;3;2;0;2;3;2;0;0;0;6;1;4;20.0;Matches
+32;Sergio Asenjo\Sergio-Asenjo;es ESP;GK;Villarreal;30;1989;24.0;1;0;0;2;4;0;0;0;0;0;1;0;94;0;0;;Matches
+33;Iago Aspas\Iago-Aspas;es ESP;FW;Celta Vigo;31;1987;25.9;7;0;0;21;49;16;20;14;17;1;0;0;114;16;46;25.8;Matches
+34;Roger Assalé\Roger-Assale;ci CIV;FWMF;Leganés;25;1993;1.1;0;0;0;3;3;1;3;0;0;1;0;0;4;0;1;0.0;Matches
+35;Miguel Atienza\Miguel-Atienza;es ESP;MF;Eibar;;;0.3;0;0;0;1;1;0;0;1;0;0;0;0;0;1;0;100.0;Matches
+36;Ezequiel Ávila\Ezequiel-Avila;ar ARG;FW;Osasuna;25;1994;17.7;6;0;0;46;43;24;22;4;16;1;0;0;88;47;82;36.4;Matches
+37;Javier Avilés\Javier-Aviles;es ESP;MF;Leganés;21;1997;0.1;0;0;0;0;0;0;3;0;0;0;0;0;3;0;0;;Matches
+38;Chidozie Awaziem\Chidozie-Awaziem;ng NGA;DF;Leganés;22;1997;16.7;7;0;0;16;10;2;4;26;22;0;0;0;143;38;36;51.4;Matches
+39;Ramon Azeez\Ramon-Azeez;ng NGA;MF;Granada;26;1992;9.8;3;0;0;24;15;1;6;11;12;0;0;0;73;8;23;25.8;Matches
+40;Iddrisu Baba\Iddrisu-Baba;gh GHA;MF;Mallorca;23;1996;23.2;5;0;0;31;47;1;2;31;33;0;3;1;317;53;59;47.3;Matches
+41;Carlos Bacca\Carlos-Bacca;co COL;FWMF;Villarreal;32;1986;4.7;1;0;0;5;0;5;2;0;0;0;0;0;15;5;10;33.3;Matches
+42;Gareth Bale\Gareth-Bale;wal WAL;FWMF;Real Madrid;30;1989;11.0;4;1;1;15;10;4;45;5;6;0;0;0;38;21;11;65.6;Matches
+43;Mikel Balenziaga\Mikel-Balenziaga;es ESP;DF;Athletic Bilbao;31;1988;3.0;1;0;0;3;2;0;8;0;4;0;0;0;33;5;0;100.0;Matches
+44;Éver Banega\Ever-Banega;ar ARG;MF;Sevilla;31;1988;20.6;6;0;0;22;41;2;123;8;21;0;0;0;200;10;12;45.5;Matches
+45;Federico Barba\Federico-Barba;it ITA;DF;Valladolid;25;1993;5.0;3;0;0;8;5;0;5;8;8;0;0;0;31;7;2;77.8;Matches
+46;Enis Bardhi\Enis-Bardhi;mk MKD;MF;Levante;24;1995;16.1;4;0;0;32;31;4;46;9;16;1;0;0;108;3;24;11.1;Matches
+47;Kike Barja\Kike-Barja;es ESP;MF;Osasuna;22;1997;0.7;0;0;0;2;1;0;2;0;0;0;0;0;6;0;2;0.0;Matches
+48;Antonio Barragán\Antonio-Barragan;es ESP;DF;Betis;32;1987;4.6;1;0;0;6;9;0;18;6;0;0;1;0;35;7;3;70.0;Matches
+49;Ander Barrenetxea\Ander-Barrenetxea;es ESP;FWMF;Real Sociedad;17;2001;2.4;0;0;0;10;3;1;9;2;3;0;1;0;17;0;4;0.0;Matches
+50;Marc Bartra\Marc-Bartra;es ESP;DFMF;Betis;28;1991;21.9;5;0;0;26;25;0;1;29;32;0;1;0;237;85;42;66.9;Matches
+51;Gil Bastião Dias\Gil-Bastiao-Dias;pt POR;FWDF;Granada;22;1996;0.9;0;0;0;2;1;0;2;0;0;0;0;0;7;0;1;0.0;Matches
+52;Fran Beltrán\Fran-Beltran;es ESP;MF;Celta Vigo;20;1999;14.1;2;1;0;11;8;0;10;13;14;0;1;0;122;8;22;26.7;Matches
+53;Hatem Ben Arfa\Hatem-Ben-Arfa;fr FRA;MF;Valladolid;32;1987;0.3;1;0;0;1;0;0;0;0;0;0;0;0;1;0;0;;Matches
+54;Karim Benzema\Karim-Benzema;fr FRA;FW;Real Madrid;31;1987;24.7;0;0;0;15;11;18;18;6;9;0;0;0;88;27;35;43.5;Matches
+55;Yuri Berchiche\Yuri-Berchiche;es ESP;DF;Athletic Bilbao;29;1990;24.0;4;0;0;25;43;2;78;24;23;0;1;0;249;40;19;67.8;Matches
+56;Markel Bergara\Markel-Bergara;es ESP;MF;Getafe;33;1986;0.8;2;0;0;3;0;0;2;0;0;0;0;0;11;1;2;33.3;Matches
+57;Sergio Bermejo\Sergio-Bermejo;es ESP;FW;Celta Vigo;21;1997;0.0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;;Matches
+58;Pedro Bigas\Pedro-Bigas;es ESP;DF;Eibar;28;1990;11.5;2;0;0;7;13;0;7;18;10;0;1;0;148;36;19;65.5;Matches
+59;Rubén Blanco\Ruben-Blanco;es ESP;GK;Celta Vigo;24;1995;25.0;4;0;0;1;4;0;0;0;0;0;1;0;107;0;0;;Matches
+60;Pablo de Blasis\Pablo-de-Blasis;ar ARG;DFMF;Eibar;31;1988;11.4;0;0;0;10;9;1;59;17;22;0;1;0;127;7;24;22.6;Matches
+61;Yassine Bounou\Yassine-Bounou;ma MAR;GK;Sevilla;28;1991;1.5;0;0;0;0;0;0;0;0;0;0;0;0;8;0;0;;Matches
+62;Filip Bradarić\Filip-Bradaric;hr CRO;MF;Celta Vigo;27;1992;2.4;0;1;0;3;0;0;2;4;2;0;0;0;21;5;2;71.4;Matches
+63;Martin Braithwaite\Martin-Braithwaite;dk DEN;FWMF;Leganés;28;1991;21.5;3;0;0;30;31;9;9;4;9;0;0;0;89;50;68;42.4;Matches
+64;Martin Braithwaite\Martin-Braithwaite;dk DEN;FW;Barcelona;28;1991;1.4;0;0;0;1;1;1;3;0;0;0;0;0;1;1;1;50.0;Matches
+65;Brandon\Brandon;es ESP;FW;Osasuna;24;1995;4.5;4;0;0;6;6;0;4;1;2;0;0;0;24;2;14;12.5;Matches
+66;Darko Brašanac\Darko-Brasanac;rs SRB;MF;Osasuna;27;1992;18.7;7;0;0;45;17;2;12;14;22;1;0;0;180;29;54;34.9;Matches
+67;Yan Brice Eteki\Yan-Brice-Eteki;cm CMR;MF;Granada;21;1997;10.1;4;0;0;38;17;0;0;7;14;0;0;0;94;12;16;42.9;Matches
+68;Bryan\Bryan;es ESP;FW;Sevilla;18;2001;0.7;2;0;0;1;0;0;2;0;1;0;0;0;4;0;1;0.0;Matches
+69;Bryan\Bryan;es ESP;MFFW;Leganés;18;2001;1.0;2;0;0;6;4;1;3;0;1;0;0;0;14;0;2;0.0;Matches
+70;Ante Budimir\Ante-Budimir;hr CRO;FW;Mallorca;28;1991;22.9;6;0;0;51;48;15;2;4;17;1;0;0;77;105;112;48.4;Matches
+71;Esteban Burgos\Esteban-Burgos;ar ARG;DF;Eibar;27;1992;5.9;2;0;0;5;3;0;1;9;5;0;0;0;69;11;5;68.8;Matches
+72;Burgui\Burgui;es ESP;MF;Alavés;25;1993;0.2;0;0;0;0;1;0;0;0;0;0;0;0;3;0;2;0.0;Matches
+73;Oliver Burke\Oliver-Burke;sco SCO;MFFW;Alavés;22;1997;8.8;1;0;0;11;8;0;9;8;4;0;0;0;57;13;14;48.1;Matches
+74;Sergio Busquets\Sergio-Busquets;es ESP;MF;Barcelona;31;1988;20.0;7;0;0;32;39;0;1;33;51;0;1;0;269;23;26;46.9;Matches
+75;Unai Bustinza\Unai-Bustinza;es ESP;DF;Leganés;27;1992;21.4;3;0;0;41;37;3;38;51;33;0;1;0;237;38;31;55.1;Matches
+76;Erick Cabaco\Erick-Cabaco;uy URU;DF;Getafe;24;1995;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;100.0;Matches
+77;Erick Cabaco\Erick-Cabaco;uy URU;DF;Levante;24;1995;9.0;4;0;0;7;7;0;1;13;10;0;0;0;85;20;17;54.1;Matches
+78;Ariday Cabrera\Ariday-Cabrera;es ESP;MFFW;Mallorca;30;1988;0.4;0;0;0;2;0;0;0;0;1;0;0;0;4;0;0;;Matches
+79;Leandro Cabrera\Leandro-Cabrera;uy URU;DF;Espanyol;28;1991;7.0;1;0;0;6;4;0;2;10;7;0;0;0;67;17;11;60.7;Matches
+80;Leandro Cabrera\Leandro-Cabrera;uy URU;DF;Getafe;28;1991;17.0;3;0;0;16;9;1;7;21;2;0;0;0;199;58;33;63.7;Matches
+81;Fernando Calero\Fernando-Calero;es ESP;DF;Espanyol;23;1995;10.8;4;1;0;7;5;0;0;7;6;0;0;0;115;15;18;45.5;Matches
+82;Jonathan Calleri\Jonathan-Calleri;ar ARG;FW;Espanyol;25;1993;15.1;2;0;0;34;33;7;20;6;8;0;0;0;61;77;94;45.0;Matches
+83;Víctor Camarasa\Victor-Camarasa;es ESP;MF;Alavés;25;1994;6.7;1;0;0;7;4;2;7;8;7;0;0;0;49;4;5;44.4;Matches
+84;Sergio Camello\Sergio-Camello;es ESP;FW;Atlético Madrid;18;2001;0.3;0;0;0;0;1;0;0;0;1;0;0;0;0;1;0;100.0;Matches
+85;José Campaña\Jose-Campana;es ESP;MF;Levante;26;1993;25.6;4;1;1;22;42;1;131;26;18;0;1;0;239;21;30;41.2;Matches
+86;Xisco Campos\Xisco-Campos;es ESP;DF;Mallorca;37;1982;3.8;1;0;0;6;3;1;0;9;4;0;0;0;32;10;8;55.6;Matches
+87;Víctor Campuzano\Victor-Campuzano;es ESP;FW;Espanyol;22;1997;7.7;2;0;0;22;11;11;7;1;12;0;0;0;33;10;25;28.6;Matches
+88;Sergio Canales\Sergio-Canales;es ESP;MF;Betis;28;1991;25.5;4;0;0;19;32;1;98;9;18;0;1;0;173;2;26;7.1;Matches
+89;Ander Capa\Ander-Capa;es ESP;DF;Athletic Bilbao;27;1992;23.8;10;0;0;40;13;4;79;24;22;0;0;0;233;28;14;66.7;Matches
+90;Marc Cardona\Marc-Cardona;es ESP;FW;Osasuna;24;1995;5.9;1;0;0;6;7;6;3;1;1;0;0;0;22;4;25;13.8;Matches
+91;Diego Carlos\Diego-Carlos;br BRA;DF;Sevilla;26;1993;24.8;7;0;0;35;7;2;4;24;28;0;1;0;208;57;32;64.0;Matches
+92;Yannick Carrasco\Yannick-Carrasco;be BEL;MFFW;Atlético Madrid;25;1993;1.7;0;0;0;2;2;1;8;2;0;0;0;0;14;1;4;20.0;Matches
+93;Daniel Carriço\Daniel-Carrico;pt POR;DF;Sevilla;30;1988;9.4;3;0;0;8;2;0;0;8;9;0;0;0;78;15;18;45.5;Matches
+94;Guido Carrillo\Guido-Carrillo;ar ARG;FW;Leganés;28;1991;11.1;1;0;0;26;21;3;3;1;10;0;0;0;64;104;70;59.8;Matches
+95;Dani Carvajal\Dani-Carvajal;es ESP;DF;Real Madrid;27;1992;22.0;8;0;0;35;20;3;87;30;38;0;0;0;256;25;24;51.0;Matches
+96;William Carvalho\William-Carvalho;pt POR;MF;Betis;27;1992;7.9;4;1;0;11;5;0;1;3;3;0;0;0;58;11;8;57.9;Matches
+97;Casemiro\Casemiro;br BRA;MF;Real Madrid;27;1992;24.7;9;0;0;64;40;3;18;55;67;0;0;0;361;64;33;66.0;Matches
+98;Santi Cazorla\Santi-Cazorla;es ESP;MF;Villarreal;34;1984;20.3;3;0;0;20;29;2;107;10;20;0;0;0;143;9;18;33.3;Matches
+99;Charles\Charles;br BRA;FW;Eibar;35;1984;10.4;6;0;0;30;14;5;2;4;3;0;0;0;49;42;59;41.6;Matches
+100;Pablo Chavarría\Pablo-Chavarria;ar ARG;FWMF;Mallorca;31;1988;1.2;1;0;0;7;0;5;1;0;1;0;0;0;5;13;4;76.5;Matches
+101;Pape Cheikh Diop\Pape-Cheikh-Diop;es ESP;MF;Celta Vigo;21;1997;6.0;4;1;1;22;14;0;0;2;4;0;0;0;56;2;8;20.0;Matches
+102;Chema\Chema;es ESP;DF;Getafe;27;1992;1.0;1;0;0;2;0;1;1;2;1;0;0;0;11;3;5;37.5;Matches
+103;Denis Cheryshev\Denis-Cheryshev;ru RUS;MFFW;Valencia;28;1990;7.8;5;0;0;17;11;1;31;6;4;1;1;0;51;7;11;38.9;Matches
+104;Samuel Chukwueze\Samuel-Chukwueze;ng NGA;MFFW;Villarreal;20;1999;15.6;1;0;0;9;32;10;29;4;12;2;0;0;103;9;15;37.5;Matches
+105;Jasper Cillessen\Jasper-Cillessen;nl NED;GK;Valencia;30;1989;15.3;1;0;0;0;2;0;0;2;0;0;0;0;78;0;0;;Matches
+106;Óscar Clemente\Oscar-Clemente;es ESP;MF;Atlético Madrid;20;1999;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;Matches
+107;Carlos Clerc\Carlos-Clerc;es ESP;DF;Levante;27;1992;14.0;4;0;0;16;13;1;42;17;10;0;0;0;110;14;16;46.7;Matches
+108;Coke\Coke;es ESP;DF;Levante;32;1987;6.6;2;0;0;10;10;0;13;6;8;0;0;0;60;8;5;61.5;Matches
+109;Álex Collado\Alex-Collado;es ESP;DF;Barcelona;20;1999;0.1;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;100.0;Matches
+110;Francis Coquelin\Francis-Coquelin;fr FRA;MF;Valencia;28;1991;16.5;7;1;1;23;24;1;1;35;18;1;0;0;154;13;7;65.0;Matches
+111;Sébastien Corchia\Sebastien-Corchia;fr FRA;DF;Espanyol;28;1990;3.0;1;0;0;4;5;0;25;5;0;0;0;0;12;0;0;;Matches
+112;Iñigo Córdoba\Inigo-Cordoba;es ESP;FW;Athletic Bilbao;22;1997;9.6;4;0;0;19;12;4;23;6;8;0;0;0;70;9;10;47.4;Matches
+113;Ángel Correa\Angel-Correa;ar ARG;MFFW;Atlético Madrid;24;1995;16.6;5;0;0;19;28;7;26;9;10;0;0;0;105;11;23;32.4;Matches
+114;Rober Correa\Rober-Correa;es ESP;DF;Eibar;26;1992;3.9;0;0;0;6;5;0;11;3;4;0;0;0;46;13;13;50.0;Matches
+115;Thierry Correia\Thierry-Correia;pt POR;DF;Valencia;20;1999;2.0;0;0;0;3;5;0;1;2;3;0;0;0;16;0;3;0.0;Matches
+116;Diego Costa\Diego-Costa;es ESP;FW;Atlético Madrid;30;1988;9.0;2;0;0;15;12;11;3;1;3;0;0;0;28;25;48;34.2;Matches
+117;Jaume Costa\Jaume-Costa;es ESP;DF;Valencia;31;1988;10.7;1;0;0;14;16;1;20;15;18;0;0;0;67;10;11;47.6;Matches
+118;David Costas\David-Costas;es ESP;DF;Celta Vigo;24;1995;3.7;1;0;0;5;2;0;0;6;4;0;0;0;38;8;7;53.3;Matches
+119;Thibaut Courtois\Thibaut-Courtois;be BEL;GK;Real Madrid;27;1992;24.0;0;0;0;0;2;0;0;0;0;0;0;0;115;1;0;100.0;Matches
+120;Sebastián Cristóforo\Sebastian-Cristoforo;uy URU;MF;Eibar;25;1993;3.5;0;0;0;7;9;1;3;3;9;0;0;0;40;2;3;40.0;Matches
+121;Cucho\Cucho;co COL;FWMF;Mallorca;20;1999;8.9;3;0;0;10;18;3;11;3;6;0;1;0;40;24;41;36.9;Matches
+122;Marc Cucurella\Marc-Cucurella;es ESP;MFDF;Getafe;21;1998;25.8;6;0;0;52;46;2;82;17;48;1;0;0;277;33;43;43.4;Matches
+123;Iván Cuéllar\Ivan-Cuellar;es ESP;GK;Leganés;35;1984;16.0;3;1;1;0;2;0;0;1;0;0;0;0;100;0;0;;Matches
+124;Moanes Dabour\Moanes-Dabour;il ISR;FW;Sevilla;27;1992;0.3;0;0;0;0;0;0;1;0;1;0;0;0;3;1;1;50.0;Matches
+125;Sergi Darder\Sergi-Darder;es ESP;MFFW;Espanyol;25;1993;23.5;2;0;0;23;23;1;51;17;21;0;0;0;157;24;15;61.5;Matches
+126;Ousmane Dembélé\Ousmane-Dembele;fr FRA;FW;Barcelona;22;1997;4.0;1;1;0;1;5;4;20;0;0;0;0;0;21;1;2;33.3;Matches
+127;Deyverson\Deyverson;br BRA;FW;Getafe;28;1991;1.6;2;0;0;5;0;0;2;0;0;0;0;0;12;9;8;52.9;Matches
+128;Mouctar Diakhaby\Mouctar-Diakhaby;fr FRA;DF;Valencia;22;1996;11.1;3;0;0;13;12;0;1;10;9;0;0;0;90;23;17;57.5;Matches
+129;Brahim Díaz\Brahim-Diaz;es ESP;FWMF;Real Madrid;19;1999;0.3;0;0;0;0;4;0;0;0;0;0;0;0;2;0;1;0.0;Matches
+130;Víctor Díaz\Victor-Diaz;es ESP;DF;Granada;31;1988;24.2;3;0;0;15;8;1;98;39;31;0;0;0;229;40;36;52.6;Matches
+131;Papakouli Diop\Papakouli-Diop;sn SEN;MF;Eibar;33;1986;18.3;6;0;0;37;27;1;7;28;18;0;0;0;229;40;24;62.5;Matches
+132;Djené\Djene;tg TOG;DF;Getafe;27;1991;25.0;3;0;0;36;19;1;7;22;19;0;1;0;337;75;47;61.5;Matches
+133;Marko Dmitrović\Marko-Dmitrovic;rs SRB;GK;Eibar;27;1992;26.0;3;0;0;1;1;0;0;2;0;0;0;0;150;0;0;;Matches
+134;Jaume Doménech\Jaume-Domenech;es ESP;GK;Valencia;28;1990;11.7;1;0;0;0;0;0;0;1;0;0;0;0;58;0;0;;Matches
+135;Domingos Duarte\Domingos-Duarte;pt POR;DF;Granada;24;1995;25.5;6;0;0;27;16;4;0;24;10;0;3;0;206;57;31;64.8;Matches
+136;Óscar Duarte\Oscar-Duarte;cr CRC;DF;Levante;30;1989;3.4;0;0;0;8;2;0;0;3;4;0;1;0;22;7;12;36.8;Matches
+137;Rubén Duarte\Ruben-Duarte;es ESP;DF;Alavés;23;1995;25.0;9;0;0;36;31;0;53;37;32;1;4;0;253;45;40;52.9;Matches
+138;Hugo Duro\Hugo-Duro;es ESP;FW;Getafe;19;1999;0.9;1;0;0;6;3;0;2;0;0;0;0;0;3;2;9;18.2;Matches
+139;Aritz Elustondo\Aritz-Elustondo;es ESP;DF;Real Sociedad;25;1994;10.3;1;0;0;5;6;0;0;10;9;0;0;0;97;47;21;69.1;Matches
+140;Rodrigo Ely\Rodrigo-Ely;br BRA;DF;Alavés;25;1993;17.6;7;0;0;23;10;2;2;33;10;0;0;0;196;55;23;70.5;Matches
+141;Adri Embarba\Adri-Embarba;es ESP;MFFW;Espanyol;27;1992;5.9;2;0;0;10;9;1;44;3;11;0;0;0;41;2;9;18.2;Matches
+142;Emerson\Emerson;br BRA;DF;Betis;20;1999;22.5;8;0;0;29;60;1;52;22;32;0;0;0;160;45;24;65.2;Matches
+143;Youssef En-Nesyri\Youssef-En-Nesyri;ma MAR;FW;Leganés;22;1997;15.4;2;0;0;21;19;17;10;4;5;1;0;0;61;60;91;39.7;Matches
+144;Youssef En-Nesyri\Youssef-En-Nesyri;ma MAR;FW;Sevilla;22;1997;3.6;0;0;0;4;5;7;4;1;2;0;0;0;13;16;20;44.4;Matches
+145;Sergi Enrich\Sergi-Enrich;es ESP;FW;Eibar;29;1990;16.1;4;0;0;51;18;15;4;8;15;0;0;0;70;69;126;35.4;Matches
+146;Javier Eraso\Javier-Eraso;es ESP;MFFW;Leganés;29;1990;6.7;2;0;0;13;11;1;32;6;6;0;0;0;51;7;18;28.0;Matches
+147;Gonzalo Escalante\Gonzalo-Escalante;ar ARG;MF;Eibar;26;1993;15.6;7;1;1;28;26;2;14;25;27;1;0;0;208;46;47;49.5;Matches
+148;Aarón Escandell\Aaron-Escandell;es ESP;GK;Granada;23;1995;1.0;0;0;0;0;0;0;0;0;0;0;0;0;9;0;0;;Matches
+149;Sergio Escudero\Sergio-Escudero;es ESP;DF;Sevilla;29;1989;4.6;2;0;0;8;4;0;9;11;9;0;1;0;53;13;9;59.1;Matches
+150;Bernardo Espinosa\Bernardo-Espinosa;co COL;DF;Espanyol;30;1989;18.0;4;0;0;22;14;1;1;16;14;0;0;0;225;67;46;59.3;Matches
+151;Esquerdo\Esquerdo;es ESP;MF;Valencia;20;1999;0.1;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;100.0;Matches
+152;Pervis Estupiñán\Pervis-Estupinan;ec ECU;DF;Osasuna;21;1998;26.0;6;0;0;28;29;2;118;50;50;0;0;0;281;33;29;53.2;Matches
+153;Oghenekaro Etebo\Oghenekaro-Etebo;ng NGA;MF;Getafe;23;1995;3.9;2;0;0;5;4;0;8;9;8;0;0;0;42;12;9;57.1;Matches
+154;Beñat Etxebarria\Benat-Etxebarria;es ESP;MF;Athletic Bilbao;32;1987;4.3;0;0;0;2;2;0;21;2;4;0;0;0;43;5;4;55.6;Matches
+155;Xabier Etxeita\Xabier-Etxeita;es ESP;DF;Getafe;31;1987;9.5;5;0;0;10;6;0;1;11;5;0;0;0;84;25;20;55.6;Matches
+156;Edu Expósito\Edu-Exposito;es ESP;MF;Eibar;22;1996;17.6;3;0;0;17;10;0;10;27;31;0;0;0;201;24;32;42.9;Matches
+157;Fabricio\Fabricio;es ESP;GK;Mallorca;31;1987;1.0;1;0;0;1;0;0;0;0;0;0;1;0;6;0;0;;Matches
+158;Fayçal Fajr\Faycal-Fajr;ma MAR;MF;Getafe;30;1988;4.3;2;0;0;3;5;0;31;3;1;0;0;0;53;6;9;40.0;Matches
+159;Eliseo Falcon\Eliseo-Falcon;es ESP;DFMF;Levante;22;1997;0.8;2;1;1;2;0;0;0;0;0;0;0;0;3;1;0;100.0;Matches
+160;Ansu Fati\Ansu-Fati;es ESP;FWDF;Barcelona;16;2002;7.6;2;0;0;12;10;4;19;2;8;0;0;0;41;4;7;36.4;Matches
+161;Aleix Febas\Aleix-Febas;es ESP;MF;Mallorca;23;1996;15.6;3;0;0;12;36;0;2;14;22;1;0;0;104;3;15;16.7;Matches
+162;Zouhair Feddal\Zouhair-Feddal;ma MAR;DF;Betis;30;1989;9.4;7;2;0;14;7;0;0;18;4;0;0;0;77;20;14;58.8;Matches
+163;Ljubomir Fejsa\Ljubomir-Fejsa;rs SRB;MF;Alavés;30;1988;4.1;1;0;0;10;5;0;0;3;8;0;0;0;62;12;5;70.6;Matches
+164;Nabil Fekir\Nabil-Fekir;fr FRA;MFFW;Betis;26;1993;20.2;7;1;1;47;84;6;40;12;21;4;0;0;121;16;24;40.0;Matches
+165;Felipe\Felipe;br BRA;DF;Atlético Madrid;30;1989;20.0;6;0;0;24;12;1;1;36;16;0;0;0;197;70;31;69.3;Matches
+166;João Félix\Joao-Felix;pt POR;FWMF;Atlético Madrid;19;1999;15.8;5;0;0;27;34;6;17;7;4;1;0;0;75;14;37;27.5;Matches
+167;Aitor Fernández\Aitor-Fernandez;es ESP;GK;Levante;28;1991;27.0;2;0;0;0;4;0;0;3;0;0;0;0;143;0;0;;Matches
+168;Andrés Fernández\Andres-Fernandez;es ESP;GK;Villarreal;32;1986;3.3;1;0;0;1;1;0;0;0;0;0;1;0;15;0;0;;Matches
+169;Carlos Fernández\Carlos-Fernandez;es ESP;FWMF;Granada;23;1996;15.5;6;0;0;44;25;4;5;10;10;1;0;0;81;50;84;37.3;Matches
+170;Gabriel Fernández\Gabriel-Fernandez;uy URU;FWMF;Celta Vigo;25;1994;5.7;4;1;1;14;7;5;2;2;2;0;0;0;22;23;23;50.0;Matches
+171;Joaquín Fernández\Joaquin-Fernandez;es ESP;MFDF;Valladolid;23;1996;12.9;7;0;0;24;5;4;0;20;18;0;0;0;123;38;27;58.5;Matches
+172;Fernando\Fernando;br BRA;MF;Sevilla;32;1987;23.2;10;0;0;32;19;2;2;46;37;0;0;0;299;71;49;59.2;Matches
+173;Facundo Ferreyra\Facundo-Ferreyra;ar ARG;FW;Espanyol;28;1991;6.0;2;0;0;23;8;5;2;2;4;0;0;0;25;14;22;38.9;Matches
+174;Junior Firpo\Junior-Firpo;es ESP;DF;Barcelona;22;1996;9.0;3;0;0;28;11;2;7;12;14;0;0;0;68;7;7;50.0;Matches
+175;Alessandro Florenzi\Alessandro-Florenzi;it ITA;DFMF;Valencia;28;1991;2.2;1;1;0;4;1;0;4;4;2;0;0;0;21;0;2;0.0;Matches
+176;Hernâni Fortes\Hernani-Fortes;pt POR;MFFW;Levante;27;1991;4.7;2;1;1;2;10;3;25;3;3;0;0;0;29;1;3;25.0;Matches
+177;Dimitri Foulquier\Dimitri-Foulquier;fr FRA;DF;Granada;26;1993;6.2;2;0;0;14;6;0;11;11;7;0;0;0;66;8;6;57.1;Matches
+178;Jorge de Frutos\Jorge-de-Frutos;es ESP;MFFW;Valladolid;22;1997;0.6;0;0;0;2;0;0;2;0;0;0;0;0;6;0;1;0.0;Matches
+179;Ramiro Funes Mori\Ramiro-Funes-Mori;ar ARG;DF;Villarreal;28;1991;5.0;1;0;0;7;4;0;0;3;1;0;0;0;56;11;9;55.0;Matches
+180;Enric Gallego\Enric-Gallego;es ESP;FW;Getafe;32;1986;1.8;0;0;0;4;2;0;1;2;2;0;0;0;8;7;17;29.2;Matches
+181;Enric Gallego\Enric-Gallego;es ESP;FW;Osasuna;32;1986;4.5;2;0;0;17;4;7;0;2;1;0;0;0;17;39;33;54.2;Matches
+182;Kévin Gameiro\Kevin-Gameiro;fr FRA;FW;Valencia;32;1987;11.6;0;0;0;10;11;10;11;4;10;0;0;0;56;3;32;8.6;Matches
+183;Fran Gámez\Fran-Gamez;es ESP;DF;Mallorca;28;1991;13.7;2;0;0;19;3;2;40;27;33;0;1;1;122;9;7;56.3;Matches
+184;Ezequiel Garay\Ezequiel-Garay;ar ARG;DF;Valencia;32;1986;16.0;2;0;0;10;1;0;2;13;7;0;1;0;125;27;17;61.4;Matches
+185;Dani García\Dani-Garcia;es ESP;MF;Athletic Bilbao;29;1990;25.3;6;0;0;43;28;0;4;37;33;0;0;0;337;38;30;55.9;Matches
+186;David García\David-Garcia;es ESP;DF;Osasuna;25;1994;22.0;4;0;0;30;12;0;1;29;23;0;0;0;268;94;38;71.2;Matches
+187;Javi García\Javi-Garcia;es ESP;MF;Betis;32;1987;4.0;2;0;0;3;5;0;0;4;1;0;0;1;35;14;5;73.7;Matches
+188;Manu García\Manu-Garcia;es ESP;MF;Alavés;33;1986;19.6;10;1;1;52;36;3;3;21;35;0;2;0;211;54;42;56.3;Matches
+189;Raúl García\Raul-Garcia;es ESP;DF;Valladolid;30;1989;7.0;2;0;0;6;3;0;42;2;11;0;0;0;52;7;8;46.7;Matches
+190;Raúl García\Raul-Garcia;es ESP;DF;Getafe;30;1989;2.7;0;0;0;4;4;0;30;4;5;0;0;0;26;4;0;100.0;Matches
+191;Raúl García\Raul-Garcia;es ESP;MFFW;Athletic Bilbao;33;1986;23.2;8;0;0;58;43;14;27;16;28;1;0;0;148;124;105;54.1;Matches
+192;Rubén García\Ruben-Garcia;es ESP;MFFW;Osasuna;26;1993;20.7;5;0;0;39;24;6;129;10;23;0;0;0;135;19;43;30.6;Matches
+193;Unai García\Unai-Garcia;es ESP;DF;Osasuna;27;1992;2.2;0;0;0;3;1;0;0;1;1;0;0;0;23;8;3;72.7;Matches
+194;Mario Gaspar\Mario-Gaspar;es ESP;DF;Villarreal;28;1990;15.7;2;0;0;22;7;0;18;19;18;0;0;0;118;31;32;49.2;Matches
+195;José Antonio Martínez Gil\Jose-Antonio-Martinez-Gil;es ESP;DF;Granada;26;1993;11.5;0;0;0;4;7;0;1;19;11;0;0;0;127;33;16;67.3;Matches
+196;Ibai Gómez\Ibai-Gomez;es ESP;FW;Athletic Bilbao;29;1989;7.2;0;0;0;3;3;5;85;5;3;0;0;0;50;2;6;25.0;Matches
+197;Maxi Gómez\Maxi-Gomez;uy URU;FW;Valencia;22;1996;16.8;5;0;0;35;46;22;6;5;7;0;0;0;43;48;48;50.0;Matches
+198;Moi Gómez\Moi-Gomez;es ESP;FWMF;Villarreal;25;1994;19.7;1;0;0;17;19;7;64;18;12;1;0;0;136;8;26;23.5;Matches
+199;Sergi Gómez\Sergi-Gomez;es ESP;DF;Sevilla;27;1992;5.5;2;0;0;4;0;0;1;5;2;0;0;0;53;18;16;52.9;Matches
+200;Maxime Gonalons\Maxime-Gonalons;fr FRA;MF;Granada;30;1989;16.1;6;0;0;35;24;0;1;20;38;0;0;0;170;38;29;56.7;Matches
+201;Bruno González\Bruno-Gonzalez;es ESP;DF;Levante;29;1990;3.0;0;0;0;1;1;0;0;1;3;0;0;0;21;5;2;71.4;Matches
+202;Bruno González\Bruno-Gonzalez;es ESP;DF;Getafe;29;1990;2.0;1;0;0;5;2;1;0;0;2;0;1;0;18;2;4;33.3;Matches
+203;Édgar González\Edgar-Gonzalez;es ESP;MF;Betis;22;1997;6.2;2;0;0;6;3;0;0;8;3;0;1;0;56;16;4;80.0;Matches
+204;Andoni Gorosabel\Andoni-Gorosabel;es ESP;DF;Real Sociedad;22;1996;4.3;0;0;0;3;5;0;12;8;5;0;0;0;38;8;8;50.0;Matches
+205;Esteban Granero\Esteban-Granero;es ESP;MF;Espanyol;32;1987;5.2;5;0;0;15;6;0;24;3;7;0;0;0;44;6;13;31.6;Matches
+206;Antoine Griezmann\Antoine-Griezmann;fr FRA;FW;Barcelona;28;1991;23.8;2;0;0;9;16;15;20;9;14;0;0;0;107;18;24;42.9;Matches
+207;Andrés Guardado\Andres-Guardado;mx MEX;MF;Betis;32;1986;17.0;9;0;0;29;16;1;14;15;11;0;1;0;161;10;22;31.3;Matches
+208;Sergi Guardiola\Sergi-Guardiola;es ESP;FW;Valladolid;28;1991;22.9;5;0;0;35;43;16;30;6;9;0;0;0;92;23;65;26.1;Matches
+209;Nemanja Gudelj\Nemanja-Gudelj;rs SRB;MFDF;Sevilla;27;1991;7.8;5;0;0;16;7;0;2;11;8;0;1;0;86;12;13;48.0;Matches
+210;Gonçalo Guedes\Goncalo-Guedes;pt POR;MFFW;Valencia;22;1996;6.6;0;0;0;9;27;3;14;4;12;0;0;0;35;2;5;28.6;Matches
+211;Ander Guevara\Ander-Guevara;es ESP;MF;Real Sociedad;22;1997;10.5;4;0;0;27;5;0;2;10;18;0;0;0;142;14;18;43.8;Matches
+212;John Guidetti\John-Guidetti;se SWE;FW;Alavés;27;1992;1.0;0;0;0;0;1;0;0;0;2;0;0;0;3;1;1;50.0;Matches
+213;Hugo Guillamón\Hugo-Guillamon;es ESP;DF;Valencia;19;2000;0.5;0;0;0;0;1;0;1;0;0;0;0;0;6;0;0;;Matches
+214;Ismael Gutiérrez\Ismael-Gutierrez;es ESP;MF;Betis;18;2000;0.9;1;0;0;1;1;0;0;2;1;0;0;0;7;0;3;0.0;Matches
+215;Munir El Haddadi\Munir-El-Haddadi;es ESP;FW;Sevilla;23;1995;7.1;1;0;0;11;19;5;5;3;9;0;0;0;35;10;22;31.3;Matches
+216;Eden Hazard\Eden-Hazard;be BEL;FWMF;Real Madrid;28;1991;8.3;0;0;0;11;35;2;15;5;4;3;0;0;54;5;4;55.6;Matches
+217;Mario Hermoso\Mario-Hermoso;es ESP;DF;Atlético Madrid;24;1995;11.3;2;0;0;14;8;2;2;13;7;0;0;0;113;20;17;54.1;Matches
+218;Aridane Hernández\Aridane-Hernandez;gq EQG;DF;Osasuna;30;1989;21.0;5;0;0;12;10;0;0;22;17;0;1;0;209;67;27;71.3;Matches
+219;Javier Hernández\Javier-Hernandez;mx MEX;FW;Sevilla;31;1988;5.0;0;0;0;7;12;10;4;5;4;0;0;0;17;7;11;38.9;Matches
+220;Juan Hernández\Juan-Hernandez;es ESP;MF;Celta Vigo;24;1994;0.2;0;0;0;0;0;0;2;0;0;0;0;0;1;0;0;;Matches
+221;Héctor Herrera\Hector-Herrera;mx MEX;MF;Atlético Madrid;29;1990;9.3;0;0;0;12;11;1;23;16;20;0;0;0;103;15;3;83.3;Matches
+222;Sergio Herrera\Sergio-Herrera;es ESP;GK;Osasuna;26;1993;11.4;2;1;0;1;6;0;0;1;0;0;0;0;74;0;0;;Matches
+223;Yangel Herrera\Yangel-Herrera;ve VEN;MF;Granada;21;1998;17.5;9;0;0;54;33;3;5;22;42;0;0;0;184;33;26;55.9;Matches
+224;Iago Herrerín\Iago-Herrerin;es ESP;GK;Athletic Bilbao;31;1988;3.0;0;0;0;0;0;0;0;0;0;0;0;0;18;0;0;;Matches
+225;Pablo Hervías\Pablo-Hervias;es ESP;MF;Valladolid;26;1993;5.4;0;0;0;5;12;1;35;2;6;0;0;0;47;3;8;27.3;Matches
+226;Robert Ibáñez\Robert-Ibanez;es ESP;MFFW;Osasuna;26;1993;5.9;3;0;0;9;20;1;5;4;3;0;0;0;35;5;4;55.6;Matches
+227;Vicente Iborra\Vicente-Iborra;es ESP;MF;Villarreal;31;1988;23.6;9;0;0;43;35;0;3;38;39;0;1;0;264;64;49;56.6;Matches
+228;Borja Iglesias\Borja-Iglesias;es ESP;FW;Betis;26;1993;15.3;1;1;0;26;13;13;5;3;5;0;1;0;52;27;33;45.0;Matches
+229;Asier Illarramendi\Asier-Illarramendi;es ESP;MF;Real Sociedad;29;1990;2.4;0;0;0;2;3;0;0;5;2;0;0;0;33;3;2;60.0;Matches
+230;Takashi Inui\Takashi-Inui;jp JPN;FWMF;Eibar;31;1988;16.4;2;0;0;25;21;4;34;14;11;1;0;0;98;6;21;22.2;Matches
+231;Alexander Isak\Alexander-Isak;se SWE;FW;Real Sociedad;19;1999;11.7;2;0;0;16;9;11;7;3;4;0;0;0;40;15;27;35.7;Matches
+232;Isco\Isco;es ESP;FWMF;Real Madrid;27;1992;9.7;1;0;0;9;19;4;30;3;7;0;0;0;58;4;14;22.2;Matches
+233;Ander Iturraspe\Ander-Iturraspe;es ESP;MF;Espanyol;30;1989;2.0;1;0;0;4;1;0;0;1;0;0;0;0;25;9;3;75.0;Matches
+234;Adnan Januzaj\Adnan-Januzaj;be BEL;FWMF;Real Sociedad;24;1995;8.9;2;0;0;18;25;2;36;3;4;0;0;0;47;7;10;41.2;Matches
+235;Jason\Jason;es ESP;MF;Getafe;25;1994;9.7;5;0;0;16;20;1;59;14;15;0;0;0;89;13;17;43.3;Matches
+236;Joaquín\Joaquin;es ESP;MFFW;Betis;38;1981;19.1;3;0;0;10;20;5;69;15;10;0;0;0;100;11;18;37.9;Matches
+237;Frenkie de Jong\Frenkie-de-Jong;nl NED;MF;Barcelona;22;1997;22.1;3;1;1;23;28;1;4;23;22;0;0;0;178;10;12;45.5;Matches
+238;Luuk de Jong\Luuk-de-Jong;nl NED;FW;Sevilla;28;1990;18.0;2;0;0;24;32;12;2;6;7;0;0;0;75;94;79;54.3;Matches
+239;Joan Jordán\Joan-Jordan;es ESP;MF;Sevilla;25;1994;17.1;4;0;0;47;19;1;71;13;29;1;0;0;152;24;17;58.5;Matches
+240;Willian José\Willian-Jose;br BRA;FW;Real Sociedad;27;1991;16.1;4;0;0;22;12;10;6;0;3;0;0;0;61;16;29;35.6;Matches
+241;Joselu\Joselu;es ESP;FW;Alavés;29;1990;22.9;5;0;0;39;41;5;3;10;14;1;0;0;134;184;98;65.2;Matches
+242;Luka Jović\Luka-Jovic;rs SRB;FW;Real Madrid;21;1997;4.3;2;0;0;4;1;4;0;2;2;0;0;0;12;9;11;45.0;Matches
+243;Juanmi\Juanmi;es ESP;FWMF;Betis;26;1993;0.8;0;0;0;0;0;0;0;0;0;0;0;0;1;1;1;50.0;Matches
+244;David Juncà\David-Junca;es ESP;DF;Celta Vigo;25;1993;2.9;1;0;0;5;7;1;14;1;3;0;0;0;24;3;0;100.0;Matches
+245;Lago Junior\Lago-Junior;ci CIV;MFFW;Mallorca;28;1990;19.6;2;0;0;32;35;8;47;11;15;0;2;0;110;33;38;46.5;Matches
+246;Vinicius Júnior\Vinicius-Junior;br BRA;FWMF;Real Madrid;19;2000;10.0;3;0;0;13;17;6;27;4;9;0;0;0;52;2;3;40.0;Matches
+247;Lee Kangin\Lee-Kangin;kr KOR;MFFW;Valencia;18;2001;3.3;1;1;0;7;6;0;11;1;2;0;0;0;16;2;2;50.0;Matches
+248;Wilfrid Kaptoum\Wilfrid-Kaptoum;cm CMR;MF;Betis;23;1996;2.1;1;0;0;1;3;0;2;1;5;0;0;0;13;2;5;28.6;Matches
+249;Kenedy\Kenedy;br BRA;MFDF;Getafe;23;1996;5.9;2;0;0;14;7;1;28;10;8;0;0;0;53;5;6;45.5;Matches
+250;Kike\Kike;es ESP;FW;Eibar;29;1989;12.1;2;0;0;33;14;10;9;1;3;1;0;0;59;60;101;37.3;Matches
+251;Kenan Kodro\Kenan-Kodro;ba BIH;FWMF;Athletic Bilbao;25;1993;3.7;0;0;0;5;6;3;1;0;0;0;0;0;11;16;14;53.3;Matches
+252;Koke\Koke;es ESP;MF;Atlético Madrid;27;1992;20.8;4;0;0;12;25;1;72;25;41;1;0;0;196;18;21;46.2;Matches
+253;Geoffrey Kondogbia\Geoffrey-Kondogbia;cf CTA;MF;Valencia;26;1993;13.5;4;0;0;24;15;2;0;33;30;0;1;0;154;29;29;50.0;Matches
+254;Jules Koundé\Jules-Kounde;fr FRA;DF;Sevilla;20;1998;15.6;3;0;0;10;5;0;9;14;12;0;1;0;153;59;25;70.2;Matches
+255;Leonardo Koutris\Leonardo-Koutris;gr GRE;DF;Mallorca;24;1995;1.0;0;0;0;3;0;0;3;1;0;0;1;0;13;2;4;33.3;Matches
+256;İsmail Köybaşı\Ismail-Koybasi;tr TUR;DFFW;Granada;30;1989;2.5;1;0;0;3;2;0;8;5;6;0;0;0;13;3;5;37.5;Matches
+257;Toni Kroos\Toni-Kroos;de GER;MF;Real Madrid;29;1990;20.9;1;0;0;15;35;0;110;17;27;0;0;0;152;10;8;55.6;Matches
+258;Takefusa Kubo\Takefusa-Kubo;jp JPN;MFFW;Mallorca;18;2001;15.9;2;0;0;27;46;2;50;15;16;2;0;0;91;8;18;30.8;Matches
+259;Víctor Laguardia\Victor-Laguardia;es ESP;DF;Alavés;29;1989;20.5;7;1;0;28;6;1;2;30;11;0;0;0;209;41;19;68.3;Matches
+260;Diego Lainez\Diego-Lainez;mx MEX;MF;Betis;19;2000;2.3;0;0;0;4;10;0;7;1;4;0;0;0;8;2;8;20.0;Matches
+261;Larra\Larra;es ESP;FWMF;Athletic Bilbao;21;1997;2.0;0;0;0;6;3;1;12;0;1;1;0;0;6;4;5;44.4;Matches
+262;Toni Lato\Toni-Lato;es ESP;MF;Osasuna;21;1997;0.9;0;0;0;3;0;0;2;1;3;0;0;0;5;0;0;;Matches
+263;Robin Le Normand\Robin-Le-Normand;fr FRA;DF;Real Sociedad;22;1996;17.2;5;0;0;18;12;0;0;9;14;0;1;0;165;51;28;64.6;Matches
+264;Wu Lei\Wu-Lei;cn CHN;FWMF;Espanyol;27;1991;12.8;2;0;0;14;12;8;18;11;7;0;0;0;72;14;31;31.1;Matches
+265;Iñigo Lekue\Inigo-Lekue;es ESP;DFFW;Athletic Bilbao;26;1993;4.6;0;0;0;9;1;1;26;2;14;0;1;0;31;6;6;50.0;Matches
+266;Thomas Lemar\Thomas-Lemar;fr FRA;MF;Atlético Madrid;23;1995;9.0;1;0;0;6;9;0;24;6;7;0;0;0;72;8;6;57.1;Matches
+267;Clément Lenglet\Clement-Lenglet;fr FRA;DF;Barcelona;24;1995;18.8;9;2;2;23;18;2;0;26;31;0;1;0;154;44;20;68.8;Matches
+268;Pedro León\Pedro-Leon;es ESP;MFFW;Eibar;32;1986;16.2;3;0;0;17;13;7;133;15;11;0;0;0;107;27;33;45.0;Matches
+269;Sergio León\Sergio-Leon;es ESP;FW;Levante;30;1989;5.2;2;0;0;7;6;11;4;0;2;0;0;0;18;6;11;35.3;Matches
+270;Lillo\Lillo;es ESP;DF;Osasuna;30;1989;2.1;2;0;0;3;2;1;11;3;2;0;0;0;18;4;1;80.0;Matches
+271;Diego Llorente\Diego-Llorente;es ESP;DF;Real Sociedad;25;1993;17.9;4;1;1;15;12;3;0;19;12;1;0;0;205;38;28;57.6;Matches
+272;Marcos Llorente\Marcos-Llorente;es ESP;MF;Atlético Madrid;24;1995;8.0;4;0;0;15;5;1;1;13;15;0;0;0;86;10;8;55.6;Matches
+273;Stanislav Lobotka\Stanislav-Lobotka;sk SVK;MF;Celta Vigo;24;1994;15.5;1;0;0;11;22;1;4;8;17;0;0;0;147;8;12;40.0;Matches
+274;Renan Lodi\Renan-Lodi;br BRA;DF;Atlético Madrid;21;1998;18.6;5;1;1;28;32;7;68;31;33;0;0;0;155;22;22;50.0;Matches
+275;Rony Lopes\Rony-Lopes;pt POR;FWMF;Sevilla;23;1995;1.0;0;0;0;0;1;0;5;1;1;0;0;0;8;0;2;0.0;Matches
+276;Adrián López\Adrian-Lopez;es ESP;FWMF;Osasuna;31;1988;9.8;0;0;0;5;4;3;10;1;3;0;0;0;41;24;33;42.1;Matches
+277;David López\David-Lopez;es ESP;DFMF;Espanyol;29;1989;16.6;4;1;1;26;19;0;8;22;18;0;0;0;230;45;34;57.0;Matches
+278;Diego López\Diego-Lopez;es ESP;GK;Espanyol;37;1981;26.9;4;1;1;1;5;0;0;2;1;0;0;0;157;0;0;;Matches
+279;Javi López\Javi-Lopez;es ESP;DF;Espanyol;33;1986;12.5;5;1;1;23;21;0;24;19;20;0;0;0;155;24;13;64.9;Matches
+280;Lluis López\Lluis-Lopez;es ESP;DF;Espanyol;22;1997;3.3;1;0;0;2;1;0;2;1;1;0;0;0;25;4;2;66.7;Matches
+281;Unai López\Unai-Lopez;es ESP;MF;Athletic Bilbao;23;1995;12.8;6;0;0;24;12;1;68;12;15;0;0;0;141;18;18;50.0;Matches
+282;Iker Losada\Iker-Losada;es ESP;MFFW;Celta Vigo;17;2001;0.1;0;0;0;0;0;0;3;0;0;0;0;0;4;1;0;100.0;Matches
+283;Pol Lozano\Pol-Lozano;es ESP;MF;Espanyol;19;1999;0.2;0;0;0;0;0;0;1;0;0;0;0;0;3;0;0;;Matches
+284;José Luis Gayà\Jose-Luis-Gaya;es ESP;DF;Valencia;24;1995;18.6;4;0;0;15;27;0;67;15;22;1;0;0;123;16;30;34.8;Matches
+285;José Luis Morales\Jose-Luis-Morales;es ESP;FWMF;Levante;32;1987;21.8;2;0;0;9;12;13;56;7;7;0;0;0;110;13;14;48.1;Matches
+286;Darwin Machís\Darwin-Machis;ve VEN;FWMF;Granada;26;1993;15.8;3;0;0;29;28;9;86;19;14;0;0;0;108;14;22;38.9;Matches
+287;Lisandro Magallán\Lisandro-Magallan;ar ARG;DF;Alavés;25;1993;8.3;4;0;0;10;3;1;0;7;7;0;1;0;81;29;16;64.4;Matches
+288;Nemanja Maksimović\Nemanja-Maksimovic;rs SRB;MF;Getafe;24;1995;23.5;5;0;0;15;8;1;6;39;29;0;0;0;233;52;50;51.0;Matches
+289;Hugo Mallo\Hugo-Mallo;es ESP;DF;Celta Vigo;28;1991;17.4;7;0;0;23;22;3;61;19;22;0;0;0;159;33;22;60.0;Matches
+290;Aïssa Mandi\Aissa-Mandi;dz ALG;DF;Betis;27;1991;21.6;8;0;0;23;14;4;1;35;13;0;0;0;159;35;32;52.2;Matches
+291;Eliaquim Mangala\Eliaquim-Mangala;fr FRA;DF;Valencia;28;1991;3.5;1;0;0;5;0;0;0;2;1;0;1;0;24;5;3;62.5;Matches
+292;Marcelo\Marcelo;br BRA;DF;Real Madrid;31;1988;10.4;2;0;0;5;13;0;49;13;7;1;0;0;96;7;3;70.0;Matches
+293;Óscar de Marcos\Oscar-de-Marcos;es ESP;FW;Athletic Bilbao;30;1989;2.1;0;0;0;1;3;2;7;1;0;0;0;0;12;2;4;33.3;Matches
+294;José María Giménez\Jose-Maria-Gimenez;uy URU;DF;Atlético Madrid;24;1995;11.0;0;0;0;7;9;1;0;12;9;0;0;0;87;29;9;76.3;Matches
+295;Mariano\Mariano;do DOM;FW;Real Madrid;25;1993;0.2;0;0;0;0;0;0;0;0;0;0;0;0;2;2;2;50.0;Matches
+296;Adrián Marín\Adrian-Marin;es ESP;DF;Alavés;22;1997;3.8;0;0;0;10;1;0;6;6;2;0;1;0;24;4;4;50.0;Matches
+297;Guillermo Maripán\Guillermo-Maripan;cl CHI;DF;Alavés;25;1994;1.0;0;0;0;0;0;0;0;2;0;0;0;0;4;3;1;75.0;Matches
+298;Roger Martí\Roger-Marti;es ESP;FW;Levante;28;1991;18.5;4;0;0;44;25;6;13;3;7;2;0;1;72;21;49;30.0;Matches
+299;Daniel Martín\Daniel-Martin;es ESP;GK;Betis;21;1998;1.9;0;0;0;0;0;0;0;0;0;0;0;0;11;0;0;;Matches
+300;Álex Martínez\Alex-Martinez;es ESP;DF;Granada;28;1990;0.2;1;0;0;0;0;0;4;0;0;0;0;0;1;0;0;;Matches
+301;Iñigo Martínez\Inigo-Martinez;es ESP;DF;Athletic Bilbao;28;1991;24.0;7;0;0;24;32;3;14;36;23;1;0;1;233;75;43;63.6;Matches
+302;Pablo Martínez\Pablo-Martinez;es ESP;MF;Levante;21;1998;0.2;0;0;0;1;1;0;0;0;2;0;0;0;5;0;1;0.0;Matches
+303;Jordi Masip\Jordi-Masip;es ESP;GK;Valladolid;30;1989;27.0;2;0;0;0;1;0;0;0;0;0;0;0;120;0;0;;Matches
+304;Jaime Mata\Jaime-Mata;es ESP;FW;Getafe;30;1988;21.7;10;0;0;67;42;27;38;5;7;1;0;0;106;71;92;43.6;Matches
+305;Borja Mayoral\Borja-Mayoral;es ESP;FW;Levante;22;1997;16.5;2;0;0;17;20;9;15;2;3;0;0;0;70;16;41;28.1;Matches
+306;Óscar Melendo\Oscar-Melendo;es ESP;MFFW;Espanyol;21;1997;7.2;0;0;0;6;19;0;5;2;3;0;0;0;36;2;11;15.4;Matches
+307;Gonzalo Melero\Gonzalo-Melero;es ESP;MF;Levante;25;1994;9.3;3;0;0;19;20;2;2;5;10;0;0;0;82;17;19;47.2;Matches
+308;Arthur Melo\Arthur-Melo;br BRA;MF;Barcelona;22;1996;11.2;1;0;0;11;36;1;12;2;8;0;0;0;76;1;5;16.7;Matches
+309;Brais Méndez\Brais-Mendez;es ESP;MFFW;Celta Vigo;22;1997;11.6;2;0;0;19;29;3;28;9;11;0;0;0;87;20;25;44.4;Matches
+310;Édgar Méndez\Edgar-Mendez;es ESP;MF;Alavés;28;1991;2.8;1;0;0;6;5;4;4;2;1;0;0;0;10;5;6;45.5;Matches
+311;Ferland Mendy\Ferland-Mendy;fr FRA;DF;Real Madrid;24;1995;12.5;6;1;1;17;14;1;53;18;13;0;0;0;131;17;8;68.0;Matches
+312;Fran Mérida\Fran-Merida;es ESP;MF;Osasuna;29;1990;10.3;8;1;1;14;15;0;13;27;10;0;0;0;123;9;7;56.3;Matches
+313;Mikel Merino\Mikel-Merino;es ESP;MF;Real Sociedad;23;1996;25.0;5;0;0;55;60;0;25;40;43;1;0;0;285;115;59;66.1;Matches
+314;Sabin Merino\Sabin-Merino;es ESP;FW;Leganés;27;1992;0.9;0;0;0;0;1;0;0;0;0;0;0;0;3;2;3;40.0;Matches
+315;Roque Mesa\Roque-Mesa;es ESP;MF;Leganés;30;1989;17.7;8;0;0;28;38;1;40;6;23;0;0;0;155;4;26;13.3;Matches
+316;Lionel Messi\Lionel-Messi;ar ARG;FW;Barcelona;32;1987;21.0;3;0;0;11;37;10;59;4;8;0;0;0;76;5;3;62.5;Matches
+317;Míchel\Michel;es ESP;MF;Valladolid;31;1988;19.9;4;0;0;27;13;2;83;28;27;0;0;0;231;15;16;48.4;Matches
+318;Miguel\Miguel;es ESP;FW;Valladolid;19;1999;0.3;0;0;0;1;0;0;2;0;0;0;0;0;0;0;1;0.0;Matches
+319;Éder Militão\Eder-Militao;br BRA;DF;Real Madrid;21;1998;7.0;2;0;0;12;12;2;2;13;9;0;0;0;72;32;8;80.0;Matches
+320;Santi Mina\Santi-Mina;es ESP;FW;Celta Vigo;23;1995;15.4;4;0;0;35;26;7;19;5;7;0;0;0;76;70;83;45.8;Matches
+321;Jorge Miramón\Jorge-Miramon;es ESP;DF;Levante;30;1989;21.4;3;0;0;12;20;0;59;30;26;0;2;0;201;13;19;40.6;Matches
+322;Luka Modrić\Luka-Modric;hr CRO;MF;Real Madrid;33;1985;15.0;3;1;0;19;14;1;43;17;11;1;0;0;141;10;14;41.7;Matches
+323;Jorge Molina\Jorge-Molina;es ESP;FW;Getafe;37;1982;15.9;4;1;0;26;30;15;10;4;3;1;0;0;72;49;85;36.6;Matches
+324;Jon Moncayola\Jon-Moncayola;es ESP;MFDF;Osasuna;21;1998;10.8;4;0;0;21;3;0;7;10;19;0;0;0;132;18;13;58.1;Matches
+325;Nacho Monreal\Nacho-Monreal;es ESP;DF;Real Sociedad;33;1986;19.5;1;0;0;26;11;1;41;31;18;0;0;0;138;43;20;68.3;Matches
+326;Ángel Montoro\Angel-Montoro;es ESP;MF;Granada;31;1988;9.8;5;0;0;21;15;0;44;12;11;0;0;0;94;3;6;33.3;Matches
+327;Álvaro Morata\Alvaro-Morata;es ESP;FW;Atlético Madrid;26;1992;18.0;5;1;1;46;51;28;10;4;11;0;0;0;90;84;72;53.8;Matches
+328;Alberto Moreno\Alberto-Moreno;es ESP;DF;Villarreal;27;1992;7.6;2;0;0;7;6;0;16;11;14;0;0;0;70;4;8;33.3;Matches
+329;Álex Moreno\Alex-Moreno;es ESP;DF;Betis;26;1993;19.9;3;0;0;26;29;4;59;18;22;0;2;0;154;16;21;43.2;Matches
+330;Gerard Moreno\Gerard-Moreno;es ESP;FWMF;Villarreal;27;1992;22.9;4;0;0;27;35;13;47;12;13;2;0;0;104;41;60;40.6;Matches
+331;Manu Morlanes\Manu-Morlanes;es ESP;MF;Villarreal;20;1999;1.0;0;0;0;1;0;0;1;2;2;0;0;0;14;1;1;50.0;Matches
+332;Loren Morón\Loren-Moron;es ESP;FW;Betis;25;1993;17.2;2;1;0;20;35;22;6;9;9;0;0;0;59;23;44;34.3;Matches
+333;Toni Moya\Toni-Moya;es ESP;MF;Atlético Madrid;21;1998;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;Matches
+334;Javi Moyano\Javi-Moyano;es ESP;DF;Valladolid;33;1986;17.8;3;0;0;16;16;0;27;18;10;0;1;0;145;26;22;54.2;Matches
+335;Iker Muniain\Iker-Muniain;es ESP;FWMF;Athletic Bilbao;26;1992;17.5;0;1;0;17;41;2;38;8;11;0;0;0;109;5;14;26.3;Matches
+336;Aihen Muñoz\Aihen-Munoz;es ESP;DF;Real Sociedad;21;1997;7.0;0;0;0;4;2;0;28;2;6;0;0;0;51;9;9;50.0;Matches
+337;Javier Muñoz\Javier-Munoz;es ESP;MF;Alavés;24;1995;0.6;0;0;0;1;0;0;0;0;0;0;0;0;5;0;0;;Matches
+338;Jeison Murillo\Jeison-Murillo;co COL;DF;Celta Vigo;27;1992;8.0;2;0;0;10;8;3;1;6;9;0;0;0;76;25;19;56.8;Matches
+339;Nacho\Nacho;es ESP;DF;Real Madrid;29;1990;4.4;3;0;0;9;7;0;16;9;5;0;0;0;31;13;7;65.0;Matches
+340;Nacho\Nacho;es ESP;DF;Valladolid;30;1989;13.1;2;0;0;19;7;2;43;15;21;0;0;0;117;8;11;42.1;Matches
+341;Naldo\Naldo;br BRA;DF;Espanyol;30;1988;13.7;7;1;1;18;4;1;2;19;14;0;0;0;133;28;19;59.6;Matches
+342;Marc Navarro\Marc-Navarro;es ESP;DF;Leganés;24;1995;2.4;1;0;0;6;0;0;7;0;2;0;0;0;12;2;5;28.6;Matches
+343;Ximo Navarro\Ximo-Navarro;es ESP;DF;Alavés;29;1990;16.6;8;0;0;25;20;0;18;41;22;0;0;0;179;33;25;56.9;Matches
+344;Jesús Navas\Jesus-Navas;es ESP;DF;Sevilla;33;1985;27.0;4;0;0;14;20;0;178;19;15;0;0;0;263;10;24;29.4;Matches
+345;Raúl Navas\Raul-Navas;es ESP;DF;Osasuna;31;1988;4.4;1;0;0;3;3;0;0;8;6;0;0;0;45;7;4;63.6;Matches
+346;Neto\Neto;br BRA;GK;Barcelona;30;1989;1.0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;;Matches
+347;Carlos Neva\Carlos-Neva;es ESP;DF;Granada;23;1996;16.1;1;0;0;6;25;0;53;15;4;0;0;0;118;6;21;22.2;Matches
+348;Saúl Ñíguez\Saul-Niguez;es ESP;MFDF;Atlético Madrid;24;1994;26.0;6;0;0;46;21;6;28;41;48;0;0;0;293;89;78;53.3;Matches
+349;Fernando Niño\Fernando-Nino;es ESP;FW;Villarreal;18;2000;0.2;1;0;0;5;0;0;0;0;0;0;0;0;0;0;1;0.0;Matches
+350;Nolito\Nolito;es ESP;FW;Sevilla;32;1986;10.0;0;0;0;22;9;10;14;1;9;1;0;0;56;7;13;35.0;Matches
+351;Unai Núñez\Unai-Nunez;es ESP;DF;Athletic Bilbao;22;1997;10.6;5;0;0;15;4;0;1;17;8;0;0;1;86;34;22;60.7;Matches
+352;Allan Nyom\Allan-Nyom;cm CMR;DFMF;Getafe;31;1988;20.0;10;0;0;45;15;3;67;13;15;0;0;0;144;27;22;55.1;Matches
+353;Jan Oblak\Jan-Oblak;si SVN;GK;Atlético Madrid;26;1993;26.7;0;0;0;0;7;0;0;1;0;0;0;0;103;0;0;;Matches
+354;Lucas Ocampos\Lucas-Ocampos;ar ARG;FW;Sevilla;25;1994;21.3;8;1;1;30;45;9;71;19;23;1;0;0;145;20;28;41.7;Matches
+355;Álvaro Odriozola\Alvaro-Odriozola;es ESP;DF;Real Madrid;23;1995;3.8;3;1;1;7;5;0;6;1;4;0;0;0;19;1;2;33.3;Matches
+356;Lucas Olaza\Lucas-Olaza;uy URU;DF;Celta Vigo;25;1994;25.0;4;0;0;20;17;0;156;27;26;1;0;0;226;23;25;47.9;Matches
+357;Kiko Olivas\Kiko-Olivas;es ESP;DF;Valladolid;30;1988;27.0;1;0;0;10;24;3;0;48;27;0;1;0;258;38;38;50.0;Matches
+358;Paulo Oliveira\Paulo-Oliveira;pt POR;DF;Eibar;27;1992;17.7;7;1;1;16;13;0;3;32;11;0;0;1;206;60;28;68.2;Matches
+359;Mathías Olivera\Mathias-Olivera;uy URU;DF;Getafe;21;1997;10.4;4;1;1;18;9;2;22;15;26;0;0;0;130;39;33;54.2;Matches
+360;Kenneth Omeruo\Kenneth-Omeruo;ng NGA;DF;Leganés;25;1993;17.8;5;0;0;14;6;0;0;30;23;0;1;0;177;57;22;72.2;Matches
+361;Javier Ontiveros\Javier-Ontiveros;es ESP;FWMF;Villarreal;21;1997;4.9;1;0;0;13;9;0;28;1;16;1;0;0;45;2;5;28.6;Matches
+362;Fabián Orellana\Fabian-Orellana;cl CHI;MFFW;Eibar;33;1986;23.1;8;1;0;20;46;9;102;19;16;1;0;0;148;12;39;23.5;Matches
+363;Mikel Oyarzabal\Mikel-Oyarzabal;es ESP;FWMF;Real Sociedad;22;1997;24.0;3;0;0;27;37;11;69;10;11;0;0;0;167;30;41;42.3;Matches
+364;Fernando Pacheco\Fernando-Pacheco;es ESP;GK;Alavés;27;1992;24.0;0;0;0;0;1;0;0;0;0;0;0;0;118;0;0;;Matches
+365;Daniel Parejo\Daniel-Parejo;es ESP;MF;Valencia;30;1989;24.6;6;1;1;18;74;3;125;18;37;1;1;0;253;9;12;42.9;Matches
+366;Thomas Partey\Thomas-Partey;gh GHA;MF;Atlético Madrid;26;1993;20.4;10;0;0;38;20;0;23;36;25;0;1;0;287;33;21;61.1;Matches
+367;Gabriel Paulista\Gabriel-Paulista;br BRA;DF;Valencia;28;1990;23.2;5;0;0;14;17;0;1;45;8;0;0;0;216;55;26;67.9;Matches
+368;Alfonso Pedraza\Alfonso-Pedraza;es ESP;DF;Betis;23;1996;8.8;1;0;0;10;13;1;18;10;14;0;0;0;61;5;3;62.5;Matches
+369;Marc Pedraza\Marc-Pedraza;es ESP;MF;Mallorca;32;1987;0.8;0;0;0;2;0;0;0;1;2;0;0;0;7;0;2;0.0;Matches
+370;Pedrosa\Pedrosa;es ESP;DFMF;Espanyol;21;1998;9.5;1;0;0;7;11;1;25;8;10;0;0;0;74;7;5;58.3;Matches
+371;Rubén Peña\Ruben-Pena;es ESP;DF;Villarreal;28;1991;15.7;5;0;0;29;19;0;66;22;20;0;0;1;151;12;12;50.0;Matches
+372;Luis Perea\Luis-Perea;es ESP;FWMF;Osasuna;21;1997;0.2;0;0;0;0;1;0;0;0;0;0;0;0;2;1;3;25.0;Matches
+373;Victor Perea\Victor-Perea;es ESP;DF;Espanyol;19;2000;10.0;2;0;0;14;19;0;49;9;7;0;0;1;84;5;20;20.0;Matches
+374;Gonzalo Pereira Cejudo\Gonzalo-Pereira-Cejudo;es ESP;DF;Levante;22;1997;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;Matches
+375;Carles Pérez\Carles-Perez;es ESP;FW;Barcelona;21;1998;5.3;0;0;0;4;4;2;16;1;3;0;0;0;31;1;8;11.1;Matches
+376;Iñigo Pérez\Inigo-Perez;es ESP;MFDF;Osasuna;31;1988;5.7;1;0;0;7;6;0;20;4;4;0;0;0;65;3;6;33.3;Matches
+377;Juan Pérez\Juan-Perez;es ESP;GK;Osasuna;23;1996;2.0;0;0;0;0;0;0;0;0;0;0;0;0;15;0;0;;Matches
+378;Lucas Pérez\Lucas-Perez;es ESP;FW;Alavés;30;1988;21.6;3;0;0;21;9;19;101;2;9;0;0;0;97;9;22;29.0;Matches
+379;Rubén Pérez\Ruben-Perez;es ESP;MF;Leganés;30;1989;16.4;6;0;0;23;25;0;6;28;26;0;1;0;254;22;21;51.2;Matches
+380;Pablo Piatti\Pablo-Piatti;ar ARG;DFMF;Espanyol;30;1989;0.6;0;0;0;0;2;1;5;0;1;0;0;0;6;0;0;;Matches
+381;Cristiano Piccini\Cristiano-Piccini;it ITA;DF;Valencia;26;1992;0.8;0;0;0;1;1;0;2;2;0;0;0;0;13;1;0;100.0;Matches
+382;Tomás Pina Isla\Tomas-Pina-Isla;es ESP;MF;Alavés;31;1987;10.0;3;0;0;24;12;0;1;12;16;1;0;0;109;24;14;63.2;Matches
+383;Pipa\Pipa;es ESP;DFMF;Espanyol;21;1998;1.3;1;0;0;3;1;0;4;1;1;0;1;0;13;1;2;33.3;Matches
+384;Gerard Piqué\Gerard-Pique;es ESP;DF;Barcelona;32;1987;24.7;11;0;0;25;15;0;0;26;17;0;2;0;265;80;28;74.1;Matches
+385;Óscar Plano\Oscar-Plano;es ESP;MF;Valladolid;28;1991;21.8;3;0;0;38;46;4;34;27;25;1;0;0;162;19;47;28.8;Matches
+386;Pere Pons\Pere-Pons;es ESP;MF;Alavés;26;1993;8.1;1;0;0;19;8;0;6;10;14;1;0;0;88;17;9;65.4;Matches
+387;Pedro Porro\Pedro-Porro;es ESP;DFMF;Valladolid;19;1999;8.2;1;0;0;4;12;0;34;8;14;0;0;0;64;5;9;35.7;Matches
+388;Francisco Portillo\Francisco-Portillo;es ESP;MF;Getafe;29;1990;3.7;2;0;0;9;3;0;5;1;5;0;0;0;30;3;7;30.0;Matches
+389;Portu\Portu;es ESP;FWMF;Real Sociedad;27;1992;19.8;5;0;0;24;17;14;78;8;19;0;0;0;97;13;33;28.3;Matches
+390;Sergio Postigo\Sergio-Postigo;es ESP;DF;Levante;30;1988;19.5;5;0;0;13;10;2;0;27;15;0;0;0;148;27;21;56.3;Matches
+391;Darío Poveda\Dario-Poveda;es ESP;FW;Atlético Madrid;22;1997;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;2;1;66.7;Matches
+392;Alejandro Pozo Pozo\Alejandro-Pozo-Pozo;es ESP;DF;Mallorca;20;1999;5.7;0;0;0;6;6;1;21;11;13;0;0;0;66;0;7;0.0;Matches
+393;Alejandro Pozo Pozo\Alejandro-Pozo-Pozo;es ESP;FWMF;Sevilla;20;1999;0.4;0;0;0;0;0;0;1;0;1;0;0;0;4;0;0;;Matches
+394;Abdón Prats\Abdon-Prats;es ESP;FWMF;Mallorca;26;1992;1.9;1;0;0;6;2;0;1;0;0;0;0;0;7;14;12;53.8;Matches
+395;Andrés Prieto\Andres-Prieto;es ESP;GK;Espanyol;25;1993;0.0;1;0;0;0;0;0;0;0;0;;;0;;;;;Matches
+396;Antonio Puertas\Antonio-Puertas;es ESP;FWMF;Granada;27;1992;20.2;5;0;0;27;32;2;33;10;17;0;0;0;128;34;62;35.4;Matches
+397;Riqui Puig\Riqui-Puig;es ESP;MF;Barcelona;19;1999;0.2;0;0;0;1;0;0;0;1;0;0;0;0;1;0;1;0.0;Matches
+398;Quini\Quini;es ESP;DF;Granada;29;1989;8.0;2;0;0;8;6;0;17;10;12;0;0;0;79;8;6;57.1;Matches
+399;Xavi Quintillà\Xavi-Quintilla;es ESP;DF;Villarreal;22;1996;15.3;5;0;0;24;11;1;73;9;10;0;0;0;114;7;26;21.2;Matches
+400;Quique\Quique;es ESP;FW;Eibar;29;1990;4.2;0;0;0;8;11;2;3;0;2;0;0;0;16;17;29;37.0;Matches
+401;Nemanja Radoja\Nemanja-Radoja;rs SRB;MF;Levante;26;1993;15.8;2;0;0;13;16;2;5;18;13;0;0;0;153;35;16;68.6;Matches
+402;Rafinha\Rafinha;br BRA;MF;Celta Vigo;26;1993;16.2;2;0;0;22;66;2;17;26;34;0;0;0;174;25;21;54.3;Matches
+403;Rafinha\Rafinha;br BRA;FWMF;Barcelona;26;1993;2.1;0;0;0;3;12;0;12;1;3;0;0;0;19;0;4;0.0;Matches
+404;Baba Rahman\Baba-Rahman;gh GHA;DF;Mallorca;25;1994;1.2;1;0;0;1;0;0;6;1;2;0;0;0;14;1;3;25.0;Matches
+405;Antonio Raillo\Antonio-Raillo;es ESP;DF;Mallorca;27;1991;22.2;6;1;1;22;7;3;0;16;22;0;2;0;190;45;21;68.2;Matches
+406;Ivan Rakitić\Ivan-Rakitic;hr CRO;MF;Barcelona;31;1988;10.7;2;0;0;13;23;1;13;10;7;0;0;0;95;10;11;47.6;Matches
+407;Sandro Ramírez\Sandro-Ramirez;es ESP;FWMF;Valladolid;24;1995;12.1;2;0;0;15;34;5;30;4;9;1;0;0;62;6;16;27.3;Matches
+408;Iván Ramis\Ivan-Ramis;es ESP;DF;Eibar;34;1984;5.1;1;0;0;4;5;0;1;4;2;0;0;0;64;20;8;71.4;Matches
+409;Adrián Ramos\Adrian-Ramos;co COL;FW;Granada;33;1986;2.5;0;0;0;5;6;3;3;1;1;0;0;0;10;12;23;34.3;Matches
+410;Sergio Ramos\Sergio-Ramos;es ESP;DF;Real Madrid;33;1986;24.7;7;0;0;37;20;4;1;35;35;0;1;0;290;48;33;59.3;Matches
+411;Raúl\Raul;es ESP;FWMF;Betis;18;2000;0.2;0;0;0;0;0;0;0;0;0;0;0;0;2;1;2;33.3;Matches
+412;Recio\Recio;es ESP;MF;Leganés;28;1991;14.5;9;0;0;33;39;1;20;16;18;0;0;0;162;9;10;47.4;Matches
+413;Sergio Reguilón\Sergio-Reguilon;es ESP;DF;Sevilla;22;1996;20.8;7;0;0;43;35;3;91;29;29;0;0;0;196;27;27;50.0;Matches
+414;Manolo Reina\Manolo-Reina;es ESP;GK;Mallorca;34;1985;26.0;4;0;0;0;7;0;0;5;0;0;0;0;158;0;0;;Matches
+415;Álex Remiro\Alex-Remiro;es ESP;GK;Real Sociedad;24;1995;20.0;0;0;0;0;4;0;0;0;0;0;0;0;85;0;0;;Matches
+416;Luis Rioja\Luis-Rioja;es ESP;MF;Alavés;25;1993;13.3;2;0;0;14;10;1;48;15;8;0;0;0;72;5;19;20.8;Matches
+417;Rodrigo Riquelme\Rodrigo-Riquelme;es ESP;MF;Atlético Madrid;19;2000;0.1;0;0;0;0;1;0;1;0;0;0;0;0;2;0;1;0.0;Matches
+418;Cristian Rivera\Cristian-Rivera;es ESP;MF;Leganés;22;1997;3.4;3;0;0;6;5;0;2;4;3;0;0;0;31;4;3;57.1;Matches
+419;Sergi Roberto\Sergi-Roberto;es ESP;DFMF;Barcelona;27;1992;19.3;8;0;0;17;29;1;22;24;14;0;0;0;159;18;17;51.4;Matches
+420;Joel Robles\Joel-Robles;es ESP;GK;Betis;29;1990;25.1;3;1;0;1;1;0;0;0;0;0;0;0;130;0;0;;Matches
+421;Marc Roca\Marc-Roca;es ESP;MF;Espanyol;22;1996;23.0;7;0;0;54;16;0;36;23;43;0;0;0;292;26;32;44.8;Matches
+422;Rubén Rochina\Ruben-Rochina;es ESP;MF;Levante;28;1991;14.0;4;0;0;22;39;1;49;11;19;1;0;0;116;14;13;51.9;Matches
+423;Rodrigo\Rodrigo;es ESP;FW;Valencia;28;1991;15.3;2;1;0;14;23;5;17;7;7;1;0;0;58;22;27;44.9;Matches
+424;Kévin Rodrigues\Kevin-Rodrigues;pt POR;DFFW;Leganés;25;1994;15.1;4;1;1;26;15;1;94;23;22;0;0;0;131;17;31;35.4;Matches
+425;Kévin Rodrigues\Kevin-Rodrigues;pt POR;DF;Real Sociedad;25;1994;0.1;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;100.0;Matches
+426;Óscar Rodríguez Arnaiz\Oscar-Rodriguez-Arnaiz;es ESP;MFFW;Leganés;21;1998;18.6;4;1;0;23;32;1;85;17;8;0;0;0;153;14;30;31.8;Matches
+427;Ángel Rodríguez\Angel-Rodriguez;es ESP;FW;Getafe;32;1987;12.2;4;0;0;43;24;24;23;3;8;0;0;0;57;19;67;22.1;Matches
+428;Dani Rodríguez\Dani-Rodriguez;es ESP;MFFW;Mallorca;31;1988;24.5;4;0;0;46;49;5;28;26;30;2;0;0;183;22;44;33.3;Matches
+429;Guido Rodríguez\Guido-Rodriguez;ar ARG;MF;Betis;25;1994;2.0;2;0;0;3;3;1;0;5;5;0;0;0;17;3;2;60.0;Matches
+430;James Rodríguez\James-Rodriguez;co COL;MF;Real Madrid;28;1991;3.8;1;0;0;5;5;2;22;2;8;0;0;0;23;2;5;28.6;Matches
+431;Rodrygo\Rodrygo;br BRA;FW;Real Madrid;18;2001;7.4;0;0;0;7;13;1;27;8;3;0;0;0;38;4;13;23.5;Matches
+432;Facundo Roncaglia\Facundo-Roncaglia;ar ARG;DF;Osasuna;32;1987;11.3;4;2;1;15;9;0;9;13;12;0;2;0;157;25;20;55.6;Matches
+433;Roberto Rosales\Roberto-Rosales;ve VEN;DF;Leganés;30;1988;13.3;5;0;0;21;5;1;53;19;15;0;0;0;111;19;24;44.2;Matches
+434;Rubén\Ruben;es ESP;GK;Osasuna;35;1984;13.6;0;0;0;0;1;0;0;1;0;0;0;0;74;0;0;;Matches
+435;Waldo Rubio\Waldo-Rubio;es ESP;MFFW;Valladolid;23;1995;4.9;3;0;0;8;4;2;10;4;4;0;0;0;34;3;4;42.9;Matches
+436;Aitor Ruibal\Aitor-Ruibal;es ESP;DFFW;Leganés;23;1996;5.6;2;0;0;15;5;4;17;1;10;0;0;0;41;2;10;16.7;Matches
+437;Jorge Sáenz\Jorge-Saenz;es ESP;DFFW;Celta Vigo;22;1996;1.4;1;1;0;2;1;0;0;3;0;0;0;0;16;2;2;50.0;Matches
+438;Borja Sainz\Borja-Sainz;es ESP;MFFW;Alavés;18;2001;3.8;1;0;0;10;5;2;7;2;6;0;0;0;40;3;9;25.0;Matches
+439;Yannis Salibur\Yannis-Salibur;fr FRA;FWMF;Mallorca;28;1991;0.6;0;0;0;2;3;0;2;1;0;0;0;0;4;1;0;100.0;Matches
+440;Mohammed Salisu\Mohammed-Salisu;gh GHA;DF;Valladolid;20;1999;26.3;2;0;0;19;10;1;1;32;29;0;1;0;234;62;32;66.0;Matches
+441;Fede San Emeterio\Fede-San-Emeterio;es ESP;MF;Valladolid;22;1997;11.8;3;0;0;17;16;0;3;22;13;0;0;0;111;16;16;50.0;Matches
+442;Mikel San José\Mikel-San-Jose;es ESP;MF;Athletic Bilbao;30;1989;3.9;3;0;0;6;1;1;0;11;7;0;0;0;36;15;10;60.0;Matches
+443;Oihan Sancet\Oihan-Sancet;es ESP;MF;Athletic Bilbao;19;2000;4.5;1;0;0;8;7;0;1;0;3;0;0;0;26;7;3;70.0;Matches
+444;Germán Sánchez\German-Sanchez;es ESP;DF;Granada;32;1986;17.7;9;1;1;20;17;0;0;24;10;0;0;0;169;39;41;48.8;Matches
+445;Manuel Sánchez\Manuel-Sanchez;es ESP;DF;Atlético Madrid;18;2000;0.7;1;0;0;2;0;1;4;0;1;0;0;0;3;1;2;33.3;Matches
+446;Víctor Sánchez\Victor-Sanchez;es ESP;MFDF;Espanyol;31;1987;17.6;10;1;1;46;29;0;68;25;32;0;2;0;207;33;29;53.2;Matches
+447;Luca Sangalli\Luca-Sangalli;es ESP;MF;Real Sociedad;24;1995;4.1;0;0;0;1;7;0;5;1;1;0;0;0;37;5;5;50.0;Matches
+448;Oier Sanjurjo\Oier-Sanjurjo;es ESP;MF;Osasuna;33;1986;18.5;10;1;1;32;31;1;8;21;22;0;0;0;291;47;47;50.0;Matches
+449;Ivan Šaponjić\Ivan-Saponjic;rs SRB;DF;Atlético Madrid;21;1997;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;100.0;Matches
+450;Joan Sastre Vanrell\Joan-Sastre-Vanrell;es ESP;DF;Mallorca;22;1997;14.2;4;0;0;18;19;0;62;21;16;0;1;0;108;6;10;37.5;Matches
+451;Stefan Savić\Stefan-Savic;me MNE;DF;Atlético Madrid;28;1991;14.0;3;0;0;11;8;0;0;19;6;0;0;1;132;33;17;66.0;Matches
+452;Aleksandar Sedlar\Aleksandar-Sedlar;rs SRB;DF;Mallorca;27;1991;2.8;1;0;0;4;4;0;0;5;2;0;0;0;28;6;5;54.5;Matches
+453;Nélson Semedo\Nelson-Semedo;pt POR;DF;Barcelona;25;1993;15.4;1;0;0;16;24;2;10;16;28;1;0;0;102;9;4;69.2;Matches
+454;Josep Señé\Josep-Sene;es ESP;MF;Mallorca;27;1991;1.5;0;0;0;1;3;0;1;1;1;0;0;0;12;1;1;50.0;Matches
+455;Salva Sevilla\Salva-Sevilla;es ESP;MF;Mallorca;35;1984;20.6;9;1;1;25;15;1;99;10;14;0;0;0;203;3;11;21.4;Matches
+456;Sidnei\Sidnei;br BRA;DF;Betis;29;1989;8.6;1;0;0;6;4;0;0;17;7;0;1;0;79;15;6;71.4;Matches
+457;Jonathan Silva\Jonathan-Silva;ar ARG;DF;Leganés;25;1994;23.6;11;0;0;31;29;3;106;25;16;0;0;1;173;23;30;43.4;Matches
+458;Rui Silva\Rui-Silva;pt POR;GK;Granada;25;1994;26.0;1;0;0;0;3;0;0;1;0;0;0;0;155;0;0;;Matches
+459;Unai Simón\Unai-Simon;es ESP;GK;Athletic Bilbao;22;1997;24.0;2;0;0;1;2;0;0;1;0;0;0;0;107;0;0;;Matches
+460;Dimitris Siovas\Dimitris-Siovas;gr GRE;DF;Leganés;30;1988;15.4;4;0;0;17;5;2;5;33;21;0;1;0;177;53;26;67.1;Matches
+461;Pione Sisto\Pione-Sisto;dk DEN;FWMF;Celta Vigo;24;1995;8.5;2;0;0;7;22;5;35;4;10;0;0;0;54;1;9;10.0;Matches
+462;Antonio Sivera\Antonio-Sivera;es ESP;GK;Alavés;22;1996;3.0;1;0;0;1;0;0;0;0;0;0;1;0;16;0;0;;Matches
+463;Fyodor Smolov\Fyodor-Smolov;ru RUS;FW;Celta Vigo;29;1990;4.0;2;0;0;7;3;5;5;4;0;0;0;0;11;9;16;36.0;Matches
+464;Rubén Sobrino\Ruben-Sobrino;es ESP;FWMF;Valencia;27;1992;1.4;0;0;0;6;6;1;2;0;4;0;0;0;10;3;6;33.3;Matches
+465;Roberto Soldado\Roberto-Soldado;es ESP;FW;Granada;34;1985;19.6;11;0;0;33;37;17;11;4;3;1;0;0;58;33;62;34.7;Matches
+466;Carlos Soler\Carlos-Soler;es ESP;MF;Valencia;22;1997;15.4;3;0;0;19;13;1;12;9;15;0;0;0;101;10;7;58.8;Matches
+467;Kévin Soni\Kevin-Soni;cm CMR;FW;Espanyol;21;1998;0.0;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;;Matches
+468;David Soria\David-Soria;es ESP;GK;Getafe;26;1993;27.0;1;0;0;1;0;0;0;0;0;0;0;0;162;0;0;;Matches
+469;Juan Soriano\Juan-Soriano;es ESP;GK;Leganés;21;1997;11.0;2;0;0;1;1;0;0;0;0;0;1;0;54;0;0;;Matches
+470;Damián Suárez\Damian-Suarez;uy URU;DF;Getafe;31;1988;21.4;11;0;0;41;39;0;122;22;35;0;0;0;232;26;37;41.3;Matches
+471;Denis Suárez\Denis-Suarez;es ESP;MFFW;Celta Vigo;25;1994;14.7;2;0;0;13;30;0;82;14;10;1;0;0;92;2;12;14.3;Matches
+472;Luis Suárez\Luis-Suarez;uy URU;FW;Barcelona;32;1987;14.2;4;0;0;13;14;9;9;0;2;0;0;0;39;4;5;44.4;Matches
+473;Ki Sung-yueng\Ki-Sung-yueng;kr KOR;MF;Mallorca;30;1989;0.1;0;0;0;1;0;0;0;0;0;0;0;0;2;0;0;;Matches
+474;Suso\Suso;es ESP;FWMF;Sevilla;25;1993;3.9;0;0;0;4;3;0;21;1;1;0;0;0;25;1;3;25.0;Matches
+475;Tachi\Tachi;es ESP;MFDF;Alavés;21;1997;0.1;0;0;0;1;0;0;0;2;0;0;0;0;3;1;0;100.0;Matches
+476;Rodrigo Tarín\Rodrigo-Tarin;es ESP;DF;Leganés;23;1996;4.0;1;0;0;3;3;0;0;2;2;0;0;0;22;4;2;66.7;Matches
+477;Álvaro Tejero\Alvaro-Tejero;es ESP;DF;Eibar;23;1996;13.3;3;0;0;15;15;1;65;24;10;0;0;0;132;14;20;41.2;Matches
+478;Cristian Tello\Cristian-Tello;es ESP;MFFW;Betis;27;1991;5.0;0;0;0;3;2;0;19;2;2;0;0;0;35;2;4;33.3;Matches
+479;Marc-André ter Stegen\Marc-Andre-ter-Stegen;de GER;GK;Barcelona;27;1992;26.0;0;0;0;0;2;0;0;1;0;0;0;0;131;0;0;;Matches
+480;David Timor\David-Timor;es ESP;MF;Getafe;29;1989;3.5;2;0;0;6;7;0;3;5;2;0;0;0;61;10;9;52.6;Matches
+481;Jean-Clair Todibo\Jean-Clair-Todibo;fr FRA;DF;Barcelona;19;1999;0.9;0;0;0;1;0;0;0;0;1;0;0;0;8;1;2;33.3;Matches
+482;Karl Toko Ekambi\Karl-Toko-Ekambi;cm CMR;FW;Villarreal;26;1992;11.1;0;0;0;7;7;7;4;3;2;0;1;0;34;7;26;21.2;Matches
+483;Raúl de Tomás\Raul-de-Tomas;es ESP;FW;Espanyol;24;1994;6.0;1;0;0;9;11;3;4;3;2;1;0;0;33;8;27;22.9;Matches
+484;Toño\Tono;es ESP;DF;Levante;29;1989;13.0;0;0;0;13;13;5;42;7;10;0;0;0;111;14;15;48.3;Matches
+485;Ferrán Torres\Ferran-Torres;es ESP;MFFW;Valencia;19;2000;19.7;5;0;0;15;29;11;65;10;13;0;0;0;100;29;28;50.9;Matches
+486;Óliver Torres\Oliver-Torres;es ESP;FWMF;Sevilla;24;1994;12.4;5;0;0;23;13;0;30;9;21;0;0;0;104;4;21;16.0;Matches
+487;Pau Torres\Pau-Torres;es ESP;DF;Villarreal;22;1997;23.0;4;0;0;24;5;0;2;18;19;0;2;0;238;32;31;50.8;Matches
+488;Roberto Torres\Roberto-Torres;es ESP;MFFW;Osasuna;30;1989;23.0;1;0;0;14;26;2;116;21;15;0;1;0;151;13;20;39.4;Matches
+489;Aleksandar Trajkovski\Aleksandar-Trajkovski;mk MKD;MF;Mallorca;26;1992;1.6;0;0;0;4;4;0;13;2;2;0;0;0;14;1;1;50.0;Matches
+490;Manu Trigueros\Manu-Trigueros;es ESP;MF;Villarreal;27;1991;13.4;4;0;0;21;26;0;24;3;19;0;0;0;95;10;21;32.3;Matches
+491;Kieran Trippier\Kieran-Trippier;eng ENG;DF;Atlético Madrid;28;1990;17.0;2;0;0;19;11;2;112;19;24;0;1;0;146;16;20;44.4;Matches
+492;Samuel Umtiti\Samuel-Umtiti;fr FRA;DF;Barcelona;25;1993;9.3;4;0;0;17;14;1;0;24;8;0;0;0;108;20;7;74.1;Matches
+493;Enes Ünal\Enes-Unal;tr TUR;FW;Valladolid;22;1997;19.0;2;0;0;30;45;15;8;6;6;1;0;0;100;73;108;40.3;Matches
+494;Tomáš Vaclík\Tomas-Vaclik;cz CZE;GK;Sevilla;30;1989;25.5;0;0;0;0;3;0;0;0;0;0;0;0;122;0;0;;Matches
+495;Álvaro Vadillo\Alvaro-Vadillo;es ESP;FWMF;Granada;24;1994;13.6;0;0;0;9;20;9;92;7;9;0;0;0;59;6;23;20.7;Matches
+496;Germán Valera\German-Valera;es ESP;FW;Atlético Madrid;17;2002;0.0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;;Matches
+497;Martin Valjent\Martin-Valjent;sk SVK;DF;Mallorca;23;1995;27.0;4;0;0;13;8;1;1;31;16;0;0;0;244;40;36;52.6;Matches
+498;Jesús Vallejo\Jesus-Vallejo;es ESP;DF;Granada;22;1997;2.0;0;0;0;0;0;1;1;2;1;0;0;0;17;1;2;33.3;Matches
+499;Manu Vallejo\Manu-Vallejo;es ESP;MFFW;Valencia;22;1997;3.5;0;0;0;5;3;1;3;3;2;0;0;0;13;5;7;41.7;Matches
+500;Federico Valverde\Federico-Valverde;uy URU;MF;Real Madrid;21;1998;14.1;1;0;0;15;7;0;11;19;13;0;0;0;116;17;8;68.0;Matches
+501;Raphaël Varane\Raphael-Varane;fr FRA;DF;Real Madrid;26;1993;23.0;2;0;0;13;6;1;2;20;19;0;0;0;224;58;21;73.4;Matches
+502;Matías Vargas\Matias-Vargas;ar ARG;FWMF;Espanyol;21;1997;10.5;1;0;0;8;18;1;38;2;9;0;0;0;76;3;14;17.6;Matches
+503;Franco Vázquez\Franco-Vazquez;ar ARG;MFFW;Sevilla;30;1989;9.9;4;0;0;21;33;6;16;7;17;0;0;0;111;24;25;49.0;Matches
+504;Kevin Vázquez\Kevin-Vazquez;es ESP;DF;Celta Vigo;26;1993;8.2;5;0;0;10;13;1;15;14;8;0;0;0;85;11;11;50.0;Matches
+505;Lucas Vázquez\Lucas-Vazquez;es ESP;MFFW;Real Madrid;28;1991;7.1;1;0;0;20;12;2;41;7;11;1;0;0;58;2;5;28.6;Matches
+506;Unai Vencedor Paris\Unai-Vencedor-Paris;es ESP;MF;Athletic Bilbao;18;2000;0.8;1;0;0;0;1;0;4;0;0;0;0;0;11;0;2;0.0;Matches
+507;Mikel Vesga\Mikel-Vesga;es ESP;MF;Athletic Bilbao;26;1993;7.6;2;0;0;14;4;0;6;12;13;0;0;0;94;19;13;59.4;Matches
+508;Rúben Vezo\Ruben-Vezo;pt POR;DF;Levante;25;1994;19.0;4;0;0;22;19;1;0;24;16;0;1;0;182;58;21;73.4;Matches
+509;Fede Vico\Fede-Vico;es ESP;MFFW;Granada;25;1994;4.5;1;0;0;3;9;0;20;2;0;0;0;0;22;2;6;25.0;Matches
+510;Aleix Vidal\Aleix-Vidal;es ESP;MF;Alavés;29;1989;22.2;6;0;0;16;41;2;101;21;14;1;0;0;129;9;18;33.3;Matches
+511;Arturo Vidal\Arturo-Vidal;cl CHI;MFFW;Barcelona;32;1987;10.3;3;0;0;28;16;6;7;11;26;0;1;0;65;14;15;48.3;Matches
+512;Nacho Vidal\Nacho-Vidal;es ESP;DF;Osasuna;24;1995;17.3;5;0;0;22;25;0;48;35;17;0;1;0;152;28;21;57.1;Matches
+513;Dídac Vilà\Didac-Vila;es ESP;DF;Espanyol;30;1989;19.4;5;0;0;23;22;2;46;29;33;0;0;0;189;39;43;47.6;Matches
+514;Toni Villa\Toni-Villa;es ESP;MF;Valladolid;24;1995;12.3;4;0;0;14;30;2;24;8;17;0;0;0;94;5;9;35.7;Matches
+515;Asier Villalibre\Asier-Villalibre;es ESP;FW;Athletic Bilbao;21;1997;3.8;0;0;0;8;8;5;6;1;1;0;0;0;12;18;21;46.2;Matches
+516;Juan Villar\Juan-Villar;es ESP;FW;Osasuna;31;1988;2.6;1;0;0;7;2;6;1;0;0;0;0;0;14;7;10;41.2;Matches
+517;Vitolo\Vitolo;es ESP;MFFW;Atlético Madrid;29;1989;11.5;3;0;0;20;36;6;5;9;8;0;0;0;90;10;30;25.0;Matches
+518;Šime Vrsaljko\Sime-Vrsaljko;hr CRO;DF;Atlético Madrid;27;1992;4.0;3;0;0;7;3;0;14;8;4;0;0;0;39;16;3;84.2;Matches
+519;Nikola Vukčević\Nikola-Vukcevic;me MNE;MF;Levante;27;1991;12.0;8;0;0;31;20;0;1;10;19;0;0;0;95;16;10;61.5;Matches
+520;Moussa Wagué\Moussa-Wague;sn SEN;DF;Barcelona;20;1998;1.0;0;0;0;1;0;0;6;1;3;0;0;0;9;0;0;;Matches
+521;Wakaso\Wakaso;gh GHA;MF;Alavés;29;1990;14.3;12;1;1;41;24;0;15;20;28;0;0;0;139;17;20;45.9;Matches
+522;Daniel Wass\Daniel-Wass;dk DEN;DFMF;Valencia;30;1989;24.1;5;0;0;25;29;3;69;27;24;0;0;0;199;36;23;61.0;Matches
+523;Iñaki Williams\Inaki-Williams;es ESP;FW;Athletic Bilbao;25;1994;24.5;2;0;0;19;36;20;43;5;10;2;0;0;89;30;52;36.6;Matches
+524;Yoel\Yoel;es ESP;GK;Eibar;30;1988;1.0;1;0;0;0;0;0;0;1;0;0;0;0;11;0;0;;Matches
+525;Okay Yokuşlu\Okay-Yokuslu;tr TUR;MF;Celta Vigo;25;1994;15.2;3;0;0;30;9;0;3;22;21;0;0;0;196;50;34;59.5;Matches
+526;Joseba Zaldúa\Joseba-Zaldua;es ESP;DF;Real Sociedad;27;1992;22.8;6;0;0;31;48;1;83;35;31;0;1;1;202;51;23;68.9;Matches
+527;Andre-Frank Zambo Anguissa\Andre-Frank-Zambo-Anguissa;cm CMR;MF;Villarreal;23;1995;18.7;6;0;0;30;25;0;9;30;32;0;0;0;214;51;37;58.0;Matches
+528;Igor Zubeldia\Igor-Zubeldia;es ESP;MFDF;Real Sociedad;22;1997;22.3;7;0;0;41;18;0;5;14;33;0;2;0;236;41;47;46.6;Matches
+529;David Zurutuza\David-Zurutuza;es ESP;MF;Real Sociedad;33;1986;1.0;0;0;0;2;0;0;1;3;1;0;0;0;8;4;6;40.0;Matches
+530;Martin Ødegaard\Martin-Odegaard;no NOR;MF;Real Sociedad;20;1998;22.4;3;0;0;22;29;0;94;9;12;0;0;0;199;9;15;37.5;Matches

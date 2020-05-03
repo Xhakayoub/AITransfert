@@ -522,6 +522,7 @@ class importCommand extends Command
 
 
 
+     // echo "i'am here";
 
       $standars = $readerOfStandarsData->fetchAssoc();
       $passing = $readerOfPassingData->fetchAssoc();
@@ -530,7 +531,6 @@ class importCommand extends Command
       $miscellaneous = $readerOfMiscellaneousData->fetchAssoc();
       $typePass = $readerOfTypePassData->fetchAssoc();
       $defense = $readerOfDefenseData->fetchAssoc();
-
       $possession = $readerOfPossessionData->fetchAssoc();
 
       // $standarsTeams = $readerOfStandarsTeamData->fetchAssoc();
@@ -603,9 +603,9 @@ class importCommand extends Command
                ->setNintyMinPlayed(floatval($row['90s']))
                ->setMinPerMatchStarted(floatval($row['Mn/Start']))
                ->setPointsPerMatch(floatval($row['PPM']))
-               ->setMatchsPlayed(0)
-               ->setMatchStarts(0)
-               ->setMinsPlayed(0)
+               ->setMatchsPlayed($row['MP'])
+               ->setMatchStarts($row['Starts'])
+               ->setMinsPlayed(intval($row['Min']))
                ->setGoals(0)
                ->setAssists(0)
                ->setPkMade(0)
@@ -698,14 +698,29 @@ class importCommand extends Command
                ->setReceivingBallCompleted(0)
                ->setReceivingBallCompletion(0)
                ->setMisControlls(0)
-               ->setDispossessed(0);
+               ->setDispossessed(0)
+               ;
 
+               if($player->getIdPlayer() == 6) {
+                 // $val = ($verify->getMinsPlayed() * $this->fixDataToUpdate) + intval($row['Min'] ?? 0);
+                  echo $player->getMinutesPlayed(); echo "\n";
+                  echo $this->fixDataToUpdate; echo "\n";
+                  echo intval($row['Min'] ?? 0); echo "\n";
+                  //echo $val;
+                 // echo $this->fixDataToUpdate ;
+                   }
 
+                   
             if ($index > count($standars) - 1) {
                $index = 0;
             }
+            // echo "-------------------------";
+            // //echo $row['name']; echo '\n';
+            // echo $standars[$index]['name']; echo '\n';
+            // echo "--------------------------";
+            // sleep(1);
             if ($row['name'] == $standars[$index]['name']) {
-
+               echo 'nickeel';
                $player->setMatchsPlayed(intval($standars[$index]['MP'] ?? 0))
                   ->setMatchStarts(intval($standars[$index]['Starts'] ?? 0))
                   ->setMinsPlayed(intval($standars[$index]['Min'] ?? 0))
@@ -732,7 +747,7 @@ class importCommand extends Command
                for ($i = 0; $i <= count($standars) - 1; $i++) {
 
                   if ($row['name'] == $standars[$i]['name']) {
-
+                     echo 'nickeel';
                      $player->setMatchsPlayed(intval($standars[$i]['MP'] ?? 0))
                         ->setMatchStarts(intval($standars[$i]['Starts'] ?? 0))
                         ->setMinsPlayed(intval($standars[$i]['Min'] ?? 0))
@@ -1010,21 +1025,32 @@ class importCommand extends Command
 
             $this->em->persist($player);
          } else {
+            
+             $val = ($verify->getMinutesPlayed() * $this->fixDataToUpdate) + intval($row['Min'] ?? 0);
+             echo $verify->getMinutesPlayed(); echo "\n";
+             echo $verify->getMinsPlayed(); echo "\n";
+             echo $this->fixDataToUpdate; echo "\n";
+             echo intval($row['Min'] ?? 0); echo "\n";
+             echo "goals" .$verify->getGoals(); echo "\n";
+             echo $val;
+             sleep(1);
             // echo $this->fixDataToUpdate ;
+              
             $verify->setMinutesPlayed(($verify->getMinutesPlayed() * $this->fixDataToUpdate) + intval($row['Min'] ?? 0))
                ->setMinutesPercentPlayed((($verify->getMinutesPercentPlayed() * $this->fixDataToUpdate) + floatval($row['Min%'] ?? 0.0)) / 2)
                ->setNintyMinPlayed((($verify->getNintyMinPlayed() * $this->fixDataToUpdate) + floatval($row['90s'] ?? 0.0)) / 2)
                ->setMinPerMatchStarted((($verify->getMinPerMatchStarted() * $this->fixDataToUpdate) + floatval($row['Mn/Start'] ?? 0.0)) / 2)
-               ->setPointsPerMatch((($verify->getPointsPerMatch() * $this->fixDataToUpdate) + floatval($row['PPM'] ?? 0.0)) / 2);
+               ->setPointsPerMatch((($verify->getPointsPerMatch() * $this->fixDataToUpdate) + floatval($row['PPM'] ?? 0.0)) / 2)
+               ->setMatchsPlayed(($verify->getMatchsPlayed() * $this->fixDataToUpdate) + intval($row['MP'] ?? 0))
+               ->setMatchStarts(($verify->getMatchStarts() * $this->fixDataToUpdate) + intval($row['Starts'] ?? 0))
+               ->setMinsPlayed(($verify->getMinsPlayed() * $this->fixDataToUpdate) + intval($row['Min'] ?? 0));
 
             if ($index > count($standars) - 1) {
                $index = 0;
             }
             if ($row['name'] == $standars[$index]['name']) {
 
-               $verify->setMatchsPlayed(($verify->getMatchsPlayed() * $this->fixDataToUpdate) + intval($standars[$index]['MP'] ?? 0))
-                  ->setMatchStarts(($verify->getMatchStarts() * $this->fixDataToUpdate) + intval($standars[$index]['Starts'] ?? 0))
-                  ->setMinsPlayed(($verify->getMinsPlayed() * $this->fixDataToUpdate) + intval($standars[$index]['Min'] ?? 0))
+               $verify
                   ->setGoals(($verify->getGoals() * $this->fixDataToUpdate) + intval($standars[$index]['Gls'] ?? 0))
                   ->setAssists(($verify->getAssists() * $this->fixDataToUpdate) + intval($standars[$index]['Ast'] ?? 0))
                   ->setPkMade(($verify->getPkMade() * $this->fixDataToUpdate) + intval($standars[$index]['PK'] ?? 0))
@@ -1347,13 +1373,13 @@ class importCommand extends Command
 
       $io->title('import on loading...');
 
-      $this->import('Spain');
+    //  $this->import('Spain');
       $this->import('England');
-      $this->import('Italy');
-      $this->import('France');
-      $this->import('Germany');
+      // $this->import('Italy');
+      // $this->import('France');
+      // $this->import('Germany');
       $this->import('CL');
-      $this->import('EL');
+      // $this->import('EL');
 
       $io->success('import succesfully');
    }

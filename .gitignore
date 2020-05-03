@@ -18,6 +18,7 @@
 ###> symfony/web-server-bundle ###
 /.web-server-pid
 ###< symfony/web-server-bundle ###
+<<<<<<< HEAD
 
 ###> symfony/webpack-encore-bundle ###
 /node_modules/
@@ -32,3 +33,6 @@ yarn-error.log
 npm-debug.log
 yarn-error.log
 ###< symfony/webpack-encore-pack ###
+=======
+node_modules
+>>>>>>> d54ed91ff78de56b059693de83d69bc9c2e37137

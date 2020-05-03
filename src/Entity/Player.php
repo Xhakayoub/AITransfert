@@ -74,7 +74,7 @@ class Player
     /**
      * @ORM\Column(type="integer")
      */
-    private $assits;
+    private $assists;
 
     /**
      * @ORM\Column(type="integer", nullable=true)
@@ -411,6 +411,176 @@ class Player
      */
     private $goalsAllowedWhileOnPitch;
 
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $livePass;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $deadPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $pressPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $switchPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $groundPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $lowPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $highPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $leftFootPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $rightFootPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $blockedPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $offsidesPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $totalDistance;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $progressDistance;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $passAttemptedFromFK;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $pressures;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $pressureSucceded;
+
+    /**
+     * @ORM\Column(type="float", nullable=true)
+     */
+    private $pressureCompletion;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $ballBlocked;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $shootBlocked;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $shootOntTargetBlocked;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $passBlocked;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $clearances;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $errors;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $arialDuelsWon;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $arialDuelsLost;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $arialDuelsCompletion;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $ballControlls;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $ballControllsMoveDistance;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $ballControllsMoveDistanceProgressive;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $receivingBallAttempted;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $receivingBallCompleted;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $receivingBallCompletion;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $misControlls;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $dispossessed;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -548,14 +718,14 @@ class Player
         return $this;
     }
 
-    public function getAssits(): ?int
+    public function getAssists(): ?int
     {
-        return $this->assits;
+        return $this->assists;
     }
 
-    public function setAssits(int $assits): self
+    public function setAssists(int $assists): self
     {
-        $this->assits = $assits;
+        $this->assists = $assists;
 
         return $this;
     }
@@ -1360,6 +1530,414 @@ class Player
     public function setGoalsAllowedWhileOnPitch(?int $goalsAllowedWhileOnPitch): self
     {
         $this->goalsAllowedWhileOnPitch = $goalsAllowedWhileOnPitch;
+
+        return $this;
+    }
+
+    public function getLivePass(): ?int
+    {
+        return $this->livePass;
+    }
+
+    public function setLivePass(?int $livePass): self
+    {
+        $this->livePass = $livePass;
+
+        return $this;
+    }
+
+    public function getDeadPasses(): ?int
+    {
+        return $this->deadPasses;
+    }
+
+    public function setDeadPasses(?int $deadPasses): self
+    {
+        $this->deadPasses = $deadPasses;
+
+        return $this;
+    }
+
+    public function getPressPasses(): ?int
+    {
+        return $this->pressPasses;
+    }
+
+    public function setPressPasses(?int $pressPasses): self
+    {
+        $this->pressPasses = $pressPasses;
+
+        return $this;
+    }
+
+    public function getSwitchPasses(): ?int
+    {
+        return $this->switchPasses;
+    }
+
+    public function setSwitchPasses(?int $switchPasses): self
+    {
+        $this->switchPasses = $switchPasses;
+
+        return $this;
+    }
+
+    public function getGroundPasses(): ?int
+    {
+        return $this->groundPasses;
+    }
+
+    public function setGroundPasses(?int $groundPasses): self
+    {
+        $this->groundPasses = $groundPasses;
+
+        return $this;
+    }
+
+    public function getLowPasses(): ?int
+    {
+        return $this->lowPasses;
+    }
+
+    public function setLowPasses(?int $lowPasses): self
+    {
+        $this->lowPasses = $lowPasses;
+
+        return $this;
+    }
+
+    public function getHighPasses(): ?int
+    {
+        return $this->highPasses;
+    }
+
+    public function setHighPasses(?int $highPasses): self
+    {
+        $this->highPasses = $highPasses;
+
+        return $this;
+    }
+
+    public function getLeftFootPasses(): ?int
+    {
+        return $this->leftFootPasses;
+    }
+
+    public function setLeftFootPasses(?int $leftFootPasses): self
+    {
+        $this->leftFootPasses = $leftFootPasses;
+
+        return $this;
+    }
+
+    public function getRightFootPasses(): ?int
+    {
+        return $this->rightFootPasses;
+    }
+
+    public function setRightFootPasses(?int $rightFootPasses): self
+    {
+        $this->rightFootPasses = $rightFootPasses;
+
+        return $this;
+    }
+
+    public function getBlockedPasses(): ?int
+    {
+        return $this->blockedPasses;
+    }
+
+    public function setBlockedPasses(?int $blockedPasses): self
+    {
+        $this->blockedPasses = $blockedPasses;
+
+        return $this;
+    }
+
+    public function getOffsidesPasses(): ?int
+    {
+        return $this->offsidesPasses;
+    }
+
+    public function setOffsidesPasses(?int $offsidesPasses): self
+    {
+        $this->offsidesPasses = $offsidesPasses;
+
+        return $this;
+    }
+
+    public function getTotalDistance(): ?int
+    {
+        return $this->totalDistance;
+    }
+
+    public function setTotalDistance(?int $totalDistance): self
+    {
+        $this->totalDistance = $totalDistance;
+
+        return $this;
+    }
+
+    public function getProgressDistance(): ?int
+    {
+        return $this->progressDistance;
+    }
+
+    public function setProgressDistance(?int $progressDistance): self
+    {
+        $this->progressDistance = $progressDistance;
+
+        return $this;
+    }
+
+    public function getPassAttemptedFromFK(): ?int
+    {
+        return $this->passAttemptedFromFK;
+    }
+
+    public function setPassAttemptedFromFK(?int $passAttemptedFromFK): self
+    {
+        $this->passAttemptedFromFK = $passAttemptedFromFK;
+
+        return $this;
+    }
+
+    public function getPressures(): ?int
+    {
+        return $this->pressures;
+    }
+
+    public function setPressures(?int $pressures): self
+    {
+        $this->pressures = $pressures;
+
+        return $this;
+    }
+
+    public function getPressureSucceded(): ?int
+    {
+        return $this->pressureSucceded;
+    }
+
+    public function setPressureSucceded(?int $pressureSucceded): self
+    {
+        $this->pressureSucceded = $pressureSucceded;
+
+        return $this;
+    }
+
+    public function getPressureCompletion(): ?float
+    {
+        return $this->pressureCompletion;
+    }
+
+    public function setPressureCompletion(?float $pressureCompletion): self
+    {
+        $this->pressureCompletion = $pressureCompletion;
+
+        return $this;
+    }
+
+    public function getBallBlocked(): ?int
+    {
+        return $this->ballBlocked;
+    }
+
+    public function setBallBlocked(?int $ballBlocked): self
+    {
+        $this->ballBlocked = $ballBlocked;
+
+        return $this;
+    }
+
+    public function getShootBlocked(): ?int
+    {
+        return $this->shootBlocked;
+    }
+
+    public function setShootBlocked(?int $shootBlocked): self
+    {
+        $this->shootBlocked = $shootBlocked;
+
+        return $this;
+    }
+
+    public function getShootOntTargetBlocked(): ?int
+    {
+        return $this->shootOntTargetBlocked;
+    }
+
+    public function setShootOntTargetBlocked(?int $shootOntTargetBlocked): self
+    {
+        $this->shootOntTargetBlocked = $shootOntTargetBlocked;
+
+        return $this;
+    }
+
+    public function getPassBlocked(): ?int
+    {
+        return $this->passBlocked;
+    }
+
+    public function setPassBlocked(?int $passBlocked): self
+    {
+        $this->passBlocked = $passBlocked;
+
+        return $this;
+    }
+
+    public function getClearances(): ?int
+    {
+        return $this->clearances;
+    }
+
+    public function setClearances(?int $clearances): self
+    {
+        $this->clearances = $clearances;
+
+        return $this;
+    }
+
+    public function getErrors(): ?int
+    {
+        return $this->errors;
+    }
+
+    public function setErrors(?int $errors): self
+    {
+        $this->errors = $errors;
+
+        return $this;
+    }
+
+    public function getArialDuelsWon(): ?int
+    {
+        return $this->arialDuelsWon;
+    }
+
+    public function setArialDuelsWon(?int $arialDuelsWon): self
+    {
+        $this->arialDuelsWon = $arialDuelsWon;
+
+        return $this;
+    }
+
+    public function getArialDuelsLost(): ?int
+    {
+        return $this->arialDuelsLost;
+    }
+
+    public function setArialDuelsLost(?int $arialDuelsLost): self
+    {
+        $this->arialDuelsLost = $arialDuelsLost;
+
+        return $this;
+    }
+
+    public function getArialDuelsCompletion(): ?int
+    {
+        return $this->arialDuelsCompletion;
+    }
+
+    public function setArialDuelsCompletion(?int $arialDuelsCompletion): self
+    {
+        $this->arialDuelsCompletion = $arialDuelsCompletion;
+
+        return $this;
+    }
+
+    public function getBallControlls(): ?int
+    {
+        return $this->ballControlls;
+    }
+
+    public function setBallControlls(?int $ballControlls): self
+    {
+        $this->ballControlls = $ballControlls;
+
+        return $this;
+    }
+
+    public function getBallControllsMoveDistance(): ?int
+    {
+        return $this->ballControllsMoveDistance;
+    }
+
+    public function setBallControllsMoveDistance(?int $ballControllsMoveDistance): self
+    {
+        $this->ballControllsMoveDistance = $ballControllsMoveDistance;
+
+        return $this;
+    }
+
+    public function getBallControllsMoveDistanceProgressive(): ?int
+    {
+        return $this->ballControllsMoveDistanceProgressive;
+    }
+
+    public function setBallControllsMoveDistanceProgressive(?int $ballControllsMoveDistanceProgressive): self
+    {
+        $this->ballControllsMoveDistanceProgressive = $ballControllsMoveDistanceProgressive;
+
+        return $this;
+    }
+
+    public function getReceivingBallAttempted(): ?int
+    {
+        return $this->receivingBallAttempted;
+    }
+
+    public function setReceivingBallAttempted(?int $receivingBallAttempted): self
+    {
+        $this->receivingBallAttempted = $receivingBallAttempted;
+
+        return $this;
+    }
+
+    public function getReceivingBallCompleted(): ?int
+    {
+        return $this->receivingBallCompleted;
+    }
+
+    public function setReceivingBallCompleted(?int $receivingBallCompleted): self
+    {
+        $this->receivingBallCompleted = $receivingBallCompleted;
+
+        return $this;
+    }
+
+    public function getReceivingBallCompletion(): ?int
+    {
+        return $this->receivingBallCompletion;
+    }
+
+    public function setReceivingBallCompletion(?int $receivingBallCompletion): self
+    {
+        $this->receivingBallCompletion = $receivingBallCompletion;
+
+        return $this;
+    }
+
+    public function getMisControlls(): ?int
+    {
+        return $this->misControlls;
+    }
+
+    public function setMisControlls(?int $misControlls): self
+    {
+        $this->misControlls = $misControlls;
+
+        return $this;
+    }
+
+    public function getDispossessed(): ?int
+    {
+        return $this->dispossessed;
+    }
+
+    public function setDispossessed(?int $dispossessed): self
+    {
+        $this->dispossessed = $dispossessed;
 
         return $this;
     }

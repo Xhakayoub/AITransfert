@@ -1,0 +1,16 @@
+{
+  "entrypoints": {
+    "Card": {
+      "js": [
+        "/public/ReactJs/runtime.js",
+        "/public/ReactJs/Card.js"
+      ]
+    },
+    "Rows": {
+      "js": [
+        "/public/ReactJs/runtime.js",
+        "/public/ReactJs/Rows.js"
+      ]
+    }
+  }
+}

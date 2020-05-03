@@ -26,6 +26,7 @@ class importCommand extends Command
       $this->setName('csv:import')
          ->setDescription('importation data');
    }
+   public $fixDataToUpdate = 0;
 
    public function importTeams(string $league): void
    {
@@ -37,6 +38,9 @@ class importCommand extends Command
       $readerOfGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/gk_team_data.csv');
       $readerOfAdvancedGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/ad_gk_team_data.csv');
       $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/miscellaneous_team_data.csv');
+      $readerOfTypeOfPassTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/pass_type_team_data.csv');
+      $readerOfDefenseTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/defense_team_data.csv');
+      $readerOfPossessionTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/possession_team_data.csv');
 
       $readerOfStandarsTeamData->setDelimiter(';');
       $readerOfPassingTeamData->setDelimiter(';');
@@ -45,6 +49,11 @@ class importCommand extends Command
       $readerOfMiscellaneousTeamData->setDelimiter(';');
       $readerOfGkTeamData->setDelimiter(';');
       $readerOfAdvancedGkTeamData->setDelimiter(';');
+      $readerOfTypeOfPassTeamData->setDelimiter(';');
+      $readerOfDefenseTeamData->setDelimiter(';');
+      $readerOfPossessionTeamData->setDelimiter(';');
+
+
 
 
       $standarsTeams = $readerOfStandarsTeamData->fetchAssoc();
@@ -54,6 +63,12 @@ class importCommand extends Command
       $miscellaneousTeams = $readerOfMiscellaneousTeamData->fetchAssoc();
       $gkTeams = $readerOfGkTeamData->fetchAssoc();
       $advancedGkTeams = $readerOfAdvancedGkTeamData->fetchAssoc();
+      $typePassTeams = $readerOfTypeOfPassTeamData->fetchAssoc();
+      $DefenseTeams = $readerOfDefenseTeamData->fetchAssoc();
+      $possessionTeams = $readerOfPossessionTeamData->fetchAssoc();
+
+
+
 
       // $permierLeagueTeams = $readerPermierLeagueTeams->fetchAssoc();
       // $permierLeagueTeamsOtherData = $readerPermierLeagueTeamsOtherData->fetchAssoc();
@@ -66,6 +81,12 @@ class importCommand extends Command
       $miscellaneousTeams = iterator_to_array($miscellaneousTeams, false);
       $gkTeams = iterator_to_array($gkTeams, false);
       $advancedGkTeams = iterator_to_array($advancedGkTeams, false);
+      $typePassTeams = iterator_to_array($typePassTeams, false);
+      $DefenseTeams = iterator_to_array($DefenseTeams, false);
+      $possessionTeams = iterator_to_array($possessionTeams, false);
+
+
+
 
 
 
@@ -82,7 +103,9 @@ class importCommand extends Command
          foreach ($standarsTeams as $fakeIndex => $teams) {
             //echo sizeof($gkTeams);
             $squad = "";
+            $this->fixDataToUpdate = 0;
             if ($league == 'CL' || $league == 'EL') {
+               $this->fixDataToUpdate = 1;
                $squad = explode(' ', $teams['Squad'], 2)[1];
             } else $squad = $teams['Squad'];
 
@@ -130,14 +153,14 @@ class importCommand extends Command
                   ->setOpa($advancedGkTeams[$fakeIndex]['#OPA'])
                   ->setOpaPerMatch($advancedGkTeams[$fakeIndex]['#OPA/90'])
                   ->setAverageDistance($advancedGkTeams[$fakeIndex]['AvgDist'])
-                  //shooting
-                  ->setShootOnTarget($shootingTeams[$fakeIndex]['SoT'])
-                  ->setShootFromFreeKick($shootingTeams[$fakeIndex]['FK'])
-                  ->setShootOnTargetPercent($shootingTeams[$fakeIndex]['SoT%'])
-                  ->setShootPer90Minutes($shootingTeams[$fakeIndex]['Sh/90'])
-                  ->setShootOnTargetPer90Minutes($shootingTeams[$fakeIndex]['SoT/90'])
-                  ->setGoalPerShoot($shootingTeams[$fakeIndex]['G/Sh'])
-                  ->setGoalPerShootOnTarget($shootingTeams[$fakeIndex]['G/SoT'])
+                  /////shooting
+                  ->setShootOnTarget($shootingTeams[$fakeIndex]['SoT'] ?? 0)
+                  ->setShootFromFreeKick($shootingTeams[$fakeIndex]['FK'] ?? 0)
+                  ->setShootOnTargetPercent($shootingTeams[$fakeIndex]['SoT%'] ?? 0)
+                  ->setShootPer90Minutes($shootingTeams[$fakeIndex]['Sh/90'] ?? 0)
+                  ->setShootOnTargetPer90Minutes($shootingTeams[$fakeIndex]['SoT/90'] ?? 0)
+                  ->setGoalPerShoot($shootingTeams[$fakeIndex]['G/Sh'] ?? 0)
+                  ->setGoalPerShootOnTarget($shootingTeams[$fakeIndex]['G/SoT'] ?? 0)
                   //passing
                   ->setPassesCompleted($passingTeams[$fakeIndex]['Cmp'])
                   ->setPassesAttempted($passingTeams[$fakeIndex]['Att'])
@@ -151,17 +174,42 @@ class importCommand extends Command
                   ->setLongPassCompleted($passingTeams[$fakeIndex]['longCmp'])
                   ->setLongPassAttempted($passingTeams[$fakeIndex]['longAtt'])
                   ->setLongPassCompletion($passingTeams[$fakeIndex]['longCmpPER'])
-                  ->setPassAttemptedFromFK($passingTeams[$fakeIndex]['FK'])
-                  ->setThroughBalls($passingTeams[$fakeIndex]['TB'])
+                  //->setPassAttemptedFromFK($passingTeams[$fakeIndex]['FK'])
                   ->setCornerKicks($passingTeams[$fakeIndex]['CK'])
                   ->setThrowInsTaken($passingTeams[$fakeIndex]['TI'])
                   ->setPassIntoFinalThird($passingTeams[$fakeIndex]['1/3'])
                   ->setPassIntoPenaltyArea($passingTeams[$fakeIndex]['PPA'])
                   ->setCrossIntoPenaltyArea($passingTeams[$fakeIndex]['CrsPA'])
+                  //typePass
+                  ->setLivePasses($typePassTeams[$fakeIndex]['Live'] ?? 0)
+                  ->setDeadPasses($typePassTeams[$fakeIndex]['Dead'] ?? 0)
+                  ->setPressPasses($typePassTeams[$fakeIndex]['Press'] ?? 0)
+                  ->setSwitchPasses($typePassTeams[$fakeIndex]['Sw'] ?? 0)
+                  ->setGroundPasses($typePassTeams[$fakeIndex]['Ground'] ?? 0)
+                  ->setPassAttemptedFromFK($typePassTeams[$fakeIndex]['FK'] ?? 0)
+                  ->setLowPasses($typePassTeams[$fakeIndex]['Low'] ?? 0)
+                  ->setHighPasses($typePassTeams[$fakeIndex]['High'] ?? 0)
+                  ->setThroughBalls($typePassTeams[$fakeIndex]['TB'] ?? 0)
+                  ->setLeftFootPasses($typePassTeams[$fakeIndex]['Left'] ?? 0)
+                  ->setRightFootPasses($typePassTeams[$fakeIndex]['Right'] ?? 0)
+                  ->setBlockedPasses($typePassTeams[$fakeIndex]['Blocks'] ?? 0)
+                  ->setOffsidesPasses($typePassTeams[$fakeIndex]['Off'] ?? 0)
                   //timming
                   ->setMinutesPlayed($timmingTeams[$fakeIndex]['Min'])
                   ->setSubstitutions($timmingTeams[$fakeIndex]['Subs'])
                   ->setPointPerMatch($timmingTeams[$fakeIndex]['PPM'])
+                  //defense
+                  ->setTacklesWon($DefenseTeams[$fakeIndex]['TklW'] ?? 0)
+                  ->setInterceptions($DefenseTeams[$fakeIndex]['Int'] ?? 0)
+                  ->setPressures($DefenseTeams[$fakeIndex]['Press'] ?? 0)
+                  ->setPressureSucceded($DefenseTeams[$fakeIndex]['Succ'] ?? 0)
+                  ->setPressureCompletion($DefenseTeams[$fakeIndex]['%'] ?? 0)
+                  ->setBallBlocked($DefenseTeams[$fakeIndex]['Blocks'] ?? 0)
+                  ->setShootBlocked($DefenseTeams[$fakeIndex]['Sh'] ?? 0)
+                  ->setShootOnTargetBlocked($DefenseTeams[$fakeIndex]['ShSv'] ?? 0)
+                  ->setPassBlocked($DefenseTeams[$fakeIndex]['Pass'] ?? 0)
+                  ->setClearances($DefenseTeams[$fakeIndex]['Clr'] ?? 0)
+                  ->setErrors($DefenseTeams[$fakeIndex]['Err'] ?? 0)
                   //miscellaneous
                   ->setYellowCards($miscellaneousTeams[$fakeIndex]['CrdY'])
                   ->setRedCards($miscellaneousTeams[$fakeIndex]['CrdR'])
@@ -169,114 +217,150 @@ class importCommand extends Command
                   ->setFoulDrawn($miscellaneousTeams[$fakeIndex]['Fld'])
                   ->setOffsides($miscellaneousTeams[$fakeIndex]['Off'])
                   ->setCrosses($miscellaneousTeams[$fakeIndex]['Crs'])
-                  ->setTacklesWon($miscellaneousTeams[$fakeIndex]['TklW'])
-                  ->setInterceptions($miscellaneousTeams[$fakeIndex]['Int'])
+                  //->setTacklesWon($miscellaneousTeams[$fakeIndex]['TklW'])
+                  //->setInterceptions($miscellaneousTeams[$fakeIndex]['Int'])
                   ->setPenaltyKickWon($miscellaneousTeams[$fakeIndex]['PKwon'])
                   ->setPenaltyKickConceded($miscellaneousTeams[$fakeIndex]['PKcon'])
                   ->setOwnGoal($miscellaneousTeams[$fakeIndex]['OG'])
-                  ->setDribblesSucceded($miscellaneousTeams[$fakeIndex]['Succ'])
-                  ->setDribblesAttempted($miscellaneousTeams[$fakeIndex]['Att'])
-                  ->setDribblesCompletion($miscellaneousTeams[$fakeIndex]['Succ%']);
-                  
+                  ->setArialDuelsWon($miscellaneousTeams[$fakeIndex]['Won'])
+                  ->setArialDuelsLost($miscellaneousTeams[$fakeIndex]['Lost'])
+                  ->setArialDuelsCompletion($miscellaneousTeams[$fakeIndex]['Won%'])
+                  //possession
+                  ->setDribblesSucceded($possessionTeams[$fakeIndex]['Succ'] ?? 0)
+                  ->setDribblesAttempted($possessionTeams[$fakeIndex]['Att'] ?? 0)
+                  ->setDribblesCompletion($possessionTeams[$fakeIndex]['Succ%'] ?? 0)
+                  ->setBallControlls($possessionTeams[$fakeIndex]['Carries'] ?? 0)
+                  ->setBallControllsMoveDistance($possessionTeams[$fakeIndex]['TotDist'] ?? 0)
+                  ->setBallControllsMoveDistanceProgressive($possessionTeams[$fakeIndex]['PrgDist'] ?? 0);
+
                $this->em->persist($team);
             } else {
                // echo $league." ".$verify->getLeague()."\n";
                // $test = strpos($verify->getLeague(), $league);
                // echo $test;
 
-               
-
                if ($league != 'CL' and $league != 'EL') {
                   $verify
-                  ->setMatchPlayed($teams['MP'])
-                  ->setGoals($teams['Gls'])
-                  ->setAssists($teams['Ast'])
-                  ->setGoalPerMatch($teams['Gls_per_match'])
-                  //goalkepping
-                  ->setGoalsAgainst($gkTeams[$fakeIndex]['GA'])
-                  ->setGoalsAgainstPerMatch($gkTeams[$fakeIndex]['GA90'])
-                  ->setSaves($gkTeams[$fakeIndex]['Saves'])
-                  ->setShootOnTargetAgainst($gkTeams[$fakeIndex]['SoTA'])
-                  ->setSavePercent($gkTeams[$fakeIndex]['Save%'])
-                  ->setCleanSheets($gkTeams[$fakeIndex]['CS'])
-                  ->setCleanSheetPercent($gkTeams[$fakeIndex]['CS%'])
-                  ->setPenaltyKickAllowed($gkTeams[$fakeIndex]['PKA'])
-                  ->setPenaltyKicksSaved($gkTeams[$fakeIndex]['PKsv'])
-                  ->setTopTeamScoorer("")
-                  ->setGoalKeeper("")
-                  //advanced goalkeeping
-                  ->setGkPassLaunchedComp($advancedGkTeams[$fakeIndex]['Cmp'])
-                  ->setGkPassLaunchedAtt($advancedGkTeams[$fakeIndex]['AttLaunched'])
-                  ->setGkPassLaunchedCompletion($advancedGkTeams[$fakeIndex]['Cmp%'])
-                  ->setGkPassAttempted($advancedGkTeams[$fakeIndex]['AttPass'])
-                  ->setGkPassThrows($advancedGkTeams[$fakeIndex]['Thr'])
-                  ->setGkPassLaunchedPercent($advancedGkTeams[$fakeIndex]['PassLaunch%'])
-                  ->setAvgLengthOfPasses($advancedGkTeams[$fakeIndex]['AvgLenPass'])
-                  ->setGoalKicksAtt($advancedGkTeams[$fakeIndex]['AttGks'])
-                  ->setGoalKicksLaunchedPercent($advancedGkTeams[$fakeIndex]['GksLaunch%'])
-                  ->setGoalKicksAvgLength($advancedGkTeams[$fakeIndex]['AvgLenGks'])
-                  ->setGkCrossesAttempted($advancedGkTeams[$fakeIndex]['Att'])
-                  ->setGkCrossesStopped($advancedGkTeams[$fakeIndex]['Stp'])
-                  ->setGkCrossesStpPercent($advancedGkTeams[$fakeIndex]['Stp%'])
-                  ->setOpa($advancedGkTeams[$fakeIndex]['#OPA'])
-                  ->setOpaPerMatch($advancedGkTeams[$fakeIndex]['#OPA/90'])
-                  ->setAverageDistance($advancedGkTeams[$fakeIndex]['AvgDist'])
-                  //shooting
-                  ->setShootOnTarget($shootingTeams[$fakeIndex]['SoT'])
-                  ->setShootFromFreeKick($shootingTeams[$fakeIndex]['FK'])
-                  ->setShootOnTargetPercent($shootingTeams[$fakeIndex]['SoT%'])
-                  ->setShootPer90Minutes($shootingTeams[$fakeIndex]['Sh/90'])
-                  ->setShootOnTargetPer90Minutes($shootingTeams[$fakeIndex]['SoT/90'])
-                  ->setGoalPerShoot($shootingTeams[$fakeIndex]['G/Sh'])
-                  ->setGoalPerShootOnTarget($shootingTeams[$fakeIndex]['G/SoT'])
-                  //passing
-                  ->setPassesCompleted($passingTeams[$fakeIndex]['Cmp'])
-                  ->setPassesAttempted($passingTeams[$fakeIndex]['Att'])
-                  ->setPassCompletion($passingTeams[$fakeIndex]['CmpPER'])
-                  ->setShortPassCompleted($passingTeams[$fakeIndex]['shortCmp'])
-                  ->setShortPassAttempted($passingTeams[$fakeIndex]['shortAtt'])
-                  ->setShortPassCompletion($passingTeams[$fakeIndex]['shortCmpPER'])
-                  ->setMediumPassCompleted($passingTeams[$fakeIndex]['mediumCmp'])
-                  ->setMediumPassAttempted($passingTeams[$fakeIndex]['mediumAtt'])
-                  ->setMediumPassCompletion($passingTeams[$fakeIndex]['mediumCmpPER'])
-                  ->setLongPassCompleted($passingTeams[$fakeIndex]['longCmp'])
-                  ->setLongPassAttempted($passingTeams[$fakeIndex]['longAtt'])
-                  ->setLongPassCompletion($passingTeams[$fakeIndex]['longCmpPER'])
-                  ->setPassAttemptedFromFK($passingTeams[$fakeIndex]['FK'])
-                  ->setThroughBalls($passingTeams[$fakeIndex]['TB'])
-                  ->setCornerKicks($passingTeams[$fakeIndex]['CK'])
-                  ->setThrowInsTaken($passingTeams[$fakeIndex]['TI'])
-                  ->setPassIntoFinalThird($passingTeams[$fakeIndex]['1/3'])
-                  ->setPassIntoPenaltyArea($passingTeams[$fakeIndex]['PPA'])
-                  ->setCrossIntoPenaltyArea($passingTeams[$fakeIndex]['CrsPA'])
-                  //timming
-                  ->setMinutesPlayed($timmingTeams[$fakeIndex]['Min'])
-                  ->setSubstitutions($timmingTeams[$fakeIndex]['Subs'])
-                  ->setPointPerMatch($timmingTeams[$fakeIndex]['PPM'])
-                  //miscellaneous
-                  ->setYellowCards($miscellaneousTeams[$fakeIndex]['CrdY'])
-                  ->setRedCards($miscellaneousTeams[$fakeIndex]['CrdR'])
-                  ->setFoulCommited($miscellaneousTeams[$fakeIndex]['Fls'])
-                  ->setFoulDrawn($miscellaneousTeams[$fakeIndex]['Fld'])
-                  ->setOffsides($miscellaneousTeams[$fakeIndex]['Off'])
-                  ->setCrosses($miscellaneousTeams[$fakeIndex]['Crs'])
-                  ->setTacklesWon($miscellaneousTeams[$fakeIndex]['TklW'])
-                  ->setInterceptions($miscellaneousTeams[$fakeIndex]['Int'])
-                  ->setPenaltyKickWon($miscellaneousTeams[$fakeIndex]['PKwon'])
-                  ->setPenaltyKickConceded($miscellaneousTeams[$fakeIndex]['PKcon'])
-                  ->setOwnGoal($miscellaneousTeams[$fakeIndex]['OG'])
-                  ->setDribblesSucceded($miscellaneousTeams[$fakeIndex]['Succ'])
-                  ->setDribblesAttempted($miscellaneousTeams[$fakeIndex]['Att'])
-                  ->setDribblesCompletion($miscellaneousTeams[$fakeIndex]['Succ%']);
-
+                     ->setMatchPlayed($teams['MP'])
+                     ->setGoals($teams['Gls'])
+                     ->setAssists($teams['Ast'])
+                     ->setGoalPerMatch($teams['Gls_per_match'])
+                     //goalkepping
+                     ->setGoalsAgainst($gkTeams[$fakeIndex]['GA'])
+                     ->setGoalsAgainstPerMatch($gkTeams[$fakeIndex]['GA90'])
+                     ->setSaves($gkTeams[$fakeIndex]['Saves'])
+                     ->setShootOnTargetAgainst($gkTeams[$fakeIndex]['SoTA'])
+                     ->setSavePercent($gkTeams[$fakeIndex]['Save%'])
+                     ->setCleanSheets($gkTeams[$fakeIndex]['CS'])
+                     ->setCleanSheetPercent($gkTeams[$fakeIndex]['CS%'])
+                     ->setPenaltyKickAllowed($gkTeams[$fakeIndex]['PKA'])
+                     ->setPenaltyKicksSaved($gkTeams[$fakeIndex]['PKsv'])
+                     ->setTopTeamScoorer("")
+                     ->setGoalKeeper("")
+                     //advanced goalkeeping
+                     ->setGkPassLaunchedComp($advancedGkTeams[$fakeIndex]['Cmp'])
+                     ->setGkPassLaunchedAtt($advancedGkTeams[$fakeIndex]['AttLaunched'])
+                     ->setGkPassLaunchedCompletion($advancedGkTeams[$fakeIndex]['Cmp%'])
+                     ->setGkPassAttempted($advancedGkTeams[$fakeIndex]['AttPass'])
+                     ->setGkPassThrows($advancedGkTeams[$fakeIndex]['Thr'])
+                     ->setGkPassLaunchedPercent($advancedGkTeams[$fakeIndex]['PassLaunch%'])
+                     ->setAvgLengthOfPasses($advancedGkTeams[$fakeIndex]['AvgLenPass'])
+                     ->setGoalKicksAtt($advancedGkTeams[$fakeIndex]['AttGks'])
+                     ->setGoalKicksLaunchedPercent($advancedGkTeams[$fakeIndex]['GksLaunch%'])
+                     ->setGoalKicksAvgLength($advancedGkTeams[$fakeIndex]['AvgLenGks'])
+                     ->setGkCrossesAttempted($advancedGkTeams[$fakeIndex]['Att'])
+                     ->setGkCrossesStopped($advancedGkTeams[$fakeIndex]['Stp'])
+                     ->setGkCrossesStpPercent($advancedGkTeams[$fakeIndex]['Stp%'])
+                     ->setOpa($advancedGkTeams[$fakeIndex]['#OPA'])
+                     ->setOpaPerMatch($advancedGkTeams[$fakeIndex]['#OPA/90'])
+                     ->setAverageDistance($advancedGkTeams[$fakeIndex]['AvgDist'])
+                     //shooting
+                     ->setShootOnTarget($shootingTeams[$fakeIndex]['SoT'] ?? 0)
+                     ->setShootFromFreeKick($shootingTeams[$fakeIndex]['FK'] ?? 0)
+                     ->setShootOnTargetPercent($shootingTeams[$fakeIndex]['SoT%'] ?? 0)
+                     ->setShootPer90Minutes($shootingTeams[$fakeIndex]['Sh/90'] ?? 0)
+                     ->setShootOnTargetPer90Minutes($shootingTeams[$fakeIndex]['SoT/90'] ?? 0)
+                     ->setGoalPerShoot($shootingTeams[$fakeIndex]['G/Sh'] ?? 0)
+                     ->setGoalPerShootOnTarget($shootingTeams[$fakeIndex]['G/SoT'] ?? 0)
+                     //passing
+                     ->setPassesCompleted($passingTeams[$fakeIndex]['Cmp'])
+                     ->setPassesAttempted($passingTeams[$fakeIndex]['Att'])
+                     ->setPassCompletion($passingTeams[$fakeIndex]['CmpPER'])
+                     ->setShortPassCompleted($passingTeams[$fakeIndex]['shortCmp'])
+                     ->setShortPassAttempted($passingTeams[$fakeIndex]['shortAtt'])
+                     ->setShortPassCompletion($passingTeams[$fakeIndex]['shortCmpPER'])
+                     ->setMediumPassCompleted($passingTeams[$fakeIndex]['mediumCmp'])
+                     ->setMediumPassAttempted($passingTeams[$fakeIndex]['mediumAtt'])
+                     ->setMediumPassCompletion($passingTeams[$fakeIndex]['mediumCmpPER'])
+                     ->setLongPassCompleted($passingTeams[$fakeIndex]['longCmp'])
+                     ->setLongPassAttempted($passingTeams[$fakeIndex]['longAtt'])
+                     ->setLongPassCompletion($passingTeams[$fakeIndex]['longCmpPER'])
+                     //->setPassAttemptedFromFK($passingTeams[$fakeIndex]['FK'])
+                     //->setThroughBalls($passingTeams[$fakeIndex]['TB'])
+                     ->setCornerKicks($passingTeams[$fakeIndex]['CK'])
+                     ->setThrowInsTaken($passingTeams[$fakeIndex]['TI'])
+                     ->setPassIntoFinalThird($passingTeams[$fakeIndex]['1/3'])
+                     ->setPassIntoPenaltyArea($passingTeams[$fakeIndex]['PPA'])
+                     ->setCrossIntoPenaltyArea($passingTeams[$fakeIndex]['CrsPA'] ?? 0)
+                     //typePass
+                     ->setLivePasses($typePassTeams[$fakeIndex]['Live'] ?? 0)
+                     ->setDeadPasses($typePassTeams[$fakeIndex]['Dead'] ?? 0)
+                     ->setPressPasses($typePassTeams[$fakeIndex]['Press'] ?? 0)
+                     ->setSwitchPasses($typePassTeams[$fakeIndex]['Sw'] ?? 0)
+                     ->setGroundPasses($typePassTeams[$fakeIndex]['Ground'] ?? 0)
+                     ->setPassAttemptedFromFK($typePassTeams[$fakeIndex]['FK'] ?? 0)
+                     ->setLowPasses($typePassTeams[$fakeIndex]['Low'] ?? 0)
+                     ->setHighPasses($typePassTeams[$fakeIndex]['High'] ?? 0)
+                     ->setThroughBalls($typePassTeams[$fakeIndex]['TB'] ?? 0)
+                     ->setLeftFootPasses($typePassTeams[$fakeIndex]['Left'] ?? 0)
+                     ->setRightFootPasses($typePassTeams[$fakeIndex]['Right'] ?? 0)
+                     ->setBlockedPasses($typePassTeams[$fakeIndex]['Blocks'] ?? 0)
+                     ->setOffsidesPasses($typePassTeams[$fakeIndex]['Off'] ?? 0)
+                     //timming
+                     ->setMinutesPlayed($timmingTeams[$fakeIndex]['Min'] ?? 0)
+                     ->setSubstitutions($timmingTeams[$fakeIndex]['Subs'] ?? 0)
+                     ->setPointPerMatch($timmingTeams[$fakeIndex]['PPM'] ?? 0)
+                     //defense
+                     ->setTacklesWon($DefenseTeams[$fakeIndex]['TklW'] ?? 0)
+                     ->setInterceptions($DefenseTeams[$fakeIndex]['Int'] ?? 0)
+                     ->setPressures($DefenseTeams[$fakeIndex]['Press'] ?? 0)
+                     ->setPressureSucceded($DefenseTeams[$fakeIndex]['Succ'] ?? 0)
+                     ->setPressureCompletion($DefenseTeams[$fakeIndex]['%'] ?? 0)
+                     ->setBallBlocked($DefenseTeams[$fakeIndex]['Blocks'] ?? 0)
+                     ->setShootBlocked($DefenseTeams[$fakeIndex]['Sh'] ?? 0)
+                     ->setShootOnTargetBlocked($DefenseTeams[$fakeIndex]['ShSv'] ?? 0)
+                     ->setPassBlocked($DefenseTeams[$fakeIndex]['Pass'] ?? 0)
+                     ->setClearances($DefenseTeams[$fakeIndex]['Clr'] ?? 0)
+                     ->setErrors($DefenseTeams[$fakeIndex]['Err'] ?? 0)
+                     //miscellaneous
+                     ->setYellowCards($miscellaneousTeams[$fakeIndex]['CrdY'] ?? 0)
+                     ->setRedCards($miscellaneousTeams[$fakeIndex]['CrdR'] ?? 0)
+                     ->setFoulCommited($miscellaneousTeams[$fakeIndex]['Fls'] ?? 0)
+                     ->setFoulDrawn($miscellaneousTeams[$fakeIndex]['Fld'] ?? 0)
+                     ->setOffsides($miscellaneousTeams[$fakeIndex]['Off'] ?? 0)
+                     ->setCrosses($miscellaneousTeams[$fakeIndex]['Crs'] ?? 0)
+                     //->setTacklesWon($miscellaneousTeams[$fakeIndex]['TklW'])
+                     //->setInterceptions($miscellaneousTeams[$fakeIndex]['Int'])
+                     ->setPenaltyKickWon($miscellaneousTeams[$fakeIndex]['PKwon'] ?? 0)
+                     ->setPenaltyKickConceded($miscellaneousTeams[$fakeIndex]['PKcon'] ?? 0)
+                     ->setOwnGoal($miscellaneousTeams[$fakeIndex]['OG'] ?? 0)
+                     ->setArialDuelsWon($miscellaneousTeams[$fakeIndex]['Won'] ?? 0)
+                     ->setArialDuelsLost($miscellaneousTeams[$fakeIndex]['Lost'] ?? 0)
+                     ->setArialDuelsCompletion($miscellaneousTeams[$fakeIndex]['Won%'] ?? 0)
+                     //possession
+                     ->setDribblesSucceded($possessionTeams[$fakeIndex]['Succ'] ?? 0)
+                     ->setDribblesAttempted($possessionTeams[$fakeIndex]['Att'] ?? 0)
+                     ->setDribblesCompletion($possessionTeams[$fakeIndex]['Succ%'] ?? 0)
+                     ->setBallControlls($possessionTeams[$fakeIndex]['Carries'] ?? 0)
+                     ->setBallControllsMoveDistance($possessionTeams[$fakeIndex]['TotDist'] ?? 0)
+                     ->setBallControllsMoveDistanceProgressive($possessionTeams[$fakeIndex]['PrgDist'] ?? 0);
                   $this->em->persist($verify);
-
                } else {
                   if (strpos($verify->getLeague(), $league) >= 0) {
                      $leagueString = $verify->getLeague() . '+' . $league;
                      $verify->setLeague($leagueString)
                         ->setLevel("");
-                        $leagueString = "";
+                     $leagueString = "";
                   }
                   $verify
                      ->setMatchPlayed($verify->getMatchPlayed() + $teams['MP'])
@@ -309,13 +393,13 @@ class importCommand extends Command
                      ->setOpa($verify->getOpa() + $advancedGkTeams[$fakeIndex]['#OPA'])
                      ->setOpaPerMatch(($verify->getOpaPerMatch() + $advancedGkTeams[$fakeIndex]['#OPA/90']) / 2)
                      ->setAverageDistance($verify->getAverageDistance() + $advancedGkTeams[$fakeIndex]['AvgDist'])
-                     ->setShootOnTarget($verify->getShootOnTarget() + $shootingTeams[$fakeIndex]['SoT'])
-                     ->setShootFromFreeKick($verify->getShootFromFreeKick() + $shootingTeams[$fakeIndex]['FK'])
-                     ->setShootOnTargetPercent(($verify->getShootOnTargetPercent() + $shootingTeams[$fakeIndex]['SoT%']) / 2)
-                     ->setShootPer90Minutes(($verify->getShootPer90Minutes() + $shootingTeams[$fakeIndex]['Sh/90']) / 2)
-                     ->setShootOnTargetPer90Minutes(($verify->getShootOnTargetPer90Minutes() + $shootingTeams[$fakeIndex]['SoT/90']) / 2)
-                     ->setGoalPerShoot($verify->getGoalPerShoot() + $shootingTeams[$fakeIndex]['G/Sh'])
-                     ->setGoalPerShootOnTarget($verify->getGoalPerShootOnTarget() + $shootingTeams[$fakeIndex]['G/SoT'])
+                     ->setShootOnTarget($verify->getShootOnTarget() + $shootingTeams[$fakeIndex]['SoT'] ?? 0)
+                     ->setShootFromFreeKick($verify->getShootFromFreeKick() + $shootingTeams[$fakeIndex]['FK'] ?? 0)
+                     ->setShootOnTargetPercent(($verify->getShootOnTargetPercent() + $shootingTeams[$fakeIndex]['SoT%'] ?? 0) / 2)
+                     ->setShootPer90Minutes(($verify->getShootPer90Minutes() + $shootingTeams[$fakeIndex]['Sh/90'] ?? 0) / 2)
+                     ->setShootOnTargetPer90Minutes(($verify->getShootOnTargetPer90Minutes() + $shootingTeams[$fakeIndex]['SoT/90'] ?? 0) / 2)
+                     ->setGoalPerShoot($verify->getGoalPerShoot() + ($shootingTeams[$fakeIndex]['G/Sh'] ?? 0))
+                     ->setGoalPerShootOnTarget($verify->getGoalPerShootOnTarget() + ($shootingTeams[$fakeIndex]['G/SoT'] ?? 0))
                      ->setPassesCompleted($verify->getPassesCompleted() + $passingTeams[$fakeIndex]['Cmp'])
                      ->setPassesAttempted($verify->getPassesAttempted() + $passingTeams[$fakeIndex]['Att'])
                      ->setPassCompletion(($verify->getPassCompletion() + $passingTeams[$fakeIndex]['CmpPER']) / 2)
@@ -328,30 +412,62 @@ class importCommand extends Command
                      ->setLongPassCompleted($verify->getLongPassCompleted() + $passingTeams[$fakeIndex]['longCmp'])
                      ->setLongPassAttempted($verify->getLongPassAttempted() + $passingTeams[$fakeIndex]['longAtt'])
                      ->setLongPassCompletion(($verify->getLongPassCompletion() + $passingTeams[$fakeIndex]['longCmpPER']) / 2)
-                     ->setPassAttemptedFromFK($verify->getPassAttemptedFromFK() + $passingTeams[$fakeIndex]['FK'])
-                     ->setThroughBalls($verify->getThroughBalls() + $passingTeams[$fakeIndex]['TB'])
-                     ->setCornerKicks($verify->getCornerKicks() + $passingTeams[$fakeIndex]['CK'])
-                     ->setThrowInsTaken($verify->getThrowInsTaken() + $passingTeams[$fakeIndex]['TI'])
-                     ->setPassIntoFinalThird($verify->getPassIntoFinalThird() + $passingTeams[$fakeIndex]['1/3'])
-                     ->setPassIntoPenaltyArea($verify->getPassIntoPenaltyArea() + $passingTeams[$fakeIndex]['PPA'])
-                     ->setCrossIntoPenaltyArea($verify->getCrossIntoPenaltyArea() + $passingTeams[$fakeIndex]['CrsPA'])
+                     ->setPassAttemptedFromFK($verify->getPassAttemptedFromFK() + ($typePassTeams[$fakeIndex]['FK'] ?? 0))
+                     ->setCornerKicks($verify->getCornerKicks() + ($passingTeams[$fakeIndex]['CK'] ?? 0))
+                     ->setThrowInsTaken($verify->getThrowInsTaken() + ($passingTeams[$fakeIndex]['TI'] ?? 0))
+                     ->setPassIntoFinalThird($verify->getPassIntoFinalThird() + ($passingTeams[$fakeIndex]['1/3'] ?? 0))
+                     ->setPassIntoPenaltyArea($verify->getPassIntoPenaltyArea() + ($passingTeams[$fakeIndex]['PPA'] ?? 0))
+                     ->setCrossIntoPenaltyArea($verify->getCrossIntoPenaltyArea() + ($passingTeams[$fakeIndex]['CrsPA'] ?? 0))
+                     //typePass
+                     ->setLivePasses($verify->getLivePasses() + ($typePassTeams[$fakeIndex]['Live'] ?? 0))
+                     ->setDeadPasses($verify->getDeadPasses() + ($typePassTeams[$fakeIndex]['Dead'] ?? 0))
+                     ->setPressPasses($verify->getPressPasses() + ($typePassTeams[$fakeIndex]['Press'] ?? 0))
+                     ->setSwitchPasses($verify->getSwitchPasses() + ($typePassTeams[$fakeIndex]['Sw'] ?? 0))
+                     ->setGroundPasses($verify->getGroundPasses() + ($typePassTeams[$fakeIndex]['Ground'] ?? 0))
+                     ->setPassAttemptedFromFK($verify->getPassAttemptedFromFK() + ($typePassTeams[$fakeIndex]['FK'] ?? 0))
+                     ->setLowPasses($verify->getLowPasses() + ($typePassTeams[$fakeIndex]['Low'] ?? 0))
+                     ->setHighPasses($verify->getHighPasses() + ($typePassTeams[$fakeIndex]['High'] ?? 0))
+                     ->setThroughBalls($verify->getThroughBalls() + ($typePassTeams[$fakeIndex]['TB'] ?? 0))
+                     ->setLeftFootPasses($verify->getLeftFootPasses() + ($typePassTeams[$fakeIndex]['Left'] ?? 0))
+                     ->setRightFootPasses($verify->getRightFootPasses() + ($typePassTeams[$fakeIndex]['Right'] ?? 0))
+                     ->setBlockedPasses($verify->getBlockedPasses() + ($typePassTeams[$fakeIndex]['Blocks'] ?? 0))
+                     ->setOffsidesPasses($verify->getOffsidesPasses() + ($typePassTeams[$fakeIndex]['Off'] ?? 0))
                      ->setMinutesPlayed($verify->getMinutesPlayed() + $timmingTeams[$fakeIndex]['Min'])
                      ->setSubstitutions($verify->getSubstitutions() + $timmingTeams[$fakeIndex]['Subs'])
                      ->setPointPerMatch(($verify->getPointPerMatch() + $timmingTeams[$fakeIndex]['PPM']) / 2)
+                     //defense
+                     ->setTacklesWon($verify->getTacklesWon() + ($DefenseTeams[$fakeIndex]['TklW']  ?? 0))
+                     ->setInterceptions($verify->getInterceptions() + ($DefenseTeams[$fakeIndex]['Int'] ?? 0))
+                     ->setPressures($verify->getPressures() + ($DefenseTeams[$fakeIndex]['Press'] ?? 0))
+                     ->setPressureSucceded($verify->getPressureSucceded() + ($DefenseTeams[$fakeIndex]['Succ'] ?? 0))
+                     ->setPressureCompletion(($verify->getPressureCompletion() + ($DefenseTeams[$fakeIndex]['%'] ?? 0)) / 2)
+                     ->setBallBlocked($verify->getBallBlocked() + ($DefenseTeams[$fakeIndex]['Blocks'] ?? 0))
+                     ->setShootBlocked($verify->getShootBlocked() + ($DefenseTeams[$fakeIndex]['Sh'] ?? 0))
+                     ->setShootOnTargetBlocked($verify->getShootOnTargetBlocked() + ($DefenseTeams[$fakeIndex]['ShSv'] ?? 0))
+                     ->setPassBlocked($verify->getPassBlocked() + ($DefenseTeams[$fakeIndex]['Pass'] ?? 0))
+                     ->setClearances($verify->getClearances() + ($DefenseTeams[$fakeIndex]['Clr'] ?? 0))
+                     ->setErrors($verify->getErrors() + ($DefenseTeams[$fakeIndex]['Err'] ?? 0))
+
                      ->setYellowCards($verify->getYellowCards() + $miscellaneousTeams[$fakeIndex]['CrdY'])
                      ->setRedCards($verify->getRedCards() + $miscellaneousTeams[$fakeIndex]['CrdR'])
                      ->setFoulCommited($verify->getFoulCommited() + $miscellaneousTeams[$fakeIndex]['Fls'])
                      ->setFoulDrawn($verify->getFoulDrawn() + $miscellaneousTeams[$fakeIndex]['Fld'])
                      ->setOffsides($verify->getOffsides() + $miscellaneousTeams[$fakeIndex]['Off'])
                      ->setCrosses($verify->getCrosses() + $miscellaneousTeams[$fakeIndex]['Crs'])
-                     ->setTacklesWon($verify->getTacklesWon() + $miscellaneousTeams[$fakeIndex]['TklW'])
-                     ->setInterceptions($verify->getInterceptions() + $miscellaneousTeams[$fakeIndex]['Int'])
+                     //->setTacklesWon($verify->getTacklesWon() + $miscellaneousTeams[$fakeIndex]['TklW'])
+                     //->setInterceptions($verify->getInterceptions() + $miscellaneousTeams[$fakeIndex]['Int'])
+                     ->setArialDuelsWon($verify->getArialDuelsWon() + $miscellaneousTeams[$fakeIndex]['Won'])
+                     ->setArialDuelsLost($verify->getArialDuelsLost() + $miscellaneousTeams[$fakeIndex]['Lost'])
+                     ->setArialDuelsCompletion(($verify->getArialDuelsCompletion() + $miscellaneousTeams[$fakeIndex]['Won%']) / 2)
                      ->setPenaltyKickWon($verify->getPenaltyKickWon() + $miscellaneousTeams[$fakeIndex]['PKwon'])
                      ->setPenaltyKickConceded($verify->getGkPassLaunchedComp() + $miscellaneousTeams[$fakeIndex]['PKcon'])
                      ->setOwnGoal($verify->getOwnGoal() + $miscellaneousTeams[$fakeIndex]['OG'])
-                     ->setDribblesSucceded($verify->getDribblesSucceded() + $miscellaneousTeams[$fakeIndex]['Succ'])
-                     ->setDribblesAttempted($verify->getDribblesAttempted() + $miscellaneousTeams[$fakeIndex]['Att'])
-                     ->setDribblesCompletion(($verify->getDribblesCompletion() + $miscellaneousTeams[$fakeIndex]['Succ%']) / 2);
+                     ->setDribblesSucceded($verify->getDribblesSucceded() + (empty($possessionTeams[$fakeIndex]['Succ']) ? 0 : $possessionTeams[$fakeIndex]['Succ']))
+                     ->setDribblesAttempted($verify->getDribblesAttempted() + (empty($possessionTeams[$fakeIndex]['Att']) ? 0 : $possessionTeams[$fakeIndex]['Att']))
+                     ->setDribblesCompletion(($verify->getDribblesCompletion() + (empty($possessionTeams[$fakeIndex]['Succ%']) ? 0 : $possessionTeams[$fakeIndex]['Succ%'])) / 2)
+                     ->setBallControlls($verify->getBallControlls() + (empty($possessionTeams[$fakeIndex]['Carries']) ? 0 : $possessionTeams[$fakeIndex]['Carries']))
+                     ->setBallControllsMoveDistance($verify->getBallControllsMoveDistance() + (empty($possessionTeams[$fakeIndex]['TotDist']) ? 0 : $possessionTeams[$fakeIndex]['TotDist']))
+                     ->setBallControllsMoveDistanceProgressive($verify->getBallControllsMoveDistanceProgressive() + (empty($possessionTeams[$fakeIndex]['PrgDist']) ? 0 : $possessionTeams[$fakeIndex]['PrgDist']));
 
                   $this->em->persist($verify);
                }
@@ -360,6 +476,8 @@ class importCommand extends Command
          $this->em->flush();
       }
    }
+
+
 
    public function import(String $dir)
    {
@@ -375,6 +493,13 @@ class importCommand extends Command
       //  $readerOfTimmingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/timming_team_data.csv');
       $readerOfMiscellaneousData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/miscellaneous_data.csv');
       // $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
+      $readerOfTypePassData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/pass_type_data.csv');
+      // $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
+      $readerOfDefenseData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/defense_data.csv');
+      // $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
+      $readerOfPossessionData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/possession_data.csv');
+      // $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
+
 
       $readerOfStandarsData->setDelimiter(';');
       //  $readerOfStandarsTeamData->setDelimiter(';');
@@ -386,14 +511,28 @@ class importCommand extends Command
       // $readerOfTimmingTeamData->setDelimiter(';');
       $readerOfMiscellaneousData->setDelimiter(';');
       //  $readerOfMiscellaneousTeamData->setDelimiter(';');
+      $readerOfTypePassData->setDelimiter(';');
+      //  $readerOfMiscellaneousTeamData->setDelimiter(';');
+      $readerOfDefenseData->setDelimiter(';');
+      //  $readerOfMiscellaneousTeamData->setDelimiter(';');
+      $readerOfPossessionData->setDelimiter(';');
+      //  $readerOfMiscellaneousTeamData->setDelimiter(';');
 
 
+
+
+
+     // echo "i'am here";
 
       $standars = $readerOfStandarsData->fetchAssoc();
       $passing = $readerOfPassingData->fetchAssoc();
       $shooting = $readerOfShootingData->fetchAssoc();
       $timming = $readerOfTimmingData->fetchAssoc();
       $miscellaneous = $readerOfMiscellaneousData->fetchAssoc();
+      $typePass = $readerOfTypePassData->fetchAssoc();
+      $defense = $readerOfDefenseData->fetchAssoc();
+      $possession = $readerOfPossessionData->fetchAssoc();
+
       // $standarsTeams = $readerOfStandarsTeamData->fetchAssoc();
       // $passingTeams = $readerOfPassingTeamData->fetchAssoc();
       // $shootingTeams = $readerOfShootingTeamData->fetchAssoc();
@@ -408,6 +547,10 @@ class importCommand extends Command
       $shooting = iterator_to_array($shooting, false);
       $timming = iterator_to_array($timming, false);
       $miscellaneous = iterator_to_array($miscellaneous, false);
+      $typePass = iterator_to_array($typePass, false);
+      $defense = iterator_to_array($defense, false);
+      $possession = iterator_to_array($possession, false);
+
       // $standarsTeams = iterator_to_array($standarsTeams, false);
       // $passingTeams = iterator_to_array($passingTeams, false);
       // $shootingTeams = iterator_to_array($shootingTeams, false);
@@ -460,11 +603,11 @@ class importCommand extends Command
                ->setNintyMinPlayed(floatval($row['90s']))
                ->setMinPerMatchStarted(floatval($row['Mn/Start']))
                ->setPointsPerMatch(floatval($row['PPM']))
-               ->setMatchsPlayed(0)
-               ->setMatchStarts(0)
-               ->setMinsPlayed(0)
+               ->setMatchsPlayed($row['MP'])
+               ->setMatchStarts($row['Starts'])
+               ->setMinsPlayed(intval($row['Min']))
                ->setGoals(0)
-               ->setAssits(0)
+               ->setAssists(0)
                ->setPkMade(0)
                ->setPkAttempted(0)
                ->setYellowCard(0)
@@ -523,19 +666,66 @@ class importCommand extends Command
                ->setDribbleTackled(0)
                ->setDribbleTackledPercent(0.0)
                ->setTimesDribbledPast(0)
-               ->setCrossIntoPenaltyArea(0);
-               
+               ->setCrossIntoPenaltyArea(0)
+               ->setLivePass(0)
+               ->setDeadPasses(0)
+               ->setPressPasses(0)
+               ->setSwitchPasses(0)
+               ->setGroundPasses(0)
+               ->setLowPasses(0)
+               ->setHighPasses(0)
+               ->setLeftFootPasses(0)
+               ->setRightFootPasses(0)
+               ->setBlockedPasses(0)
+               ->setPassAttemptedFromFK(0)
+               ->setOffsidesPasses(0)
+               ->setPressures(0)
+               ->setPressureSucceded(0)
+               ->setPressureCompletion(0)
+               ->setBallBlocked(0)
+               ->setShootBlocked(0)
+               ->setShootOntTargetBlocked(0)
+               ->setPassBlocked(0)
+               ->setClearances(0)
+               ->setErrors(0)
+               ->setArialDuelsWon(0)
+               ->setArialDuelsLost(0)
+               ->setArialDuelsCompletion(0)
+               ->setBallControlls(0)
+               ->setBallControllsMoveDistance(0)
+               ->setBallControllsMoveDistanceProgressive(0)
+               ->setReceivingBallAttempted(0)
+               ->setReceivingBallCompleted(0)
+               ->setReceivingBallCompletion(0)
+               ->setMisControlls(0)
+               ->setDispossessed(0)
+               ;
 
+               if($player->getIdPlayer() == 6) {
+                 // $val = ($verify->getMinsPlayed() * $this->fixDataToUpdate) + intval($row['Min'] ?? 0);
+                  echo $player->getMinutesPlayed(); echo "\n";
+                  echo $this->fixDataToUpdate; echo "\n";
+                  echo intval($row['Min'] ?? 0); echo "\n";
+                  //echo $val;
+                 // echo $this->fixDataToUpdate ;
+                   }
+
+                   
             if ($index > count($standars) - 1) {
                $index = 0;
             }
+            // echo "-------------------------";
+            // //echo $row['name']; echo '\n';
+            // echo $standars[$index]['name']; echo '\n';
+            // echo "--------------------------";
+            // sleep(1);
             if ($row['name'] == $standars[$index]['name']) {
-
+               echo 'nickeel';
                $player->setMatchsPlayed(intval($standars[$index]['MP'] ?? 0))
                   ->setMatchStarts(intval($standars[$index]['Starts'] ?? 0))
                   ->setMinsPlayed(intval($standars[$index]['Min'] ?? 0))
                   ->setGoals(intval($standars[$index]['Gls'] ?? 0))
-                  ->setAssits(intval($standars[$index]['Ast'] ?? 0))
+                  ->setAssists(intval($standars[$index]['Ast'] ?? 0))
                   ->setPkMade(intval($standars[$index]['PK'] ?? 0))
                   ->setPkAttempted(intval($standars[$index]['PKatt'] ?? 0))
                   ->setYellowCard(intval($standars[$index]['CrdY'] ?? 0))
@@ -557,12 +747,12 @@ class importCommand extends Command
                for ($i = 0; $i <= count($standars) - 1; $i++) {
 
                   if ($row['name'] == $standars[$i]['name']) {
-
+                     echo 'nickeel';
                      $player->setMatchsPlayed(intval($standars[$i]['MP'] ?? 0))
                         ->setMatchStarts(intval($standars[$i]['Starts'] ?? 0))
                         ->setMinsPlayed(intval($standars[$i]['Min'] ?? 0))
                         ->setGoals(intval($standars[$i]['Gls'] ?? 0))
-                        ->setAssits(intval($standars[$i]['Ast'] ?? 0))
+                        ->setAssists(intval($standars[$i]['Ast'] ?? 0))
                         ->setPkMade(intval($standars[$i]['PK'] ?? 0))
                         ->setPkAttempted(intval($standars[$i]['PKatt'] ?? 0))
                         ->setYellowCard(intval($standars[$i]['CrdY'] ?? 0))
@@ -589,7 +779,7 @@ class importCommand extends Command
             if ($index > count($shooting) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $shooting[$index]['name']) {
+            if ($row['name'] == (!empty($shooting[$index]['name']))) {
                $player->setShoots(intval($shooting[$index]['Sh'] ?? 0))
                   ->setShootsOnTarget(intval($shooting[$index]['SoT'] ?? 0))
                   ->setShootsFromFrKc(intval($shooting[$index]['FK'] ?? 0))
@@ -601,7 +791,7 @@ class importCommand extends Command
             } else {
                for ($i = 0; $i <= count($shooting) - 1; $i++) {
 
-                  if ($row['name'] == $shooting[$i]['name']) {
+                  if ($row['name'] == (!empty($shooting[$i]['name']))) {
 
                      $player->setShoots(intval($shooting[$i]['Sh'] ?? 0))
                         ->setShootsOnTarget(intval($shooting[$i]['SoT'] ?? 0))
@@ -623,7 +813,7 @@ class importCommand extends Command
             if ($index > count($passing) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $passing[$index]['name']) {
+            if ($row['name'] == (!empty($passing[$index]['name']))) {
                $player->setKeyPasses(intval($passing[$index]['KP'] ?? 0))
                   ->setPassesCompleted(intval($passing[$index]['Cmp'] ?? 0))
                   ->setPassesAttempted(intval($passing[$index]['Att'] ?? 0))
@@ -639,12 +829,12 @@ class importCommand extends Command
                   ->setLongPassesCompPercent(floatval($passing[$index]['longCmpPER'] ?? 0.0))
                   ->setPassCompletedFinalThird(intval($passing[$index]['1/3'] ?? 0))
                   ->setPassCompletedPenaltyArea(intval($passing[$index]['PPA'] ?? 0))
-                  ->setThroughBalls(intval($passing[$index]['TB'] ?? 0))
+                  //->setThroughBalls(intval($passing[$index]['TB'] ?? 0))
                   ->setCrossIntoPenaltyArea(floatval($passing[$index]['CrsPA'] ?? 0.0));
             } else {
                for ($i = 0; $i <= count($passing) - 1; $i++) {
 
-                  if ($row['name'] == $passing[$i]['name']) {
+                  if ($row['name'] == (!empty($passing[$i]['name']))) {
                      $player->setKeyPasses(intval($passing[$i]['KP'] ?? 0))
                         ->setPassesCompleted(intval($passing[$i]['Cmp'] ?? 0))
                         ->setPassesAttempted(intval($passing[$i]['Att'] ?? 0))
@@ -660,14 +850,97 @@ class importCommand extends Command
                         ->setLongPassesCompPercent(floatval($passing[$i]['longCmpPER'] ?? 0.0))
                         ->setPassCompletedFinalThird(intval($passing[$i]['1/3'] ?? 0))
                         ->setPassCompletedPenaltyArea(intval($passing[$i]['PPA'] ?? 0))
-                        ->setThroughBalls(intval($passing[$i]['TB'] ?? 0))
+                        //->setThroughBalls(intval($passing[$i]['TB'] ?? 0))
                         ->setCrossIntoPenaltyArea(floatval($passing[$i]['CrsPA'] ?? 0.0));
                      break;
                   }
                }
             }
+            /////////////////////////////////////////////////////////////////////////////////
             $index = $fakeindex;
-            if ($index > count($miscellaneous) - 1) {
+            if ($index > count($typePass) - 1) {
+               $index = 0;
+            }
+            if ($row['name'] == (!empty($typePass[$index]['name']))) {
+               $player->setLivePass(intval($typePass[$index]['KP'] ?? 0))
+                  ->setDeadPasses(intval($typePass[$index]['Dead'] ?? 0))
+                  ->setPressPasses(intval($typePass[$index]['Press'] ?? 0))
+                  ->setSwitchPasses(floatval($typePass[$index]['Sw'] ?? 0.0))
+                  ->setGroundPasses(intval($typePass[$index]['Ground'] ?? 0))
+                  ->setLowPasses(intval($typePass[$index]['Low'] ?? 0))
+                  ->setHighPasses(floatval($typePass[$index]['High'] ?? 0.0))
+                  ->setLeftFootPasses(intval($typePass[$index]['Left'] ?? 0))
+                  ->setRightFootPasses(intval($typePass[$index]['Right'] ?? 0))
+                  ->setBlockedPasses(floatval($typePass[$index]['Blocks'] ?? 0.0))
+                  ->setOffsidesPasses(intval($typePass[$index]['Off'] ?? 0))
+                  ->setPassAttemptedFromFK(intval($typePass[$index]['FK'] ?? 0))
+                  ->setThroughBalls(intval($typePass[$index]['TB'] ?? 0));
+            } else {
+               for ($i = 0; $i <= count($typePass) - 1; $i++) {
+
+                  if ($row['name'] == (!empty($typePass[$i]['name']))) {
+                     $player->setLivePass(intval($typePass[$i]['KP'] ?? 0))
+                        ->setDeadPasses(intval($typePass[$i]['Dead'] ?? 0))
+                        ->setPressPasses(intval($typePass[$i]['Press'] ?? 0))
+                        ->setSwitchPasses(floatval($typePass[$i]['Sw'] ?? 0.0))
+                        ->setGroundPasses(intval($typePass[$i]['Ground'] ?? 0))
+                        ->setLowPasses(intval($typePass[$i]['Low'] ?? 0))
+                        ->setHighPasses(floatval($typePass[$i]['High'] ?? 0.0))
+                        ->setLeftFootPasses(intval($typePass[$i]['Left'] ?? 0))
+                        ->setRightFootPasses(intval($typePass[$i]['Right'] ?? 0))
+                        ->setBlockedPasses(floatval($typePass[$i]['Blocks'] ?? 0.0))
+                        ->setOffsidesPasses(intval($typePass[$i]['Off'] ?? 0))
+                        ->setPassAttemptedFromFK(intval($typePass[$i]['FK'] ?? 0))
+                        ->setThroughBalls(intval($typePass[$i]['TB'] ?? 0));
+                     break;
+                  }
+               }
+            }
+            ////////////////////////////////////////////////////////////////////////////////
+            $index = $fakeindex;
+            if ($index > count($defense) - 1 and count($defense) > 1) {
+               $index = 0;
+            }
+            if ($row['name'] == (!empty($defense[$index]['name']))) {
+               $player->setTacklesWon(intval($defense[$index]['TklW'] ?? 0))
+                  ->setInterceptions(intval($defense[$index]['Int'] ?? 0))
+                  ->setPressures(intval($defense[$index]['Press'] ?? 0))
+                  ->setPressureSucceded(intval($defense[$index]['Succ'] ?? 0))
+                  ->setPressureCompletion(intval($defense[$index]['%'] ?? 0))
+                  ->setBallBlocked(floatval($defense[$index]['Blocks'] ?? 0.0))
+                  ->setShootBlocked(intval($defense[$index]['Sh'] ?? 0))
+                  ->setShootOntTargetBlocked(intval($defense[$index]['ShSv'] ?? 0))
+                  ->setPassBlocked(floatval($defense[$index]['Pass'] ?? 0.0))
+                  ->setDribbleTackled(intval($defense[$index]['Tkl'] ?? 0))
+                  ->setDribbleTackledPercent(floatval($defense[$index]['Tkl%'] ?? 0.0))
+                  ->setTimesDribbledPast(intval($defense[$index]['Past'] ?? 0))
+                  ->setClearances(intval($defense[$index]['Clr'] ?? 0))
+                  ->setErrors(intval($defense[$index]['Err'] ?? 0));
+            } else {
+               for ($i = 0; $i <= count($defense) - 1; $i++) {
+
+                  if ($row['name'] == (!empty($defense[$i]['name']))) {
+                     $player->setTacklesWon(intval($defense[$i]['TklW'] ?? 0))
+                        ->setInterceptions(intval($defense[$i]['Int'] ?? 0))
+                        ->setPressures(intval($defense[$i]['Press'] ?? 0))
+                        ->setPressureSucceded(intval($defense[$i]['Succ'] ?? 0))
+                        ->setPressureCompletion(intval($defense[$i]['%'] ?? 0))
+                        ->setBallBlocked(floatval($defense[$i]['Blocks'] ?? 0.0))
+                        ->setShootBlocked(intval($defense[$i]['Sh'] ?? 0))
+                        ->setShootOntTargetBlocked(intval($defense[$i]['ShSv'] ?? 0))
+                        ->setDribbleTackled(intval($defense[$i]['Tkl'] ?? 0))
+                        ->setDribbleTackledPercent(floatval($defense[$i]['Tkl%'] ?? 0.0))
+                        ->setTimesDribbledPast(intval($defense[$i]['Past'] ?? 0))
+                        ->setPassBlocked(floatval($defense[$i]['Pass'] ?? 0.0))
+                        ->setClearances(intval($defense[$i]['Clr'] ?? 0))
+                        ->setErrors(intval($defense[$i]['Err'] ?? 0));
+                     break;
+                  }
+               }
+            }
+            ///////////////////////////////////////////////////////////////////////////////
+            $index = $fakeindex;
+            if ($index > count($miscellaneous) - 1   and count($miscellaneous) > 1) {
                $index = 0;
             }
             if ($row['name'] == $miscellaneous[$index]['name']) {
@@ -676,8 +949,8 @@ class importCommand extends Command
                   ->setFoulsDrawn(intval($miscellaneous[$index]['Fld'] ?? 0))
                   ->setOffsides(intval($miscellaneous[$index]['Off'] ?? 0))
                   ->setCrosses(intval($miscellaneous[$index]['Crs'] ?? 0))
-                  ->setTacklesWon(intval($miscellaneous[$index]['TklW'] ?? 0))
-                  ->setInterceptions(intval($miscellaneous[$index]['Int'] ?? 0))
+                  // ->setTacklesWon(intval($miscellaneous[$index]['TklW'] ?? 0))
+                  // ->setInterceptions(intval($miscellaneous[$index]['Int'] ?? 0))
                   ->setPenaltyKicksWon(intval($miscellaneous[$index]['PKwon'] ?? 0))
                   ->setPenaltyKicksConceded(intval($miscellaneous[$index]['PKcon'] ?? 0))
                   ->setOwnGoal(intval($miscellaneous[$index]['OG'] ?? 0))
@@ -686,11 +959,10 @@ class importCommand extends Command
                   ->setDribblePercent(floatval($miscellaneous[$index]['Succ%'] ?? 0.0))
                   ->setNumberOfPlayerDriblled(intval($miscellaneous[$index]['#Pl'] ?? 0))
                   ->setNutmegs(intval($miscellaneous[$index]['Megs'] ?? 0))
-                  ->setDribbleTackled(intval($miscellaneous[$index]['Tkl'] ?? 0))
-                  ->setDribbleTackledPercent(floatval($miscellaneous[$index]['Tkl%'] ?? 0.0))
-                  ->setTimesDribbledPast(intval($miscellaneous[$index]['Past'] ?? 0))
-                  ->setSecondYellowCard($miscellaneous[$index]['2CrdY']);
-                  ;
+                  ->setSecondYellowCard(intval($miscellaneous[$index]['2CrdY']))
+                  ->setArialDuelsWon(intval($miscellaneous[$index]['Won']))
+                  ->setArialDuelsLost(intval($miscellaneous[$index]['Lost']))
+                  ->setArialDuelsCompletion(floatval($miscellaneous[$index]['Won%']));
             } else {
                for ($i = 0; $i <= count($miscellaneous) - 1; $i++) {
 
@@ -700,8 +972,8 @@ class importCommand extends Command
                         ->setFoulsDrawn(intval($miscellaneous[$i]['Fld'] ?? 0))
                         ->setOffsides(intval($miscellaneous[$i]['Off'] ?? 0))
                         ->setCrosses(intval($miscellaneous[$i]['Crs'] ?? 0))
-                        ->setTacklesWon(intval($miscellaneous[$i]['TklW'] ?? 0))
-                        ->setInterceptions(intval($miscellaneous[$i]['Int'] ?? 0))
+                        // ->setTacklesWon(intval($miscellaneous[$i]['TklW'] ?? 0))
+                        // ->setInterceptions(intval($miscellaneous[$i]['Int'] ?? 0))
                         ->setPenaltyKicksWon(intval($miscellaneous[$i]['PKwon'] ?? 0))
                         ->setPenaltyKicksConceded(intval($miscellaneous[$i]['PKcon'] ?? 0))
                         ->setOwnGoal(intval($miscellaneous[$i]['OG'] ?? 0))
@@ -710,112 +982,153 @@ class importCommand extends Command
                         ->setDribblePercent(floatval($miscellaneous[$i]['Succ%'] ?? 0.0))
                         ->setNumberOfPlayerDriblled(intval($miscellaneous[$i]['#Pl'] ?? 0))
                         ->setNutmegs(intval($miscellaneous[$i]['Megs'] ?? 0))
-                        ->setDribbleTackled(intval($miscellaneous[$i]['Tkl'] ?? 0))
-                        ->setDribbleTackledPercent(floatval($miscellaneous[$i]['Tkl%'] ?? 0.0))
-                        ->setTimesDribbledPast(intval($miscellaneous[$i]['Past'] ?? 0))
-                        ->setSecondYellowCard(intval($miscellaneous[$i]['2CrdY'] ?? 0));
+                        ->setSecondYellowCard(intval($miscellaneous[$i]['2CrdY'] ?? 0))
+                        ->setArialDuelsWon(intval($miscellaneous[$i]['Won']))
+                        ->setArialDuelsLost(intval($miscellaneous[$i]['Lost']))
+                        ->setArialDuelsCompletion(floatval($miscellaneous[$i]['Won%']));
                      break;
                   }
                }
             }
+            /////////////////////////////////////////////////////////////////////
+            $index = $fakeindex;
+            if ($index > count($possession) - 1 and count($possession) > 1) {
+               $index = 0;
+            }
+            if ($row['name'] == (empty($possession[$index]['name']) ? "" : $possession[$index]['name'])) {
+               $player->setBallControlls(intval($possession[$index]['Carries'] ?? 0))
+                  ->setBallControllsMoveDistance(intval($possession[$index]['TotDist'] ?? 0))
+                  ->setBallControllsMoveDistanceProgressive(intval($possession[$index]['PrgDist'] ?? 0))
+                  ->setReceivingBallAttempted(intval($possession[$index]['Targ'] ?? 0))
+                  ->setReceivingBallCompleted(intval($possession[$index]['Rec'] ?? 0))
+                  ->setReceivingBallCompletion(floatval($possession[$index]['Rec%'] ?? 0.0))
+                  ->setMisControlls(intval($possession[$index]['Miscon'] ?? 0))
+                  ->setDispossessed(intval($possession[$index]['Dispos'] ?? 0));
+            } else {
+               for ($i = 0; $i <= count($possession) - 1; $i++) {
 
+                  if ($row['name'] == (empty($possession[$i]['name']) ? "" : $possession[$index]['name'])) {
+                     $player->setBallControlls(intval($possession[$i]['Carries'] ?? 0))
+                        ->setBallControllsMoveDistance(intval($possession[$i]['TotDist'] ?? 0))
+                        ->setBallControllsMoveDistanceProgressive(intval($possession[$i]['PrgDist'] ?? 0))
+                        ->setReceivingBallAttempted(intval($possession[$i]['Targ'] ?? 0))
+                        ->setReceivingBallCompleted(intval($possession[$i]['Rec'] ?? 0))
+                        ->setReceivingBallCompletion(floatval($possession[$i]['Rec%'] ?? 0.0))
+                        ->setMisControlls(intval($possession[$i]['Miscon'] ?? 0))
+                        ->setDispossessed(intval($possession[$i]['Dispos'] ?? 0));
+                     break;
+                  }
+               }
+            }
+            ////////////////////////////////////////////////////////////////
 
 
             $this->em->persist($player);
          } else {
-
-            $verify->setMinutesPlayed(intval($row['Min'] ?? 0))
-               ->setMinutesPercentPlayed(floatval($row['Min%'] ?? 0.0))
-               ->setNintyMinPlayed(floatval($row['90s'] ?? 0.0))
-               ->setMinPerMatchStarted(floatval($row['Mn/Start'] ?? 0.0))
-               ->setPointsPerMatch(floatval($row['PPM'] ?? 0.0));
+            
+             $val = ($verify->getMinutesPlayed() * $this->fixDataToUpdate) + intval($row['Min'] ?? 0);
+             echo $verify->getMinutesPlayed(); echo "\n";
+             echo $verify->getMinsPlayed(); echo "\n";
+             echo $this->fixDataToUpdate; echo "\n";
+             echo intval($row['Min'] ?? 0); echo "\n";
+             echo "goals" .$verify->getGoals(); echo "\n";
+             echo $val;
+             sleep(1);
+            // echo $this->fixDataToUpdate ;
+              
+            $verify->setMinutesPlayed(($verify->getMinutesPlayed() * $this->fixDataToUpdate) + intval($row['Min'] ?? 0))
+               ->setMinutesPercentPlayed((($verify->getMinutesPercentPlayed() * $this->fixDataToUpdate) + floatval($row['Min%'] ?? 0.0)) / 2)
+               ->setNintyMinPlayed((($verify->getNintyMinPlayed() * $this->fixDataToUpdate) + floatval($row['90s'] ?? 0.0)) / 2)
+               ->setMinPerMatchStarted((($verify->getMinPerMatchStarted() * $this->fixDataToUpdate) + floatval($row['Mn/Start'] ?? 0.0)) / 2)
+               ->setPointsPerMatch((($verify->getPointsPerMatch() * $this->fixDataToUpdate) + floatval($row['PPM'] ?? 0.0)) / 2)
+               ->setMatchsPlayed(($verify->getMatchsPlayed() * $this->fixDataToUpdate) + intval($row['MP'] ?? 0))
+               ->setMatchStarts(($verify->getMatchStarts() * $this->fixDataToUpdate) + intval($row['Starts'] ?? 0))
+               ->setMinsPlayed(($verify->getMinsPlayed() * $this->fixDataToUpdate) + intval($row['Min'] ?? 0));
 
             if ($index > count($standars) - 1) {
                $index = 0;
             }
             if ($row['name'] == $standars[$index]['name']) {
 
-               $verify->setMatchsPlayed(intval($standars[$index]['MP'] ?? 0))
-                  ->setMatchStarts(intval($standars[$index]['Starts'] ?? 0))
-                  ->setMinsPlayed(intval($standars[$index]['Min'] ?? 0))
-                  ->setGoals(intval($standars[$index]['Gls'] ?? 0))
-                  ->setAssits(intval($standars[$index]['Ast'] ?? 0))
-                  ->setPkMade(intval($standars[$index]['PK'] ?? 0))
-                  ->setPkAttempted(intval($standars[$index]['PKatt'] ?? 0))
-                  ->setYellowCard(intval($standars[$index]['CrdY'] ?? 0))
-                  ->setRedCard(intval($standars[$index]['CrdR'] ?? 0))
-                  ->setGoalsPerMin(floatval($standars[$index]['Gls_per_match'] ?? 0.0))
-                  ->setAssistsPerMin(floatval($standars[$index]['Ast_per_match'] ?? 0.0))
-                  ->setGlsAssPerMin(floatval($standars[$index]['G_A_per_match'] ?? 0.0))
-                  ->setGoalsWithoutPkPerMin(floatval($standars[$index]['G_PK_per_match'] ?? 0.0))
-                  ->setGlsAssWithoutPkPerMin(floatval($standars[$index]['G_A_PK_per_match'] ?? 0.0))
-                  ->setGoalsExp(floatval($standars[$index]['xG'] ?? 0.0))
-                  ->setNonPenGoalsExp(floatval($standars[$index]['npxG'] ?? 0.0))
-                  ->setAssistsExp(floatval($standars[$index]['xA'] ?? 0.0))
-                  ->setGoalsPerMinExp(floatval($standars[$index]['xG_per_match'] ?? 0.0))
-                  ->setAssistsPerMinExp(floatval($standars[$index]['xA_per_match'] ?? 0.0))
-                  ->setGlsAssistsPerMinExp(floatval($standars[$index]['xG_xA'] ?? 0.0))
-                  ->setNonPenGoalsExpPerMin(floatval($standars[$index]['npxG_per_match'] ?? 0.0))
-                  ->setNonPenGoalsAssistsExpPerMin(floatval($standars[$index]['npxG_xA'] ?? 0.0));
+               $verify
+                  ->setGoals(($verify->getGoals() * $this->fixDataToUpdate) + intval($standars[$index]['Gls'] ?? 0))
+                  ->setAssists(($verify->getAssists() * $this->fixDataToUpdate) + intval($standars[$index]['Ast'] ?? 0))
+                  ->setPkMade(($verify->getPkMade() * $this->fixDataToUpdate) + intval($standars[$index]['PK'] ?? 0))
+                  ->setPkAttempted(($verify->getPkAttempted() * $this->fixDataToUpdate) + intval($standars[$index]['PKatt'] ?? 0))
+                  ->setYellowCard(($verify->getYellowCard() * $this->fixDataToUpdate) + intval($standars[$index]['CrdY'] ?? 0))
+                  ->setRedCard(($verify->getRedCard() * $this->fixDataToUpdate) + intval($standars[$index]['CrdR'] ?? 0))
+                  ->setGoalsPerMin((($verify->getGoalsPerMin() * $this->fixDataToUpdate) + floatval($standars[$index]['Gls_per_match'] ?? 0.0)) / 2)
+                  ->setAssistsPerMin((($verify->getAssistsPerMin() * $this->fixDataToUpdate) + floatval($standars[$index]['Ast_per_match'] ?? 0.0)) / 2)
+                  ->setGlsAssPerMin((($verify->getGlsAssPerMin() * $this->fixDataToUpdate) + floatval($standars[$index]['G_A_per_match'] ?? 0.0)) / 2)
+                  ->setGoalsWithoutPkPerMin((($verify->getGoalsWithoutPkPerMin() * $this->fixDataToUpdate) + floatval($standars[$index]['G_PK_per_match'] ?? 0.0)) / 2)
+                  ->setGlsAssWithoutPkPerMin((($verify->getGlsAssWithoutPkPerMin() * $this->fixDataToUpdate) + floatval($standars[$index]['G_A_PK_per_match'] ?? 0.0)) / 2)
+                  ->setGoalsExp((($verify->getGoalsExp() * $this->fixDataToUpdate) + floatval($standars[$index]['xG'] ?? 0.0)) / 2)
+                  ->setNonPenGoalsExp((($verify->getNonPenGoalsExp() * $this->fixDataToUpdate) + floatval($standars[$index]['npxG'] ?? 0.0)) / 2)
+                  ->setAssistsExp((($verify->getAssistsExp() * $this->fixDataToUpdate) + floatval($standars[$index]['xA'] ?? 0.0)) / 2)
+                  ->setGoalsPerMinExp((($verify->getGoalsPerMinExp() * $this->fixDataToUpdate) + floatval($standars[$index]['xG_per_match'] ?? 0.0)) / 2)
+                  ->setAssistsPerMinExp((($verify->getAssistsPerMinExp() * $this->fixDataToUpdate) + floatval($standars[$index]['xA_per_match'] ?? 0.0)) / 2)
+                  ->setGlsAssistsPerMinExp((($verify->getGlsAssistsPerMinExp() * $this->fixDataToUpdate) + floatval($standars[$index]['xG_xA'] ?? 0.0)) / 2)
+                  ->setNonPenGoalsExpPerMin((($verify->getNonPenGoalsExpPerMin() * $this->fixDataToUpdate) + floatval($standars[$index]['npxG_per_match'] ?? 0.0)) / 2)
+                  ->setNonPenGoalsAssistsExpPerMin((($verify->getNonPenGoalsAssistsExpPerMin() * $this->fixDataToUpdate) + floatval($standars[$index]['npxG_xA'] ?? 0.0)) / 2);
             } else {
 
                for ($i = 0; $i <= count($standars) - 1; $i++) {
                   $comp++;
                   if ($row['name'] == $standars[$i]['name']) {
 
-                     $verify->setMatchsPlayed(intval($standars[$i]['MP'] ?? 0))
-                        ->setMatchStarts(intval($standars[$i]['Starts'] ?? 0))
-                        ->setMinsPlayed(intval($standars[$i]['Min'] ?? 0))
-                        ->setGoals(intval($standars[$i]['Gls'] ?? 0))
-                        ->setAssits(intval($standars[$i]['Ast'] ?? 0))
-                        ->setPkMade(intval($standars[$i]['PK'] ?? 0))
-                        ->setPkAttempted(intval($standars[$i]['PKatt'] ?? 0))
-                        ->setYellowCard(intval($standars[$i]['CrdY'] ?? 0))
-                        ->setRedCard(intval($standars[$i]['CrdR'] ?? 0))
-                        ->setGoalsPerMin(floatval($standars[$i]['Gls_per_match'] ?? 0.0))
-                        ->setAssistsPerMin(floatval($standars[$i]['Ast_per_match'] ?? 0.0))
-                        ->setGlsAssPerMin(floatval($standars[$i]['G_A_per_match'] ?? 0.0))
-                        ->setGoalsWithoutPkPerMin(floatval($standars[$i]['G_PK_per_match'] ?? 0.0))
-                        ->setGlsAssWithoutPkPerMin(floatval($standars[$i]['G_A_PK_per_match'] ?? 0.0))
-                        ->setGoalsExp(floatval($standars[$i]['xG'] ?? 0.0))
-                        ->setNonPenGoalsExp(floatval($standars[$i]['npxG'] ?? 0.0))
-                        ->setAssistsExp(floatval($standars[$i]['xA'] ?? 0.0))
-                        ->setGoalsPerMinExp(floatval($standars[$i]['xG_per_match'] ?? 0.0))
-                        ->setAssistsPerMinExp(floatval($standars[$i]['xA_per_match'] ?? 0.0))
-                        ->setGlsAssistsPerMinExp(floatval($standars[$i]['xG_xA'] ?? 0.0))
-                        ->setNonPenGoalsExpPerMin(floatval($standars[$i]['npxG_per_match'] ?? 0.0))
-                        ->setNonPenGoalsAssistsExpPerMin(floatval($standars[$i]['npxG_xA'] ?? 0.0));
+                     $verify->setMatchsPlayed(($verify->getMatchsPlayed() * $this->fixDataToUpdate) + intval($standars[$i]['MP'] ?? 0))
+                        ->setMatchStarts(($verify->getMatchStarts() * $this->fixDataToUpdate) + intval($standars[$i]['Starts'] ?? 0))
+                        ->setMinsPlayed(($verify->getMinsPlayed() * $this->fixDataToUpdate) + intval($standars[$i]['Min'] ?? 0))
+                        ->setGoals(($verify->getGoals() * $this->fixDataToUpdate) + intval($standars[$i]['Gls'] ?? 0))
+                        ->setAssists(($verify->getAssists() * $this->fixDataToUpdate) + intval($standars[$i]['Ast'] ?? 0))
+                        ->setPkMade(($verify->getPkMade() * $this->fixDataToUpdate) + intval($standars[$i]['PK'] ?? 0))
+                        ->setPkAttempted(($verify->getPkAttempted() * $this->fixDataToUpdate) + intval($standars[$i]['PKatt'] ?? 0))
+                        ->setYellowCard(($verify->getYellowCard() * $this->fixDataToUpdate) + intval($standars[$i]['CrdY'] ?? 0))
+                        ->setRedCard(($verify->getRedCard() * $this->fixDataToUpdate) + intval($standars[$i]['CrdR'] ?? 0))
+                        ->setGoalsPerMin((($verify->getGoalsPerMin() * $this->fixDataToUpdate) + floatval($standars[$i]['Gls_per_match'] ?? 0.0)) / 2)
+                        ->setAssistsPerMin((($verify->getAssistsPerMin() * $this->fixDataToUpdate) + floatval($standars[$i]['Ast_per_match'] ?? 0.0)) / 2)
+                        ->setGlsAssPerMin((($verify->getGlsAssPerMin() * $this->fixDataToUpdate) + floatval($standars[$i]['G_A_per_match'] ?? 0.0)) / 2)
+                        ->setGoalsWithoutPkPerMin((($verify->getGoalsWithoutPkPerMin() * $this->fixDataToUpdate) + floatval($standars[$i]['G_PK_per_match'] ?? 0.0)) / 2)
+                        ->setGlsAssWithoutPkPerMin((($verify->getGlsAssWithoutPkPerMin() * $this->fixDataToUpdate) + floatval($standars[$i]['G_A_PK_per_match'] ?? 0.0)) / 2)
+                        ->setGoalsExp((($verify->getGoalsExp() * $this->fixDataToUpdate) + floatval($standars[$i]['xG'] ?? 0.0)) / 2)
+                        ->setNonPenGoalsExp((($verify->getNonPenGoalsExp() * $this->fixDataToUpdate) + floatval($standars[$i]['npxG'] ?? 0.0)) / 2)
+                        ->setAssistsExp((($verify->getAssistsExp() * $this->fixDataToUpdate) + floatval($standars[$i]['xA'] ?? 0.0)) / 2)
+                        ->setGoalsPerMinExp((($verify->getGoalsPerMinExp() * $this->fixDataToUpdate) + floatval($standars[$i]['xG_per_match'] ?? 0.0)) / 2)
+                        ->setAssistsPerMinExp((($verify->getAssistsPerMinExp() * $this->fixDataToUpdate) + floatval($standars[$i]['xA_per_match'] ?? 0.0)) / 2)
+                        ->setGlsAssistsPerMinExp((($verify->getGlsAssistsPerMinExp() * $this->fixDataToUpdate) + floatval($standars[$i]['xG_xA'] ?? 0.0)) / 2)
+                        ->setNonPenGoalsExpPerMin((($verify->getNonPenGoalsExpPerMin() * $this->fixDataToUpdate) + floatval($standars[$i]['npxG_per_match'] ?? 0.0)) / 2)
+                        ->setNonPenGoalsAssistsExpPerMin((($verify->getNonPenGoalsAssistsExpPerMin() * $this->fixDataToUpdate) + floatval($standars[$i]['npxG_xA'] ?? 0.0)) / 2);
                      break;
                   }
                }
             }
 
             $index = $fakeindex;
-            if ($index > count($shooting) - 1) {
+            if ($index > count($shooting) - 1 and count($shooting) > 1) {
                $index = 0;
             }
-            if ($row['name'] == $shooting[$index]['name']) {
-               $verify->setShoots(intval($shooting[$index]['Sh'] ?? 0))
-                  ->setShootsOnTarget(intval($shooting[$index]['SoT'] ?? 0))
-                  ->setShootsFromFrKc(intval($shooting[$index]['FK'] ?? 0))
-                  ->setShootsOnTargetPc(floatval($shooting[$index]['SoT%'] ?? 0.0))
-                  ->setShootsPerMatch(floatval($shooting[$index]['Sh/90'] ?? 0.0))
-                  ->setShootsOnTargetPerMatch(floatval($shooting[$index]['SoT/90'] ?? 0.0))
-                  ->setGoalsPerShoot(floatval($shooting[$index]['G/Sh'] ?? 0.0))
-                  ->setGoalPerShootOnTarget(floatval($shooting[$index]['G/SoT'] ?? 0.0));
+            if ($row['name'] == (!empty($shooting[$index]['name']))) {
+               $verify->setShoots(($verify->getShoots() * $this->fixDataToUpdate) + intval($shooting[$index]['Sh'] ?? 0))
+                  ->setShootsOnTarget(($verify->getShootsOnTarget() * $this->fixDataToUpdate) + intval($shooting[$index]['SoT'] ?? 0))
+                  ->setShootsFromFrKc(($verify->getShootsFromFrKc() * $this->fixDataToUpdate) + intval($shooting[$index]['FK'] ?? 0))
+                  ->setShootsOnTargetPc((($verify->getShootsOnTargetPc() * $this->fixDataToUpdate) + floatval($shooting[$index]['SoT%'] ?? 0.0)) / 2)
+                  ->setShootsPerMatch((($verify->getShootsPerMatch() * $this->fixDataToUpdate) + floatval($shooting[$index]['Sh/90'] ?? 0.0)) / 2)
+                  ->setShootsOnTargetPerMatch((($verify->getShootsOnTargetPerMatch() * $this->fixDataToUpdate) + floatval($shooting[$index]['SoT/90'] ?? 0.0)) / 2)
+                  ->setGoalsPerShoot((($verify->getGoalsPerShoot() * $this->fixDataToUpdate) + floatval($shooting[$index]['G/Sh'] ?? 0.0)) / 2)
+                  ->setGoalPerShootOnTarget((($verify->getGoalPerShootOnTarget() * $this->fixDataToUpdate) + floatval($shooting[$index]['G/SoT'] ?? 0.0)) / 2);
             } else {
                for ($i = 0; $i <= count($shooting) - 1; $i++) {
 
-                  if ($row['name'] == $shooting[$i]['name']) {
+                  if ($row['name'] == (!empty($shooting[$i]['name']))) {
 
-                     $verify->setShoots(intval($shooting[$i]['Sh'] ?? 0))
-                        ->setShootsOnTarget(intval($shooting[$i]['SoT'] ?? 0))
-                        ->setShootsFromFrKc(intval($shooting[$i]['FK'] ?? 0))
-                        ->setShootsOnTargetPc(floatval($shooting[$i]['SoT%'] ?? 0.0))
-                        ->setShootsPerMatch(floatval($shooting[$i]['Sh/90'] ?? 0.0))
-                        ->setShootsOnTargetPerMatch(floatval($shooting[$i]['SoT/90'] ?? 0.0))
-                        ->setGoalsPerShoot(floatval($shooting[$i]['G/Sh'] ?? 0.0))
-                        ->setGoalPerShootOnTarget(floatval($shooting[$i]['G/SoT'] ?? 0.0));
+                     $verify->setShoots(($verify->getShoots() * $this->fixDataToUpdate) + intval($shooting[$i]['Sh'] ?? 0))
+                        ->setShootsOnTarget(($verify->getShootsOnTarget() * $this->fixDataToUpdate) + intval($shooting[$i]['SoT'] ?? 0))
+                        ->setShootsFromFrKc(($verify->getShootsFromFrKc() * $this->fixDataToUpdate) + intval($shooting[$i]['FK'] ?? 0))
+                        ->setShootsOnTargetPc((($verify->getShootsOnTargetPc() * $this->fixDataToUpdate) + floatval($shooting[$i]['SoT%'] ?? 0.0)) / 2)
+                        ->setShootsPerMatch((($verify->getShootsPerMatch() * $this->fixDataToUpdate) + floatval($shooting[$i]['Sh/90'] ?? 0.0)) / 2)
+                        ->setShootsOnTargetPerMatch((($verify->getShootsOnTargetPerMatch() * $this->fixDataToUpdate) + floatval($shooting[$i]['SoT/90'] ?? 0.0)) / 2)
+                        ->setGoalsPerShoot((($verify->getGoalsPerShoot() * $this->fixDataToUpdate) + floatval($shooting[$i]['G/Sh'] ?? 0.0)) / 2)
+                        ->setGoalPerShootOnTarget((($verify->getGoalPerShootOnTarget() * $this->fixDataToUpdate) + floatval($shooting[$i]['G/SoT'] ?? 0.0)) / 2);
                      break;
                   }
                }
@@ -828,102 +1141,214 @@ class importCommand extends Command
             if ($index > count($passing) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $passing[$index]['name']) {
-               $verify->setKeyPasses(intval($passing[$index]['KP']))
-                  ->setPassesCompleted(intval($passing[$index]['Cmp']))
-                  ->setPassesAttempted(intval($passing[$index]['Att'] ?? 0.0))
-                  ->setPassCompPercent(floatval($passing[$index]['CmpPER']))
-                  ->setShortPassesCompleted(intval($passing[$index]['shortCmp']))
-                  ->setShortpassesAttempted(intval($passing[$index]['shortAtt']))
-                  ->setShortPassesCompPercent(floatval($passing[$index]['shortCmpPER'] ?? 0.0))
-                  ->setMediumPassesCompleted(intval($passing[$index]['mediumCmp']))
-                  ->setMediumPassesAttempted(intval($passing[$index]['mediumAtt'] ?? 0))
-                  ->setMediumPassesCompPercent(floatval($passing[$index]['mediumCmpPER'] ?? 0.0))
-                  ->setLongPassCompleted(intval($passing[$index]['longCmp']))
-                  ->setLongPassesAttempted(intval($passing[$index]['longAtt']))
-                  ->setLongPassesCompPercent(floatval($passing[$index]['longCmpPER'] ?? 0.0))
-                  ->setPassCompletedFinalThird(intval($passing[$index]['1/3'] ?? 0))
-                  ->setPassCompletedPenaltyArea(intval($passing[$index]['PPA'] ?? 0))
-                  ->setThroughBalls(intval($passing[$index]['TB'] ?? 0))
-                  ->setCrossIntoPenaltyArea(floatval($passing[$index]['CrsPA'] ?? 0.0));
+            if ($row['name'] == (!empty($passing[$index]['name']))) {
+               $verify->setKeyPasses(($verify->getKeyPasses() * $this->fixDataToUpdate) + intval($passing[$index]['KP']))
+                  ->setPassesCompleted(($verify->getPassesCompleted() * $this->fixDataToUpdate) + intval($passing[$index]['Cmp']))
+                  ->setPassesAttempted(($verify->getPassesAttempted() * $this->fixDataToUpdate) + intval($passing[$index]['Att'] ?? 0.0))
+                  ->setPassCompPercent((($verify->getPassCompPercent() * $this->fixDataToUpdate) + floatval($passing[$index]['CmpPER'])) / 2)
+                  ->setShortPassesCompleted(($verify->getShortPassesCompleted() * $this->fixDataToUpdate) + intval($passing[$index]['shortCmp']))
+                  ->setShortpassesAttempted(($verify->getShortpassesAttempted() * $this->fixDataToUpdate) + intval($passing[$index]['shortAtt']))
+                  ->setShortPassesCompPercent((($verify->getShortPassesCompPercent() * $this->fixDataToUpdate) + floatval($passing[$index]['shortCmpPER'] ?? 0.0)) / 2)
+                  ->setMediumPassesCompleted(($verify->getMediumPassesCompleted() * $this->fixDataToUpdate) + intval($passing[$index]['mediumCmp']))
+                  ->setMediumPassesAttempted(($verify->getMediumPassesAttempted() * $this->fixDataToUpdate) + intval($passing[$index]['mediumAtt'] ?? 0))
+                  ->setMediumPassesCompPercent((($verify->getMediumPassesCompPercent() * $this->fixDataToUpdate) + floatval($passing[$index]['mediumCmpPER'] ?? 0.0)) / 2)
+                  ->setLongPassCompleted(($verify->getLongPassCompleted() * $this->fixDataToUpdate) + intval($passing[$index]['longCmp']))
+                  ->setLongPassesAttempted(($verify->getLongPassesAttempted() * $this->fixDataToUpdate) + intval($passing[$index]['longAtt']))
+                  ->setLongPassesCompPercent((($verify->getLongPassesCompPercent() * $this->fixDataToUpdate) + floatval($passing[$index]['longCmpPER'] ?? 0.0)) / 2)
+                  ->setPassCompletedFinalThird(($verify->getPassCompletedFinalThird() * $this->fixDataToUpdate) + intval($passing[$index]['1/3'] ?? 0))
+                  ->setPassCompletedPenaltyArea(($verify->getPassCompletedPenaltyArea() * $this->fixDataToUpdate) + intval($passing[$index]['PPA'] ?? 0))
+                  //->setThroughBalls(intval($passing[$index]['TB'] ?? 0))
+                  ->setCrossIntoPenaltyArea((($verify->getCrossIntoPenaltyArea() * $this->fixDataToUpdate) + floatval($passing[$index]['CrsPA'] ?? 0.0)) / 2);
             } else {
                for ($i = 0; $i <= count($passing) - 1; $i++) {
 
-                  if ($row['name'] == $passing[$i]['name']) {
-                     $verify->setKeyPasses(intval($passing[$i]['KP']))
-                        ->setPassesCompleted(intval($passing[$i]['Cmp']))
-                        ->setPassesAttempted(intval($passing[$i]['Att']))
-                        ->setPassCompPercent(floatval($passing[$i]['CmpPER'] ?? 0.0))
-                        ->setShortPassesCompleted(intval($passing[$i]['shortCmp']))
-                        ->setShortpassesAttempted(intval($passing[$i]['shortAtt']))
-                        ->setShortPassesCompPercent(floatval($passing[$i]['shortCmpPER'] ?? 0.0))
-                        ->setMediumPassesCompleted(intval($passing[$i]['mediumCmp']))
-                        ->setMediumPassesAttempted(intval($passing[$i]['mediumAtt']))
-                        ->setMediumPassesCompPercent(floatval($passing[$i]['mediumCmpPER'] ?? 0.0))
-                        ->setLongPassCompleted(intval($passing[$i]['longCmp']))
-                        ->setLongPassesAttempted(intval($passing[$i]['longAtt']))
-                        ->setLongPassesCompPercent(floatval($passing[$i]['longCmpPER'] ?? 0.0))
-                        ->setPassCompletedFinalThird(intval($passing[$i]['1/3']))
-                        ->setPassCompletedPenaltyArea(intval($passing[$i]['PPA']))
-                        ->setThroughBalls(intval($passing[$i]['TB'] ?? 0))
-                        ->setCrossIntoPenaltyArea(floatval($passing[$i]['CrsPA'] ?? 0.0));
+                  if ($row['name'] == (!empty($passing[$i]['name']))) {
+                     $verify->setKeyPasses(($verify->getKeyPasses() * $this->fixDataToUpdate) + intval($passing[$i]['KP']))
+                        ->setPassesCompleted(($verify->getPassesCompleted() * $this->fixDataToUpdate) + intval($passing[$i]['Cmp']))
+                        ->setPassesAttempted(($verify->getPassesAttempted() * $this->fixDataToUpdate) + intval($passing[$i]['Att']))
+                        ->setPassCompPercent((($verify->getPassCompPercent() * $this->fixDataToUpdate) + floatval($passing[$i]['CmpPER'] ?? 0.0)) / 2)
+                        ->setShortPassesCompleted(($verify->getShortPassesCompleted() * $this->fixDataToUpdate) + intval($passing[$i]['shortCmp']))
+                        ->setShortpassesAttempted(($verify->getShortpassesAttempted() * $this->fixDataToUpdate) + intval($passing[$i]['shortAtt']))
+                        ->setShortPassesCompPercent((($verify->getShortPassesCompPercent() * $this->fixDataToUpdate) + floatval($passing[$i]['shortCmpPER'] ?? 0.0)) / 2)
+                        ->setMediumPassesCompleted(($verify->getMediumPassesCompleted() * $this->fixDataToUpdate) + intval($passing[$i]['mediumCmp']))
+                        ->setMediumPassesAttempted(($verify->getMediumPassesAttempted() * $this->fixDataToUpdate) + intval($passing[$i]['mediumAtt']))
+                        ->setMediumPassesCompPercent((($verify->getMediumPassesCompPercent() * $this->fixDataToUpdate) + floatval($passing[$i]['mediumCmpPER'] ?? 0.0)) / 2)
+                        ->setLongPassCompleted(($verify->getLongPassCompleted() * $this->fixDataToUpdate) + intval($passing[$i]['longCmp']))
+                        ->setLongPassesAttempted(($verify->getLongPassesAttempted() * $this->fixDataToUpdate) + intval($passing[$i]['longAtt']))
+                        ->setLongPassesCompPercent((($verify->getLongPassesCompPercent() * $this->fixDataToUpdate) + floatval($passing[$i]['longCmpPER'] ?? 0.0)) / 2)
+                        ->setPassCompletedFinalThird(($verify->getPassCompletedFinalThird() * $this->fixDataToUpdate) + intval($passing[$i]['1/3']))
+                        ->setPassCompletedPenaltyArea(($verify->getPassCompletedPenaltyArea() * $this->fixDataToUpdate) + intval($passing[$i]['PPA']))
+                        //->setThroughBalls(intval($passing[$i]['TB'] ?? 0))
+                        ->setCrossIntoPenaltyArea((($verify->getCrossIntoPenaltyArea() * $this->fixDataToUpdate) + floatval($passing[$i]['CrsPA'] ?? 0.0)) / 2);
                      break;
                   }
                }
             }
 
+            /////////////////////////////////////////////////////////////////////////////////
             $index = $fakeindex;
-            if ($index > count($miscellaneous) - 1) {
+            if ($index > count($typePass) - 1 and count($passing) > 1) {
                $index = 0;
             }
-            if ($row['name'] == $miscellaneous[$index]['name']) {
+            if ($row['name'] == (!empty($typePass[$index]['name']))) {
+               $verify->setLivePass(($verify->getLivePass() * $this->fixDataToUpdate) + intval($typePass[$index]['KP'] ?? 0))
+                  ->setDeadPasses(($verify->getDeadPasses() * $this->fixDataToUpdate) + intval($typePass[$index]['Dead'] ?? 0))
+                  ->setPressPasses(($verify->getPressPasses() * $this->fixDataToUpdate) + intval($typePass[$index]['Press'] ?? 0))
+                  ->setSwitchPasses((($verify->getSwitchPasses() * $this->fixDataToUpdate) + floatval($typePass[$index]['Sw'] ?? 0.0)) / 2)
+                  ->setGroundPasses(($verify->getGroundPasses() * $this->fixDataToUpdate) + intval($typePass[$index]['Ground'] ?? 0))
+                  ->setLowPasses(($verify->getLowPasses() * $this->fixDataToUpdate) + intval($typePass[$index]['Low'] ?? 0))
+                  ->setHighPasses((($verify->getHighPasses() * $this->fixDataToUpdate) + floatval($typePass[$index]['High'] ?? 0.0)) / 2)
+                  ->setLeftFootPasses(($verify->getLeftFootPasses() * $this->fixDataToUpdate) + intval($typePass[$index]['Left'] ?? 0))
+                  ->setRightFootPasses(($verify->getRightFootPasses() * $this->fixDataToUpdate) + intval($typePass[$index]['Right'] ?? 0))
+                  ->setBlockedPasses((($verify->getBlockedPasses() * $this->fixDataToUpdate) + floatval($typePass[$index]['Blocks'] ?? 0.0)) / 2)
+                  ->setOffsidesPasses(($verify->getOffsidesPasses() * $this->fixDataToUpdate) + intval($typePass[$index]['Off'] ?? 0))
+                  ->setPassAttemptedFromFK(($verify->getPassAttemptedFromFK() * $this->fixDataToUpdate) + intval($typePass[$index]['FK'] ?? 0))
+                  ->setThroughBalls(($verify->getThroughBalls() * $this->fixDataToUpdate) + intval($typePass[$index]['TB'] ?? 0));
+            } else {
+               for ($i = 0; $i <= count($typePass) - 1; $i++) {
 
-               $verify->setFoulsCommited(intval($miscellaneous[$index]['Fls']))
-                  ->setFoulsDrawn(intval($miscellaneous[$index]['Fld']))
-                  ->setOffsides(intval($miscellaneous[$index]['Off']))
-                  ->setCrosses(floatval($miscellaneous[$index]['Crs'] ?? 0.0))
-                  ->setTacklesWon(floatval($miscellaneous[$index]['TklW'] ?? 0.0))
-                  ->setInterceptions(floatval($miscellaneous[$index]['Int'] ?? 0.0))
-                  ->setPenaltyKicksWon(floatval($miscellaneous[$index]['PKwon'] ?? 0.0))
-                  ->setPenaltyKicksConceded(floatval($miscellaneous[$index]['PKcon'] ?? 0.0))
-                  ->setOwnGoal(floatval($miscellaneous[$index]['OG'] ?? 0.0))
-                  ->setDribbleCompleted(floatval($miscellaneous[$index]['Succ'] ?? 0.0))
-                  ->setDribbleAttempted(floatval($miscellaneous[$index]['Att'] ?? 0.0))
-                  ->setDribblePercent(floatval($miscellaneous[$index]['Succ%'] ?? 0.0))
-                  ->setNumberOfPlayerDriblled(floatval($miscellaneous[$index]['#Pl'] ?? 0.0))
-                  ->setNutmegs(floatval($miscellaneous[$index]['Megs'] ?? 0.0))
-                  ->setDribbleTackled(floatval($miscellaneous[$index]['Tkl'] ?? 0.0))
-                  ->setDribbleTackledPercent(floatval($miscellaneous[$index]['Tkl%'] ?? 0.0))
-                  ->setTimesDribbledPast(floatval($miscellaneous[$index]['Past'] ?? 0.0))
-                  ->setSecondYellowCard(intval($miscellaneous[$index]['2CrdY'] ?? 0));
-                  
+                  if ($row['name'] == (!empty($typePass[$i]['name'] ?? ""))) {
+                     $verify->setLivePass(($verify->getLivePass() * $this->fixDataToUpdate) + intval($typePass[$i]['KP'] ?? 0))
+                        ->setDeadPasses(($verify->getDeadPasses() * $this->fixDataToUpdate) + intval($typePass[$i]['Dead'] ?? 0))
+                        ->setPressPasses(($verify->getPressPasses() * $this->fixDataToUpdate) + intval($typePass[$i]['Press'] ?? 0))
+                        ->setSwitchPasses((($verify->getSwitchPasses() * $this->fixDataToUpdate) + floatval($typePass[$i]['Sw'] ?? 0.0)) / 2)
+                        ->setGroundPasses(($verify->getGroundPasses() * $this->fixDataToUpdate) + intval($typePass[$i]['Ground'] ?? 0))
+                        ->setLowPasses(($verify->getLowPasses() * $this->fixDataToUpdate) + intval($typePass[$i]['Low'] ?? 0))
+                        ->setHighPasses((($verify->getHighPasses() * $this->fixDataToUpdate) + floatval($typePass[$i]['High'] ?? 0.0)) / 2)
+                        ->setLeftFootPasses(($verify->getLeftFootPasses() * $this->fixDataToUpdate) + intval($typePass[$i]['Left'] ?? 0))
+                        ->setRightFootPasses(($verify->getRightFootPasses() * $this->fixDataToUpdate) + intval($typePass[$i]['Right'] ?? 0))
+                        ->setBlockedPasses((($verify->getBlockedPasses() * $this->fixDataToUpdate) + floatval($typePass[$i]['Blocks'] ?? 0.0)) / 2)
+                        ->setOffsidesPasses(($verify->getOffsidesPasses() * $this->fixDataToUpdate) + intval($typePass[$i]['Off'] ?? 0))
+                        ->setPassAttemptedFromFK(($verify->getPassAttemptedFromFK() * $this->fixDataToUpdate) + intval($typePass[$i]['FK'] ?? 0))
+                        ->setThroughBalls(($verify->getThroughBalls() * $this->fixDataToUpdate) + intval($typePass[$i]['TB'] ?? 0));
+                     break;
+                  }
+               }
+            }
+
+            /////////////////////////////////////////////////////////////////////////////////
+            $index = $fakeindex;
+            if ($index > count($defense) - 1 and count($defense) > 1) {
+               $index = 0;
+            }
+            if ($row['name'] == (!empty($defense[$index]['name'] ?? ""))) {
+               $verify->setTacklesWon(($verify->getTacklesWon() * $this->fixDataToUpdate) + intval($defense[$index]['TklW'] ?? 0))
+                  ->setInterceptions(($verify->getInterceptions() * $this->fixDataToUpdate) + intval($defense[$index]['Int'] ?? 0))
+                  ->setPressures(($verify->getPressures() * $this->fixDataToUpdate) + intval($defense[$index]['Press'] ?? 0))
+                  ->setPressureSucceded(($verify->getPressureSucceded() * $this->fixDataToUpdate) + intval($defense[$index]['Succ'] ?? 0))
+                  ->setPressureCompletion(($verify->getPressureCompletion() * $this->fixDataToUpdate) + intval($defense[$index]['%'] ?? 0))
+                  ->setBallBlocked((($verify->getBallBlocked() * $this->fixDataToUpdate) + floatval($defense[$index]['Blocks'] ?? 0.0)) / 2)
+                  ->setShootBlocked(($verify->getShootBlocked() * $this->fixDataToUpdate) + intval($defense[$index]['Sh'] ?? 0))
+                  ->setShootOntTargetBlocked(($verify->getShootOntTargetBlocked() * $this->fixDataToUpdate) + intval($defense[$index]['ShSv'] ?? 0))
+                  ->setPassBlocked((($verify->getPassBlocked() * $this->fixDataToUpdate) + floatval($defense[$index]['Pass'] ?? 0.0)) / 2)
+                  ->setClearances(($verify->getClearances() * $this->fixDataToUpdate) + intval($defense[$index]['Clr'] ?? 0))
+                  ->setErrors(($verify->getErrors() * $this->fixDataToUpdate) + intval($defense[$index]['Err'] ?? 0));
+            } else {
+               for ($i = 0; $i <= count($defense) - 1; $i++) {
+
+                  if ($row['name'] == (!empty($defense[$i]['name'] ?? ""))) {
+                     $verify->setTacklesWon(($verify->getTacklesWon() * $this->fixDataToUpdate) + intval($defense[$i]['TklW'] ?? 0))
+                        ->setInterceptions(($verify->getInterceptions() * $this->fixDataToUpdate) + intval($defense[$i]['Int'] ?? 0))
+                        ->setPressures(($verify->getPressures() * $this->fixDataToUpdate) + intval($defense[$i]['Press'] ?? 0))
+                        ->setPressureSucceded(($verify->getPressureSucceded() * $this->fixDataToUpdate) + intval($defense[$i]['Succ'] ?? 0))
+                        ->setPressureCompletion(($verify->getPressureCompletion() * $this->fixDataToUpdate) + intval($defense[$i]['%'] ?? 0))
+                        ->setBallBlocked((($verify->getBallBlocked() * $this->fixDataToUpdate) + floatval($defense[$i]['Blocks'] ?? 0.0)) / 2)
+                        ->setShootBlocked(($verify->getShootBlocked() * $this->fixDataToUpdate) + intval($defense[$i]['Sh'] ?? 0))
+                        ->setShootOntTargetBlocked(($verify->getShootOntTargetBlocked() * $this->fixDataToUpdate) + intval($defense[$i]['ShSv'] ?? 0))
+                        ->setPassBlocked((($verify->getPassBlocked() * $this->fixDataToUpdate) + floatval($defense[$i]['Pass'] ?? 0.0)) / 2)
+                        ->setClearances(($verify->getClearances() * $this->fixDataToUpdate) + intval($defense[$i]['Clr'] ?? 0))
+                        ->setErrors(($verify->getErrors() * $this->fixDataToUpdate) + intval($defense[$i]['Err'] ?? 0));
+                     break;
+                  }
+               }
+            }
+            /////////////////////////////////////////////////////////////////////////////////
+
+
+            $index = $fakeindex;
+            if ($index > count($miscellaneous) - 1 and count($miscellaneous) > 1) {
+               $index = 0;
+            }
+            if ($row['name'] == $miscellaneous[$index]['name'] ?? "") {
+
+               $verify->setFoulsCommited(($verify->getFoulsCommited() * $this->fixDataToUpdate) + intval($miscellaneous[$index]['Fls'] ?? 0))
+                  ->setFoulsDrawn(($verify->getFoulsDrawn() * $this->fixDataToUpdate) + intval($miscellaneous[$index]['Fld'] ?? 0))
+                  ->setOffsides(($verify->getOffsides() * $this->fixDataToUpdate) + intval($miscellaneous[$index]['Off'] ?? 0))
+                  ->setCrosses(($verify->getCrosses() * $this->fixDataToUpdate) + intval($miscellaneous[$index]['Crs'] ?? 0))
+                  // ->setTacklesWon(intval($miscellaneous[$index]['TklW'] ?? 0))
+                  // ->setInterceptions(intval($miscellaneous[$index]['Int'] ?? 0))
+                  ->setPenaltyKicksWon(($verify->getPenaltyKicksWon() * $this->fixDataToUpdate) + intval($miscellaneous[$index]['PKwon'] ?? 0))
+                  ->setPenaltyKicksConceded(($verify->getPenaltyKicksConceded() * $this->fixDataToUpdate) + intval($miscellaneous[$index]['PKcon'] ?? 0))
+                  ->setOwnGoal(($verify->getOwnGoal() * $this->fixDataToUpdate) + intval($miscellaneous[$index]['OG'] ?? 0))
+                  ->setDribbleCompleted(($verify->getDribbleCompleted() * $this->fixDataToUpdate) + intval($miscellaneous[$index]['Succ'] ?? 0))
+                  ->setDribbleAttempted(($verify->getDribbleAttempted() * $this->fixDataToUpdate) + intval($miscellaneous[$index]['Att'] ?? 0))
+                  ->setDribblePercent((($verify->getDribblePercent() * $this->fixDataToUpdate) + floatval($miscellaneous[$index]['Succ%'] ?? 0.0)) / 2)
+                  ->setNumberOfPlayerDriblled(($verify->getNumberOfPlayerDriblled() * $this->fixDataToUpdate) + intval($miscellaneous[$index]['#Pl'] ?? 0))
+                  ->setNutmegs(($verify->getNutmegs() * $this->fixDataToUpdate) + intval($miscellaneous[$index]['Megs'] ?? 0))
+                  ->setSecondYellowCard(($verify->getSecondYellowCard() * $this->fixDataToUpdate) + intval($miscellaneous[$index]['2CrdY'] ?? 0))
+                  ->setArialDuelsWon(($verify->getArialDuelsWon() * $this->fixDataToUpdate) + intval($miscellaneous[$index]['Won'] ?? 0))
+                  ->setArialDuelsLost(($verify->getArialDuelsLost() * $this->fixDataToUpdate) + intval($miscellaneous[$index]['Lost'] ?? 0))
+                  ->setArialDuelsCompletion((($verify->getArialDuelsCompletion() * $this->fixDataToUpdate) + floatval($miscellaneous[$index]['Won%'] ?? 0)) / 2);
             } else {
                for ($i = 0; $i <= count($miscellaneous) - 1; $i++) {
 
                   if ($row['name'] == $miscellaneous[$i]['name']) {
 
-                     $verify->setFoulsCommited(intval($miscellaneous[$i]['Fls']))
-                        ->setFoulsDrawn(intval($miscellaneous[$i]['Fld']))
-                        ->setOffsides(intval($miscellaneous[$i]['Off']))
-                        ->setCrosses(intval($miscellaneous[$i]['Crs'] ?? 0))
-                        ->setTacklesWon(intval($miscellaneous[$i]['TklW'] ?? 0))
-                        ->setInterceptions(intval($miscellaneous[$i]['Int'] ?? 0))
-                        ->setPenaltyKicksWon(intval($miscellaneous[$i]['PKwon'] ?? 0))
-                        ->setPenaltyKicksConceded(intval($miscellaneous[$i]['PKcon'] ?? 0))
-                        ->setOwnGoal(intval($miscellaneous[$i]['OG'] ?? 0))
-                        ->setDribbleCompleted(intval($miscellaneous[$i]['Succ'] ?? 0))
-                        ->setDribbleAttempted(intval($miscellaneous[$i]['Att'] ?? 0))
-                        ->setDribblePercent(floatval($miscellaneous[$i]['Succ%'] ?? 0.0))
-                        ->setNumberOfPlayerDriblled(intval($miscellaneous[$i]['#Pl'] ?? 0))
-                        ->setNutmegs(intval($miscellaneous[$i]['Megs'] ?? 0))
-                        ->setDribbleTackled(intval($miscellaneous[$i]['Tkl'] ?? 0))
-                        ->setDribbleTackledPercent(floatval($miscellaneous[$i]['Tkl%'] ?? 0.0))
-                        ->setTimesDribbledPast(intval($miscellaneous[$i]['Past'] ?? 0))
-                        ->setSecondYellowCard(intval($miscellaneous[$i]['2CrdY'] ?? 0));
+                     $verify->setFoulsCommited(($verify->getFoulsCommited() * $this->fixDataToUpdate) + intval($miscellaneous[$i]['Fls'] ?? 0))
+                        ->setFoulsDrawn(($verify->getFoulsDrawn() * $this->fixDataToUpdate) + intval($miscellaneous[$i]['Fld'] ?? 0))
+                        ->setOffsides(($verify->getOffsides() * $this->fixDataToUpdate) + intval($miscellaneous[$i]['Off'] ?? 0))
+                        ->setCrosses(($verify->getCrosses() * $this->fixDataToUpdate) + intval($miscellaneous[$i]['Crs'] ?? 0))
+                        // ->setTacklesWon(intval($miscellaneous[$index]['TklW'] ?? 0))
+                        // ->setInterceptions(intval($miscellaneous[$index]['Int'] ?? 0))
+                        ->setPenaltyKicksWon(($verify->getPenaltyKicksWon() * $this->fixDataToUpdate) + intval($miscellaneous[$i]['PKwon'] ?? 0))
+                        ->setPenaltyKicksConceded(($verify->getPenaltyKicksConceded() * $this->fixDataToUpdate) + intval($miscellaneous[$i]['PKcon'] ?? 0))
+                        ->setOwnGoal(($verify->getOwnGoal() * $this->fixDataToUpdate) + intval($miscellaneous[$i]['OG'] ?? 0))
+                        ->setDribbleCompleted(($verify->getDribbleCompleted() * $this->fixDataToUpdate) + intval($miscellaneous[$i]['Succ'] ?? 0))
+                        ->setDribbleAttempted(($verify->getDribbleAttempted() * $this->fixDataToUpdate) + intval($miscellaneous[$i]['Att'] ?? 0))
+                        ->setDribblePercent((($verify->getDribblePercent() * $this->fixDataToUpdate) + floatval($miscellaneous[$i]['Succ%'] ?? 0.0)) / 2)
+                        ->setNumberOfPlayerDriblled(($verify->getNumberOfPlayerDriblled() * $this->fixDataToUpdate) + intval($miscellaneous[$i]['#Pl'] ?? 0))
+                        ->setNutmegs(($verify->getNutmegs() * $this->fixDataToUpdate) + intval($miscellaneous[$i]['Megs'] ?? 0))
+                        ->setSecondYellowCard(($verify->getSecondYellowCard() * $this->fixDataToUpdate) + intval($miscellaneous[$i]['2CrdY'] ?? 0))
+                        ->setArialDuelsWon(($verify->getArialDuelsWon() * $this->fixDataToUpdate) + intval($miscellaneous[$i]['Won'] ?? 0))
+                        ->setArialDuelsLost(($verify->getArialDuelsLost() * $this->fixDataToUpdate) + intval($miscellaneous[$i]['Lost'] ?? 0))
+                        ->setArialDuelsCompletion((($verify->getArialDuelsCompletion() * $this->fixDataToUpdate) + floatval($miscellaneous[$i]['Won%'] ?? 0)) / 2);
                      break;
                   }
                }
             }
+            ///////////////////////////////////////////////////////////////////
+            $index = $fakeindex;
+            if ($index > count($possession) - 1 and count($possession) > 1) {
+               $index = 0;
+            }
+            if ($row['name'] == (!empty($possession[$index]['name']))) {
+               $verify->setBallControlls(($verify->getBallControlls() * $this->fixDataToUpdate) + intval($possession[$index]['Carries'] ?? 0))
+                  ->setBallControllsMoveDistance(($verify->getBallControllsMoveDistance() * $this->fixDataToUpdate) + intval($possession[$index]['TotDist'] ?? 0))
+                  ->setBallControllsMoveDistanceProgressive(($verify->getBallControllsMoveDistanceProgressive() * $this->fixDataToUpdate) + intval($possession[$index]['PrgDist'] ?? 0))
+                  ->setReceivingBallAttempted(($verify->getReceivingBallAttempted() * $this->fixDataToUpdate) + intval($possession[$index]['Targ'] ?? 0))
+                  ->setReceivingBallCompleted(($verify->getReceivingBallCompleted() * $this->fixDataToUpdate) + intval($possession[$index]['Rec'] ?? 0))
+                  ->setReceivingBallCompletion((($verify->getReceivingBallCompletion() * $this->fixDataToUpdate) + floatval($possession[$index]['Rec%'] ?? 0.0)) / 2)
+                  ->setMisControlls(($verify->getMisControlls() * $this->fixDataToUpdate) + intval($possession[$index]['Miscon'] ?? 0))
+                  ->setDispossessed(($verify->getDispossessed() * $this->fixDataToUpdate) + intval($possession[$index]['Dispos'] ?? 0));
+            } else {
+               for ($i = 0; $i <= count($defense) - 1; $i++) {
+
+                  if ($row['name'] == (!empty($defense[$i]['name'] ?? ""))) {
+                     $verify->setBallControlls(($verify->getBallControlls() * $this->fixDataToUpdate) + intval($possession[$i]['Carries'] ?? 0))
+                        ->setBallControllsMoveDistance(($verify->getBallControllsMoveDistance() * $this->fixDataToUpdate) + intval($possession[$i]['TotDist'] ?? 0))
+                        ->setBallControllsMoveDistanceProgressive(($verify->getBallControllsMoveDistanceProgressive() * $this->fixDataToUpdate) + intval($possession[$i]['PrgDist'] ?? 0))
+                        ->setReceivingBallAttempted(($verify->getReceivingBallAttempted() * $this->fixDataToUpdate) + intval($possession[$i]['Targ'] ?? 0))
+                        ->setReceivingBallCompleted(($verify->getReceivingBallCompleted() * $this->fixDataToUpdate) + intval($possession[$i]['Rec'] ?? 0))
+                        ->setReceivingBallCompletion((($verify->getReceivingBallCompletion() * $this->fixDataToUpdate) + floatval($possession[$i]['Rec%'] ?? 0.0)) / 2)
+                        ->setMisControlls(($verify->getMisControlls() * $this->fixDataToUpdate) + intval($possession[$i]['Miscon'] ?? 0))
+                        ->setDispossessed(($verify->getDispossessed() * $this->fixDataToUpdate) + intval($possession[$i]['Dispos'] ?? 0));
+                     break;
+                  }
+               }
+            }
+            /////////////////////////////////////////////////////////////////////////////////
+
+
             $this->em->persist($verify);
          }
 
@@ -948,13 +1373,13 @@ class importCommand extends Command
 
       $io->title('import on loading...');
 
-      $this->import('Spain');
+    //  $this->import('Spain');
       $this->import('England');
-      $this->import('Italy');
-      $this->import('France');
-      $this->import('Germany');
+      // $this->import('Italy');
+      // $this->import('France');
+      // $this->import('Germany');
       $this->import('CL');
-      $this->import('EL');
+      // $this->import('EL');
 
       $io->success('import succesfully');
    }

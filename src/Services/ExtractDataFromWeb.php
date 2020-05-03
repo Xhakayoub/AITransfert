@@ -17,7 +17,8 @@ class ExtractDataFromWeb
         $fp = fopen("C:/wamp64/www/AiTransfert/public/csv/" . $dir . "/standars_data.csv", "r+");
         $line = fgets($fp);
         fwrite($fp, $response->getContent());
-        fclose($fp);
+        0 +
+            fclose($fp);
     }
 
     public function updateData()
@@ -26,24 +27,24 @@ class ExtractDataFromWeb
 
         $files = array(
             'standars_data.csv', 'passing_data.csv', 'shooting_data.csv', 'timming_data.csv',
-            'gk_data.csv', 'ad_gk_data.csv', 'miscellaneous_data.csv'
+            'gk_data.csv', 'ad_gk_data.csv', 'miscellaneous_data.csv', 'pass_type_data.csv'
         );
 
-          $client = HttpClient::create();
-          $response = $client->request('GET', 'http://127.0.0.1:5000/all', ['timeout' => 2000.5]);
-          $data = $response->getContent();
-         
+        $client = HttpClient::create();
+        $response = $client->request('GET', 'http://127.0.0.1:5000/all', ['timeout' => 2000.5]);
+        $data = $response->getContent();
+
         //  $data = array(
         //      "Ligue-1-Stats" => array("shooting" => 'yy', "passing" => 'uu'),
         //      "Champions-League-Stats" => array("timming" => 'yy', "standars" =>  'kk')
         //  );
 
         $current_charset = 'ISO-8859-15';
-        $data = iconv('UTF-8//TRANSLIT',$current_charset,$data);
+        $data = iconv('UTF-8//TRANSLIT', $current_charset, $data);
         $data = json_decode($data, JSON_UNESCAPED_UNICODE);
 
         foreach ($data as $index => $item) {
-          echo $index ."\n";
+            echo $index . "\n";
             switch ($index) {
                 case "Ligue-1-Stats":
                     $dir = "France";
@@ -96,6 +97,17 @@ class ExtractDataFromWeb
                     case "misc":
                         $type = "miscellaneous";
                         echo $type;
+                    case "passsing_types":
+                        $type = "pass_type";
+                        echo $type;
+                        break;
+                    case "defense":
+                        $type = "defense";
+                        echo $type;
+                        case "possession":
+                            $type = "possession";
+                            echo $type;
+                        break;
                     case "squad standard":
                         $type = "standard_team";
                         echo $type;
@@ -124,24 +136,35 @@ class ExtractDataFromWeb
                         $type = "miscellaneous_team";
                         echo $type;
                         break;
+                    case "squad passsing_types":
+                        $type = "pass_type_team";
+                        echo $type;
+                        break;
+                    case "squad defense":
+                        $type = "defense_team";
+                        echo $type;
+                        break;
+                        case "squad possession":
+                            $type = "possession_team";
+                            echo $type;
+                            break;
                 }
 
-               // echo $element . "\n";
-                $fp = fopen("C:/wamp64/www/AiTransfert/public/csv/" . $dir . "/" . $type . "_data.csv", "r+");
+                // echo $element . "\n";
+                $fp = fopen("C:/wamp64/www/AiTransfert/public/" . $dir . "/" . $type . "_data.csv", "r+");
                 //$fp = fopen("C:/wamp64/www/AiTransfert/public/England/shooting_data.csv", "r+");
                 $line = fgets($fp);
                 ftruncate($fp, 0);
                 fclose($fp);
 
-                $fp = fopen("C:/wamp64/www/AiTransfert/public/csv/" . $dir . "/" . $type . "_data.csv", "r+");
-               // $csv = $line . "\n" . $element;
+                $fp = fopen("C:/wamp64/www/AiTransfert/public/" . $dir . "/" . $type . "_data.csv", "r+");
+                // $csv = $line . "\n" . $element;
                 //echo $csv;
                 $csv = utf8_encode($element);
                 fwrite($fp, $line);
                 fwrite($fp, $csv);
-              //  fwrite($fp, $element . $fakeindex);
+                //  fwrite($fp, $element . $fakeindex);
                 fclose($fp);
-              
             }
         }
         //return $data;

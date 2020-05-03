@@ -54,6 +54,26 @@ class Level1
         return $res;
     }
 
+     /**
+     * return the rate of the shoot on target
+     */
+    public function getShootOnTargetRating(Player $player): int
+    {
+        if ($player) {
+            $value = $player->getShootsOnTargetPerMatch();
+            if ($value >= 3.8) $res = 10;
+            if ($value >= 2.5 and $value < 3.8)  $res = 9;
+            if (2 <= $value and $value < 2.5)  $res = 8;
+            if (1.7 <= $value and $value < 2)  $res = 7;
+            if (1.5 <= $value and $value < 1.7) $res = 6;
+            if (1 <= $value and $value < 1.5) $res = 5;
+            if (0 < $value and $value < 1) $res = 4;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+
     /**
      * return the rate of the age
      */
@@ -73,25 +93,7 @@ class Level1
         return $res;
     }
 
-    /**
-     * return the rate of the shoot on target
-     */
-    public function getShootOnTargetRating(Player $player): int
-    {
-        if ($player) {
-            $value = $player->getShootsOnTargetPerMatch();
-            if ($value >= 3.8) $res = 10;
-            if ($value >= 2.5 and $value < 3.8)  $res = 9;
-            if (2 <= $value and $value < 2.5)  $res = 8;
-            if (1.7 <= $value and $value < 2)  $res = 7;
-            if (1.5 <= $value and $value < 1.7) $res = 6;
-            if (1 <= $value and $value < 1.5) $res = 5;
-            if (0 < $value and $value < 1) $res = 5;
-            else $res = 0;
-        }
-        return $res;
-    }
-
+   
     /**
      * return the rate of the goal per shoot
      */
@@ -566,6 +568,64 @@ class Level1
         return $res;
     }
 
+    public function getShortPassAttemptedRating(Player $player): int
+    {
+        if ($player) {
+            $shortPassesCompleted = $player->getShortpassesAttempted();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($shortPassesCompleted / $minutes) * 90;
+            if ($value >= 5) $res = 10;
+            if ($value < 5 and $value >= 3)  $res = 9;
+            if ($value < 3 and $value >= 2.5)  $res = 8;
+            if ($value < 2.5 and $value >= 2)  $res = 7;
+            if ($value < 2 and $value >= 1.5)  $res = 6;
+            if ($value < 1.5 and $value >= 1)  $res = 5;
+            if ($value < 1 and $value >= 0.5)  $res = 4;
+            if ($value < 0.5 and $value > 0)  $res = 3;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+    public function getMediumPassAttemptedRating(Player $player): int
+    {
+        if ($player) {
+            $shortPassesCompleted = $player->getMediumpassesAttempted();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($shortPassesCompleted / $minutes) * 90;
+            if ($value >= 100) $res = 10;
+            if ($value < 100 and $value >= 80)  $res = 9;
+            if ($value < 80 and $value >= 70)  $res = 8;
+            if ($value < 70 and $value >= 60)  $res = 7;
+            if ($value < 60 and $value >= 50)  $res = 6;
+            if ($value < 50 and $value >= 40)  $res = 5;
+            if ($value < 40 and $value >= 30)  $res = 4;
+            if ($value < 30 and $value > 20)  $res = 3;
+            if ($value < 20 and $value > 10)  $res = 2;
+            if ($value < 10 and $value > 0)  $res = 1;
+            else $res = 0;
+        }
+        return $res;
+    }
+
+    public function getLongPassAttemptedRating(Player $player): int
+    {
+        if ($player) {
+            $shortPassesCompleted = $player->getLongPassesAttempted();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($shortPassesCompleted / $minutes) * 90;
+            if ($value >= 40) $res = 10;
+            if ($value < 40 and $value >= 30)  $res = 9;
+            if ($value < 30 and $value >= 25)  $res = 8;
+            if ($value < 25 and $value >= 20)  $res = 7;
+            if ($value < 20 and $value >= 15)  $res = 6;
+            if ($value < 15 and $value >= 10)  $res = 5;
+            if ($value < 10 and $value >= 5)  $res = 4;
+            if ($value < 5 and $value > 0)  $res = 3;
+            else $res = 0;
+        }
+        return $res;
+    }
 
     /**
      * return the rate of the yellow cards
@@ -826,6 +886,30 @@ class Level1
         return $res;
     }
 
+    /**
+     * return the rate of the yellow cards
+     */
+    public function getOwnGoalsRating(Player $player): int
+    {
+        if ($player) {
+            $ownGoals = $player->getOwnGoal();
+            $minutes = $player->getMinutesPlayed();
+            $value = ($ownGoals / $minutes) *90;
+            if ($value >= 0.09) $res = 0;
+            if ($value < 0.09 and $value >= 0.08)  $res = 1;
+            if ($value < 0.08 and $value >= 0.07)  $res = 2;
+            if ($value < 0.07 and $value >= 0.06)  $res = 3;
+            if ($value < 0.06 and $value >= 0.05)  $res = 4;
+            if ($value < 0.05 and $value >= 0.04)  $res = 5;
+            if ($value < 0.04 and $value >= 0.03)  $res = 6;
+            if ($value < 0.03  and $value > 0.02)  $res = 7;
+            if ($value < 0.02 and $value > 0.01)  $res = 8;
+            if ($value < 0.01 and $value > 0)  $res = 9;
+            else $res = 10;
+        }
+        return $res;
+    }
+
 
     public function getGoalsAllowedWhileOnPitchRating(Player $player): int
     {
@@ -868,4 +952,167 @@ class Level1
     
 
 
+<<<<<<< HEAD
+=======
+
+    /**
+     * passe quality 
+     */
+    public function getPassQuality(Player $player): array {
+
+        $keyPasses = $this->getKeyPassRating($player); //$player->getKeyPasses();
+        $assistsPerMinute = $this->getAssistRating($player); //$player->getAssistsPerMin();
+        $passesCompletion = $this->getPassCompletedPercentRating($player); //$player->getPassesCompleted();
+        $passesCompleted = $this->getPassCompletedRating($player);
+        $passesAttempted = $this->getPassAttemptedRating($player); //$player->getPassesAttempted();
+        $TB = $this->getThroughBallRating($player);
+        $passIntoPenArea = $this->getPassIntoPenaltyAreaRating($player);
+        $passIntoFinalThird = $this->getPassIntoFinalThirdRating($player);
+        $minutesPlayed = $player->getMinsPlayed();
+
+        if ($minutesPlayed >= 160) {
+
+            // $passAttPerMin = $passesAttempted / $minutesPlayed;
+            // $passCompPerMin = $passesCompleted / $minutesPlayed;
+            // $keyPassesPerMin = $keyPasses / $minutesPlayed;
+
+
+            $rate = $passesAttempted * 0.05 + 
+                    (($passesCompletion  +  $passesCompleted) / 2) * 0.4 + 
+                    $keyPasses * 0.11 +  $assistsPerMinute * 0.11 + $TB * 0.11 + $passIntoFinalThird * 0.11 + 
+                    $passIntoPenArea * 0.11;
+
+            $message = "" ;
+
+            $result = array("rate" => $rate, "message" => $message);
+
+            return $result;
+        }
+    }
+
+
+    public function getNegativeAggressiveness(Player $player): array {
+     
+    
+     $fouls = $this->getFoulsPerMinuteRating($player);
+     $yellowCards = $this->getYellowCardPer90MinutesRating($player);
+     $redCards = $this->getRedCardPer90MinutesRating($player);
+     $secondYellowCard = $this->getSecondYellowCardPer90MinutesRating($player);
+     $tackles = $this->getTacklesVsDribblesAttemptedPer90MinutesRating($player);
+
+     $rate = $fouls * 0.25 +
+             $yellowCards * 0.15 +
+             $redCards * 0.3 +
+             $secondYellowCard * 0.2 + 
+             $tackles * 0.1 ;
+
+     $message = "";
+
+     $result = array("rate" => $rate, "message" => $message);  
+
+     return $result;
+    }
+
+
+    public function getPositiveAggressiveness(Player $player): array {
+     
+    
+        $tacklesWon = $this->getTacklesWonPerMinuteRating($player);
+        $tackles = $this->getTacklesVsDribblesAttemptedPer90MinutesRating($player);
+        $tackleCompletion = $this->getTacklesPercentRating($player);
+        $secondYellowCard = $this->getSecondYellowCardPer90MinutesRating($player);
+        $redCards = $this->getRedCardPer90MinutesRating($player);
+        
+   
+        $rate = ($tacklesWon * 0.4 + $tackleCompletion * 0.6) * 0.35 +
+                $redCards * 0.25 +
+                $secondYellowCard * 0.2 +
+                $tackles * 0.2 ;
+   
+        $message = "";
+   
+        $result = array("rate" => $rate, "message" => $message);  
+        
+        return $result;
+       }
+    /**
+     * passe quality to redo
+     */
+    public function getShortPassQuality(Player $player): float
+    {
+
+        $minutesPlayed = $player->getMinsPlayed();
+        $shortPassesCompleted = $player->getShortPassesCompleted();
+        $shortPassesAttempted = $player->getShortpassesAttempted();
+        $shortPassesCompletedPercent = $player->getShortPassesCompPercent();
+        $shortPassesAttemptedPerMinute = $shortPassesAttempted / $minutesPlayed;
+        $shortPassesCompletedPerMinute = $shortPassesCompleted / $minutesPlayed;
+
+
+        if ($minutesPlayed >= 160) {
+
+            $result = $shortPassesAttemptedPerMinute * 0.08 + $shortPassesCompletedPercent * 0.32
+                + $shortPassesCompletedPerMinute * 0.2 +  $shortPassesCompletedPerMinute * 0.3
+                + ($minutesPlayed / 1000);
+
+            return $result;
+        }
+    }
+
+    /**
+     * passe quality to redo
+     */
+    public function getLongPassQuality(Player $player): float
+    {
+
+        $keyPasses = $player->getKeyPasses();
+        $assistsPerMinute = $player->getAssistsPerMin();
+        $passesCompleted = $player->getPassesCompleted();
+        $passesAttempted = $player->getPassesAttempted();
+        $minutesPlayed = $player->getMinsPlayed();
+
+        if ($minutesPlayed >= 160) {
+
+            $passAttPerMin = $passesAttempted / $minutesPlayed;
+            $passCompPerMin = $passesCompleted / $minutesPlayed;
+            $keyPassesPerMin = $keyPasses / $minutesPlayed;
+
+
+            $result = $passAttPerMin * 0.08 + $passCompPerMin * 0.32
+                + $keyPassesPerMin * 0.2 +  $assistsPerMinute * 0.3
+                + ($minutesPlayed / 1000);
+
+            return $result;
+        }
+    }
+
+    /**
+     * passe quality to redo
+     */
+    public function getMediumPassQuality(Player $player): float
+    {
+
+        $keyPasses = $player->getKeyPasses();
+        //$assists = $player->getAssits();
+        $assistsPerMinute = $player->getAssistsPerMin();
+        $passesCompleted = $player->getPassesCompleted();
+        $passesAttempted = $player->getPassesAttempted();
+        $minutesPlayed = $player->getMinsPlayed();
+
+        if ($minutesPlayed >= 160) {
+
+            $passAttPerMin = $passesAttempted / $minutesPlayed;
+            $passCompPerMin = $passesCompleted / $minutesPlayed;
+            $keyPassesPerMin = $keyPasses / $minutesPlayed;
+
+
+            $result = $passAttPerMin * 0.08 + $passCompPerMin * 0.32
+                + $keyPassesPerMin * 0.2 +  $assistsPerMinute * 0.3
+                + ($minutesPlayed / 1000);
+
+            return $result;
+        }
+    }
+
+>>>>>>> d54ed91ff78de56b059693de83d69bc9c2e37137
 }

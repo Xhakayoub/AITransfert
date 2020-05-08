@@ -1373,13 +1373,13 @@ class importCommand extends Command
 
       $io->title('import on loading...');
 
-    //  $this->import('Spain');
-      $this->import('England');
+      $this->import('Spain');
+      // $this->import('England');
       // $this->import('Italy');
       // $this->import('France');
       // $this->import('Germany');
-      $this->import('CL');
-      // $this->import('EL');
+      // $this->import('CL');
+       $this->import('EL');
 
       $io->success('import succesfully');
    }

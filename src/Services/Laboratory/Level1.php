@@ -18,7 +18,7 @@ class Level1
     /**
      * return the rate of the assist to redo
      */
-    public function getAssistNote(Player $player): int
+    public static function getAssistNote(Player $player): int
     {
         if ($player) {
             $value = $player->getAssistsPerMin();
@@ -38,7 +38,7 @@ class Level1
     /**
      * return the rate of the shoot
      */
-    public function getShootRating(Player $player): int
+    public static function getShootRating(Player $player): int
     {
         if ($player) {
             $value = $player->getShootsPerMatch();
@@ -57,7 +57,7 @@ class Level1
      /**
      * return the rate of the shoot on target
      */
-    public function getShootOnTargetRating(Player $player): int
+    public static function getShootOnTargetRating(Player $player): int
     {
         if ($player) {
             $value = $player->getShootsOnTargetPerMatch();
@@ -77,7 +77,7 @@ class Level1
     /**
      * return the rate of the age
      */
-    public function getAgeRating(Player $player): int
+    public static function getAgeRating(Player $player): int
     {
         if ($player) {
             $value = $player->getAge();
@@ -97,7 +97,7 @@ class Level1
     /**
      * return the rate of the goal per shoot
      */
-    public function getGoalPerShootRating(Player $player): int
+    public static function getGoalPerShootRating(Player $player): int
     {
         if ($player) {
             $value = $player->getGoalsPerShoot();
@@ -115,7 +115,7 @@ class Level1
     /**
      * return the rate of the role in the squad
      */
-    public function getRoleInSquadRating(Player $player, Team $team): int
+    public static function getRoleInSquadRating(Player $player, Team $team): int
     {
 
         $played = $player->getMatchsPlayed();
@@ -132,7 +132,7 @@ class Level1
     /**
      * return the rate of the role in the squad
      */
-    public function getGoalPerTenMinuteRating(Player $player): int
+    public static function getGoalPerTenMinuteRating(Player $player): int
     {
 
         if ($player) {
@@ -155,7 +155,7 @@ class Level1
     /**
      * return the rate of the role in the squad
      */
-    public function getCrossesPerMinuteRating(Player $player): int
+    public static function getCrossesPerMinuteRating(Player $player): int
     {
 
         if ($player) {
@@ -178,7 +178,7 @@ class Level1
     /**
      * return the rate of the shoot
      */
-    public function getFoulsPerMinuteRating(Player $player): int
+    public static function getFoulsPerMinuteRating(Player $player): int
     {
         if ($player) {
             $fouls = $player->getFoulsCommited();
@@ -200,7 +200,7 @@ class Level1
     /**
      * return the rate of the shoot
      */
-    public function getTacklesWonPerMinuteRating(Player $player): int
+    public static function getTacklesWonPerMinuteRating(Player $player): int
     {
         if ($player) {
             $tackles = $player->getTacklesWon();
@@ -223,7 +223,7 @@ class Level1
     /**
      * return the rate of the shoot
      */
-    public function getInterceptionsPerMinuteRating(Player $player): int
+    public static function getInterceptionsPerMinuteRating(Player $player): int
     {
         if ($player) {
             $interceptions = $player->getInterceptions();
@@ -246,7 +246,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getYellowCardPer90MinutesRating(Player $player): int
+    public static function getYellowCardPer90MinutesRating(Player $player): int
     {
         if ($player) {
             $yellowCards = $player->getYellowCard();
@@ -268,7 +268,7 @@ class Level1
      /**
      * return the rate of the yellow cards
      */
-    public function getSecondYellowCardPer90MinutesRating(Player $player): int
+    public static function getSecondYellowCardPer90MinutesRating(Player $player): int
     {
         if ($player) {
             $secondYellowCards = $player->getSecondYellowCard();
@@ -290,7 +290,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getRedCardPer90MinutesRating(Player $player): int
+    public static function getRedCardPer90MinutesRating(Player $player): int
     {
         if ($player) {
             $redCards = $player->getRedCard();
@@ -313,7 +313,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getTacklesVsDribblesAttemptedPer90MinutesRating(Player $player): int
+    public static function getTacklesVsDribblesAttemptedPer90MinutesRating(Player $player): int
     {
         if ($player) {
             $dribblesTackled = $player->getDribbleTackled();
@@ -336,7 +336,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getTacklesPercentRating(Player $player): int
+    public static function getTacklesPercentRating(Player $player): int
     {
         if ($player) {
             $dribblesTackled = $player->getDribbleTackledPercent();
@@ -358,7 +358,7 @@ class Level1
     /**
      * to review ::::::::::
      */
-    public function getDribblePastRating(Player $player): int
+    public static function getDribblePastRating(Player $player): int
     {
         if ($player) {
             $redCards = $player->getTimesDribbledPast();
@@ -381,7 +381,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getDribbleCompletedPer90MintuesRating(Player $player): int
+    public static function getDribbleCompletedPer90MintuesRating(Player $player): int
     {
         if ($player) {
             $dribbles = $player->getDribbleCompleted();
@@ -404,7 +404,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getDribbleCompletedPerCentRating(Player $player): float
+    public static function getDribbleCompletedPerCentRating(Player $player): float
     {
         if ($player) {
             $dribbles = $player->getDribblePercent();
@@ -417,7 +417,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getOffsideRating(Player $player): int
+    public static function getOffsideRating(Player $player): int
     {
         if ($player) {
             $offsides = $player->getOffsides();
@@ -440,7 +440,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getAssistRating(Player $player): int
+    public static function getAssistRating(Player $player): int
     {
         if ($player) {
             $assists = $player->getAssits();
@@ -462,7 +462,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getKeyPassRating(Player $player): int
+    public static function getKeyPassRating(Player $player): int
     {
         if ($player) {
             $keyPasses = $player->getKeyPasses();
@@ -485,7 +485,7 @@ class Level1
     /**
      * return the rate of the passe completed
      */
-    public function getPassCompletedPercentRating(Player $player): int
+    public static function getPassCompletedPercentRating(Player $player): int
     {
         if ($player) {
             $value = $player->getPassCompPercent() / 100;
@@ -504,7 +504,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getPassCompletedRating(Player $player): int
+    public static function getPassCompletedRating(Player $player): int
     {
         if ($player) {
             $passesCompleted = $player->getPassesCompleted();
@@ -526,7 +526,7 @@ class Level1
      /**
      * return the rate of the yellow cards
      */
-    public function getPassAttemptedRating(Player $player): int
+    public static function getPassAttemptedRating(Player $player): int
     {
         if ($player) {
             $passesAttempted = $player->getPassesAttempted();
@@ -549,7 +549,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getShortPassCompletedRating(Player $player): int
+    public static function getShortPassCompletedRating(Player $player): int
     {
         if ($player) {
             $shortPassesCompleted = $player->getShortPassesCompleted();
@@ -568,7 +568,7 @@ class Level1
         return $res;
     }
 
-    public function getShortPassAttemptedRating(Player $player): int
+    public static function getShortPassAttemptedRating(Player $player): int
     {
         if ($player) {
             $shortPassesCompleted = $player->getShortpassesAttempted();
@@ -587,7 +587,7 @@ class Level1
         return $res;
     }
 
-    public function getMediumPassAttemptedRating(Player $player): int
+    public static function getMediumPassAttemptedRating(Player $player): int
     {
         if ($player) {
             $shortPassesCompleted = $player->getMediumpassesAttempted();
@@ -608,7 +608,7 @@ class Level1
         return $res;
     }
 
-    public function getLongPassAttemptedRating(Player $player): int
+    public static function getLongPassAttemptedRating(Player $player): int
     {
         if ($player) {
             $shortPassesCompleted = $player->getLongPassesAttempted();
@@ -630,7 +630,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getShortPassCompletionPerCentRating(Player $player): float
+    public static function getShortPassCompletionPerCentRating(Player $player): float
     {
         if ($player) {
             $dribbles = $player->getShortPassesCompPercent();
@@ -642,7 +642,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getLongPassCompletedRating(Player $player): int
+    public static function getLongPassCompletedRating(Player $player): int
     {
         if ($player) {
             $longPassesCompleted = $player->getLongPassesCompPercent();
@@ -664,7 +664,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getLongPassCompletionPerCentRating(Player $player): float
+    public static function getLongPassCompletionPerCentRating(Player $player): float
     {
         if ($player) {
             $dribbles = $player->getLongPassesCompPercent();
@@ -677,7 +677,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getMediumPassCompletedRating(Player $player): int
+    public static function getMediumPassCompletedRating(Player $player): int
     {
         if ($player) {
             $mediumPassesCompleted = $player->getLongPassesCompPercent();
@@ -700,7 +700,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getMediumPassCompletionPerCentRating(Player $player): float
+    public static function getMediumPassCompletionPerCentRating(Player $player): float
     {
         if ($player) {
             $dribbles = $player->getLongPassesCompPercent();
@@ -713,7 +713,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getThroughBallRating(Player $player): int
+    public static function getThroughBallRating(Player $player): int
     {
         if ($player) {
             $mediumPassesCompleted = $player->getThroughBalls();
@@ -737,7 +737,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getPassIntoFinalThirdRating(Player $player): int
+    public static function getPassIntoFinalThirdRating(Player $player): int
     {
         if ($player) {
             $mediumPassesCompleted = $player->getPassCompletedFinalThird();
@@ -762,7 +762,7 @@ class Level1
      /**
      * return the rate of the yellow cards
      */
-    public function getPassIntoPenaltyAreaRating(Player $player): int
+    public static function getPassIntoPenaltyAreaRating(Player $player): int
     {
         if ($player) {
             $mediumPassesCompleted = $player->getPassCompletedPenaltyArea();
@@ -787,7 +787,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getCrossIntoPenaltyAreaRating(Player $player): int
+    public static function getCrossIntoPenaltyAreaRating(Player $player): int
     {
         if ($player) {
             $mediumPassesCompleted = $player->getCrossIntoPenaltyArea();
@@ -812,7 +812,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getPenaltyKickWonRating(Player $player): int
+    public static function getPenaltyKickWonRating(Player $player): int
     {
         if ($player) {
             $mediumPassesCompleted = $player->getPenaltyKicksWon();
@@ -840,7 +840,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getPenaltyKickConcededRating(Player $player): int
+    public static function getPenaltyKickConcededRating(Player $player): int
     {
         if ($player) {
             $mediumPassesCompleted = $player->getPenaltyKicksConceded();
@@ -865,7 +865,7 @@ class Level1
   /**
      * return the rate of the yellow cards
      */
-    public function getGoalsScoredWhileOnPitchRating(Player $player): int
+    public static function getGoalsScoredWhileOnPitchRating(Player $player): int
     {
         if ($player) {
             $mediumPassesCompleted = $player->getGoalsScoredWhileOnPitch();
@@ -889,7 +889,7 @@ class Level1
     /**
      * return the rate of the yellow cards
      */
-    public function getOwnGoalsRating(Player $player): int
+    public static function getOwnGoalsRating(Player $player): int
     {
         if ($player) {
             $ownGoals = $player->getOwnGoal();
@@ -911,7 +911,7 @@ class Level1
     }
 
 
-    public function getGoalsAllowedWhileOnPitchRating(Player $player): int
+    public static function getGoalsAllowedWhileOnPitchRating(Player $player): int
     {
         if ($player) {
             $mediumPassesCompleted = $player->getGoalsAllowedWhileOnPitch();
@@ -956,16 +956,16 @@ class Level1
     /**
      * passe quality 
      */
-    public function getPassQuality(Player $player): array {
+    public static function getPassQuality(Player $player): array {
 
-        $keyPasses = $this->getKeyPassRating($player); //$player->getKeyPasses();
-        $assistsPerMinute = $this->getAssistRating($player); //$player->getAssistsPerMin();
-        $passesCompletion = $this->getPassCompletedPercentRating($player); //$player->getPassesCompleted();
-        $passesCompleted = $this->getPassCompletedRating($player);
-        $passesAttempted = $this->getPassAttemptedRating($player); //$player->getPassesAttempted();
-        $TB = $this->getThroughBallRating($player);
-        $passIntoPenArea = $this->getPassIntoPenaltyAreaRating($player);
-        $passIntoFinalThird = $this->getPassIntoFinalThirdRating($player);
+        $keyPasses = SELF::getKeyPassRating($player); //$player->getKeyPasses();
+        $assistsPerMinute = SELF::getAssistRating($player); //$player->getAssistsPerMin();
+        $passesCompletion = SELF::getPassCompletedPercentRating($player); //$player->getPassesCompleted();
+        $passesCompleted = SELF::getPassCompletedRating($player);
+        $passesAttempted = SELF::getPassAttemptedRating($player); //$player->getPassesAttempted();
+        $TB = SELF::getThroughBallRating($player);
+        $passIntoPenArea = SELF::getPassIntoPenaltyAreaRating($player);
+        $passIntoFinalThird = SELF::getPassIntoFinalThirdRating($player);
         $minutesPlayed = $player->getMinsPlayed();
 
         if ($minutesPlayed >= 160) {
@@ -989,14 +989,14 @@ class Level1
     }
 
 
-    public function getNegativeAggressiveness(Player $player): array {
+    public static function getNegativeAggressiveness(Player $player): array {
      
     
-     $fouls = $this->getFoulsPerMinuteRating($player);
-     $yellowCards = $this->getYellowCardPer90MinutesRating($player);
-     $redCards = $this->getRedCardPer90MinutesRating($player);
-     $secondYellowCard = $this->getSecondYellowCardPer90MinutesRating($player);
-     $tackles = $this->getTacklesVsDribblesAttemptedPer90MinutesRating($player);
+     $fouls = SELF::getFoulsPerMinuteRating($player);
+     $yellowCards = SELF::getYellowCardPer90MinutesRating($player);
+     $redCards = SELF::getRedCardPer90MinutesRating($player);
+     $secondYellowCard = SELF::getSecondYellowCardPer90MinutesRating($player);
+     $tackles = SELF::getTacklesVsDribblesAttemptedPer90MinutesRating($player);
 
      $rate = $fouls * 0.25 +
              $yellowCards * 0.15 +
@@ -1012,14 +1012,14 @@ class Level1
     }
 
 
-    public function getPositiveAggressiveness(Player $player): array {
+    public static function getPositiveAggressiveness(Player $player): array {
      
     
-        $tacklesWon = $this->getTacklesWonPerMinuteRating($player);
-        $tackles = $this->getTacklesVsDribblesAttemptedPer90MinutesRating($player);
-        $tackleCompletion = $this->getTacklesPercentRating($player);
-        $secondYellowCard = $this->getSecondYellowCardPer90MinutesRating($player);
-        $redCards = $this->getRedCardPer90MinutesRating($player);
+        $tacklesWon = SELF::getTacklesWonPerMinuteRating($player);
+        $tackles = SELF::getTacklesVsDribblesAttemptedPer90MinutesRating($player);
+        $tackleCompletion = SELF::getTacklesPercentRating($player);
+        $secondYellowCard = SELF::getSecondYellowCardPer90MinutesRating($player);
+        $redCards = SELF::getRedCardPer90MinutesRating($player);
         
    
         $rate = ($tacklesWon * 0.4 + $tackleCompletion * 0.6) * 0.35 +
@@ -1036,7 +1036,7 @@ class Level1
     /**
      * passe quality to redo
      */
-    public function getShortPassQuality(Player $player): float
+    public static function getShortPassQuality(Player $player): float
     {
 
         $minutesPlayed = $player->getMinsPlayed();
@@ -1060,7 +1060,7 @@ class Level1
     /**
      * passe quality to redo
      */
-    public function getLongPassQuality(Player $player): float
+    public static function getLongPassQuality(Player $player): float
     {
 
         $keyPasses = $player->getKeyPasses();
@@ -1087,7 +1087,7 @@ class Level1
     /**
      * passe quality to redo
      */
-    public function getMediumPassQuality(Player $player): float
+    public static function getMediumPassQuality(Player $player): float
     {
 
         $keyPasses = $player->getKeyPasses();

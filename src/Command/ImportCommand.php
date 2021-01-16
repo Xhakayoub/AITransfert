@@ -23,7 +23,7 @@ class importCommand extends Command
 
    protected function configure()
    {
-      $this->setName('csv:import')
+      $this->setName('data:update')
          ->setDescription('importation data');
    }
 

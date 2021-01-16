@@ -19,7 +19,7 @@ class scrapingCommand extends Command
 
     protected function configure()
     {
-        $this->setName('data:update')
+        $this->setName('csv:import')
             ->setDescription('update data');
     }
 

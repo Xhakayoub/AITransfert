@@ -149,15 +149,14 @@ class ExtractDataFromWeb
                             echo $type;
                             break;
                 }
-
                 // echo $element . "\n";
-                $fp = fopen("C:/wamp64/www/AiTransfert/public/" . $dir . "/" . $type . "_data.csv", "r+");
+                $fp = fopen("C:/wamp64/www/AiTransfert/public/csv/" . $dir . "/" . $type . "_data.csv", "r+");
                 //$fp = fopen("C:/wamp64/www/AiTransfert/public/England/shooting_data.csv", "r+");
                 $line = fgets($fp);
                 ftruncate($fp, 0);
                 fclose($fp);
 
-                $fp = fopen("C:/wamp64/www/AiTransfert/public/" . $dir . "/" . $type . "_data.csv", "r+");
+                $fp = fopen("C:/wamp64/www/AiTransfert/public/csv/" . $dir . "/" . $type . "_data.csv", "r+");
                 // $csv = $line . "\n" . $element;
                 //echo $csv;
                 $csv = utf8_encode($element);

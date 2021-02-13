@@ -74,7 +74,7 @@ class Player
     /**
      * @ORM\Column(type="integer")
      */
-    private $assits;
+    private $assists;
 
     /**
      * @ORM\Column(type="integer", nullable=true)
@@ -718,14 +718,14 @@ class Player
         return $this;
     }
 
-    public function getAssits(): ?int
+    public function getassists(): ?int
     {
-        return $this->assits;
+        return $this->assists;
     }
 
-    public function setAssits(int $assits): self
+    public function setassists(int $assists): self
     {
-        $this->assits = $assits;
+        $this->assists = $assists;
 
         return $this;
     }

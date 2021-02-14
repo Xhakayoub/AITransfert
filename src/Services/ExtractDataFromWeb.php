@@ -8,16 +8,29 @@ use League\Csv\Writer;
 
 class ExtractDataFromWeb
 {
+ public function removeFromCsv($file, $from, $to, $path)
+    {
+        $data =  file_get_contents($file);
+        $skuList = explode(PHP_EOL, $data);
+        $newData = array_splice($skuList, $from, $to);
+        $fp = fopen($path, 'w');
 
+        foreach ($newData as $fields) {
+            $item = explode(';', $fields);
+            fputcsv($fp, $item);
+            $fp = str_replace(",",";",$fp);
+        }
+        return $fp;
+    }
     public function updateLeagueData(int $league, String $type, String $dir)
     {
 
         $client = HttpClient::create();
         $response = $client->request('GET', 'http://127.0.0.1:5000/' . $league . '/' . $type);
-        $fp = fopen("C:/wamp64/www/AiTransfert/public/csv/" . $dir . "/standars_data.csv", "r+");
+        $fp = fopen("C:/wamp64/www/AITranfert/public/csv/" . $dir . "/standars_data.csv", "r+");
         $line = fgets($fp);
         fwrite($fp, $response->getContent());
-        0 +
+       
             fclose($fp);
     }
 
@@ -31,7 +44,7 @@ class ExtractDataFromWeb
         );
 
         $client = HttpClient::create();
-        $response = $client->request('GET', 'http://127.0.0.1:5000/all', ['timeout' => 2000.5]);
+        $response = $client->request('GET', 'http://127.0.0.1:5000/all', ['timeout' => 9000.5]);
         $data = $response->getContent();
 
         //  $data = array(
@@ -42,7 +55,7 @@ class ExtractDataFromWeb
         $current_charset = 'ISO-8859-15';
         $data = iconv('UTF-8//TRANSLIT', $current_charset, $data);
         $data = json_decode($data, JSON_UNESCAPED_UNICODE);
-
+ 
         foreach ($data as $index => $item) {
             echo $index . "\n";
             switch ($index) {
@@ -150,15 +163,17 @@ class ExtractDataFromWeb
                             break;
                 }
                 // echo $element . "\n";
-                $fp = fopen("C:/wamp64/www/AiTransfert/public/csv/" . $dir . "/" . $type . "_data.csv", "r+");
-                //$fp = fopen("C:/wamp64/www/AiTransfert/public/England/shooting_data.csv", "r+");
+               // $this->removeFromCsv("C:/wamp64/www/AITranfert/public/csv/" . $dir . "/" . $type . "_data.csv", 0, 2000,"C:/wamp64/www/AITranfert/public/csv/" . $dir . "/" . $type . "_data.csv");
+                $fp = fopen("C:/wamp64/www/AITranfert/public/csv/" . $dir . "/" . $type . "_data.csv", "r+");
+                //$fp = fopen("C:/wamp64/www/AITranfert/public/England/shooting_data.csv", "r+");
                 $line = fgets($fp);
                 ftruncate($fp, 0);
                 fclose($fp);
 
-                $fp = fopen("C:/wamp64/www/AiTransfert/public/csv/" . $dir . "/" . $type . "_data.csv", "r+");
+                $fp = fopen("C:/wamp64/www/AITranfert/public/csv/" . $dir . "/" . $type . "_data.csv", "r+");
                 // $csv = $line . "\n" . $element;
                 //echo $csv;
+                
                 $csv = utf8_encode($element);
                 fwrite($fp, $line);
                 fwrite($fp, $csv);

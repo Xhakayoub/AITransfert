@@ -9,10 +9,10 @@ class marketData {
 
     public function getValueByPlayer(Player $player){
 
-        $fullName = explode('/', $player->getName(), 2)[1];
+        $fullName = explode('\\', $player->getName(), 2)[1];
         $age = $player->getAge();
         $club = $player->getSquad();
-        
+
         $client = HttpClient::create();
         $response = $client->request('GET', 'http://127.0.0.1:5000/TransfertMarekt/' . $fullName . '/' . $age . '/' .$club);
         

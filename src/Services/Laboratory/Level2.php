@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Services;
+namespace App\Services\Laboratory;
 
 use App\Entity\Player;
 use App\Entity\Team;
-use App\Services\Level1;
+use App\Services\Laboratory\Level1;
 
 
 class Level2

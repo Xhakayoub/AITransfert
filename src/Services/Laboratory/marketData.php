@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services;
+namespace App\Services\Laboratory;
 
 use Symfony\Component\HttpClient\HttpClient;
 use App\Entity\Player;

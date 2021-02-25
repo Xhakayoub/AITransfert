@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services;
+namespace App\Services\Laboratory;
 
 use App\Entity\Player;
 use App\Entity\Team;
@@ -443,7 +443,7 @@ class Level1
     public static function getAssistRating(Player $player): int
     {
         if ($player) {
-            $assists = $player->getAssits();
+            $assists = $player->getAssists();
             $minutes = $player->getMinutesPlayed();
             $value = ($assists / $minutes) * 90;
             if ($value >= 1) $res = 10;
@@ -1110,6 +1110,27 @@ class Level1
 
             return $result;
         }
+    }
+
+    public function getPointsPerMatchRating(Player $player){
+        
+        $value = $player->getPointsPerMatch();
+        if ($value = 3) $res = 10;
+        if ($value < 3 and $value >= 2.8)  $res = 9;
+        if ($value < 2.8 and $value >= 2.4)  $res = 8;
+        if ($value < 2.4 and $value >= 2)  $res = 7;
+        if ($value < 2 and $value >= 1.6)  $res = 6;
+        if ($value < 1.6 and $value >= 1.2)  $res = 5;
+        if ($value < 1.2 and $value >= 0.8)  $res = 4;
+        if ($value < 0.8 and $value >= 0.4)  $res = 3;
+        else $res = 0;
+
+        return $res;
+    }
+    
+
+    public function getPassesPerMinRating(Player $player){
+
     }
 
 }

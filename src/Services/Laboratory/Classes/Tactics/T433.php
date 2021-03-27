@@ -10,15 +10,15 @@ class T433 extends Tactic {
     const FORMATION = [
         "GK" => 1,
         "DF" => [
-            "first" => Positions::CB,
+            "first" => Positions::LB,
             "second" => Positions::CB,
             "third" => Positions::CB,
+            "fourth" => Positions::RB,
         ],
         "MD" => [
-            "first" => [Positions::RB || Positions::RM],
-            "second" => Positions::CM,
-            "third" => Positions::DM,
-            "fourth" =>[Positions::LB || Positions::RM]
+            "first" => [Positions::DM || Positions::CM],
+            "second" => [Positions::CM || Positions::AM],
+            "third" => [Positions::CM || Positions::AM]
         ],
         "FW" => [
             "first" => [Positions::RW || Positions::RM],

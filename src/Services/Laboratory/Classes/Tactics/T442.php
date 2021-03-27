@@ -10,9 +10,10 @@ class T442 extends Tactic {
     const FORMATION = [
         "GK" => 1,
         "DF" => [
-            "first" => Positions::CB,
+            "first" => Positions::LB,
             "second" => Positions::CB,
             "third" => Positions::CB,
+            "fourth" => Positions::RB,
         ],
         "MD" => [
             "first" => [Positions::RB || Positions::RM],
@@ -21,9 +22,8 @@ class T442 extends Tactic {
             "fourth" =>[Positions::LB || Positions::RM]
         ],
         "FW" => [
-            "first" => [Positions::RW || Positions::RM],
+            "first" => [Positions::CW || Positions::AM],
             "second" => Positions::CW,
-            "third" => [Positions::LW || Positions::LM]
         ]
     ];
 

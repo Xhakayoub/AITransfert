@@ -16,14 +16,14 @@ class T352 extends Tactic {
         ],
         "MD" => [
             "first" => [Positions::RB || Positions::RM],
-            "second" => Positions::CM,
-            "third" => Positions::DM,
-            "fourth" =>[Positions::LB || Positions::RM]
+            "second" => [Positions::CM, Positions::DM],
+            "third" => [Positions::DM, Positions::CM],
+            "fourth" =>[Positions::CM, Positions::DM],
+            "fifth" =>[Positions::LB || Positions::RM]
         ],
         "FW" => [
-            "first" => [Positions::RW || Positions::RM],
+            "first" => [Positions::CW || Positions::AM],
             "second" => Positions::CW,
-            "third" => [Positions::LW || Positions::LM]
         ]
     ];
 

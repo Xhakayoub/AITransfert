@@ -110,17 +110,17 @@ class ExtractDataFromWeb
                     case "misc":
                         $type = "miscellaneous";
                         echo $type;
-                    case "passsing_types":
+                    case "passing_types":
                         $type = "pass_type";
                         echo $type;
                         break;
                     case "defense":
                         $type = "defense";
                         echo $type;
-                        case "possession":
-                            $type = "possession";
-                            echo $type;
-                        break;
+                    case "possession":
+                        $type = "possession";
+                        echo $type;
+                    break;
                     case "squad standard":
                         $type = "standard_team";
                         echo $type;
@@ -149,7 +149,7 @@ class ExtractDataFromWeb
                         $type = "miscellaneous_team";
                         echo $type;
                         break;
-                    case "squad passsing_types":
+                    case "squad passing_types":
                         $type = "pass_type_team";
                         echo $type;
                         break;
@@ -157,10 +157,10 @@ class ExtractDataFromWeb
                         $type = "defense_team";
                         echo $type;
                         break;
-                        case "squad possession":
-                            $type = "possession_team";
-                            echo $type;
-                            break;
+                    case "squad possession":
+                        $type = "possession_team";
+                        echo $type;
+                        break;
                 }
                 // echo $element . "\n";
                // $this->removeFromCsv("C:/wamp64/www/AITranfert/public/csv/" . $dir . "/" . $type . "_data.csv", 0, 2000,"C:/wamp64/www/AITranfert/public/csv/" . $dir . "/" . $type . "_data.csv");

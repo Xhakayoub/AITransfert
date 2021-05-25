@@ -23,6 +23,9 @@
     "doctrine/dbal": {
         "version": "v2.10.1"
     },
+    "doctrine/deprecations": {
+        "version": "v0.5.3"
+    },
     "doctrine/doctrine-bundle": {
         "version": "2.0",
         "recipe": {
@@ -75,6 +78,9 @@
     "doctrine/reflection": {
         "version": "v1.1.0"
     },
+    "doctrine/sql-formatter": {
+        "version": "1.1.1"
+    },
     "easycorp/easy-log-handler": {
         "version": "1.0",
         "recipe": {
@@ -89,6 +95,9 @@
     },
     "egulias/email-validator": {
         "version": "2.1.17"
+    },
+    "friendsofphp/proxy-manager-lts": {
+        "version": "v1.0.5"
     },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
@@ -204,6 +213,9 @@
     },
     "symfony/dependency-injection": {
         "version": "v4.4.5"
+    },
+    "symfony/deprecation-contracts": {
+        "version": "v2.4.0"
     },
     "symfony/doctrine-bridge": {
         "version": "v4.4.5"
@@ -353,6 +365,9 @@
     "symfony/polyfill-intl-idn": {
         "version": "v1.14.0"
     },
+    "symfony/polyfill-intl-normalizer": {
+        "version": "v1.22.1"
+    },
     "symfony/polyfill-mbstring": {
         "version": "v1.14.0"
     },
@@ -361,6 +376,9 @@
     },
     "symfony/polyfill-php73": {
         "version": "v1.14.0"
+    },
+    "symfony/polyfill-php80": {
+        "version": "v1.22.1"
     },
     "symfony/process": {
         "version": "v4.4.5"
@@ -373,6 +391,9 @@
     },
     "symfony/property-info": {
         "version": "v4.4.5"
+    },
+    "symfony/proxy-manager-bridge": {
+        "version": "v4.4.24"
     },
     "symfony/routing": {
         "version": "4.2",

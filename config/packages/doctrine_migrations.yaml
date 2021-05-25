@@ -1,5 +1,12 @@
 doctrine_migrations:
-    dir_name: '%kernel.project_dir%/src/Migrations'
-    # namespace is arbitrary but should be different from App\Migrations
-    # as migrations classes should NOT be autoloaded
-    namespace: DoctrineMigrations
+    migrations_paths:
+        DoctrineMigrations: /home/amouissi/Documents/projects/AITransfert/AITranfert/src/Migrations
+    storage:
+        table_storage:
+            table_name: migrations
+            version_column_name: version
+            executed_at_column_name: executed_at
+            version_column_length: null
+    organize_migrations: false
+    all_or_nothing: false
+   

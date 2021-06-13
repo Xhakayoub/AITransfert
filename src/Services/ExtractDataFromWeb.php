@@ -8,7 +8,7 @@ use League\Csv\Writer;
 
 class ExtractDataFromWeb
 {
- public function removeFromCsv($file, $from, $to, $path)
+    public function removeFromCsv($file, $from, $to, $path)
     {
         $data =  file_get_contents($file);
         $skuList = explode(PHP_EOL, $data);
@@ -18,7 +18,7 @@ class ExtractDataFromWeb
         foreach ($newData as $fields) {
             $item = explode(';', $fields);
             fputcsv($fp, $item);
-            $fp = str_replace(",",";",$fp);
+            $fp = str_replace(",", ";", $fp);
         }
         return $fp;
     }
@@ -30,8 +30,8 @@ class ExtractDataFromWeb
         $fp = fopen("C:/wamp64/www/AITranfert/public/csv/" . $dir . "/standars_data.csv", "r+");
         $line = fgets($fp);
         fwrite($fp, $response->getContent());
-       
-            fclose($fp);
+
+        fclose($fp);
     }
 
     public function updateData()
@@ -55,7 +55,7 @@ class ExtractDataFromWeb
         $current_charset = 'ISO-8859-15';
         $data = iconv('UTF-8//TRANSLIT', $current_charset, $data);
         $data = json_decode($data, JSON_UNESCAPED_UNICODE);
- 
+
         foreach ($data as $index => $item) {
             echo $index . "\n";
             switch ($index) {
@@ -120,7 +120,7 @@ class ExtractDataFromWeb
                     case "possession":
                         $type = "possession";
                         echo $type;
-                    break;
+                        break;
                     case "squad standard":
                         $type = "standard_team";
                         echo $type;
@@ -163,7 +163,7 @@ class ExtractDataFromWeb
                         break;
                 }
                 // echo $element . "\n";
-               // $this->removeFromCsv("C:/wamp64/www/AITranfert/public/csv/" . $dir . "/" . $type . "_data.csv", 0, 2000,"C:/wamp64/www/AITranfert/public/csv/" . $dir . "/" . $type . "_data.csv");
+                // $this->removeFromCsv("C:/wamp64/www/AITranfert/public/csv/" . $dir . "/" . $type . "_data.csv", 0, 2000,"C:/wamp64/www/AITranfert/public/csv/" . $dir . "/" . $type . "_data.csv");
                 $fp = fopen("C:/wamp64/www/AITranfert/public/csv/" . $dir . "/" . $type . "_data.csv", "r+");
                 //$fp = fopen("C:/wamp64/www/AITranfert/public/England/shooting_data.csv", "r+");
                 $line = fgets($fp);
@@ -173,9 +173,31 @@ class ExtractDataFromWeb
                 $fp = fopen("C:/wamp64/www/AITranfert/public/csv/" . $dir . "/" . $type . "_data.csv", "r+");
                 // $csv = $line . "\n" . $element;
                 //echo $csv;
-                
+
                 $csv = utf8_encode($element);
-                fwrite($fp, $line);
+
+                // $element doit etre convertit de string vers array
+                $array = explode("\n", $element);
+                $firstCount = count($array);
+                // on prend les deux premier ligne de cet array pour les fusionner 
+                $csvHeader = explode(";", $array[0]);
+                $csvHeader2 = explode(";", $array[1]);
+                $correctHeader = '';
+                foreach ($csvHeader as $key => $value) {
+                   ($value !== '') ? $correctHeader = $correctHeader . ($value . '-' . $csvHeader2[$key]) . ';' : $correctHeader = $correctHeader. $csvHeader2[$key] . ';';
+                }
+
+                // on remplace la premier ligne par le resultat du fusion et on supprime la deuxieme ligne
+                $array[0] = $correctHeader;
+
+                // on decale les autre element de notre array si la deuxieme ligne reste vide 
+                if ($firstCount === count($array)) {
+                    unset($array[1]); 
+                }
+
+                $csv = implode("\n", $array);
+
+               // fwrite($fp, $line);
                 fwrite($fp, $csv);
                 //  fwrite($fp, $element . $fakeindex);
                 fclose($fp);

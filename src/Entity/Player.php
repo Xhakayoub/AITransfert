@@ -718,12 +718,12 @@ class Player
         return $this;
     }
 
-    public function getassists(): ?int
+    public function getAssists(): ?int
     {
         return $this->assists;
     }
 
-    public function setassists(int $assists): self
+    public function setAssists(int $assists): self
     {
         $this->assists = $assists;
 

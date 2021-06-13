@@ -30,16 +30,27 @@ class importCommand extends Command
    public function importTeams(string $league): void
    {
 
-      $readerOfStandarsTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/standard_team_data.csv');
-      $readerOfPassingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/passing_team_data.csv');
-      $readerOfShootingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/shooting_team_data.csv');
-      $readerOfTimmingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/timming_team_data.csv');
-      $readerOfGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/gk_team_data.csv');
-      $readerOfAdvancedGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/ad_gk_team_data.csv');
-      $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/miscellaneous_team_data.csv');
-      $readerOfTypeOfPassTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/type_pass_team_data.csv');
-      $readerOfDefenseTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/defense_team_data.csv');
-      $readerOfPossessionTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/possession_team_data.csv');
+      // $readerOfStandarsTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/standard_team_data.csv');
+      // $readerOfPassingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/passing_team_data.csv');
+      // $readerOfShootingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/shooting_team_data.csv');
+      // $readerOfTimmingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/timming_team_data.csv');
+      // $readerOfGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/gk_team_data.csv');
+      // $readerOfAdvancedGkTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/ad_gk_team_data.csv');
+      // $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/miscellaneous_team_data.csv');
+      // $readerOfTypeOfPassTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/type_pass_team_data.csv');
+      // $readerOfDefenseTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/defense_team_data.csv');
+      // $readerOfPossessionTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/possession_team_data.csv');
+      
+      $readerOfStandarsTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $league . '/standard_team_data.csv');
+      $readerOfPassingTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $league . '/passing_team_data.csv');
+      $readerOfShootingTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $league . '/shooting_team_data.csv');
+      $readerOfTimmingTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $league . '/timming_team_data.csv');
+      $readerOfGkTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $league . '/gk_team_data.csv');
+      $readerOfAdvancedGkTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $league . '/ad_gk_team_data.csv');
+      $readerOfMiscellaneousTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $league . '/miscellaneous_team_data.csv');
+      $readerOfTypeOfPassTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $league . '/pass_type_team_data.csv');
+      $readerOfDefenseTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $league . '/defense_team_data.csv');
+      $readerOfPossessionTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $league . '/possession_team_data.csv');
 
       $readerOfStandarsTeamData->setDelimiter(';');
       $readerOfPassingTeamData->setDelimiter(';');
@@ -53,36 +64,34 @@ class importCommand extends Command
       $readerOfPossessionTeamData->setDelimiter(';');
 
 
-
-
-      $standarsTeams = $readerOfStandarsTeamData->fetchAssoc();
-      $passingTeams = $readerOfPassingTeamData->fetchAssoc();
-      $shootingTeams = $readerOfShootingTeamData->fetchAssoc();
-      $timmingTeams = $readerOfTimmingTeamData->fetchAssoc();
-      $miscellaneousTeams = $readerOfMiscellaneousTeamData->fetchAssoc();
-      $gkTeams = $readerOfGkTeamData->fetchAssoc();
-      $advancedGkTeams = $readerOfAdvancedGkTeamData->fetchAssoc();
-      $typePassTeams = $readerOfTypeOfPassTeamData->fetchAssoc();
-      $DefenseTeams = $readerOfDefenseTeamData->fetchAssoc();
-      $possessionTeams = $readerOfPossessionTeamData->fetchAssoc();
+      $standarsTeams = $readerOfStandarsTeamData->setHeaderOffset(0);
+      $passingTeams = $readerOfPassingTeamData->setHeaderOffset(0);
+      $shootingTeams = $readerOfShootingTeamData->setHeaderOffset(0);
+      $timmingTeams = $readerOfTimmingTeamData->setHeaderOffset(0);
+      $miscellaneousTeams = $readerOfMiscellaneousTeamData->setHeaderOffset(0);
+      $gkTeams = $readerOfGkTeamData->setHeaderOffset(0);
+      $advancedGkTeams = $readerOfAdvancedGkTeamData->setHeaderOffset(0);
+      $typePassTeams = $readerOfTypeOfPassTeamData->setHeaderOffset(0);
+      $DefenseTeams = $readerOfDefenseTeamData->setHeaderOffset(0);
+      $possessionTeams = $readerOfPossessionTeamData->setHeaderOffset(0);
 
 
 
 
-      // $permierLeagueTeams = $readerPermierLeagueTeams->fetchAssoc();
-      // $permierLeagueTeamsOtherData = $readerPermierLeagueTeamsOtherData->fetchAssoc();
+      // $permierLeagueTeams = $readerPermierLeagueTeams->setHeaderOffset(0);
+      // $permierLeagueTeamsOtherData = $readerPermierLeagueTeamsOtherData->setHeaderOffset(0);
 
 
-      $standarsTeams = iterator_to_array($standarsTeams, false);
-      $passingTeams = iterator_to_array($passingTeams, false);
-      $shootingTeams = iterator_to_array($shootingTeams, false);
-      $timmingTeams = iterator_to_array($timmingTeams, false);
-      $miscellaneousTeams = iterator_to_array($miscellaneousTeams, false);
-      $gkTeams = iterator_to_array($gkTeams, false);
-      $advancedGkTeams = iterator_to_array($advancedGkTeams, false);
-      $typePassTeams = iterator_to_array($typePassTeams, false);
-      $DefenseTeams = iterator_to_array($DefenseTeams, false);
-      $possessionTeams = iterator_to_array($possessionTeams, false);
+      $standarsTeams = iterator_to_array($readerOfStandarsTeamData, false);
+      $passingTeams = iterator_to_array($readerOfPassingTeamData, false);
+      $shootingTeams = iterator_to_array($readerOfShootingTeamData, false);
+      $timmingTeams = iterator_to_array($readerOfTimmingTeamData, false);
+      $miscellaneousTeams = iterator_to_array($readerOfMiscellaneousTeamData, false);
+      $gkTeams = iterator_to_array($readerOfGkTeamData, false);
+      $advancedGkTeams = iterator_to_array($readerOfAdvancedGkTeamData, false);
+      $typePassTeams = iterator_to_array($readerOfTypeOfPassTeamData, false);
+      $DefenseTeams = iterator_to_array($readerOfDefenseTeamData, false);
+      $possessionTeams = iterator_to_array($readerOfPossessionTeamData, false);
 
 
 
@@ -98,7 +107,7 @@ class importCommand extends Command
          // echo sizeof($gkTeams)."\n";
          echo "import for " . $league . " league\n";
 
-
+        
          foreach ($standarsTeams as $fakeIndex => $teams) {
             //echo sizeof($gkTeams);
             $squad = "";
@@ -151,13 +160,13 @@ class importCommand extends Command
                   ->setOpaPerMatch($advancedGkTeams[$fakeIndex]['#OPA/90'])
                   ->setAverageDistance($advancedGkTeams[$fakeIndex]['AvgDist'])
                   /////shooting
-                  ->setShootOnTarget($shootingTeams[$fakeIndex]['SoT'])
-                  ->setShootFromFreeKick($shootingTeams[$fakeIndex]['FK'])
-                  ->setShootOnTargetPercent($shootingTeams[$fakeIndex]['SoT%'])
-                  ->setShootPer90Minutes($shootingTeams[$fakeIndex]['Sh/90'])
-                  ->setShootOnTargetPer90Minutes($shootingTeams[$fakeIndex]['SoT/90'])
-                  ->setGoalPerShoot($shootingTeams[$fakeIndex]['G/Sh'])
-                  ->setGoalPerShootOnTarget($shootingTeams[$fakeIndex]['G/SoT'])
+                  ->setShootOnTarget(intval($shootingTeams[$fakeIndex]['SoT']))
+                  ->setShootFromFreeKick(intval($shootingTeams[$fakeIndex]['FK']))
+                  ->setShootOnTargetPercent(intval($shootingTeams[$fakeIndex]['SoT%']))
+                  ->setShootPer90Minutes(intval($shootingTeams[$fakeIndex]['Sh/90']))
+                  ->setShootOnTargetPer90Minutes(intval($shootingTeams[$fakeIndex]['SoT/90']))
+                  ->setGoalPerShoot(intval($shootingTeams[$fakeIndex]['G/Sh']))
+                  ->setGoalPerShootOnTarget(intval($shootingTeams[$fakeIndex]['G/SoT']))
                   //passing
                   ->setPassesCompleted($passingTeams[$fakeIndex]['Cmp'])
                   ->setPassesAttempted($passingTeams[$fakeIndex]['Att'])
@@ -189,7 +198,7 @@ class importCommand extends Command
                   ->setThroughBalls($typePassTeams[$fakeIndex]['TB'])
                   ->setLeftFootPasses($typePassTeams[$fakeIndex]['Left'])
                   ->setRightFootPasses($typePassTeams[$fakeIndex]['Right'])
-                  ->setBlockedPasses($typePassTeams[$fakeIndex]['Blocks'])
+                  //->setBlockedPasses($typePassTeams[$fakeIndex]['Blocks'])
                   ->setOffsidesPasses($typePassTeams[$fakeIndex]['Off'])
                   //timming
                   ->setMinutesPlayed($timmingTeams[$fakeIndex]['Min'])
@@ -219,9 +228,9 @@ class importCommand extends Command
                   ->setPenaltyKickWon($miscellaneousTeams[$fakeIndex]['PKwon'])
                   ->setPenaltyKickConceded($miscellaneousTeams[$fakeIndex]['PKcon'])
                   ->setOwnGoal($miscellaneousTeams[$fakeIndex]['OG'])
-                  ->setArialDuelsWon($miscellaneousTeams[$fakeIndex]['Won'])
-                  ->setArialDuelsLost($miscellaneousTeams[$fakeIndex]['Lost'])
-                  ->setArialDuelsCompletion($miscellaneousTeams[$fakeIndex]['Won%'])
+                 // ->setArialDuelsWon($miscellaneousTeams[$fakeIndex]['Won'])
+                  // ->setArialDuelsLost($miscellaneousTeams[$fakeIndex]['Lost'])
+                  // ->setArialDuelsCompletion($miscellaneousTeams[$fakeIndex]['Won%'])
                   //possession
                   ->setDribblesSucceded($possessionTeams[$fakeIndex]['Succ'])
                   ->setDribblesAttempted($possessionTeams[$fakeIndex]['Att'])
@@ -272,13 +281,13 @@ class importCommand extends Command
                      ->setOpaPerMatch($advancedGkTeams[$fakeIndex]['#OPA/90'])
                      ->setAverageDistance($advancedGkTeams[$fakeIndex]['AvgDist'])
                      //shooting
-                     ->setShootOnTarget($shootingTeams[$fakeIndex]['SoT'])
-                     ->setShootFromFreeKick($shootingTeams[$fakeIndex]['FK'])
-                     ->setShootOnTargetPercent($shootingTeams[$fakeIndex]['SoT%'])
-                     ->setShootPer90Minutes($shootingTeams[$fakeIndex]['Sh/90'])
-                     ->setShootOnTargetPer90Minutes($shootingTeams[$fakeIndex]['SoT/90'])
-                     ->setGoalPerShoot($shootingTeams[$fakeIndex]['G/Sh'])
-                     ->setGoalPerShootOnTarget($shootingTeams[$fakeIndex]['G/SoT'])
+                     ->setShootOnTarget(intval($shootingTeams[$fakeIndex]['SoT']))
+                     ->setShootFromFreeKick(intval($shootingTeams[$fakeIndex]['FK']))
+                     ->setShootOnTargetPercent(intval($shootingTeams[$fakeIndex]['SoT%']))
+                     ->setShootPer90Minutes(intval($shootingTeams[$fakeIndex]['Sh/90']))
+                     ->setShootOnTargetPer90Minutes(intval($shootingTeams[$fakeIndex]['SoT/90']))
+                     ->setGoalPerShoot(intval($shootingTeams[$fakeIndex]['G/Sh']))
+                     ->setGoalPerShootOnTarget(intval($shootingTeams[$fakeIndex]['G/SoT']))
                      //passing
                      ->setPassesCompleted($passingTeams[$fakeIndex]['Cmp'])
                      ->setPassesAttempted($passingTeams[$fakeIndex]['Att'])
@@ -311,7 +320,7 @@ class importCommand extends Command
                      ->setThroughBalls($typePassTeams[$fakeIndex]['TB'])
                      ->setLeftFootPasses($typePassTeams[$fakeIndex]['Left'])
                      ->setRightFootPasses($typePassTeams[$fakeIndex]['Right'])
-                     ->setBlockedPasses($typePassTeams[$fakeIndex]['Blocks'])
+                   //  ->setBlockedPasses($typePassTeams[$fakeIndex]['Blocks'])
                      ->setOffsidesPasses($typePassTeams[$fakeIndex]['Off'])
                      //timming
                      ->setMinutesPlayed($timmingTeams[$fakeIndex]['Min'])
@@ -341,9 +350,9 @@ class importCommand extends Command
                      ->setPenaltyKickWon($miscellaneousTeams[$fakeIndex]['PKwon'])
                      ->setPenaltyKickConceded($miscellaneousTeams[$fakeIndex]['PKcon'])
                      ->setOwnGoal($miscellaneousTeams[$fakeIndex]['OG'])
-                     ->setArialDuelsWon($miscellaneousTeams[$fakeIndex]['Won'])
-                     ->setArialDuelsLost($miscellaneousTeams[$fakeIndex]['Lost'])
-                     ->setArialDuelsCompletion($miscellaneousTeams[$fakeIndex]['Won%'])
+                     // ->setArialDuelsWon($miscellaneousTeams[$fakeIndex]['Won'])
+                     // ->setArialDuelsLost($miscellaneousTeams[$fakeIndex]['Lost'])
+                     // ->setArialDuelsCompletion($miscellaneousTeams[$fakeIndex]['Won%'])
                      //possession
                      ->setDribblesSucceded($possessionTeams[$fakeIndex]['Succ'])
                      ->setDribblesAttempted($possessionTeams[$fakeIndex]['Att'])
@@ -477,23 +486,39 @@ class importCommand extends Command
    public function import(String $dir)
    {
 
+      $readerOfStandarsData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $dir . '/standard_data.csv');
+      // $readerOfStandarsTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/' . $dir . '/standars_team_data.csv');
+      $readerOfPassingData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $dir . '/passing_data.csv');
+      //  $readerOfPassingTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/' . $dir . '/passing_team_data.csv');
+      $readerOfShootingData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $dir . '/shooting_data.csv');
+      //  $readerOfShootingTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/' . $dir . '/shooting_team_data.csv');
+      $readerOfTimmingData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $dir . '/timming_data.csv');
+      //  $readerOfTimmingTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/' . $dir . '/timming_team_data.csv');
+      $readerOfMiscellaneousData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $dir . '/miscellaneous_data.csv');
+      // $readerOfMiscellaneousTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/' . $dir . '/miscellaneous_team_data.csv');
+      $readerOfTypePassData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $dir . '/pass_type_data.csv');
+      // $readerOfMiscellaneousTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/' . $dir . '/miscellaneous_team_data.csv');
+      $readerOfDefenseData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $dir . '/defense_data.csv');
+      // $readerOfMiscellaneousTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/' . $dir . '/miscellaneous_team_data.csv');
+      $readerOfPossessionData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $dir . '/possession_data.csv');
+      // $readerOfMiscellaneousTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/' . $dir . '/miscellaneous_team_data.csv');
 
-      $readerOfStandarsData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/standard_data.csv');
-      // $readerOfStandarsTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/standars_team_data.csv');
-      $readerOfPassingData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/passing_data.csv');
-      //  $readerOfPassingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/passing_team_data.csv');
-      $readerOfShootingData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/shooting_data.csv');
-      //  $readerOfShootingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/shooting_team_data.csv');
-      $readerOfTimmingData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/timming_data.csv');
-      //  $readerOfTimmingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/timming_team_data.csv');
-      $readerOfMiscellaneousData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/miscellaneous_data.csv');
-      // $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
-      $readerOfTypePassData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/pass_type_data.csv');
-      // $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
-      $readerOfDefenseData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/defense_data.csv');
-      // $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
-      $readerOfPossessionData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/possession_data.csv');
-      // $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
+      // $readerOfStandarsData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/standard_data.csv');
+      // // $readerOfStandarsTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/standars_team_data.csv');
+      // $readerOfPassingData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/passing_data.csv');
+      // //  $readerOfPassingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/passing_team_data.csv');
+      // $readerOfShootingData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/shooting_data.csv');
+      // //  $readerOfShootingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/shooting_team_data.csv');
+      // $readerOfTimmingData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/timming_data.csv');
+      // //  $readerOfTimmingTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/timming_team_data.csv');
+      // $readerOfMiscellaneousData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/miscellaneous_data.csv');
+      // // $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
+      // $readerOfTypePassData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/pass_type_data.csv');
+      // // $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
+      // $readerOfDefenseData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/defense_data.csv');
+      // // $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
+      // $readerOfPossessionData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $dir . '/possession_data.csv');
+      // // $readerOfMiscellaneousTeamData = Reader::createFromPath('%kernel.root_dir%/../public/' . $dir . '/miscellaneous_team_data.csv');
 
 
       $readerOfStandarsData->setDelimiter(';');
@@ -514,34 +539,36 @@ class importCommand extends Command
       //  $readerOfMiscellaneousTeamData->setDelimiter(';');
 
 
+      
 
 
+      $standars = $readerOfStandarsData->setHeaderOffset(0);
+      $passing = $readerOfPassingData->setHeaderOffset(0);
+      $shooting = $readerOfShootingData->setHeaderOffset(0);
+      $timming = $readerOfTimmingData->setHeaderOffset(0);
+      $miscellaneous = $readerOfMiscellaneousData->setHeaderOffset(0);
+      $typePass = $readerOfTypePassData->setHeaderOffset(0);
+      $defense = $readerOfDefenseData->setHeaderOffset(0);
+      $possession = $readerOfPossessionData->setHeaderOffset(0);
 
-      $standars = $readerOfStandarsData->fetchAssoc();
-      $passing = $readerOfPassingData->fetchAssoc();
-      $shooting = $readerOfShootingData->fetchAssoc();
-      $timming = $readerOfTimmingData->fetchAssoc();
-      $miscellaneous = $readerOfMiscellaneousData->fetchAssoc();
-      $typePass = $readerOfTypePassData->fetchAssoc();
-      $defense = $readerOfDefenseData->fetchAssoc();
-      $possession = $readerOfPossessionData->fetchAssoc();
-      // $standarsTeams = $readerOfStandarsTeamData->fetchAssoc();
-      // $passingTeams = $readerOfPassingTeamData->fetchAssoc();
-      // $shootingTeams = $readerOfShootingTeamData->fetchAssoc();
-      // $timmingTeams = $readerOfTimmingTeamData->fetchAssoc();
-      // $miscellaneousTeams = $readerOfMiscellaneousData->fetchAssoc();
+      $standars->getHeader();
+      // $standarsTeams = $readerOfStandarsTeamData->setHeaderOffset(0);
+      // $passingTeams = $readerOfPassingTeamData->setHeaderOffset(0);
+      // $shootingTeams = $readerOfShootingTeamData->setHeaderOffset(0);
+      // $timmingTeams = $readerOfTimmingTeamData->setHeaderOffset(0);
+      // $miscellaneousTeams = $readerOfMiscellaneousData->setHeaderOffset(0);
 
-      // $permierLeagueTeams = $readerPermierLeagueTeams->fetchAssoc();
-      // $permierLeagueTeamsOtherData = $readerPermierLeagueTeamsOtherData->fetchAssoc();
+      // $permierLeagueTeams = $readerPermierLeagueTeams->setHeaderOffset(0);
+      // $permierLeagueTeamsOtherData = $readerPermierLeagueTeamsOtherData->setHeaderOffset(0);
 
-      $standars = iterator_to_array($standars, false);
-      $passing = iterator_to_array($passing, false);
-      $shooting = iterator_to_array($shooting, false);
-      $timming = iterator_to_array($timming, false);
-      $miscellaneous = iterator_to_array($miscellaneous, false);
-      $typePass = iterator_to_array($typePass, false);
-      $defense = iterator_to_array($defense, false);
-      $possession = iterator_to_array($possession, false);
+      $standars = iterator_to_array($readerOfStandarsData, false);
+      $passing = iterator_to_array($readerOfPassingData, false);
+      $shooting = iterator_to_array($readerOfShootingData, false);
+      $timming = iterator_to_array($readerOfTimmingData, false);
+      $miscellaneous = iterator_to_array($readerOfMiscellaneousData, false);
+      $typePass = iterator_to_array($readerOfTypePassData, false);
+      $defense = iterator_to_array($readerOfDefenseData, false);
+      $possession = iterator_to_array($readerOfPossessionData, false);
 
       // $standarsTeams = iterator_to_array($standarsTeams, false);
       // $passingTeams = iterator_to_array($passingTeams, false);
@@ -599,7 +626,7 @@ class importCommand extends Command
                ->setMatchStarts(0)
                ->setMinsPlayed(0)
                ->setGoals(0)
-               ->setAssits(0)
+               ->setAssists(0)
                ->setPkMade(0)
                ->setPkAttempted(0)
                ->setYellowCard(0)
@@ -702,7 +729,7 @@ class importCommand extends Command
                   ->setMatchStarts(intval($standars[$index]['Starts'] ?? 0))
                   ->setMinsPlayed(intval($standars[$index]['Min'] ?? 0))
                   ->setGoals(intval($standars[$index]['Gls'] ?? 0))
-                  ->setAssits(intval($standars[$index]['Ast'] ?? 0))
+                  ->setAssists(intval($standars[$index]['Ast'] ?? 0))
                   ->setPkMade(intval($standars[$index]['PK'] ?? 0))
                   ->setPkAttempted(intval($standars[$index]['PKatt'] ?? 0))
                   ->setYellowCard(intval($standars[$index]['CrdY'] ?? 0))
@@ -729,7 +756,7 @@ class importCommand extends Command
                         ->setMatchStarts(intval($standars[$i]['Starts'] ?? 0))
                         ->setMinsPlayed(intval($standars[$i]['Min'] ?? 0))
                         ->setGoals(intval($standars[$i]['Gls'] ?? 0))
-                        ->setAssits(intval($standars[$i]['Ast'] ?? 0))
+                        ->setAssists(intval($standars[$i]['Ast'] ?? 0))
                         ->setPkMade(intval($standars[$i]['PK'] ?? 0))
                         ->setPkAttempted(intval($standars[$i]['PKatt'] ?? 0))
                         ->setYellowCard(intval($standars[$i]['CrdY'] ?? 0))
@@ -961,8 +988,8 @@ class importCommand extends Command
                         ->setNutmegs(intval($miscellaneous[$i]['Megs'] ?? 0))
                         ->setSecondYellowCard(intval($miscellaneous[$i]['2CrdY'] ?? 0))
                         ->setArialDuelsWon($miscellaneous[$i]['Won'])
-                        ->setArialDuelsLost($miscellaneous[$i]['Lost'])
-                        ->setArialDuelsCompletion($miscellaneous[$i]['Won%']);
+                        ->setArialDuelsLost(intval($miscellaneous[$i]['Lost']))
+                        ->setArialDuelsCompletion(intval($miscellaneous[$i]['Won%']));
                      break;
                   }
                }
@@ -1019,7 +1046,7 @@ class importCommand extends Command
                   ->setMatchStarts(intval($standars[$index]['Starts'] ?? 0))
                   ->setMinsPlayed(intval($standars[$index]['Min'] ?? 0))
                   ->setGoals(intval($standars[$index]['Gls'] ?? 0))
-                  ->setAssits(intval($standars[$index]['Ast'] ?? 0))
+                  ->setAssists(intval($standars[$index]['Ast'] ?? 0))
                   ->setPkMade(intval($standars[$index]['PK'] ?? 0))
                   ->setPkAttempted(intval($standars[$index]['PKatt'] ?? 0))
                   ->setYellowCard(intval($standars[$index]['CrdY'] ?? 0))
@@ -1047,7 +1074,7 @@ class importCommand extends Command
                         ->setMatchStarts(intval($standars[$i]['Starts'] ?? 0))
                         ->setMinsPlayed(intval($standars[$i]['Min'] ?? 0))
                         ->setGoals(intval($standars[$i]['Gls'] ?? 0))
-                        ->setAssits(intval($standars[$i]['Ast'] ?? 0))
+                        ->setAssists(intval($standars[$i]['Ast'] ?? 0))
                         ->setPkMade(intval($standars[$i]['PK'] ?? 0))
                         ->setPkAttempted(intval($standars[$i]['PKatt'] ?? 0))
                         ->setYellowCard(intval($standars[$i]['CrdY'] ?? 0))
@@ -1277,8 +1304,8 @@ class importCommand extends Command
                   ->setNutmegs(intval($miscellaneous[$i]['Megs'] ?? 0))
                   ->setSecondYellowCard($miscellaneous[$i]['2CrdY'])
                   ->setArialDuelsWon($miscellaneous[$i]['Won'])
-                  ->setArialDuelsLost($miscellaneous[$i]['Lost'])
-                  ->setArialDuelsCompletion($miscellaneous[$i]['Won%']);
+                  ->setArialDuelsLost(intval($miscellaneous[$i]['Lost']))
+                  ->setArialDuelsCompletion(intval($miscellaneous[$i]['Won%']));
                      break;
                   }
                }
@@ -1340,8 +1367,8 @@ class importCommand extends Command
 
       $io->title('import on loading...');
 
-      $this->import('Spain');
-      $this->import('England');
+      // $this->import('Spain');
+      // $this->import('England');
       $this->import('Italy');
       $this->import('France');
       $this->import('Germany');

@@ -160,26 +160,26 @@ class importCommand extends Command
                   ->setOpaPerMatch($advancedGkTeams[$fakeIndex]['Sweeper-#OPA/90'])
                   ->setAverageDistance($advancedGkTeams[$fakeIndex]['Sweeper-AvgDist'])
                   /////shooting
-                  ->setShootOnTarget(intval($shootingTeams[$fakeIndex]['SoT']))
-                  ->setShootFromFreeKick(intval($shootingTeams[$fakeIndex]['FK']))
-                  ->setShootOnTargetPercent(intval($shootingTeams[$fakeIndex]['SoT%']))
-                  ->setShootPer90Minutes(intval($shootingTeams[$fakeIndex]['Sh/90']))
-                  ->setShootOnTargetPer90Minutes(intval($shootingTeams[$fakeIndex]['SoT/90']))
-                  ->setGoalPerShoot(intval($shootingTeams[$fakeIndex]['G/Sh']))
-                  ->setGoalPerShootOnTarget(intval($shootingTeams[$fakeIndex]['G/SoT']))
+                  ->setShootOnTarget(intval($shootingTeams[$fakeIndex]['Standard-SoT']))
+                  ->setShootFromFreeKick(intval($shootingTeams[$fakeIndex]['Standard-FK']))
+                  ->setShootOnTargetPercent(intval($shootingTeams[$fakeIndex]['Standard-SoT%']))
+                  ->setShootPer90Minutes(intval($shootingTeams[$fakeIndex]['Standard-Sh/90']))
+                  ->setShootOnTargetPer90Minutes(intval($shootingTeams[$fakeIndex]['Standard-SoT/90']))
+                  ->setGoalPerShoot(intval($shootingTeams[$fakeIndex]['Standard-G/Sh']))
+                  ->setGoalPerShootOnTarget(intval($shootingTeams[$fakeIndex]['Standard-G/SoT']))
                   //passing
-                  ->setPassesCompleted($passingTeams[$fakeIndex]['Cmp'])
-                  ->setPassesAttempted($passingTeams[$fakeIndex]['Att'])
-                  ->setPassCompletion($passingTeams[$fakeIndex]['CmpPER'])
-                  ->setShortPassCompleted($passingTeams[$fakeIndex]['shortCmp'])
-                  ->setShortPassAttempted($passingTeams[$fakeIndex]['shortAtt'])
-                  ->setShortPassCompletion($passingTeams[$fakeIndex]['shortCmpPER'])
-                  ->setMediumPassCompleted($passingTeams[$fakeIndex]['mediumCmp'])
-                  ->setMediumPassAttempted($passingTeams[$fakeIndex]['mediumAtt'])
-                  ->setMediumPassCompletion($passingTeams[$fakeIndex]['mediumCmpPER'])
-                  ->setLongPassCompleted($passingTeams[$fakeIndex]['longCmp'])
-                  ->setLongPassAttempted($passingTeams[$fakeIndex]['longAtt'])
-                  ->setLongPassCompletion($passingTeams[$fakeIndex]['longCmpPER'])
+                  ->setPassesCompleted($passingTeams[$fakeIndex]['Total-Cmp'])
+                  ->setPassesAttempted($passingTeams[$fakeIndex]['Total-Att'])
+                  ->setPassCompletion($passingTeams[$fakeIndex]['Total-Cmp%'])
+                  ->setShortPassCompleted($passingTeams[$fakeIndex]['Short-Cmp'])
+                  ->setShortPassAttempted($passingTeams[$fakeIndex]['Short-Att'])
+                  ->setShortPassCompletion($passingTeams[$fakeIndex]['Short-Cmp%'])
+                  ->setMediumPassCompleted($passingTeams[$fakeIndex]['Medium-Cmp'])
+                  ->setMediumPassAttempted($passingTeams[$fakeIndex]['Medium-Att'])
+                  ->setMediumPassCompletion($passingTeams[$fakeIndex]['Medium-Cmp%'])
+                  ->setLongPassCompleted($passingTeams[$fakeIndex]['Long-Cmp'])
+                  ->setLongPassAttempted($passingTeams[$fakeIndex]['Long-Att'])
+                  ->setLongPassCompletion($passingTeams[$fakeIndex]['Long-Cmp%'])
                   //->setPassAttemptedFromFK($passingTeams[$fakeIndex]['FK'])
                   ->setCornerKicks($passingTeams[$fakeIndex]['CK'])
                   ->setThrowInsTaken($passingTeams[$fakeIndex]['TI'])
@@ -281,26 +281,26 @@ class importCommand extends Command
                      ->setOpaPerMatch($advancedGkTeams[$fakeIndex]['#OPA/90'])
                      ->setAverageDistance($advancedGkTeams[$fakeIndex]['AvgDist'])
                      //shooting
-                     ->setShootOnTarget(intval($shootingTeams[$fakeIndex]['SoT']))
-                     ->setShootFromFreeKick(intval($shootingTeams[$fakeIndex]['FK']))
-                     ->setShootOnTargetPercent(intval($shootingTeams[$fakeIndex]['SoT%']))
-                     ->setShootPer90Minutes(intval($shootingTeams[$fakeIndex]['Sh/90']))
-                     ->setShootOnTargetPer90Minutes(intval($shootingTeams[$fakeIndex]['SoT/90']))
-                     ->setGoalPerShoot(intval($shootingTeams[$fakeIndex]['G/Sh']))
-                     ->setGoalPerShootOnTarget(intval($shootingTeams[$fakeIndex]['G/SoT']))
+                     ->setShootOnTarget(intval($shootingTeams[$fakeIndex]['Standard-SoT']))
+                     ->setShootFromFreeKick(intval($shootingTeams[$fakeIndex]['Standard-FK']))
+                     ->setShootOnTargetPercent(intval($shootingTeams[$fakeIndex]['Standard-SoT%']))
+                     ->setShootPer90Minutes(intval($shootingTeams[$fakeIndex]['Standard-Sh/90']))
+                     ->setShootOnTargetPer90Minutes(intval($shootingTeams[$fakeIndex]['Standard-SoT/90']))
+                     ->setGoalPerShoot(intval($shootingTeams[$fakeIndex]['Standard-G/Sh']))
+                     ->setGoalPerShootOnTarget(intval($shootingTeams[$fakeIndex]['Standard-G/SoT']))
                      //passing
-                     ->setPassesCompleted($passingTeams[$fakeIndex]['Cmp'])
-                     ->setPassesAttempted($passingTeams[$fakeIndex]['Att'])
-                     ->setPassCompletion($passingTeams[$fakeIndex]['CmpPER'])
-                     ->setShortPassCompleted($passingTeams[$fakeIndex]['shortCmp'])
-                     ->setShortPassAttempted($passingTeams[$fakeIndex]['shortAtt'])
-                     ->setShortPassCompletion($passingTeams[$fakeIndex]['shortCmpPER'])
-                     ->setMediumPassCompleted($passingTeams[$fakeIndex]['mediumCmp'])
-                     ->setMediumPassAttempted($passingTeams[$fakeIndex]['mediumAtt'])
-                     ->setMediumPassCompletion($passingTeams[$fakeIndex]['mediumCmpPER'])
-                     ->setLongPassCompleted($passingTeams[$fakeIndex]['longCmp'])
-                     ->setLongPassAttempted($passingTeams[$fakeIndex]['longAtt'])
-                     ->setLongPassCompletion($passingTeams[$fakeIndex]['longCmpPER'])
+                     ->setPassesCompleted($passingTeams[$fakeIndex]['Total-Cmp'])
+                     ->setPassesAttempted($passingTeams[$fakeIndex]['Total-Att'])
+                     ->setPassCompletion($passingTeams[$fakeIndex]['Total-Cmp%'])
+                     ->setShortPassCompleted($passingTeams[$fakeIndex]['Short-Cmp'])
+                     ->setShortPassAttempted($passingTeams[$fakeIndex]['Short-Att'])
+                     ->setShortPassCompletion($passingTeams[$fakeIndex]['Short-Cmp%'])
+                     ->setMediumPassCompleted($passingTeams[$fakeIndex]['Medium-Cmp'])
+                     ->setMediumPassAttempted($passingTeams[$fakeIndex]['Medium-Att'])
+                     ->setMediumPassCompletion($passingTeams[$fakeIndex]['Medium-Cmp%'])
+                     ->setLongPassCompleted($passingTeams[$fakeIndex]['Long-Cmp'])
+                     ->setLongPassAttempted($passingTeams[$fakeIndex]['Long-Att'])
+                     ->setLongPassCompletion($passingTeams[$fakeIndex]['Long-Cmp%'])
                      //->setPassAttemptedFromFK($passingTeams[$fakeIndex]['FK'])
                      //->setThroughBalls($passingTeams[$fakeIndex]['TB'])
                      ->setCornerKicks($passingTeams[$fakeIndex]['CK'])
@@ -399,25 +399,25 @@ class importCommand extends Command
                      ->setOpa($verify->getOpa() + $advancedGkTeams[$fakeIndex]['#OPA'])
                      ->setOpaPerMatch(($verify->getOpaPerMatch() + $advancedGkTeams[$fakeIndex]['#OPA/90']) / 2)
                      ->setAverageDistance($verify->getAverageDistance() + $advancedGkTeams[$fakeIndex]['AvgDist'])
-                     ->setShootOnTarget($verify->getShootOnTarget() + $shootingTeams[$fakeIndex]['SoT'])
-                     ->setShootFromFreeKick($verify->getShootFromFreeKick() + $shootingTeams[$fakeIndex]['FK'])
-                     ->setShootOnTargetPercent(($verify->getShootOnTargetPercent() + $shootingTeams[$fakeIndex]['SoT%']) / 2)
-                     ->setShootPer90Minutes(($verify->getShootPer90Minutes() + $shootingTeams[$fakeIndex]['Sh/90']) / 2)
-                     ->setShootOnTargetPer90Minutes(($verify->getShootOnTargetPer90Minutes() + $shootingTeams[$fakeIndex]['SoT/90']) / 2)
-                     ->setGoalPerShoot($verify->getGoalPerShoot() + $shootingTeams[$fakeIndex]['G/Sh'])
-                     ->setGoalPerShootOnTarget($verify->getGoalPerShootOnTarget() + $shootingTeams[$fakeIndex]['G/SoT'])
-                     ->setPassesCompleted($verify->getPassesCompleted() + $passingTeams[$fakeIndex]['Cmp'])
-                     ->setPassesAttempted($verify->getPassesAttempted() + $passingTeams[$fakeIndex]['Att'])
-                     ->setPassCompletion(($verify->getPassCompletion() + $passingTeams[$fakeIndex]['CmpPER']) / 2)
-                     ->setShortPassCompleted($verify->getShortPassCompleted() + $passingTeams[$fakeIndex]['shortCmp'])
-                     ->setShortPassAttempted($verify->getShortPassAttempted() + $passingTeams[$fakeIndex]['shortAtt'])
-                     ->setShortPassCompletion(($verify->getShortPassCompletion() + $passingTeams[$fakeIndex]['shortCmpPER']) / 2)
-                     ->setMediumPassCompleted($verify->getMediumPassCompleted() + $passingTeams[$fakeIndex]['mediumCmp'])
-                     ->setMediumPassAttempted($verify->getMediumPassAttempted() + $passingTeams[$fakeIndex]['mediumAtt'])
-                     ->setMediumPassCompletion(($verify->getMediumPassCompletion() + $passingTeams[$fakeIndex]['mediumCmpPER']) / 2)
-                     ->setLongPassCompleted($verify->getLongPassCompleted() + $passingTeams[$fakeIndex]['longCmp'])
-                     ->setLongPassAttempted($verify->getLongPassAttempted() + $passingTeams[$fakeIndex]['longAtt'])
-                     ->setLongPassCompletion(($verify->getLongPassCompletion() + $passingTeams[$fakeIndex]['longCmpPER']) / 2)
+                     ->setShootOnTarget($verify->getShootOnTarget() + $shootingTeams[$fakeIndex]['Standard-SoT'])
+                     ->setShootFromFreeKick($verify->getShootFromFreeKick() + $shootingTeams[$fakeIndex]['Standard-FK'])
+                     ->setShootOnTargetPercent(($verify->getShootOnTargetPercent() + $shootingTeams[$fakeIndex]['Standard-SoT%']) / 2)
+                     ->setShootPer90Minutes(($verify->getShootPer90Minutes() + $shootingTeams[$fakeIndex]['Standard-Sh/90']) / 2)
+                     ->setShootOnTargetPer90Minutes(($verify->getShootOnTargetPer90Minutes() + $shootingTeams[$fakeIndex]['Standard-SoT/90']) / 2)
+                     ->setGoalPerShoot($verify->getGoalPerShoot() + $shootingTeams[$fakeIndex]['Standard-G/Sh'])
+                     ->setGoalPerShootOnTarget($verify->getGoalPerShootOnTarget() + $shootingTeams[$fakeIndex]['Standard-G/SoT'])
+                     ->setPassesCompleted($verify->getPassesCompleted() + $passingTeams[$fakeIndex]['Total-Cmp'])
+                     ->setPassesAttempted($verify->getPassesAttempted() + $passingTeams[$fakeIndex]['Total-Att'])
+                     ->setPassCompletion(($verify->getPassCompletion() + $passingTeams[$fakeIndex]['Total-Cmp%']) / 2)
+                     ->setShortPassCompleted($verify->getShortPassCompleted() + $passingTeams[$fakeIndex]['Short-Cmp'])
+                     ->setShortPassAttempted($verify->getShortPassAttempted() + $passingTeams[$fakeIndex]['Short-Att'])
+                     ->setShortPassCompletion(($verify->getShortPassCompletion() + $passingTeams[$fakeIndex]['Short-Cmp%']) / 2)
+                     ->setMediumPassCompleted($verify->getMediumPassCompleted() + $passingTeams[$fakeIndex]['Medium-Cmp'])
+                     ->setMediumPassAttempted($verify->getMediumPassAttempted() + $passingTeams[$fakeIndex]['Medium-Att'])
+                     ->setMediumPassCompletion(($verify->getMediumPassCompletion() + $passingTeams[$fakeIndex]['Medium-Cmp%']) / 2)
+                     ->setLongPassCompleted($verify->getLongPassCompleted() + $passingTeams[$fakeIndex]['Long-Cmp'])
+                     ->setLongPassAttempted($verify->getLongPassAttempted() + $passingTeams[$fakeIndex]['Long-Att'])
+                     ->setLongPassCompletion(($verify->getLongPassCompletion() + $passingTeams[$fakeIndex]['Long-Cmp%']) / 2)
                      ->setPassAttemptedFromFK($verify->getPassAttemptedFromFK() + $typePassTeams[$fakeIndex]['FK'])
                      ->setCornerKicks($verify->getCornerKicks() + $passingTeams[$fakeIndex]['CK'])
                      ->setThrowInsTaken($verify->getThrowInsTaken() + $passingTeams[$fakeIndex]['TI'])
@@ -598,12 +598,12 @@ class importCommand extends Command
          if ($dir == 'CL' || $dir == 'EL') $squad = explode(' ', $row['Squad'], 2)[1];
          else $squad = $row['Squad'];
 
-         $name = explode("\\", $row['name'], 2)[1];
+         $name = explode("\\", $row['Player'], 2)[1];
          $verify = $this->em->getRepository(Player::class)
             ->findOneBy([
                'Name' => $name,
                'born' => $row['born'],
-               'position' =>  $row['position'],
+               'position' =>  $row['Pos'],
                'squad' => $squad
             ]);
 
@@ -612,10 +612,10 @@ class importCommand extends Command
             $player = (new player())
                ->setIdPlayer($comp)
                ->setName($name)
-               ->setNation($row['nation'])
-               ->setPosition($row['position'])
+               ->setNation($row['Nation'])
+               ->setPosition($row['Pos'])
                ->setSquad($squad)
-               ->setAge(intval($row['age']))
+               ->setAge(intval($row['Age']))
                ->setBorn(intval($row['born']))
                ->setMinutesPlayed(intval($row['Min']))
                ->setMinutesPercentPlayed(floatval($row['Min%']))
@@ -723,7 +723,7 @@ class importCommand extends Command
             if ($index > count($standars) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $standars[$index]['name']) {
+            if ($row['Player'] == $standars[$index]['Player']) {
 
                $player->setMatchsPlayed(intval($standars[$index]['MP'] ?? 0))
                   ->setMatchStarts(intval($standars[$index]['Starts'] ?? 0))
@@ -750,7 +750,7 @@ class importCommand extends Command
             } else {
                for ($i = 0; $i <= count($standars) - 1; $i++) {
 
-                  if ($row['name'] == $standars[$i]['name']) {
+                  if ($row['Player'] == $standars[$i]['Player']) {
 
                      $player->setMatchsPlayed(intval($standars[$i]['MP'] ?? 0))
                         ->setMatchStarts(intval($standars[$i]['Starts'] ?? 0))
@@ -783,28 +783,28 @@ class importCommand extends Command
             if ($index > count($shooting) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $shooting[$index]['name']) {
-               $player->setShoots(intval($shooting[$index]['Sh'] ?? 0))
-                  ->setShootsOnTarget(intval($shooting[$index]['SoT'] ?? 0))
-                  ->setShootsFromFrKc(intval($shooting[$index]['FK'] ?? 0))
-                  ->setShootsOnTargetPc(floatval($shooting[$index]['SoT%'] ?? 0.0))
-                  ->setShootsPerMatch(floatval($shooting[$index]['Sh/90'] ?? 0.0))
-                  ->setShootsOnTargetPerMatch(floatval($shooting[$index]['SoT/90'] ?? 0.0))
-                  ->setGoalsPerShoot(floatval($shooting[$index]['G/Sh'] ?? 0.0))
-                  ->setGoalPerShootOnTarget(floatval($shooting[$index]['G/SoT'] ?? 0.0));
+            if ($row['Player'] == $shooting[$index]['Player']) {
+               $player->setShoots(intval($shooting[$index]['Standard-Sh'] ?? 0))
+                  ->setShootsOnTarget(intval($shooting[$index]['Standard-SoT'] ?? 0))
+                  ->setShootsFromFrKc(intval($shooting[$index]['Standard-FK'] ?? 0))
+                  ->setShootsOnTargetPc(floatval($shooting[$index]['Standard-SoT%'] ?? 0.0))
+                  ->setShootsPerMatch(floatval($shooting[$index]['Standard-Sh/90'] ?? 0.0))
+                  ->setShootsOnTargetPerMatch(floatval($shooting[$index]['Standard-SoT/90'] ?? 0.0))
+                  ->setGoalsPerShoot(floatval($shooting[$index]['Standard-G/Sh'] ?? 0.0))
+                  ->setGoalPerShootOnTarget(floatval($shooting[$index]['Standard-G/SoT'] ?? 0.0));
             } else {
                for ($i = 0; $i <= count($shooting) - 1; $i++) {
 
-                  if ($row['name'] == $shooting[$i]['name']) {
+                  if ($row['Player'] == $shooting[$i]['Player']) {
 
-                     $player->setShoots(intval($shooting[$i]['Sh'] ?? 0))
-                        ->setShootsOnTarget(intval($shooting[$i]['SoT'] ?? 0))
-                        ->setShootsFromFrKc(intval($shooting[$i]['FK'] ?? 0))
-                        ->setShootsOnTargetPc(floatval($shooting[$i]['SoT%'] ?? 0.0))
-                        ->setShootsPerMatch(floatval($shooting[$i]['Sh/90'] ?? 0.0))
-                        ->setShootsOnTargetPerMatch(floatval($shooting[$i]['SoT/90'] ?? 0.0))
-                        ->setGoalsPerShoot(floatval($shooting[$i]['G/Sh'] ?? 0.0))
-                        ->setGoalPerShootOnTarget(floatval($shooting[$i]['G/SoT'] ?? 0.0));
+                     $player->setShoots(intval($shooting[$i]['Standard-Sh'] ?? 0))
+                        ->setShootsOnTarget(intval($shooting[$i]['Standard-SoT'] ?? 0))
+                        ->setShootsFromFrKc(intval($shooting[$i]['Standard-FK'] ?? 0))
+                        ->setShootsOnTargetPc(floatval($shooting[$i]['Standard-SoT%'] ?? 0.0))
+                        ->setShootsPerMatch(floatval($shooting[$i]['Standard-Sh/90'] ?? 0.0))
+                        ->setShootsOnTargetPerMatch(floatval($shooting[$i]['Standard-SoT/90'] ?? 0.0))
+                        ->setGoalsPerShoot(floatval($shooting[$i]['Standard-G/Sh'] ?? 0.0))
+                        ->setGoalPerShootOnTarget(floatval($shooting[$i]['Standard-G/SoT'] ?? 0.0));
                      break;
                   }
                }
@@ -817,20 +817,20 @@ class importCommand extends Command
             if ($index > count($passing) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $passing[$index]['name']) {
+            if ($row['Player'] == $passing[$index]['Player']) {
                $player->setKeyPasses(intval($passing[$index]['KP'] ?? 0))
-                  ->setPassesCompleted(intval($passing[$index]['Cmp'] ?? 0))
-                  ->setPassesAttempted(intval($passing[$index]['Att'] ?? 0))
-                  ->setPassCompPercent(floatval($passing[$index]['CmpPER'] ?? 0.0))
-                  ->setShortPassesCompleted(intval($passing[$index]['shortCmp'] ?? 0))
-                  ->setShortpassesAttempted(intval($passing[$index]['shortAtt'] ?? 0))
-                  ->setShortPassesCompPercent(floatval($passing[$index]['shortCmpPER'] ?? 0.0))
-                  ->setMediumPassesCompleted(intval($passing[$index]['mediumCmp'] ?? 0))
-                  ->setMediumPassesAttempted(intval($passing[$index]['mediumAtt'] ?? 0))
-                  ->setMediumPassesCompPercent(floatval($passing[$index]['mediumCmpPER'] ?? 0.0))
-                  ->setLongPassCompleted(intval($passing[$index]['longCmp'] ?? 0))
-                  ->setLongPassesAttempted(intval($passing[$index]['longAtt'] ?? 0))
-                  ->setLongPassesCompPercent(floatval($passing[$index]['longCmpPER'] ?? 0.0))
+                  ->setPassesCompleted(intval($passing[$index]['Total-Cmp'] ?? 0))
+                  ->setPassesAttempted(intval($passing[$index]['Total-Att'] ?? 0))
+                  ->setPassCompPercent(floatval($passing[$index]['Total-Cmp%'] ?? 0.0))
+                  ->setShortPassesCompleted(intval($passing[$index]['Short-Cmp'] ?? 0))
+                  ->setShortpassesAttempted(intval($passing[$index]['Short-Att'] ?? 0))
+                  ->setShortPassesCompPercent(floatval($passing[$index]['Short-Cmp%'] ?? 0.0))
+                  ->setMediumPassesCompleted(intval($passing[$index]['Medium-Cmp'] ?? 0))
+                  ->setMediumPassesAttempted(intval($passing[$index]['Medium-Att'] ?? 0))
+                  ->setMediumPassesCompPercent(floatval($passing[$index]['Medium-Cmp%'] ?? 0.0))
+                  ->setLongPassCompleted(intval($passing[$index]['Long-Cmp'] ?? 0))
+                  ->setLongPassesAttempted(intval($passing[$index]['Long-Att'] ?? 0))
+                  ->setLongPassesCompPercent(floatval($passing[$index]['Long-Cmp%'] ?? 0.0))
                   ->setPassCompletedFinalThird(intval($passing[$index]['1/3'] ?? 0))
                   ->setPassCompletedPenaltyArea(intval($passing[$index]['PPA'] ?? 0))
                   //->setThroughBalls(intval($passing[$index]['TB'] ?? 0))
@@ -838,20 +838,20 @@ class importCommand extends Command
             } else {
                for ($i = 0; $i <= count($passing) - 1; $i++) {
 
-                  if ($row['name'] == $passing[$i]['name']) {
+                  if ($row['Player'] == $passing[$i]['Player']) {
                      $player->setKeyPasses(intval($passing[$i]['KP'] ?? 0))
-                        ->setPassesCompleted(intval($passing[$i]['Cmp'] ?? 0))
-                        ->setPassesAttempted(intval($passing[$i]['Att'] ?? 0))
-                        ->setPassCompPercent(floatval($passing[$i]['CmpPER'] ?? 0.0))
-                        ->setShortPassesCompleted(intval($passing[$i]['shortCmp'] ?? 0))
-                        ->setShortpassesAttempted(intval($passing[$i]['shortAtt'] ?? 0))
-                        ->setShortPassesCompPercent(floatval($passing[$i]['shortCmpPER'] ?? 0.0))
-                        ->setMediumPassesCompleted(intval($passing[$i]['mediumCmp'] ?? 0))
-                        ->setMediumPassesAttempted(intval($passing[$i]['mediumAtt'] ?? 0))
-                        ->setMediumPassesCompPercent(floatval($passing[$i]['mediumCmpPER'] ?? 0.0))
-                        ->setLongPassCompleted(intval($passing[$i]['longCmp'] ?? 0))
-                        ->setLongPassesAttempted(intval($passing[$i]['longAtt'] ?? 0))
-                        ->setLongPassesCompPercent(floatval($passing[$i]['longCmpPER'] ?? 0.0))
+                        ->setPassesCompleted(intval($passing[$i]['Total-Cmp'] ?? 0))
+                        ->setPassesAttempted(intval($passing[$i]['Total-Att'] ?? 0))
+                        ->setPassCompPercent(floatval($passing[$i]['Total-Cmp%'] ?? 0.0))
+                        ->setShortPassesCompleted(intval($passing[$i]['Short-Cmp'] ?? 0))
+                        ->setShortpassesAttempted(intval($passing[$i]['Short-Att'] ?? 0))
+                        ->setShortPassesCompPercent(floatval($passing[$i]['Short-Cmp%'] ?? 0.0))
+                        ->setMediumPassesCompleted(intval($passing[$i]['Medium-Cmp'] ?? 0))
+                        ->setMediumPassesAttempted(intval($passing[$i]['Medium-Att'] ?? 0))
+                        ->setMediumPassesCompPercent(floatval($passing[$i]['Medium-Cmp%'] ?? 0.0))
+                        ->setLongPassCompleted(intval($passing[$i]['Long-Cmp'] ?? 0))
+                        ->setLongPassesAttempted(intval($passing[$i]['Long-Att'] ?? 0))
+                        ->setLongPassesCompPercent(floatval($passing[$i]['Long-Cmp%'] ?? 0.0))
                         ->setPassCompletedFinalThird(intval($passing[$i]['1/3'] ?? 0))
                         ->setPassCompletedPenaltyArea(intval($passing[$i]['PPA'] ?? 0))
                         //->setThroughBalls(intval($passing[$i]['TB'] ?? 0))
@@ -865,7 +865,7 @@ class importCommand extends Command
             if ($index > count($typePass) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $typePass[$index]['name']) {
+            if ($row['Player'] == $typePass[$index]['Player']) {
                $player->setLivePass(intval($typePass[$index]['KP'] ?? 0))
                   ->setDeadPasses(intval($typePass[$index]['Dead'] ?? 0))
                   ->setPressPasses(intval($typePass[$index]['Press'] ?? 0))
@@ -882,7 +882,7 @@ class importCommand extends Command
             } else {
                for ($i = 0; $i <= count($typePass) - 1; $i++) {
 
-                  if ($row['name'] == $typePass[$i]['name']) {
+                  if ($row['Player'] == $typePass[$i]['Player']) {
                      $player->setLivePass(intval($typePass[$i]['KP'] ?? 0))
                         ->setDeadPasses(intval($typePass[$i]['Dead'] ?? 0))
                         ->setPressPasses(intval($typePass[$i]['Press'] ?? 0))
@@ -905,7 +905,7 @@ class importCommand extends Command
             if ($index > count($defense) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $defense[$index]['name']) {
+            if ($row['Player'] == $defense[$index]['Player']) {
                $player->setTacklesWon(intval($defense[$index]['TklW'] ?? 0))
                   ->setInterceptions(intval($defense[$index]['Int'] ?? 0))
                   ->setPressures(intval($defense[$index]['Press'] ?? 0))
@@ -923,7 +923,7 @@ class importCommand extends Command
             } else {
                for ($i = 0; $i <= count($defense) - 1; $i++) {
 
-                  if ($row['name'] == $defense[$i]['name']) {
+                  if ($row['Player'] == $defense[$i]['Player']) {
                      $player->setTacklesWon(intval($defense[$i]['TklW'] ?? 0))
                         ->setInterceptions(intval($defense[$i]['Int'] ?? 0))
                         ->setPressures(intval($defense[$i]['Press'] ?? 0))
@@ -947,7 +947,7 @@ class importCommand extends Command
             if ($index > count($miscellaneous) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $miscellaneous[$index]['name']) {
+            if ($row['Player'] == $miscellaneous[$index]['Player']) {
 
                $player->setFoulsCommited(intval($miscellaneous[$index]['Fls'] ?? 0))
                   ->setFoulsDrawn(intval($miscellaneous[$index]['Fld'] ?? 0))
@@ -970,7 +970,7 @@ class importCommand extends Command
             } else {
                for ($i = 0; $i <= count($miscellaneous) - 1; $i++) {
 
-                  if ($row['name'] == $miscellaneous[$i]['name']) {
+                  if ($row['Player'] == $miscellaneous[$i]['Player']) {
 
                      $player->setFoulsCommited(intval($miscellaneous[$i]['Fls'] ?? 0))
                         ->setFoulsDrawn(intval($miscellaneous[$i]['Fld'] ?? 0))
@@ -999,7 +999,7 @@ class importCommand extends Command
            if ($index > count($possession) - 1) {
               $index = 0;
            }
-           if ($row['name'] == $possession[$index]['name']) {
+           if ($row['Player'] == $possession[$index]['Player']) {
               $player->setBallControlls(intval($possession[$index]['Carries'] ?? 0))
                  ->setBallControllsMoveDistance(intval($possession[$index]['TotDist'] ?? 0))
                  ->setBallControllsMoveDistanceProgressive(intval($possession[$index]['PrgDist'] ?? 0))
@@ -1012,7 +1012,7 @@ class importCommand extends Command
            } else {
               for ($i = 0; $i <= count($defense) - 1; $i++) {
 
-                 if ($row['name'] == $defense[$i]['name']) {
+                 if ($row['Player'] == $defense[$i]['Player']) {
                     $player->setBallControlls(intval($possession[$i]['Carries'] ?? 0))
                  ->setBallControllsMoveDistance(intval($possession[$i]['TotDist'] ?? 0))
                  ->setBallControllsMoveDistanceProgressive(intval($possession[$i]['PrgDist'] ?? 0))
@@ -1040,7 +1040,7 @@ class importCommand extends Command
             if ($index > count($standars) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $standars[$index]['name']) {
+            if ($row['Player'] == $standars[$index]['Player']) {
 
                $verify->setMatchsPlayed(intval($standars[$index]['MP'] ?? 0))
                   ->setMatchStarts(intval($standars[$index]['Starts'] ?? 0))
@@ -1068,7 +1068,7 @@ class importCommand extends Command
 
                for ($i = 0; $i <= count($standars) - 1; $i++) {
                   $comp++;
-                  if ($row['name'] == $standars[$i]['name']) {
+                  if ($row['Player'] == $standars[$i]['Player']) {
 
                      $verify->setMatchsPlayed(intval($standars[$i]['MP'] ?? 0))
                         ->setMatchStarts(intval($standars[$i]['Starts'] ?? 0))
@@ -1101,28 +1101,28 @@ class importCommand extends Command
             if ($index > count($shooting) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $shooting[$index]['name']) {
-               $verify->setShoots(intval($shooting[$index]['Sh'] ?? 0))
-                  ->setShootsOnTarget(intval($shooting[$index]['SoT'] ?? 0))
-                  ->setShootsFromFrKc(intval($shooting[$index]['FK'] ?? 0))
-                  ->setShootsOnTargetPc(floatval($shooting[$index]['SoT%'] ?? 0.0))
-                  ->setShootsPerMatch(floatval($shooting[$index]['Sh/90'] ?? 0.0))
-                  ->setShootsOnTargetPerMatch(floatval($shooting[$index]['SoT/90'] ?? 0.0))
-                  ->setGoalsPerShoot(floatval($shooting[$index]['G/Sh'] ?? 0.0))
-                  ->setGoalPerShootOnTarget(floatval($shooting[$index]['G/SoT'] ?? 0.0));
+            if ($row['Player'] == $shooting[$index]['Player']) {
+               $verify->setShoots(intval($shooting[$index]['Standard-Sh'] ?? 0))
+                  ->setShootsOnTarget(intval($shooting[$index]['Standard-SoT'] ?? 0))
+                  ->setShootsFromFrKc(intval($shooting[$index]['Standard-FK'] ?? 0))
+                  ->setShootsOnTargetPc(floatval($shooting[$index]['Standard-SoT%'] ?? 0.0))
+                  ->setShootsPerMatch(floatval($shooting[$index]['Standard-Sh/90'] ?? 0.0))
+                  ->setShootsOnTargetPerMatch(floatval($shooting[$index]['Standard-SoT/90'] ?? 0.0))
+                  ->setGoalsPerShoot(floatval($shooting[$index]['Standard-G/Sh'] ?? 0.0))
+                  ->setGoalPerShootOnTarget(floatval($shooting[$index]['Standard-G/SoT'] ?? 0.0));
             } else {
                for ($i = 0; $i <= count($shooting) - 1; $i++) {
 
-                  if ($row['name'] == $shooting[$i]['name']) {
+                  if ($row['Player'] == $shooting[$i]['Player']) {
 
-                     $verify->setShoots(intval($shooting[$i]['Sh'] ?? 0))
-                        ->setShootsOnTarget(intval($shooting[$i]['SoT'] ?? 0))
-                        ->setShootsFromFrKc(intval($shooting[$i]['FK'] ?? 0))
-                        ->setShootsOnTargetPc(floatval($shooting[$i]['SoT%'] ?? 0.0))
-                        ->setShootsPerMatch(floatval($shooting[$i]['Sh/90'] ?? 0.0))
-                        ->setShootsOnTargetPerMatch(floatval($shooting[$i]['SoT/90'] ?? 0.0))
-                        ->setGoalsPerShoot(floatval($shooting[$i]['G/Sh'] ?? 0.0))
-                        ->setGoalPerShootOnTarget(floatval($shooting[$i]['G/SoT'] ?? 0.0));
+                     $verify->setShoots(intval($shooting[$i]['Standard-Sh'] ?? 0))
+                        ->setShootsOnTarget(intval($shooting[$i]['Standard-SoT'] ?? 0))
+                        ->setShootsFromFrKc(intval($shooting[$i]['Standard-FK'] ?? 0))
+                        ->setShootsOnTargetPc(floatval($shooting[$i]['Standard-SoT%'] ?? 0.0))
+                        ->setShootsPerMatch(floatval($shooting[$i]['Standard-Sh/90'] ?? 0.0))
+                        ->setShootsOnTargetPerMatch(floatval($shooting[$i]['Standard-SoT/90'] ?? 0.0))
+                        ->setGoalsPerShoot(floatval($shooting[$i]['Standard-G/Sh'] ?? 0.0))
+                        ->setGoalPerShootOnTarget(floatval($shooting[$i]['Standard-G/SoT'] ?? 0.0));
                      break;
                   }
                }
@@ -1135,20 +1135,20 @@ class importCommand extends Command
             if ($index > count($passing) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $passing[$index]['name']) {
+            if ($row['Player'] == $passing[$index]['Player']) {
                $verify->setKeyPasses(intval($passing[$index]['KP']))
-                  ->setPassesCompleted(intval($passing[$index]['Cmp']))
-                  ->setPassesAttempted(intval($passing[$index]['Att'] ?? 0.0))
-                  ->setPassCompPercent(floatval($passing[$index]['CmpPER']))
-                  ->setShortPassesCompleted(intval($passing[$index]['shortCmp']))
-                  ->setShortpassesAttempted(intval($passing[$index]['shortAtt']))
-                  ->setShortPassesCompPercent(floatval($passing[$index]['shortCmpPER'] ?? 0.0))
-                  ->setMediumPassesCompleted(intval($passing[$index]['mediumCmp']))
-                  ->setMediumPassesAttempted(intval($passing[$index]['mediumAtt'] ?? 0))
-                  ->setMediumPassesCompPercent(floatval($passing[$index]['mediumCmpPER'] ?? 0.0))
-                  ->setLongPassCompleted(intval($passing[$index]['longCmp']))
-                  ->setLongPassesAttempted(intval($passing[$index]['longAtt']))
-                  ->setLongPassesCompPercent(floatval($passing[$index]['longCmpPER'] ?? 0.0))
+                  ->setPassesCompleted(intval($passing[$index]['Total-Cmp']))
+                  ->setPassesAttempted(intval($passing[$index]['Total-Att'] ?? 0.0))
+                  ->setPassCompPercent(floatval($passing[$index]['Total-Cmp%']))
+                  ->setShortPassesCompleted(intval($passing[$index]['Short-Cmp']))
+                  ->setShortpassesAttempted(intval($passing[$index]['Short-Att']))
+                  ->setShortPassesCompPercent(floatval($passing[$index]['Short-Cmp%'] ?? 0.0))
+                  ->setMediumPassesCompleted(intval($passing[$index]['Medium-Cmp']))
+                  ->setMediumPassesAttempted(intval($passing[$index]['Medium-Att'] ?? 0))
+                  ->setMediumPassesCompPercent(floatval($passing[$index]['Medium-Cmp%'] ?? 0.0))
+                  ->setLongPassCompleted(intval($passing[$index]['Long-Cmp']))
+                  ->setLongPassesAttempted(intval($passing[$index]['Long-Att']))
+                  ->setLongPassesCompPercent(floatval($passing[$index]['Long-Cmp%'] ?? 0.0))
                   ->setPassCompletedFinalThird(intval($passing[$index]['1/3'] ?? 0))
                   ->setPassCompletedPenaltyArea(intval($passing[$index]['PPA'] ?? 0))
                   //->setThroughBalls(intval($passing[$index]['TB'] ?? 0))
@@ -1156,20 +1156,20 @@ class importCommand extends Command
             } else {
                for ($i = 0; $i <= count($passing) - 1; $i++) {
 
-                  if ($row['name'] == $passing[$i]['name']) {
+                  if ($row['Player'] == $passing[$i]['Player']) {
                      $verify->setKeyPasses(intval($passing[$i]['KP']))
-                        ->setPassesCompleted(intval($passing[$i]['Cmp']))
-                        ->setPassesAttempted(intval($passing[$i]['Att']))
-                        ->setPassCompPercent(floatval($passing[$i]['CmpPER'] ?? 0.0))
-                        ->setShortPassesCompleted(intval($passing[$i]['shortCmp']))
-                        ->setShortpassesAttempted(intval($passing[$i]['shortAtt']))
-                        ->setShortPassesCompPercent(floatval($passing[$i]['shortCmpPER'] ?? 0.0))
-                        ->setMediumPassesCompleted(intval($passing[$i]['mediumCmp']))
-                        ->setMediumPassesAttempted(intval($passing[$i]['mediumAtt']))
-                        ->setMediumPassesCompPercent(floatval($passing[$i]['mediumCmpPER'] ?? 0.0))
-                        ->setLongPassCompleted(intval($passing[$i]['longCmp']))
-                        ->setLongPassesAttempted(intval($passing[$i]['longAtt']))
-                        ->setLongPassesCompPercent(floatval($passing[$i]['longCmpPER'] ?? 0.0))
+                        ->setPassesCompleted(intval($passing[$i]['Total-Cmp']))
+                        ->setPassesAttempted(intval($passing[$i]['Total-Att']))
+                        ->setPassCompPercent(floatval($passing[$i]['Total-Cmp%'] ?? 0.0))
+                        ->setShortPassesCompleted(intval($passing[$i]['Short-Cmp']))
+                        ->setShortpassesAttempted(intval($passing[$i]['Short-Att']))
+                        ->setShortPassesCompPercent(floatval($passing[$i]['Short-Cmp%'] ?? 0.0))
+                        ->setMediumPassesCompleted(intval($passing[$i]['Medium-Cmp']))
+                        ->setMediumPassesAttempted(intval($passing[$i]['Medium-Att']))
+                        ->setMediumPassesCompPercent(floatval($passing[$i]['Medium-Cmp%'] ?? 0.0))
+                        ->setLongPassCompleted(intval($passing[$i]['Long-Cmp']))
+                        ->setLongPassesAttempted(intval($passing[$i]['Long-Att']))
+                        ->setLongPassesCompPercent(floatval($passing[$i]['Long-Cmp%'] ?? 0.0))
                         ->setPassCompletedFinalThird(intval($passing[$i]['1/3']))
                         ->setPassCompletedPenaltyArea(intval($passing[$i]['PPA']))
                         //->setThroughBalls(intval($passing[$i]['TB'] ?? 0))
@@ -1184,7 +1184,7 @@ class importCommand extends Command
             if ($index > count($typePass) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $typePass[$index]['name']) {
+            if ($row['Player'] == $typePass[$index]['Player']) {
                $verify->setLivePass(intval($typePass[$index]['KP'] ?? 0))
                   ->setDeadPasses(intval($typePass[$index]['Dead'] ?? 0))
                   ->setPressPasses(intval($typePass[$index]['Press'] ?? 0))
@@ -1201,7 +1201,7 @@ class importCommand extends Command
             } else {
                for ($i = 0; $i <= count($typePass) - 1; $i++) {
 
-                  if ($row['name'] == $typePass[$i]['name']) {
+                  if ($row['Player'] == $typePass[$i]['Player']) {
                      $verify->setLivePass(intval($typePass[$i]['KP'] ?? 0))
                         ->setDeadPasses(intval($typePass[$i]['Dead'] ?? 0))
                         ->setPressPasses(intval($typePass[$i]['Press'] ?? 0))
@@ -1225,7 +1225,7 @@ class importCommand extends Command
             if ($index > count($defense) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $defense[$index]['name']) {
+            if ($row['Player'] == $defense[$index]['Player']) {
                $verify->setTacklesWon(intval($defense[$index]['TklW'] ?? 0))
                   ->setInterceptions(intval($defense[$index]['Int'] ?? 0))
                   ->setPressures(intval($defense[$index]['Press'] ?? 0))
@@ -1240,7 +1240,7 @@ class importCommand extends Command
             } else {
                for ($i = 0; $i <= count($defense) - 1; $i++) {
 
-                  if ($row['name'] == $defense[$i]['name']) {
+                  if ($row['Player'] == $defense[$i]['Player']) {
                      $verify->setTacklesWon(intval($defense[$i]['TklW'] ?? 0))
                         ->setInterceptions(intval($defense[$i]['Int'] ?? 0))
                         ->setPressures(intval($defense[$i]['Press'] ?? 0))
@@ -1263,7 +1263,7 @@ class importCommand extends Command
             if ($index > count($miscellaneous) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $miscellaneous[$index]['name']) {
+            if ($row['Player'] == $miscellaneous[$index]['Player']) {
 
                $verify->setFoulsCommited(intval($miscellaneous[$index]['Fls'] ?? 0))
                   ->setFoulsDrawn(intval($miscellaneous[$index]['Fld'] ?? 0))
@@ -1286,7 +1286,7 @@ class importCommand extends Command
             } else {
                for ($i = 0; $i <= count($miscellaneous) - 1; $i++) {
 
-                  if ($row['name'] == $miscellaneous[$i]['name']) {
+                  if ($row['Player'] == $miscellaneous[$i]['Player']) {
 
                      $verify->setFoulsCommited(intval($miscellaneous[$i]['Fls'] ?? 0))
                   ->setFoulsDrawn(intval($miscellaneous[$i]['Fld'] ?? 0))
@@ -1315,7 +1315,7 @@ class importCommand extends Command
             if ($index > count($possession) - 1) {
                $index = 0;
             }
-            if ($row['name'] == $possession[$index]['name']) {
+            if ($row['Player'] == $possession[$index]['Player']) {
                $verify->setBallControlls(intval($possession[$index]['Carries'] ?? 0))
                ->setBallControllsMoveDistance(intval($possession[$index]['TotDist'] ?? 0))
                ->setBallControllsMoveDistanceProgressive(intval($possession[$index]['PrgDist'] ?? 0))
@@ -1327,7 +1327,7 @@ class importCommand extends Command
             } else {
                for ($i = 0; $i <= count($defense) - 1; $i++) {
 
-                  if ($row['name'] == $defense[$i]['name']) {
+                  if ($row['Player'] == $defense[$i]['Player']) {
                      $verify->setBallControlls(intval($possession[$i]['Carries'] ?? 0))
                      ->setBallControllsMoveDistance(intval($possession[$i]['TotDist'] ?? 0))
                      ->setBallControllsMoveDistanceProgressive(intval($possession[$i]['PrgDist'] ?? 0))

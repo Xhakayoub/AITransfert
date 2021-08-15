@@ -57,7 +57,7 @@ class ExtractDataFromWeb
         $data = json_decode($data, JSON_UNESCAPED_UNICODE);
 
         foreach ($data as $index => $item) {
-            echo $index . "\n";
+            echo "hello " . $index . "\n";
             switch ($index) {
                 case "Ligue-1-Stats":
                     $dir = "France";
@@ -82,84 +82,87 @@ class ExtractDataFromWeb
                     break;
             }
             foreach ($item as $fakeindex => $element) {
+                echo "Racine - " . $fakeindex . "\n";
                 switch ($fakeindex) {
                     case "standard":
                         $type = "standard";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "playing_time":
                         $type = "timming";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "keeper":
                         $type = "gk";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "keeper_adv":
                         $type = "ad_gk";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "shooting":
                         $type = "shooting";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "passing":
                         $type = "passing";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "misc":
                         $type = "miscellaneous";
-                        echo $type;
+                        echo "-----" . $type . "\n";
+                        break;
                     case "passing_types":
                         $type = "pass_type";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "defense":
                         $type = "defense";
-                        echo $type;
+                        echo "-----" . $type . "\n";
+                        break;
                     case "possession":
                         $type = "possession";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "squad standard":
                         $type = "standard_team";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "squad playing_time":
                         $type = "timming_team";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "squad keeper":
                         $type = "gk_team";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "squad keeper_adv":
                         $type = "ad_gk_team";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "squad shooting":
                         $type = "shooting_team";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "squad passing":
                         $type = "passing_team";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "squad misc":
                         $type = "miscellaneous_team";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "squad passing_types":
                         $type = "pass_type_team";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "squad defense":
                         $type = "defense_team";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                     case "squad possession":
                         $type = "possession_team";
-                        echo $type;
+                        echo "-----" . $type . "\n";
                         break;
                 }
                 // echo $element . "\n";
@@ -184,7 +187,7 @@ class ExtractDataFromWeb
                 $csvHeader2 = explode(";", $array[1]);
                 $correctHeader = '';
                 foreach ($csvHeader as $key => $value) {
-                   ($value !== '') ? $correctHeader = $correctHeader . ($value . '-' . $csvHeader2[$key]) . ';' : $correctHeader = $correctHeader. $csvHeader2[$key] . ';';
+                    ($value !== '') ? $correctHeader = $correctHeader . ($value . '-' . $csvHeader2[$key]) . ';' : $correctHeader = $correctHeader . $csvHeader2[$key] . ';';
                 }
 
                 // on remplace la premier ligne par le resultat du fusion et on supprime la deuxieme ligne
@@ -192,12 +195,12 @@ class ExtractDataFromWeb
 
                 // on decale les autre element de notre array si la deuxieme ligne reste vide 
                 if ($firstCount === count($array)) {
-                    unset($array[1]); 
+                    unset($array[1]);
                 }
 
                 $csv = implode("\n", $array);
 
-               // fwrite($fp, $line);
+                // fwrite($fp, $line);
                 fwrite($fp, $csv);
                 //  fwrite($fp, $element . $fakeindex);
                 fclose($fp);

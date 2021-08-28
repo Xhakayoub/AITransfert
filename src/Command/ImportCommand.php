@@ -181,8 +181,8 @@ class importCommand extends Command
                   ->setLongPassAttempted($passingTeams[$fakeIndex]['Long-Att'])
                   ->setLongPassCompletion($passingTeams[$fakeIndex]['Long-Cmp%'])
                   //->setPassAttemptedFromFK($passingTeams[$fakeIndex]['Pass Types-FK'])
-                  ->setCornerKicks($passingTeams[$fakeIndex]['CK'])
-                  ->setThrowInsTaken($passingTeams[$fakeIndex]['TI'])
+                  // ->setCornerKicks($passingTeams[$fakeIndex]['CK'])
+                  // ->setThrowInsTaken($passingTeams[$fakeIndex]['TI'])
                   ->setPassIntoFinalThird($passingTeams[$fakeIndex]['1/3'])
                   ->setPassIntoPenaltyArea($passingTeams[$fakeIndex]['PPA'])
                   ->setCrossIntoPenaltyArea($passingTeams[$fakeIndex]['CrsPA'])
@@ -222,9 +222,9 @@ class importCommand extends Command
                   ->setFoulCommited($miscellaneousTeams[$fakeIndex]['Performance-Fls'])
                   ->setFoulDrawn($miscellaneousTeams[$fakeIndex]['Performance-Fld'])
                   ->setOffsides($miscellaneousTeams[$fakeIndex]['Performance-Off'])
-                  ->setCrosses($miscellaneousTeams[$fakeIndex]['Crs'])
+                  ->setCrosses($miscellaneousTeams[$fakeIndex]['Performance-Crs'])
                   ->setTacklesWon($miscellaneousTeams[$fakeIndex]['Performance-TklW'])
-                  ->setInterceptions($miscellaneousTeams[$fakeIndex]['Int'])
+                  ->setInterceptions($miscellaneousTeams[$fakeIndex]['Performance-Int'])
                   ->setPenaltyKickWon($miscellaneousTeams[$fakeIndex]['Performance-PKwon'])
                   ->setPenaltyKickConceded($miscellaneousTeams[$fakeIndex]['Performance-PKcon'])
                   ->setOwnGoal($miscellaneousTeams[$fakeIndex]['Performance-OG'])
@@ -248,8 +248,8 @@ class importCommand extends Command
                if ($league != 'CL' and $league != 'EL') {
                   $verify
                      ->setMatchPlayed($teams['Playing Time-MP'])
-                     ->setGoals($teams['Performance--Min'])
-                     ->setAssists($teams['Performance-Min'])
+                     ->setGoals($teams['Performance-Gls'])
+                     ->setAssists($teams['Playing Time-Min'])
                      ->setGoalPerMatch($teams['Per 90 Minutes-Gls'])
                      //goalkepping
                      ->setGoalsAgainst($gkTeams[$fakeIndex]['Performance-GA'])
@@ -259,7 +259,7 @@ class importCommand extends Command
                      ->setSavePercent($gkTeams[$fakeIndex]['Performance-Save%'])
                      ->setCleanSheets($gkTeams[$fakeIndex]['Performance-CS'])
                      ->setCleanSheetPercent($gkTeams[$fakeIndex]['Performance-CS'])
-                     ->setPenaltyKickAllowed($gkTeams[$fakeIndex]['Penalty Kicks-CS'])
+                     ->setPenaltyKickAllowed($gkTeams[$fakeIndex]['Penalty Kicks-PKA'])
                      ->setPenaltyKicksSaved($gkTeams[$fakeIndex]['Penalty Kicks-PKsv'])
                      ->setTopTeamScoorer("")
                      ->setGoalKeeper("")
@@ -303,8 +303,8 @@ class importCommand extends Command
                      ->setLongPassCompletion($passingTeams[$fakeIndex]['Long-Cmp%'])
                      //->setPassAttemptedFromFK($passingTeams[$fakeIndex]['Pass Types-FK'])
                      //->setThroughBalls($passingTeams[$fakeIndex]['Pass Types-TB'])
-                     ->setCornerKicks($passingTeams[$fakeIndex]['CK'])
-                     ->setThrowInsTaken($passingTeams[$fakeIndex]['TI'])
+                     // ->setCornerKicks($passingTeams[$fakeIndex]['CK'])
+                     // ->setThrowInsTaken($passingTeams[$fakeIndex]['TI'])
                      ->setPassIntoFinalThird($passingTeams[$fakeIndex]['1/3'])
                      ->setPassIntoPenaltyArea($passingTeams[$fakeIndex]['PPA'])
                      ->setCrossIntoPenaltyArea($passingTeams[$fakeIndex]['CrsPA'])
@@ -344,9 +344,9 @@ class importCommand extends Command
                      ->setFoulCommited($miscellaneousTeams[$fakeIndex]['Performance-Fls'])
                      ->setFoulDrawn($miscellaneousTeams[$fakeIndex]['Performance-Fld'])
                      ->setOffsides($miscellaneousTeams[$fakeIndex]['Performance-Off'])
-                     ->setCrosses($miscellaneousTeams[$fakeIndex]['Crs'])
+                     ->setCrosses($miscellaneousTeams[$fakeIndex]['Performance-Crs'])
                      ->setTacklesWon($miscellaneousTeams[$fakeIndex]['Performance-TklW'])
-                     ->setInterceptions($miscellaneousTeams[$fakeIndex]['Int'])
+                     ->setInterceptions($miscellaneousTeams[$fakeIndex]['Performance-Int'])
                      ->setPenaltyKickWon($miscellaneousTeams[$fakeIndex]['Performance-PKwon'])
                      ->setPenaltyKickConceded($miscellaneousTeams[$fakeIndex]['Performance-PKcon'])
                      ->setOwnGoal($miscellaneousTeams[$fakeIndex]['Performance-OG'])
@@ -419,8 +419,8 @@ class importCommand extends Command
                      ->setLongPassAttempted($verify->getLongPassAttempted() + $passingTeams[$fakeIndex]['Long-Att'])
                      ->setLongPassCompletion(($verify->getLongPassCompletion() + $passingTeams[$fakeIndex]['Long-Cmp%']) / 2)
                      ->setPassAttemptedFromFK($verify->getPassAttemptedFromFK() + $typePassTeams[$fakeIndex]['Pass Types-FK'])
-                     ->setCornerKicks($verify->getCornerKicks() + $passingTeams[$fakeIndex]['CK'])
-                     ->setThrowInsTaken($verify->getThrowInsTaken() + $passingTeams[$fakeIndex]['TI'])
+                     // ->setCornerKicks($verify->getCornerKicks() + $passingTeams[$fakeIndex]['CK'])
+                     // ->setThrowInsTaken($verify->getThrowInsTaken() + $passingTeams[$fakeIndex]['TI'])
                      ->setPassIntoFinalThird($verify->getPassIntoFinalThird() + $passingTeams[$fakeIndex]['1/3'])
                      ->setPassIntoPenaltyArea($verify->getPassIntoPenaltyArea() + $passingTeams[$fakeIndex]['PPA'])
                      ->setCrossIntoPenaltyArea($verify->getCrossIntoPenaltyArea() + $passingTeams[$fakeIndex]['CrsPA'])
@@ -459,9 +459,9 @@ class importCommand extends Command
                      ->setFoulCommited($verify->getFoulCommited() + $miscellaneousTeams[$fakeIndex]['Performance-Fls'])
                      ->setFoulDrawn($verify->getFoulDrawn() + $miscellaneousTeams[$fakeIndex]['Performance-Fld'])
                      ->setOffsides($verify->getOffsides() + $miscellaneousTeams[$fakeIndex]['Off'])
-                     ->setCrosses($verify->getCrosses() + $miscellaneousTeams[$fakeIndex]['Crs'])
+                     ->setCrosses($verify->getCrosses() + $miscellaneousTeams[$fakeIndex]['Performance-Crs'])
                      ->setTacklesWon($verify->getTacklesWon() + $miscellaneousTeams[$fakeIndex]['Performance-TklW'])
-                     ->setInterceptions($verify->getInterceptions() + $miscellaneousTeams[$fakeIndex]['Int'])
+                     ->setInterceptions($verify->getInterceptions() + $miscellaneousTeams[$fakeIndex]['Performance-Int'])
                      ->setArialDuelsWon($verify->getArialDuelsWon() + $miscellaneousTeams[$fakeIndex]['Aerial Duels-Won'])
                      ->setArialDuelsLost($verify->getArialDuelsLost() + $miscellaneousTeams[$fakeIndex]['Aerial Duels-Lost'])
                      ->setArialDuelsCompletion(($verify->getArialDuelsCompletion() + $miscellaneousTeams[$fakeIndex]['Aerial Duels-Won%']) / 2)
@@ -602,7 +602,7 @@ class importCommand extends Command
          $verify = $this->em->getRepository(Player::class)
             ->findOneBy([
                'Name' => $name,
-               'born' => $row['born'],
+               'born' => $row['Born'],
                'position' =>  $row['Pos'],
                'squad' => $squad
             ]);
@@ -616,13 +616,13 @@ class importCommand extends Command
                ->setPosition($row['Pos'])
                ->setSquad($squad)
                ->setAge(intval($row['Age']))
-               ->setBorn(intval($row['born']))
+               ->setBorn(intval($row['Born']))
                ->setMinutesPlayed(intval($row['Playing Time-Min']))
                ->setMinutesPercentPlayed(floatval($row['Playing Time-Min%']))
                ->setNintyMinPlayed(floatval($row['Playing Time-90s']))
                //to redo
-               ->setMinPerMatchStarted(floatval($row['Mn/Start']))
-               ->setPointsPerMatch(floatval($row['PPM']))
+               ->setMinPerMatchStarted(/*floatval($timming['Starts-Mn/Start']) ? :*/ 0)
+               ->setPointsPerMatch(/*floatval($timming['PPM']) ? :*/ 0)
                ////////////////////
                ->setMatchsPlayed(0)
                ->setMatchStarts(0)
@@ -966,9 +966,9 @@ class importCommand extends Command
                   // ->setNumberOfPlayerDriblled(intval($miscellaneous[$index]['#Pl'] ?? 0))
                   // ->setNutmegs(intval($miscellaneous[$index]['Megs'] ?? 0))
                   // ->setSecondYellowCard($miscellaneous[$index]['2CrdY'])
-                  ->setArialDuelsWon($miscellaneous[$index]['Aerial Duels-Won'])
-                  ->setArialDuelsLost($miscellaneous[$index]['Aerial Duels-Lost'])
-                  ->setArialDuelsCompletion($miscellaneous[$index]['Aerial Duels-Won%']);
+                  ->setArialDuelsWon(intval($miscellaneous[$index]['Aerial Duels-Won']))
+                  ->setArialDuelsLost(intval($miscellaneous[$index]['Aerial Duels-Lost']))
+                  ->setArialDuelsCompletion(intval($miscellaneous[$index]['Aerial Duels-Won%']));
             } else {
                for ($i = 0; $i <= count($miscellaneous) - 1; $i++) {
 
@@ -989,7 +989,7 @@ class importCommand extends Command
                         // ->setNumberOfPlayerDriblled(intval($miscellaneous[$i]['#Pl'] ?? 0))
                         // ->setNutmegs(intval($miscellaneous[$i]['Megs'] ?? 0))
                         // ->setSecondYellowCard(intval($miscellaneous[$i]['2CrdY'] ?? 0))
-                        ->setArialDuelsWon($miscellaneous[$i]['Aerial Duels-Won'])
+                        ->setArialDuelsWon(intval($miscellaneous[$i]['Aerial Duels-Won']))
                         ->setArialDuelsLost(intval($miscellaneous[$i]['Aerial Duels-Lost']))
                         ->setArialDuelsCompletion(intval($miscellaneous[$i]['Aerial Duels-Won%']));
                      break;
@@ -1282,9 +1282,9 @@ class importCommand extends Command
                   // ->setNumberOfPlayerDriblled(intval($miscellaneous[$index]['#Pl'] ?? 0))
                   // ->setNutmegs(intval($miscellaneous[$index]['Megs'] ?? 0))
                   // ->setSecondYellowCard($miscellaneous[$index]['2CrdY'])
-                  ->setArialDuelsWon($miscellaneous[$index]['Aerial Duels-Won'])
-                  ->setArialDuelsLost($miscellaneous[$index]['Aerial Duels-Lost'])
-                  ->setArialDuelsCompletion($miscellaneous[$index]['Aerial Duels-Won%']);
+                  ->setArialDuelsWon(intval($miscellaneous[$index]['Aerial Duels-Won']))
+                  ->setArialDuelsLost(intval($miscellaneous[$index]['Aerial Duels-Lost']))
+                  ->setArialDuelsCompletion(intval($miscellaneous[$index]['Aerial Duels-Won%']));
             } else {
                for ($i = 0; $i <= count($miscellaneous) - 1; $i++) {
 
@@ -1305,7 +1305,7 @@ class importCommand extends Command
                   // ->setNumberOfPlayerDriblled(intval($miscellaneous[$i]['#Pl'] ?? 0))
                   // ->setNutmegs(intval($miscellaneous[$i]['Megs'] ?? 0))
                   // ->setSecondYellowCard($miscellaneous[$i]['2CrdY'])
-                  ->setArialDuelsWon($miscellaneous[$i]['Aerial Duels-Won'])
+                  ->setArialDuelsWon(intval($miscellaneous[$i]['Aerial Duels-Won']))
                   ->setArialDuelsLost(intval($miscellaneous[$i]['Aerial Duels-Lost']))
                   ->setArialDuelsCompletion(intval($miscellaneous[$i]['Aerial Duels-Won%']));
                      break;
@@ -1369,13 +1369,13 @@ class importCommand extends Command
 
       $io->title('import on loading...');
 
-      // $this->import('Spain');
-      // $this->import('England');
+      $this->import('Spain');
+      $this->import('England');
       $this->import('Italy');
       $this->import('France');
       $this->import('Germany');
-      $this->import('CL');
-      $this->import('EL');
+      // $this->import('CL');
+      // $this->import('EL');
 
       $io->success('import succesfully');
    }

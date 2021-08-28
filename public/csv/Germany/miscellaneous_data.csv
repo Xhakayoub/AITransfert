@@ -1,469 +1,325 @@
-id;name;Nation;Position;Squad;Age;Born;90s;CrdY;CrdR;2CrdY;Fls;Fld;Off;Crs;TklW;Int;PKwon;PKcon;OG;Succ;Att;Succ%;#Pl;Megs;Tkl;Cont;Tkl%;Past;Matches
-1;Suleiman Abdullahi\Suleiman-Abdullahi;ng NGA;FWMF;Union Berlin;22;1996;1.1;1;0;0;0;0;2;5;1;1;0;0;0;0;2;0.0;1;1;1;2;50.0;1;Matches
-2;David Abraham\David-Abraham;ar ARG;DF;Eint Frankfurt;33;1986;13.0;2;1;0;8;7;0;4;17;18;0;0;0;5;7;71.4;7;0;20;35;57.1;15;Matches
-3;Amir Abrashi\Amir-Abrashi;al ALB;MF;Freiburg;29;1990;5.9;3;0;0;13;6;0;4;11;6;0;0;0;6;8;75.0;6;0;16;24;66.7;8;Matches
-4;Tyler Adams\Tyler-Adams;us USA;DFMF;RB Leipzig;20;1999;4.5;0;0;0;3;8;0;4;3;7;0;0;0;5;9;55.6;5;0;6;20;30.0;14;Matches
-5;Sargis Adamyan\Sargis-Adamyan;am ARM;FWMF;Hoffenheim;26;1993;8.3;1;0;0;12;7;7;11;4;2;1;0;0;11;24;45.8;13;0;10;30;33.3;20;Matches
-6;Manuel Akanji\Manuel-Akanji;ch SUI;DF;Dortmund;24;1995;19.6;1;0;0;10;20;0;0;17;21;0;0;1;6;9;66.7;7;1;32;44;72.7;12;Matches
-7;Kevin Akpoguma\Kevin-Akpoguma;de GER;DF;Hoffenheim;24;1995;9.9;2;0;0;5;11;1;2;10;8;0;1;0;3;4;75.0;3;0;23;34;67.6;11;Matches
-8;David Alaba\David-Alaba;at AUT;DF;Bayern Munich;27;1992;18.9;0;0;0;7;5;1;22;12;17;0;0;0;3;7;42.9;4;0;19;28;67.9;9;Matches
-9;Lucas Alario\Lucas-Alario;ar ARG;FW;Leverkusen;26;1992;10.1;3;0;0;16;12;11;3;1;1;0;0;0;13;17;76.5;14;0;5;10;50.0;5;Matches
-10;Paco Alcácer\Paco-Alcacer;es ESP;FW;Dortmund;25;1993;5.9;0;0;0;2;3;7;2;2;1;0;0;0;4;7;57.1;5;1;2;9;22.2;7;Matches
-11;Thiago Alcántara\Thiago-Alcantara;es ESP;MF;Bayern Munich;28;1991;17.6;6;0;0;21;12;0;7;36;40;0;0;0;52;61;85.2;53;0;51;74;68.9;23;Matches
-12;Nadiem Amiri\Nadiem-Amiri;de GER;MFFW;Leverkusen;22;1996;15.6;1;0;0;22;27;3;83;10;14;1;0;0;19;35;54.3;21;1;14;27;51.9;13;Matches
-13;Ethan Ampadu\Ethan-Ampadu;wal WAL;DF;RB Leipzig;18;2000;0.9;0;0;0;0;0;0;0;3;1;0;0;0;0;0;;0;0;5;6;83.3;1;Matches
-14;Opoku Ampomah\Opoku-Ampomah;gh GHA;FW;Düsseldorf;23;1996;5.5;1;0;0;16;5;8;14;6;4;0;0;0;18;41;43.9;21;0;10;19;52.6;9;Matches
-15;Sebastian Andersson\Sebastian-Andersson;se SWE;FW;Union Berlin;28;1991;22.3;4;0;0;45;34;17;22;10;4;0;0;0;24;31;77.4;24;2;16;29;55.2;13;Matches
-16;Robert Andrich\Robert-Andrich;de GER;MF;Union Berlin;24;1994;22.8;9;0;0;51;32;0;36;40;39;2;0;0;19;26;73.1;22;2;66;96;68.8;30;Matches
-17;Angeliño\Angelino;es ESP;DF;RB Leipzig;22;1997;4.0;0;0;0;3;8;1;23;4;11;0;0;0;5;5;100.0;5;0;5;8;62.5;3;Matches
-18;Christopher Antwi-Adjei\Christopher-Antwi-Adjei;gh GHA;MFFW;Paderborn 07;25;1994;18.8;2;0;0;13;28;3;36;11;11;0;0;0;30;62;48.4;33;2;21;43;48.8;22;Matches
-19;Charles Aránguiz\Charles-Aranguiz;cl CHI;MF;Leverkusen;30;1989;15.0;1;0;0;8;25;0;8;17;16;0;0;0;8;15;53.3;9;1;30;58;51.7;28;Matches
-20;Maximilian Arnold\Maximilian-Arnold;de GER;MF;Wolfsburg;25;1994;21.8;6;0;0;36;51;0;115;23;19;0;0;0;19;25;76.0;19;0;34;78;43.6;44;Matches
-21;Santiago Ascacíbar\Santiago-Ascacibar;ar ARG;MF;Hertha BSC;22;1997;6.0;2;0;0;7;5;0;1;18;11;0;0;0;5;7;71.4;5;0;28;47;59.6;19;Matches
-22;Ludwig Augustinsson\Ludwig-Augustinsson;se SWE;DF;Werder Bremen;25;1994;6.7;0;0;0;12;4;0;34;15;9;0;0;0;5;6;83.3;6;0;21;30;70.0;9;Matches
-23;Taiwo Awoniyi\Taiwo-Awoniyi;ng NGA;FWMF;Mainz 05;21;1997;1.7;0;0;0;2;0;3;2;0;0;0;1;0;1;3;33.3;2;0;0;2;0.0;2;Matches
-24;Kaan Ayhan\Kaan-Ayhan;tr TUR;DF;Düsseldorf;24;1994;22.4;9;0;0;27;13;3;13;25;37;0;1;0;9;11;81.8;9;1;38;58;65.5;20;Matches
-25;Matthias Bader\Matthias-Bader;de GER;DF;Köln;22;1997;0.1;0;0;0;0;2;0;0;1;0;0;0;0;0;0;;0;0;1;1;100.0;0;Matches
-26;Daniel Baier\Daniel-Baier;de GER;MF;Augsburg;35;1984;17.6;5;0;0;27;34;0;5;21;46;0;0;0;10;13;76.9;10;0;31;66;47.0;35;Matches
-27;Leon Bailey\Leon-Bailey;jm JAM;FWMF;Leverkusen;21;1997;7.3;0;2;0;9;13;3;48;3;5;0;0;0;27;46;58.7;27;1;8;13;61.5;5;Matches
-28;Lewis Baker\Lewis-Baker;eng ENG;MF;Düsseldorf;24;1995;6.1;1;0;0;8;7;0;4;4;1;0;0;1;10;12;83.3;10;0;7;19;36.8;12;Matches
-29;Ridle Baku\Ridle-Baku;de GER;MFDF;Mainz 05;21;1998;17.6;4;1;0;25;28;1;50;27;24;0;0;0;18;39;46.2;24;2;42;73;57.5;31;Matches
-30;Leonardo Balerdi\Leonardo-Balerdi;ar ARG;DF;Dortmund;20;1999;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-31;Philipp Bargfrede\Philipp-Bargfrede;de GER;MF;Werder Bremen;30;1989;4.0;1;0;0;8;3;0;2;7;14;0;0;0;4;4;100.0;4;1;12;22;54.5;10;Matches
-32;Aymen Barkok\Aymen-Barkok;de GER;FWMF;Düsseldorf;21;1998;0.9;0;0;0;0;0;0;0;0;3;0;0;0;0;1;0.0;0;0;1;3;33.3;2;Matches
-33;Leandro Barreiro Martins\Leandro-Barreiro-Martins;lu LUX;MF;Mainz 05;19;2000;5.2;1;0;0;11;9;0;0;14;4;0;0;0;1;4;25.0;2;0;24;30;80.0;6;Matches
-34;Fin Bartels\Fin-Bartels;de GER;FWMF;Werder Bremen;32;1987;1.3;1;0;0;2;0;1;3;0;0;0;0;0;2;3;66.7;2;0;1;2;50.0;1;Matches
-35;Oliver Baumann\Oliver-Baumann;de GER;GK;Hoffenheim;29;1990;20.0;1;0;0;0;6;0;0;0;2;0;0;0;0;0;;0;0;0;0;;0;Matches
-36;Julian Baumgartlinger\Julian-Baumgartlinger;at AUT;MF;Leverkusen;31;1988;13.5;2;0;0;11;16;0;2;22;18;0;0;0;6;6;100.0;6;0;32;60;53.3;28;Matches
-37;Christoph Baumgartner\Christoph-Baumgartner;at AUT;FWMF;Hoffenheim;19;1999;9.8;2;0;0;24;19;4;12;15;5;0;0;0;13;30;43.3;16;2;26;51;51.0;25;Matches
-38;Noah Joel Sarenren Bazee\Noah-Joel-Sarenren-Bazee;ng NGA;MF;Augsburg;22;1996;0.2;0;0;0;0;0;0;2;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-39;Ihlas Bebou\Ihlas-Bebou;tg TOG;FWMF;Hoffenheim;25;1994;17.0;0;0;0;17;22;5;33;15;5;0;0;0;38;67;56.7;41;3;21;38;55.3;17;Matches
-40;Sheraldo Becker\Sheraldo-Becker;nl NED;MFFW;Union Berlin;24;1995;5.6;1;0;0;9;4;3;14;2;0;0;0;0;8;12;66.7;8;1;4;7;57.1;3;Matches
-41;Timo Becker\Timo-Becker;de GER;DF;Schalke 04;22;1997;0.9;0;0;0;0;0;0;0;1;0;0;0;0;1;2;50.0;1;0;5;5;100.0;0;Matches
-42;Maximilian Beier\Maximilian-Beier;de GER;MFDF;Hoffenheim;16;2002;0.1;1;0;0;1;1;1;1;1;0;0;0;0;0;1;0.0;0;0;2;2;100.0;0;Matches
-43;Ishak Belfodil\Ishak-Belfodil;dz ALG;FWMF;Hoffenheim;27;1992;3.0;0;0;0;4;1;5;0;1;0;0;0;0;10;14;71.4;10;0;1;1;100.0;0;Matches
-44;Karim Bellarabi\Karim-Bellarabi;de GER;FWDF;Leverkusen;29;1990;12.7;1;0;0;16;11;5;96;9;9;0;0;0;45;79;57.0;48;5;16;38;42.1;22;Matches
-45;Lars Bender\Lars-Bender;de GER;DFMF;Leverkusen;30;1989;14.7;3;0;0;17;10;1;20;32;27;0;0;0;12;16;75.0;13;2;47;68;69.1;21;Matches
-46;Sven Bender\Sven-Bender;de GER;DF;Leverkusen;30;1989;23.1;2;0;0;17;15;0;1;32;48;0;0;0;2;2;100.0;2;1;56;76;73.7;20;Matches
-47;László Bénes\Laszlo-Benes;sk SVK;MF;M'gladbach;21;1997;9.1;3;0;0;12;21;0;52;7;8;0;0;0;9;13;69.2;9;0;8;19;42.1;11;Matches
-48;Ramy Bensebaini\Ramy-Bensebaini;dz ALG;DF;M'gladbach;24;1995;8.1;4;1;1;13;15;0;10;8;29;0;1;0;13;17;76.5;13;2;17;23;73.9;6;Matches
-49;Valon Berisha\Valon-Berisha;xk KVX;MF;Düsseldorf;26;1993;4.3;1;0;0;2;1;1;7;5;2;0;0;0;0;0;;0;0;10;17;58.8;7;Matches
-50;Louis Beyer\Louis-Beyer;de GER;DF;M'gladbach;19;2000;1.2;1;0;0;2;2;0;1;4;1;0;0;0;1;1;100.0;1;0;6;8;75.0;2;Matches
-51;Ermin Bičakčić\Ermin-Bicakcic;ba BIH;DF;Hoffenheim;29;1990;8.4;0;0;0;6;10;2;3;4;15;0;0;0;1;3;33.3;1;0;7;13;53.8;6;Matches
-52;Leonardo Bittencourt\Leonardo-Bittencourt;de GER;FW;Hoffenheim;25;1993;0.0;1;0;0;1;2;1;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-53;Leonardo Bittencourt\Leonardo-Bittencourt;de GER;FWMF;Werder Bremen;25;1993;16.5;5;0;0;42;44;6;64;21;9;0;0;0;23;44;52.3;25;5;41;73;56.2;32;Matches
-54;Jérôme Boateng\Jerome-Boateng;de GER;DF;Bayern Munich;30;1988;11.2;5;1;0;12;4;0;5;10;21;0;1;0;0;0;;0;0;15;27;55.6;12;Matches
-55;Adam Bodzek\Adam-Bodzek;de GER;MF;Düsseldorf;33;1985;16.5;8;0;0;20;24;0;2;20;22;0;0;0;4;6;66.7;4;0;29;72;40.3;43;Matches
-56;Jean-Paul Boëtius\Jean-Paul-Boetius;nl NED;MF;Mainz 05;25;1994;19.9;2;0;0;36;41;0;11;40;25;0;0;0;35;50;70.0;37;0;59;95;62.1;36;Matches
-57;Robin Bormuth\Robin-Bormuth;de GER;DF;Düsseldorf;23;1995;2.0;0;0;0;0;2;0;0;0;1;0;0;0;0;0;;0;0;2;3;66.7;1;Matches
-58;Sebastiaan Bornauw\Sebastiaan-Bornauw;be BEL;DF;Köln;20;1999;20.9;5;0;0;33;8;2;4;27;33;0;0;0;6;8;75.0;6;0;41;59;69.5;18;Matches
-59;Brandon Borrello\Brandon-Borrello;au AUS;MFFW;Freiburg;24;1995;3.3;0;0;0;3;9;1;4;4;1;0;0;0;6;15;40.0;8;0;9;14;64.3;5;Matches
-60;Nassim Boujellab\Nassim-Boujellab;de GER;MF;Schalke 04;20;1999;1.5;0;0;0;4;1;0;0;5;4;0;0;0;0;2;0.0;1;0;7;11;63.6;4;Matches
-61;Dedryck Boyata\Dedryck-Boyata;be BEL;DF;Hertha BSC;28;1990;19.6;6;0;0;15;5;1;0;14;43;0;3;0;8;8;100.0;8;0;27;35;77.1;8;Matches
-62;Julian Brandt\Julian-Brandt;de GER;MFFW;Dortmund;23;1996;15.9;0;0;0;8;12;2;25;25;12;0;0;0;42;59;71.2;43;1;32;58;55.2;26;Matches
-63;Erling Braut Håland\Erling-Braut-Haland;no NOR;FW;Dortmund;19;2000;4.7;0;0;0;5;3;2;5;3;1;1;0;0;6;16;37.5;7;1;3;5;60.0;2;Matches
-64;Josip Brekalo\Josip-Brekalo;hr CRO;FWMF;Wolfsburg;21;1998;11.4;0;0;0;14;11;4;53;10;10;0;0;0;30;56;53.6;31;5;11;26;42.3;15;Matches
-65;John Brooks\John-Brooks;us USA;DF;Wolfsburg;26;1993;15.0;3;0;0;17;6;0;1;12;22;0;0;0;2;2;100.0;2;0;22;43;51.2;21;Matches
-66;Daniel Brosinski\Daniel-Brosinski;de GER;DF;Mainz 05;31;1988;14.9;3;0;0;12;5;0;120;12;11;0;1;1;13;21;61.9;16;1;28;48;58.3;20;Matches
-67;Jeffrey Bruma\Jeffrey-Bruma;nl NED;DF;Mainz 05;27;1991;4.0;1;0;0;4;1;1;0;2;3;0;0;0;1;1;100.0;1;0;6;10;60.0;4;Matches
-68;Jeffrey Bruma\Jeffrey-Bruma;nl NED;DF;Wolfsburg;27;1991;9.0;1;0;0;15;4;1;0;3;13;0;1;0;2;3;66.7;2;0;7;17;41.2;10;Matches
-69;Jacob Bruun Larsen\Jacob-Bruun-Larsen;dk DEN;MFFW;Hoffenheim;20;1998;1.8;0;0;0;1;1;0;5;1;2;0;0;0;8;12;66.7;8;1;2;6;33.3;4;Matches
-70;Jacob Bruun Larsen\Jacob-Bruun-Larsen;dk DEN;FW;Dortmund;20;1998;0.7;0;0;0;1;2;0;0;0;0;0;0;0;1;3;33.3;1;0;0;0;;0;Matches
-71;Marius Bülter\Marius-Bulter;de GER;FWMF;Union Berlin;26;1993;18.3;0;0;0;21;17;7;48;14;7;0;0;0;44;69;63.8;47;3;29;49;59.2;20;Matches
-72;Guido Burgstaller\Guido-Burgstaller;at AUT;FW;Schalke 04;30;1989;11.2;2;0;0;19;14;14;10;5;2;0;0;0;16;28;57.1;18;2;8;20;40.0;12;Matches
-73;Jonathan Burkardt\Jonathan-Burkardt;de GER;FWDF;Mainz 05;19;2000;1.0;0;0;0;1;2;0;1;3;0;0;0;0;0;2;0.0;0;0;5;6;83.3;1;Matches
-74;Roman Bürki\Roman-Burki;ch SUI;GK;Dortmund;28;1990;20.8;0;0;0;0;2;0;0;0;1;0;0;0;0;1;0.0;0;0;0;1;0.0;1;Matches
-75;Daniel Caligiuri\Daniel-Caligiuri;it ITA;MFFW;Schalke 04;31;1988;18.1;4;0;0;21;28;1;90;21;20;0;0;0;34;68;50.0;36;1;37;84;44.0;47;Matches
-76;Emre Can\Emre-Can;de GER;MF;Dortmund;25;1994;3.7;1;0;0;5;8;0;4;10;8;0;0;0;5;9;55.6;6;0;15;18;83.3;3;Matches
-77;Koen Casteels\Koen-Casteels;be BEL;GK;Wolfsburg;27;1992;16.0;0;0;0;0;3;0;0;0;0;0;0;0;1;1;100.0;1;0;0;0;;0;Matches
-78;Timothy Chandler\Timothy-Chandler;us USA;DFMF;Eint Frankfurt;29;1990;10.4;3;0;0;9;9;4;48;8;10;0;0;0;3;9;33.3;4;0;16;24;66.7;8;Matches
-79;Kwon Chang-hoon\Kwon-Chang-hoon;kr KOR;MFFW;Freiburg;25;1994;5.8;0;0;0;2;15;2;10;4;4;1;0;0;9;15;60.0;9;1;5;12;41.7;7;Matches
-80;Darko Churlinov\Darko-Churlinov;mk MKD;FW;Köln;19;2000;0.2;0;0;0;1;0;1;2;0;1;0;0;0;0;2;0.0;0;0;0;1;0.0;1;Matches
-81;Per Ciljan Skjelbred\Per-Ciljan-Skjelbred;no NOR;MF;Hertha BSC;32;1987;13.4;3;0;0;17;7;0;3;23;17;0;0;0;6;8;75.0;6;0;38;63;60.3;25;Matches
-82;Jamilu Collins\Jamilu-Collins;ng NGA;DF;Paderborn 07;24;1994;20.6;8;1;1;31;22;1;26;34;56;0;1;0;36;62;58.1;38;5;69;91;75.8;22;Matches
-83;Kingsley Coman\Kingsley-Coman;fr FRA;FWMF;Bayern Munich;23;1996;11.1;1;0;0;6;21;3;57;10;0;1;0;0;43;74;58.1;48;1;16;25;64.0;9;Matches
-84;Jhon Córdoba\Jhon-Cordoba;co COL;FW;Köln;26;1993;14.5;5;0;0;32;49;16;9;8;3;0;0;0;17;30;56.7;18;0;10;16;62.5;6;Matches
-85;Sergio Córdova\Sergio-Cordova;ve VEN;FW;Augsburg;21;1997;2.9;0;0;0;5;9;1;2;1;1;0;0;0;2;4;50.0;2;0;2;11;18.2;9;Matches
-86;Danny da Costa\Danny-da-Costa;de GER;DFMF;Eint Frankfurt;26;1993;11.4;0;0;0;6;5;3;62;15;12;0;0;0;14;29;48.3;16;0;23;33;69.7;10;Matches
-87;Philippe Coutinho\Philippe-Coutinho;br BRA;MFFW;Bayern Munich;27;1992;14.4;0;0;0;5;23;3;38;24;6;1;0;0;41;65;63.1;45;5;27;39;69.2;12;Matches
-88;Mickaël Cuisance\Mickael-Cuisance;fr FRA;MF;Bayern Munich;19;1999;0.4;1;0;0;5;0;0;2;1;0;0;0;0;1;4;25.0;2;0;1;1;100.0;0;Matches
-89;Matheus Cunha\Matheus-Cunha;br BRA;FWMF;RB Leipzig;20;1999;3.0;0;0;0;9;6;3;1;4;1;0;0;0;7;11;63.6;7;0;7;10;70.0;3;Matches
-90;Matheus Cunha\Matheus-Cunha;br BRA;FW;Hertha BSC;20;1999;2.4;2;0;0;5;12;0;0;4;2;0;0;0;8;9;88.9;8;0;5;6;83.3;1;Matches
-91;Rafael Czichos\Rafael-Czichos;de GER;DF;Köln;29;1990;18.9;3;1;1;19;16;1;5;29;29;0;2;1;5;7;71.4;5;0;36;55;65.5;19;Matches
-92;Moanes Dabour\Moanes-Dabour;il ISR;FWMF;Hoffenheim;27;1992;3.3;1;0;0;9;7;0;4;6;1;0;0;0;5;12;41.7;5;1;6;8;75.0;2;Matches
-93;Mahmoud Dahoud\Mahmoud-Dahoud;de GER;MF;Dortmund;23;1996;3.3;0;0;0;6;2;0;3;4;3;0;0;0;5;6;83.3;5;0;10;18;55.6;8;Matches
-94;Leon Dajaku\Leon-Dajaku;de GER;DF;Bayern Munich;18;2001;0.1;0;0;0;0;0;0;0;0;1;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-95;Vladimír Darida\Vladimir-Darida;cz CZE;MF;Hertha BSC;28;1990;16.7;6;1;1;26;18;1;57;30;17;0;0;0;21;31;67.7;24;1;43;75;57.3;32;Matches
-96;Alphonso Davies\Alphonso-Davies;ca CAN;DF;Bayern Munich;18;2000;16.7;0;0;0;17;23;3;44;36;25;0;0;0;66;107;61.7;72;9;56;73;76.7;17;Matches
-97;Thomas Delaney\Thomas-Delaney;dk DEN;MF;Dortmund;27;1991;5.3;2;0;0;13;7;0;1;6;18;0;0;1;2;4;50.0;2;0;10;16;62.5;6;Matches
-98;Kerem Demirbay\Kerem-Demirbay;de GER;MF;Leverkusen;26;1993;12.4;3;1;1;18;13;1;91;17;13;0;0;0;23;30;76.7;24;1;24;33;72.7;9;Matches
-99;Diego Demme\Diego-Demme;de GER;MF;RB Leipzig;27;1991;13.5;3;0;0;19;13;0;8;28;12;0;0;0;12;21;57.1;14;1;45;72;62.5;27;Matches
-100;Moussa Diaby\Moussa-Diaby;fr FRA;FWMF;Leverkusen;20;1999;11.6;1;0;0;10;14;5;46;3;5;0;0;0;51;73;69.9;53;4;5;13;38.5;8;Matches
-101;Javairô Dilrosun\Javairo-Dilrosun;nl NED;MFFW;Hertha BSC;21;1998;12.9;2;0;0;4;15;3;31;5;17;0;0;0;46;62;74.2;49;3;14;29;48.3;15;Matches
-102;Bas Dost\Bas-Dost;nl NED;FW;Eint Frankfurt;30;1989;10.8;1;0;0;7;9;7;1;2;2;0;0;0;3;6;50.0;4;0;4;5;80.0;1;Matches
-103;Mohamed Dräger\Mohamed-Drager;tn TUN;DF;Paderborn 07;23;1996;10.5;1;0;0;12;17;0;33;19;14;0;0;0;11;35;31.4;13;3;29;50;58.0;21;Matches
-104;Aleksandar Dragović\Aleksandar-Dragovic;at AUT;DF;Leverkusen;28;1991;6.0;4;1;1;12;3;0;0;11;5;0;1;0;1;1;100.0;1;0;15;20;75.0;5;Matches
-105;Dominick Drexler\Dominick-Drexler;de GER;MFFW;Köln;29;1990;13.0;4;0;0;21;25;7;27;16;18;0;1;0;19;33;57.6;19;0;24;40;60.0;16;Matches
-106;Ondrej Duda\Ondrej-Duda;sk SVK;MFFW;Hertha BSC;24;1994;5.0;2;0;0;12;11;0;7;3;5;0;0;0;13;22;59.1;14;0;5;17;29.4;12;Matches
-107;Erik Durm\Erik-Durm;de GER;DF;Eint Frankfurt;27;1992;5.5;0;0;0;4;3;0;19;8;4;0;0;0;5;7;71.4;5;0;14;23;60.9;9;Matches
-108;Johannes Eggestein\Johannes-Eggestein;de GER;MFFW;Werder Bremen;21;1998;5.2;3;1;1;6;6;1;12;3;3;0;0;0;0;4;0.0;1;1;6;16;37.5;10;Matches
-109;Maximilian Eggestein\Maximilian-Eggestein;de GER;MFDF;Werder Bremen;22;1996;20.7;5;0;0;25;23;0;20;17;19;0;0;0;15;26;57.7;15;0;29;47;61.7;18;Matches
-110;Kingsley Ehizibue\Kingsley-Ehizibue;nl NED;DF;Köln;24;1995;19.2;5;1;0;40;23;1;50;40;30;0;2;0;29;50;58.0;31;3;74;90;82.2;16;Matches
-111;Nico Elvedi\Nico-Elvedi;ch SUI;DF;M'gladbach;22;1996;19.7;3;0;0;14;17;1;1;29;51;0;0;0;6;7;85.7;6;0;45;55;81.8;10;Matches
-112;Breel Embolo\Breel-Embolo;ch SUI;FWMF;M'gladbach;22;1997;11.5;4;0;0;31;32;11;2;10;5;1;0;0;24;57;42.1;28;3;16;25;64.0;9;Matches
-113;Alexander Esswein\Alexander-Esswein;de GER;FWMF;Hertha BSC;29;1990;0.5;0;0;0;1;1;0;0;0;0;0;0;0;0;0;;0;0;1;2;50.0;1;Matches
-114;Simon Falette\Simon-Falette;gn GUI;DF;Eint Frankfurt;27;1992;1.0;0;0;0;0;1;0;0;1;5;0;0;0;1;1;100.0;1;0;1;2;50.0;1;Matches
-115;Ohis Felix Uduokhai\Ohis-Felix-Uduokhai;de GER;DF;Augsburg;21;1997;14.4;1;0;0;5;9;0;0;16;26;0;0;0;4;5;80.0;4;0;33;39;84.6;6;Matches
-116;Edimilson Fernandes\Edimilson-Fernandes;ch SUI;MFDF;Mainz 05;23;1996;13.3;6;1;1;15;4;0;12;24;28;0;0;0;11;20;55.0;11;0;35;53;66.0;18;Matches
-117;Gelson Fernandes\Gelson-Fernandes;ch SUI;MF;Eint Frankfurt;32;1986;7.5;5;1;1;25;2;0;2;19;19;0;0;0;3;4;75.0;3;0;33;48;68.8;15;Matches
-118;Oliver Fink\Oliver-Fink;de GER;MFFW;Düsseldorf;37;1982;7.4;2;0;0;13;15;0;8;20;13;1;0;0;6;11;54.5;9;1;24;42;57.1;18;Matches
-119;Alfreð Finnbogason\Alfred-Finnbogason;is ISL;FW;Augsburg;30;1989;8.5;1;0;0;11;6;4;0;4;3;0;0;0;4;10;40.0;5;1;6;9;66.7;3;Matches
-120;Mark Flekken\Mark-Flekken;nl NED;GK;Freiburg;26;1993;9.0;0;0;0;1;0;0;0;0;1;0;0;0;2;2;100.0;2;0;0;1;0.0;1;Matches
-121;Emil Forsberg\Emil-Forsberg;se SWE;MF;RB Leipzig;27;1991;9.8;0;0;0;10;17;1;21;10;5;0;0;0;19;20;95.0;19;1;15;29;51.7;14;Matches
-122;Raphael Framberger\Raphael-Framberger;de GER;DF;Augsburg;23;1995;6.0;1;0;0;11;6;1;15;11;11;0;1;0;4;9;44.4;5;0;25;34;73.5;9;Matches
-123;Mike Frantz\Mike-Frantz;de GER;MFDF;Freiburg;32;1986;2.9;2;0;0;6;5;0;5;2;0;0;0;0;0;0;;0;0;3;4;75.0;1;Matches
-124;Marco Friedl\Marco-Friedl;at AUT;DF;Werder Bremen;21;1998;16.2;6;0;0;19;26;0;36;30;16;0;0;0;4;9;44.4;4;0;51;69;73.9;18;Matches
-125;Marvin Friedrich\Marvin-Friedrich;de GER;DF;Union Berlin;23;1995;22.0;5;0;0;29;12;0;3;29;30;0;0;0;7;10;70.0;7;0;41;60;68.3;19;Matches
-126;Samúel Friðjónsson\Samuel-Fridjonsson;is ISL;MF;Paderborn 07;23;1996;1.9;1;0;0;2;0;0;0;1;2;0;0;0;1;2;50.0;1;0;2;4;50.0;2;Matches
-127;Niclas Füllkrug\Niclas-Fullkrug;de GER;FW;Werder Bremen;26;1993;3.2;1;0;0;8;6;2;1;1;1;0;0;0;2;4;50.0;2;0;1;1;100.0;0;Matches
-128;Mijat Gaćinović\Mijat-Gacinovic;rs SRB;MFFW;Eint Frankfurt;24;1995;7.6;0;0;0;12;17;0;8;11;11;0;0;0;12;23;52.2;14;4;16;36;44.4;20;Matches
-129;Theodor Gebre Selassie\Theodor-Gebre-Selassie;cz CZE;DF;Werder Bremen;32;1986;16.5;1;0;0;13;14;2;15;17;47;1;0;0;3;9;33.3;4;0;26;42;61.9;16;Matches
-130;Dennis Geiger\Dennis-Geiger;de GER;MF;Hoffenheim;21;1998;10.4;2;0;0;17;10;0;41;10;5;0;0;0;6;8;75.0;7;0;13;23;56.5;10;Matches
-131;Christian Gentner\Christian-Gentner;de GER;MF;Union Berlin;33;1985;20.4;4;0;0;22;29;3;16;24;37;1;0;0;14;18;77.8;15;0;42;87;48.3;45;Matches
-132;Yannick Gerhardt\Yannick-Gerhardt;de GER;MF;Wolfsburg;25;1994;6.7;1;0;0;8;16;1;12;12;8;0;0;0;3;9;33.3;3;0;21;36;58.3;15;Matches
-133;Niko Gießelmann\Niko-Giesselmann;de GER;DF;Düsseldorf;27;1991;15.8;4;0;0;18;28;0;70;19;17;0;0;0;7;11;63.6;7;1;39;62;62.9;23;Matches
-134;Rafał Gikiewicz\Rafal-Gikiewicz;pl POL;GK;Union Berlin;31;1987;24.0;0;0;0;2;4;0;0;0;1;0;2;0;0;0;;0;0;0;1;0.0;1;Matches
-135;Daniel Ginczek\Daniel-Ginczek;de GER;FW;Wolfsburg;28;1991;3.9;0;0;0;2;4;2;1;1;0;0;0;0;2;5;40.0;4;0;3;11;27.3;8;Matches
-136;Matthias Ginter\Matthias-Ginter;de GER;DF;M'gladbach;25;1994;19.9;1;0;0;7;14;1;8;14;19;0;0;0;5;5;100.0;5;0;25;37;67.6;12;Matches
-137;Klaus Gjasula\Klaus-Gjasula;al ALB;MF;Paderborn 07;29;1989;19.6;12;0;0;40;10;0;4;36;22;0;0;0;17;19;89.5;18;1;62;107;57.9;45;Matches
-138;Serge Gnabry\Serge-Gnabry;de GER;FWMF;Bayern Munich;24;1995;17.0;0;0;0;8;20;12;59;17;9;0;0;0;47;80;58.8;51;2;25;42;59.5;17;Matches
-139;Akaki Gogia\Akaki-Gogia;de GER;MFFW;Union Berlin;27;1992;1.3;0;0;0;2;3;0;2;1;1;0;0;0;6;9;66.7;6;0;2;5;40.0;3;Matches
-140;Benjamin Goller\Benjamin-Goller;de GER;FWMF;Werder Bremen;20;1999;3.1;0;0;0;4;5;0;4;6;1;0;0;0;13;24;54.2;15;2;9;16;56.3;7;Matches
-141;Jérôme Gondorf\Jerome-Gondorf;de GER;MF;Freiburg;31;1988;1.4;1;0;0;4;2;0;0;5;1;0;0;0;4;5;80.0;4;1;10;12;83.3;2;Matches
-142;Leon Goretzka\Leon-Goretzka;de GER;MF;Bayern Munich;24;1995;8.1;2;0;0;12;11;0;4;7;5;1;0;0;6;9;66.7;6;0;10;21;47.6;11;Matches
-143;Mario Götze\Mario-Gotze;de GER;FW;Dortmund;27;1992;5.6;0;0;0;5;11;4;7;8;2;0;0;0;4;11;36.4;4;0;13;17;76.5;4;Matches
-144;Jeffrey Gouweleeuw\Jeffrey-Gouweleeuw;nl NED;DF;Augsburg;28;1991;13.1;4;0;0;10;1;1;1;15;26;0;0;0;2;4;50.0;3;0;19;30;63.3;11;Matches
-145;Michael Gregoritsch\Michael-Gregoritsch;at AUT;MFFW;Augsburg;25;1994;3.4;0;0;0;3;3;1;1;3;3;0;0;0;2;4;50.0;2;0;4;11;36.4;7;Matches
-146;Michael Gregoritsch\Michael-Gregoritsch;at AUT;FW;Schalke 04;25;1994;5.1;0;0;0;3;3;1;0;3;0;0;0;0;2;3;66.7;2;0;5;11;45.5;6;Matches
-147;Vincenzo Grifo\Vincenzo-Grifo;it ITA;MFFW;Freiburg;26;1993;8.7;1;1;0;5;8;4;53;6;7;0;0;0;15;29;51.7;16;0;10;22;45.5;12;Matches
-148;Vincenzo Grifo\Vincenzo-Grifo;it ITA;MF;Hoffenheim;26;1993;0.2;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0.0;0;0;0;0;;0;Matches
-149;Florian Grillitsch\Florian-Grillitsch;at AUT;MF;Hoffenheim;23;1995;19.4;1;0;0;16;31;0;11;33;35;0;0;0;21;28;75.0;21;0;45;71;63.4;26;Matches
-150;Christian Groß\Christian-Gross;de GER;DF;Werder Bremen;30;1989;8.1;2;0;0;13;7;0;1;7;15;0;0;0;4;4;100.0;4;0;16;21;76.2;5;Matches
-151;Carlos Gruezo\Carlos-Gruezo;ec ECU;MF;Augsburg;24;1995;2.8;0;0;0;3;1;0;0;7;1;0;0;0;1;2;50.0;1;0;7;10;70.0;3;Matches
-152;Marko Grujić\Marko-Grujic;rs SRB;MF;Hertha BSC;23;1996;18.5;5;0;0;42;21;0;5;18;17;0;1;0;25;30;83.3;25;2;36;68;52.9;32;Matches
-153;Raphaël Guerreiro\Raphael-Guerreiro;pt POR;DF;Dortmund;25;1993;16.8;1;0;0;8;11;0;51;18;29;0;0;0;35;53;66.0;37;6;30;41;73.2;11;Matches
-154;Babacar Guèye\Babacar-Gueye;sn SEN;FW;Paderborn 07;24;1994;1.2;0;0;0;4;1;1;0;0;0;0;0;0;2;3;66.7;2;0;2;3;66.7;1;Matches
-155;Josuha Guilavogui\Josuha-Guilavogui;fr FRA;MFDF;Wolfsburg;28;1990;21.9;4;0;0;38;14;5;6;28;42;0;1;0;19;25;76.0;20;0;49;75;65.3;26;Matches
-156;Péter Gulácsi\Peter-Gulacsi;hu HUN;GK;RB Leipzig;29;1990;23.0;0;0;0;1;1;0;0;0;0;0;0;0;1;1;100.0;1;0;0;0;;0;Matches
-157;Manuel Gulde\Manuel-Gulde;de GER;DF;Freiburg;28;1991;11.0;0;0;0;6;5;0;8;17;18;0;0;0;6;7;85.7;6;0;24;33;72.7;9;Matches
-158;Christian Günter\Christian-Gunter;de GER;DF;Freiburg;26;1993;24.0;1;0;0;13;14;2;206;14;9;1;0;0;14;35;40.0;16;1;24;53;45.3;29;Matches
-159;Jonathan de Guzmán\Jonathan-de-Guzman;nl NED;MF;Eint Frankfurt;31;1987;0.1;0;0;0;0;0;0;1;0;1;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-160;Janik Haberer\Janik-Haberer;de GER;MFFW;Freiburg;25;1994;17.9;5;1;1;29;36;0;12;22;24;0;0;0;19;28;67.9;20;0;33;69;47.8;36;Matches
-161;Alexander Hack\Alexander-Hack;de GER;DF;Mainz 05;25;1993;7.1;2;0;0;8;10;0;1;11;21;0;0;0;3;5;60.0;3;0;22;32;68.8;10;Matches
-162;André Hahn\Andre-Hahn;de GER;FWMF;Augsburg;28;1990;6.4;4;1;1;19;6;6;12;5;8;0;0;0;8;12;66.7;9;1;13;28;46.4;15;Matches
-163;Amadou Haidara\Amadou-Haidara;ml MLI;MF;RB Leipzig;21;1998;6.3;1;0;0;14;2;1;5;16;6;0;1;0;10;15;66.7;10;1;25;39;64.1;14;Matches
-164;Achraf Hakimi\Achraf-Hakimi;ma MAR;DFFW;Dortmund;20;1998;21.7;3;0;0;16;35;2;67;25;23;0;0;0;57;94;60.6;61;5;40;73;54.8;33;Matches
-165;Marcel Halstenberg\Marcel-Halstenberg;de GER;DF;RB Leipzig;27;1991;19.8;4;0;0;12;10;1;50;18;32;0;0;0;18;27;66.7;18;1;40;69;58.0;29;Matches
-166;Amine Harit\Amine-Harit;ma MAR;MFFW;Schalke 04;22;1997;22.3;3;0;0;19;65;6;18;11;7;1;0;0;58;85;68.2;61;1;16;36;44.4;20;Matches
-167;Martin Harnik\Martin-Harnik;at AUT;MFFW;Werder Bremen;32;1987;0.1;1;0;0;2;0;1;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-168;Makoto Hasebe\Makoto-Hasebe;jp JPN;DFMF;Eint Frankfurt;35;1984;14.7;2;0;0;4;20;0;2;11;18;0;1;0;2;2;100.0;2;0;17;29;58.6;12;Matches
-169;Kai Havertz\Kai-Havertz;de GER;MFFW;Leverkusen;20;1999;20.0;3;0;0;16;21;7;23;17;3;0;0;0;52;104;50.0;56;4;20;44;45.5;24;Matches
-170;Thorgan Hazard\Thorgan-Hazard;be BEL;FWMF;Dortmund;26;1993;17.7;1;0;0;23;28;6;93;25;11;0;0;0;43;70;61.4;47;2;29;50;58.0;21;Matches
-171;Jonas Hector\Jonas-Hector;de GER;MFDF;Köln;29;1990;21.1;6;0;0;14;28;1;22;34;34;0;0;0;8;13;61.5;8;1;57;99;57.6;42;Matches
-172;Dominique Heintz\Dominique-Heintz;de GER;DF;Freiburg;25;1993;19.0;2;0;0;12;11;0;11;28;27;0;1;0;14;16;87.5;14;0;45;64;70.3;19;Matches
-173;Rouwen Hennings\Rouwen-Hennings;de GER;FW;Düsseldorf;31;1987;21.9;3;0;0;20;27;8;22;3;1;0;1;0;16;31;51.6;20;3;6;14;42.9;8;Matches
-174;Lucas Hernández\Lucas-Hernandez;fr FRA;DF;Bayern Munich;23;1996;7.4;3;0;0;10;17;0;3;6;10;0;1;0;7;7;100.0;7;0;13;21;61.9;8;Matches
-175;Patrick Herrmann\Patrick-Herrmann;de GER;FWMF;M'gladbach;28;1991;10.9;4;0;0;21;12;9;48;17;7;1;0;0;12;17;70.6;14;0;25;33;75.8;8;Matches
-176;Martin Hinteregger\Martin-Hinteregger;at AUT;DF;Eint Frankfurt;26;1992;21.0;5;0;0;18;21;1;14;31;22;0;0;0;4;13;30.8;6;0;48;67;71.6;19;Matches
-177;Marwin Hitz\Marwin-Hitz;ch SUI;GK;Dortmund;31;1987;3.2;0;0;0;0;1;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-178;André Hoffmann\Andre-Hoffmann;de GER;DF;Düsseldorf;26;1993;17.8;5;0;0;16;5;1;1;17;36;0;0;0;2;2;100.0;2;0;29;50;58.0;21;Matches
-179;Nicolas Höfler\Nicolas-Hofler;de GER;MF;Freiburg;29;1990;21.1;7;0;0;36;22;0;1;32;45;1;0;0;26;30;86.7;26;2;55;89;61.8;34;Matches
-180;Jonas Hofmann\Jonas-Hofmann;de GER;MFFW;M'gladbach;27;1992;9.2;2;0;0;7;7;3;40;15;13;0;0;0;8;18;44.4;10;1;24;54;44.4;30;Matches
-181;Marco Höger\Marco-Hoger;de GER;MF;Köln;29;1989;5.8;2;0;0;9;3;0;3;5;4;0;0;0;6;11;54.5;9;0;7;16;43.8;9;Matches
-182;Lucas Höler\Lucas-Holer;de GER;FWMF;Freiburg;25;1994;19.9;4;0;0;30;55;6;17;14;8;1;1;0;26;45;57.8;26;0;30;65;46.2;35;Matches
-183;Gerrit Holtmann\Gerrit-Holtmann;de GER;MFDF;Paderborn 07;24;1995;8.2;1;1;0;12;3;0;25;9;4;0;0;0;16;46;34.8;24;3;14;33;42.4;19;Matches
-184;Timo Horn\Timo-Horn;de GER;GK;Köln;26;1993;24.0;0;0;0;0;3;0;0;0;3;0;0;0;0;0;;0;0;0;5;0.0;5;Matches
-185;Lukáš Hrádecký\Lukas-Hradecky;fi FIN;GK;Leverkusen;29;1989;24.0;1;0;0;0;1;0;0;0;2;0;0;0;0;0;;0;0;0;0;;0;Matches
-186;Benjamin Hübner\Benjamin-Hubner;de GER;DF;Hoffenheim;30;1989;16.6;4;0;0;17;21;0;2;13;23;0;2;0;2;4;50.0;2;0;33;44;75.0;11;Matches
-187;Florian Hübner\Florian-Hubner;de GER;DF;Union Berlin;28;1991;6.2;2;0;0;10;9;1;1;3;12;0;0;1;0;0;;0;0;9;17;52.9;8;Matches
-188;Mats Hummels\Mats-Hummels;de GER;DF;Dortmund;30;1988;20.2;5;1;1;20;6;1;4;26;38;0;0;1;2;3;66.7;3;0;40;57;70.2;17;Matches
-189;Uwe Hünemeier\Uwe-Hunemeier;de GER;DF;Paderborn 07;33;1986;6.7;3;0;0;9;1;0;0;12;12;0;0;0;1;1;100.0;1;0;16;25;64.0;9;Matches
-190;Jannik Huth\Jannik-Huth;de GER;GK;Paderborn 07;25;1994;6.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;3;0.0;3;Matches
-191;Iago\Iago;br BRA;DFMF;Augsburg;22;1997;5.3;0;0;0;4;4;0;11;4;11;0;0;0;2;3;66.7;2;0;11;17;64.7;6;Matches
-192;Vedad Ibišević\Vedad-Ibisevic;ba BIH;FW;Hertha BSC;34;1984;7.8;4;0;0;9;8;5;0;0;0;0;0;0;4;9;44.4;4;2;1;3;33.3;2;Matches
-193;Luc Ihorst\Luc-Ihorst;de GER;FW;Werder Bremen;19;2000;0.1;0;0;0;0;0;0;0;1;0;0;0;0;0;0;;0;0;1;1;100.0;0;Matches
-194;Stefan Ilsanker\Stefan-Ilsanker;at AUT;MFDF;Eint Frankfurt;30;1989;2.5;1;0;0;2;2;0;0;6;7;0;0;0;0;0;;0;0;10;18;55.6;8;Matches
-195;Stefan Ilsanker\Stefan-Ilsanker;at AUT;DF;RB Leipzig;30;1989;4.6;2;0;0;4;2;0;1;3;7;0;0;0;1;2;50.0;1;0;3;7;42.9;4;Matches
-196;Marcus Ingvartsen\Marcus-Ingvartsen;dk DEN;FWMF;Union Berlin;23;1996;13.3;3;0;0;38;12;1;17;9;11;0;0;0;17;27;63.0;18;0;14;30;46.7;16;Matches
-197;Ismail Jakobs\Ismail-Jakobs;de GER;FWDF;Köln;19;1999;12.5;3;0;0;10;5;7;47;21;16;0;0;0;7;16;43.8;9;1;35;43;81.4;8;Matches
-198;Laurent Jans\Laurent-Jans;lu LUX;DF;Paderborn 07;26;1992;14.0;1;0;0;6;6;0;29;19;22;0;0;0;7;10;70.0;7;0;32;67;47.8;35;Matches
-199;Tony Jantschke\Tony-Jantschke;de GER;DF;M'gladbach;29;1990;8.3;4;0;0;13;1;0;4;12;22;0;0;0;0;0;;0;0;30;42;71.4;12;Matches
-200;Rune Jarstein\Rune-Jarstein;no NOR;GK;Hertha BSC;34;1984;20.3;1;1;0;0;6;0;0;0;0;0;0;0;1;1;100.0;1;0;0;3;0.0;3;Matches
-201;Dennis Jastrzembski\Dennis-Jastrzembski;de GER;DFFW;Paderborn 07;19;2000;1.1;0;0;0;1;0;0;3;1;3;0;0;0;0;0;;0;0;1;2;50.0;1;Matches
-202;Tin Jedvaj\Tin-Jedvaj;hr CRO;DF;Augsburg;23;1995;22.5;4;0;0;13;13;0;11;26;49;0;0;1;4;7;57.1;4;1;39;68;57.4;29;Matches
-203;Fredrik Jensen\Fredrik-Jensen;fi FIN;FWMF;Augsburg;21;1997;5.1;0;0;0;3;3;6;5;1;1;0;0;0;5;10;50.0;5;0;1;5;20.0;4;Matches
-204;Fabian Johnson\Fabian-Johnson;us USA;MFDF;M'gladbach;31;1987;3.0;0;0;0;1;3;2;2;3;1;0;0;0;1;3;33.3;2;0;4;6;66.7;2;Matches
-205;Dejan Joveljić\Dejan-Joveljic;rs SRB;FW;Eint Frankfurt;19;1999;1.6;1;0;0;4;1;2;1;3;0;0;0;0;1;2;50.0;1;0;3;6;50.0;3;Matches
-206;Mathias Jørgensen\Mathias-Jorgensen;dk DEN;DF;Düsseldorf;29;1990;1.9;1;0;0;5;0;0;0;3;6;0;0;0;0;0;;0;0;5;6;83.3;1;Matches
-207;Ozan Kabak\Ozan-Kabak;tr TUR;DF;Schalke 04;19;2000;13.2;1;0;0;14;7;0;0;18;20;0;1;0;7;11;63.6;8;0;33;45;73.3;12;Matches
-208;Pavel Kadeřábek\Pavel-Kaderabek;cz CZE;DFMF;Hoffenheim;27;1992;19.3;2;0;0;25;24;6;70;14;15;0;0;1;3;9;33.3;3;0;21;38;55.3;17;Matches
-209;Florian Kainz\Florian-Kainz;at AUT;FWMF;Köln;26;1992;11.2;2;0;0;10;24;1;112;6;7;0;0;0;20;36;55.6;22;3;16;30;53.3;14;Matches
-210;Salomon Kalou\Salomon-Kalou;ci CIV;FWMF;Hertha BSC;33;1985;1.6;0;0;0;4;0;2;1;3;0;0;0;0;1;4;25.0;1;0;3;6;50.0;3;Matches
-211;Daichi Kamada\Daichi-Kamada;jp JPN;MFFW;Eint Frankfurt;22;1996;13.4;3;0;0;15;26;6;68;13;3;0;0;0;26;42;61.9;27;0;18;35;51.4;17;Matches
-212;Kevin Kampl\Kevin-Kampl;si SVN;MF;RB Leipzig;28;1990;2.2;0;0;0;3;0;1;1;6;4;0;0;0;6;6;100.0;6;0;6;10;60.0;4;Matches
-213;Kenan Karaman\Kenan-Karaman;tr TUR;FWMF;Düsseldorf;25;1994;6.5;2;0;0;3;13;2;4;4;1;0;0;0;11;17;64.7;14;0;5;9;55.6;4;Matches
-214;Mamoudou Karamoko\Mamoudou-Karamoko;fr FRA;MF;Wolfsburg;20;1999;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-215;Florian Kastenmeier\Florian-Kastenmeier;de GER;GK;Düsseldorf;23;1996;7.0;0;0;0;1;0;0;0;0;0;0;1;1;2;2;100.0;2;1;0;0;;0;Matches
-216;Noah Katterbach\Noah-Katterbach;de GER;DF;Köln;18;2001;9.8;2;0;0;7;16;0;17;12;19;0;0;0;24;33;72.7;24;0;19;31;61.3;12;Matches
-217;Yannik Keitel\Yannik-Keitel;de GER;MF;Freiburg;19;2000;0.5;0;0;0;2;0;0;0;0;0;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-218;Jonjoe Kenny\Jonjoe-Kenny;eng ENG;DF;Schalke 04;22;1997;21.8;4;0;0;19;5;4;46;22;21;0;1;0;12;18;66.7;13;0;36;56;64.3;20;Matches
-219;Rani Khedira\Rani-Khedira;de GER;MFDF;Augsburg;25;1994;21.0;7;0;0;31;21;0;6;30;35;0;0;0;5;7;71.4;5;0;52;82;63.4;30;Matches
-220;Luca Kilian\Luca-Kilian;de GER;DF;Paderborn 07;19;1999;13.0;1;0;0;6;5;1;1;23;10;0;0;0;2;2;100.0;2;0;36;56;64.3;20;Matches
-221;Joshua Kimmich\Joshua-Kimmich;de GER;MFDF;Bayern Munich;24;1995;22.3;6;0;0;15;32;3;165;30;22;0;0;0;23;36;63.9;25;1;43;85;50.6;42;Matches
-222;Davy Klaassen\Davy-Klaassen;nl NED;MF;Werder Bremen;26;1993;23.0;4;0;0;21;27;0;10;31;29;2;0;1;8;13;61.5;9;0;44;69;63.8;25;Matches
-223;Felix Klaus\Felix-Klaus;de GER;FWMF;Wolfsburg;26;1992;5.4;0;0;0;8;18;3;13;12;1;1;0;0;5;10;50.0;6;1;21;32;65.6;11;Matches
-224;Lukas Klostermann\Lukas-Klostermann;de GER;DF;RB Leipzig;23;1996;20.9;0;0;0;9;12;0;23;19;25;0;0;0;16;21;76.2;16;0;36;52;69.2;16;Matches
-225;Lukas Klünter\Lukas-Klunter;de GER;DF;Hertha BSC;23;1996;19.0;3;0;0;30;28;2;32;21;25;0;1;0;16;34;47.1;16;1;44;57;77.2;13;Matches
-226;Robin Knoche\Robin-Knoche;de GER;DF;Wolfsburg;27;1992;16.2;2;0;0;8;5;3;4;22;25;0;0;0;7;8;87.5;8;1;34;52;65.4;18;Matches
-227;Robin Koch\Robin-Koch;de GER;DFMF;Freiburg;23;1996;22.3;2;0;0;22;18;0;5;19;28;0;0;0;3;4;75.0;4;1;30;42;71.4;12;Matches
-228;Dominik Kohr\Dominik-Kohr;de GER;MF;Eint Frankfurt;25;1994;9.3;4;1;0;24;10;0;7;22;17;0;0;0;11;17;64.7;11;0;32;52;61.5;20;Matches
-229;Ibrahima Konaté\Ibrahima-Konate;fr FRA;DF;RB Leipzig;20;1999;5.0;2;0;0;4;4;0;4;5;7;0;0;0;4;4;100.0;4;1;10;17;58.8;7;Matches
-230;Pascal Köpke\Pascal-Kopke;de GER;FW;Hertha BSC;23;1995;1.3;0;0;0;3;3;2;1;0;0;0;0;0;1;1;100.0;1;0;0;1;0.0;1;Matches
-231;Filip Kostić\Filip-Kostic;rs SRB;DFMF;Eint Frankfurt;26;1992;21.9;2;0;0;24;24;3;260;38;17;0;0;0;65;105;61.9;67;4;56;91;61.5;35;Matches
-232;Tomáš Koubek\Tomas-Koubek;cz CZE;GK;Augsburg;26;1992;23.0;2;0;0;0;2;0;0;0;1;0;0;0;1;1;100.0;1;0;0;9;0.0;9;Matches
-233;Dawid Kownacki\Dawid-Kownacki;pl POL;FWMF;Düsseldorf;22;1997;11.7;3;0;0;18;26;2;14;12;7;0;0;0;31;56;55.4;32;1;15;26;57.7;11;Matches
-234;Thomas Kraft\Thomas-Kraft;de GER;GK;Hertha BSC;31;1988;3.0;1;0;0;0;1;0;0;0;1;0;0;0;0;0;;0;0;0;0;;0;Matches
-235;Andrej Kramarić\Andrej-Kramaric;hr CRO;FWMF;Hoffenheim;28;1991;12.0;2;0;0;5;17;5;22;2;2;0;0;0;19;27;70.4;19;0;3;9;33.3;6;Matches
-236;Christoph Kramer\Christoph-Kramer;de GER;MF;M'gladbach;28;1991;9.3;2;0;0;16;13;1;6;19;10;0;0;0;11;12;91.7;11;0;28;55;50.9;27;Matches
-237;Felix Kroos\Felix-Kroos;de GER;MFFW;Union Berlin;28;1991;2.0;1;0;0;8;0;0;1;7;2;0;0;0;0;0;;0;0;12;17;70.6;5;Matches
-238;Lukas Kübler\Lukas-Kubler;de GER;DF;Freiburg;26;1992;1.0;0;0;0;1;0;0;2;0;0;0;0;0;2;2;100.0;2;1;0;1;0.0;1;Matches
-239;Pierre Kunde\Pierre-Kunde;cm CMR;MF;Mainz 05;24;1995;15.3;5;0;0;21;7;0;17;20;22;0;1;0;33;43;76.7;35;1;30;57;52.6;27;Matches
-240;Ahmed Kutucu\Ahmed-Kutucu;tr TUR;FWMF;Schalke 04;19;2000;3.8;2;0;0;7;5;1;2;7;2;0;0;0;13;18;72.2;14;1;9;13;69.2;4;Matches
-241;Konrad Laimer\Konrad-Laimer;at AUT;MF;RB Leipzig;22;1997;18.0;7;1;1;49;10;0;1;44;31;0;0;0;25;37;67.6;30;0;77;129;59.7;52;Matches
-242;Stefan Lainer\Stefan-Lainer;at AUT;DF;M'gladbach;26;1992;19.1;5;0;0;29;14;0;73;24;20;0;0;0;26;56;46.4;28;2;37;57;64.9;20;Matches
-243;Michael Lang\Michael-Lang;ch SUI;DF;Werder Bremen;28;1991;5.9;0;0;0;5;3;1;17;5;7;0;0;0;2;3;66.7;2;0;8;15;53.3;7;Matches
-244;Sebastian Langkamp\Sebastian-Langkamp;de GER;DF;Werder Bremen;31;1988;2.0;1;0;0;3;4;0;0;1;2;0;0;0;1;1;100.0;1;0;1;2;50.0;1;Matches
-245;Danny Latza\Danny-Latza;de GER;MF;Mainz 05;29;1989;9.4;4;0;0;29;11;0;7;13;10;0;0;0;8;20;40.0;10;1;22;45;48.9;23;Matches
-246;Mathew Leckie\Mathew-Leckie;au AUS;DFFW;Hertha BSC;28;1991;1.3;0;0;0;3;1;0;1;4;1;0;0;0;1;1;100.0;1;0;4;4;100.0;0;Matches
-247;Toni Leistner\Toni-Leistner;de GER;DF;Köln;28;1990;3.0;0;0;0;2;2;0;0;4;10;0;0;0;0;0;;0;0;4;4;100.0;0;Matches
-248;Christopher Lenz\Christopher-Lenz;de GER;DF;Union Berlin;24;1994;22.5;1;0;0;29;19;1;61;34;36;0;0;0;22;34;64.7;23;1;57;95;60.0;38;Matches
-249;Robert Lewandowski\Robert-Lewandowski;pl POL;FW;Bayern Munich;30;1988;22.7;4;0;0;23;34;14;15;11;4;1;0;0;50;78;64.1;55;1;16;28;57.1;12;Matches
-250;Stephan Lichtsteiner\Stephan-Lichtsteiner;ch SUI;DF;Augsburg;35;1984;13.3;5;1;1;13;19;1;24;8;17;0;0;1;4;9;44.4;5;0;20;33;60.6;13;Matches
-251;Philipp Lienhart\Philipp-Lienhart;at AUT;DF;Freiburg;23;1996;12.0;2;0;0;6;18;0;4;6;18;0;0;0;3;3;100.0;3;0;13;23;56.5;10;Matches
-252;Jürgen Locadia\Jurgen-Locadia;nl NED;FW;Hoffenheim;25;1993;5.9;1;0;0;7;8;6;4;4;0;0;0;0;2;4;50.0;2;0;6;9;66.7;3;Matches
-253;Ademola Lookman\Ademola-Lookman;eng ENG;FWMF;RB Leipzig;21;1997;1.8;0;0;0;3;3;0;11;2;1;0;0;0;4;8;50.0;4;0;3;3;100.0;0;Matches
-254;Eduard Löwen\Eduard-Lowen;de GER;MF;Hertha BSC;22;1997;3.4;0;0;0;4;2;0;2;6;5;0;0;0;11;13;84.6;12;0;9;14;64.3;5;Matches
-255;Eduard Löwen\Eduard-Lowen;de GER;MFFW;Augsburg;22;1997;2.0;0;0;0;2;5;1;5;4;2;0;0;0;2;5;40.0;2;0;6;11;54.5;5;Matches
-256;Lucas\Lucas;br BRA;MF;Hoffenheim;20;1999;0.7;1;0;0;1;2;0;0;0;1;0;0;0;2;4;50.0;2;0;1;2;50.0;1;Matches
-257;Dodi Lukebakio\Dodi-Lukebakio;cd COD;FWMF;Hertha BSC;21;1997;16.2;0;0;0;21;19;5;44;12;9;0;0;0;44;66;66.7;47;3;17;33;51.5;16;Matches
-258;Andreas Luthe\Andreas-Luthe;de GER;GK;Augsburg;32;1987;1.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-259;Arne Maier\Arne-Maier;de GER;MF;Hertha BSC;20;1999;3.0;0;0;0;2;3;0;7;2;3;0;0;0;2;2;100.0;2;0;5;7;71.4;2;Matches
-260;Yunus Mallı\Yunus-Malli;tr TUR;FWMF;Union Berlin;27;1992;3.9;1;0;0;4;10;0;6;1;3;0;0;0;3;6;50.0;3;0;4;5;80.0;1;Matches
-261;Streli Mamba\Streli-Mamba;de GER;FW;Paderborn 07;25;1994;13.6;4;0;0;31;23;11;3;5;5;1;0;0;13;21;61.9;15;1;8;14;57.1;6;Matches
-262;Aarón Martín\Aaron-Martin;es ESP;DF;Mainz 05;22;1997;16.5;0;0;0;13;11;1;107;12;28;0;0;0;21;34;61.8;23;0;18;29;62.1;11;Matches
-263;Javi Martínez\Javi-Martinez;es ESP;DFMF;Bayern Munich;30;1988;6.2;5;1;1;11;4;1;0;7;16;0;1;0;2;2;100.0;2;0;11;17;64.7;6;Matches
-264;Omar Mascarell\Omar-Mascarell;es ESP;MF;Schalke 04;26;1993;22.5;4;0;0;26;18;0;4;41;62;0;0;0;11;15;73.3;12;1;66;109;60.6;43;Matches
-265;Jean-Philippe Mateta\Jean-Philippe-Mateta;fr FRA;FW;Mainz 05;22;1997;4.8;0;0;0;2;2;8;3;0;0;0;0;0;8;15;53.3;8;1;2;3;66.7;1;Matches
-266;Rabbi Matondo\Rabbi-Matondo;wal WAL;FW;Schalke 04;18;2000;5.8;0;0;0;9;8;10;4;2;4;0;0;0;9;19;47.4;10;0;7;11;63.6;4;Matches
-267;Philipp Max\Philipp-Max;de GER;DF;Augsburg;25;1993;21.6;4;0;0;11;11;2;157;16;20;0;0;0;6;7;85.7;6;0;26;44;59.1;18;Matches
-268;Alexandru Maxim\Alexandru-Maxim;ro ROU;MF;Mainz 05;29;1990;1.2;1;0;0;3;0;0;13;1;1;0;0;0;6;8;75.0;6;0;3;5;60.0;2;Matches
-269;Kevin Mbabu\Kevin-Mbabu;ch SUI;DF;Wolfsburg;24;1995;9.8;1;0;0;10;6;0;41;21;12;1;0;0;24;40;60.0;25;1;34;51;66.7;17;Matches
-270;Weston McKennie\Weston-McKennie;us USA;MFDF;Schalke 04;20;1998;14.7;4;0;0;21;8;0;6;16;28;0;1;0;13;22;59.1;14;0;28;49;57.1;21;Matches
-271;Joshua Mees\Joshua-Mees;de GER;MFFW;Union Berlin;23;1996;1.7;1;0;0;2;1;0;3;2;2;0;0;0;0;1;0.0;0;0;2;7;28.6;5;Matches
-272;Admir Mehmedi\Admir-Mehmedi;ch SUI;FWMF;Wolfsburg;28;1991;9.7;0;0;0;21;13;9;35;5;5;0;0;0;7;12;58.3;7;0;10;20;50.0;10;Matches
-273;Münir Mercan\Munir-Mercan;de GER;FW;Schalke 04;18;2000;0.0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-274;Jorge Meré\Jorge-Mere;es ESP;DF;Köln;22;1997;4.7;4;1;0;7;7;0;0;5;9;0;0;0;0;0;;0;0;7;10;70.0;3;Matches
-275;Sven Michel\Sven-Michel;de GER;FW;Paderborn 07;29;1990;11.3;4;0;0;22;11;11;14;7;6;0;0;0;15;37;40.5;21;2;14;24;58.3;10;Matches
-276;Juan Miranda\Juan-Miranda;es ESP;DF;Schalke 04;19;2000;2.9;0;0;0;2;3;1;7;1;3;0;1;0;2;2;100.0;2;0;6;14;42.9;8;Matches
-277;Maximilian Mittelstädt\Maximilian-Mittelstadt;de GER;DF;Hertha BSC;22;1997;15.8;3;0;0;17;19;0;85;31;32;0;0;0;18;26;69.2;18;1;56;87;64.4;31;Matches
-278;Anthony Modeste\Anthony-Modeste;fr FRA;FW;Köln;31;1988;8.7;1;0;0;19;11;6;4;5;0;0;0;0;6;7;85.7;7;0;9;16;56.3;7;Matches
-279;Kevin Möhwald\Kevin-Mohwald;de GER;MF;Werder Bremen;26;1993;0.8;0;0;0;2;1;0;2;1;0;0;0;0;0;0;;0;0;2;3;66.7;1;Matches
-280;Niklas Moisander\Niklas-Moisander;fi FIN;DF;Werder Bremen;33;1985;11.0;4;1;1;13;11;0;1;8;23;0;0;0;6;10;60.0;7;2;16;28;57.1;12;Matches
-281;Alfredo Morales\Alfredo-Morales;us USA;MF;Düsseldorf;29;1990;15.6;6;0;0;24;23;2;10;23;18;1;0;0;19;27;70.4;19;0;30;51;58.8;21;Matches
-282;Jan Morávek\Jan-Moravek;cz CZE;MF;Augsburg;29;1989;5.0;1;0;0;11;3;0;0;12;8;0;0;0;9;10;90.0;9;0;18;40;45.0;22;Matches
-283;Nordi Mukiele\Nordi-Mukiele;fr FRA;DF;RB Leipzig;21;1997;13.8;0;0;0;7;19;2;24;21;32;0;0;0;9;20;45.0;10;0;38;51;74.5;13;Matches
-284;Florian Müller\Florian-Muller;de GER;GK;Mainz 05;21;1997;3.0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;;0;0;0;0;;0;Matches
-285;Thomas Müller\Thomas-Muller;de GER;MFFW;Bayern Munich;29;1989;16.3;3;0;0;12;18;6;73;28;8;0;0;0;14;30;46.7;17;0;38;75;50.7;37;Matches
-286;Yvon Mvogo\Yvon-Mvogo;ch SUI;GK;RB Leipzig;25;1994;1.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-287;Phillipp Mwene\Phillipp-Mwene;at AUT;DF;Mainz 05;25;1994;1.0;0;0;0;0;0;0;8;4;1;0;0;0;0;1;0.0;0;0;6;8;75.0;2;Matches
-288;Obite N'Dicka\Obite-NDicka;fr FRA;DF;Eint Frankfurt;19;1999;12.7;2;0;0;8;6;0;6;14;21;0;0;1;16;23;69.6;17;0;25;35;71.4;10;Matches
-289;Matija Nastasić\Matija-Nastasic;rs SRB;DF;Schalke 04;26;1993;11.2;2;0;0;13;2;0;0;19;19;0;1;0;0;0;;0;0;31;34;91.2;3;Matches
-290;Manuel Neuer\Manuel-Neuer;de GER;GK;Bayern Munich;33;1986;24.0;0;0;0;0;2;0;0;0;0;0;0;0;1;2;50.0;2;0;0;2;0.0;2;Matches
-291;Florian Neuhaus\Florian-Neuhaus;de GER;MF;M'gladbach;22;1997;16.2;4;0;0;19;25;1;23;15;15;0;0;0;30;40;75.0;33;2;28;59;47.5;31;Matches
-292;Moussa Niakhate\Moussa-Niakhate;fr FRA;DF;Mainz 05;23;1996;23.0;6;0;0;37;17;1;5;32;28;0;0;0;2;4;50.0;2;0;43;54;79.6;11;Matches
-293;Florian Niederlechner\Florian-Niederlechner;de GER;FWMF;Augsburg;28;1990;23.2;1;0;0;37;47;28;13;16;6;2;0;1;27;52;51.9;32;4;22;37;59.5;15;Matches
-294;Christopher Nkunku\Christopher-Nkunku;fr FRA;MFFW;RB Leipzig;21;1997;15.1;1;0;0;18;28;5;89;15;14;1;0;0;43;72;59.7;47;0;18;34;52.9;16;Matches
-295;Lukas Nmecha\Lukas-Nmecha;de GER;MFFW;Wolfsburg;20;1998;1.4;1;0;0;3;5;1;1;0;0;0;0;0;6;9;66.7;6;0;0;1;0.0;1;Matches
-296;Håvard Nordtveit\Havard-Nordtveit;no NOR;DFMF;Hoffenheim;29;1990;4.6;0;0;0;0;5;0;1;1;12;0;0;0;4;4;100.0;4;0;3;4;75.0;1;Matches
-297;Alexander Nübel\Alexander-Nubel;de GER;GK;Schalke 04;22;1996;19.7;1;1;0;1;4;0;0;0;2;0;0;1;0;0;;0;0;0;0;;0;Matches
-298;Kasim Nuhu\Kasim-Nuhu;gh GHA;DF;Düsseldorf;24;1995;11.0;0;0;0;9;9;0;0;15;25;0;0;0;11;13;84.6;11;0;22;30;73.3;8;Matches
-299;Bastian Oczipka\Bastian-Oczipka;de GER;DF;Schalke 04;30;1989;24.0;2;0;0;18;24;2;109;25;26;0;1;0;29;51;56.9;29;7;50;72;69.4;22;Matches
-300;Álvaro Odriozola\Alvaro-Odriozola;es ESP;DF;Bayern Munich;23;1995;0.7;0;0;0;1;0;0;9;0;0;0;0;0;3;4;75.0;3;1;0;1;0.0;1;Matches
-301;Cauly Oliveira Souza\Cauly-Oliveira-Souza;br BRA;MFFW;Paderborn 07;23;1995;8.0;0;0;0;9;14;1;39;6;6;0;0;0;19;30;63.3;22;2;9;14;64.3;5;Matches
-302;Dani Olmo\Dani-Olmo;es ESP;MFFW;RB Leipzig;21;1998;1.8;0;0;0;1;2;0;6;1;1;0;0;0;1;3;33.3;1;0;2;4;50.0;2;Matches
-303;Karim Onisiwo\Karim-Onisiwo;at AUT;FW;Mainz 05;27;1992;11.9;3;0;0;24;39;7;18;9;2;1;0;0;38;52;73.1;39;0;15;23;65.2;8;Matches
-304;Willi Orban\Willi-Orban;hu HUN;DF;RB Leipzig;26;1992;9.0;0;0;0;6;10;2;0;16;13;0;0;0;3;4;75.0;4;0;20;28;71.4;8;Matches
-305;Yuya Osako\Yuya-Osako;jp JPN;FWMF;Werder Bremen;29;1990;13.4;1;0;0;17;25;3;7;10;1;1;0;0;16;24;66.7;16;0;14;23;60.9;9;Matches
-306;Paulo Otávio\Paulo-Otavio;br BRA;DFFW;Wolfsburg;24;1994;2.3;1;0;0;5;2;0;6;7;4;0;0;0;4;8;50.0;5;0;11;13;84.6;2;Matches
-307;Reece Oxford\Reece-Oxford;eng ENG;MF;Augsburg;20;1998;3.5;0;0;0;0;5;0;0;6;4;0;0;0;0;0;;0;0;6;12;50.0;6;Matches
-308;Levin Öztunalı\Levin-Oztunali;de GER;MFFW;Mainz 05;23;1996;15.9;1;0;0;24;14;6;33;17;8;1;0;0;28;47;59.6;31;3;25;46;54.3;21;Matches
-309;Gonçalo Paciência\Goncalo-Paciencia;pt POR;FW;Eint Frankfurt;24;1994;13.9;4;0;0;28;24;10;18;9;1;0;0;0;25;45;55.6;27;2;9;19;47.4;10;Matches
-310;Exequiel Palacios\Exequiel-Palacios;ar ARG;MF;Leverkusen;20;1998;1.7;0;0;0;1;5;0;0;5;1;0;0;0;3;3;100.0;3;0;8;11;72.7;3;Matches
-311;Michael Parensen\Michael-Parensen;de GER;DF;Union Berlin;33;1986;5.6;3;0;0;14;8;0;2;6;12;0;0;0;3;3;100.0;3;0;10;16;62.5;6;Matches
-312;Paulinho\Paulinho;br BRA;MFFW;Leverkusen;19;2000;0.9;1;0;0;2;2;1;3;1;0;0;0;0;4;4;100.0;4;0;1;1;100.0;0;Matches
-313;Benjamin Pavard\Benjamin-Pavard;fr FRA;DF;Bayern Munich;23;1996;22.0;5;0;0;29;18;2;48;15;32;0;1;0;14;24;58.3;14;0;23;29;79.3;6;Matches
-314;Jiří Pavlenka\Jiri-Pavlenka;cz CZE;GK;Werder Bremen;27;1992;23.0;1;0;0;0;2;0;0;0;4;0;0;1;0;0;;0;0;0;1;0.0;1;Matches
-315;Mads Pedersen\Mads-Pedersen;dk DEN;DF;Augsburg;22;1996;1.1;0;0;0;0;0;0;4;2;2;0;0;0;1;5;20.0;2;0;5;9;55.6;4;Matches
-316;Peter Pekarík\Peter-Pekarik;sk SVK;DF;Hertha BSC;32;1986;1.0;0;0;0;1;0;0;6;1;0;0;0;0;4;6;66.7;5;0;4;8;50.0;4;Matches
-317;Philipp Pentke\Philipp-Pentke;de GER;GK;Hoffenheim;34;1985;4.0;1;0;0;0;1;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-318;Ivan Perišić\Ivan-Perisic;hr CRO;FWMF;Bayern Munich;30;1989;10.5;1;0;0;15;6;7;65;11;5;0;0;0;11;19;57.9;11;0;17;36;47.2;19;Matches
-319;Pavao Pervan\Pavao-Pervan;at AUT;GK;Wolfsburg;31;1987;8.0;0;0;0;0;1;1;0;0;0;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-320;Nils Petersen\Nils-Petersen;de GER;FWMF;Freiburg;30;1988;20.7;1;0;0;8;14;8;9;8;8;0;0;0;6;16;37.5;7;1;17;35;48.6;18;Matches
-321;Krzysztof Piątek\Krzysztof-Piatek;pl POL;FW;Hertha BSC;24;1995;4.3;0;0;0;9;12;3;0;1;2;1;0;0;5;8;62.5;5;0;1;3;33.3;2;Matches
-322;Ronaël Pierre-Gabriel\Ronael-Pierre-Gabriel;fr FRA;DF;Mainz 05;21;1998;5.9;3;0;0;5;7;0;8;8;8;0;0;0;11;11;100.0;11;0;18;26;69.2;8;Matches
-323;Łukasz Piszczek\Lukasz-Piszczek;pl POL;DF;Dortmund;34;1985;14.2;1;0;0;11;3;0;22;18;16;0;0;0;7;16;43.8;9;1;28;36;77.8;8;Matches
-324;Claudio Pizarro\Claudio-Pizarro;pe PER;FWMF;Werder Bremen;40;1978;2.2;0;0;0;1;7;1;1;0;2;0;0;0;3;5;60.0;3;0;2;4;50.0;2;Matches
-325;Marvin Plattenhardt\Marvin-Plattenhardt;de GER;DF;Hertha BSC;27;1992;9.0;0;0;0;4;14;1;35;10;5;0;0;0;4;7;57.1;4;0;16;21;76.2;5;Matches
-326;Alassane Pléa\Alassane-Plea;fr FRA;FW;M'gladbach;26;1993;17.1;2;1;1;13;32;12;36;10;9;0;0;0;42;63;66.7;42;1;17;38;44.7;21;Matches
-327;Thomas Pledl\Thomas-Pledl;de GER;DFFW;Düsseldorf;25;1994;0.8;0;0;0;1;0;1;7;0;0;0;0;0;2;3;66.7;2;0;3;4;75.0;1;Matches
-328;Joel Pohjanpalo\Joel-Pohjanpalo;fi FIN;MF;Leverkusen;24;1994;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-329;Sebastian Polter\Sebastian-Polter;de GER;FW;Union Berlin;28;1991;3.0;1;1;0;7;8;6;1;1;1;1;0;0;3;3;100.0;3;0;3;4;75.0;1;Matches
-330;Marin Pongračić\Marin-Pongracic;hr CRO;DF;Wolfsburg;21;1997;1.5;1;1;0;2;1;0;0;0;0;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-331;Stefan Posch\Stefan-Posch;at AUT;DF;Hoffenheim;22;1997;16.7;8;0;0;26;11;0;9;32;23;0;2;0;6;9;66.7;7;0;60;83;72.3;23;Matches
-332;Yussuf Poulsen\Yussuf-Poulsen;dk DEN;FW;RB Leipzig;25;1994;10.9;2;0;0;26;22;0;7;10;2;1;0;0;13;24;54.2;13;0;11;24;45.8;13;Matches
-333;Kai Pröger\Kai-Proger;de GER;MFFW;Paderborn 07;27;1992;19.4;0;0;0;9;22;10;160;20;12;1;0;0;54;98;55.1;58;7;38;79;48.1;41;Matches
-334;Grischa Prömel\Grischa-Promel;de GER;MF;Union Berlin;24;1995;3.0;1;0;0;7;7;1;1;4;6;0;0;0;3;4;75.0;3;1;4;8;50.0;4;Matches
-335;Robin Quaison\Robin-Quaison;se SWE;FWMF;Mainz 05;25;1993;21.1;1;0;0;15;19;11;8;10;9;0;0;0;30;47;63.8;31;0;22;42;52.4;20;Matches
-336;Raffael\Raffael;br BRA;MF;M'gladbach;34;1985;0.5;0;0;0;1;3;0;3;0;0;0;0;0;3;3;100.0;3;0;0;1;0.0;1;Matches
-337;Benito Raman\Benito-Raman;be BEL;FW;Schalke 04;24;1994;14.2;2;0;0;17;8;16;12;5;5;0;0;0;15;32;46.9;16;1;13;27;48.1;14;Matches
-338;Milot Rashica\Milot-Rashica;xk KVX;FWMF;Werder Bremen;23;1996;18.3;2;0;0;23;34;7;100;11;3;0;0;0;51;80;63.8;54;1;18;34;52.9;16;Matches
-339;Ante Rebić\Ante-Rebic;hr CRO;FW;Eint Frankfurt;25;1993;1.0;1;0;0;5;1;1;0;0;1;0;0;0;1;2;50.0;1;0;0;0;;0;Matches
-340;Daishawn Redan\Daishawn-Redan;nl NED;FW;Hertha BSC;18;2001;0.2;0;0;0;0;0;0;0;0;0;0;0;0;1;2;50.0;2;0;0;1;0.0;1;Matches
-341;Fabian Reese\Fabian-Reese;de GER;FW;Schalke 04;21;1997;1.0;0;0;0;0;1;1;1;1;0;0;0;0;3;6;50.0;3;1;1;2;50.0;1;Matches
-342;Ken Reichel\Ken-Reichel;de GER;DF;Union Berlin;32;1986;1.5;0;0;0;0;4;0;6;4;4;0;0;0;0;1;0.0;0;0;4;6;66.7;2;Matches
-343;Karim Rekik\Karim-Rekik;nl NED;DF;Hertha BSC;24;1994;14.0;0;0;0;9;11;0;2;11;19;0;2;1;4;7;57.1;4;1;17;22;77.3;5;Matches
-344;Panagiotis Retsos\Panagiotis-Retsos;gr GRE;DF;Leverkusen;20;1998;1.3;0;0;0;1;0;0;0;0;2;0;0;0;1;1;100.0;1;0;5;12;41.7;7;Matches
-345;Marco Reus\Marco-Reus;de GER;MFFW;Dortmund;30;1989;16.7;1;0;0;17;17;7;16;22;7;0;0;0;29;53;54.7;32;2;32;48;66.7;16;Matches
-346;Elvis Rexhbeçaj\Elvis-Rexhbecaj;de GER;MF;Köln;21;1997;2.3;2;0;0;5;7;0;3;5;1;0;0;0;5;6;83.3;5;0;5;7;71.4;2;Matches
-347;Giovanni Reyna\Giovanni-Reyna;us USA;MFFW;Dortmund;16;2002;1.3;1;0;0;2;5;0;5;1;0;0;0;0;9;11;81.8;10;1;2;3;66.7;1;Matches
-348;Marco Richter\Marco-Richter;de GER;MFFW;Augsburg;21;1997;17.3;2;0;0;25;28;3;38;13;19;0;0;0;32;75;42.7;38;3;22;59;37.3;37;Matches
-349;Marcel Risse\Marcel-Risse;de GER;MFFW;Köln;29;1989;1.4;1;0;0;3;0;0;16;1;0;0;0;0;1;2;50.0;1;0;3;3;100.0;0;Matches
-350;Marlon Ritter\Marlon-Ritter;de GER;MFFW;Paderborn 07;24;1994;0.8;2;0;0;2;2;0;7;0;1;0;0;0;1;1;100.0;1;1;1;2;50.0;1;Matches
-351;Sebastian Rode\Sebastian-Rode;de GER;MF;Eint Frankfurt;28;1990;12.8;2;0;0;19;13;1;8;25;18;0;0;0;8;13;61.5;8;0;38;63;60.3;25;Matches
-352;Jérôme Roussillon\Jerome-Roussillon;fr FRA;DF;Wolfsburg;26;1993;19.6;1;0;0;12;22;2;64;20;18;0;0;0;34;59;57.6;35;8;32;52;61.5;20;Matches
-353;Sebastian Rudy\Sebastian-Rudy;de GER;MFDF;Hoffenheim;29;1990;22.4;8;0;0;21;27;1;56;40;17;0;1;0;15;21;71.4;16;1;57;90;63.3;33;Matches
-354;Lukas Rupp\Lukas-Rupp;de GER;MFFW;Hoffenheim;28;1991;3.8;0;0;0;10;6;1;0;3;5;0;0;0;4;12;33.3;5;0;11;13;84.6;2;Matches
-355;Julian Ryerson\Julian-Ryerson;no NOR;DF;Union Berlin;21;1997;2.6;2;0;0;7;2;0;10;3;4;0;0;0;2;3;66.7;2;0;4;8;50.0;4;Matches
-356;Frederik Rønnow\Frederik-Ronnow;dk DEN;GK;Eint Frankfurt;26;1992;8.0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-357;João Victor Santos Sá\Joao-Victor-Santos-Sa;br BRA;FWMF;Wolfsburg;25;1994;12.8;2;0;0;17;23;6;15;17;7;0;0;0;26;37;70.3;30;1;28;52;53.8;24;Matches
-358;Abdelhamid Sabiri\Abdelhamid-Sabiri;de GER;MF;Paderborn 07;22;1996;8.7;4;0;0;18;12;0;1;13;5;0;0;0;26;45;57.8;27;1;18;31;58.1;13;Matches
-359;Marcel Sabitzer\Marcel-Sabitzer;at AUT;MFFW;RB Leipzig;25;1994;21.7;3;0;0;14;29;3;99;23;21;0;0;0;20;32;62.5;21;3;30;63;47.6;33;Matches
-360;Nuri Şahin\Nuri-Sahin;tr TUR;MF;Werder Bremen;30;1988;14.0;5;1;1;22;15;0;72;22;33;0;0;0;11;16;68.8;11;0;31;59;52.5;28;Matches
-361;Roland Sallai\Roland-Sallai;hu HUN;FWMF;Freiburg;22;1997;5.8;0;0;0;9;20;3;24;9;5;0;0;0;12;22;54.5;13;1;9;15;60.0;6;Matches
-362;Diadie Samassékou\Diadie-Samassekou;ml MLI;MF;Hoffenheim;23;1996;7.8;2;0;0;7;7;0;2;21;18;0;0;0;10;13;76.9;10;0;27;41;65.9;14;Matches
-363;Renato Sanches\Renato-Sanches;pt POR;MF;Bayern Munich;21;1997;0.1;0;0;0;0;1;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-364;Jadon Sancho\Jadon-Sancho;eng ENG;FWMF;Dortmund;19;2000;19.8;0;0;0;5;14;7;59;13;14;0;0;0;71;126;56.3;76;8;16;29;55.2;13;Matches
-365;Salif Sané\Salif-Sane;sn SEN;DF;Schalke 04;28;1990;7.5;3;0;0;8;14;0;0;8;14;0;0;0;7;8;87.5;7;1;13;20;65.0;7;Matches
-366;Marcelo Saracchi\Marcelo-Saracchi;uy URU;DF;RB Leipzig;21;1998;2.0;1;0;0;1;1;0;7;3;1;0;0;0;5;7;71.4;6;0;6;8;75.0;2;Matches
-367;Josh Sargent\Josh-Sargent;us USA;FW;Werder Bremen;19;2000;8.5;0;0;0;9;15;2;3;4;7;0;0;0;9;16;56.3;9;1;4;10;40.0;6;Matches
-368;Louis Schaub\Louis-Schaub;at AUT;MF;Köln;24;1994;7.0;0;0;0;8;11;1;19;9;3;0;0;0;20;36;55.6;23;0;14;20;70.0;6;Matches
-369;Patrik Schick\Patrik-Schick;cz CZE;FW;RB Leipzig;23;1996;9.0;2;0;0;11;15;6;5;4;0;0;0;0;15;31;48.4;18;2;6;14;42.9;8;Matches
-370;Julian Schieber\Julian-Schieber;de GER;FW;Augsburg;30;1989;0.5;1;0;0;2;0;0;0;1;0;0;0;0;0;0;;0;0;1;1;100.0;0;Matches
-371;Kingsley Schindler\Kingsley-Schindler;de GER;FWMF;Köln;26;1993;8.9;0;0;0;11;9;3;31;3;5;0;0;0;11;20;55.0;12;1;4;10;40.0;6;Matches
-372;Xaver Schlager\Xaver-Schlager;at AUT;MF;Wolfsburg;21;1997;10.6;2;0;0;19;14;0;10;26;10;0;0;0;16;20;80.0;17;0;34;55;61.8;21;Matches
-373;Keven Schlotterbeck\Keven-Schlotterbeck;de GER;DF;Union Berlin;22;1997;12.6;4;1;0;14;18;1;1;20;24;0;0;0;4;5;80.0;4;0;35;47;74.5;12;Matches
-374;Nico Schlotterbeck\Nico-Schlotterbeck;de GER;DF;Freiburg;19;1999;3.9;0;0;0;6;9;0;5;5;4;0;0;0;4;4;100.0;4;0;8;10;80.0;2;Matches
-375;Marcel Schmelzer\Marcel-Schmelzer;de GER;FW;Dortmund;31;1988;0.0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-376;Jonathan Schmid\Jonathan-Schmid;fr FRA;DF;Freiburg;29;1990;22.9;1;0;0;11;24;3;81;22;24;0;0;0;10;24;41.7;10;0;31;46;67.4;15;Matches
-377;Manuel Schmiedebach\Manuel-Schmiedebach;de GER;MF;Union Berlin;30;1988;1.6;0;0;0;3;2;0;0;2;1;0;0;0;0;0;;0;0;3;8;37.5;5;Matches
-378;Benno Schmitz\Benno-Schmitz;de GER;DF;Köln;24;1994;8.4;0;0;0;8;1;0;22;10;14;0;0;0;2;6;33.3;3;1;20;31;64.5;11;Matches
-379;Sebastian Schonlau\Sebastian-Schonlau;de GER;DF;Paderborn 07;24;1994;19.0;2;0;0;16;16;1;2;28;34;0;1;0;6;6;100.0;6;0;56;83;67.5;27;Matches
-380;Alessandro Schöpf\Alessandro-Schopf;at AUT;MFFW;Schalke 04;25;1994;6.7;3;0;0;9;5;0;8;12;8;0;0;0;13;30;43.3;15;1;17;26;65.4;9;Matches
-381;Markus Schubert\Markus-Schubert;de GER;GK;Schalke 04;21;1998;4.2;0;0;0;0;2;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-382;Nico Schulz\Nico-Schulz;de GER;DF;Dortmund;26;1993;6.3;0;0;0;11;3;4;13;6;7;0;0;0;6;10;60.0;6;0;12;22;54.5;10;Matches
-383;Alexander Schwolow\Alexander-Schwolow;de GER;GK;Freiburg;27;1992;14.2;0;0;0;0;1;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-384;Davie Selke\Davie-Selke;de GER;FW;Hertha BSC;24;1995;10.6;3;0;0;26;20;6;3;3;2;0;0;0;7;14;50.0;8;1;4;9;44.4;5;Matches
-385;Davie Selke\Davie-Selke;de GER;FW;Werder Bremen;24;1995;2.8;2;0;0;6;3;1;2;1;0;0;0;0;2;5;40.0;2;0;1;2;50.0;1;Matches
-386;Suat Serdar\Suat-Serdar;de GER;MF;Schalke 04;22;1997;16.4;2;0;0;28;30;1;1;41;24;0;0;0;43;66;65.2;46;2;57;102;55.9;45;Matches
-387;Khiry Shelton\Khiry-Shelton;us USA;FWMF;Paderborn 07;26;1993;0.4;0;0;0;0;1;0;0;0;0;0;0;0;2;2;100.0;2;0;0;0;;0;Matches
-388;André Silva\Andre-Silva;pt POR;FW;Eint Frankfurt;23;1995;8.5;0;0;0;11;11;5;6;0;0;0;0;0;10;15;66.7;11;0;3;5;60.0;2;Matches
-389;Sarpreet Singh\Sarpreet-Singh;nz NZL;MF;Bayern Munich;20;1999;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-390;Daley Sinkgraven\Daley-Sinkgraven;nl NED;DF;Leverkusen;24;1995;6.3;1;0;0;10;3;0;5;12;5;0;0;0;4;7;57.1;4;1;20;30;66.7;10;Matches
-391;Ellyes Skhiri\Ellyes-Skhiri;tn TUN;MF;Köln;24;1995;20.7;2;0;0;20;14;3;2;31;50;0;0;0;23;28;82.1;24;1;47;80;58.8;33;Matches
-392;Robert Skov\Robert-Skov;dk DEN;DFFW;Hoffenheim;23;1996;19.8;3;0;0;13;19;1;103;25;12;0;0;0;28;45;62.2;31;2;36;59;61.0;23;Matches
-393;Steven Skrzybski\Steven-Skrzybski;de GER;FWMF;Düsseldorf;26;1992;2.0;0;0;0;0;5;1;2;1;0;0;0;0;3;3;100.0;3;0;2;4;50.0;2;Matches
-394;Dennis Smarsch\Dennis-Smarsch;de GER;GK;Hertha BSC;20;1999;0.7;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-395;Lasse Sobiech\Lasse-Sobiech;de GER;DF;Köln;28;1991;1.0;1;0;0;2;0;0;0;0;4;0;0;0;0;0;;0;0;1;1;100.0;0;Matches
-396;Marcel Sobottka\Marcel-Sobottka;de GER;MF;Düsseldorf;25;1994;4.1;0;0;0;11;5;0;0;8;6;0;0;0;2;4;50.0;2;0;12;17;70.6;5;Matches
-397;Yann Sommer\Yann-Sommer;ch SUI;GK;M'gladbach;30;1988;23.0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;;0;0;0;1;0.0;1;Matches
-398;Djibril Sow\Djibril-Sow;ch SUI;MF;Eint Frankfurt;22;1997;15.6;2;0;0;30;28;0;38;28;28;0;0;0;11;22;50.0;12;0;44;65;67.7;21;Matches
-399;Dennis Srbeny\Dennis-Srbeny;de GER;FWMF;Paderborn 07;25;1994;5.9;1;0;0;6;10;2;0;4;2;0;0;0;8;11;72.7;8;1;6;12;50.0;6;Matches
-400;Jerry St. Juste\Jerry-St-Juste;nl NED;DF;Mainz 05;22;1996;16.7;6;0;0;15;10;1;6;28;42;0;0;0;8;10;80.0;8;1;43;59;72.9;16;Matches
-401;Kostas Stafylidis\Kostas-Stafylidis;gr GRE;DF;Hoffenheim;25;1993;4.4;0;0;0;6;4;0;10;0;2;0;0;0;4;5;80.0;5;0;7;8;87.5;1;Matches
-402;Benjamin Stambouli\Benjamin-Stambouli;fr FRA;DF;Schalke 04;28;1990;9.0;2;0;0;9;4;0;2;21;12;0;0;0;4;5;80.0;4;0;28;43;65.1;15;Matches
-403;Niklas Stark\Niklas-Stark;de GER;DF;Hertha BSC;24;1995;14.8;5;0;0;18;7;0;1;19;16;0;0;1;2;4;50.0;2;0;28;39;71.8;11;Matches
-404;Renato Steffen\Renato-Steffen;ch SUI;FWMF;Wolfsburg;27;1991;9.9;4;0;0;22;20;4;27;11;10;0;0;0;20;23;87.0;20;0;15;26;57.7;11;Matches
-405;Zack Steffen\Zack-Steffen;us USA;GK;Düsseldorf;24;1995;17.0;0;0;0;0;2;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-406;Lars Stindl\Lars-Stindl;de GER;FWMF;M'gladbach;30;1988;7.4;4;0;0;10;12;2;3;9;4;0;0;0;7;13;53.8;7;2;11;23;47.8;12;Matches
-407;Kevin Stöger\Kevin-Stoger;at AUT;MF;Düsseldorf;25;1993;5.5;2;0;0;10;11;0;16;9;7;0;0;0;5;8;62.5;5;0;9;24;37.5;15;Matches
-408;Tobias Strobl\Tobias-Strobl;de GER;MFDF;M'gladbach;29;1990;4.0;1;0;0;9;4;0;0;7;5;0;0;0;4;4;100.0;4;0;9;13;69.2;4;Matches
-409;Christian Strohdiek\Christian-Strohdiek;de GER;DF;Paderborn 07;31;1988;12.0;2;0;0;8;11;0;5;11;19;0;1;0;0;0;;0;0;22;44;50.0;22;Matches
-410;Neven Subotić\Neven-Subotic;rs SRB;DF;Union Berlin;30;1988;17.8;3;1;1;9;3;0;7;16;28;0;0;0;3;5;60.0;3;0;29;53;54.7;24;Matches
-411;Marek Suchý\Marek-Suchy;cz CZE;DF;Augsburg;31;1988;1.5;0;0;0;1;0;0;0;1;1;0;0;0;0;0;;0;0;3;3;100.0;0;Matches
-412;Niklas Süle\Niklas-Sule;de GER;DF;Bayern Munich;23;1995;7.1;1;0;0;6;4;0;1;4;6;0;0;0;2;2;100.0;2;0;9;11;81.8;2;Matches
-413;Markus Suttner\Markus-Suttner;at AUT;DFFW;Düsseldorf;32;1987;9.1;1;0;0;6;3;0;50;10;13;0;0;0;4;4;100.0;4;0;17;27;63.0;10;Matches
-414;Ádám Szalai\Adam-Szalai;hu HUN;FW;Mainz 05;31;1987;11.6;0;0;0;19;22;7;6;4;2;0;0;0;10;14;71.4;10;0;7;13;53.8;6;Matches
-415;Jonathan Tah\Jonathan-Tah;de GER;DF;Leverkusen;23;1996;19.0;4;1;0;24;9;0;2;15;21;0;0;0;9;11;81.8;10;0;34;48;70.8;14;Matches
-416;Edmond Tapsoba\Edmond-Tapsoba;bf BFA;DF;Leverkusen;20;1999;4.0;1;0;0;6;1;0;0;8;1;0;0;0;2;3;66.7;2;0;10;13;76.9;3;Matches
-417;Georg Teigl\Georg-Teigl;at AUT;DFMF;Augsburg;28;1991;1.1;0;0;0;2;1;0;0;0;3;0;0;0;1;1;100.0;1;0;0;4;0.0;4;Matches
-418;Bernard Tekpetey\Bernard-Tekpetey;gh GHA;FWMF;Düsseldorf;21;1997;5.0;4;0;0;14;13;3;13;6;2;0;0;0;10;18;55.6;10;0;6;9;66.7;3;Matches
-419;Lino Tempelmann\Lino-Tempelmann;de GER;MF;Freiburg;20;1999;0.4;0;0;0;1;0;0;1;0;0;0;0;0;1;1;100.0;1;0;1;1;100.0;0;Matches
-420;Simon Terodde\Simon-Terodde;de GER;FWMF;Köln;31;1988;8.6;4;0;0;23;10;2;1;5;2;0;0;0;2;5;40.0;3;0;13;26;50.0;13;Matches
-421;Niclas Thiede\Niclas-Thiede;de GER;GK;Freiburg;20;1999;0.8;0;0;0;0;1;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-422;Jan Thielmann\Jan-Thielmann;de GER;FWMF;Köln;17;2002;3.6;2;0;0;4;3;1;5;6;5;0;0;0;1;4;25.0;1;0;8;11;72.7;3;Matches
-423;Erik Thommy\Erik-Thommy;de GER;MFFW;Düsseldorf;24;1994;16.5;3;0;0;14;36;6;96;18;11;0;0;1;33;49;67.3;35;0;29;46;63.0;17;Matches
-424;Marcus Thuram\Marcus-Thuram;fr FRA;FW;M'gladbach;21;1997;18.7;2;0;0;37;47;16;19;16;10;1;0;0;58;96;60.4;61;2;21;37;56.8;16;Matches
-425;Marcel Tisserand\Marcel-Tisserand;cd COD;DF;Wolfsburg;26;1993;13.4;8;1;1;26;5;1;8;11;34;0;0;0;9;11;81.8;9;1;23;30;76.7;7;Matches
-426;Jean-Clair Todibo\Jean-Clair-Todibo;fr FRA;DF;Schalke 04;19;1999;2.0;1;0;0;3;3;0;0;5;10;0;0;0;2;2;100.0;2;0;8;9;88.9;1;Matches
-427;Corentin Tolisso\Corentin-Tolisso;fr FRA;MF;Bayern Munich;24;1994;7.1;0;0;0;6;7;0;6;8;4;0;0;0;7;11;63.6;8;0;11;21;52.4;10;Matches
-428;Ömer Toprak\Omer-Toprak;tr TUR;DF;Werder Bremen;30;1989;8.0;2;0;0;6;5;2;2;6;11;0;0;1;5;5;100.0;5;0;10;12;83.3;2;Matches
-429;Lucas Torró\Lucas-Torro;es ESP;MFFW;Eint Frankfurt;25;1994;1.5;2;0;0;2;4;0;0;4;3;0;0;0;1;1;100.0;1;0;6;9;66.7;3;Matches
-430;Jordan Torunarigha\Jordan-Torunarigha;de GER;DF;Hertha BSC;21;1997;6.2;1;0;0;6;2;0;0;13;12;0;0;0;5;8;62.5;5;0;20;27;74.1;7;Matches
-431;Almamy Touré\Almamy-Toure;ml MLI;DF;Eint Frankfurt;23;1996;11.2;2;0;0;9;1;0;45;13;21;0;0;0;11;14;78.6;11;0;22;32;68.8;10;Matches
-432;Ibrahima Traoré\Ibrahima-Traore;gn GUI;FW;M'gladbach;31;1988;0.1;0;0;0;0;0;0;0;0;0;0;0;0;1;2;50.0;1;0;0;1;0.0;1;Matches
-433;Kevin Trapp\Kevin-Trapp;de GER;GK;Eint Frankfurt;29;1990;12.0;0;0;0;0;1;0;0;0;2;0;0;0;0;0;;0;0;0;0;;0;Matches
-434;Christopher Trimmel\Christopher-Trimmel;at AUT;DF;Union Berlin;32;1987;21.8;5;0;0;25;17;1;178;28;43;0;1;0;18;28;64.3;23;0;52;81;64.2;29;Matches
-435;Anthony Ujah\Anthony-Ujah;ng NGA;FWMF;Union Berlin;28;1990;6.7;0;0;0;11;3;3;4;3;1;0;0;0;6;12;50.0;7;0;5;7;71.4;2;Matches
-436;Sven Ulreich\Sven-Ulreich;de GER;GK;Bayern Munich;30;1988;0.0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-437;Dayot Upamecano\Dayot-Upamecano;fr FRA;DF;RB Leipzig;20;1998;19.6;4;0;0;15;11;1;2;38;33;0;0;0;23;28;82.1;24;1;48;63;76.2;15;Matches
-438;Mark Uth\Mark-Uth;de GER;FWMF;Schalke 04;27;1991;3.9;0;0;0;8;2;2;3;3;2;0;0;0;3;6;50.0;3;1;4;9;44.4;5;Matches
-439;Mark Uth\Mark-Uth;de GER;MF;Köln;27;1991;5.7;2;0;0;9;6;3;43;8;3;0;0;0;6;12;50.0;8;0;10;21;47.6;11;Matches
-440;Ruben Vargas\Ruben-Vargas;ch SUI;MFFW;Augsburg;20;1998;19.6;7;0;0;28;23;6;14;19;15;1;0;0;38;79;48.1;43;3;28;48;58.3;20;Matches
-441;Sebastian Vasiliadis\Sebastian-Vasiliadis;gr GRE;MF;Paderborn 07;21;1997;23.4;8;0;0;38;21;0;13;43;19;0;0;0;48;75;64.0;57;3;73;117;62.4;44;Matches
-442;Miloš Veljković\Milos-Veljkovic;rs SRB;DF;Werder Bremen;23;1995;12.9;4;0;0;9;5;0;0;16;12;0;0;0;1;1;100.0;1;0;30;43;69.8;13;Matches
-443;Birger Verstraete\Birger-Verstraete;be BEL;MF;Köln;25;1994;7.4;3;0;0;13;16;0;31;12;4;0;0;0;2;6;33.3;3;0;21;35;60.0;14;Matches
-444;Kevin Vogt\Kevin-Vogt;de GER;DF;Hoffenheim;27;1991;10.7;2;0;0;9;8;0;1;6;8;0;0;0;4;4;100.0;4;0;11;15;73.3;4;Matches
-445;Kevin Vogt\Kevin-Vogt;de GER;DF;Werder Bremen;27;1991;4.7;1;0;0;4;0;1;0;1;7;0;0;0;1;1;100.0;1;0;5;10;50.0;5;Matches
-446;Kevin Volland\Kevin-Volland;de GER;FW;Leverkusen;27;1992;20.2;3;0;0;19;17;29;39;10;4;0;0;0;21;41;51.2;26;1;15;28;53.6;13;Matches
-447;Luca Waldschmidt\Luca-Waldschmidt;de GER;FWMF;Freiburg;23;1996;9.5;1;0;0;8;10;3;5;5;2;1;0;0;9;24;37.5;12;1;7;19;36.8;12;Matches
-448;Wout Weghorst\Wout-Weghorst;nl NED;FW;Wolfsburg;26;1992;21.6;4;0;0;33;26;14;6;8;2;0;1;0;19;30;63.3;19;0;11;28;39.3;17;Matches
-449;Julian Weigl\Julian-Weigl;de GER;MFDF;Dortmund;23;1995;11.3;4;0;0;8;10;0;1;12;8;0;0;0;6;8;75.0;6;0;21;34;61.8;13;Matches
-450;Mitchell Weiser\Mitchell-Weiser;de GER;DF;Leverkusen;25;1994;8.0;2;0;0;12;15;0;21;16;17;0;0;0;11;18;61.1;11;1;27;34;79.4;7;Matches
-451;Wendell\Wendell;br BRA;DF;Leverkusen;26;1993;15.7;6;1;1;23;17;1;21;35;31;0;0;0;8;11;72.7;8;1;55;74;74.3;19;Matches
-452;Oscar Wendt\Oscar-Wendt;se SWE;DF;M'gladbach;33;1985;14.9;3;0;0;14;6;0;63;16;15;0;0;0;2;4;50.0;2;1;28;45;62.2;17;Matches
-453;Timo Werner\Timo-Werner;de GER;FW;RB Leipzig;23;1996;22.5;3;0;0;15;22;36;68;7;4;1;0;0;51;79;64.6;55;2;9;21;42.9;12;Matches
-454;Felix Wiedwald\Felix-Wiedwald;de GER;GK;Eint Frankfurt;29;1990;3.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;0;0;0;0;;0;Matches
-455;William\William;br BRA;DF;Wolfsburg;24;1995;15.2;0;0;0;30;15;1;55;34;27;0;0;0;22;40;55.0;24;4;54;97;55.7;43;Matches
-456;Axel Witsel\Axel-Witsel;be BEL;MF;Dortmund;30;1989;19.1;1;0;0;29;33;1;6;23;24;0;0;0;16;21;76.2;17;0;31;50;62.0;19;Matches
-457;Hannes Wolf\Hannes-Wolf;at AUT;FW;RB Leipzig;20;1999;0.2;0;0;0;2;0;0;0;1;0;0;0;0;0;0;;0;0;2;3;66.7;1;Matches
-458;Marius Wolf\Marius-Wolf;de GER;FWMF;Hertha BSC;24;1995;14.7;2;1;1;13;18;1;35;12;14;0;0;0;30;55;54.5;32;2;18;36;50.0;18;Matches
-459;Nick Woltemade\Nick-Woltemade;de GER;FW;Werder Bremen;17;2002;0.6;0;0;0;1;0;0;0;0;0;0;0;0;1;3;33.3;1;1;0;0;;0;Matches
-460;Dan-Axel Zagadou\Dan-Axel-Zagadou;fr FRA;DF;Dortmund;20;1999;9.6;0;0;0;5;1;0;1;10;15;0;0;0;6;6;100.0;6;0;15;18;83.3;3;Matches
-461;Denis Zakaria\Denis-Zakaria;ch SUI;MF;M'gladbach;22;1996;21.2;7;0;0;24;16;0;3;53;39;0;0;0;47;62;75.8;50;0;70;93;75.3;23;Matches
-462;Robin Zentner\Robin-Zentner;de GER;GK;Mainz 05;24;1994;21.0;1;0;0;0;2;0;0;0;0;0;0;0;2;2;100.0;2;0;0;0;;0;Matches
-463;Jean Zimmer\Jean-Zimmer;de GER;DFMF;Düsseldorf;25;1993;5.9;2;0;0;8;8;0;25;4;2;0;0;0;6;14;42.9;7;0;10;17;58.8;7;Matches
-464;Matthias Zimmermann\Matthias-Zimmermann;de GER;DFMF;Düsseldorf;27;1992;24.0;4;0;0;34;16;5;93;27;28;0;1;0;9;22;40.9;9;0;51;82;62.2;31;Matches
-465;Leopold Zingerle\Leopold-Zingerle;de GER;GK;Paderborn 07;25;1994;19.0;1;0;0;0;2;0;0;1;0;0;0;0;0;0;;0;0;1;2;50.0;1;Matches
-466;Joshua Zirkzee\Joshua-Zirkzee;nl NED;FWMF;Bayern Munich;18;2001;1.1;0;0;0;0;0;0;0;2;0;0;0;0;0;0;;0;0;2;4;50.0;2;Matches
-467;Ben Zolinski\Ben-Zolinski;de GER;FWMF;Paderborn 07;27;1992;11.1;2;0;0;21;16;9;3;6;7;0;0;0;7;15;46.7;8;0;15;37;40.5;22;Matches
-468;Steven Zuber\Steven-Zuber;ch SUI;DF;Hoffenheim;27;1991;3.8;0;0;0;3;4;0;7;2;4;0;0;0;8;8;100.0;8;0;6;10;60.0;4;Matches
+Rk;Player;Nation;Pos;Squad;Age;Born;90s;Performance-CrdY;Performance-CrdR;Performance-2CrdY;Performance-Fls;Performance-Fld;Performance-Off;Crs;Int;TklW;Performance-PKwon;Performance-PKcon;Performance-OG;Performance-Recov;Aerial Duels-Won;Aerial Duels-Lost;Aerial Duels-Won%;Matches;
+1;Dickson Abiama\Dickson-Abiama;ng NGA;FW;Greuther Fürth;22-298;1998;1.3;0;0;0;2;2;3;1;0;3;0;0;0;8;3;8;27.3;Matches
+2;Ragnar Ache\Ragnar-Ache;de GER;MFFW;Eint Frankfurt;23-031;1998;0.2;0;0;0;0;0;0;1;0;0;0;0;0;1;0;0;;Matches
+3;Tyler Adams\Tyler-Adams;us USA;MF;RB Leipzig;22-195;1999;1.7;0;0;0;2;1;0;0;4;3;0;0;0;26;4;1;80.0;Matches
+4;Sargis Adamyan\Sargis-Adamyan;am ARM;FWMF;Hoffenheim;28-097;1993;0.9;0;0;0;2;4;1;1;1;2;0;0;0;7;2;2;50.0;Matches
+5;Manuel Akanji\Manuel-Akanji;ch SUI;DF;Dortmund;26-040;1995;3.0;1;0;0;3;2;0;0;6;6;0;0;0;19;8;4;66.7;Matches
+6;Kevin Akpoguma\Kevin-Akpoguma;ng NGA;DF;Hoffenheim;26-131;1995;2.8;0;0;0;5;1;0;3;4;2;0;0;0;19;4;5;44.4;Matches
+7;Nadiem Amiri\Nadiem-Amiri;de GER;FW;Leverkusen;24-305;1996;1.1;0;0;0;0;1;0;1;1;1;0;0;0;4;0;1;0.0;Matches
+8;Sebastian Andersson\Sebastian-Andersson;se SWE;FW;Köln;30-044;1991;0.4;0;0;0;1;0;0;0;0;0;0;0;0;1;0;5;0.0;Matches
+9;Robert Andrich\Robert-Andrich;de GER;MF;Leverkusen;26-340;1994;0.3;0;0;0;0;0;0;0;1;0;0;0;0;4;0;0;;Matches
+10;Angeliño\Angelino;es ESP;DF;RB Leipzig;24-236;1997;1.0;0;0;0;2;0;0;13;0;0;0;0;0;11;5;0;100.0;Matches
+11;Waldemar Anton\Waldemar-Anton;de GER;DF;Stuttgart;25-039;1996;2.0;0;0;0;0;0;0;0;3;0;0;0;0;21;5;4;55.6;Matches
+12;Christopher Antwi-Adjei\Christopher-Antwi-Adjei;gh GHA;MFFW;Bochum;27-202;1994;1.0;0;0;0;1;2;1;3;0;2;0;0;0;3;2;7;22.2;Matches
+13;Charles Aránguiz\Charles-Aranguiz;cl CHI;MF;Leverkusen;32-133;1989;1.9;0;0;0;0;1;0;0;5;6;0;0;0;17;1;3;25.0;Matches
+14;Maximilian Arnold\Maximilian-Arnold;de GER;MF;Wolfsburg;27-093;1994;2.0;0;0;0;2;4;0;4;4;1;0;0;0;18;1;1;50.0;Matches
+15;Takuma Asano\Takuma-Asano;jp JPN;FW;Bochum;26-291;1994;0.6;1;0;0;1;1;0;0;1;0;0;0;0;3;1;3;25.0;Matches
+16;Santiago Ascacíbar\Santiago-Ascacibar;ar ARG;MF;Hertha BSC;24-184;1997;2.0;0;0;0;1;2;1;0;0;2;0;0;0;28;0;4;0.0;Matches
+17;Taiwo Awoniyi\Taiwo-Awoniyi;ng NGA;FW;Union Berlin;24-016;1997;1.4;0;0;0;3;1;2;1;1;0;0;0;0;5;4;6;40.0;Matches
+18;Mitchel Bakker\Mitchel-Bakker;nl NED;DF;Leverkusen;21-069;2000;2.0;1;0;0;2;2;0;4;6;3;0;1;0;14;0;2;0.0;Matches
+19;Ridle Baku\Ridle-Baku;de GER;MFFW;Wolfsburg;23-142;1998;2.0;0;0;0;6;1;0;1;0;2;0;0;0;16;4;1;80.0;Matches
+20;Aymen Barkok\Aymen-Barkok;ma MAR;FW;Eint Frankfurt;23-099;1998;0.5;0;0;0;1;1;0;0;1;0;0;0;0;5;1;2;33.3;Matches
+21;Leandro Barreiro Martins\Leandro-Barreiro-Martins;lu LUX;MF;Mainz 05;21-237;2000;2.0;1;0;0;4;4;0;0;3;6;0;0;0;12;2;2;50.0;Matches
+22;Jacob Barrett Laursen\Jacob-Barrett-Laursen;dk DEN;DF;Arminia;26-284;1994;1.8;1;0;0;1;0;0;4;5;5;0;0;0;16;3;4;42.9;Matches
+23;Maximilian Bauer\Maximilian-Bauer;de GER;DF;Greuther Fürth;21-200;2000;2.0;1;0;0;3;2;0;0;7;2;0;0;0;14;8;6;57.1;Matches
+24;Oliver Baumann\Oliver-Baumann;de GER;GK;Hoffenheim;31-087;1990;3.0;0;0;0;0;0;0;0;0;0;0;0;0;24;0;0;;Matches
+25;Timo Baumgartl\Timo-Baumgartl;de GER;DF;Union Berlin;25-177;1996;1.0;0;0;0;2;0;0;0;1;3;0;0;0;8;3;1;75.0;Matches
+26;Julian Baumgartlinger\Julian-Baumgartlinger;at AUT;MF;Leverkusen;33-238;1988;0.1;0;0;0;0;0;0;0;0;1;0;0;0;2;0;0;;Matches
+27;Christoph Baumgartner\Christoph-Baumgartner;at AUT;FWMF;Hoffenheim;22-027;1999;2.4;1;0;0;2;3;0;4;2;2;0;0;0;8;6;5;54.5;Matches
+28;Noah Joel Sarenren Bazee\Noah-Joel-Sarenren-Bazee;ng NGA;FW;Augsburg;25-007;1996;0.1;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;;Matches
+29;Kevin Behrens\Kevin-Behrens;de GER;MF;Union Berlin;30-206;1991;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;100.0;Matches
+30;Stefan Bell\Stefan-Bell;de GER;DF;Mainz 05;30-004;1991;1.7;0;0;0;0;0;1;1;3;1;0;0;0;15;4;6;40.0;Matches
+31;Armel Bella Kotchap\Armel-Bella-Kotchap;de GER;DF;Bochum;19-260;2001;1.0;0;0;0;3;2;0;0;3;2;0;0;0;8;9;1;90.0;Matches
+32;Jude Bellingham\Jude-Bellingham;eng ENG;MF;Dortmund;18-060;2003;2.6;0;0;0;5;6;0;0;4;5;0;0;0;24;6;1;85.7;Matches
+33;László Bénes\Laszlo-Benes;sk SVK;MF;M'Gladbach;23-353;1997;0.0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;;Matches
+34;Keanen Bennetts\Keanen-Bennetts;eng ENG;FW;M'Gladbach;22-172;1999;0.2;0;0;0;0;0;0;2;0;0;0;0;0;3;0;1;0.0;Matches
+35;Ramy Bensebaini\Ramy-Bensebaini;dz ALG;DF;M'Gladbach;26-134;1995;0.5;0;0;0;0;1;2;1;3;0;0;0;0;5;2;2;50.0;Matches
+36;Kevin-Prince Boateng\Kevin-Prince-Boateng;gh GHA;MF;Hertha BSC;34-175;1987;1.1;1;0;0;2;1;0;1;1;0;0;0;0;14;3;0;100.0;Matches
+37;Herbert Bockhorn\Herbert-Bockhorn;de GER;DF;Bochum;26-209;1995;0.5;0;0;0;0;1;0;1;0;0;0;0;0;9;2;0;100.0;Matches
+38;Jean-Paul Boëtius\Jean-Paul-Boetius;nl NED;MF;Mainz 05;27-159;1994;0.5;1;0;0;2;2;0;1;0;0;0;0;0;9;1;2;33.3;Matches
+39;Rafael Borré\Rafael-Borre;co COL;FW;Eint Frankfurt;25-347;1995;2.0;1;0;0;2;1;0;3;0;1;0;0;0;7;6;10;37.5;Matches
+40;Dedryck Boyata\Dedryck-Boyata;be BEL;DF;Hertha BSC;30-273;1990;0.9;0;0;0;0;0;0;0;1;0;0;0;0;2;2;1;66.7;Matches
+41;Julian Brandt\Julian-Brandt;de GER;MF;Dortmund;25-118;1996;0.5;0;0;0;0;0;0;1;0;1;0;0;0;5;0;1;0.0;Matches
+42;Josip Brekalo\Josip-Brekalo;hr CRO;MF;Wolfsburg;23-066;1998;0.2;0;0;0;0;0;0;2;0;0;0;0;0;5;1;0;100.0;Matches
+43;Brian Brobbey\Brian-Brobbey;nl NED;FW;RB Leipzig;19-208;2002;0.1;0;0;0;0;0;0;0;0;0;0;0;0;1;1;0;100.0;Matches
+44;John Brooks\John-Brooks;us USA;DF;Wolfsburg;28-212;1993;2.0;0;0;0;2;1;0;0;3;0;0;1;0;19;5;5;50.0;Matches
+45;Cédric Brunner\Cedric-Brunner;ch SUI;DF;Arminia;27-192;1994;1.7;0;0;0;2;2;0;2;2;1;0;0;0;15;3;3;50.0;Matches
+46;Jacob Bruun Larsen\Jacob-Bruun-Larsen;dk DEN;FWMF;Hoffenheim;22-343;1998;2.1;0;0;0;1;0;0;3;2;0;0;0;0;9;0;4;0.0;Matches
+47;Sascha Burchert\Sascha-Burchert;de GER;GK;Greuther Fürth;31-302;1989;2.0;0;0;0;0;0;0;0;0;0;0;0;0;14;0;0;;Matches
+48;Jonathan Burkardt\Jonathan-Burkardt;de GER;FW;Mainz 05;21-048;2000;2.0;0;0;0;1;3;0;1;2;0;0;0;0;9;3;13;18.8;Matches
+49;Daniel Caligiuri\Daniel-Caligiuri;it ITA;FWMF;Augsburg;33-225;1988;0.5;0;0;0;0;2;0;1;1;1;0;0;0;4;0;0;;Matches
+50;Emre Can\Emre-Can;de GER;DF;Dortmund;27-228;1994;0.1;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;;Matches
+51;Koen Casteels\Koen-Casteels;be BEL;GK;Wolfsburg;29-064;1992;2.0;0;0;0;0;0;0;0;0;0;0;0;0;7;0;0;;Matches
+52;Max Christiansen\Max-Christiansen;de GER;MF;Greuther Fürth;24-337;1996;0.2;0;0;0;0;1;0;0;0;0;0;0;0;1;3;5;37.5;Matches
+53;Kingsley Coman\Kingsley-Coman;fr FRA;FW;Bayern Munich;25-076;1996;0.2;0;0;0;0;0;0;4;0;0;0;0;0;0;0;1;0.0;Matches
+54;Danny da Costa\Danny-da-Costa;de GER;DF;Eint Frankfurt;28-046;1993;1.0;0;0;0;0;0;0;0;2;0;0;0;0;4;2;0;100.0;Matches
+55;Matheus Cunha\Matheus-Cunha;br BRA;FW;Hertha BSC;22-093;1999;0.7;0;0;0;1;3;0;0;1;0;0;0;0;6;0;2;0.0;Matches
+56;Rafael Czichos\Rafael-Czichos;de GER;DF;Köln;31-106;1990;2.0;1;0;0;2;0;0;0;4;5;0;0;0;20;5;3;62.5;Matches
+57;Moanes Dabour\Moanes-Dabour;il ISR;MFFW;Hoffenheim;29-106;1992;1.4;0;0;0;1;2;0;2;2;2;0;0;0;9;1;3;25.0;Matches
+58;Mahmoud Dahoud\Mahmoud-Dahoud;de GER;MF;Dortmund;25-239;1996;3.0;2;0;0;5;4;0;0;3;5;0;0;0;37;4;2;66.7;Matches
+59;Márton Dárdai\Marton-Dardai;de GER;DF;Hertha BSC;19-197;2002;1.0;0;0;0;3;0;0;0;0;0;0;0;0;5;3;2;60.0;Matches
+60;Alphonso Davies\Alphonso-Davies;ca CAN;DF;Bayern Munich;20-299;2000;2.0;0;0;0;3;2;0;3;0;5;0;0;0;26;2;1;66.7;Matches
+61;Thomas Delaney\Thomas-Delaney;dk DEN;MF;Dortmund;29-359;1991;0.2;0;0;0;0;0;0;0;1;0;0;0;0;5;0;0;;Matches
+62;Kerem Demirbay\Kerem-Demirbay;de GER;MF;Leverkusen;28-056;1993;1.9;1;0;0;2;5;2;1;3;3;0;0;0;19;1;1;50.0;Matches
+63;Ermedin Demirović\Ermedin-Demirovic;ba BIH;FWMF;Freiburg;23-156;1998;0.3;2;0;0;3;0;0;0;1;0;0;0;0;4;1;0;100.0;Matches
+64;Mike van der Hoorn\Mike-van-der-Hoorn;nl NED;DF;Arminia;28-317;1992;0.2;0;0;0;0;1;0;0;0;2;0;0;0;0;1;0;100.0;Matches
+65;Moussa Diaby\Moussa-Diaby;fr FRA;FW;Leverkusen;22-052;1999;2.0;2;0;0;4;2;1;4;0;0;0;0;0;10;1;0;100.0;Matches
+66;Daniel Didavi\Daniel-Didavi;de GER;FWMF;Stuttgart;31-188;1990;0.8;0;0;0;0;0;0;2;0;1;0;0;0;7;0;1;0.0;Matches
+67;Javairô Dilrosun\Javairo-Dilrosun;nl NED;FW;Hertha BSC;23-067;1998;0.7;0;0;0;2;2;0;0;1;1;0;0;0;7;0;2;0.0;Matches
+68;Niklas Dorsch\Niklas-Dorsch;de GER;MF;Augsburg;23-225;1998;1.8;0;0;0;2;1;0;0;7;2;0;0;0;21;2;0;100.0;Matches
+69;Ondrej Duda\Ondrej-Duda;sk SVK;FWMF;Köln;26-266;1994;0.5;0;0;0;0;1;0;1;2;1;0;0;0;5;0;3;0.0;Matches
+70;Jeremy Dudziak\Jeremy-Dudziak;tn TUN;MFFW;Greuther Fürth;26-000;1995;0.1;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0;100.0;Matches
+71;Erik Durm\Erik-Durm;de GER;DF;Eint Frankfurt;29-108;1992;1.0;0;0;0;0;2;0;3;1;1;0;0;0;3;2;4;33.3;Matches
+72;Maximilian Eggestein\Maximilian-Eggestein;de GER;MF;Freiburg;24-263;1996;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;Matches
+73;Kingsley Ehizibue\Kingsley-Ehizibue;nl NED;DF;Köln;26-095;1995;1.1;0;0;0;2;4;0;2;1;1;0;0;0;6;2;2;50.0;Matches
+74;Nico Elvedi\Nico-Elvedi;ch SUI;DF;M'Gladbach;24-332;1996;2.0;0;0;0;0;0;0;0;3;2;0;0;0;15;3;2;60.0;Matches
+75;Wataru Endo\Wataru-Endo;jp JPN;MF;Stuttgart;28-200;1993;2.0;0;0;0;2;5;0;0;3;5;0;0;0;17;3;0;100.0;Matches
+76;Adrian Fein\Adrian-Fein;de GER;MF;Greuther Fürth;22-163;1999;0.2;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;;Matches
+77;Ohis Felix Uduokhai\Ohis-Felix-Uduokhai;de GER;DF;Augsburg;23-353;1997;2.0;0;0;0;1;1;0;0;2;2;0;0;0;13;14;4;77.8;Matches
+78;Mark Flekken\Mark-Flekken;nl NED;GK;Freiburg;28-076;1993;2.0;0;0;0;0;0;0;0;0;0;0;0;0;5;0;0;;Matches
+79;Emil Forsberg\Emil-Forsberg;se SWE;MF;RB Leipzig;29-309;1991;2.0;0;0;0;0;2;0;1;3;5;0;0;0;8;2;3;40.0;Matches
+80;Philipp Förster\Philipp-Forster;de GER;FW;Stuttgart;26-205;1995;1.9;1;0;0;5;3;0;0;2;2;0;0;0;9;2;1;66.7;Matches
+81;Raphael Framberger\Raphael-Framberger;de GER;MF;Augsburg;25-356;1995;0.8;1;0;0;1;0;0;1;0;0;0;0;0;4;2;4;33.3;Matches
+82;Marvin Friedrich\Marvin-Friedrich;de GER;DF;Union Berlin;25-258;1995;2.0;2;1;1;3;0;0;0;4;1;0;0;0;17;11;3;78.6;Matches
+83;Jeremie Frimpong\Jeremie-Frimpong;nl NED;DF;Leverkusen;20-261;2000;2.0;0;0;0;1;4;0;2;1;2;0;0;0;14;2;2;50.0;Matches
+84;Stephan Fürstner\Stephan-Furstner;de GER;MF;Mainz 05;33-351;1987;0.1;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;;Matches
+85;Mijat Gaćinović\Mijat-Gacinovic;rs SRB;FWDF;Hoffenheim;26-201;1995;0.7;0;0;0;1;0;0;0;1;2;0;0;0;7;2;1;66.7;Matches
+86;Cristian Gamboa\Cristian-Gamboa;cr CRC;DF;Bochum;31-308;1989;1.5;0;0;0;1;2;0;0;2;2;0;0;0;6;2;1;66.7;Matches
+87;Silvère Ganvoula M'Boussy\Silvere-Ganvoula-MBoussy;cg CGO;DF;Bochum;25-067;1996;0.0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;;Matches
+88;Dennis Geiger\Dennis-Geiger;de GER;MF;Hoffenheim;23-079;1998;0.9;1;0;0;3;1;0;1;1;3;0;0;0;8;0;1;0.0;Matches
+89;Yannick Gerhardt\Yannick-Gerhardt;de GER;DFMF;Wolfsburg;27-168;1994;0.1;0;0;0;0;0;0;1;0;0;0;0;0;2;4;1;80.0;Matches
+90;Hamadi Al Ghaddioui\Hamadi-Al-Ghaddioui;ma MAR;FW;Stuttgart;30-340;1990;1.2;0;0;0;2;3;0;1;0;1;0;0;0;4;1;2;33.3;Matches
+91;Niko Gießelmann\Niko-Giesselmann;de GER;DF;Union Berlin;29-336;1991;1.8;0;0;0;2;1;0;4;0;1;0;0;0;13;0;2;0.0;Matches
+92;Rafał Gikiewicz\Rafal-Gikiewicz;pl POL;GK;Augsburg;33-306;1987;2.0;0;0;0;0;0;0;0;0;0;0;0;0;13;0;0;;Matches
+93;Matthias Ginter\Matthias-Ginter;de GER;DF;M'Gladbach;27-221;1994;1.7;0;0;0;0;0;0;1;2;1;0;0;0;11;3;5;37.5;Matches
+94;Serge Gnabry\Serge-Gnabry;de GER;FW;Bayern Munich;26-045;1995;1.7;0;0;0;1;3;1;2;2;1;0;0;0;9;2;3;40.0;Matches
+95;Leon Goretzka\Leon-Goretzka;de GER;MF;Bayern Munich;26-203;1995;1.7;0;0;0;1;2;0;0;6;4;0;0;0;11;2;0;100.0;Matches
+96;Jeffrey Gouweleeuw\Jeffrey-Gouweleeuw;nl NED;DF;Augsburg;30-049;1991;1.0;1;0;0;1;2;0;0;1;0;0;0;0;14;1;0;100.0;Matches
+97;Julian Green\Julian-Green;us USA;MF;Greuther Fürth;26-083;1995;1.8;0;0;0;1;6;0;3;1;0;0;0;0;12;0;4;0.0;Matches
+98;Michael Gregoritsch\Michael-Gregoritsch;at AUT;MFFW;Augsburg;27-132;1994;0.5;0;0;0;1;0;0;0;0;0;0;0;0;2;3;1;75.0;Matches
+99;Vincenzo Grifo\Vincenzo-Grifo;it ITA;MF;Freiburg;28-143;1993;1.9;0;0;0;0;1;0;2;1;2;0;0;0;14;3;0;100.0;Matches
+100;Carlos Gruezo\Carlos-Gruezo;ec ECU;MF;Augsburg;26-131;1995;0.5;1;0;0;1;0;0;0;0;0;0;0;0;5;1;0;100.0;Matches
+101;Raphaël Guerreiro\Raphael-Guerreiro;pt POR;DF;Dortmund;27-249;1993;1.5;1;0;0;2;0;1;4;1;2;0;0;0;14;0;2;0.0;Matches
+102;Josuha Guilavogui\Josuha-Guilavogui;fr FRA;MF;Wolfsburg;30-343;1990;0.1;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;;Matches
+103;Péter Gulácsi\Peter-Gulacsi;hu HUN;GK;RB Leipzig;31-114;1990;2.0;0;0;0;0;0;0;0;0;0;0;0;0;10;0;0;;Matches
+104;Manuel Gulde\Manuel-Gulde;de GER;DF;Freiburg;30-197;1991;0.7;1;0;0;2;2;0;0;2;1;0;0;0;10;3;3;50.0;Matches
+105;Robert Gumny\Robert-Gumny;pl POL;DF;Augsburg;23-085;1998;2.0;1;0;0;3;2;0;6;4;3;0;0;0;19;2;1;66.7;Matches
+106;Christian Günter\Christian-Gunter;de GER;DF;Freiburg;28-181;1993;2.0;0;0;0;1;1;0;7;0;0;0;0;0;10;1;5;16.7;Matches
+107;Joško Gvardiol\Josko-Gvardiol;hr CRO;DF;RB Leipzig;19-217;2002;1.0;0;0;0;3;2;0;1;6;2;0;0;0;9;2;1;66.7;Matches
+108;Erling Haaland\Erling-Haaland;no NOR;FW;Dortmund;21-038;2000;3.0;0;0;0;1;2;2;2;0;1;0;0;0;10;9;4;69.2;Matches
+109;Janik Haberer\Janik-Haberer;de GER;MFFW;Freiburg;27-148;1994;0.3;0;0;0;1;1;0;0;1;0;0;0;0;1;0;0;;Matches
+110;Alexander Hack\Alexander-Hack;de GER;DF;Mainz 05;27-354;1993;1.5;0;0;0;5;0;1;0;5;1;0;0;0;13;8;5;61.5;Matches
+111;Robin Hack\Robin-Hack;de GER;MF;Arminia;23-001;1998;0.3;0;0;0;0;2;0;0;1;0;0;0;0;2;1;3;25.0;Matches
+112;André Hahn\Andre-Hahn;de GER;FW;Augsburg;31-015;1990;1.5;0;0;0;0;1;3;3;0;0;0;0;0;5;3;8;27.3;Matches
+113;Amadou Haidara\Amadou-Haidara;ml MLI;MFFW;RB Leipzig;23-209;1998;1.5;0;0;0;2;2;0;0;2;2;0;0;0;12;3;2;60.0;Matches
+114;Genki Haraguchi\Genki-Haraguchi;jp JPN;MF;Union Berlin;30-111;1991;1.8;0;0;0;2;4;1;2;3;3;0;0;0;17;1;1;50.0;Matches
+115;Makoto Hasebe\Makoto-Hasebe;jp JPN;MF;Eint Frankfurt;37-222;1984;0.9;0;0;0;5;1;0;0;2;0;0;0;0;5;1;1;50.0;Matches
+116;Thorgan Hazard\Thorgan-Hazard;be BEL;FW;Dortmund;28-152;1993;0.8;0;0;0;0;2;1;2;0;1;0;0;0;4;0;2;0.0;Matches
+117;Jonas Hector\Jonas-Hector;de GER;DF;Köln;31-093;1990;2.0;0;0;0;3;4;0;5;9;3;0;0;0;15;2;6;25.0;Matches
+118;Hwang Hee-chan\Hwang-Hee-chan;kr KOR;FW;RB Leipzig;25-214;1996;0.5;0;0;0;0;2;0;1;1;0;0;0;0;3;1;2;33.3;Matches
+119;Dominique Heintz\Dominique-Heintz;de GER;DF;Freiburg;28-013;1993;0.3;0;0;0;0;0;0;0;1;0;0;0;0;3;2;3;40.0;Matches
+120;Patrick Herrmann\Patrick-Herrmann;de GER;FWMF;M'Gladbach;30-197;1991;1.0;0;0;0;1;1;2;2;2;2;0;0;0;6;1;1;50.0;Matches
+121;Martin Hinteregger\Martin-Hinteregger;at AUT;DF;Eint Frankfurt;28-355;1992;2.0;0;0;0;3;1;0;0;2;2;0;0;0;28;7;4;63.6;Matches
+122;Nicolas Höfler\Nicolas-Hofler;de GER;MF;Freiburg;31-172;1990;2.0;1;0;0;6;3;0;1;4;5;0;0;0;27;9;4;69.2;Matches
+123;Jonas Hofmann\Jonas-Hofmann;de GER;FW;M'Gladbach;29-045;1992;1.3;0;0;0;1;1;0;2;3;2;0;0;0;8;0;0;;Matches
+124;Lucas Höler\Lucas-Holer;de GER;FW;Freiburg;27-049;1994;1.7;0;0;0;1;7;2;0;1;1;0;0;0;4;10;6;62.5;Matches
+125;Gerrit Holtmann\Gerrit-Holtmann;ph PHI;FW;Bochum;26-156;1995;0.9;0;0;0;0;0;0;2;1;0;0;0;0;3;1;2;33.3;Matches
+126;Justin Hoogma\Justin-Hoogma;nl NED;DF;Greuther Fürth;23-078;1998;2.0;0;0;0;2;0;0;0;3;2;0;0;0;11;6;2;75.0;Matches
+127;Timo Horn\Timo-Horn;de GER;GK;Köln;28-108;1993;2.0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;;Matches
+128;Lukáš Hrádecký\Lukas-Hradecky;fi FIN;GK;Leverkusen;31-277;1989;2.0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;;Matches
+129;Branimir Hrgota\Branimir-Hrgota;se SWE;FW;Greuther Fürth;28-228;1993;1.9;0;0;0;3;1;1;2;0;2;0;0;0;9;0;11;0.0;Matches
+130;Ajdin Hrustic\Ajdin-Hrustic;au AUS;MF;Eint Frankfurt;25-054;1996;1.1;0;0;0;1;1;0;1;1;4;0;0;0;18;1;3;25.0;Matches
+131;Timo Hübers\Timo-Hubers;de GER;DF;Köln;25-039;1996;1.0;1;0;0;2;0;0;0;3;0;0;0;0;9;2;2;50.0;Matches
+132;Mats Hummels\Mats-Hummels;de GER;DF;Dortmund;32-255;1988;0.1;0;0;0;0;0;0;0;0;1;0;0;0;2;1;2;33.3;Matches
+133;Iago\Iago;br BRA;DF;Augsburg;24-158;1997;1.9;0;0;0;0;2;0;3;4;1;0;0;0;20;5;3;62.5;Matches
+134;Stefan Ilsanker\Stefan-Ilsanker;at AUT;DF;Eint Frankfurt;32-102;1989;0.5;0;0;0;1;1;1;0;3;2;0;0;0;4;0;0;;Matches
+135;Marcus Ingvartsen\Marcus-Ingvartsen;dk DEN;MF;Union Berlin;25-236;1996;1.4;0;0;0;2;1;0;1;2;0;0;0;0;4;5;4;55.6;Matches
+136;Gian-Luca Itter\Gian-Luca-Itter;de GER;DF;Greuther Fürth;22-235;1999;2.0;0;0;0;2;0;0;6;1;2;0;0;0;13;2;2;50.0;Matches
+137;Lee Jae-sung\Lee-Jae-sung;kr KOR;FW;Mainz 05;29-018;1992;1.7;0;0;0;1;1;0;2;2;0;0;0;0;8;5;5;50.0;Matches
+138;Paul Jaeckel\Paul-Jaeckel;de GER;DF;Union Berlin;23-037;1998;1.0;0;0;0;2;2;0;0;5;2;0;0;0;6;3;0;100.0;Matches
+139;Fredrik Jensen\Fredrik-Jensen;fi FIN;FWMF;Augsburg;23-353;1997;1.5;0;0;0;1;1;0;4;1;0;0;0;0;5;5;10;33.3;Matches
+140;Marco John\Marco-John;de GER;DF;Hoffenheim;19-148;2002;0.4;0;0;0;0;0;0;0;2;0;0;0;0;1;0;0;;Matches
+141;Stevan Jovetić\Stevan-Jovetic;me MNE;FWMF;Hertha BSC;31-299;1989;1.2;0;0;0;0;3;1;1;1;0;0;0;0;7;3;4;42.9;Matches
+142;Gideon Jung\Gideon-Jung;de GER;DF;Greuther Fürth;26-350;1994;1.0;0;0;0;0;2;0;0;1;0;0;0;0;3;0;1;0.0;Matches
+143;Florian Kainz\Florian-Kainz;at AUT;MF;Köln;28-308;1992;1.6;0;0;0;2;2;0;6;6;2;0;0;0;13;0;0;;Matches
+144;Sasa Kalajdzic\Sasa-Kalajdzic;at AUT;FW;Stuttgart;24-052;1997;0.2;0;0;0;0;0;0;0;1;0;0;0;0;0;0;1;0.0;Matches
+145;Daichi Kamada\Daichi-Kamada;jp JPN;FW;Eint Frankfurt;25-023;1996;0.7;0;0;0;1;0;0;0;1;0;0;0;0;4;0;1;0.0;Matches
+146;Kevin Kampl\Kevin-Kampl;si SVN;MF;RB Leipzig;30-323;1990;1.0;1;0;0;1;0;0;0;1;2;0;0;0;15;0;0;;Matches
+147;Atakan Karazor\Atakan-Karazor;de GER;MF;Stuttgart;24-319;1996;0.1;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;;Matches
+148;Yannik Keitel\Yannik-Keitel;de GER;MF;Freiburg;21-194;2000;1.7;1;0;0;3;0;0;0;2;3;0;0;1;17;4;2;66.7;Matches
+149;Marc-Oliver Kempf\Marc-Oliver-Kempf;de GER;DF;Stuttgart;26-212;1995;2.0;1;0;0;4;1;0;2;1;2;0;1;0;25;9;2;81.8;Matches
+150;Rani Khedira\Rani-Khedira;de GER;MF;Union Berlin;27-213;1994;2.0;1;0;0;4;1;0;0;5;1;0;0;0;18;2;3;40.0;Matches
+151;Luca Kilian\Luca-Kilian;de GER;FW;Mainz 05;21-361;1999;0.0;0;0;0;1;0;0;0;0;0;0;0;0;1;0;1;0.0;Matches
+152;Joshua Kimmich\Joshua-Kimmich;de GER;MF;Bayern Munich;26-201;1995;2.0;0;0;0;0;2;0;1;1;3;0;0;0;26;4;1;80.0;Matches
+153;Philipp Klement\Philipp-Klement;de GER;MF;Stuttgart;28-353;1992;1.7;0;0;0;0;0;1;1;0;2;0;0;0;23;2;2;50.0;Matches
+154;Mateo Klimowicz\Mateo-Klimowicz;de GER;FW;Stuttgart;21-053;2000;1.5;0;0;0;2;1;0;0;2;0;0;0;0;8;0;2;0.0;Matches
+155;Fabian Klos\Fabian-Klos;de GER;FW;Arminia;33-269;1987;1.8;1;0;0;1;2;1;2;0;0;0;0;0;6;17;15;53.1;Matches
+156;Lukas Klostermann\Lukas-Klostermann;de GER;DF;RB Leipzig;25-087;1996;1.0;0;0;0;0;0;0;2;1;0;0;0;0;10;1;0;100.0;Matches
+157;Lukas Klünter\Lukas-Klunter;de GER;DF;Hertha BSC;25-094;1996;0.4;0;0;0;0;1;0;1;1;0;0;0;0;6;1;0;100.0;Matches
+158;Robin Knoche\Robin-Knoche;de GER;DF;Union Berlin;29-098;1992;2.0;0;0;0;1;0;0;0;6;3;0;0;0;17;5;6;45.5;Matches
+159;Gregor Kobel\Gregor-Kobel;ch SUI;GK;Dortmund;23-265;1997;3.0;0;0;0;0;1;0;0;0;0;0;0;0;20;0;0;;Matches
+160;Dominik Kohr\Dominik-Kohr;de GER;MF;Mainz 05;27-209;1994;0.5;1;0;0;4;1;0;0;1;0;0;0;0;11;1;1;50.0;Matches
+161;Odilon Kossonou\Odilon-Kossonou;ci CIV;DF;Leverkusen;20-236;2001;2.0;0;0;0;0;1;0;0;1;1;0;0;0;23;4;5;44.4;Matches
+162;Filip Kostić\Filip-Kostic;rs SRB;FWDF;Eint Frankfurt;28-300;1992;1.9;0;0;0;1;1;1;10;0;2;0;0;0;15;1;0;100.0;Matches
+163;Nianzou Kouassi\Nianzou-Kouassi;fr FRA;DF;Bayern Munich;19-082;2002;0.5;0;0;0;2;0;0;1;1;0;0;0;0;4;1;0;100.0;Matches
+164;Andrej Kramarić\Andrej-Kramaric;hr CRO;FWMF;Hoffenheim;30-070;1991;3.0;0;0;0;0;5;1;5;1;0;0;0;0;14;3;3;50.0;Matches
+165;Christoph Kramer\Christoph-Kramer;de GER;MF;M'Gladbach;30-190;1991;2.0;1;0;0;4;0;0;0;4;1;0;0;0;20;0;5;0.0;Matches
+166;Florian Krüger\Florian-Kruger;de GER;FW;Arminia;22-196;1999;0.3;0;0;0;1;0;0;0;1;0;0;0;0;2;3;2;60.0;Matches
+167;Max Kruse\Max-Kruse;de GER;FW;Union Berlin;33-162;1988;1.8;0;0;0;1;0;1;5;1;1;0;0;0;8;3;6;33.3;Matches
+168;Lukas Kübler\Lukas-Kubler;de GER;MF;Freiburg;28-363;1992;0.1;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;;Matches
+169;Fabian Kunze\Fabian-Kunze;de GER;MF;Arminia;23-075;1998;2.0;0;0;0;6;3;0;2;2;2;0;0;0;23;5;1;83.3;Matches
+170;Maxence Lacroix\Maxence-Lacroix;fr FRA;DF;Wolfsburg;21-144;2000;2.0;0;0;0;2;2;0;0;4;2;0;0;0;21;5;5;50.0;Matches
+171;Konrad Laimer\Konrad-Laimer;at AUT;MF;RB Leipzig;24-093;1997;0.2;0;0;0;2;0;0;0;0;0;0;0;0;0;0;0;;Matches
+172;Stefan Lainer\Stefan-Lainer;at AUT;DF;M'Gladbach;29-001;1992;1.5;0;0;0;1;1;0;5;4;3;1;0;0;9;3;1;75.0;Matches
+173;Vassilis Lambropoulos\Vassilis-Lambropoulos;gr GRE;DF;Bochum;31-150;1990;2.0;0;0;0;1;0;0;0;2;0;0;0;0;8;4;1;80.0;Matches
+174;Bryan Lasme\Bryan-Lasme;fr FRA;FW;Arminia;22-287;1998;1.7;0;0;0;2;4;0;2;0;1;0;0;0;6;6;4;60.0;Matches
+175;Maxim Leitsch\Maxim-Leitsch;de GER;DF;Bochum;23-102;1998;1.0;1;0;0;1;0;0;0;4;1;0;0;0;13;1;0;100.0;Matches
+176;Tim Lemperle\Tim-Lemperle;de GER;FW;Köln;19-204;2002;0.2;0;0;0;0;0;0;0;0;1;0;0;0;1;0;1;0.0;Matches
+177;Christopher Lenz\Christopher-Lenz;de GER;DF;Eint Frankfurt;26-340;1994;1.5;1;0;0;3;1;0;2;8;3;0;0;0;17;6;1;85.7;Matches
+178;Robert Lewandowski\Robert-Lewandowski;pl POL;FW;Bayern Munich;33-007;1988;2.0;0;0;0;1;2;0;2;1;1;0;0;0;11;9;3;75.0;Matches
+179;Jamie Leweling\Jamie-Leweling;gh GHA;FW;Greuther Fürth;20-183;2001;0.1;0;0;0;0;1;0;1;0;0;0;0;0;1;0;1;0.0;Matches
+180;Philipp Lienhart\Philipp-Lienhart;at AUT;DF;Freiburg;25-048;1996;2.0;0;0;0;0;1;0;0;8;1;0;0;0;28;4;4;50.0;Matches
+181;Jesper Lindstrøm\Jesper-Lindstrom;dk DEN;MF;Eint Frankfurt;21-180;2000;1.4;0;0;0;1;0;0;5;1;1;0;0;0;5;2;2;50.0;Matches
+182;Dejan Ljubicic\Dejan-Ljubicic;at AUT;MF;Köln;23-324;1997;1.7;1;0;0;3;3;0;1;2;2;0;0;0;10;1;1;50.0;Matches
+183;Anthony Losilla\Anthony-Losilla;fr FRA;MF;Bochum;35-171;1986;2.0;0;0;0;0;2;0;0;5;0;0;0;0;24;1;3;25.0;Matches
+184;Dodi Lukebakio\Dodi-Lukebakio;be BEL;FW;Hertha BSC;23-338;1997;1.3;0;0;0;2;5;0;1;0;2;1;0;0;1;2;1;66.7;Matches
+185;Andreas Luthe\Andreas-Luthe;de GER;GK;Union Berlin;34-171;1987;2.0;0;0;0;0;0;0;0;0;0;0;0;0;15;0;0;;Matches
+186;Arne Maier\Arne-Maier;de GER;MF;Augsburg;22-232;1999;0.4;0;0;0;0;0;0;0;0;0;0;0;0;3;0;0;;Matches
+187;Donyell Malen\Donyell-Malen;nl NED;FW;Dortmund;22-221;1999;2.0;1;0;0;1;5;1;9;0;2;0;0;0;12;0;1;0.0;Matches
+188;Omar Marmoush\Omar-Marmoush;eg EGY;FW;Wolfsburg;22-202;1999;0.2;0;0;0;0;0;0;0;0;1;0;0;0;2;0;1;0.0;Matches
+189;Aarón Martín\Aaron-Martin;es ESP;DF;Mainz 05;24-128;1997;2.0;0;0;0;2;1;0;11;2;0;0;0;0;14;1;3;25.0;Matches
+190;Erhan Mašović\Erhan-Masovic;rs SRB;MF;Bochum;22-279;1998;0.2;0;0;0;0;0;0;1;1;0;0;0;0;5;2;0;100.0;Matches
+191;Roberto Massimo\Roberto-Massimo;de GER;DFFW;Stuttgart;20-320;2000;2.0;0;0;0;2;1;1;4;2;1;0;0;0;6;0;3;0.0;Matches
+192;Konstantinos Mavropanos\Konstantinos-Mavropanos;gr GRE;DF;Stuttgart;23-260;1997;1.9;1;0;0;3;1;1;2;4;4;0;0;0;18;7;0;100.0;Matches
+193;Eric Maxim Choupo-Moting\Eric-Maxim-Choupo-Moting;cm CMR;FWMF;Bayern Munich;32-158;1989;0.3;0;0;0;0;0;0;0;1;1;0;0;0;6;0;1;0.0;Matches
+194;Kevin Mbabu\Kevin-Mbabu;ch SUI;DF;Wolfsburg;26-131;1995;2.0;1;0;0;7;1;1;10;8;4;0;0;0;17;7;2;77.8;Matches
+195;Nathan de Medina\Nathan-de-Medina;be BEL;DF;Arminia;23-324;1997;0.4;0;0;0;0;0;0;1;0;1;0;0;0;2;1;1;50.0;Matches
+196;Admir Mehmedi\Admir-Mehmedi;ch SUI;MF;Wolfsburg;30-165;1991;0.0;0;0;0;0;0;0;0;1;0;0;0;0;2;0;0;;Matches
+197;Jorge Meré\Jorge-Mere;es ESP;DF;Köln;24-133;1997;1.0;0;0;0;0;0;0;1;5;2;0;0;0;7;3;2;60.0;Matches
+198;Thomas Meunier\Thomas-Meunier;be BEL;DF;Dortmund;29-350;1991;1.0;1;0;0;0;0;0;3;1;1;0;0;0;12;4;2;66.7;Matches
+199;Marco Meyerhöfer\Marco-Meyerhofer;de GER;DF;Greuther Fürth;25-283;1995;2.0;0;0;0;0;1;1;3;4;0;0;0;0;18;1;2;33.3;Matches
+200;Enzo Millot\Enzo-Millot;fr FRA;MF;Stuttgart;19-042;2002;0.2;0;0;0;0;1;0;0;1;0;0;0;0;3;1;0;100.0;Matches
+201;Anthony Modeste\Anthony-Modeste;fr FRA;FW;Köln;33-136;1988;1.7;0;0;0;1;4;0;1;0;0;0;0;0;3;7;3;70.0;Matches
+202;Jan Morávek\Jan-Moravek;cz CZE;MF;Augsburg;31-300;1989;1.2;0;0;0;1;1;0;1;3;1;0;0;0;10;0;3;0.0;Matches
+203;Youssoufa Moukoko\Youssoufa-Moukoko;de GER;FW;Dortmund;16-281;2004;0.3;0;0;0;0;0;1;0;0;1;0;0;0;5;0;1;0.0;Matches
+204;Nordi Mukiele\Nordi-Mukiele;fr FRA;DF;RB Leipzig;23-300;1997;1.1;0;0;0;1;1;0;4;1;2;0;0;0;20;3;1;75.0;Matches
+205;Florian Müller\Florian-Muller;de GER;GK;Stuttgart;23-288;1997;2.0;0;0;0;0;0;0;0;0;0;0;0;0;9;0;0;;Matches
+206;Thomas Müller\Thomas-Muller;de GER;MF;Bayern Munich;31-349;1989;1.9;0;0;0;0;2;1;9;2;3;0;0;0;9;1;6;14.3;Matches
+207;Jamal Musiala\Jamal-Musiala;de GER;FW;Bayern Munich;18-183;2003;0.7;0;0;0;1;1;0;0;0;1;0;0;0;10;2;3;40.0;Matches
+208;Obite N'Dicka\Obite-NDicka;fr FRA;DF;Eint Frankfurt;22-008;1999;2.0;0;0;0;1;0;0;0;4;0;0;0;0;22;15;10;60.0;Matches
+209;Paul Nebel\Paul-Nebel;de GER;MF;Mainz 05;18-322;2002;1.5;1;0;0;5;0;1;1;1;3;0;0;0;6;0;7;0.0;Matches
+210;Luca Netz\Luca-Netz;de GER;DF;M'Gladbach;18-105;2003;0.3;0;0;0;0;0;0;0;1;0;0;0;0;3;0;0;;Matches
+211;Manuel Neuer\Manuel-Neuer;de GER;GK;Bayern Munich;35-154;1986;2.0;0;0;0;0;0;0;0;0;0;0;0;0;20;0;0;;Matches
+212;Florian Neuhaus\Florian-Neuhaus;de GER;MF;M'Gladbach;24-165;1997;2.0;1;0;0;1;3;0;1;4;2;0;0;0;13;0;1;0.0;Matches
+213;Moussa Niakhate\Moussa-Niakhate;fr FRA;DF;Mainz 05;25-173;1996;2.0;0;0;0;0;2;0;0;5;1;0;0;0;19;2;2;50.0;Matches
+214;Florian Niederlechner\Florian-Niederlechner;de GER;FW;Augsburg;30-308;1990;1.2;0;0;0;2;3;0;2;0;0;0;0;0;7;5;2;71.4;Matches
+215;Håvard Nielsen\Havard-Nielsen;no NOR;MFFW;Greuther Fürth;28-044;1993;1.5;1;0;0;1;3;1;0;0;0;0;0;0;3;4;3;57.1;Matches
+216;Joakim Nilsson\Joakim-Nilsson;se SWE;DF;Arminia;27-203;1994;1.8;0;0;0;4;1;0;0;5;0;0;0;0;21;6;6;50.0;Matches
+217;Christopher Nkunku\Christopher-Nkunku;fr FRA;FW;RB Leipzig;23-287;1997;1.6;0;0;0;2;3;0;6;2;0;0;0;0;13;1;2;33.3;Matches
+218;Lukas Nmecha\Lukas-Nmecha;de GER;MF;Wolfsburg;22-257;1998;0.2;0;0;0;0;0;0;3;0;0;0;0;0;0;0;0;;Matches
+219;Hans Nunoo Sarpei\Hans-Nunoo-Sarpei;gh GHA;MF;Greuther Fürth;23-006;1998;1.1;1;0;0;2;2;0;0;1;0;0;0;0;6;3;3;50.0;Matches
+220;Masaya Okugawa\Masaya-Okugawa;jp JPN;MF;Arminia;25-136;1996;1.7;0;0;0;1;1;1;2;1;2;0;0;0;10;1;8;11.1;Matches
+221;Willi Orban\Willi-Orban;hu HUN;DF;RB Leipzig;28-298;1992;1.8;0;0;0;1;0;1;0;3;1;0;0;0;14;8;7;53.3;Matches
+222;Stefan Ortega\Stefan-Ortega;de GER;GK;Arminia;28-295;1992;2.0;0;0;0;0;0;0;0;0;0;0;0;0;12;0;0;;Matches
+223;Reece Oxford\Reece-Oxford;eng ENG;DF;Augsburg;22-255;1998;1.0;0;0;0;1;1;0;0;5;0;0;0;0;6;3;1;75.0;Matches
+224;Salih Özcan\Salih-Ozcan;de GER;MF;Köln;23-229;1998;0.2;0;0;0;0;0;0;0;0;1;0;0;0;1;0;0;;Matches
+225;Levin Öztunalı\Levin-Oztunali;de GER;FWMF;Union Berlin;25-166;1996;0.6;0;0;0;0;1;1;1;1;3;0;0;0;6;1;0;100.0;Matches
+226;Exequiel Palacios\Exequiel-Palacios;ar ARG;MF;Leverkusen;22-327;1998;1.7;0;0;0;2;3;0;1;8;6;0;0;0;17;0;0;;Matches
+227;Miloš Pantović\Milos-Pantovic;rs SRB;MF;Bochum;25-052;1996;1.3;0;0;0;3;4;1;2;2;1;0;0;0;9;0;3;0.0;Matches
+228;Antonios Papadopoulos\Antonios-Papadopoulos;de GER;DF;Dortmund;21-352;1999;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;Matches
+229;Felix Passlack\Felix-Passlack;de GER;DF;Dortmund;23-091;1998;2.0;0;0;0;2;2;0;5;0;3;0;0;1;21;0;0;;Matches
+230;Paulinho\Paulinho;br BRA;FW;Leverkusen;21-044;2000;0.9;1;0;0;0;1;2;0;1;3;0;0;0;5;0;4;0.0;Matches
+231;Mads Pedersen\Mads-Pedersen;dk DEN;MFDF;Augsburg;24-361;1996;0.3;0;0;0;1;0;0;0;1;2;0;0;0;2;0;1;0.0;Matches
+232;Peter Pekarík\Peter-Pekarik;sk SVK;DF;Hertha BSC;34-302;1986;1.6;0;0;0;3;2;0;3;3;0;0;0;0;17;4;3;57.1;Matches
+233;Jens Petter Hauge\Jens-Petter-Hauge;no NOR;FW;Eint Frankfurt;21-320;1999;1.3;0;0;0;1;0;0;0;1;1;0;0;0;14;2;5;28.6;Matches
+234;Maximilian Philipp\Maximilian-Philipp;de GER;MF;Wolfsburg;27-180;1994;1.7;0;0;0;2;2;1;2;0;0;0;0;0;5;1;2;33.3;Matches
+235;Amos Pieper\Amos-Pieper;de GER;DF;Arminia;23-223;1998;2.0;0;0;0;0;0;0;2;4;4;0;0;0;17;5;2;71.4;Matches
+236;Marvin Plattenhardt\Marvin-Plattenhardt;de GER;DF;Hertha BSC;29-214;1992;2.0;1;0;0;1;3;0;7;1;3;0;0;0;13;1;1;50.0;Matches
+237;Alassane Pléa\Alassane-Plea;fr FRA;FW;M'Gladbach;28-171;1993;1.4;0;0;0;0;2;1;2;0;0;0;0;0;7;5;3;62.5;Matches
+238;Joel Pohjanpalo\Joel-Pohjanpalo;fi FIN;FW;Leverkusen;26-349;1994;0.1;0;0;0;1;0;1;0;0;0;0;0;0;0;1;3;25.0;Matches
+239;Sebastian Polter\Sebastian-Polter;de GER;FW;Bochum;30-149;1991;1.0;0;0;0;3;2;1;0;1;2;0;0;0;1;7;4;63.6;Matches
+240;Stefan Posch\Stefan-Posch;at AUT;DF;Hoffenheim;24-106;1997;3.0;1;0;0;5;1;0;0;5;6;0;0;0;15;3;13;18.8;Matches
+241;Yussuf Poulsen\Yussuf-Poulsen;dk DEN;FW;RB Leipzig;27-074;1994;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0.0;Matches
+242;Manuel Prietl\Manuel-Prietl;at AUT;MF;Arminia;30-025;1991;2.0;1;0;0;4;0;0;0;3;4;0;1;0;18;4;4;50.0;Matches
+243;David Raum\David-Raum;de GER;DF;Hoffenheim;23-128;1998;2.6;1;0;0;2;3;0;8;3;3;0;0;0;22;3;7;30.0;Matches
+244;Marco Reus\Marco-Reus;de GER;MFFW;Dortmund;32-089;1989;3.0;0;0;0;0;7;2;2;4;5;0;0;0;18;1;3;25.0;Matches
+245;Elvis Rexhbeçaj\Elvis-Rexhbecaj;de GER;MF;Bochum;23-300;1997;1.8;2;0;0;1;5;0;1;3;1;0;0;0;13;2;4;33.3;Matches
+246;Gio Reyna\Gio-Reyna;us USA;MF;Dortmund;18-288;2002;2.4;0;0;0;3;5;0;4;3;0;0;0;0;24;2;7;22.2;Matches
+247;Chris Richards\Chris-Richards;us USA;DF;Bayern Munich;21-153;2000;0.0;0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;;Matches
+248;Marco Richter\Marco-Richter;de GER;FW;Hertha BSC;23-277;1997;0.5;0;0;0;0;2;0;2;1;1;0;0;0;6;1;1;50.0;Matches
+249;Manuel Riemann\Manuel-Riemann;de GER;GK;Bochum;32-353;1988;2.0;1;0;0;0;0;0;0;1;0;0;0;0;13;0;0;;Matches
+250;Romario Rösch\Romario-Rosch;de GER;MF;Mainz 05;22-058;1999;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;Matches
+251;Jérôme Roussillon\Jerome-Roussillon;fr FRA;DF;Wolfsburg;28-234;1993;1.9;1;0;0;2;1;0;6;0;2;0;0;0;12;1;2;33.3;Matches
+252;Sebastian Rudy\Sebastian-Rudy;de GER;MF;Hoffenheim;31-181;1990;2.9;1;0;0;1;1;0;3;6;4;0;0;0;26;5;5;50.0;Matches
+253;Georginio Rutter\Georginio-Rutter;fr FRA;FWMF;Hoffenheim;19-130;2002;1.0;0;0;0;3;0;4;3;0;1;0;0;0;0;0;2;0.0;Matches
+254;Julian Ryerson\Julian-Ryerson;no NOR;DF;Union Berlin;23-284;1997;1.1;0;0;0;0;1;0;3;2;1;0;0;0;6;2;1;66.7;Matches
+255;Marcel Sabitzer\Marcel-Sabitzer;at AUT;MFFW;RB Leipzig;27-164;1994;0.5;1;0;0;1;0;0;2;1;1;0;0;0;7;0;1;0.0;Matches
+256;Roland Sallai\Roland-Sallai;hu HUN;MF;Freiburg;24-098;1997;1.0;0;0;0;1;5;0;3;1;0;0;0;0;5;0;3;0.0;Matches
+257;Diadie Samassékou\Diadie-Samassekou;ml MLI;MF;Hoffenheim;25-229;1996;0.3;1;0;0;1;0;0;0;0;0;0;0;0;9;1;1;50.0;Matches
+258;Leroy Sané\Leroy-Sane;de GER;FW;Bayern Munich;25-229;1996;1.3;0;0;0;3;0;2;4;1;0;0;0;0;11;1;1;50.0;Matches
+259;Mohamed Sankoh\Mohamed-Sankoh;nl NED;FW;Stuttgart;17-316;2003;0.0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;Matches
+260;Baptiste Santamaria\Baptiste-Santamaria;fr FRA;MF;Freiburg;26-172;1995;0.2;0;0;0;0;0;0;0;0;0;0;0;0;1;0;1;0.0;Matches
+261;Bouna Sarr\Bouna-Sarr;gn GUI;DF;Bayern Munich;29-209;1992;0.1;0;0;0;0;0;0;0;0;0;0;0;0;3;1;0;100.0;Matches
+262;Joseph Scally\Joseph-Scally;us USA;DF;M'Gladbach;18-240;2002;2.0;0;0;0;2;2;0;3;5;1;0;0;0;19;4;0;100.0;Matches
+263;Kevin Schade\Kevin-Schade;de GER;FWMF;Freiburg;19-274;2001;0.2;0;0;0;0;2;0;0;0;0;0;0;0;3;2;3;40.0;Matches
+264;Louis Schaub\Louis-Schaub;at AUT;MF;Köln;26-242;1994;0.3;0;0;0;1;1;0;2;0;0;0;0;0;5;0;2;0.0;Matches
+265;Patrik Schick\Patrik-Schick;cz CZE;FW;Leverkusen;25-216;1996;1.9;0;0;0;0;0;1;0;0;0;0;0;0;6;6;10;37.5;Matches
+266;Xaver Schlager\Xaver-Schlager;at AUT;MF;Wolfsburg;23-334;1997;1.9;0;0;0;2;2;0;1;3;7;0;0;0;15;2;1;66.7;Matches
+267;Nico Schlotterbeck\Nico-Schlotterbeck;de GER;DF;Freiburg;21-270;1999;2.0;0;0;0;2;2;0;1;7;3;0;0;0;23;3;6;33.3;Matches
+268;Jonathan Schmid\Jonathan-Schmid;fr FRA;DF;Freiburg;31-063;1990;2.0;0;0;0;2;1;0;3;5;2;0;0;0;10;1;2;33.3;Matches
+269;Benno Schmitz\Benno-Schmitz;de GER;DF;Köln;26-284;1994;0.9;0;0;0;1;1;0;6;0;1;0;0;0;8;0;3;0.0;Matches
+270;Alessandro Schöpf\Alessandro-Schopf;at AUT;MF;Arminia;27-202;1994;1.7;2;1;1;5;6;0;3;4;1;0;0;0;17;1;3;25.0;Matches
+271;Nico Schulz\Nico-Schulz;de GER;DF;Dortmund;28-149;1993;1.4;0;0;0;2;1;0;2;5;0;0;0;0;11;0;3;0.0;Matches
+272;Alexander Schwolow\Alexander-Schwolow;de GER;GK;Hertha BSC;29-087;1992;2.0;0;0;0;0;0;0;0;0;0;0;0;0;8;0;0;;Matches
+273;Paul Seguin\Paul-Seguin;de GER;MF;Greuther Fürth;26-152;1995;2.0;2;0;0;4;1;0;1;2;4;0;0;0;19;3;1;75.0;Matches
+274;Davie Selke\Davie-Selke;de GER;FW;Hertha BSC;26-220;1995;0.9;0;0;0;1;3;0;0;0;0;0;0;0;2;5;5;50.0;Matches
+275;Suat Serdar\Suat-Serdar;de GER;FWMF;Hertha BSC;24-139;1997;1.9;1;0;0;6;3;0;0;2;5;0;0;0;10;1;0;100.0;Matches
+276;Janni Serra\Janni-Serra;de GER;FW;Arminia;23-168;1998;0.2;0;0;0;1;0;0;0;0;0;0;0;0;5;2;4;33.3;Matches
+277;Nils Seufert\Nils-Seufert;de GER;MF;Greuther Fürth;24-206;1997;0.6;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;;Matches
+278;André Silva\Andre-Silva;pt POR;FW;RB Leipzig;25-295;1995;1.8;0;0;0;0;2;2;1;0;2;0;0;0;7;4;4;50.0;Matches
+279;Mohamed Simakan\Mohamed-Simakan;fr FRA;DF;RB Leipzig;21-117;2000;2.0;0;0;0;0;4;0;0;1;1;0;0;0;28;10;3;76.9;Matches
+280;Ellyes Skhiri\Ellyes-Skhiri;tn TUN;MF;Köln;26-110;1995;2.0;1;0;0;5;1;1;1;6;5;0;0;0;37;6;3;66.7;Matches
+281;Danilo Soares\Danilo-Soares;br BRA;DF;Bochum;29-303;1991;2.0;0;0;0;1;1;0;1;5;3;0;0;0;20;4;0;100.0;Matches
+282;Yann Sommer\Yann-Sommer;ch SUI;GK;M'Gladbach;32-254;1988;2.0;0;0;0;0;0;0;0;0;0;0;0;1;13;0;0;;Matches
+283;Borna Sosa\Borna-Sosa;hr CRO;DF;Stuttgart;23-219;1998;2.0;0;0;0;0;1;0;15;0;0;0;0;0;13;1;2;33.3;Matches
+284;Djibril Sow\Djibril-Sow;ch SUI;MF;Eint Frankfurt;24-203;1997;2.0;1;0;0;2;1;0;2;9;4;0;0;0;24;2;0;100.0;Matches
+285;Jerry St. Juste\Jerry-St-Juste;nl NED;DF;Mainz 05;24-313;1996;0.5;0;0;0;1;2;0;0;3;0;0;0;0;9;5;5;50.0;Matches
+286;Kostas Stafylidis\Kostas-Stafylidis;gr GRE;MF;Bochum;27-269;1993;0.2;0;0;0;0;0;0;0;0;0;0;0;0;2;1;0;100.0;Matches
+287;Josip Stanišić\Josip-Stanisic;de GER;DF;Bayern Munich;21-148;2000;1.4;0;0;0;0;0;0;4;4;0;0;0;0;19;2;2;50.0;Matches
+288;Niklas Stark\Niklas-Stark;de GER;DF;Hertha BSC;26-136;1995;2.0;0;0;0;2;4;1;0;3;2;0;0;0;11;6;3;66.7;Matches
+289;Renato Steffen\Renato-Steffen;ch SUI;FWMF;Wolfsburg;29-298;1991;1.5;0;0;0;5;2;0;7;2;0;0;0;0;9;0;1;0.0;Matches
+290;Pascal Stenzel\Pascal-Stenzel;de GER;DF;Stuttgart;25-161;1996;0.1;0;0;0;0;0;0;1;0;0;0;0;0;1;0;0;;Matches
+291;Angelo Stiller\Angelo-Stiller;de GER;MF;Hoffenheim;20-146;2001;2.5;0;0;0;2;3;0;1;5;4;0;0;0;16;4;5;44.4;Matches
+292;Lars Stindl\Lars-Stindl;de GER;MFFW;M'Gladbach;33-002;1988;2.0;1;0;0;2;0;0;1;1;2;0;0;0;8;1;5;16.7;Matches
+293;Kevin Stöger\Kevin-Stoger;at AUT;MF;Mainz 05;28-001;1993;0.3;0;0;0;0;0;0;2;0;0;0;0;0;7;0;1;0.0;Matches
+294;Niklas Süle\Niklas-Sule;de GER;DF;Bayern Munich;25-359;1995;2.0;1;0;0;2;0;0;0;1;1;0;0;0;23;7;3;70.0;Matches
+295;Ádám Szalai\Adam-Szalai;hu HUN;FW;Mainz 05;33-262;1987;0.3;0;0;0;1;1;0;1;0;0;0;0;0;2;0;2;0.0;Matches
+296;Dominik Szoboszlai\Dominik-Szoboszlai;hu HUN;FWDF;RB Leipzig;20-307;2000;1.1;0;0;0;1;1;0;8;3;0;0;0;0;10;2;2;50.0;Matches
+297;Jonathan Tah\Jonathan-Tah;de GER;DF;Leverkusen;25-198;1996;2.0;0;0;0;3;2;0;0;0;0;0;0;0;19;6;2;75.0;Matches
+298;Niklas Tauer\Niklas-Tauer;de GER;MF;Mainz 05;20-192;2001;1.4;0;0;0;2;1;0;0;3;2;0;0;0;20;1;1;50.0;Matches
+299;Robert Tesche\Robert-Tesche;de GER;MF;Bochum;34-093;1987;0.0;0;1;0;1;0;0;0;0;0;0;0;0;0;0;0;;Matches
+300;Cedric Teuchert\Cedric-Teuchert;de GER;FWMF;Union Berlin;24-226;1997;0.3;0;0;0;0;1;0;0;0;1;0;0;0;2;0;1;0.0;Matches
+301;Jan Thielmann\Jan-Thielmann;de GER;MF;Köln;19-094;2002;2.0;1;0;0;1;1;0;6;5;3;0;0;0;18;1;2;33.3;Matches
+302;Erik Thommy\Erik-Thommy;de GER;DFMF;Stuttgart;27-008;1994;0.4;0;0;0;1;1;1;0;0;0;0;0;0;2;0;0;;Matches
+303;Marcus Thuram\Marcus-Thuram;fr FRA;FW;M'Gladbach;24-022;1997;0.5;0;0;0;1;1;0;0;0;1;0;0;0;0;0;2;0.0;Matches
+304;Steffen Tigges\Steffen-Tigges;de GER;MF;Dortmund;23-028;1998;0.0;0;0;0;0;0;0;0;1;0;0;0;0;1;0;0;;Matches
+305;Corentin Tolisso\Corentin-Tolisso;fr FRA;MF;Bayern Munich;27-025;1994;0.3;0;0;0;2;0;0;0;0;0;0;0;0;2;0;0;;Matches
+306;Jordan Torunarigha\Jordan-Torunarigha;de GER;DF;Hertha BSC;24-021;1997;0.1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;;Matches
+307;Lucas Tousart\Lucas-Tousart;fr FRA;MFFW;Hertha BSC;24-121;1997;1.1;0;0;0;2;1;0;0;1;1;0;0;0;4;1;4;20.0;Matches
+308;Kevin Trapp\Kevin-Trapp;de GER;GK;Eint Frankfurt;31-051;1990;2.0;0;0;0;0;0;0;0;0;0;0;0;0;12;0;0;;Matches
+309;Christopher Trimmel\Christopher-Trimmel;at AUT;DF;Union Berlin;34-185;1987;1.1;0;0;0;1;0;0;3;2;3;0;0;0;8;1;0;100.0;Matches
+310;Dayot Upamecano\Dayot-Upamecano;fr FRA;DF;Bayern Munich;22-305;1998;2.0;0;0;0;2;1;0;0;3;1;0;0;0;28;11;4;73.3;Matches
+311;Mark Uth\Mark-Uth;de GER;FW;Köln;30-004;1991;1.5;0;0;0;4;5;2;4;6;2;0;0;0;6;1;3;25.0;Matches
+312;Ruben Vargas\Ruben-Vargas;ch SUI;FW;Augsburg;23-023;1998;1.9;0;0;0;2;2;1;3;4;2;0;0;0;14;3;2;60.0;Matches
+313;Andreas Voglsammer\Andreas-Voglsammer;de GER;FW;Union Berlin;29-231;1992;0.6;0;0;0;0;1;2;1;0;0;0;0;0;2;8;4;66.7;Matches
+314;Kevin Vogt\Kevin-Vogt;de GER;DF;Hoffenheim;29-339;1991;3.0;0;0;0;2;2;0;1;2;2;0;0;0;22;4;3;57.1;Matches
+315;Wout Weghorst\Wout-Weghorst;nl NED;FW;Wolfsburg;29-021;1992;2.0;0;0;0;1;0;1;2;0;0;0;0;0;9;3;2;60.0;Matches
+316;Silvan Widmer\Silvan-Widmer;ch SUI;DF;Mainz 05;28-176;1993;2.0;0;0;0;1;2;0;1;3;2;0;0;0;13;4;8;33.3;Matches
+317;Florian Wirtz\Florian-Wirtz;de GER;MF;Leverkusen;18-117;2003;0.1;0;0;0;0;0;0;1;1;0;0;0;0;0;0;0;;Matches
+318;Axel Witsel\Axel-Witsel;be BEL;DF;Dortmund;32-228;1989;2.7;0;0;0;2;2;0;1;4;1;0;0;0;26;10;3;76.9;Matches
+319;Hannes Wolf\Hannes-Wolf;at AUT;FWMF;M'Gladbach;22-134;1999;1.6;1;0;0;5;1;0;1;2;7;0;0;0;9;0;2;0.0;Matches
+320;Marius Wolf\Marius-Wolf;de GER;MF;Dortmund;26-093;1995;0.2;0;0;0;2;0;1;1;0;0;0;0;0;3;0;0;;Matches
+321;Jeong Woo-yeong\Jeong-Woo-yeong;kr KOR;FWMF;Freiburg;21-342;1999;1.5;0;0;0;2;2;0;3;3;0;0;0;0;4;2;3;40.0;Matches
+322;Deyovaisio Zeefuik\Deyovaisio-Zeefuik;nl NED;MF;Hertha BSC;23-170;1998;0.4;0;0;0;0;3;0;0;0;0;0;0;0;6;2;2;50.0;Matches
+323;Robin Zentner\Robin-Zentner;de GER;GK;Mainz 05;26-304;1994;2.0;0;0;0;0;0;0;0;0;0;0;0;0;11;0;0;;Matches
+324;Simon Zoller\Simon-Zoller;de GER;FW;Bochum;30-063;1991;2.0;1;0;0;4;4;0;3;1;1;0;0;0;14;2;3;40.0;Matches

@@ -1,40 +1,24 @@
-id;name;Nation;Position;Squad;Age;Born;MP;Starts;Min;GA;GA90;SoTA;Saves;Save%;W;D;L;CS;CS%;PKatt;PKA;PKsv;PKm;Matches
-1;Enrico Alfonso\Enrico-Alfonso;it ITA;GK;Brescia;31;1988;4;4;280;4;1.29;11;7;.636;1;0;3;1;25.0;0;0;0;0;Matches
-2;Lorenzo Andrenacci\Lorenzo-Andrenacci;it ITA;GK;Brescia;24;1995;1;0;80;2;2.25;8;5;.750;0;0;0;0;;0;0;0;0;Matches
-3;Emil Audero\Emil-Audero;it ITA;GK;Sampdoria;22;1997;24;24;2160;43;1.79;108;70;.639;6;5;13;7;29.2;4;4;0;0;Matches
-4;Asmir Begović\Asmir-Begovic;ba BIH;GK;Milan;32;1987;1;0;38;1;2.37;3;3;1.000;0;0;0;0;;1;1;0;0;Matches
-5;Etrit Berisha\Etrit-Berisha;al ALB;GK;SPAL;30;1989;25;25;2250;41;1.64;141;105;.752;4;3;18;2;8.0;6;6;0;0;Matches
-6;Gianluigi Buffon\Gianluigi-Buffon;it ITA;GK;Juventus;41;1978;7;7;630;7;1.00;22;15;.682;6;1;0;1;14.3;1;0;0;1;Matches
-7;Simone Colombi\Simone-Colombi;it ITA;GK;Parma;28;1991;3;3;270;3;1.00;16;13;.813;1;1;1;1;33.3;1;0;0;1;Matches
-8;Andrea Consigli\Andrea-Consigli;it ITA;GK;Sassuolo;32;1987;19;19;1710;33;1.74;93;65;.699;7;2;10;3;15.8;6;5;1;0;Matches
-9;Angelo da Costa Júnior\Angelo-da-Costa-Junior;br BRA;GK;Bologna;35;1983;1;1;90;1;1.00;2;1;.500;0;1;0;0;0.0;0;0;0;0;Matches
-10;Alessio Cragno\Alessio-Cragno;it ITA;GK;Cagliari;25;1994;4;4;360;5;1.25;18;13;.722;0;2;2;0;0.0;0;0;0;0;Matches
-11;Antonio Donnarumma\Antonio-Donnarumma;it ITA;GK;Milan;29;1990;1;0;;0;;;;;0;0;0;0;;0;0;0;0;Matches
-12;Gianluigi Donnarumma\Gianluigi-Donnarumma;it ITA;GK;Milan;20;1999;24;24;2122;30;1.27;100;73;.720;9;6;9;9;37.5;4;2;2;0;Matches
-13;Bartłomiej Drągowski\Bartlomiej-Dragowski;pl POL;GK;Fiorentina;21;1997;25;25;2250;36;1.44;109;76;.697;7;8;10;6;24.0;5;3;2;0;Matches
-14;Gabriel\Gabriel;br BRA;GK;Lecce;26;1992;22;22;1918;47;2.21;136;95;.699;3;7;12;1;4.5;7;6;1;0;Matches
-15;Pierluigi Gollini\Pierluigi-Gollini;it ITA;GK;Atalanta;24;1995;22;22;1980;31;1.41;73;47;.630;12;6;4;5;22.7;4;4;0;0;Matches
-16;Samir Handanović\Samir-Handanovic;si SVN;GK;Inter;35;1984;21;21;1890;18;0.86;72;56;.764;14;6;1;7;33.3;2;1;1;0;Matches
-17;Jesse Joronen\Jesse-Joronen;fi FIN;GK;Brescia;26;1993;21;21;1890;40;1.90;114;80;.702;3;4;14;4;19.0;7;6;1;0;Matches
-18;Pau López\Pau-Lopez;es ESP;GK;Roma;24;1994;25;25;2250;35;1.40;102;71;.716;13;5;7;5;20.0;7;6;1;0;Matches
-19;Federico Marchetti\Federico-Marchetti;it ITA;GK;Genoa;36;1983;1;0;;0;;;;;0;0;0;0;;0;0;0;0;Matches
-20;Alex Meret\Alex-Meret;it ITA;GK;Napoli;22;1997;15;15;1350;23;1.53;58;37;.655;6;4;5;3;20.0;4;3;1;0;Matches
-21;Antonio Mirante\Antonio-Mirante;it ITA;GK;Roma;36;1983;1;1;90;0;0.00;2;2;1.000;0;1;0;1;100.0;0;0;0;0;Matches
-22;Juan Musso\Juan-Musso;ar ARG;GK;Udinese;25;1994;25;25;2250;37;1.48;111;79;.730;7;6;12;8;32.0;8;7;1;0;Matches
-23;Robin Olsen\Robin-Olsen;se SWE;GK;Cagliari;29;1990;16;16;1434;24;1.51;80;60;.750;7;5;4;3;18.8;4;4;0;0;Matches
-24;David Ospina\David-Ospina;co COL;GK;Napoli;30;1988;11;11;990;13;1.18;40;27;.700;5;2;4;2;18.2;1;1;0;0;Matches
-25;Daniele Padelli\Daniele-Padelli;it ITA;GK;Inter;33;1985;3;3;270;4;1.33;6;3;.500;2;0;1;1;33.3;1;1;0;0;Matches
-26;Gianluca Pegolo\Gianluca-Pegolo;it ITA;GK;Sassuolo;38;1981;3;3;270;2;0.67;20;19;.900;1;1;1;2;66.7;0;0;0;0;Matches
-27;Mattia Perin\Mattia-Perin;it ITA;GK;Genoa;26;1992;8;8;720;11;1.37;38;29;.737;3;2;3;3;37.5;1;1;0;0;Matches
-28;Ionuț Radu\Ionut-Radu;ro ROU;GK;Genoa;22;1997;17;17;1530;35;2.06;89;61;.674;2;5;10;2;11.8;7;6;0;1;Matches
-29;Rafael\Rafael;br BRA;GK;Cagliari;37;1982;6;5;453;11;2.19;15;6;.400;1;1;3;0;0.0;3;2;0;1;Matches
-30;Pepe Reina\Pepe-Reina;es ESP;GK;Milan;36;1982;2;1;90;1;1.00;5;4;.800;1;0;0;0;0.0;1;0;1;0;Matches
-31;Luigi Sepe\Luigi-Sepe;it ITA;GK;Parma;28;1991;21;21;1890;27;1.29;117;90;.778;9;4;8;5;23.8;2;1;1;0;Matches
-32;Marco Silvestri\Marco-Silvestri;it ITA;GK;Hellas Verona;28;1991;24;24;2160;24;1.00;93;72;.796;9;8;7;9;37.5;5;5;0;0;Matches
-33;Salvatore Sirigu\Salvatore-Sirigu;it ITA;GK;Torino;32;1987;25;25;2250;45;1.80;136;97;.721;8;3;14;5;20.0;8;7;1;0;Matches
-34;Łukasz Skorupski\Lukasz-Skorupski;pl POL;GK;Bologna;28;1991;25;25;2250;41;1.64;107;72;.664;9;6;10;2;8.0;6;5;0;1;Matches
-35;Marco Sportiello\Marco-Sportiello;it ITA;GK;Atalanta;27;1992;3;3;270;3;1.00;13;10;.769;2;0;1;1;33.3;0;0;0;0;Matches
-36;Thomas Strakosha\Thomas-Strakosha;al ALB;GK;Lazio;24;1995;26;26;2340;23;0.88;100;80;.790;19;5;2;9;34.6;3;2;1;0;Matches
-37;Wojciech Szczęsny\Wojciech-Szczesny;pl POL;GK;Juventus;29;1990;18;18;1620;17;0.94;77;65;.844;13;2;3;7;38.9;7;5;1;1;Matches
-38;Stefano Turati\Stefano-Turati;it ITA;GK;Sassuolo;;;2;2;180;4;2.00;11;8;.727;0;2;0;0;0.0;1;1;0;0;Matches
-39;Mauro Vigorito\Mauro-Vigorito;it ITA;GK;Lecce;29;1990;5;4;422;9;1.92;27;19;.704;3;0;1;1;25.0;1;1;0;0;Matches
+Rk;Player;Nation;Pos;Squad;Age;Born;Playing Time-MP;Playing Time-Starts;Playing Time-Min;Playing Time-90s;Performance-GA;Performance-GA90;Performance-SoTA;Performance-Saves;Performance-Save%;W;D;L;Performance-CS;Performance-CS%;Performance-PKatt;Penalty Kicks-PKA;Penalty Kicks-PKsv;Penalty Kicks-PKm;Penalty Kicks-Save%;Matches;
+1;Emil Audero\Emil-Audero;it ITA;GK;Sampdoria;24-222;1997;1;1;90;1.0;1;1.00;3;2;66.7;0;0;1;0;0.0;0;0;0;0;;Matches
+2;Vid Belec\Vid-Belec;si SVN;GK;Salernitana;31-083;1990;1;1;90;1.0;3;3.00;7;4;57.1;0;0;1;0;0.0;0;0;0;0;;Matches
+3;Andrea Consigli\Andrea-Consigli;it ITA;GK;Sassuolo;34-213;1987;1;1;90;1.0;2;2.00;3;2;66.7;1;0;0;0;0.0;1;1;0;0;0.0;Matches
+4;Alessio Cragno\Alessio-Cragno;it ITA;GK;Cagliari;27-061;1994;1;1;90;1.0;2;2.00;4;2;50.0;0;1;0;0;0.0;0;0;0;0;;Matches
+5;Bartłomiej Drągowski\Bartlomiej-Dragowski;pl POL;DFGK;Fiorentina;24-009;1997;1;1;16;0.2;0;0.00;0;0;;0;0;1;0;0.0;0;0;0;0;;Matches
+6;Samir Handanović\Samir-Handanovic;si SVN;GK;Inter;37-045;1984;2;2;180;2.0;1;0.50;5;4;80.0;2;0;0;1;50.0;0;0;0;0;;Matches
+7;Luca Lezzerini\Luca-Lezzerini;it ITA;GK;Venezia;26-157;1995;1;1;90;1.0;3;3.00;10;7;70.0;0;0;1;0;0.0;0;0;0;0;;Matches
+8;Niki Mäenpää\Niki-Maenpaa;fi FIN;GK;Venezia;36-217;1985;1;1;90;1.0;2;2.00;3;2;66.7;0;0;1;0;0.0;2;1;0;1;0.0;Matches
+9;Mike Maignan\Mike-Maignan;fr FRA;GK;Milan;25-273;1995;1;1;90;1.0;0;0.00;3;2;100.0;1;0;0;1;100.0;0;0;0;0;;Matches
+10;Alex Meret\Alex-Meret;it ITA;GK;Napoli;24-159;1997;1;1;90;1.0;0;0.00;4;4;100.0;1;0;0;1;100.0;0;0;0;0;;Matches
+11;Vanja Milinković-Savić\Vanja-Milinkovic-Savic;rs SRB;GK;Torino;24-189;1997;1;1;90;1.0;2;2.00;2;0;0.0;0;0;1;0;0.0;0;0;0;0;;Matches
+12;Lorenzo Montipò\Lorenzo-Montipo;it ITA;GK;Hellas Verona;25-189;1996;1;1;90;1.0;3;3.00;8;5;62.5;0;0;1;0;0.0;0;0;0;0;;Matches
+13;Juan Musso\Juan-Musso;ar ARG;GK;Atalanta;27-114;1994;1;1;90;1.0;1;1.00;7;6;85.7;1;0;0;0;0.0;0;0;0;0;;Matches
+14;Ivor Pandur\Ivor-Pandur;hr CRO;GK;Hellas Verona;21-156;2000;1;1;90;1.0;3;3.00;7;4;57.1;0;0;1;0;0.0;0;0;0;0;;Matches
+15;Rui Patrício\Rui-Patricio;pt POR;GK;Roma;33-194;1988;1;1;90;1.0;1;1.00;8;7;87.5;1;0;0;0;0.0;0;0;0;0;;Matches
+16;Pepe Reina\Pepe-Reina;es ESP;GK;Lazio;38-362;1982;1;1;90;1.0;1;1.00;4;3;75.0;1;0;0;0;0.0;0;0;0;0;;Matches
+17;Marco Silvestri\Marco-Silvestri;it ITA;GK;Udinese;30-179;1991;2;2;180;2.0;2;1.00;6;4;66.7;1;1;0;1;50.0;0;0;0;0;;Matches
+18;Salvatore Sirigu\Salvatore-Sirigu;it ITA;GK;Genoa;34-228;1987;1;1;90;1.0;4;4.00;8;4;50.0;0;0;1;0;0.0;0;0;0;0;;Matches
+19;Łukasz Skorupski\Lukasz-Skorupski;pl POL;GK;Bologna;30-115;1991;1;1;90;1.0;2;2.00;3;2;66.7;1;0;0;0;0.0;1;1;0;0;0.0;Matches
+20;Wojciech Szczęsny\Wojciech-Szczesny;pl POL;GK;Juventus;31-132;1990;1;1;90;1.0;2;2.00;5;4;80.0;0;1;0;0;0.0;1;1;0;0;0.0;Matches
+21;Pietro Terracciano\Pietro-Terracciano;it ITA;GK;Fiorentina;31-173;1990;1;0;71;0.8;3;3.80;6;3;50.0;;;;0;;0;0;0;0;;Matches
+22;Guglielmo Vicario\Guglielmo-Vicario;it ITA;GK;Empoli;24-325;1996;1;1;90;1.0;3;3.00;3;1;33.3;0;0;1;0;0.0;1;1;0;0;0.0;Matches
+23;Jeroen Zoet\Jeroen-Zoet;nl NED;GK;Spezia;30-234;1991;1;1;90;1.0;2;2.00;6;5;83.3;0;1;0;0;0.0;1;1;0;0;0.0;Matches

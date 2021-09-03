@@ -581,6 +581,176 @@ class Player
      */
     private $dispossessed;
 
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $goalsWithoutPK;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $penaltyKicksMissed;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $cornerKicksGlsAgainst;
+
+    /**
+     * @ORM\Column(type="float", nullable=true)
+     */
+    private $averageDistShootFromGoal;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $passTotalDistance;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $passTotalPrgDistance;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $progressivePasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $inswingingCKs;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $outswingingCKs;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $straightCKs;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $headPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $partsOtherPasses;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $tacklesInDefThird;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $tacklesInMidThird;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $tacklesInAttThird;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $pressInDefThird;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $pressInMidThird;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $pressInAttThird;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $carriesCloseToGoal;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $carriesInto18YardBox;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $progressivePassRecieved;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $liveBallTouched;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $touchesInDefThird;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $touchesInMidThird;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $touchesInAttThird;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $minutesPerMatchPlayed;
+
+    /**
+     * @ORM\Column(type="float", nullable=true)
+     */
+    private $PercentageOfMinutesPlayed;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $completeMatchsPlayed;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $matchsAsSubstitute;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $mintuesPerSubstitute;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $matchsAsUnusedSubstitute;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $goalScoredByTeamWhileOnPitch;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $goalAllowedByTeamWhileOnPitch;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $goalScoredMinusAllowedWhileOnPitchPer90;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -1938,6 +2108,414 @@ class Player
     public function setDispossessed(?int $dispossessed): self
     {
         $this->dispossessed = $dispossessed;
+
+        return $this;
+    }
+
+    public function getGoalsWithoutPK(): ?int
+    {
+        return $this->goalsWithoutPK;
+    }
+
+    public function setGoalsWithoutPK(?int $goalsWithoutPK): self
+    {
+        $this->goalsWithoutPK = $goalsWithoutPK;
+
+        return $this;
+    }
+
+    public function getPenaltyKicksMissed(): ?int
+    {
+        return $this->penaltyKicksMissed;
+    }
+
+    public function setPenaltyKicksMissed(?int $penaltyKicksMissed): self
+    {
+        $this->penaltyKicksMissed = $penaltyKicksMissed;
+
+        return $this;
+    }
+
+    public function getCornerKicksGlsAgainst(): ?int
+    {
+        return $this->cornerKicksGlsAgainst;
+    }
+
+    public function setCornerKicksGlsAgainst(?int $cornerKicksGlsAgainst): self
+    {
+        $this->cornerKicksGlsAgainst = $cornerKicksGlsAgainst;
+
+        return $this;
+    }
+
+    public function getAverageDistShootFromGoal(): ?float
+    {
+        return $this->averageDistShootFromGoal;
+    }
+
+    public function setAverageDistShootFromGoal(?float $averageDistShootFromGoal): self
+    {
+        $this->averageDistShootFromGoal = $averageDistShootFromGoal;
+
+        return $this;
+    }
+
+    public function getPassTotalDistance(): ?int
+    {
+        return $this->passTotalDistance;
+    }
+
+    public function setPassTotalDistance(?int $passTotalDistance): self
+    {
+        $this->passTotalDistance = $passTotalDistance;
+
+        return $this;
+    }
+
+    public function getPassTotalPrgDistance(): ?int
+    {
+        return $this->passTotalPrgDistance;
+    }
+
+    public function setPassTotalPrgDistance(?int $passTotalPrgDistance): self
+    {
+        $this->passTotalPrgDistance = $passTotalPrgDistance;
+
+        return $this;
+    }
+
+    public function getProgressivePasses(): ?int
+    {
+        return $this->progressivePasses;
+    }
+
+    public function setProgressivePasses(?int $progressivePasses): self
+    {
+        $this->progressivePasses = $progressivePasses;
+
+        return $this;
+    }
+
+    public function getInswingingCKs(): ?int
+    {
+        return $this->inswingingCKs;
+    }
+
+    public function setInswingingCKs(?int $inswingingCKs): self
+    {
+        $this->inswingingCKs = $inswingingCKs;
+
+        return $this;
+    }
+
+    public function getOutswingingCKs(): ?int
+    {
+        return $this->outswingingCKs;
+    }
+
+    public function setOutswingingCKs(?int $outswingingCKs): self
+    {
+        $this->outswingingCKs = $outswingingCKs;
+
+        return $this;
+    }
+
+    public function getStraightCKs(): ?int
+    {
+        return $this->straightCKs;
+    }
+
+    public function setStraightCKs(?int $straightCKs): self
+    {
+        $this->straightCKs = $straightCKs;
+
+        return $this;
+    }
+
+    public function getHeadPasses(): ?int
+    {
+        return $this->headPasses;
+    }
+
+    public function setHeadPasses(?int $headPasses): self
+    {
+        $this->headPasses = $headPasses;
+
+        return $this;
+    }
+
+    public function getPartsOtherPasses(): ?int
+    {
+        return $this->partsOtherPasses;
+    }
+
+    public function setPartsOtherPasses(?int $partsOtherPasses): self
+    {
+        $this->partsOtherPasses = $partsOtherPasses;
+
+        return $this;
+    }
+
+    public function getTacklesInDefThird(): ?int
+    {
+        return $this->tacklesInDefThird;
+    }
+
+    public function setTacklesInDefThird(?int $tacklesInDefThird): self
+    {
+        $this->tacklesInDefThird = $tacklesInDefThird;
+
+        return $this;
+    }
+
+    public function getTacklesInMidThird(): ?int
+    {
+        return $this->tacklesInMidThird;
+    }
+
+    public function setTacklesInMidThird(?int $tacklesInMidThird): self
+    {
+        $this->tacklesInMidThird = $tacklesInMidThird;
+
+        return $this;
+    }
+
+    public function getTacklesInAttThird(): ?int
+    {
+        return $this->tacklesInAttThird;
+    }
+
+    public function setTacklesInAttThird(?int $tacklesInAttThird): self
+    {
+        $this->tacklesInAttThird = $tacklesInAttThird;
+
+        return $this;
+    }
+
+    public function getPressInDefThird(): ?int
+    {
+        return $this->pressInDefThird;
+    }
+
+    public function setPressInDefThird(?int $pressInDefThird): self
+    {
+        $this->pressInDefThird = $pressInDefThird;
+
+        return $this;
+    }
+
+    public function getPressInMidThird(): ?int
+    {
+        return $this->pressInMidThird;
+    }
+
+    public function setPressInMidThird(?int $pressInMidThird): self
+    {
+        $this->pressInMidThird = $pressInMidThird;
+
+        return $this;
+    }
+
+    public function getPressInAttThird(): ?int
+    {
+        return $this->pressInAttThird;
+    }
+
+    public function setPressInAttThird(?int $pressInAttThird): self
+    {
+        $this->pressInAttThird = $pressInAttThird;
+
+        return $this;
+    }
+
+    public function getCarriesCloseToGoal(): ?int
+    {
+        return $this->carriesCloseToGoal;
+    }
+
+    public function setCarriesCloseToGoal(?int $carriesCloseToGoal): self
+    {
+        $this->carriesCloseToGoal = $carriesCloseToGoal;
+
+        return $this;
+    }
+
+    public function getCarriesInto18YardBox(): ?int
+    {
+        return $this->carriesInto18YardBox;
+    }
+
+    public function setCarriesInto18YardBox(?int $carriesInto18YardBox): self
+    {
+        $this->carriesInto18YardBox = $carriesInto18YardBox;
+
+        return $this;
+    }
+
+    public function getProgressivePassRecieved(): ?int
+    {
+        return $this->progressivePassRecieved;
+    }
+
+    public function setProgressivePassRecieved(?int $progressivePassRecieved): self
+    {
+        $this->progressivePassRecieved = $progressivePassRecieved;
+
+        return $this;
+    }
+
+    public function getLiveBallTouched(): ?int
+    {
+        return $this->liveBallTouched;
+    }
+
+    public function setLiveBallTouched(?int $liveBallTouched): self
+    {
+        $this->liveBallTouched = $liveBallTouched;
+
+        return $this;
+    }
+
+    public function getTouchesInDefThird(): ?int
+    {
+        return $this->touchesInDefThird;
+    }
+
+    public function setTouchesInDefThird(?int $touchesInDefThird): self
+    {
+        $this->touchesInDefThird = $touchesInDefThird;
+
+        return $this;
+    }
+
+    public function getTouchesInMidThird(): ?int
+    {
+        return $this->touchesInMidThird;
+    }
+
+    public function setTouchesInMidThird(?int $touchesInMidThird): self
+    {
+        $this->touchesInMidThird = $touchesInMidThird;
+
+        return $this;
+    }
+
+    public function getTouchesInAttThird(): ?int
+    {
+        return $this->touchesInAttThird;
+    }
+
+    public function setTouchesInAttThird(?int $touchesInAttThird): self
+    {
+        $this->touchesInAttThird = $touchesInAttThird;
+
+        return $this;
+    }
+
+    public function getMinutesPerMatchPlayed(): ?int
+    {
+        return $this->minutesPerMatchPlayed;
+    }
+
+    public function setMinutesPerMatchPlayed(?int $minutesPerMatchPlayed): self
+    {
+        $this->minutesPerMatchPlayed = $minutesPerMatchPlayed;
+
+        return $this;
+    }
+
+    public function getPercentageOfMinutesPlayed(): ?float
+    {
+        return $this->PercentageOfMinutesPlayed;
+    }
+
+    public function setPercentageOfMinutesPlayed(?float $PercentageOfMinutesPlayed): self
+    {
+        $this->PercentageOfMinutesPlayed = $PercentageOfMinutesPlayed;
+
+        return $this;
+    }
+
+    public function getCompleteMatchsPlayed(): ?int
+    {
+        return $this->completeMatchsPlayed;
+    }
+
+    public function setCompleteMatchsPlayed(?int $completeMatchsPlayed): self
+    {
+        $this->completeMatchsPlayed = $completeMatchsPlayed;
+
+        return $this;
+    }
+
+    public function getMatchsAsSubstitute(): ?int
+    {
+        return $this->matchsAsSubstitute;
+    }
+
+    public function setMatchsAsSubstitute(?int $matchsAsSubstitute): self
+    {
+        $this->matchsAsSubstitute = $matchsAsSubstitute;
+
+        return $this;
+    }
+
+    public function getMintuesPerSubstitute(): ?int
+    {
+        return $this->mintuesPerSubstitute;
+    }
+
+    public function setMintuesPerSubstitute(?int $mintuesPerSubstitute): self
+    {
+        $this->mintuesPerSubstitute = $mintuesPerSubstitute;
+
+        return $this;
+    }
+
+    public function getMatchsAsUnusedSubstitute(): ?int
+    {
+        return $this->matchsAsUnusedSubstitute;
+    }
+
+    public function setMatchsAsUnusedSubstitute(?int $matchsAsUnusedSubstitute): self
+    {
+        $this->matchsAsUnusedSubstitute = $matchsAsUnusedSubstitute;
+
+        return $this;
+    }
+
+    public function getGoalScoredByTeamWhileOnPitch(): ?int
+    {
+        return $this->goalScoredByTeamWhileOnPitch;
+    }
+
+    public function setGoalScoredByTeamWhileOnPitch(?int $goalScoredByTeamWhileOnPitch): self
+    {
+        $this->goalScoredByTeamWhileOnPitch = $goalScoredByTeamWhileOnPitch;
+
+        return $this;
+    }
+
+    public function getGoalAllowedByTeamWhileOnPitch(): ?int
+    {
+        return $this->goalAllowedByTeamWhileOnPitch;
+    }
+
+    public function setGoalAllowedByTeamWhileOnPitch(?int $goalAllowedByTeamWhileOnPitch): self
+    {
+        $this->goalAllowedByTeamWhileOnPitch = $goalAllowedByTeamWhileOnPitch;
+
+        return $this;
+    }
+
+    public function getGoalScoredMinusAllowedWhileOnPitchPer90(): ?int
+    {
+        return $this->goalScoredMinusAllowedWhileOnPitchPer90;
+    }
+
+    public function setGoalScoredMinusAllowedWhileOnPitchPer90(?int $goalScoredMinusAllowedWhileOnPitchPer90): self
+    {
+        $this->goalScoredMinusAllowedWhileOnPitchPer90 = $goalScoredMinusAllowedWhileOnPitchPer90;
 
         return $this;
     }

@@ -40,7 +40,7 @@ class importCommand extends Command
       // $readerOfTypeOfPassTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/type_pass_team_data.csv');
       // $readerOfDefenseTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/defense_team_data.csv');
       // $readerOfPossessionTeamData = Reader::createFromPath('%kernel.root_dir%/../public/csv/' . $league . '/possession_team_data.csv');
-      
+
       $readerOfStandarsTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $league . '/standard_team_data.csv');
       $readerOfPassingTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $league . '/passing_team_data.csv');
       $readerOfShootingTeamData = Reader::createFromPath('C:/wamp64/www/AITranfert/public/csv/' . $league . '/shooting_team_data.csv');
@@ -107,7 +107,7 @@ class importCommand extends Command
          // echo sizeof($gkTeams)."\n";
          echo "import for " . $league . " league\n";
 
-        
+
          foreach ($standarsTeams as $fakeIndex => $teams) {
             //echo sizeof($gkTeams);
             $squad = "";
@@ -198,7 +198,7 @@ class importCommand extends Command
                   ->setThroughBalls($typePassTeams[$fakeIndex]['Pass Types-TB'])
                   ->setLeftFootPasses($typePassTeams[$fakeIndex]['Body Parts-Left'])
                   ->setRightFootPasses($typePassTeams[$fakeIndex]['Body Parts-Right'])
-                  //->setBlockedPasses($typePassTeams[$fakeIndex]['Blocks'])
+                  ->setBlockedPasses($typePassTeams[$fakeIndex]['Outcomes-Blocks'])
                   ->setOffsidesPasses($typePassTeams[$fakeIndex]['Outcomes-Off'])
                   //timming
                   ->setMinutesPlayed($timmingTeams[$fakeIndex]['Playing Time-Min'])
@@ -320,7 +320,7 @@ class importCommand extends Command
                      ->setThroughBalls($typePassTeams[$fakeIndex]['Pass Types-TB'])
                      ->setLeftFootPasses($typePassTeams[$fakeIndex]['Body Parts-Left'])
                      ->setRightFootPasses($typePassTeams[$fakeIndex]['Body Parts-Right'])
-                   //  ->setBlockedPasses($typePassTeams[$fakeIndex]['Blocks'])
+                     ->setBlockedPasses($typePassTeams[$fakeIndex]['Outcomes-Blocks'])
                      ->setOffsidesPasses($typePassTeams[$fakeIndex]['Outcomes-Off'])
                      //timming
                      ->setMinutesPlayed($timmingTeams[$fakeIndex]['Playing Time-Min'])
@@ -436,7 +436,7 @@ class importCommand extends Command
                      ->setThroughBalls($verify->getThroughBalls() + $typePassTeams[$fakeIndex]['Pass Types-TB'])
                      ->setLeftFootPasses($verify->getLeftFootPasses() + $typePassTeams[$fakeIndex]['Body Parts-Left'])
                      ->setRightFootPasses($verify->getRightFootPasses() + $typePassTeams[$fakeIndex]['Body Parts-Right'])
-                     ->setBlockedPasses($verify->getBlockedPasses() + $typePassTeams[$fakeIndex]['Blocks'])
+                     ->setBlockedPasses($verify->getBlockedPasses() + $typePassTeams[$fakeIndex]['Outcomes-Blocks'])
                      ->setOffsidesPasses($verify->getOffsidesPasses() + $typePassTeams[$fakeIndex]['Outcomes-Off'])
                      ->setMinutesPlayed($verify->getMinutesPlayed() + $timmingTeams[$fakeIndex]['Playing Time-Min'])
                      ->setSubstitutions($verify->getSubstitutions() + $timmingTeams[$fakeIndex]['Subs-Subs'])
@@ -539,7 +539,7 @@ class importCommand extends Command
       //  $readerOfMiscellaneousTeamData->setDelimiter(';');
 
 
-      
+
 
 
       $standars = $readerOfStandarsData->setHeaderOffset(0);
@@ -617,18 +617,19 @@ class importCommand extends Command
                ->setSquad($squad)
                ->setAge(intval($row['Age']))
                ->setBorn(intval($row['Born']))
+               ->setMatchsPlayed(intval($row['Playing Time-MP']))
                ->setMinutesPlayed(intval($row['Playing Time-Min']))
                ->setMinutesPercentPlayed(floatval($row['Playing Time-Min%']))
                ->setNintyMinPlayed(floatval($row['Playing Time-90s']))
                //to redo
-               ->setMinPerMatchStarted(/*floatval($timming['Starts-Mn/Start']) ? :*/ 0)
-               ->setPointsPerMatch(/*floatval($timming['PPM']) ? :*/ 0)
+               ->setMinPerMatchStarted(/*floatval($timming['Starts-Mn/Start']) ? :*/0)
+               ->setPointsPerMatch(/*floatval($timming['PPM']) ? :*/0)
                ////////////////////
-               ->setMatchsPlayed(0)
-               ->setMatchStarts(0)
-               ->setMinsPlayed(0)
-               ->setGoals(0)
-               ->setAssists(0)
+               // ->setMatchsPlayed(0)
+               // ->setMatchStarts(0)
+               // ->setMinsPlayed(0)
+               // ->setGoals(0)
+               // ->setAssists(0)
                ->setPkMade(0)
                ->setPkAttempted(0)
                ->setYellowCard(0)
@@ -637,6 +638,39 @@ class importCommand extends Command
                ->setAssistsPerMin(0.0)
                ->setGlsAssPerMin(0.0)
                ->setGoalsWithoutPkPerMin(0.0)
+               // new datas 
+               ->setGoalsWithoutPK(0)
+               ->setPenaltyKicksMissed(0)
+               ->setCornerKicksGlsAgainst(0)
+               ->setAverageDistShootFromGoal(0.0)
+               ->setPassTotalDistance(0)
+               ->setPassTotalPrgDistance(0)
+               ->setProgressivePasses(0)
+               //passtype
+               ->setCornerKicks(0)
+               ->setThrowInsTaken(0)
+               ->setPartsOtherPasses(0)
+               ->setHeadPasses(0)
+               ->setStraightCKs(0)
+               ->setOutswingingCKs(0)
+               ->setInswingingCKs(0)
+               // defense
+               ->setPressInMidThird(0)
+               ->setPressInDefThird(0)
+               ->setPressInAttThird(0)
+               ->setTacklesInAttThird(0)
+               ->setTacklesInMidThird(0)
+               ->setTacklesInDefThird(0)
+               //possesion
+               ->setTouchesInMidThird(0)
+               ->setTouchesInAttThird(0)
+               ->setTouchesInDefThird(0)
+               ->setLiveBallTouched(0)
+               ->setProgressivePassRecieved(0)
+               ->setCarriesInto18YardBox(0)
+               ->setCarriesCloseToGoal(0)
+               ///////////////////////////
+
                ->setGlsAssWithoutPkPerMin(0.0)
                ->setGoalsExp(0.0)
                ->setNonPenGoalsExp(0.0)
@@ -877,7 +911,7 @@ class importCommand extends Command
                   ->setHighPasses(floatval($typePass[$index]['Height-High'] ?? 0.0))
                   ->setLeftFootPasses(intval($typePass[$index]['Body Parts-Left'] ?? 0))
                   ->setRightFootPasses(intval($typePass[$index]['Body Parts-Right'] ?? 0))
-                  ->setBlockedPasses(floatval($typePass[$index]['Blocks'] ?? 0.0))
+                  ->setBlockedPasses(floatval($typePass[$index]['Outcomes-Blocks'] ?? 0.0))
                   ->setOffsidesPasses(intval($typePass[$index]['Outcomes-Off'] ?? 0))
                   ->setPassAttemptedFromFK(intval($typePass[$index]['Pass Types-FK'] ?? 0))
                   ->setThroughBalls(intval($typePass[$index]['Pass Types-TB'] ?? 0));
@@ -894,7 +928,7 @@ class importCommand extends Command
                         ->setHighPasses(floatval($typePass[$i]['Height-High'] ?? 0.0))
                         ->setLeftFootPasses(intval($typePass[$i]['Body Parts-Left'] ?? 0))
                         ->setRightFootPasses(intval($typePass[$i]['Body Parts-Right'] ?? 0))
-                        ->setBlockedPasses(floatval($typePass[$i]['Blocks'] ?? 0.0))
+                        ->setBlockedPasses(floatval($typePass[$i]['Outcomes-Blocks'] ?? 0.0))
                         ->setOffsidesPasses(intval($typePass[$i]['Outcomes-Off'] ?? 0))
                         ->setPassAttemptedFromFK(intval($typePass[$i]['Pass Types-FK'] ?? 0))
                         ->setThroughBalls(intval($typePass[$i]['Pass Types-TB'] ?? 0));
@@ -960,11 +994,6 @@ class importCommand extends Command
                   ->setPenaltyKicksWon(intval($miscellaneous[$index]['Performance-PKwon'] ?? 0))
                   ->setPenaltyKicksConceded(intval($miscellaneous[$index]['Performance-PKcon'] ?? 0))
                   ->setOwnGoal(intval($miscellaneous[$index]['Performance-OG'] ?? 0))
-                  // ->setDribbleCompleted(intval($miscellaneous[$index]['Dribbles-Succ'] ?? 0))
-                  // ->setDribbleAttempted(intval($miscellaneous[$index]['Att'] ?? 0))
-                  // ->setDribblePercent(floatval($miscellaneous[$index]['Dribbles-Succ%'] ?? 0.0))
-                  // ->setNumberOfPlayerDriblled(intval($miscellaneous[$index]['#Pl'] ?? 0))
-                  // ->setNutmegs(intval($miscellaneous[$index]['Megs'] ?? 0))
                   // ->setSecondYellowCard($miscellaneous[$index]['2CrdY'])
                   ->setArialDuelsWon(intval($miscellaneous[$index]['Aerial Duels-Won']))
                   ->setArialDuelsLost(intval($miscellaneous[$index]['Aerial Duels-Lost']))
@@ -983,11 +1012,6 @@ class importCommand extends Command
                         ->setPenaltyKicksWon(intval($miscellaneous[$i]['Performance-PKwon'] ?? 0))
                         ->setPenaltyKicksConceded(intval($miscellaneous[$i]['Performance-PKcon'] ?? 0))
                         ->setOwnGoal(intval($miscellaneous[$i]['Performance-OG'] ?? 0))
-                        // ->setDribbleCompleted(intval($miscellaneous[$i]['Dribbles-Succ'] ?? 0))
-                        // ->setDribbleAttempted(intval($miscellaneous[$i]['Att'] ?? 0))
-                        // ->setDribblePercent(floatval($miscellaneous[$i]['Dribbles-Succ%'] ?? 0.0))
-                        // ->setNumberOfPlayerDriblled(intval($miscellaneous[$i]['#Pl'] ?? 0))
-                        // ->setNutmegs(intval($miscellaneous[$i]['Megs'] ?? 0))
                         // ->setSecondYellowCard(intval($miscellaneous[$i]['2CrdY'] ?? 0))
                         ->setArialDuelsWon(intval($miscellaneous[$i]['Aerial Duels-Won']))
                         ->setArialDuelsLost(intval($miscellaneous[$i]['Aerial Duels-Lost']))
@@ -996,38 +1020,86 @@ class importCommand extends Command
                   }
                }
             }
-           /////////////////////////////////////////////////////////////////////
-           $index = $fakeindex;
-           if ($index > count($possession) - 1) {
-              $index = 0;
-           }
-           if ($row['Player'] == $possession[$index]['Player']) {
-              $player->setBallControlls(intval($possession[$index]['Carries-Carries'] ?? 0))
-                 ->setBallControllsMoveDistance(intval($possession[$index]['Carries-TotDist'] ?? 0))
-                 ->setBallControllsMoveDistanceProgressive(intval($possession[$index]['Carries-PrgDist'] ?? 0))
-                 ->setReceivingBallAttempted(intval($possession[$index]['Targ'] ?? 0))
-                 ->setReceivingBallCompleted(intval($possession[$index]['Rec'] ?? 0))
-                 ->setReceivingBallCompletion(floatval($possession[$index]['Rec%'] ?? 0.0))
-                 ->setMisControlls(intval($possession[$index]['Miscon'] ?? 0))
-                 ->setDispossessed(intval($possession[$index]['Dispos'] ?? 0))
-                 ;
-           } else {
-              for ($i = 0; $i <= count($defense) - 1; $i++) {
+            /////////////////////////////////////////////////////////////////////
+            $index = $fakeindex;
+            if ($index > count($possession) - 1) {
+               $index = 0;
+            }
+            if ($row['Player'] == $possession[$index]['Player']) {
+               $player->setBallControlls(intval($possession[$index]['Carries-Carries'] ?? 0))
+                  ->setBallControllsMoveDistance(intval($possession[$index]['Carries-TotDist'] ?? 0))
+                  ->setBallControllsMoveDistanceProgressive(intval($possession[$index]['Carries-PrgDist'] ?? 0))
+                  ->setReceivingBallAttempted(intval($possession[$index]['Targ'] ?? 0))
+                  ->setReceivingBallCompleted(intval($possession[$index]['Rec'] ?? 0))
+                  ->setReceivingBallCompletion(floatval($possession[$index]['Rec%'] ?? 0.0))
+                  ->setMisControlls(intval($possession[$index]['Miscon'] ?? 0))
+                  ->setDispossessed(intval($possession[$index]['Dispos'] ?? 0))
+                  ->setDribbleCompleted(intval($possession[$index]['Dribbles-Succ'] ?? 0))
+                  ->setDribbleAttempted(intval($possession[$index]['Dribbles-Att'] ?? 0))
+                  ->setDribblePercent(floatval($possession[$index]['Dribbles-Succ%'] ?? 0.0))
+                  ->setNumberOfPlayerDriblled(intval($possession[$index]['Dribbles-#Pl'] ?? 0))
+                  ->setNutmegs(intval($possession[$index]['Dribbles-Megs'] ?? 0));
+            } else {
+               for ($i = 0; $i <= count($possession) - 1; $i++) {
 
-                 if ($row['Player'] == $defense[$i]['Player']) {
-                    $player->setBallControlls(intval($possession[$i]['Carries-Carries'] ?? 0))
-                 ->setBallControllsMoveDistance(intval($possession[$i]['Carries-TotDist'] ?? 0))
-                 ->setBallControllsMoveDistanceProgressive(intval($possession[$i]['Carries-PrgDist'] ?? 0))
-                 ->setReceivingBallAttempted(intval($possession[$i]['Targ'] ?? 0))
-                 ->setReceivingBallCompleted(intval($possession[$i]['Rec'] ?? 0))
-                 ->setReceivingBallCompletion(floatval($possession[$i]['Rec%'] ?? 0.0))
-                 ->setMisControlls(intval($possession[$i]['Miscon'] ?? 0))
-                 ->setDispossessed(intval($possession[$i]['Dispos'] ?? 0));
-                    break;
-                 }
-              }
-           }
-           ////////////////////////////////////////////////////////////////
+                  if ($row['Player'] == $possession[$i]['Player']) {
+                     $player->setBallControlls(intval($possession[$i]['Carries-Carries'] ?? 0))
+                        ->setBallControllsMoveDistance(intval($possession[$i]['Carries-TotDist'] ?? 0))
+                        ->setBallControllsMoveDistanceProgressive(intval($possession[$i]['Carries-PrgDist'] ?? 0))
+                        ->setReceivingBallAttempted(intval($possession[$i]['Targ'] ?? 0))
+                        ->setReceivingBallCompleted(intval($possession[$i]['Rec'] ?? 0))
+                        ->setReceivingBallCompletion(floatval($possession[$i]['Rec%'] ?? 0.0))
+                        ->setMisControlls(intval($possession[$i]['Miscon'] ?? 0))
+                        ->setDispossessed(intval($possession[$i]['Dispos'] ?? 0))
+                        ->setDribbleCompleted(intval($possession[$i]['Dribbles-Succ'] ?? 0))
+                        ->setDribbleAttempted(intval($possession[$i]['Dribbles-Att'] ?? 0))
+                        ->setDribblePercent(floatval($possession[$i]['Dribbles-Succ%'] ?? 0.0))
+                        ->setNumberOfPlayerDriblled(intval($possession[$i]['Dribbles-#Pl'] ?? 0))
+                        ->setNutmegs(intval($possession[$i]['Dribbles-Megs'] ?? 0));
+                     break;
+                  }
+               }
+            }
+
+            /////////////////////////////////////////////////////////////////////
+            $index = $fakeindex;
+            if ($index > count($timming) - 1) {
+               $index = 0;
+            }
+            if ($row['Player'] == $timming[$index]['Player']) {
+               $verify->setMinutesPerMatchPlayeds(intval($timming[$index]['Playing Time-Mn/MP'] ?? 0))
+                  ->setPercentageOfMinutesPlayed(floatval($timming[$index]['Playing Time-Min%'] ?? 0))
+                  ->setMinPerMatchStarted(intval($timming[$index]['Starts-Mn/Start'] ?? 0))
+                  ->setnintyMinPlayed(floatval($timming[$index]['Playing Time-90s'] ?? 0))
+                  ->setCompleteMatchsPlayed(intval($timming[$index]['Starts-Compl'] ?? 0))
+                  ->setMatchsAsSubstitute(intval($timming[$index]['Subs-Subs'] ?? 0.0))
+                  ->setMintuesPerSubstitute(intval($timming[$index]['Subs-Mn/Sub'] ?? 0))
+                  ->setMatchsAsUnusedSubstitute(intval($timming[$index]['Subs-unSub'] ?? 0))
+                  ->setPointsPerMatch(intval($timming[$index]['Team Success-PPM'] ?? 0))
+                  ->setGoalScoredByTeamWhileOnPitch(intval($timming[$index]['Team Success-onG'] ?? 0))
+                  ->setGoalAllowedByTeamWhileOnPitch(intval($timming[$index]['Team Success-onGA'] ?? 0))
+                  ->setgoalScoredMinusAllowedWhileOnPitchPer90(floatval($timming[$index]['Team Success-+/-90'] ?? 0));
+            } else {
+               for ($i = 0; $i <= count($timming) - 1; $i++) {
+
+                  if ($row['Player'] == $timming[$i]['Player']) {
+                     $verify->setMinutesPerMatchPlayeds(intval($timming[$i]['Playing Time-Mn/MP'] ?? 0))
+                        ->setPercentageOfMinutesPlayed(intval($timming[$i]['Playing Time-Min%'] ?? 0))
+                        ->setMinPerMatchStarted(intval($timming[$i]['Starts-Mn/Start'] ?? 0))
+                        ->setnintyMinPlayed(intval($timming[$i]['Playing Time-90s'] ?? 0))
+                        ->setCompleteMatchsPlayed(intval($timming[$i]['Starts-Compl'] ?? 0))
+                        ->setMatchsAsSubstitute(floatval($timming[$i]['Subs-Subs'] ?? 0.0))
+                        ->setMintuesPerSubstitute(intval($timming[$i]['Subs-Mn/Sub'] ?? 0))
+                        ->setMatchsAsUnusedSubstitute(intval($timming[$i]['Subs-unSub'] ?? 0))
+                        ->setPointsPerMatch(intval($timming[$i]['Team Success-PPM'] ?? 0))
+                        ->setGoalScoredByTeamWhileOnPitch(intval($timming[$i]['Team Success-onG'] ?? 0))
+                        ->setGoalAllowedByTeamWhileOnPitch(intval($timming[$i]['Team Success-onGA'] ?? 0))
+                        ->setgoalScoredMinusAllowedWhileOnPitchPer90(floatval($timming[$i]['Team Success-+/-90'] ?? 0));
+                     break;
+                  }
+               }
+            }
+            ////////////////////////////////////////////////////////////////
 
 
             $this->em->persist($player);
@@ -1276,11 +1348,6 @@ class importCommand extends Command
                   ->setPenaltyKicksWon(intval($miscellaneous[$index]['Performance-PKwon'] ?? 0))
                   ->setPenaltyKicksConceded(intval($miscellaneous[$index]['Performance-PKcon'] ?? 0))
                   ->setOwnGoal(intval($miscellaneous[$index]['Performance-OG'] ?? 0))
-                  // ->setDribbleCompleted(intval($miscellaneous[$index]['Dribbles-Succ'] ?? 0))
-                  // ->setDribbleAttempted(intval($miscellaneous[$index]['Att'] ?? 0))
-                  // ->setDribblePercent(floatval($miscellaneous[$index]['Dribbles-Succ%'] ?? 0.0))
-                  // ->setNumberOfPlayerDriblled(intval($miscellaneous[$index]['#Pl'] ?? 0))
-                  // ->setNutmegs(intval($miscellaneous[$index]['Megs'] ?? 0))
                   // ->setSecondYellowCard($miscellaneous[$index]['2CrdY'])
                   ->setArialDuelsWon(intval($miscellaneous[$index]['Aerial Duels-Won']))
                   ->setArialDuelsLost(intval($miscellaneous[$index]['Aerial Duels-Lost']))
@@ -1291,23 +1358,18 @@ class importCommand extends Command
                   if ($row['Player'] == $miscellaneous[$i]['Player']) {
 
                      $verify->setFoulsCommited(intval($miscellaneous[$i]['Performance-Fls'] ?? 0))
-                  ->setFoulsDrawn(intval($miscellaneous[$i]['Performance-Fld'] ?? 0))
-                  ->setOffsides(intval($miscellaneous[$i]['Performance-Off'] ?? 0))
-                  ->setCrosses(intval($miscellaneous[$i]['Performance-Crs'] ?? 0))
-                  ->setTacklesWon(intval($miscellaneous[$index]['Performance-TklW'] ?? 0))
-                  ->setInterceptions(intval($miscellaneous[$index]['Int'] ?? 0))
-                  ->setPenaltyKicksWon(intval($miscellaneous[$i]['Performance-PKwon'] ?? 0))
-                  ->setPenaltyKicksConceded(intval($miscellaneous[$i]['Performance-PKcon'] ?? 0))
-                  ->setOwnGoal(intval($miscellaneous[$i]['Performance-OG'] ?? 0))
-                  // ->setDribbleCompleted(intval($miscellaneous[$i]['Dribbles-Succ'] ?? 0))
-                  // ->setDribbleAttempted(intval($miscellaneous[$i]['Att'] ?? 0))
-                  // ->setDribblePercent(floatval($miscellaneous[$i]['Dribbles-Succ%'] ?? 0.0))
-                  // ->setNumberOfPlayerDriblled(intval($miscellaneous[$i]['#Pl'] ?? 0))
-                  // ->setNutmegs(intval($miscellaneous[$i]['Megs'] ?? 0))
-                  // ->setSecondYellowCard($miscellaneous[$i]['2CrdY'])
-                  ->setArialDuelsWon(intval($miscellaneous[$i]['Aerial Duels-Won']))
-                  ->setArialDuelsLost(intval($miscellaneous[$i]['Aerial Duels-Lost']))
-                  ->setArialDuelsCompletion(intval($miscellaneous[$i]['Aerial Duels-Won%']));
+                        ->setFoulsDrawn(intval($miscellaneous[$i]['Performance-Fld'] ?? 0))
+                        ->setOffsides(intval($miscellaneous[$i]['Performance-Off'] ?? 0))
+                        ->setCrosses(intval($miscellaneous[$i]['Performance-Crs'] ?? 0))
+                        ->setTacklesWon(intval($miscellaneous[$index]['Performance-TklW'] ?? 0))
+                        ->setInterceptions(intval($miscellaneous[$index]['Int'] ?? 0))
+                        ->setPenaltyKicksWon(intval($miscellaneous[$i]['Performance-PKwon'] ?? 0))
+                        ->setPenaltyKicksConceded(intval($miscellaneous[$i]['Performance-PKcon'] ?? 0))
+                        ->setOwnGoal(intval($miscellaneous[$i]['Performance-OG'] ?? 0))
+                        // ->setSecondYellowCard($miscellaneous[$i]['2CrdY'])
+                        ->setArialDuelsWon(intval($miscellaneous[$i]['Aerial Duels-Won']))
+                        ->setArialDuelsLost(intval($miscellaneous[$i]['Aerial Duels-Lost']))
+                        ->setArialDuelsCompletion(intval($miscellaneous[$i]['Aerial Duels-Won%']));
                      break;
                   }
                }
@@ -1319,25 +1381,73 @@ class importCommand extends Command
             }
             if ($row['Player'] == $possession[$index]['Player']) {
                $verify->setBallControlls(intval($possession[$index]['Carries-Carries'] ?? 0))
-               ->setBallControllsMoveDistance(intval($possession[$index]['Carries-TotDist'] ?? 0))
-               ->setBallControllsMoveDistanceProgressive(intval($possession[$index]['Carries-PrgDist'] ?? 0))
-               ->setReceivingBallAttempted(intval($possession[$index]['Targ'] ?? 0))
-               ->setReceivingBallCompleted(intval($possession[$index]['Rec'] ?? 0))
-               ->setReceivingBallCompletion(floatval($possession[$index]['Rec%'] ?? 0.0))
-               ->setMisControlls(intval($possession[$index]['Miscon'] ?? 0))
-               ->setDispossessed(intval($possession[$index]['Dispos'] ?? 0));
+                  ->setBallControllsMoveDistance(intval($possession[$index]['Carries-TotDist'] ?? 0))
+                  ->setBallControllsMoveDistanceProgressive(intval($possession[$index]['Carries-PrgDist'] ?? 0))
+                  ->setReceivingBallAttempted(intval($possession[$index]['Targ'] ?? 0))
+                  ->setReceivingBallCompleted(intval($possession[$index]['Rec'] ?? 0))
+                  ->setReceivingBallCompletion(floatval($possession[$index]['Rec%'] ?? 0.0))
+                  ->setMisControlls(intval($possession[$index]['Miscon'] ?? 0))
+                  ->setDispossessed(intval($possession[$index]['Dispos'] ?? 0))
+                  ->setDribbleCompleted(intval($possession[$index]['Dribbles-Succ'] ?? 0))
+                  ->setDribbleAttempted(intval($possession[$index]['Att'] ?? 0))
+                  ->setDribblePercent(floatval($possession[$index]['Dribbles-Succ%'] ?? 0.0))
+                  ->setNumberOfPlayerDriblled(intval($possession[$index]['Dribbles-#Pl'] ?? 0))
+                  ->setNutmegs(intval($possession[$index]['Dribbles-Megs'] ?? 0));
             } else {
-               for ($i = 0; $i <= count($defense) - 1; $i++) {
+               for ($i = 0; $i <= count($possession) - 1; $i++) {
 
-                  if ($row['Player'] == $defense[$i]['Player']) {
+                  if ($row['Player'] == $possession[$i]['Player']) {
                      $verify->setBallControlls(intval($possession[$i]['Carries-Carries'] ?? 0))
-                     ->setBallControllsMoveDistance(intval($possession[$i]['Carries-TotDist'] ?? 0))
-                     ->setBallControllsMoveDistanceProgressive(intval($possession[$i]['Carries-PrgDist'] ?? 0))
-                     ->setReceivingBallAttempted(intval($possession[$i]['Targ'] ?? 0))
-                     ->setReceivingBallCompleted(intval($possession[$i]['Rec'] ?? 0))
-                     ->setReceivingBallCompletion(floatval($possession[$i]['Rec%'] ?? 0.0))
-                     ->setMisControlls(intval($possession[$i]['Miscon'] ?? 0))
-                     ->setDispossessed(intval($possession[$i]['Dispos'] ?? 0));
+                        ->setBallControllsMoveDistance(intval($possession[$i]['Carries-TotDist'] ?? 0))
+                        ->setBallControllsMoveDistanceProgressive(intval($possession[$i]['Carries-PrgDist'] ?? 0))
+                        ->setReceivingBallAttempted(intval($possession[$i]['Targ'] ?? 0))
+                        ->setReceivingBallCompleted(intval($possession[$i]['Rec'] ?? 0))
+                        ->setReceivingBallCompletion(floatval($possession[$i]['Rec%'] ?? 0.0))
+                        ->setMisControlls(intval($possession[$i]['Miscon'] ?? 0))
+                        ->setDispossessed(intval($possession[$i]['Dispos'] ?? 0))
+                        ->setDribbleCompleted(intval($possession[$i]['Dribbles-Succ'] ?? 0))
+                        ->setDribbleAttempted(intval($possession[$i]['Att'] ?? 0))
+                        ->setDribblePercent(floatval($possession[$i]['Dribbles-Succ%'] ?? 0.0))
+                        ->setNumberOfPlayerDriblled(intval($possession[$i]['Dribbles-#Pl'] ?? 0))
+                        ->setNutmegs(intval($possession[$i]['Dribbles-Megs'] ?? 0));
+                     break;
+                  }
+               }
+            }
+            ///////////////////////////////////////////////////////////////////
+            $index = $fakeindex;
+            if ($index > count($timming) - 1) {
+               $index = 0;
+            }
+            if ($row['Player'] == $timming[$index]['Player']) {
+               $verify->setMinutesPerMatchPlayeds(intval($timming[$index]['Playing Time-Mn/MP'] ?? 0))
+                  ->setPercentageOfMinutesPlayed(floatval($timming[$index]['Playing Time-Min%'] ?? 0))
+                  ->setMinPerMatchStarted(intval($timming[$index]['Starts-Mn/Start'] ?? 0))
+                  ->setnintyMinPlayed(floatval($timming[$index]['Playing Time-90s'] ?? 0))
+                  ->setCompleteMatchsPlayed(intval($timming[$index]['Starts-Compl'] ?? 0))
+                  ->setMatchsAsSubstitute(intval($timming[$index]['Subs-Subs'] ?? 0.0))
+                  ->setMintuesPerSubstitute(intval($timming[$index]['Subs-Mn/Sub'] ?? 0))
+                  ->setMatchsAsUnusedSubstitute(intval($timming[$index]['Subs-unSub'] ?? 0))
+                  ->setPointsPerMatch(intval($timming[$index]['Team Success-PPM'] ?? 0))
+                  ->setGoalScoredByTeamWhileOnPitch(intval($timming[$index]['Team Success-onG'] ?? 0))
+                  ->setGoalAllowedByTeamWhileOnPitch(intval($timming[$index]['Team Success-onGA'] ?? 0))
+                  ->setgoalScoredMinusAllowedWhileOnPitchPer90(floatval($timming[$index]['Team Success-+/-90'] ?? 0));
+            } else {
+               for ($i = 0; $i <= count($timming) - 1; $i++) {
+
+                  if ($row['Player'] == $timming[$i]['Player']) {
+                     $verify->setMinutesPerMatchPlayeds(intval($timming[$i]['Playing Time-Mn/MP'] ?? 0))
+                        ->setPercentageOfMinutesPlayed(intval($timming[$i]['Playing Time-Min%'] ?? 0))
+                        ->setMinPerMatchStarted(intval($timming[$i]['Starts-Mn/Start'] ?? 0))
+                        ->setnintyMinPlayed(intval($timming[$i]['Playing Time-90s'] ?? 0))
+                        ->setCompleteMatchsPlayed(intval($timming[$i]['Starts-Compl'] ?? 0))
+                        ->setMatchsAsSubstitute(floatval($timming[$i]['Subs-Subs'] ?? 0.0))
+                        ->setMintuesPerSubstitute(intval($timming[$i]['Subs-Mn/Sub'] ?? 0))
+                        ->setMatchsAsUnusedSubstitute(intval($timming[$i]['Subs-unSub'] ?? 0))
+                        ->setPointsPerMatch(intval($timming[$i]['Team Success-PPM'] ?? 0))
+                        ->setGoalScoredByTeamWhileOnPitch(intval($timming[$i]['Team Success-onG'] ?? 0))
+                        ->setGoalAllowedByTeamWhileOnPitch(intval($timming[$i]['Team Success-onGA'] ?? 0))
+                        ->setgoalScoredMinusAllowedWhileOnPitchPer90(floatval($timming[$i]['Team Success-+/-90'] ?? 0));
                      break;
                   }
                }

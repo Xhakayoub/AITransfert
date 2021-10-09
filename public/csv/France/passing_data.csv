@@ -1,374 +1,460 @@
 Rk;Player;Nation;Pos;Squad;Age;Born;90s;Total-Cmp;Total-Att;Total-Cmp%;Total-TotDist;Total-PrgDist;Short-Cmp;Short-Att;Short-Cmp%;Medium-Cmp;Medium-Att;Medium-Cmp%;Long-Cmp;Long-Att;Long-Cmp%;Ast;xA;A-xA;KP;1/3;PPA;CrsPA;Prog;Matches;
-1;Yunis Abdelhamid\Yunis-Abdelhamid;ma MAR;DF;Reims;33-334;1987;3.0;113;133;85.0;2700;1002;29;31;93.5;62;65;95.4;22;34;64.7;0;0.1;-0.1;1;11;1;0;11;Matches
-2;Salis Abdul Samed\Salis-Abdul-Samed;gh GHA;MF;Clermont Foot;21-155;2000;2.3;195;205;95.1;3823;639;69;73;94.5;99;102;97.1;26;28;92.9;0;0.1;-0.1;1;9;0;0;8;Matches
-3;Laurent Abergel\Laurent-Abergel;fr FRA;MF;Lorient;28-208;1993;3.0;77;107;72.0;1587;454;35;40;87.5;24;35;68.6;18;27;66.7;0;0.7;-0.7;3;7;3;2;7;Matches
-4;Charles Abi\Charles-Abi;fr FRA;FW;Saint-Étienne;21-138;2000;0.5;2;6;33.3;24;0;1;2;50.0;1;3;33.3;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-5;Matthis Abline\Matthis-Abline;fr FRA;FW;Rennes;18-153;2003;0.2;2;3;66.7;22;4;1;2;50.0;1;1;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-6;Yacine Adli\Yacine-Adli;fr FRA;MF;Bordeaux;21-030;2000;1.1;34;44;77.3;857;198;12;13;92.3;11;13;84.6;11;16;68.8;0;0.1;-0.1;2;4;3;1;7;Matches
-7;Nayef Aguerd\Nayef-Aguerd;ma MAR;DF;Rennes;25-151;1996;3.0;259;273;94.9;5775;1572;58;59;98.3;149;153;97.4;51;60;85.0;0;0.0;0.0;0;4;0;0;9;Matches
-8;Ruben Aguilar\Ruben-Aguilar;fr FRA;DF;Monaco;28-124;1993;1.9;180;194;92.8;3367;963;76;81;93.8;89;91;97.8;14;20;70.0;0;0.0;0.0;2;16;5;1;19;Matches
-9;Cheikh Ahmadou Dieng\Cheikh-Ahmadou-Dieng;sn SEN;FW;Marseille;21-158;2000;0.0;0;1;0.0;0;0;0;0;;0;0;;0;1;0.0;0;0.0;0.0;0;0;0;0;0;Matches
-10;Jean-Eudes Aholou\Jean-Eudes-Aholou;ci CIV;MF;Strasbourg;27-161;1994;0.5;10;13;76.9;130;24;7;9;77.8;3;3;100.0;0;1;0.0;0;0.0;0.0;0;0;0;0;0;Matches
-11;Ludovic Ajorque\Ludovic-Ajorque;re REU;FW;Strasbourg;27-184;1994;2.8;62;78;79.5;1031;171;36;42;85.7;15;18;83.3;8;11;72.7;0;0.5;-0.5;5;5;4;2;6;Matches
-12;Sofiane Alakouch\Sofiane-Alakouch;fr FRA;DF;Metz;23-030;1998;0.7;47;60;78.3;628;191;30;32;93.8;16;20;80.0;0;2;0.0;0;0.0;0.0;1;3;0;0;2;Matches
-13;Mohamed Ali Cho\Mohamed-Ali-Cho;fr FRA;FW;Angers;17-221;2004;2.7;30;42;71.4;384;92;18;22;81.8;7;10;70.0;1;4;25.0;0;0.1;-0.1;1;2;2;1;2;Matches
-14;Jim Allevinah\Jim-Allevinah;ga GAB;FW;Clermont Foot;26-182;1995;2.5;67;81;82.7;1098;160;40;48;83.3;21;25;84.0;5;6;83.3;0;0.1;-0.1;3;2;3;1;5;Matches
-15;Benjamin André\Benjamin-Andre;fr FRA;MF;Lille;31-025;1990;3.0;181;214;84.6;3347;817;76;86;88.4;74;83;89.2;23;30;76.7;0;0.2;-0.2;2;17;5;0;17;Matches
-16;Houssem Aouar\Houssem-Aouar;fr FRA;MF;Lyon;23-059;1998;4.0;175;199;87.9;2820;806;98;101;97.0;53;59;89.8;16;25;64.0;1;1.5;-0.5;6;23;4;1;16;Matches
-17;Adil Aouchiche\Adil-Aouchiche;fr FRA;MFFW;Saint-Étienne;19-044;2002;1.2;57;77;74.0;1035;303;32;40;80.0;14;17;82.4;9;17;52.9;0;0.0;0.0;1;6;1;0;5;Matches
-18;Dennis Appiah\Dennis-Appiah;fr FRA;DF;Nantes;29-080;1992;2.7;62;99;62.6;1118;726;32;38;84.2;19;33;57.6;10;21;47.6;0;0.2;-0.2;1;3;1;1;3;Matches
-19;Youcef Attal\Youcef-Attal;dz ALG;DF;Nice;25-103;1996;1.7;83;101;82.2;1337;533;42;47;89.4;35;37;94.6;5;12;41.7;0;0.2;-0.2;2;7;2;1;4;Matches
-20;Karim Azamoum\Karim-Azamoum;fr FRA;DFFW;Troyes;31-223;1990;1.8;43;61;70.5;853;326;15;17;88.2;20;24;83.3;7;18;38.9;0;0.0;0.0;0;1;0;0;1;Matches
-21;Loïc Bade\Loic-Bade;fr FRA;DF;Rennes;21-139;2000;3.0;206;219;94.1;4807;1272;47;47;100.0;116;121;95.9;43;51;84.3;0;0.1;-0.1;1;7;1;1;12;Matches
-22;Benoît Badiashile\Benoit-Badiashile;fr FRA;DF;Monaco;20-155;2001;1.0;110;119;92.4;2147;750;35;37;94.6;62;64;96.9;12;17;70.6;0;0.0;0.0;0;16;1;0;16;Matches
-23;Stéphane Bahoken\Stephane-Bahoken;cm CMR;FW;Angers;29-092;1992;0.7;6;6;100.0;116;26;2;2;100.0;3;3;100.0;1;1;100.0;0;0.0;0.0;1;0;1;1;0;Matches
-24;Leonardo Balerdi\Leonardo-Balerdi;ar ARG;DF;Marseille;22-214;1999;2.0;147;162;90.7;3479;1050;42;45;93.3;68;71;95.8;37;46;80.4;0;0.0;0.0;1;12;0;0;7;Matches
-25;Jonathan Bamba\Jonathan-Bamba;fr FRA;MF;Lille;25-155;1996;2.8;118;145;81.4;2111;599;64;75;85.3;37;41;90.2;15;20;75.0;0;0.6;-0.6;6;9;2;0;12;Matches
-26;Simon Banza\Simon-Banza;fr FRA;FW;Lens;25-015;1996;1.1;15;23;65.2;281;43;9;13;69.2;5;6;83.3;1;3;33.3;1;0.6;+0.4;1;2;0;0;1;Matches
-27;Melvin Bard\Melvin-Bard;fr FRA;DF;Nice;20-295;2000;1.1;54;72;75.0;1064;376;24;28;85.7;20;26;76.9;9;15;60.0;0;0.0;0.0;0;5;0;0;9;Matches
-28;Toma Bašić\Toma-Basic;hr CRO;MF;Bordeaux;24-276;1996;2.3;74;101;73.3;1460;379;29;32;90.6;33;38;86.8;11;28;39.3;1;0.6;+0.4;5;9;1;1;5;Matches
-29;Amine Bassi\Amine-Bassi;fr FRA;MF;Metz;23-274;1997;0.7;19;27;70.4;309;116;10;12;83.3;8;9;88.9;1;6;16.7;0;0.1;-0.1;2;1;0;0;1;Matches
-30;Mohamed Bayo\Mohamed-Bayo;gn GUI;FW;Clermont Foot;23-085;1998;2.9;47;63;74.6;734;87;27;30;90.0;16;27;59.3;3;3;100.0;1;0.2;+0.8;2;3;2;0;4;Matches
-31;Haris Belkebla\Haris-Belkebla;dz ALG;MF;Brest;27-212;1994;1.0;18;24;75.0;281;73;10;11;90.9;5;6;83.3;2;4;50.0;0;0.0;0.0;0;1;0;0;1;Matches
-32;Jean-Ricner Bellegarde\Jean-Ricner-Bellegarde;fr FRA;MF;Strasbourg;23-062;1998;2.9;111;135;82.2;2003;419;48;52;92.3;51;62;82.3;12;19;63.2;0;0.1;-0.1;3;12;1;0;10;Matches
-33;Wissam Ben Yedder\Wissam-Ben-Yedder;fr FRA;FW;Monaco;31-016;1990;1.4;28;40;70.0;443;78;18;21;85.7;5;10;50.0;4;6;66.7;0;0.0;0.0;1;2;2;0;3;Matches
-34;Darío Benedetto\Dario-Benedetto;ar ARG;FWMF;Marseille;31-103;1990;0.6;10;11;90.9;160;35;6;7;85.7;3;3;100.0;1;1;100.0;0;0.0;0.0;1;0;0;0;1;Matches
-35;Walter Benítez\Walter-Benitez;ar ARG;GK;Nice;28-162;1993;2.0;37;55;67.3;1187;825;9;9;100.0;11;11;100.0;17;35;48.6;0;0.0;0.0;0;0;0;0;0;Matches
-36;Loris Benito\Loris-Benito;ch SUI;DF;Bordeaux;29-233;1992;0.7;42;53;79.2;836;259;14;18;77.8;20;21;95.2;7;12;58.3;0;0.0;0.0;0;0;0;0;4;Matches
-37;Valon Berisha\Valon-Berisha;xk KVX;MFFW;Reims;28-202;1993;0.5;25;33;75.8;534;108;10;13;76.9;10;10;100.0;4;9;44.4;0;0.0;0.0;0;1;0;0;1;Matches
-38;Paul Bernardoni\Paul-Bernardoni;fr FRA;GK;Angers;24-132;1997;3.0;50;74;67.6;1737;1095;9;9;100.0;13;15;86.7;27;49;55.1;0;0.0;0.0;0;0;0;0;0;Matches
-39;Dimitry Bertaud\Dimitry-Bertaud;fr FRA;GK;Montpellier;23-083;1998;3.0;68;93;73.1;2176;1501;17;17;100.0;23;23;100.0;28;53;52.8;0;0.0;0.0;0;1;1;0;0;Matches
-40;Jason Berthomier\Jason-Berthomier;fr FRA;MF;Clermont Foot;31-234;1990;2.2;157;194;80.9;2818;673;80;87;92.0;58;67;86.6;18;38;47.4;1;1.0;0.0;8;12;6;1;14;Matches
-41;Giulian Biancone\Giulian-Biancone;fr FRA;DF;Troyes;21-150;2000;1.5;50;59;84.7;882;280;22;27;81.5;18;19;94.7;7;9;77.8;0;0.0;0.0;1;1;2;2;3;Matches
-42;El Bilal Touré\El-Bilal-Toure;ml MLI;FW;Reims;19-329;2001;1.4;22;36;61.1;360;68;11;16;68.8;10;12;83.3;1;3;33.3;0;0.3;-0.3;4;1;2;1;2;Matches
-43;Marco Bizot\Marco-Bizot;nl NED;GK;Brest;30-171;1991;3.0;70;94;74.5;2831;2043;4;4;100.0;28;29;96.6;38;61;62.3;0;0.1;-0.1;1;3;0;0;0;Matches
-44;Ludovic Blas\Ludovic-Blas;fr FRA;MFFW;Nantes;23-240;1997;3.8;62;87;71.3;1131;212;23;27;85.2;30;41;73.2;8;12;66.7;0;0.2;-0.2;3;7;3;1;4;Matches
-45;Myron Boadu\Myron-Boadu;nl NED;FW;Monaco;20-226;2001;1.6;19;22;86.4;239;10;13;14;92.9;5;5;100.0;0;1;0.0;0;0.0;0.0;0;0;0;0;0;Matches
-46;Antonin Bobichon\Antonin-Bobichon;fr FRA;MF;Angers;25-348;1995;0.1;2;2;100.0;25;13;1;1;100.0;1;1;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-47;Quentin Boisgard\Quentin-Boisgard;fr FRA;MF;Lorient;24-164;1997;0.3;8;11;72.7;127;28;3;3;100.0;5;6;83.3;0;2;0.0;0;0.0;0.0;1;1;0;0;1;Matches
-48;Sven Botman\Sven-Botman;nl NED;DF;Lille;21-228;2000;3.0;184;205;89.8;4112;1296;52;56;92.9;89;96;92.7;43;48;89.6;0;0.0;0.0;1;17;1;0;11;Matches
-49;Denis Bouanga\Denis-Bouanga;ga GAB;FWMF;Saint-Étienne;26-290;1994;2.7;56;74;75.7;879;366;35;41;85.4;12;19;63.2;5;8;62.5;0;0.2;-0.2;3;7;3;1;11;Matches
-50;Hicham Boudaoui\Hicham-Boudaoui;dz ALG;MF;Nice;21-339;1999;0.8;19;35;54.3;289;83;8;15;53.3;10;15;66.7;0;2;0.0;0;0.0;0.0;0;1;0;0;2;Matches
-51;Ryad Boudebouz\Ryad-Boudebouz;dz ALG;MF;Saint-Étienne;31-190;1990;0.0;2;4;50.0;42;0;1;1;100.0;1;1;100.0;0;2;0.0;0;0.0;0.0;0;0;0;0;0;Matches
-52;Sofiane Boufal\Sofiane-Boufal;ma MAR;MFFW;Angers;27-345;1993;2.3;69;91;75.8;1303;504;27;32;84.4;24;27;88.9;12;23;52.2;0;0.5;-0.5;5;6;2;0;9;Matches
-53;Ismaëlben Boura\Ismaelben-Boura;fr FRA;DF;Lens;21-014;2000;1.0;56;65;86.2;998;366;23;24;95.8;23;24;95.8;7;14;50.0;0;0.0;0.0;0;2;1;0;2;Matches
-54;Benjamin Bourigeaud\Benjamin-Bourigeaud;fr FRA;FWMF;Rennes;27-226;1994;2.8;84;136;61.8;1879;649;33;44;75.0;26;34;76.5;23;51;45.1;0;0.8;-0.8;7;9;4;0;14;Matches
-55;Redwan Bourles\Redwan-Bourles;fr FRA;MF;Lorient;18-238;2003;0.1;0;0;;0;0;0;0;;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-56;Lilian Brassier\Lilian-Brassier;fr FRA;DF;Brest;21-299;1999;3.0;85;102;83.3;2335;753;13;14;92.9;41;45;91.1;30;40;75.0;0;0.0;0.0;0;10;2;0;6;Matches
-57;Jimmy Briand\Jimmy-Briand;fr FRA;FW;Bordeaux;36-026;1985;0.7;12;14;85.7;147;13;8;9;88.9;3;4;75.0;0;0;;0;0.0;0.0;1;1;0;0;1;Matches
-58;Dylan Bronn\Dylan-Bronn;tn TUN;DF;Metz;26-070;1995;3.0;129;155;83.2;2907;1096;32;33;97.0;69;76;90.8;26;43;60.5;0;0.0;0.0;0;7;1;0;12;Matches
-59;Osman Bukari\Osman-Bukari;gh GHA;FW;Nantes;22-258;1998;1.0;15;25;60.0;162;56;9;12;75.0;4;10;40.0;0;0;;0;0.0;0.0;0;1;1;0;3;Matches
-60;Jimmy Cabot\Jimmy-Cabot;fr FRA;DF;Angers;27-132;1994;3.0;113;146;77.4;2188;764;48;52;92.3;50;64;78.1;15;28;53.6;2;0.8;+1.2;6;5;4;2;9;Matches
-61;Anthony Caci\Anthony-Caci;fr FRA;DF;Strasbourg;24-058;1997;2.3;154;183;84.2;3246;851;48;54;88.9;78;90;86.7;26;36;72.2;0;0.1;-0.1;1;8;1;0;15;Matches
-62;Mathieu Cafaro\Mathieu-Cafaro;fr FRA;FWMF;Reims;24-156;1997;1.8;32;62;51.6;629;223;12;18;66.7;15;26;57.7;5;18;27.8;0;0.3;-0.3;2;0;5;2;4;Matches
-63;Yannick Cahuzac\Yannick-Cahuzac;fr FRA;MF;Lens;36-222;1985;0.4;3;4;75.0;33;15;2;2;100.0;1;1;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-64;Mahdi Camara\Mahdi-Camara;fr FRA;MF;Saint-Étienne;23-059;1998;3.0;110;129;85.3;1659;353;66;75;88.0;33;39;84.6;8;8;100.0;0;0.1;-0.1;3;10;0;0;6;Matches
-65;Eduardo Camavinga\Eduardo-Camavinga;fr FRA;MF;Rennes;18-291;2002;1.1;40;45;88.9;865;165;11;15;73.3;21;22;95.5;7;7;100.0;0;0.0;0.0;1;3;1;0;3;Matches
-66;Pierrick Capelle\Pierrick-Capelle;fr FRA;MF;Angers;34-135;1987;0.1;3;4;75.0;44;8;2;2;100.0;1;1;100.0;0;1;0.0;0;0.0;0.0;0;0;0;0;0;Matches
-67;Maxence Caqueret\Maxence-Caqueret;fr FRA;MF;Lyon;21-194;2000;3.0;145;170;85.3;2418;723;68;76;89.5;56;61;91.8;14;22;63.6;0;0.2;-0.2;3;16;2;0;15;Matches
-68;Irvin Cardona\Irvin-Cardona;fr FRA;FW;Brest;24-020;1997;2.4;27;39;69.2;345;134;17;19;89.5;8;14;57.1;1;5;20.0;0;0.0;0.0;1;2;0;0;1;Matches
-69;Igor Carioca\Igor-Carioca;br BRA;DF;Lorient;25-007;1996;2.6;71;104;68.3;1286;629;35;44;79.5;31;46;67.4;5;13;38.5;0;0.0;0.0;1;4;0;0;4;Matches
-70;Moreto Cassamã\Moreto-Cassama;gw GNB;MF;Reims;23-193;1998;1.3;55;66;83.3;1216;262;13;15;86.7;32;33;97.0;10;15;66.7;0;0.0;0.0;1;5;0;0;8;Matches
-71;Jean-Charles Castelletto\Jean-Charles-Castelletto;cm CMR;DF;Nantes;26-214;1995;4.0;77;94;81.9;1697;617;18;21;85.7;44;49;89.8;15;23;65.2;0;0.0;0.0;1;6;0;0;6;Matches
-72;Zeki Çelik\Zeki-Celik;tr TUR;DF;Lille;24-192;1997;2.0;124;151;82.1;2255;759;60;65;92.3;46;57;80.7;16;25;64.0;0;0.0;0.0;0;11;2;0;11;Matches
-73;Fabien Centonze\Fabien-Centonze;fr FRA;DF;Metz;25-224;1996;3.0;143;163;87.7;2381;821;73;77;94.8;56;61;91.8;11;16;68.8;0;0.0;0.0;1;6;1;0;6;Matches
-74;Leonardo César Jardim\Leonardo-Cesar-Jardim;br BRA;GK;Lille;26-161;1995;2.0;44;52;84.6;1109;607;10;10;100.0;21;21;100.0;13;21;61.9;0;0.0;0.0;0;1;0;0;0;Matches
-75;Nassim Chadli\Nassim-Chadli;fr FRA;DF;Troyes;20-031;2001;0.0;0;2;0.0;0;0;0;0;;0;0;;0;1;0.0;0;0.0;0.0;0;0;0;0;0;Matches
-76;Mehdi Chahiri\Mehdi-Chahiri;ma MAR;MF;Strasbourg;25-034;1996;0.2;3;7;42.9;53;22;2;3;66.7;1;4;25.0;0;0;;0;0.0;0.0;0;0;0;0;1;Matches
-77;Dylan Chambost\Dylan-Chambost;fr FRA;FWMF;Troyes;24-009;1997;2.0;54;72;75.0;1052;248;25;29;86.2;20;23;87.0;8;12;66.7;1;0.3;+0.7;3;2;2;2;4;Matches
-78;Brendan Chardonnet\Brendan-Chardonnet;fr FRA;DF;Brest;26-249;1994;3.0;76;96;79.2;2002;921;10;13;76.9;40;41;97.6;24;39;61.5;0;0.0;0.0;1;7;0;0;6;Matches
-79;Xavier Chavalerin\Xavier-Chavalerin;fr FRA;MFDF;Reims;30-174;1991;2.4;80;98;81.6;1484;483;37;41;90.2;29;35;82.9;10;15;66.7;0;0.1;-0.1;3;2;3;1;6;Matches
-80;Rayan Cherki\Rayan-Cherki;fr FRA;FW;Lyon;18-011;2003;0.7;30;38;78.9;553;110;13;14;92.9;14;16;87.5;3;8;37.5;0;0.1;-0.1;2;2;0;0;3;Matches
-81;Pedro Chirivella\Pedro-Chirivella;es ESP;MF;Nantes;24-097;1997;3.0;104;133;78.2;2278;698;42;48;87.5;41;47;87.2;21;34;61.8;0;0.2;-0.2;3;22;1;0;17;Matches
-82;Joris Chotard\Joris-Chotard;fr FRA;MF;Montpellier;19-338;2001;1.9;58;69;84.1;1203;244;20;24;83.3;26;29;89.7;12;15;80.0;0;0.0;0.0;0;4;1;1;1;Matches
-83;Jonathan Clauss\Jonathan-Clauss;fr FRA;DF;Lens;28-337;1992;3.0;107;146;73.3;2262;1055;46;51;90.2;37;47;78.7;23;44;52.3;2;0.8;+1.2;9;5;2;0;13;Matches
-84;Marcus Coco\Marcus-Coco;fr FRA;FWMF;Nantes;25-065;1996;2.1;38;52;73.1;530;106;21;24;87.5;13;16;81.3;2;6;33.3;0;0.0;0.0;0;2;1;0;3;Matches
-85;Sébastien Corchia\Sebastien-Corchia;fr FRA;DFFW;Nantes;30-300;1990;1.7;36;53;67.9;696;501;15;17;88.2;16;21;76.2;5;13;38.5;0;0.0;0.0;1;5;2;1;6;Matches
-86;Maxwel Cornet\Maxwel-Cornet;ci CIV;DFMF;Lyon;24-335;1996;0.7;32;39;82.1;520;167;16;18;88.9;14;15;93.3;1;5;20.0;0;0.1;-0.1;1;1;1;1;0;Matches
-87;David Pereira da Costa\David-Pereira-da-Costa;pt POR;MF;Lens;20-235;2001;0.1;11;11;100.0;124;20;9;9;100.0;2;2;100.0;0;0;;0;0.0;0.0;0;2;0;0;0;Matches
-88;Benoît Costil\Benoit-Costil;fr FRA;GK;Bordeaux;34-056;1987;3.0;51;80;63.8;1810;1195;10;10;100.0;15;15;100.0;26;55;47.3;0;0.0;0.0;0;0;0;0;0;Matches
-89;Nicolas Cozza\Nicolas-Cozza;fr FRA;DF;Montpellier;22-232;1999;2.8;94;112;83.9;1623;613;43;45;95.6;44;51;86.3;6;13;46.2;1;0.0;+1.0;2;7;4;1;14;Matches
-90;Lucas Da Cunha\Lucas-Da-Cunha;fr FRA;MF;Nice;20-080;2001;0.7;18;20;90.0;343;69;10;11;90.9;5;5;100.0;3;3;100.0;0;0.0;0.0;1;0;1;1;0;Matches
-91;Damien Da Silva\Damien-Da-Silva;fr FRA;DF;Lyon;33-103;1988;1.8;136;146;93.2;3052;1002;28;28;100.0;82;84;97.6;26;34;76.5;0;0.0;0.0;0;7;0;0;6;Matches
-92;Kevin Danso\Kevin-Danso;at AUT;DF;Lens;22-343;1998;1.1;20;26;76.9;437;174;5;5;100.0;9;11;81.8;5;9;55.6;0;0.0;0.0;0;0;0;0;1;Matches
-93;Dante\Dante;br BRA;DF;Nice;37-314;1983;2.0;159;170;93.5;3361;924;51;53;96.2;89;91;97.8;19;26;73.1;0;0.1;-0.1;1;9;0;0;8;Matches
-94;Jonathan David\Jonathan-David;ca CAN;FW;Lille;21-226;2000;2.1;39;46;84.8;593;143;21;26;80.8;12;13;92.3;3;3;100.0;0;0.3;-0.3;1;4;1;0;5;Matches
-95;Konrad De La Fuente\Konrad-De-La-Fuente;us USA;FWDF;Marseille;20-043;2001;2.0;43;57;75.4;730;138;19;22;86.4;21;26;80.8;3;6;50.0;1;0.6;+0.4;3;1;2;0;4;Matches
-96;Kamal Deen Sulemana\Kamal-Deen-Sulemana;gh GHA;FW;Rennes;19-194;2002;2.1;50;58;86.2;885;203;28;32;87.5;16;18;88.9;6;8;75.0;0;0.1;-0.1;3;1;5;1;10;Matches
-97;Romain Del Castillo\Romain-Del-Castillo;fr FRA;FW;Rennes;25-152;1996;0.1;4;5;80.0;108;37;1;1;100.0;0;1;0.0;3;3;100.0;0;0.0;0.0;0;1;1;0;1;Matches
-98;Thomas Delaine\Thomas-Delaine;fr FRA;DFFW;Metz;29-157;1992;2.1;65;91;71.4;1067;393;28;32;87.5;34;45;75.6;3;14;21.4;1;0.3;+0.7;3;3;3;2;7;Matches
-99;Andy Delort\Andy-Delort;dz ALG;FW;Montpellier;29-323;1991;3.0;55;95;57.9;1029;258;29;42;69.0;18;30;60.0;8;13;61.5;1;0.7;+0.3;9;2;6;2;5;Matches
-100;Moussa Dembélé\Moussa-Dembele;fr FRA;FW;Lyon;25-047;1996;3.9;40;58;69.0;586;83;17;23;73.9;13;14;92.9;3;9;33.3;0;0.5;-0.5;3;4;2;0;3;Matches
-101;Jason Denayer\Jason-Denayer;be BEL;DF;Lyon;26-061;1995;0.2;4;4;100.0;118;58;0;0;;3;3;100.0;1;1;100.0;0;0.0;0.0;0;1;0;0;1;Matches
-102;Arthur Desmas\Arthur-Desmas;fr FRA;GK;Clermont Foot;27-143;1994;3.0;64;68;94.1;1416;808;18;18;100.0;26;26;100.0;19;23;82.6;0;0.0;0.0;0;0;0;0;0;Matches
-103;Ángel Di María\Angel-Di-Maria;ar ARG;FW;Paris S-G;33-195;1988;0.1;6;8;75.0;73;16;3;4;75.0;3;4;75.0;0;0;;0;0.0;0.0;0;1;0;0;0;Matches
-104;Abdou Diallo\Abdou-Diallo;sn SEN;DF;Paris S-G;25-116;1996;3.0;212;235;90.2;3809;1327;92;99;92.9;96;105;91.4;21;27;77.8;1;0.4;+0.6;3;18;5;2;26;Matches
-105;Habib Diallo\Habib-Diallo;sn SEN;FW;Strasbourg;26-071;1995;1.1;20;24;83.3;375;55;10;13;76.9;7;7;100.0;3;3;100.0;0;0.3;-0.3;1;0;3;2;2;Matches
-106;Krepin Diatta\Krepin-Diatta;sn SEN;MF;Monaco;22-184;1999;1.0;25;27;92.6;367;140;16;16;100.0;7;9;77.8;2;2;100.0;0;0.0;0.0;1;2;0;0;5;Matches
-107;Junior Dina Ebimbe\Junior-Dina-Ebimbe;fr FRA;MF;Paris S-G;20-280;2000;0.8;71;77;92.2;1336;209;32;34;94.1;31;31;100.0;8;11;72.7;0;0.0;0.0;0;9;1;0;1;Matches
-108;Sinaly Diomande\Sinaly-Diomande;ci CIV;DF;Lyon;20-141;2001;2.5;177;184;96.2;4067;1217;39;40;97.5;99;101;98.0;38;42;90.5;0;0.0;0.0;1;9;0;0;10;Matches
-109;Sofiane Diop\Sofiane-Diop;fr FRA;MFFW;Monaco;21-080;2000;2.6;92;118;78.0;1583;349;46;53;86.8;32;39;82.1;11;18;61.1;0;0.2;-0.2;2;9;2;1;11;Matches
-110;Andy Diouf\Andy-Diouf;fr FRA;MF;Rennes;19-103;2002;0.1;2;2;100.0;38;5;0;0;;2;2;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-111;Assane Dioussé\Assane-Diousse;sn SEN;MF;Saint-Étienne;23-342;1997;0.1;27;29;93.1;501;97;9;9;100.0;12;12;100.0;4;6;66.7;0;0.0;0.0;0;3;0;0;0;Matches
-112;Axel Disasi\Axel-Disasi;fr FRA;DF;Monaco;23-170;1998;3.0;256;282;90.8;5960;1602;43;47;91.5;160;168;95.2;52;65;80.0;0;0.1;-0.1;1;20;1;0;20;Matches
-113;Tiago Djaló\Tiago-Djalo;pt POR;DF;Lille;21-141;2000;1.0;65;81;80.2;1154;438;34;37;91.9;20;21;95.2;11;18;61.1;0;0.0;0.0;0;4;0;0;4;Matches
-114;Alexander Djiku\Alexander-Djiku;gh GHA;DF;Strasbourg;27-019;1994;1.9;72;79;91.1;1769;665;12;13;92.3;42;45;93.3;17;19;89.5;0;0.0;0.0;0;4;0;0;2;Matches
-115;Bryan Djile Nokoué\Bryan-Djile-Nokoue;cm CMR;MF;Saint-Étienne;19-097;2002;0.1;1;1;100.0;46;0;0;0;;0;0;;1;1;100.0;0;0.0;0.0;0;0;0;0;0;Matches
-116;Jeremy Doku\Jeremy-Doku;be BEL;FW;Rennes;19-093;2002;1.7;25;33;75.8;390;76;16;21;76.2;7;9;77.8;2;2;100.0;0;0.1;-0.1;2;0;3;0;5;Matches
-117;Kasper Dolberg\Kasper-Dolberg;dk DEN;FW;Nice;23-326;1997;1.0;17;27;63.0;270;61;11;14;78.6;5;9;55.6;1;1;100.0;0;0.0;0.0;0;3;1;0;4;Matches
-118;Brandon Domingues\Brandon-Domingues;fr FRA;MFFW;Troyes;21-083;2000;0.3;4;6;66.7;79;11;0;1;0.0;4;4;100.0;0;1;0.0;0;0.0;0.0;1;0;0;0;0;Matches
-119;Jodel Dossou\Jodel-Dossou;bj BEN;FW;Clermont Foot;29-164;1992;2.8;45;59;76.3;732;96;25;29;86.2;17;21;81.0;3;4;75.0;0;0.0;0.0;1;2;1;0;3;Matches
-120;Lucas Douath\Lucas-Douath;fr FRA;MF;Saint-Étienne;18-023;2003;0.3;19;20;95.0;315;84;6;6;100.0;8;8;100.0;2;3;66.7;0;0.0;0.0;0;1;0;0;1;Matches
-121;Cheick Doucouré\Cheick-Doucoure;ml MLI;MF;Lens;21-232;2000;2.7;103;122;84.4;2146;378;35;42;83.3;48;52;92.3;20;25;80.0;0;0.2;-0.2;1;10;0;0;11;Matches
-122;Souleyman Doumbia\Souleyman-Doumbia;ci CIV;DF;Angers;24-338;1996;2.8;111;132;84.1;1695;538;57;61;93.4;51;59;86.4;1;7;14.3;0;0.0;0.0;1;2;0;0;7;Matches
-123;Julian Draxler\Julian-Draxler;de GER;MFFW;Paris S-G;27-342;1993;1.8;74;81;91.4;1155;200;44;46;95.7;25;29;86.2;5;6;83.3;0;0.2;-0.2;2;6;1;1;3;Matches
-124;Leo Dubois\Leo-Dubois;fr FRA;DF;Lyon;26-348;1994;3.8;259;292;88.7;4983;1598;104;108;96.3;108;118;91.5;42;57;73.7;0;0.4;-0.4;4;11;6;4;28;Matches
-125;Jean-Kevin Duverne\Jean-Kevin-Duverne;fr FRA;DF;Brest;24-047;1997;0.3;13;20;65.0;252;162;6;8;75.0;6;8;75.0;1;4;25.0;0;0.0;0.0;0;5;1;0;2;Matches
-126;Hugo Ekitike\Hugo-Ekitike;fr FRA;FW;Reims;19-069;2002;1.2;29;35;82.9;330;55;18;21;85.7;3;3;100.0;2;4;50.0;1;0.8;+0.2;2;1;1;0;3;Matches
-127;Sepe Elye Wahi\Sepe-Elye-Wahi;fr FRA;FW;Montpellier;18-238;2003;1.3;15;22;68.2;197;48;11;14;78.6;4;5;80.0;0;1;0.0;0;0.0;0.0;1;1;1;0;2;Matches
-128;Renaud Emond\Renaud-Emond;be BEL;FWMF;Nantes;29-266;1991;1.7;20;28;71.4;267;38;11;14;78.6;6;9;66.7;1;3;33.3;0;0.0;0.0;0;2;0;0;2;Matches
-129;Maxime Estève\Maxime-Esteve;fr FRA;DF;Montpellier;19-094;2002;1.5;35;43;81.4;669;180;12;13;92.3;18;22;81.8;5;8;62.5;0;0.0;0.0;1;2;1;0;2;Matches
-130;Fábio\Fabio;br BRA;DF;Nantes;31-050;1990;2.7;66;97;68.0;1073;574;36;47;76.6;26;38;68.4;4;11;36.4;0;0.0;0.0;0;8;0;0;7;Matches
-131;Cesc Fàbregas\Cesc-Fabregas;es ESP;MF;Monaco;34-116;1987;0.4;42;53;79.2;873;317;11;14;78.6;24;27;88.9;6;10;60.0;0;0.1;-0.1;2;8;3;1;9;Matches
-132;Wout Faes\Wout-Faes;be BEL;DF;Reims;23-147;1998;3.0;97;110;88.2;2205;627;23;25;92.0;54;56;96.4;18;25;72.0;0;0.1;-0.1;1;7;0;0;5;Matches
-133;Romain Faivre\Romain-Faivre;fr FRA;MF;Brest;23-045;1998;3.0;91;116;78.4;1668;507;42;46;91.3;31;36;86.1;15;26;57.7;2;0.9;+1.1;8;9;3;0;11;Matches
-134;Julien Faussurier\Julien-Faussurier;fr FRA;DFFW;Brest;34-226;1987;0.4;11;15;73.3;262;132;3;5;60.0;5;5;100.0;3;5;60.0;0;0.2;-0.2;1;0;1;1;2;Matches
-135;Jordan Ferri\Jordan-Ferri;fr FRA;MF;Montpellier;29-169;1992;3.0;178;208;85.6;3690;1196;67;73;91.8;72;85;84.7;35;45;77.8;0;0.3;-0.3;3;21;2;0;17;Matches
-136;Karol Fila\Karol-Fila;pl POL;DF;Strasbourg;23-076;1998;2.2;124;157;79.0;2019;848;70;76;92.1;44;60;73.3;10;18;55.6;0;0.7;-0.7;3;3;4;2;10;Matches
-137;Mamadou Fofana\Mamadou-Fofana;ml MLI;DF;Metz;23-219;1998;0.4;3;4;75.0;82;59;1;1;100.0;1;1;100.0;1;2;50.0;0;0.0;0.0;0;0;0;0;0;Matches
-138;Seko Fofana\Seko-Fofana;ci CIV;MF;Lens;26-113;1995;3.0;66;82;80.5;1172;207;27;32;84.4;33;35;94.3;4;7;57.1;0;0.2;-0.2;2;3;3;1;4;Matches
-139;Youssouf Fofana\Youssouf-Fofana;fr FRA;MF;Monaco;22-230;1999;0.2;16;19;84.2;270;46;6;6;100.0;9;10;90.0;1;2;50.0;0;0.0;0.0;0;0;1;0;2;Matches
-140;Thomas Foket\Thomas-Foket;be BEL;DF;Reims;26-337;1994;3.0;108;132;81.8;1939;769;54;58;93.1;43;48;89.6;10;20;50.0;0;0.9;-0.9;5;5;3;3;11;Matches
-141;Thomas Fontaine\Thomas-Fontaine;mg MAD;DF;Lorient;30-112;1991;0.9;22;29;75.9;630;244;1;1;100.0;15;20;75.0;6;6;100.0;0;0.0;0.0;0;3;1;0;3;Matches
-142;José Fonte\Jose-Fonte;pt POR;DF;Lille;37-249;1983;3.0;153;170;90.0;3372;1019;38;42;90.5;85;91;93.4;30;35;85.7;0;0.0;0.0;0;7;1;0;6;Matches
-143;Steven Fortes\Steven-Fortes;cv CPV;DF;Lens;29-133;1992;1.0;25;29;86.2;613;170;5;7;71.4;12;12;100.0;8;10;80.0;0;0.0;0.0;0;0;0;0;2;Matches
-144;Przemysław Frankowski\Przemyslaw-Frankowski;pl POL;DFMF;Lens;26-138;1995;1.0;28;35;80.0;452;239;14;15;93.3;11;12;91.7;2;5;40.0;2;0.6;+1.4;4;1;1;1;3;Matches
-145;Angelo Fulgini\Angelo-Fulgini;fr FRA;FWMF;Angers;25-008;1996;2.7;85;111;76.6;1548;430;37;46;80.4;31;35;88.6;12;20;60.0;1;0.4;+0.6;3;11;1;0;10;Matches
-146;Gauthier Gallon\Gauthier-Gallon;fr FRA;GK;Troyes;28-127;1993;3.0;93;129;72.1;3041;1818;18;18;100.0;30;30;100.0;45;81;55.6;0;0.0;0.0;0;2;0;0;0;Matches
-147;Kévin Gameiro\Kevin-Gameiro;fr FRA;FWMF;Strasbourg;34-111;1987;2.2;52;63;82.5;780;45;34;38;89.5;14;17;82.4;3;6;50.0;0;0.0;0.0;0;1;1;0;2;Matches
-148;Idrissa Gana Gueye\Idrissa-Gana-Gueye;sn SEN;MF;Paris S-G;31-336;1989;1.0;101;107;94.4;1583;390;59;62;95.2;35;35;100.0;6;8;75.0;0;0.0;0.0;1;9;0;0;4;Matches
-149;Ignatius Ganago\Ignatius-Ganago;cm CMR;FW;Lens;22-193;1999;2.4;16;27;59.3;241;32;8;14;57.1;6;8;75.0;1;3;33.3;0;0.2;-0.2;1;2;1;0;2;Matches
-150;Johan Gastien\Johan-Gastien;fr FRA;MF;Clermont Foot;33-215;1988;3.0;277;318;87.1;6662;2308;79;84;94.0;116;127;91.3;80;104;76.9;1;0.2;+0.8;2;34;1;0;33;Matches
-151;Gerson\Gerson;br BRA;MFFW;Marseille;24-100;1997;1.5;78;84;92.9;1334;147;40;44;90.9;28;28;100.0;7;9;77.8;1;0.5;+0.5;3;6;1;0;3;Matches
-152;Jimmy Giraudon\Jimmy-Giraudon;fr FRA;DF;Troyes;29-224;1992;3.0;130;140;92.9;2733;1070;42;43;97.7;59;59;100.0;29;37;78.4;0;0.0;0.0;1;2;1;1;0;Matches
-153;Andrei Girotto\Andrei-Girotto;br BRA;MF;Nantes;29-192;1992;3.5;79;110;71.8;1343;410;39;47;83.0;33;40;82.5;7;18;38.9;0;0.0;0.0;0;6;1;0;7;Matches
-154;Aleksandr Golovin\Aleksandr-Golovin;ru RUS;MFFW;Monaco;25-090;1996;1.7;82;103;79.6;1486;280;37;41;90.2;33;36;91.7;11;23;47.8;0;0.4;-0.4;4;10;3;1;6;Matches
-155;Angel Gomes\Angel-Gomes;eng ENG;FW;Lille;20-362;2000;0.1;2;3;66.7;34;15;0;1;0.0;2;2;100.0;0;0;;0;0.0;0.0;0;0;0;0;1;Matches
-156;Alfred Gomis\Alfred-Gomis;sn SEN;GK;Rennes;27-357;1993;3.0;98;113;86.7;2306;1218;30;30;100.0;42;43;97.7;24;38;63.2;0;0.0;0.0;0;0;0;0;0;Matches
-157;Vagner Gonçalves\Vagner-Goncalves;cv CPV;FWMF;Metz;25-230;1996;0.7;16;25;64.0;206;62;12;12;100.0;2;5;40.0;1;5;20.0;0;0.0;0.0;1;0;2;0;2;Matches
-158;Álvaro González\Alvaro-Gonzalez;es ESP;DF;Marseille;31-232;1990;0.0;72;81;88.9;1394;387;28;28;100.0;36;37;97.3;8;15;53.3;0;0.0;0.0;0;0;0;0;1;Matches
-159;Amine Gouiri\Amine-Gouiri;fr FRA;FW;Nice;21-193;2000;2.0;46;66;69.7;915;352;21;26;80.8;15;23;65.2;9;14;64.3;1;0.6;+0.4;8;1;1;0;3;Matches
-160;Jonathan Gradit\Jonathan-Gradit;fr FRA;DF;Lens;28-277;1992;2.0;91;99;91.9;1767;824;29;30;96.7;55;57;96.5;6;11;54.5;0;0.0;0.0;1;11;2;0;18;Matches
-161;Andrew Gravillon\Andrew-Gravillon;fr FRA;DF;Reims;23-201;1998;2.9;98;119;82.4;2242;797;21;27;77.8;58;64;90.6;18;23;78.3;0;0.0;0.0;0;10;0;0;10;Matches
-162;Adrian Grbić\Adrian-Grbic;at AUT;FWMF;Lorient;25-024;1996;0.5;7;9;77.8;127;24;4;4;100.0;2;2;100.0;1;2;50.0;0;0.0;0.0;0;0;0;0;0;Matches
-163;Ivo Grbić\Ivo-Grbic;hr CRO;GK;Lille;25-222;1996;1.0;16;29;55.2;639;479;5;5;100.0;1;1;100.0;10;23;43.5;0;0.0;0.0;0;0;0;0;0;Matches
-164;Etienne Green\Etienne-Green;fr FRA;GK;Saint-Étienne;21-040;2000;3.0;57;95;60.0;2028;1305;7;7;100.0;19;19;100.0;30;68;44.1;0;0.3;-0.3;1;1;0;0;0;Matches
-165;Mattéo Guendouzi\Matteo-Guendouzi;fr FRA;MF;Marseille;22-136;1999;1.7;108;119;90.8;1950;403;52;58;89.7;40;41;97.6;15;18;83.3;1;0.4;+0.6;3;11;2;0;10;Matches
-166;Lamine Gueye\Lamine-Gueye;sn SEN;FW;Metz;23-168;1998;0.6;17;26;65.4;362;59;6;7;85.7;8;12;66.7;3;6;50.0;0;0.1;-0.1;1;1;2;2;1;Matches
-167;Pape Gueye\Pape-Gueye;fr FRA;MF;Marseille;22-216;1999;2.0;207;219;94.5;3925;630;89;91;97.8;88;92;95.7;29;32;90.6;1;0.1;+0.9;1;13;1;0;11;Matches
-168;Bruno Guimarães\Bruno-Guimaraes;br BRA;MF;Lyon;23-285;1997;2.4;158;177;89.3;3207;812;63;65;96.9;66;76;86.8;27;33;81.8;0;0.5;-0.5;2;24;3;0;21;Matches
-169;Sehrou Guirassy\Sehrou-Guirassy;fr FRA;FWMF;Rennes;25-169;1996;1.4;21;29;72.4;288;11;13;17;76.5;5;9;55.6;2;2;100.0;0;0.0;0.0;0;0;0;0;0;Matches
-170;Malo Gusto\Malo-Gusto;fr FRA;DF;Lyon;18-101;2003;1.2;105;119;88.2;1829;526;45;48;93.8;45;50;90.0;12;16;75.0;0;0.4;-0.4;2;5;0;0;6;Matches
-171;Massadio Haïdara\Massadio-Haidara;ml MLI;DF;Lens;28-269;1992;0.2;3;4;75.0;54;30;1;1;100.0;2;3;66.7;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-172;Oualid El Hajjam\Oualid-El-Hajjam;ma MAR;DF;Troyes;30-190;1991;2.7;75;92;81.5;1424;403;23;25;92.0;41;48;85.4;9;14;64.3;0;0.3;-0.3;1;0;1;1;0;Matches
-173;Achraf Hakimi\Achraf-Hakimi;ma MAR;DF;Paris S-G;22-297;1998;3.0;217;244;88.9;3500;1025;118;125;94.4;85;96;88.5;13;16;81.3;1;0.6;+0.4;5;7;7;5;12;Matches
-174;Pierre-Yves Hamel\Pierre-Yves-Hamel;fr FRA;FWDF;Lorient;27-206;1994;0.3;3;7;42.9;35;12;2;4;50.0;1;1;100.0;0;2;0.0;0;0.1;-0.1;1;0;0;0;0;Matches
-175;Romain Hamouma\Romain-Hamouma;fr FRA;FW;Saint-Étienne;34-152;1987;1.8;37;51;72.5;513;126;21;23;91.3;13;14;92.9;1;7;14.3;0;0.2;-0.2;3;3;2;1;2;Matches
-176;Henrique\Henrique;br BRA;DF;Lyon;27-125;1994;0.2;20;21;95.2;309;121;11;11;100.0;9;9;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-177;Luis Henrique\Luis-Henrique;br BRA;DFFW;Marseille;19-257;2001;0.1;15;18;83.3;235;37;7;9;77.8;8;8;100.0;0;1;0.0;0;0.0;0.0;0;0;0;0;1;Matches
-178;Jérôme Hergault\Jerome-Hergault;fr FRA;DF;Lorient;35-145;1986;0.4;7;13;53.8;117;42;4;6;66.7;2;5;40.0;1;2;50.0;0;0.0;0.0;0;1;0;0;1;Matches
-179;Ander Herrera\Ander-Herrera;es ESP;MF;Paris S-G;32-014;1989;3.0;283;302;93.7;4983;1048;130;134;97.0;116;120;96.7;34;42;81.0;2;0.5;+1.5;6;35;7;0;23;Matches
-180;Franck Honorat\Franck-Honorat;fr FRA;FW;Brest;25-017;1996;2.9;75;102;73.5;1385;401;35;40;87.5;27;38;71.1;11;18;61.1;1;1.5;-0.5;11;1;6;5;6;Matches
-181;Cédric Hountondji\Cedric-Hountondji;bj BEN;DF;Clermont Foot;27-221;1994;3.0;124;133;93.2;2237;757;50;51;98.0;61;64;95.3;11;16;68.8;0;0.0;0.0;0;4;0;0;4;Matches
-182;Mauro Icardi\Mauro-Icardi;ar ARG;FW;Paris S-G;28-190;1993;2.9;33;41;80.5;462;33;18;22;81.8;13;16;81.3;1;1;100.0;0;0.2;-0.2;1;1;1;0;1;Matches
-183;Jonathan Iglesias\Jonathan-Iglesias;uy URU;MFFW;Clermont Foot;32-254;1988;1.0;49;52;94.2;773;140;30;30;100.0;13;15;86.7;4;4;100.0;0;0.0;0.0;0;0;0;0;0;Matches
-184;Jonathan Ikone\Jonathan-Ikone;fr FRA;FWMF;Lille;23-118;1998;1.0;45;56;80.4;839;206;22;27;81.5;13;16;81.3;9;11;81.8;0;0.2;-0.2;4;2;4;1;7;Matches
-185;Ismail Jakobs\Ismail-Jakobs;de GER;DF;Monaco;22-011;1999;0.8;69;82;84.1;1002;309;40;44;90.9;28;33;84.8;1;3;33.3;0;0.0;0.0;1;4;2;0;8;Matches
-186;Abdel Jalil Medioub\Abdel-Jalil-Medioub;dz ALG;DF;Bordeaux;24-000;1997;0.3;5;11;45.5;119;21;0;2;0.0;4;6;66.7;1;3;33.3;0;0.0;0.0;0;0;0;0;0;Matches
-187;Corentin Jean\Corentin-Jean;fr FRA;FW;Lens;26-044;1995;0.2;2;5;40.0;20;0;2;3;66.7;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-188;Lenny Joseph\Lenny-Joseph;fr FRA;FW;Metz;20-320;2000;0.2;1;1;100.0;11;0;1;1;100.0;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-189;Issa Kaboré\Issa-Kabore;bf BFA;DFFW;Troyes;20-108;2001;1.4;40;60;66.7;580;265;23;27;85.2;16;25;64.0;1;4;25.0;0;0.0;0.0;0;0;2;1;6;Matches
-190;Tino Kadewere\Tino-Kadewere;zw ZIM;FW;Lyon;25-235;1996;0.3;6;7;85.7;94;50;3;3;100.0;3;4;75.0;0;0;;0;0.0;0.0;0;0;1;0;1;Matches
-191;Gaël Kakuta\Gael-Kakuta;cd COD;MF;Lens;30-068;1991;2.6;67;89;75.3;1109;268;39;45;86.7;22;33;66.7;6;8;75.0;0;0.7;-0.7;3;9;3;2;7;Matches
-192;Arnaud Kalimuendo\Arnaud-Kalimuendo;fr FRA;FW;Paris S-G;19-219;2002;0.1;5;5;100.0;62;0;3;3;100.0;1;1;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-193;Samuel Kalu\Samuel-Kalu;ng NGA;FW;Bordeaux;24-002;1997;1.0;33;36;91.7;524;177;20;20;100.0;10;12;83.3;3;3;100.0;0;0.0;0.0;0;4;2;1;4;Matches
-194;Boubacar Kamara\Boubacar-Kamara;fr FRA;MFDF;Marseille;21-278;1999;2.0;182;208;87.5;2969;910;109;118;92.4;57;64;89.1;13;20;65.0;0;0.4;-0.4;5;16;4;0;15;Matches
-195;Hassane Kamara\Hassane-Kamara;ci CIV;DFMF;Nice;26-343;1994;1.1;59;75;78.7;963;202;27;31;87.1;27;32;84.4;3;10;30.0;0;0.0;0.0;0;1;1;1;6;Matches
-196;Ilan Kebbal\Ilan-Kebbal;dz ALG;FWMF;Reims;23-050;1998;1.8;63;87;72.4;915;263;32;42;76.2;22;27;81.5;4;10;40.0;0;0.3;-0.3;4;1;6;0;8;Matches
-197;Thilo Kehrer\Thilo-Kehrer;de GER;DF;Paris S-G;24-341;1996;3.0;261;271;96.3;5190;1560;83;85;97.6;149;154;96.8;28;31;90.3;0;0.0;0.0;0;26;0;0;14;Matches
-198;Saîf-Eddine Khaoui\Saif-Eddine-Khaoui;tn TUN;MF;Clermont Foot;26-123;1995;0.2;8;10;80.0;139;5;4;5;80.0;2;2;100.0;2;2;100.0;0;0.0;0.0;0;0;0;0;0;Matches
-199;Wahbi Khazri\Wahbi-Khazri;tn TUN;FWMF;Saint-Étienne;30-201;1991;2.6;55;73;75.3;919;199;29;30;96.7;21;25;84.0;4;12;33.3;0;0.6;-0.6;6;4;3;0;6;Matches
-200;Presnel Kimpembe\Presnel-Kimpembe;fr FRA;DF;Paris S-G;26-015;1995;3.0;272;275;98.9;5072;1631;108;109;99.1;138;139;99.3;24;25;96.0;0;0.0;0.0;1;29;0;0;13;Matches
-201;Justin Kluivert\Justin-Kluivert;nl NED;MF;Nice;22-115;1999;1.7;44;61;72.1;712;195;24;30;80.0;14;18;77.8;3;5;60.0;0;0.2;-0.2;4;5;3;1;8;Matches
-202;Randal Kolo Muani\Randal-Kolo-Muani;fr FRA;FW;Nantes;22-266;1998;1.9;19;31;61.3;258;25;12;17;70.6;4;8;50.0;2;4;50.0;0;0.2;-0.2;2;0;0;0;0;Matches
-203;Timothée Kolodziejczak\Timothee-Kolodziejczak;fr FRA;DF;Saint-Étienne;29-331;1991;3.0;167;212;78.8;2857;1283;83;88;94.3;65;82;79.3;17;34;50.0;1;0.4;+0.6;7;8;6;2;18;Matches
-204;Ghislain Konan\Ghislain-Konan;ci CIV;DF;Reims;25-244;1995;2.0;77;107;72.0;1291;633;39;45;86.7;28;36;77.8;9;21;42.9;1;0.4;+0.6;2;4;2;1;8;Matches
-205;Youssouf Koné\Youssouf-Kone;ml MLI;DF;Troyes;26-054;1995;1.0;50;59;84.7;936;298;23;25;92.0;20;23;87.0;7;10;70.0;0;0.0;0.0;1;3;2;1;4;Matches
-206;Laurent Koscielny\Laurent-Koscielny;fr FRA;DF;Bordeaux;35-352;1985;2.9;130;137;94.9;3330;1156;25;25;100.0;63;65;96.9;41;45;91.1;1;0.0;+1.0;1;8;0;0;10;Matches
-207;Rominigue Kouamé\Rominigue-Kouame;ml MLI;MF;Troyes;24-254;1996;3.0;130;146;89.0;2360;496;52;59;88.1;58;60;96.7;16;20;80.0;1;0.3;+0.7;2;15;0;0;11;Matches
-208;Boubakar Kouyaté\Boubakar-Kouyate;ml MLI;DFFW;Metz;24-135;1997;1.6;79;87;90.8;1799;464;18;18;100.0;46;49;93.9;15;20;75.0;0;0.0;0.0;0;3;0;0;2;Matches
-209;Jean-Philippe Krasso\Jean-Philippe-Krasso;fr FRA;FW;Saint-Étienne;24-042;1997;0.1;7;9;77.8;119;42;3;3;100.0;4;4;100.0;0;0;;0;0.0;0.0;0;1;0;0;3;Matches
-210;Mykola Kukharevych\Mykola-Kukharevych;ua UKR;FW;Troyes;20-058;2001;0.2;4;6;66.7;38;0;4;6;66.7;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-211;Enock Kwateng\Enock-Kwateng;fr FRA;DF;Bordeaux;24-141;1997;3.0;142;163;87.1;2648;1286;70;74;94.6;50;57;87.7;19;25;76.0;0;0.2;-0.2;2;18;2;0;26;Matches
-212;Gaëtan Laborde\Gaetan-Laborde;fr FRA;FW;Montpellier;27-117;1994;2.8;43;68;63.2;745;239;23;33;69.7;12;21;57.1;6;8;75.0;0;0.5;-0.5;4;3;3;2;3;Matches
-213;Alban Lafont\Alban-Lafont;fr FRA;GK;Nantes;22-217;1999;4.0;48;103;46.6;1756;1290;5;5;100.0;20;20;100.0;23;78;29.5;0;0.0;0.0;0;3;0;0;0;Matches
-214;Julien Laporte\Julien-Laporte;fr FRA;DF;Lorient;27-297;1993;3.0;75;84;89.3;1819;659;17;18;94.4;39;40;97.5;19;25;76.0;0;0.0;0.0;0;2;1;0;1;Matches
-215;Armand Lauriente\Armand-Lauriente;fr FRA;FW;Lorient;22-267;1998;2.8;41;50;82.0;690;104;22;25;88.0;13;15;86.7;5;7;71.4;0;0.1;-0.1;1;5;0;0;4;Matches
-216;Jérémy Le Douaron\Jeremy-Le-Douaron;fr FRA;FW;Brest;23-129;1998;0.6;5;8;62.5;55;7;3;3;100.0;1;2;50.0;0;1;0.0;0;0.0;0.0;0;0;0;0;0;Matches
-217;Enzo Le Fée\Enzo-Le-Fee;fr FRA;MF;Lorient;21-206;2000;1.8;56;65;86.2;1217;294;25;28;89.3;14;16;87.5;16;18;88.9;0;0.1;-0.1;2;8;1;0;6;Matches
-218;Vincent Le Goff\Vincent-Le-Goff;fr FRA;DF;Lorient;31-317;1989;3.0;90;123;73.2;1648;711;36;40;90.0;43;53;81.1;7;21;33.3;0;0.1;-0.1;1;6;2;1;13;Matches
-219;Jean-Louis Leca\Jean-Louis-Leca;fr FRA;GK;Lens;35-341;1985;3.0;63;94;67.0;2045;1344;12;12;100.0;23;23;100.0;28;59;47.5;0;0.0;0.0;0;0;0;0;0;Matches
-220;Mario Lemina\Mario-Lemina;ga GAB;MF;Nice;27-361;1993;0.9;71;81;87.7;1499;319;20;22;90.9;40;44;90.9;11;15;73.3;0;0.0;0.0;0;4;0;0;5;Matches
-221;Fabien Lemoine\Fabien-Lemoine;fr FRA;MF;Lorient;34-165;1987;2.4;103;127;81.1;2003;527;41;51;80.4;43;50;86.0;18;24;75.0;0;0.5;-0.5;2;8;0;0;8;Matches
-222;Léo Leroy\Leo-Leroy;fr FRA;MF;Montpellier;21-195;2000;0.3;10;13;76.9;229;58;2;3;66.7;3;3;100.0;4;5;80.0;0;0.0;0.0;0;1;0;0;0;Matches
-223;Dimitri Liénard\Dimitri-Lienard;fr FRA;DFMF;Strasbourg;33-196;1988;3.0;152;203;74.9;3117;799;54;59;91.5;75;83;90.4;21;56;37.5;1;0.1;+0.9;2;12;1;1;16;Matches
-224;Isaac Lihadji\Isaac-Lihadji;fr FRA;MFDF;Lille;19-140;2002;0.5;22;32;68.8;394;155;12;12;100.0;7;10;70.0;3;6;50.0;1;0.3;+0.7;4;1;1;1;2;Matches
-225;Bradley Locko\Bradley-Locko;fr FRA;DF;Reims;19-114;2002;0.6;19;24;79.2;345;98;9;10;90.0;9;11;81.8;1;3;33.3;0;0.0;0.0;0;0;0;0;1;Matches
-226;Anthony Lopes\Anthony-Lopes;pt POR;GK;Lyon;30-331;1990;4.0;121;136;89.0;3194;1866;25;25;100.0;64;64;100.0;32;47;68.1;0;0.0;0.0;0;3;0;0;0;Matches
-227;Jordan Lotomba\Jordan-Lotomba;ch SUI;DF;Nice;22-333;1998;0.3;33;39;84.6;547;155;14;15;93.3;18;20;90.0;1;2;50.0;0;0.2;-0.2;1;2;0;0;1;Matches
-228;Jean Lucas\Jean-Lucas;br BRA;MF;Monaco;23-067;1998;2.5;174;204;85.3;3556;746;71;79;89.9;71;76;93.4;30;42;71.4;0;0.4;-0.4;6;18;1;0;9;Matches
-229;Castello Lukeba\Castello-Lukeba;fr FRA;DF;Lyon;18-254;2002;1.5;116;119;97.5;2444;836;32;33;97.0;64;65;98.5;20;21;95.2;0;0.0;0.0;1;2;0;0;9;Matches
-230;Levi Lumeka\Levi-Lumeka;eng ENG;MFDF;Troyes;22-357;1998;0.4;3;8;37.5;54;0;2;3;66.7;0;2;0.0;1;3;33.3;0;0.0;0.0;0;0;0;0;0;Matches
-231;Deiver Machado\Deiver-Machado;co COL;DF;Lens;27-360;1993;2.0;53;62;85.5;1008;389;18;21;85.7;27;30;90.0;7;8;87.5;0;0.1;-0.1;2;1;2;2;5;Matches
-232;Yvann Macon\Yvann-Macon;fr FRA;DF;Saint-Étienne;22-331;1998;3.0;138;171;80.7;2668;888;59;66;89.4;56;68;82.4;23;32;71.9;0;0.0;0.0;1;5;5;3;9;Matches
-233;Hugo Magnetti\Hugo-Magnetti;fr FRA;MF;Brest;23-090;1998;2.0;63;77;81.8;1194;200;28;29;96.6;21;24;87.5;12;19;63.2;0;0.0;0.0;0;4;1;0;2;Matches
-234;Habib Maïga\Habib-Maiga;ci CIV;MFDF;Metz;25-239;1996;2.7;112;142;78.9;1901;460;55;61;90.2;47;61;77.0;8;15;53.3;0;0.2;-0.2;4;13;1;0;9;Matches
-235;Abdul Majeed Waris\Abdul-Majeed-Waris;gh GHA;MFDF;Strasbourg;29-343;1991;1.5;46;58;79.3;632;181;30;33;90.9;11;15;73.3;2;6;33.3;0;0.1;-0.1;2;3;3;1;6;Matches
-236;Béni Makouana\Beni-Makouana;cg CGO;FW;Montpellier;18-334;2002;0.2;3;4;75.0;31;18;3;3;100.0;0;1;0.0;0;0;;0;0.0;0.0;0;0;0;0;1;Matches
-237;Hianga Mananga Mbock\Hianga-Mananga-Mbock;fr FRA;MF;Brest;21-243;1999;3.0;60;69;87.0;1141;173;18;20;90.0;37;39;94.9;4;5;80.0;0;0.0;0.0;0;3;0;0;3;Matches
-238;Vincent Manceau\Vincent-Manceau;fr FRA;DF;Angers;32-049;1989;3.0;132;143;92.3;2635;1036;45;45;100.0;67;71;94.4;18;22;81.8;0;0.0;0.0;0;9;0;0;7;Matches
-239;Steve Mandanda\Steve-Mandanda;fr FRA;GK;Marseille;36-153;1985;2.0;58;67;86.6;1607;968;12;13;92.3;27;27;100.0;19;27;70.4;0;0.0;0.0;0;2;0;0;0;Matches
-240;Reinildo Mandava\Reinildo-Mandava;mz MOZ;DF;Lille;27-219;1994;2.8;152;190;80.0;2439;864;79;88;89.8;61;72;84.7;10;22;45.5;0;0.0;0.0;0;11;0;0;12;Matches
-241;Thomas Mangani\Thomas-Mangani;fr FRA;MF;Angers;34-121;1987;2.9;135;167;80.8;2416;777;68;73;93.2;54;66;81.8;12;21;57.1;1;0.2;+0.8;3;10;1;1;11;Matches
-242;Ricardo Mangas\Ricardo-Mangas;pt POR;DF;Bordeaux;23-162;1998;2.0;86;92;93.5;1622;523;32;34;94.1;43;45;95.6;10;12;83.3;1;0.0;+1.0;2;7;1;0;8;Matches
-243;Myziane Maolida\Myziane-Maolida;fr FRA;MFFW;Nice;22-195;1999;0.4;4;7;57.1;43;0;2;3;66.7;1;1;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-244;Sekou Mara\Sekou-Mara;fr FRA;FW;Bordeaux;19-029;2002;1.3;19;25;76.0;272;68;12;14;85.7;1;3;33.3;3;3;100.0;0;0.0;0.0;0;3;0;0;3;Matches
-245;Marcelo\Marcelo;br BRA;DF;Lyon;34-100;1987;2.0;148;164;90.2;3310;836;36;41;87.8;78;85;91.8;32;35;91.4;0;0.0;0.0;0;4;0;0;10;Matches
-246;Gelson Martins\Gelson-Martins;pt POR;MFDF;Monaco;26-109;1995;1.8;50;69;72.5;748;110;28;34;82.4;19;27;70.4;2;2;100.0;0;0.0;0.0;1;0;1;0;2;Matches
-247;Pape Matar Sarr\Pape-Matar-Sarr;sn SEN;MF;Metz;18-348;2002;2.9;117;145;80.7;2387;567;48;57;84.2;46;53;86.8;22;31;71.0;1;0.2;+0.8;6;16;4;0;16;Matches
-248;Stephy Mavididi\Stephy-Mavididi;eng ENG;FW;Montpellier;23-089;1998;1.2;32;38;84.2;539;113;16;17;94.1;11;15;73.3;4;4;100.0;0;0.2;-0.2;2;2;2;1;2;Matches
-249;Kylian Mbappé\Kylian-Mbappe;fr FRA;FW;Paris S-G;22-251;1998;2.9;105;138;76.1;1787;329;60;72;83.3;33;38;86.8;8;23;34.8;3;1.5;+1.5;7;2;6;0;10;Matches
-250;Nathanael Mbuku\Nathanael-Mbuku;fr FRA;FW;Reims;19-165;2002;1.9;32;44;72.7;506;145;18;20;90.0;11;15;73.3;3;6;50.0;0;0.2;-0.2;2;2;2;0;5;Matches
-251;Facundo Medina\Facundo-Medina;ar ARG;DF;Lens;22-092;1999;2.0;98;110;89.1;2212;909;27;28;96.4;51;55;92.7;20;26;76.9;0;0.0;0.0;0;10;0;0;16;Matches
-252;Birger Meling\Birger-Meling;no NOR;DF;Rennes;26-254;1994;3.0;165;190;86.8;3302;920;59;63;93.7;72;83;86.7;31;35;88.6;1;0.1;+0.9;2;7;3;1;13;Matches
-253;Houboulang Mendes\Houboulang-Mendes;fr FRA;DF;Lorient;23-116;1998;2.9;61;72;84.7;1319;443;19;21;90.5;31;34;91.2;11;17;64.7;0;0.0;0.0;0;4;1;1;4;Matches
-254;Thiago Mendes\Thiago-Mendes;br BRA;MF;Lyon;29-166;1992;1.7;111;125;88.8;2259;479;50;53;94.3;40;42;95.2;21;28;75.0;0;0.0;0.0;1;10;1;0;4;Matches
-255;Arial Mendy\Arial-Mendy;sn SEN;DF;Clermont Foot;26-294;1994;1.6;79;94;84.0;1305;434;43;49;87.8;28;32;87.5;7;11;63.6;0;0.7;-0.7;5;5;5;3;5;Matches
-256;Batista Mendy\Batista-Mendy;fr FRA;MF;Angers;21-228;2000;2.0;63;74;85.1;1204;311;25;28;89.3;28;31;90.3;8;13;61.5;0;0.2;-0.2;1;4;0;0;4;Matches
-257;Gideon Mensah\Gideon-Mensah;gh GHA;DF;Bordeaux;23-041;1998;2.0;100;114;87.7;1905;579;43;46;93.5;46;50;92.0;10;14;71.4;0;0.0;0.0;2;7;2;2;2;Matches
-258;Quentin Merlin\Quentin-Merlin;fr FRA;MF;Nantes;19-104;2002;0.1;3;4;75.0;64;39;1;2;50.0;1;1;100.0;1;1;100.0;0;0.1;-0.1;1;0;0;0;1;Matches
-259;Mexer\Mexer;mz MOZ;DF;Bordeaux;32-354;1988;1.6;82;92;89.1;1820;533;20;20;100.0;46;51;90.2;16;18;88.9;0;0.0;0.0;0;3;0;0;2;Matches
-260;Georges Mikautadze\Georges-Mikautadze;ge GEO;FW;Metz;20-301;2000;0.0;0;1;0.0;0;0;0;0;;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-261;Terem Moffi\Terem-Moffi;ng NGA;FW;Lorient;22-095;1999;2.6;28;40;70.0;413;107;15;20;75.0;9;13;69.2;2;4;50.0;0;0.0;0.0;1;3;0;0;3;Matches
-262;Florent Mollet\Florent-Mollet;fr FRA;MF;Montpellier;29-282;1991;1.8;59;76;77.6;1104;332;27;31;87.1;23;25;92.0;7;17;41.2;1;0.3;+0.7;1;6;1;0;8;Matches
-263;Thomas Monconduit\Thomas-Monconduit;fr FRA;MF;Lorient;30-199;1991;1.3;37;51;72.5;878;345;15;19;78.9;13;20;65.0;9;12;75.0;0;0.1;-0.1;1;4;1;0;6;Matches
-264;Jérémy Morel\Jeremy-Morel;mg MAD;DF;Lorient;37-148;1984;2.0;50;61;82.0;1005;423;9;9;100.0;34;36;94.4;6;15;40.0;0;0.0;0.0;0;2;0;0;4;Matches
-265;Harold Moukoudi\Harold-Moukoudi;cm CMR;DF;Saint-Étienne;23-274;1997;3.0;139;149;93.3;3163;966;41;43;95.3;62;63;98.4;35;40;87.5;0;0.0;0.0;0;5;1;0;2;Matches
-266;Steve Mounié\Steve-Mounie;bj BEN;FW;Brest;26-333;1994;3.0;44;82;53.7;610;147;25;44;56.8;17;31;54.8;0;0;;0;0.2;-0.2;4;3;2;1;7;Matches
-267;Samuel Moutoussamy\Samuel-Moutoussamy;cd COD;MF;Nantes;25-016;1996;1.5;35;48;72.9;664;67;12;14;85.7;14;17;82.4;6;10;60.0;0;0.0;0.0;0;0;0;0;1;Matches
-268;Marshall Munetsi\Marshall-Munetsi;zw ZIM;MF;Reims;25-067;1996;2.4;45;54;83.3;885;127;24;27;88.9;10;13;76.9;10;11;90.9;0;0.0;0.0;1;2;0;0;1;Matches
-269;Kévin N'Doram\Kevin-NDoram;fr FRA;MF;Metz;25-218;1996;1.3;36;43;83.7;666;174;12;17;70.6;19;20;95.0;4;4;100.0;0;0.0;0.0;1;9;0;0;5;Matches
-270;Vital N'Simba\Vital-NSimba;cd COD;DF;Clermont Foot;28-051;1993;1.4;84;107;78.5;1352;599;48;54;88.9;29;38;76.3;6;10;60.0;0;0.6;-0.6;4;5;3;1;10;Matches
-271;Mickael Nade\Mickael-Nade;fr FRA;DF;Saint-Étienne;22-177;1999;1.0;36;41;87.8;717;321;14;16;87.5;18;20;90.0;4;5;80.0;0;0.0;0.0;0;2;0;0;1;Matches
-272;Paul Nardi\Paul-Nardi;fr FRA;GK;Lorient;27-102;1994;3.0;31;81;38.3;1325;1072;4;4;100.0;12;12;100.0;15;65;23.1;0;0.0;0.0;0;3;0;0;0;Matches
-273;Keylor Navas\Keylor-Navas;cr CRC;GK;Paris S-G;34-256;1986;3.0;77;79;97.5;1919;1077;14;14;100.0;41;41;100.0;22;24;91.7;0;0.0;0.0;0;0;0;0;0;Matches
-274;Papa Ndiaga Yade\Papa-Ndiaga-Yade;sn SEN;FWDF;Metz;21-235;2000;0.3;4;6;66.7;45;14;3;3;100.0;1;1;100.0;0;2;0.0;0;0.0;0.0;0;0;0;0;0;Matches
-275;Dan Ndoye\Dan-Ndoye;ch SUI;FWMF;Nice;20-307;2000;1.3;21;33;63.6;381;57;10;15;66.7;9;12;75.0;2;4;50.0;0;0.0;0.0;0;1;0;0;2;Matches
-276;Yvan Neyou\Yvan-Neyou;cm CMR;MF;Saint-Étienne;24-237;1997;1.7;67;72;93.1;1108;202;32;33;97.0;30;33;90.9;4;5;80.0;0;0.0;0.0;0;0;0;0;2;Matches
-277;Ibrahima Niane\Ibrahima-Niane;sn SEN;FW;Metz;22-170;1999;2.8;61;76;80.3;868;86;31;39;79.5;27;30;90.0;1;3;33.3;1;0.2;+0.8;1;1;0;0;1;Matches
-278;Casimir Ninga\Casimir-Ninga;td CHA;FW;Angers;28-103;1993;0.3;3;4;75.0;97;49;1;1;100.0;0;1;0.0;2;2;100.0;0;0.0;0.0;0;0;0;0;0;Matches
-279;Arnaud Nordin\Arnaud-Nordin;fr FRA;MFFW;Saint-Étienne;23-072;1998;1.2;31;41;75.6;620;186;13;16;81.3;12;17;70.6;5;5;100.0;1;0.4;+0.6;6;2;2;1;1;Matches
-280;Alexander Nübel\Alexander-Nubel;de GER;GK;Monaco;24-332;1996;3.0;70;84;83.3;1854;1061;13;13;100.0;34;34;100.0;23;36;63.9;0;0.0;0.0;0;0;0;0;0;Matches
-281;Florent Ogier\Florent-Ogier;fr FRA;DF;Clermont Foot;32-160;1989;3.0;139;165;84.2;2843;1198;50;55;90.9;59;69;85.5;27;37;73.0;0;0.2;-0.2;1;11;0;0;7;Matches
-282;Warmed Omari\Warmed-Omari;fr FRA;MF;Rennes;21-127;2000;0.0;1;1;100.0;15;0;0;0;;1;1;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-283;Amadou Onana\Amadou-Onana;be BEL;MF;Lille;20-012;2001;0.3;14;17;82.4;333;44;6;6;100.0;2;4;50.0;6;7;85.7;0;0.0;0.0;0;2;1;0;2;Matches
-284;Otávio\Otavio;br BRA;MF;Bordeaux;27-116;1994;2.5;122;134;91.0;2562;526;44;46;95.7;58;63;92.1;19;23;82.6;0;0.1;-0.1;3;3;0;0;3;Matches
-285;Aboubacar Ouattara\Aboubacar-Ouattara;bf BFA;FW;Lorient;19-198;2002;0.0;0;0;;0;0;0;0;;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-286;Remi Oudin\Remi-Oudin;fr FRA;FWDF;Bordeaux;24-283;1996;2.2;64;87;73.6;1355;264;20;28;71.4;28;36;77.8;14;20;70.0;0;0.4;-0.4;4;4;2;1;6;Matches
-287;Alexandre Oukidja\Alexandre-Oukidja;dz ALG;GK;Metz;33-040;1988;3.0;61;94;64.9;1902;1102;11;11;100.0;23;24;95.8;26;58;44.8;0;0.0;0.0;0;0;0;0;0;Matches
-288;Azzedine Ounahi\Azzedine-Ounahi;ma MAR;MF;Angers;21-131;2000;0.3;12;14;85.7;180;41;7;8;87.5;5;5;100.0;0;1;0.0;0;0.0;0.0;0;1;0;0;1;Matches
-289;Vincent Pajot\Vincent-Pajot;fr FRA;MF;Metz;31-009;1990;1.9;94;107;87.9;2100;392;29;32;90.6;44;48;91.7;20;24;83.3;0;0.0;0.0;1;8;0;0;6;Matches
-290;Nicolas Pallois\Nicolas-Pallois;fr FRA;DF;Nantes;33-343;1987;4.0;93;117;79.5;2004;825;28;34;82.4;45;52;86.5;18;28;64.3;0;0.0;0.0;0;9;0;0;10;Matches
-291;Emerson Palmieri\Emerson-Palmieri;it ITA;DF;Lyon;27-025;1994;2.0;107;136;78.7;1896;676;49;55;89.1;43;53;81.1;12;22;54.5;0;0.2;-0.2;2;5;2;2;5;Matches
-292;Lucas Paquetá\Lucas-Paqueta;br BRA;FWMF;Lyon;24-001;1997;2.7;111;151;73.5;1640;599;62;71;87.3;35;48;72.9;7;19;36.8;0;0.6;-0.6;5;10;3;1;12;Matches
-293;Rubén Pardo\Ruben-Pardo;es ESP;MF;Bordeaux;28-310;1992;0.1;1;1;100.0;11;9;1;1;100.0;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-294;Strahinja Pavlović\Strahinja-Pavlovic;rs SRB;DF;Monaco;20-096;2001;2.0;151;177;85.3;3326;916;44;48;91.7;78;82;95.1;29;46;63.0;0;0.0;0.0;0;8;6;2;13;Matches
-295;Dimitri Payet\Dimitri-Payet;fr FRA;FWMF;Marseille;34-152;1987;2.0;96;122;78.7;1821;482;46;49;93.9;31;37;83.8;16;29;55.2;0;0.5;-0.5;7;7;5;0;14;Matches
-296;Timothee Pembele\Timothee-Pembele;fr FRA;DF;Bordeaux;18-353;2002;1.2;41;58;70.7;664;280;20;26;76.9;19;24;79.2;1;2;50.0;0;0.0;0.0;0;4;0;0;5;Matches
-297;Mathias Pereira Lage\Mathias-Pereira-Lage;pt POR;DF;Angers;24-271;1996;0.2;5;10;50.0;83;56;2;3;66.7;3;4;75.0;0;2;0.0;1;0.3;+0.7;1;1;0;0;1;Matches
-298;Danilo Pereira\Danilo-Pereira;pt POR;MF;Paris S-G;29-353;1991;1.3;110;117;94.0;2387;533;34;35;97.1;54;57;94.7;21;24;87.5;0;0.0;0.0;0;16;0;0;4;Matches
-299;Luan Peres Petroni\Luan-Peres-Petroni;br BRA;DF;Marseille;27-040;1994;2.0;211;233;90.6;3803;1131;87;93;93.5;106;116;91.4;17;21;81.0;0;0.0;0.0;1;22;1;1;13;Matches
-300;Lucas Perrin\Lucas-Perrin;fr FRA;DF;Strasbourg;22-282;1998;2.0;101;112;90.2;2188;718;32;35;91.4;50;52;96.2;19;25;76.0;0;0.0;0.0;0;11;0;0;6;Matches
-301;Ronaël Pierre-Gabriel\Ronael-Pierre-Gabriel;fr FRA;DF;Brest;23-076;1998;2.7;75;90;83.3;1217;641;35;37;94.6;34;41;82.9;5;8;62.5;0;0.0;0.0;0;4;2;0;9;Matches
-302;Sanjin Prcić\Sanjin-Prcic;ba BIH;MF;Strasbourg;27-281;1993;1.5;80;92;87.0;1830;399;27;31;87.1;35;37;94.6;18;22;81.8;0;0.0;0.0;1;8;1;0;8;Matches
-303;Nemanja Radonjić\Nemanja-Radonjic;rs SRB;MF;Marseille;25-194;1996;0.2;9;10;90.0;103;43;8;9;88.9;1;1;100.0;0;0;;0;0.2;-0.2;1;0;0;0;0;Matches
-304;Rafinha\Rafinha;br BRA;MF;Paris S-G;28-197;1993;0.0;6;6;100.0;95;0;3;3;100.0;3;3;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-305;Predrag Rajković\Predrag-Rajkovic;rs SRB;GK;Reims;25-301;1995;3.0;56;83;67.5;1820;1078;7;7;100.0;18;18;100.0;29;55;52.7;0;0.0;0.0;1;2;0;0;0;Matches
-306;Elba Rashani\Elba-Rashani;xk KVX;FWMF;Clermont Foot;28-111;1993;0.7;39;47;83.0;591;180;21;23;91.3;16;17;94.1;1;5;20.0;1;1.0;0.0;2;2;1;0;3;Matches
-307;Renaud Ripart\Renaud-Ripart;fr FRA;FWDF;Troyes;28-167;1993;2.7;67;89;75.3;1204;216;36;41;87.8;22;32;68.8;8;14;57.1;0;0.3;-0.3;1;5;2;1;6;Matches
-308;Mihailo Ristić\Mihailo-Ristic;rs SRB;DFMF;Montpellier;25-301;1995;0.3;12;15;80.0;269;94;3;4;75.0;7;9;77.8;2;2;100.0;0;0.0;0.0;0;1;0;0;4;Matches
-309;Maxence Rivera\Maxence-Rivera;fr FRA;FW;Saint-Étienne;19-090;2002;0.1;0;2;0.0;0;0;0;1;0.0;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-310;Valentin Rongier\Valentin-Rongier;fr FRA;MF;Marseille;26-264;1994;0.2;28;32;87.5;439;94;18;19;94.7;6;7;85.7;3;4;75.0;0;0.0;0.0;0;0;1;0;2;Matches
-311;Pablo Rosario\Pablo-Rosario;nl NED;MF;Nice;24-233;1997;2.0;122;143;85.3;2355;695;40;44;90.9;68;72;94.4;12;21;57.1;0;0.2;-0.2;2;11;2;1;10;Matches
-312;Roli Pereira de Sa\Roli-Pereira-de-Sa;fr FRA;MF;Nantes;24-261;1996;1.6;46;58;79.3;753;273;26;31;83.9;15;16;93.8;5;7;71.4;0;0.1;-0.1;1;2;1;1;3;Matches
-313;Mathys Saban\Mathys-Saban;fr FRA;FW;Saint-Étienne;19-105;2002;0.2;5;6;83.3;101;28;3;4;75.0;1;1;100.0;1;1;100.0;0;0.0;0.0;0;0;1;0;1;Matches
-314;Mamadou Sakho\Mamadou-Sakho;fr FRA;DF;Montpellier;31-196;1990;2.0;74;77;96.1;1522;529;22;24;91.7;39;39;100.0;12;12;100.0;0;0.0;0.0;0;3;0;0;2;Matches
-315;William Saliba\William-Saliba;fr FRA;DF;Marseille;20-157;2001;2.0;213;224;95.1;4261;1339;75;78;96.2;109;111;98.2;29;33;87.9;0;0.3;-0.3;2;23;2;0;17;Matches
-316;Yoann Salmier\Yoann-Salmier;gf GUF;DF;Troyes;28-280;1992;1.9;72;81;88.9;1518;408;24;25;96.0;35;37;94.6;12;15;80.0;0;0.0;0.0;0;3;0;0;2;Matches
-317;Mama Samba Baldé\Mama-Samba-Balde;gw GNB;FWMF;Troyes;25-295;1995;1.7;24;31;77.4;368;21;14;15;93.3;9;12;75.0;1;2;50.0;0;0.1;-0.1;2;0;1;0;1;Matches
-318;Junior Sambia\Junior-Sambia;fr FRA;DF;Montpellier;24-355;1996;2.6;106;139;76.3;1843;940;56;59;94.9;37;51;72.5;10;23;43.5;0;0.2;-0.2;4;7;6;4;13;Matches
-319;Renato Sanches\Renato-Sanches;pt POR;MF;Lille;24-010;1997;1.0;51;64;79.7;1073;428;17;17;100.0;24;33;72.7;10;14;71.4;0;0.1;-0.1;2;11;2;0;12;Matches
-320;Baptiste Santamaria\Baptiste-Santamaria;fr FRA;MF;Rennes;26-172;1995;1.0;43;51;84.3;896;227;19;22;86.4;16;18;88.9;8;10;80.0;1;0.0;+1.0;1;3;2;0;5;Matches
-321;Pablo Sarabia\Pablo-Sarabia;es ESP;FW;Paris S-G;29-109;1992;0.2;13;20;65.0;202;14;9;10;90.0;3;5;60.0;1;4;25.0;0;0.0;0.0;0;0;0;0;0;Matches
-322;Téji Savanier\Teji-Savanier;fr FRA;MF;Montpellier;29-249;1991;2.0;89;120;74.2;2337;697;29;37;78.4;27;34;79.4;31;43;72.1;1;0.4;+0.6;6;16;1;0;13;Matches
-323;Alidu Seidu\Alidu-Seidu;ci CIV;FW;Clermont Foot;21-085;2000;0.1;6;8;75.0;83;0;4;6;66.7;2;2;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-324;Matz Sels\Matz-Sels;be BEL;GK;Strasbourg;29-183;1992;3.0;47;63;74.6;1264;782;10;10;100.0;21;21;100.0;16;32;50.0;0;0.0;0.0;0;0;0;0;0;Matches
-325;Mahame Siby\Mahame-Siby;fr FRA;MF;Strasbourg;25-052;1996;0.2;4;6;66.7;78;5;2;2;100.0;1;2;50.0;1;2;50.0;0;0.0;0.0;0;0;0;0;0;Matches
-326;Djibril Sidibé\Djibril-Sidibe;fr FRA;DF;Monaco;29-030;1992;1.2;95;124;76.6;1804;660;41;45;91.1;41;56;73.2;13;21;61.9;0;0.4;-0.4;1;10;3;3;8;Matches
-327;Kaj Sierhuis\Kaj-Sierhuis;nl NED;FW;Reims;23-123;1998;0.9;22;27;81.5;322;50;11;14;78.6;6;6;100.0;2;3;66.7;0;0.1;-0.1;1;1;1;0;1;Matches
-328;Caio Henrique Oliveira Silva\Caio-Henrique-Oliveira-Silva;br BRA;DF;Monaco;24-028;1997;2.2;123;148;83.1;2243;599;49;53;92.5;60;70;85.7;14;24;58.3;1;0.3;+0.7;2;3;3;2;9;Matches
-329;Moses Simon\Moses-Simon;ng NGA;FWMF;Nantes;26-047;1995;3.4;82;123;66.7;1326;371;53;62;85.5;20;29;69.0;8;28;28.6;3;2.0;+1.0;13;2;7;4;7;Matches
-330;Issouf Sissokho\Issouf-Sissokho;ml MLI;MF;Bordeaux;19-210;2002;2.9;114;130;87.7;2062;325;45;49;91.8;51;57;89.5;15;16;93.8;0;0.2;-0.2;4;4;3;1;5;Matches
-331;Ibrahima Sissoko\Ibrahima-Sissoko;fr FRA;DF;Strasbourg;23-305;1997;3.0;143;168;85.1;3309;1085;32;34;94.1;82;86;95.3;27;44;61.4;0;0.0;0.0;0;13;1;0;15;Matches
-332;Islam Slimani\Islam-Slimani;dz ALG;FW;Lyon;33-071;1988;1.3;38;50;76.0;569;50;20;27;74.1;11;14;78.6;4;5;80.0;0;0.1;-0.1;2;0;1;0;2;Matches
-333;Florian Sotoca\Florian-Sotoca;fr FRA;FW;Lens;30-307;1990;2.0;50;73;68.5;1028;261;23;34;67.6;17;22;77.3;9;13;69.2;0;0.1;-0.1;3;7;2;1;9;Matches
-334;Arnaud Souquet\Arnaud-Souquet;fr FRA;DF;Montpellier;29-197;1992;0.4;18;25;72.0;336;186;8;10;80.0;8;9;88.9;2;4;50.0;0;0.2;-0.2;2;2;1;0;3;Matches
-335;Saidou Sow\Saidou-Sow;gn GUI;DF;Saint-Étienne;19-055;2002;2.0;65;76;85.5;1298;396;24;26;92.3;31;32;96.9;10;17;58.8;0;0.0;0.0;0;2;0;0;3;Matches
-336;Waniss Taibi\Waniss-Taibi;fr FRA;MF;Angers;19-174;2002;0.9;24;28;85.7;416;65;13;15;86.7;8;8;100.0;3;5;60.0;0;0.0;0.0;0;2;0;0;1;Matches
-337;Flavien Tait\Flavien-Tait;fr FRA;MF;Rennes;28-207;1993;2.8;114;132;86.4;2252;480;45;52;86.5;46;52;88.5;22;26;84.6;1;0.4;+0.6;3;7;1;1;9;Matches
-338;Florian Tardieu\Florian-Tardieu;fr FRA;MF;Troyes;29-128;1992;3.0;167;202;82.7;3650;901;59;63;93.7;73;79;92.4;32;54;59.3;0;0.4;-0.4;6;12;5;1;13;Matches
-339;Aurélien Tchouaméni\Aurelien-Tchouameni;fr FRA;MF;Monaco;21-213;2000;2.7;187;214;87.4;3664;682;66;74;89.2;92;99;92.9;27;36;75.0;0;0.3;-0.3;1;19;1;0;12;Matches
-340;Mathys Tel\Mathys-Tel;fr FRA;FW;Rennes;16-123;2005;0.1;0;2;0.0;0;0;0;0;;0;1;0.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-341;Jordan Tell\Jordan-Tell;fr FRA;FW;Clermont Foot;24-079;1997;0.3;12;13;92.3;215;13;6;6;100.0;5;5;100.0;1;1;100.0;1;0.8;+0.2;1;1;0;0;0;Matches
-342;Martin Terrier\Martin-Terrier;fr FRA;FWMF;Rennes;24-177;1997;2.8;58;68;85.3;932;171;33;34;97.1;13;16;81.3;7;11;63.6;0;0.2;-0.2;1;5;0;0;3;Matches
-343;Sada Thioub\Sada-Thioub;sn SEN;MF;Angers;26-088;1995;0.0;2;4;50.0;15;0;2;3;66.7;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-344;Romain Thomas\Romain-Thomas;fr FRA;DF;Angers;33-077;1988;3.0;134;149;89.9;3153;1213;30;31;96.8;69;73;94.5;33;43;76.7;0;0.0;0.0;0;5;0;0;4;Matches
-345;Adrien Thomasson\Adrien-Thomasson;fr FRA;MF;Strasbourg;27-261;1993;2.5;121;154;78.6;2293;625;52;60;86.7;50;58;86.2;16;28;57.1;1;0.5;+0.5;4;17;8;4;20;Matches
-346;Thuler\Thuler;br BRA;DF;Montpellier;22-171;1999;3.0;80;94;85.1;1723;630;20;22;90.9;45;48;93.8;14;20;70.0;0;0.0;0.0;0;2;0;0;4;Matches
-347;Khéphren Thuram-Ulie\Khephren-Thuram-Ulie;fr FRA;MF;Nice;20-155;2001;1.1;66;76;86.8;1360;172;23;26;88.5;25;28;89.3;16;20;80.0;0;0.0;0.0;1;4;0;0;1;Matches
-348;Cheikh Tidiane Sabaly\Cheikh-Tidiane-Sabaly;sn SEN;FW;Metz;22-177;1999;1.4;27;29;93.1;370;80;18;19;94.7;9;9;100.0;0;1;0.0;0;0.0;0.0;1;1;1;0;2;Matches
-349;Jean-Clair Todibo\Jean-Clair-Todibo;fr FRA;DF;Nice;21-241;1999;2.0;163;177;92.1;3444;963;50;50;100.0;89;93;95.7;24;33;72.7;0;0.0;0.0;0;6;0;0;8;Matches
-350;Karl Toko Ekambi\Karl-Toko-Ekambi;cm CMR;FW;Lyon;28-348;1992;3.7;111;138;80.4;1720;349;59;68;86.8;35;43;81.4;11;17;64.7;1;0.7;+0.3;8;2;7;5;5;Matches
-351;Yoann Touzghar\Yoann-Touzghar;tn TUN;FW;Troyes;34-273;1986;2.3;31;40;77.5;443;57;19;24;79.2;9;10;90.0;2;3;66.7;0;0.0;0.0;0;1;1;0;1;Matches
-352;Amadou Traore\Amadou-Traore;fr FRA;FW;Bordeaux;19-174;2002;0.2;2;4;50.0;32;0;1;3;33.3;1;1;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
-353;Boubacar Traoré\Boubacar-Traore;ml MLI;MF;Metz;20-008;2001;0.5;20;24;83.3;374;55;7;7;100.0;11;11;100.0;2;5;40.0;0;0.0;0.0;0;0;1;0;2;Matches
-354;Charles Traore\Charles-Traore;ml MLI;DF;Nantes;29-239;1992;1.2;48;57;84.2;798;347;23;24;95.8;19;23;82.6;4;8;50.0;0;0.0;0.0;0;2;1;0;4;Matches
-355;Hamari Traoré\Hamari-Traore;ml MLI;DF;Rennes;29-213;1992;3.0;168;200;84.0;3463;1174;53;58;91.4;86;95;90.5;26;43;60.5;0;0.2;-0.2;3;10;5;0;19;Matches
-356;Ismaël Traoré\Ismael-Traore;ci CIV;DF;Angers;35-010;1986;3.0;104;119;87.4;2372;707;18;22;81.8;62;65;95.4;22;29;75.9;0;0.0;0.0;0;3;0;0;6;Matches
-357;Matthieu Udol\Matthieu-Udol;fr FRA;DF;Metz;25-161;1996;3.0;113;142;79.6;1996;811;47;54;87.0;53;59;89.8;12;24;50.0;0;0.4;-0.4;2;4;0;0;4;Matches
-358;Chimuanya Ugochukwu\Chimuanya-Ugochukwu;fr FRA;MF;Rennes;17-155;2004;2.0;100;109;91.7;2090;287;23;24;95.8;60;63;95.2;16;21;76.2;0;0.0;0.0;0;3;0;0;3;Matches
-359;Hwang Ui-jo\Hwang-Ui-jo;kr KOR;FW;Bordeaux;29-000;1992;1.9;29;33;87.9;494;36;17;17;100.0;9;9;100.0;3;4;75.0;0;0.1;-0.1;1;0;1;0;2;Matches
-360;Cengiz Ünder\Cengiz-Under;tr TUR;MFFW;Marseille;24-045;1997;1.7;79;107;73.8;1616;526;34;40;85.0;25;36;69.4;18;26;69.2;0;0.3;-0.3;7;4;9;2;12;Matches
-361;Jere Uronen\Jere-Uronen;fi FIN;DF;Brest;27-046;1994;2.8;85;107;79.4;1571;639;39;42;92.9;37;42;88.1;8;19;42.1;0;0.0;0.0;0;5;0;0;5;Matches
-362;Marco Verratti\Marco-Verratti;it ITA;MF;Paris S-G;28-296;1992;0.8;96;108;88.9;1598;364;49;53;92.5;36;40;90.0;10;13;76.9;0;0.1;-0.1;1;13;2;0;8;Matches
-363;Kevin Volland\Kevin-Volland;de GER;FWMF;Monaco;29-029;1992;2.0;38;48;79.2;760;167;11;11;100.0;23;27;85.2;4;8;50.0;0;0.1;-0.1;1;4;4;0;8;Matches
-364;Timothy Weah\Timothy-Weah;us USA;MF;Lille;21-187;2000;1.9;42;66;63.6;606;107;27;34;79.4;14;23;60.9;1;3;33.3;0;0.1;-0.1;1;0;2;1;3;Matches
-365;Georginio Wijnaldum\Georginio-Wijnaldum;nl NED;MF;Paris S-G;30-290;1990;3.0;103;115;89.6;1650;203;61;65;93.8;33;36;91.7;7;9;77.8;0;0.2;-0.2;1;4;4;0;4;Matches
-366;Christopher Wooh\Christopher-Wooh;fr FRA;DF;Lens;19-344;2001;1.9;87;100;87.0;2119;624;12;14;85.7;56;63;88.9;18;20;90.0;0;0.2;-0.2;2;7;0;0;3;Matches
-367;Xeka\Xeka;pt POR;MF;Lille;26-291;1994;1.0;41;51;80.4;670;139;23;26;88.5;14;16;87.5;4;7;57.1;0;0.4;-0.4;1;0;1;0;1;Matches
-368;Yusuf Yazıcı\Yusuf-Yazici;tr TUR;MF;Lille;24-211;1997;1.5;83;98;84.7;1849;602;24;27;88.9;34;37;91.9;21;28;75.0;1;0.3;+0.7;3;8;2;0;6;Matches
-369;Burak Yılmaz\Burak-Yilmaz;tr TUR;FW;Lille;36-044;1985;3.0;55;71;77.5;832;78;28;34;82.4;24;30;80.0;1;2;50.0;0;0.3;-0.3;3;1;3;0;5;Matches
-370;Zaydou Youssouf\Zaydou-Youssouf;fr FRA;MF;Saint-Étienne;22-048;1999;2.3;101;121;83.5;2070;423;47;53;88.7;30;36;83.3;21;26;80.8;0;0.0;0.0;1;9;2;0;12;Matches
-371;Akim Zedadka\Akim-Zedadka;fr FRA;DF;Clermont Foot;26-090;1995;3.0;127;146;87.0;2357;677;56;61;91.8;54;60;90.0;15;21;71.4;0;0.2;-0.2;4;7;5;3;11;Matches
-372;Mehdi Zerkane\Mehdi-Zerkane;dz ALG;MF;Bordeaux;22-044;1999;0.1;2;2;100.0;42;10;1;1;100.0;0;0;;1;1;100.0;0;0.0;0.0;0;0;0;0;0;Matches
-373;Banhie Zoukrou\Banhie-Zoukrou;fr FRA;DF;Troyes;18-113;2003;0.5;17;18;94.4;311;35;6;6;100.0;10;10;100.0;1;2;50.0;0;0.0;0.0;0;0;0;0;0;Matches
+1;Yunis Abdelhamid\Yunis-Abdelhamid;ma MAR;DF;Reims;34-005;1987;9.0;353;424;83.3;7833;2451;94;106;88.7;202;224;90.2;56;82;68.3;0;0.1;-0.1;2;22;2;0;25;Matches
+2;Salis Abdul Samed\Salis-Abdul-Samed;gh GHA;MF;Clermont Foot;21-191;2000;6.1;435;458;95.0;8457;1314;162;171;94.7;208;215;96.7;60;64;93.8;0;0.2;-0.2;2;16;1;0;11;Matches
+3;Laurent Abergel\Laurent-Abergel;fr FRA;MF;Lorient;28-244;1993;8.0;308;383;80.4;5925;1589;127;140;90.7;134;155;86.5;44;64;68.8;1;1.5;-0.5;9;25;6;2;36;Matches
+4;Charles Abi\Charles-Abi;fr FRA;FW;Saint-Étienne;21-174;2000;0.5;2;6;33.3;24;0;1;2;50.0;1;3;33.3;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+5;Matthis Abline\Matthis-Abline;fr FRA;FW;Rennes;18-189;2003;1.1;8;10;80.0;100;22;4;6;66.7;4;4;100.0;0;0;;0;0.0;0.0;1;1;1;0;1;Matches
+6;Yacine Adli\Yacine-Adli;fr FRA;MFFW;Bordeaux;21-066;2000;4.5;163;226;72.1;3781;1046;60;69;87.0;56;71;78.9;45;77;58.4;2;1.8;+0.2;15;23;6;2;20;Matches
+7;Lucien Agoume\Lucien-Agoume;fr FRA;MF;Brest;19-236;2002;4.3;185;206;89.8;3895;822;59;64;92.2;81;87;93.1;44;50;88.0;0;0.1;-0.1;3;11;5;0;15;Matches
+8;Nayef Aguerd\Nayef-Aguerd;ma MAR;DF;Rennes;25-187;1996;8.0;567;609;93.1;12527;3759;140;145;96.6;317;325;97.5;109;134;81.3;0;0.0;0.0;0;17;0;0;18;Matches
+9;Ruben Aguilar\Ruben-Aguilar;fr FRA;DF;Monaco;28-160;1993;4.0;324;362;89.5;6023;2004;143;153;93.5;148;161;91.9;31;43;72.1;0;0.2;-0.2;3;31;6;2;31;Matches
+10;Cheikh Ahmadou Dieng\Cheikh-Ahmadou-Dieng;sn SEN;FWMF;Marseille;21-194;2000;3.3;38;48;79.2;531;109;20;24;83.3;13;15;86.7;1;3;33.3;0;0.0;0.0;0;1;0;0;3;Matches
+11;Jean-Eudes Aholou\Jean-Eudes-Aholou;ci CIV;MF;Strasbourg;27-197;1994;3.3;105;121;86.8;1751;256;43;47;91.5;51;56;91.1;9;16;56.3;0;0.2;-0.2;1;4;1;0;7;Matches
+12;Ludovic Ajorque\Ludovic-Ajorque;re REU;FW;Strasbourg;27-220;1994;7.9;180;250;72.0;2784;366;101;126;80.2;51;73;69.9;15;25;60.0;5;0.8;+4.2;7;10;8;2;14;Matches
+13;Sofiane Alakouch\Sofiane-Alakouch;fr FRA;DFMF;Metz;23-066;1998;1.2;65;81;80.2;956;326;37;39;94.9;25;31;80.6;1;3;33.3;0;0.0;0.0;1;4;0;0;4;Matches
+14;Mohamed Ali Cho\Mohamed-Ali-Cho;fr FRA;FW;Angers;17-257;2004;6.6;73;101;72.3;878;146;48;56;85.7;17;24;70.8;1;9;11.1;0;0.3;-0.3;3;2;3;1;4;Matches
+15;Jim Allevinah\Jim-Allevinah;ga GAB;FW;Clermont Foot;26-218;1995;4.7;117;148;79.1;1871;283;66;80;82.5;39;46;84.8;8;13;61.5;0;0.2;-0.2;4;5;4;1;9;Matches
+16;Jordan Amavi\Jordan-Amavi;fr FRA;DF;Marseille;27-208;1994;0.6;45;51;88.2;797;202;21;23;91.3;20;21;95.2;4;5;80.0;0;0.0;0.0;0;3;0;0;2;Matches
+17;Benjamin André\Benjamin-Andre;fr FRA;MF;Lille;31-061;1990;8.0;418;503;83.1;7593;1950;185;214;86.4;154;177;87.0;57;78;73.1;0;0.5;-0.5;5;42;8;1;45;Matches
+18;Houssem Aouar\Houssem-Aouar;fr FRA;MFFW;Lyon;23-095;1998;6.2;264;298;88.6;4090;1133;153;163;93.9;81;89;91.0;19;28;67.9;2;1.8;+0.2;7;30;7;1;24;Matches
+19;Adil Aouchiche\Adil-Aouchiche;fr FRA;FWMF;Saint-Étienne;19-080;2002;2.3;89;131;67.9;1630;448;46;58;79.3;22;32;68.8;15;31;48.4;1;0.2;+0.8;2;7;1;0;5;Matches
+20;Dennis Appiah\Dennis-Appiah;fr FRA;DF;Nantes;29-116;1992;2.8;65;102;63.7;1159;752;34;40;85.0;20;34;58.8;10;21;47.6;0;0.2;-0.2;1;3;1;1;3;Matches
+21;Lorenz Assignon\Lorenz-Assignon;tg TOG;DF;Rennes;21-103;2000;1.4;75;86;87.2;1416;269;33;37;89.2;31;33;93.9;9;12;75.0;0;0.0;0.0;0;4;0;0;5;Matches
+22;Youcef Attal\Youcef-Attal;dz ALG;DF;Nice;25-139;1996;4.0;186;243;76.5;3136;1369;92;102;90.2;74;89;83.1;17;38;44.7;0;0.2;-0.2;3;12;5;1;15;Matches
+23;Karim Azamoum\Karim-Azamoum;fr FRA;DF;Troyes;31-259;1990;4.3;108;145;74.5;2155;843;38;43;88.4;53;65;81.5;16;34;47.1;0;0.0;0.0;0;2;0;0;3;Matches
+24;Loïc Bade\Loic-Bade;fr FRA;DFMF;Rennes;21-175;2000;4.4;263;278;94.6;6167;1601;57;58;98.3;147;152;96.7;59;68;86.8;0;0.1;-0.1;1;11;1;1;13;Matches
+25;Benoît Badiashile\Benoit-Badiashile;fr FRA;DF;Monaco;20-191;2001;4.9;378;420;90.0;7805;2437;103;109;94.5;224;237;94.5;49;71;69.0;0;0.0;0.0;0;39;1;0;32;Matches
+26;Youssouph Badji\Youssouph-Badji;sn SEN;FW;Brest;19-287;2001;1.4;17;26;65.4;191;33;12;16;75.0;4;8;50.0;0;0;;0;0.1;-0.1;1;2;0;0;0;Matches
+27;Stéphane Bahoken\Stephane-Bahoken;cm CMR;FW;Angers;29-128;1992;2.0;25;27;92.6;341;41;15;16;93.8;7;8;87.5;2;2;100.0;0;0.0;0.0;1;0;1;1;0;Matches
+28;Dénys Bain\Denys-Bain;fr FRA;DF;Brest;28-093;1993;1.0;25;26;96.2;560;205;3;4;75.0;18;18;100.0;4;4;100.0;0;0.0;0.0;0;0;0;0;1;Matches
+29;Stefan Bajic\Stefan-Bajic;fr FRA;GK;Saint-Étienne;19-284;2001;1.6;28;48;58.3;831;613;9;9;100.0;10;10;100.0;9;29;31.0;0;0.0;0.0;0;0;0;0;0;Matches
+30;Leonardo Balerdi\Leonardo-Balerdi;ar ARG;DF;Marseille;22-250;1999;6.0;440;480;91.7;9105;2412;148;154;96.1;222;231;96.1;68;88;77.3;0;0.0;0.0;1;22;0;0;11;Matches
+31;Jonathan Bamba\Jonathan-Bamba;fr FRA;MF;Lille;25-191;1996;2.8;118;145;81.4;2111;599;64;75;85.3;37;41;90.2;15;20;75.0;0;0.6;-0.6;6;9;2;0;12;Matches
+32;Simon Banza\Simon-Banza;fr FRA;FW;Lens;25-051;1996;1.4;20;29;69.0;369;77;11;16;68.8;6;7;85.7;2;4;50.0;1;0.6;+0.4;2;2;0;0;1;Matches
+33;Melvin Bard\Melvin-Bard;fr FRA;DF;Nice;20-331;2000;7.1;375;450;83.3;6666;2662;167;176;94.9;164;193;85.0;39;68;57.4;1;1.0;0.0;6;28;5;1;35;Matches
+34;Toma Bašić\Toma-Basic;hr CRO;MF;Bordeaux;24-312;1996;2.3;74;101;73.3;1460;379;29;32;90.6;33;38;86.8;11;28;39.3;1;0.6;+0.4;5;9;1;1;5;Matches
+35;Amine Bassi\Amine-Bassi;fr FRA;MF;Metz;23-310;1997;0.7;19;27;70.4;309;116;10;12;83.3;8;9;88.9;1;6;16.7;0;0.1;-0.1;2;1;0;0;1;Matches
+36;Mohamed Bayo\Mohamed-Bayo;gn GUI;FW;Clermont Foot;23-121;1998;6.1;97;131;74.0;1532;207;52;65;80.0;33;46;71.7;9;9;100.0;2;1.2;+0.8;7;9;2;0;9;Matches
+37;Haris Belkebla\Haris-Belkebla;dz ALG;MF;Brest;27-248;1994;4.6;127;157;80.9;2273;338;53;61;86.9;57;66;86.4;14;21;66.7;0;0.0;0.0;0;4;0;0;6;Matches
+38;Jean-Ricner Bellegarde\Jean-Ricner-Bellegarde;fr FRA;MF;Strasbourg;23-098;1998;7.8;253;315;80.3;4320;884;125;135;92.6;103;127;81.1;22;41;53.7;0;0.3;-0.3;6;17;5;1;23;Matches
+39;Wissam Ben Yedder\Wissam-Ben-Yedder;fr FRA;FW;Monaco;31-052;1990;5.4;103;147;70.1;1582;273;54;71;76.1;35;51;68.6;10;18;55.6;1;0.9;+0.1;3;8;5;0;10;Matches
+40;Darío Benedetto\Dario-Benedetto;ar ARG;FWMF;Marseille;31-139;1990;0.6;10;11;90.9;160;35;6;7;85.7;3;3;100.0;1;1;100.0;0;0.0;0.0;1;0;0;0;1;Matches
+41;Walter Benítez\Walter-Benitez;ar ARG;GK;Nice;28-198;1993;8.0;133;194;68.6;4126;2795;29;29;100.0;49;50;98.0;54;114;47.4;0;0.0;0.0;0;0;0;0;0;Matches
+42;Loris Benito\Loris-Benito;ch SUI;DF;Bordeaux;29-269;1992;0.7;42;53;79.2;836;259;14;18;77.8;20;21;95.2;7;12;58.3;0;0.0;0.0;0;0;0;0;4;Matches
+43;Mitchell van Bergen\Mitchell-van-Bergen;nl NED;FW;Reims;22-037;1999;3.9;65;87;74.7;981;244;38;43;88.4;17;21;81.0;9;16;56.3;0;0.1;-0.1;3;0;3;0;5;Matches
+44;Valon Berisha\Valon-Berisha;xk KVX;MFFW;Reims;28-238;1993;1.6;55;79;69.6;1060;339;25;32;78.1;18;20;90.0;9;24;37.5;0;0.3;-0.3;4;3;1;1;7;Matches
+45;Paul Bernardoni\Paul-Bernardoni;fr FRA;GK;Angers;24-168;1997;8.0;161;194;83.0;4625;2343;28;28;100.0;71;74;95.9;61;91;67.0;0;0.0;0.0;0;0;0;0;0;Matches
+46;Dimitry Bertaud\Dimitry-Bertaud;fr FRA;GK;Montpellier;23-119;1998;5.0;122;169;72.2;4015;2810;26;26;100.0;46;46;100.0;50;97;51.5;0;0.0;0.0;0;1;1;0;0;Matches
+47;Jason Berthomier\Jason-Berthomier;fr FRA;MF;Clermont Foot;31-270;1990;5.6;372;456;81.6;6592;1728;195;212;92.0;130;151;86.1;43;80;53.8;2;1.6;+0.4;17;29;8;2;33;Matches
+48;Giulian Biancone\Giulian-Biancone;fr FRA;DF;Troyes;21-186;2000;6.0;199;260;76.5;3774;1542;77;94;81.9;90;109;82.6;27;45;60.0;1;0.2;+0.8;4;8;6;5;13;Matches
+49;El Bilal Touré\El-Bilal-Toure;ml MLI;FW;Reims;20-000;2001;2.6;42;62;67.7;656;85;22;29;75.9;19;24;79.2;1;4;25.0;0;0.3;-0.3;5;2;2;1;2;Matches
+50;Jean-Claude Billong\Jean-Claude-Billong;cm CMR;DF;Clermont Foot;27-279;1993;1.2;43;50;86.0;828;285;15;16;93.8;22;26;84.6;5;5;100.0;0;0.0;0.0;0;1;0;0;0;Matches
+51;Nathan Bitumazala\Nathan-Bitumazala;fr FRA;DF;Paris S-G;18-297;2002;0.1;10;10;100.0;129;28;7;7;100.0;3;3;100.0;0;0;;0;0.0;0.0;0;0;0;0;1;Matches
+52;Marco Bizot\Marco-Bizot;nl NED;GK;Brest;30-207;1991;9.0;212;286;74.1;7063;4682;22;22;100.0;108;109;99.1;82;155;52.9;0;0.1;-0.1;1;3;0;0;0;Matches
+53;Ludovic Blas\Ludovic-Blas;fr FRA;MFFW;Nantes;23-276;1997;7.7;163;213;76.5;3309;663;61;73;83.6;73;92;79.3;27;33;81.8;0;0.5;-0.5;9;20;9;3;14;Matches
+54;Myron Boadu\Myron-Boadu;nl NED;FW;Monaco;20-262;2001;2.9;40;46;87.0;522;78;25;28;89.3;12;12;100.0;1;2;50.0;1;0.1;+0.9;1;0;1;0;2;Matches
+55;Jérôme Boateng\Jerome-Boateng;de GER;DF;Lyon;33-030;1988;1.8;70;84;83.3;1638;419;16;17;94.1;37;41;90.2;17;25;68.0;0;0.0;0.0;0;4;1;0;3;Matches
+56;Antonin Bobichon\Antonin-Bobichon;fr FRA;MF;Angers;26-019;1995;0.1;2;2;100.0;25;13;1;1;100.0;1;1;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+57;Quentin Boisgard\Quentin-Boisgard;fr FRA;MF;Lorient;24-200;1997;0.4;14;18;77.8;220;61;7;7;100.0;7;8;87.5;0;2;0.0;0;0.0;0.0;1;1;0;0;2;Matches
+58;Sven Botman\Sven-Botman;nl NED;DF;Lille;21-264;2000;8.0;442;501;88.2;9755;3027;141;151;93.4;194;211;91.9;104;127;81.9;0;0.0;0.0;1;31;1;0;21;Matches
+59;Denis Bouanga\Denis-Bouanga;ga GAB;FWMF;Saint-Étienne;26-326;1994;6.6;152;216;70.4;2591;876;88;102;86.3;38;60;63.3;17;35;48.6;0;0.7;-0.7;9;10;7;3;22;Matches
+60;Hicham Boudaoui\Hicham-Boudaoui;dz ALG;MF;Nice;22-010;1999;4.1;83;116;71.6;1194;203;44;55;80.0;28;40;70.0;4;8;50.0;1;1.0;0.0;2;5;1;1;4;Matches
+61;Ryad Boudebouz\Ryad-Boudebouz;dz ALG;MF;Saint-Étienne;31-226;1990;0.7;37;50;74.0;545;83;24;25;96.0;7;13;53.8;4;8;50.0;0;0.1;-0.1;1;3;0;0;1;Matches
+62;Sofiane Boufal\Sofiane-Boufal;ma MAR;FWMF;Angers;28-016;1993;5.3;169;220;76.8;3019;959;74;84;88.1;59;69;85.5;24;48;50.0;0;0.9;-0.9;10;14;6;2;17;Matches
+63;Farid Boulaya\Farid-Boulaya;dz ALG;MF;Metz;28-220;1993;0.5;9;14;64.3;157;61;5;6;83.3;3;5;60.0;1;3;33.3;0;0.0;0.0;0;0;1;0;1;Matches
+64;Ismaëlben Boura\Ismaelben-Boura;fr FRA;DF;Lens;21-050;2000;1.1;60;72;83.3;1029;382;27;29;93.1;23;26;88.5;7;14;50.0;0;0.0;0.0;0;2;1;0;2;Matches
+65;Benjamin Bourigeaud\Benjamin-Bourigeaud;fr FRA;MFFW;Rennes;27-262;1994;7.5;253;371;68.2;5390;2007;90;111;81.1;102;126;81.0;56;116;48.3;2;2.4;-0.4;25;24;18;4;45;Matches
+66;Redwan Bourles\Redwan-Bourles;fr FRA;MF;Lorient;18-274;2003;0.1;0;1;0.0;0;0;0;1;0.0;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+67;Domagoj Bradarić\Domagoj-Bradaric;hr CRO;DFMF;Lille;21-297;1999;0.3;9;12;75.0;176;38;5;6;83.3;2;2;100.0;2;3;66.7;0;0.1;-0.1;1;0;0;0;1;Matches
+68;Bilal Brahimi\Bilal-Brahimi;fr FRA;FW;Angers;21-203;2000;0.3;5;10;50.0;69;4;2;3;66.7;3;5;60.0;0;0;;0;0.0;0.0;1;0;0;0;0;Matches
+69;Lilian Brassier\Lilian-Brassier;fr FRA;DF;Brest;21-335;1999;8.0;344;400;86.0;8893;2812;64;72;88.9;166;179;92.7;110;141;78.0;0;0.2;-0.2;3;30;5;1;24;Matches
+70;Jimmy Briand\Jimmy-Briand;fr FRA;FW;Bordeaux;36-062;1985;1.0;20;22;90.9;264;34;11;12;91.7;7;8;87.5;0;0;;0;0.0;0.0;1;1;0;0;1;Matches
+71;Dylan Bronn\Dylan-Bronn;tn TUN;DF;Metz;26-106;1995;7.0;298;358;83.2;6707;2322;74;83;89.2;165;178;92.7;55;87;63.2;0;0.0;0.0;0;24;1;0;29;Matches
+72;Osman Bukari\Osman-Bukari;gh GHA;FWMF;Nantes;22-294;1998;2.8;49;69;71.0;592;135;31;38;81.6;15;23;65.2;0;3;0.0;0;0.4;-0.4;3;1;2;1;5;Matches
+73;Oriol Busquets\Oriol-Busquets;es ESP;MF;Clermont Foot;22-256;1999;0.7;34;38;89.5;626;138;14;15;93.3;14;16;87.5;6;7;85.7;0;0.0;0.0;0;1;0;0;0;Matches
+74;Jimmy Cabot\Jimmy-Cabot;fr FRA;DF;Angers;27-168;1994;8.0;373;472;79.0;7183;1842;155;176;88.1;168;204;82.4;48;78;61.5;2;1.0;+1.0;8;20;9;3;28;Matches
+75;Anthony Caci\Anthony-Caci;fr FRA;DF;Strasbourg;24-094;1997;6.8;383;468;81.8;7555;2456;144;164;87.8;177;206;85.9;56;85;65.9;1;0.9;+0.1;5;21;9;3;40;Matches
+76;Mathieu Cafaro\Mathieu-Cafaro;fr FRA;FWMF;Reims;24-192;1997;1.8;32;62;51.6;629;223;12;18;66.7;15;26;57.7;5;18;27.8;0;0.3;-0.3;2;0;5;2;4;Matches
+77;Yannick Cahuzac\Yannick-Cahuzac;fr FRA;MF;Lens;36-258;1985;3.3;119;136;87.5;1971;347;58;63;92.1;50;53;94.3;10;15;66.7;0;0.0;0.0;0;6;1;0;8;Matches
+78;Duje Ćaleta-Car\Duje-Caleta-Car;hr CRO;DF;Marseille;25-016;1996;1.0;80;88;90.9;1784;456;20;20;100.0;48;50;96.0;11;16;68.8;0;0.0;0.0;0;1;0;0;1;Matches
+79;Mahdi Camara\Mahdi-Camara;fr FRA;MF;Saint-Étienne;23-095;1998;7.4;279;333;83.8;4238;1077;155;172;90.1;95;114;83.3;16;28;57.1;0;0.1;-0.1;6;24;2;1;14;Matches
+80;Eduardo Camavinga\Eduardo-Camavinga;fr FRA;MF;Rennes;18-327;2002;1.6;68;75;90.7;1471;238;20;26;76.9;33;34;97.1;14;14;100.0;0;0.0;0.0;1;5;1;0;3;Matches
+81;Pierrick Capelle\Pierrick-Capelle;fr FRA;MFDF;Angers;34-171;1987;2.7;114;125;91.2;2332;454;39;45;86.7;54;56;96.4;20;22;90.9;0;0.1;-0.1;2;13;0;0;6;Matches
+82;Maxence Caqueret\Maxence-Caqueret;fr FRA;MF;Lyon;21-230;2000;6.3;316;361;87.5;5523;1374;147;169;87.0;124;132;93.9;34;43;79.1;0;0.4;-0.4;7;36;2;0;27;Matches
+83;Irvin Cardona\Irvin-Cardona;fr FRA;FW;Brest;24-056;1997;6.4;90;128;70.3;1323;259;52;63;82.5;31;41;75.6;5;17;29.4;0;0.1;-0.1;2;4;1;0;3;Matches
+84;Igor Carioca\Igor-Carioca;br BRA;DF;Lorient;25-043;1996;6.7;204;271;75.3;3645;1329;91;105;86.7;97;125;77.6;14;30;46.7;0;0.8;-0.8;4;10;1;1;17;Matches
+85;Moreto Cassamã\Moreto-Cassama;gw GNB;MF;Reims;23-229;1998;2.4;106;134;79.1;2076;493;40;49;81.6;50;53;94.3;15;25;60.0;0;0.1;-0.1;2;7;1;0;12;Matches
+86;Jean-Charles Castelletto\Jean-Charles-Castelletto;cm CMR;DF;Nantes;26-250;1995;7.0;226;267;84.6;4836;1713;66;71;93.0;121;133;91.0;38;59;64.4;0;0.0;0.0;1;16;0;0;17;Matches
+87;Zeki Çelik\Zeki-Celik;tr TUR;DF;Lille;24-228;1997;4.7;241;302;79.8;4687;1562;101;114;88.6;98;120;81.7;37;58;63.8;0;0.0;0.0;1;23;3;1;21;Matches
+88;Fabien Centonze\Fabien-Centonze;fr FRA;DF;Metz;25-260;1996;7.0;278;331;84.0;4525;1787;138;152;90.8;114;132;86.4;19;33;57.6;0;0.1;-0.1;5;15;4;2;16;Matches
+89;Leonardo César Jardim\Leonardo-Cesar-Jardim;br BRA;GK;Lille;26-197;1995;2.0;44;52;84.6;1109;607;10;10;100.0;21;21;100.0;13;21;61.9;0;0.0;0.0;0;1;0;0;0;Matches
+90;Nassim Chadli\Nassim-Chadli;fr FRA;DF;Troyes;20-067;2001;0.1;1;5;20.0;10;9;1;1;100.0;0;1;0.0;0;2;0.0;0;0.0;0.0;0;0;0;0;0;Matches
+91;Mehdi Chahiri\Mehdi-Chahiri;ma MAR;MF;Strasbourg;25-070;1996;0.2;3;7;42.9;53;22;2;3;66.7;1;4;25.0;0;0;;0;0.0;0.0;0;0;0;0;1;Matches
+92;Dylan Chambost\Dylan-Chambost;fr FRA;FWMF;Troyes;24-045;1997;2.8;95;122;77.9;1627;363;50;56;89.3;33;39;84.6;9;16;56.3;1;0.3;+0.7;3;3;2;2;7;Matches
+93;Brendan Chardonnet\Brendan-Chardonnet;fr FRA;DF;Brest;26-285;1994;8.0;317;367;86.4;8046;3057;52;55;94.5;171;179;95.5;91;125;72.8;0;0.0;0.0;2;33;1;0;20;Matches
+94;Xavier Chavalerin\Xavier-Chavalerin;fr FRA;MFDF;Reims;30-210;1991;2.4;80;98;81.6;1484;483;37;41;90.2;29;35;82.9;10;15;66.7;0;0.1;-0.1;3;2;3;1;6;Matches
+95;Xavier Chavalerin\Xavier-Chavalerin;fr FRA;MFFW;Troyes;30-210;1991;4.0;110;136;80.9;2209;715;41;47;87.2;47;51;92.2;20;34;58.8;1;0.4;+0.6;1;13;4;1;12;Matches
+96;Rayan Cherki\Rayan-Cherki;fr FRA;FW;Lyon;18-047;2003;1.2;54;70;77.1;815;173;29;33;87.9;19;22;86.4;3;10;30.0;0;0.2;-0.2;3;2;0;0;3;Matches
+97;Pedro Chirivella\Pedro-Chirivella;es ESP;MF;Nantes;24-133;1997;6.8;271;339;79.9;5531;1373;99;111;89.2;116;132;87.9;50;84;59.5;1;0.4;+0.6;6;40;3;2;30;Matches
+98;Joris Chotard\Joris-Chotard;fr FRA;MF;Montpellier;20-009;2001;6.7;209;247;84.6;4161;1088;90;99;90.9;70;82;85.4;44;57;77.2;0;0.0;0.0;0;14;6;1;18;Matches
+99;Jonathan Clauss\Jonathan-Clauss;fr FRA;DF;Lens;29-008;1992;8.0;296;419;70.6;5781;2678;134;150;89.3;112;147;76.2;46;108;42.6;3;1.8;+1.2;18;14;11;3;38;Matches
+100;Marcus Coco\Marcus-Coco;fr FRA;FWMF;Nantes;25-101;1996;2.5;49;67;73.1;672;151;30;34;88.2;14;19;73.7;3;8;37.5;0;0.2;-0.2;1;4;1;0;4;Matches
+101;Sébastien Corchia\Sebastien-Corchia;fr FRA;DF;Nantes;30-336;1990;5.1;127;195;65.1;2343;1318;53;63;84.1;61;86;70.9;12;35;34.3;1;0.2;+0.8;3;11;2;1;14;Matches
+102;Maxwel Cornet\Maxwel-Cornet;ci CIV;DFMF;Lyon;25-006;1996;0.7;33;40;82.5;527;167;17;19;89.5;14;15;93.3;1;5;20.0;0;0.1;-0.1;1;1;1;1;0;Matches
+103;David Pereira da Costa\David-Pereira-da-Costa;pt POR;FWMF;Lens;20-271;2001;1.1;47;61;77.0;718;122;27;30;90.0;18;19;94.7;2;11;18.2;0;0.1;-0.1;2;5;1;0;3;Matches
+104;Benoît Costil\Benoit-Costil;fr FRA;GK;Bordeaux;34-092;1987;8.0;147;241;61.0;5445;3605;25;25;100.0;45;45;100.0;77;171;45.0;0;0.0;0.0;0;4;0;0;1;Matches
+105;Kalifa Coulibaly\Kalifa-Coulibaly;ml MLI;FW;Nantes;30-043;1991;1.0;14;28;50.0;152;15;11;18;61.1;1;4;25.0;1;2;50.0;0;0.0;0.0;1;1;0;0;0;Matches
+106;Nicolas Cozza\Nicolas-Cozza;fr FRA;DF;Montpellier;22-268;1999;8.0;291;368;79.1;5337;1991;105;120;87.5;149;173;86.1;27;51;52.9;1;0.1;+0.9;4;19;7;3;31;Matches
+107;Wylan Cyprien\Wylan-Cyprien;fr FRA;MF;Nantes;26-248;1995;1.6;65;78;83.3;1343;433;23;24;95.8;22;26;84.6;17;24;70.8;0;0.2;-0.2;5;9;0;0;5;Matches
+108;Lucas Da Cunha\Lucas-Da-Cunha;fr FRA;MF;Nice;20-116;2001;1.0;31;38;81.6;522;132;18;20;90.0;8;11;72.7;4;5;80.0;1;0.8;+0.2;2;0;1;1;3;Matches
+109;Damien Da Silva\Damien-Da-Silva;fr FRA;DF;Lyon;33-139;1988;2.0;155;166;93.4;3401;1119;39;39;100.0;87;90;96.7;29;37;78.4;0;0.0;0.0;0;8;0;0;7;Matches
+110;Flavius Daniliuc\Flavius-Daniliuc;at AUT;DF;Nice;20-159;2001;2.5;106;125;84.8;2177;811;30;33;90.9;56;63;88.9;19;27;70.4;0;0.0;0.0;0;10;0;0;5;Matches
+111;Kevin Danso\Kevin-Danso;at AUT;DF;Lens;23-014;1998;5.6;279;310;90.0;6169;1887;61;65;93.8;164;173;94.8;53;71;74.6;0;0.0;0.0;0;11;1;0;7;Matches
+112;Dante\Dante;br BRA;DF;Nice;37-350;1983;8.0;524;575;91.1;11507;3303;137;144;95.1;304;319;95.3;83;109;76.1;0;0.0;0.0;0;20;1;0;20;Matches
+113;Jonathan David\Jonathan-David;ca CAN;FW;Lille;21-262;2000;6.1;116;137;84.7;1728;353;67;75;89.3;34;42;81.0;9;9;100.0;0;0.9;-0.9;8;11;4;0;16;Matches
+114;Konrad De La Fuente\Konrad-De-La-Fuente;us USA;DFFW;Marseille;20-079;2001;4.2;99;124;79.8;1624;332;53;57;93.0;39;47;83.0;7;13;53.8;2;1.3;+0.7;9;4;6;3;8;Matches
+115;Kamal Deen Sulemana\Kamal-Deen-Sulemana;gh GHA;FWMF;Rennes;19-230;2002;4.9;114;136;83.8;2166;551;57;64;89.1;40;46;87.0;16;21;76.2;0;0.5;-0.5;8;6;6;1;18;Matches
+116;Romain Del Castillo\Romain-Del-Castillo;fr FRA;MFFW;Rennes;25-188;1996;0.3;11;15;73.3;238;91;4;5;80.0;2;3;66.7;5;6;83.3;0;0.1;-0.1;1;1;2;0;2;Matches
+117;Romain Del Castillo\Romain-Del-Castillo;fr FRA;FW;Brest;25-188;1996;1.5;48;69;69.6;699;204;33;43;76.7;11;15;73.3;3;6;50.0;0;0.4;-0.4;3;4;2;0;4;Matches
+118;Thomas Delaine\Thomas-Delaine;fr FRA;DF;Metz;29-193;1992;2.7;111;143;77.6;1825;639;49;54;90.7;55;67;82.1;6;19;31.6;1;0.8;+0.2;7;5;7;5;10;Matches
+119;Andy Delort\Andy-Delort;dz ALG;FW;Montpellier;29-359;1991;3.0;56;96;58.3;1037;258;30;43;69.8;18;30;60.0;8;13;61.5;1;0.7;+0.3;9;2;6;2;5;Matches
+120;Andy Delort\Andy-Delort;dz ALG;FW;Nice;29-359;1991;4.0;74;111;66.7;961;254;41;55;74.5;25;41;61.0;2;5;40.0;1;2.1;-1.1;9;4;6;0;11;Matches
+121;Moussa Dembélé\Moussa-Dembele;fr FRA;FW;Lyon;25-083;1996;5.2;61;85;71.8;803;127;29;36;80.6;17;20;85.0;4;11;36.4;1;1.0;0.0;6;5;2;0;3;Matches
+122;Jason Denayer\Jason-Denayer;be BEL;DF;Lyon;26-097;1995;3.4;202;211;95.7;4796;1233;42;45;93.3;105;106;99.1;53;58;91.4;0;0.0;0.0;0;6;0;0;3;Matches
+123;Arthur Desmas\Arthur-Desmas;fr FRA;GK;Clermont Foot;27-179;1994;8.0;169;209;80.9;3977;2310;50;50;100.0;66;67;98.5;49;88;55.7;0;0.0;0.0;0;3;0;0;1;Matches
+124;Ángel Di María\Angel-Di-Maria;ar ARG;FW;Paris S-G;33-231;1988;3.2;115;170;67.6;1844;518;69;83;83.1;32;47;68.1;11;29;37.9;2;1.0;+1.0;8;10;7;1;15;Matches
+125;Abdou Diallo\Abdou-Diallo;sn SEN;DF;Paris S-G;25-152;1996;5.8;367;407;90.2;6315;2221;175;186;94.1;160;174;92.0;28;40;70.0;1;0.6;+0.4;4;22;8;3;39;Matches
+126;Habib Diallo\Habib-Diallo;sn SEN;FW;Strasbourg;26-107;1995;4.5;66;93;71.0;983;210;44;53;83.0;16;25;64.0;5;8;62.5;0;0.6;-0.6;2;3;4;2;6;Matches
+127;Stéphane Diarra\Stephane-Diarra;fr FRA;MF;Lorient;22-298;1998;0.6;18;27;66.7;408;93;8;8;100.0;7;11;63.6;3;6;50.0;0;0.0;0.0;0;0;1;0;1;Matches
+128;Krepin Diatta\Krepin-Diatta;sn SEN;MFDF;Monaco;22-220;1999;2.1;58;70;82.9;834;262;37;39;94.9;17;23;73.9;3;3;100.0;0;0.1;-0.1;2;5;1;0;10;Matches
+129;Javairô Dilrosun\Javairo-Dilrosun;nl NED;FWMF;Bordeaux;23-103;1998;2.4;53;65;81.5;755;218;34;37;91.9;12;18;66.7;5;6;83.3;0;0.2;-0.2;4;3;4;1;6;Matches
+130;Junior Dina Ebimbe\Junior-Dina-Ebimbe;fr FRA;MF;Paris S-G;20-316;2000;1.0;87;94;92.6;1650;237;38;41;92.7;39;39;100.0;10;13;76.9;0;0.0;0.0;0;10;1;0;1;Matches
+131;Tristan Dingomé\Tristan-Dingome;cm CMR;MFFW;Troyes;30-228;1991;1.1;44;55;80.0;765;214;21;25;84.0;17;21;81.0;4;5;80.0;1;0.2;+0.8;2;5;1;0;7;Matches
+132;Sinaly Diomande\Sinaly-Diomande;ci CIV;DF;Lyon;20-177;2001;5.3;384;408;94.1;8942;2587;85;89;95.5;214;221;96.8;84;97;86.6;0;0.0;0.0;1;13;0;0;18;Matches
+133;Sofiane Diop\Sofiane-Diop;fr FRA;MFFW;Monaco;21-116;2000;6.1;181;243;74.5;3170;933;91;110;82.7;63;77;81.8;21;38;55.3;0;0.4;-0.4;6;16;6;1;23;Matches
+134;Andy Diouf\Andy-Diouf;fr FRA;MF;Rennes;19-139;2002;0.1;2;2;100.0;38;5;0;0;;2;2;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+135;Assane Dioussé\Assane-Diousse;sn SEN;MF;Saint-Étienne;24-013;1997;0.1;27;29;93.1;501;97;9;9;100.0;12;12;100.0;4;6;66.7;0;0.0;0.0;0;3;0;0;0;Matches
+136;Axel Disasi\Axel-Disasi;fr FRA;DF;Monaco;23-206;1998;6.1;443;491;90.2;9734;2742;99;105;94.3;271;284;95.4;72;95;75.8;0;0.1;-0.1;1;33;2;0;33;Matches
+137;Tiago Djaló\Tiago-Djalo;pt POR;DF;Lille;21-177;2000;3.3;191;227;84.1;3342;1424;88;97;90.7;83;90;92.2;18;31;58.1;0;0.0;0.0;0;13;0;0;16;Matches
+138;Alexander Djiku\Alexander-Djiku;gh GHA;DF;Strasbourg;27-055;1994;7.5;287;332;86.4;6506;2495;76;81;93.8;154;166;92.8;53;78;67.9;0;0.1;-0.1;1;20;2;2;25;Matches
+139;Bryan Djile Nokoué\Bryan-Djile-Nokoue;cm CMR;DFMF;Saint-Étienne;19-133;2002;0.6;22;29;75.9;435;125;8;9;88.9;11;12;91.7;3;6;50.0;0;0.0;0.0;0;1;0;0;1;Matches
+140;Jeremy Doku\Jeremy-Doku;be BEL;FW;Rennes;19-129;2002;1.7;25;33;75.8;390;76;16;21;76.2;7;9;77.8;2;2;100.0;0;0.1;-0.1;2;0;3;0;5;Matches
+141;Kasper Dolberg\Kasper-Dolberg;dk DEN;FW;Nice;23-362;1997;2.3;24;40;60.0;380;75;16;23;69.6;6;11;54.5;2;2;100.0;0;0.0;0.0;1;1;3;0;4;Matches
+142;Brandon Domingues\Brandon-Domingues;fr FRA;FWMF;Troyes;21-119;2000;0.6;10;17;58.8;216;64;0;2;0.0;8;11;72.7;1;2;50.0;0;0.1;-0.1;2;0;0;0;2;Matches
+143;Anastasios Donis\Anastasios-Donis;gr GRE;FW;Reims;25-035;1996;0.3;1;4;25.0;12;0;1;1;100.0;0;3;0.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+144;Gianluigi Donnarumma\Gianluigi-Donnarumma;it ITA;GK;Paris S-G;22-220;1999;2.0;58;62;93.5;1105;473;21;21;100.0;27;28;96.4;9;12;75.0;0;0.0;0.0;0;0;0;0;0;Matches
+145;Jodel Dossou\Jodel-Dossou;bj BEN;FW;Clermont Foot;29-200;1992;6.3;122;164;74.4;1891;458;66;79;83.5;47;58;81.0;6;12;50.0;0;1.0;-1.0;7;7;8;3;16;Matches
+146;Lucas Douath\Lucas-Douath;fr FRA;MFDF;Saint-Étienne;18-059;2003;2.0;75;85;88.2;1343;462;30;33;90.9;26;30;86.7;12;14;85.7;0;0.0;0.0;0;8;0;0;5;Matches
+147;Cheick Doucouré\Cheick-Doucoure;ml MLI;MF;Lens;21-268;2000;6.6;283;327;86.5;5400;1133;113;125;90.4;136;148;91.9;34;45;75.6;0;0.5;-0.5;5;25;1;0;26;Matches
+148;Fodé Doucouré\Fode-Doucoure;ml MLI;DF;Reims;20-242;2001;0.2;12;16;75.0;189;84;7;7;100.0;4;6;66.7;1;2;50.0;0;0.0;0.0;0;0;1;0;1;Matches
+149;Souleyman Doumbia\Souleyman-Doumbia;ci CIV;DF;Angers;25-009;1996;5.1;204;237;86.1;3225;933;97;103;94.2;99;111;89.2;5;16;31.3;0;0.2;-0.2;4;4;2;2;10;Matches
+150;Julian Draxler\Julian-Draxler;de GER;FWMF;Paris S-G;28-013;1993;3.0;126;138;91.3;2028;413;76;80;95.0;36;41;87.8;12;14;85.7;1;0.9;+0.1;4;10;3;1;7;Matches
+151;Leo Dubois\Leo-Dubois;fr FRA;DF;Lyon;27-019;1994;5.3;340;390;87.2;6331;1966;145;154;94.2;141;152;92.8;49;71;69.0;0;0.4;-0.4;4;16;8;4;36;Matches
+152;Jean-Kevin Duverne\Jean-Kevin-Duverne;fr FRA;DF;Brest;24-083;1997;5.8;250;318;78.6;5024;2147;95;109;87.2;113;134;84.3;38;66;57.6;0;0.3;-0.3;3;29;6;3;20;Matches
+153;Enzo Ebosse\Enzo-Ebosse;fr FRA;DF;Angers;22-206;1999;1.3;53;67;79.1;836;278;29;33;87.9;20;25;80.0;2;4;50.0;0;0.0;0.0;0;4;0;0;3;Matches
+154;Hugo Ekitike\Hugo-Ekitike;fr FRA;FWMF;Reims;19-105;2002;4.0;78;112;69.6;989;109;50;68;73.5;13;20;65.0;5;8;62.5;1;0.9;+0.1;4;3;2;0;5;Matches
+155;Sepe Elye Wahi\Sepe-Elye-Wahi;fr FRA;FW;Montpellier;18-274;2003;2.6;24;38;63.2;289;82;16;22;72.7;7;10;70.0;0;2;0.0;0;0.2;-0.2;2;2;2;0;4;Matches
+156;Renaud Emond\Renaud-Emond;be BEL;FWMF;Nantes;29-302;1991;1.7;20;28;71.4;267;38;11;14;78.6;6;9;66.7;1;3;33.3;0;0.0;0.0;0;2;0;0;2;Matches
+157;Maxime Estève\Maxime-Esteve;fr FRA;DF;Montpellier;19-130;2002;5.7;198;230;86.1;4166;957;56;63;88.9;111;121;91.7;30;44;68.2;0;0.0;0.0;1;9;1;0;11;Matches
+158;Fábio\Fabio;br BRA;DF;Nantes;31-086;1990;4.1;113;160;70.6;1978;881;53;67;79.1;50;66;75.8;10;23;43.5;0;0.0;0.0;0;15;2;0;16;Matches
+159;Cesc Fàbregas\Cesc-Fabregas;es ESP;MF;Monaco;34-152;1987;0.4;42;53;79.2;873;317;11;14;78.6;24;27;88.9;6;10;60.0;0;0.1;-0.1;2;8;3;1;9;Matches
+160;Wout Faes\Wout-Faes;be BEL;DF;Reims;23-183;1998;9.0;311;353;88.1;7393;1948;57;63;90.5;188;195;96.4;64;89;71.9;0;0.1;-0.1;1;13;0;0;12;Matches
+161;Romain Faivre\Romain-Faivre;fr FRA;MF;Brest;23-081;1998;7.8;262;330;79.4;4757;1527;125;144;86.8;87;105;82.9;42;63;66.7;4;1.2;+2.8;11;30;10;1;35;Matches
+162;Julien Faussurier\Julien-Faussurier;fr FRA;DFFW;Brest;34-262;1987;1.0;45;57;78.9;1010;418;15;19;78.9;20;22;90.9;10;15;66.7;0;0.2;-0.2;3;2;3;2;10;Matches
+163;Jordan Ferri\Jordan-Ferri;fr FRA;MF;Montpellier;29-205;1992;8.7;527;620;85.0;10628;3186;202;223;90.6;216;250;86.4;98;132;74.2;0;0.7;-0.7;6;52;8;2;44;Matches
+164;Karol Fila\Karol-Fila;pl POL;DF;Strasbourg;23-112;1998;3.2;159;202;78.7;2567;1121;87;93;93.5;56;74;75.7;15;29;51.7;0;0.7;-0.7;3;5;7;2;14;Matches
+165;Alexis Flips\Alexis-Flips;fr FRA;MFFW;Reims;21-258;2000;1.7;39;59;66.1;735;257;19;22;86.4;14;20;70.0;6;15;40.0;2;0.4;+1.6;3;4;1;0;5;Matches
+166;Mamadou Fofana\Mamadou-Fofana;ml MLI;DF;Metz;23-255;1998;0.4;3;4;75.0;82;59;1;1;100.0;1;1;100.0;1;2;50.0;0;0.0;0.0;0;0;0;0;0;Matches
+167;Seko Fofana\Seko-Fofana;ci CIV;MF;Lens;26-149;1995;9.0;368;421;87.4;6432;1097;170;191;89.0;165;178;92.7;29;40;72.5;0;0.8;-0.8;8;18;15;3;30;Matches
+168;Youssouf Fofana\Youssouf-Fofana;fr FRA;MF;Monaco;22-266;1999;4.6;192;260;73.8;3485;908;87;109;79.8;75;92;81.5;25;47;53.2;2;0.6;+1.4;2;26;5;0;26;Matches
+169;Thomas Foket\Thomas-Foket;be BEL;DF;Reims;27-008;1994;8.3;278;354;78.5;4711;1838;136;146;93.2;119;142;83.8;20;49;40.8;0;1.1;-1.1;7;8;5;4;19;Matches
+170;Thomas Fontaine\Thomas-Fontaine;mg MAD;DF;Lorient;30-148;1991;1.9;45;53;84.9;1117;431;7;7;100.0;27;32;84.4;11;11;100.0;0;0.0;0.0;0;4;1;0;4;Matches
+171;José Fonte\Jose-Fonte;pt POR;DF;Lille;37-285;1983;8.0;389;436;89.2;8968;2426;88;99;88.9;215;225;95.6;86;108;79.6;1;0.3;+0.7;3;14;1;0;14;Matches
+172;Steven Fortes\Steven-Fortes;cv CPV;DF;Lens;29-169;1992;1.0;25;29;86.2;613;170;5;7;71.4;12;12;100.0;8;10;80.0;0;0.0;0.0;0;0;0;0;2;Matches
+173;Przemysław Frankowski\Przemyslaw-Frankowski;pl POL;DF;Lens;26-174;1995;6.6;247;306;80.7;4293;1328;120;136;88.2;104;122;85.2;20;36;55.6;3;1.6;+1.4;12;10;11;5;24;Matches
+174;Fransérgio\Fransergio;br BRA;MF;Bordeaux;30-350;1990;3.2;88;125;70.4;1785;289;39;47;83.0;31;44;70.5;18;29;62.1;0;0.0;0.0;1;8;0;0;6;Matches
+175;Angelo Fulgini\Angelo-Fulgini;fr FRA;FWMF;Angers;25-044;1996;7.0;256;307;83.4;4466;1130;118;131;90.1;90;104;86.5;34;52;65.4;1;0.6;+0.4;7;30;4;2;27;Matches
+176;Gauthier Gallon\Gauthier-Gallon;fr FRA;GK;Troyes;28-163;1993;8.0;211;306;69.0;6901;4219;35;35;100.0;80;81;98.8;95;189;50.3;0;0.0;0.0;0;2;0;0;0;Matches
+177;Kévin Gameiro\Kevin-Gameiro;fr FRA;FWMF;Strasbourg;34-147;1987;6.7;172;218;78.9;2261;262;121;138;87.7;39;49;79.6;5;17;29.4;0;0.1;-0.1;1;5;6;0;13;Matches
+178;Idrissa Gana Gueye\Idrissa-Gana-Gueye;sn SEN;MF;Paris S-G;32-007;1989;4.7;336;361;93.1;5568;1519;176;182;96.7;127;136;93.4;26;33;78.8;0;0.8;-0.8;6;39;1;0;27;Matches
+179;Ignatius Ganago\Ignatius-Ganago;cm CMR;FW;Lens;22-229;1999;4.1;47;64;73.4;678;69;25;31;80.6;16;23;69.6;2;4;50.0;0;0.4;-0.4;4;4;2;0;4;Matches
+180;Johan Gastien\Johan-Gastien;fr FRA;MF;Clermont Foot;33-251;1988;6.5;557;642;86.8;13408;4316;157;173;90.8;236;258;91.5;157;198;79.3;1;0.3;+0.7;4;61;4;1;58;Matches
+181;Valère Germain\Valere-Germain;fr FRA;FW;Montpellier;31-169;1990;4.9;62;86;72.1;872;128;30;37;81.1;20;28;71.4;4;6;66.7;1;0.3;+0.7;5;1;4;0;7;Matches
+182;Gerson\Gerson;br BRA;MFFW;Marseille;24-136;1997;4.7;190;206;92.2;3235;348;95;103;92.2;75;78;96.2;17;20;85.0;1;0.7;+0.3;4;14;4;0;8;Matches
+183;Willem Geubbels\Willem-Geubbels;fr FRA;MFFW;Nantes;20-048;2001;0.7;10;12;83.3;150;40;6;6;100.0;4;4;100.0;0;1;0.0;0;0.0;0.0;0;1;0;0;0;Matches
+184;Nicholas Gioacchini\Nicholas-Gioacchini;us USA;FWMF;Montpellier;21-070;2000;0.6;9;15;60.0;115;48;7;10;70.0;1;3;33.3;1;1;100.0;1;0.1;+0.9;1;1;1;1;1;Matches
+185;Jimmy Giraudon\Jimmy-Giraudon;fr FRA;DF;Troyes;29-260;1992;8.0;265;304;87.2;5544;2337;79;84;94.0;131;137;95.6;51;77;66.2;0;0.0;0.0;1;5;1;1;6;Matches
+186;Andrei Girotto\Andrei-Girotto;br BRA;MFDF;Nantes;29-228;1992;7.4;195;262;74.4;3549;972;91;109;83.5;80;97;82.5;23;48;47.9;0;0.3;-0.3;1;15;2;1;15;Matches
+187;Aleksandr Golovin\Aleksandr-Golovin;ru RUS;MFFW;Monaco;25-126;1996;3.5;142;181;78.5;2614;604;61;69;88.4;61;68;89.7;19;40;47.5;0;0.6;-0.6;8;14;9;2;14;Matches
+188;Angel Gomes\Angel-Gomes;eng ENG;MF;Lille;21-033;2000;3.3;78;99;78.8;1356;403;37;41;90.2;28;35;80.0;10;18;55.6;0;0.4;-0.4;3;9;5;1;12;Matches
+189;Alfred Gomis\Alfred-Gomis;sn SEN;GK;Rennes;28-028;1993;7.0;180;220;81.8;4494;2593;49;49;100.0;86;87;98.9;43;82;52.4;0;0.0;0.0;0;0;0;0;0;Matches
+190;Vagner Gonçalves\Vagner-Goncalves;cv CPV;MFFW;Metz;25-266;1996;1.0;25;38;65.8;373;153;17;19;89.5;4;7;57.1;3;7;42.9;0;0.1;-0.1;2;0;2;0;2;Matches
+191;Álvaro González\Alvaro-Gonzalez;es ESP;DF;Marseille;31-268;1990;1.0;84;88;95.5;1551;430;40;40;100.0;34;36;94.4;9;11;81.8;0;0.0;0.0;0;2;0;0;4;Matches
+192;Amine Gouiri\Amine-Gouiri;fr FRA;FW;Nice;21-229;2000;7.5;167;228;73.2;2959;899;81;95;85.3;59;74;79.7;23;46;50.0;3;2.5;+0.5;19;12;7;2;14;Matches
+193;Jonathan Gradit\Jonathan-Gradit;fr FRA;DF;Lens;28-313;1992;7.9;417;470;88.7;8113;2977;143;149;96.0;228;244;93.4;41;71;57.7;0;0.4;-0.4;5;44;2;0;52;Matches
+194;Andrew Gravillon\Andrew-Gravillon;fr FRA;DF;Reims;23-237;1998;7.9;258;336;76.8;5662;2319;68;79;86.1;142;168;84.5;45;77;58.4;0;0.1;-0.1;3;20;4;0;27;Matches
+195;Adrian Grbić\Adrian-Grbic;at AUT;FWMF;Lorient;25-060;1996;1.6;31;37;83.8;376;105;18;20;90.0;7;7;100.0;1;2;50.0;0;0.4;-0.4;3;2;0;0;3;Matches
+196;Ivo Grbić\Ivo-Grbic;hr CRO;GK;Lille;25-258;1996;6.0;110;172;64.0;3800;2630;23;23;100.0;33;33;100.0;53;115;46.1;0;0.0;0.0;0;2;0;0;0;Matches
+197;Etienne Green\Etienne-Green;fr FRA;GK;Saint-Étienne;21-076;2000;6.4;133;195;68.2;4557;2831;18;18;100.0;49;49;100.0;65;127;51.2;0;0.3;-0.3;1;1;0;0;0;Matches
+198;Gabriel Gudmundsson\Gabriel-Gudmundsson;se SWE;DFMF;Lille;22-157;1999;1.6;48;72;66.7;766;254;20;21;95.2;25;34;73.5;2;8;25.0;0;0.1;-0.1;1;3;1;0;6;Matches
+199;Mattéo Guendouzi\Matteo-Guendouzi;fr FRA;MF;Marseille;22-172;1999;5.6;299;330;90.6;5388;1359;125;135;92.6;137;146;93.8;30;37;81.1;1;0.8;+0.2;8;33;6;0;36;Matches
+200;Yanis Guermouche\Yanis-Guermouche;fr FRA;FW;Montpellier;20-171;2001;0.0;1;1;100.0;10;0;1;1;100.0;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+201;Evann Guessand\Evann-Guessand;fr FRA;FW;Nice;20-094;2001;0.6;9;10;90.0;109;14;7;8;87.5;2;2;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+202;Lamine Gueye\Lamine-Gueye;sn SEN;MFFW;Metz;23-204;1998;4.0;101;145;69.7;1807;488;52;60;86.7;32;41;78.0;15;36;41.7;2;0.5;+1.5;8;3;6;5;2;Matches
+203;Pape Gueye\Pape-Gueye;fr FRA;MF;Marseille;22-252;1999;4.0;292;315;92.7;5778;1057;120;126;95.2;129;137;94.2;43;49;87.8;1;0.2;+0.8;2;36;1;0;17;Matches
+204;Frederic Guilbert\Frederic-Guilbert;fr FRA;DF;Strasbourg;26-283;1994;3.9;130;191;68.1;2460;1029;53;65;81.5;53;67;79.1;18;48;37.5;0;0.2;-0.2;5;6;1;0;13;Matches
+205;Bruno Guimarães\Bruno-Guimaraes;br BRA;MF;Lyon;23-321;1997;6.4;390;452;86.3;7833;1997;161;173;93.1;152;173;87.9;70;94;74.5;2;1.3;+0.7;9;49;9;1;41;Matches
+206;Sehrou Guirassy\Sehrou-Guirassy;fr FRA;FW;Rennes;25-205;1996;3.8;80;101;79.2;1173;78;48;54;88.9;21;32;65.6;7;9;77.8;0;0.2;-0.2;1;3;2;0;2;Matches
+207;Malo Gusto\Malo-Gusto;fr FRA;DF;Lyon;18-137;2003;3.7;245;279;87.8;4239;1174;111;121;91.7;110;121;90.9;21;30;70.0;0;0.9;-0.9;5;9;0;0;10;Matches
+208;Massadio Haïdara\Massadio-Haidara;ml MLI;DF;Lens;28-305;1992;0.5;22;26;84.6;357;170;13;13;100.0;8;10;80.0;1;2;50.0;0;0.0;0.0;0;0;0;0;0;Matches
+209;Oualid El Hajjam\Oualid-El-Hajjam;ma MAR;DF;Troyes;30-226;1991;5.4;160;199;80.4;2840;973;66;71;93.0;68;83;81.9;21;35;60.0;0;0.6;-0.6;2;2;4;3;3;Matches
+210;Achraf Hakimi\Achraf-Hakimi;ma MAR;DF;Paris S-G;22-333;1998;7.0;430;486;88.5;6838;2107;238;253;94.1;165;188;87.8;23;30;76.7;2;1.9;+0.1;11;24;16;8;33;Matches
+211;Pierre-Yves Hamel\Pierre-Yves-Hamel;fr FRA;FWDF;Lorient;27-242;1994;0.3;3;7;42.9;35;12;2;4;50.0;1;1;100.0;0;2;0.0;0;0.1;-0.1;1;0;0;0;0;Matches
+212;Pierre-Yves Hamel\Pierre-Yves-Hamel;fr FRA;FW;Clermont Foot;27-242;1994;1.9;27;36;75.0;371;63;17;22;77.3;7;8;87.5;2;2;100.0;0;0.1;-0.1;1;2;2;1;2;Matches
+213;Romain Hamouma\Romain-Hamouma;fr FRA;FW;Saint-Étienne;34-188;1987;4.5;92;137;67.2;1228;289;50;58;86.2;27;34;79.4;4;27;14.8;0;0.4;-0.4;5;5;4;1;6;Matches
+214;Amine Harit\Amine-Harit;ma MAR;FWDF;Marseille;24-107;1997;2.4;106;118;89.8;1538;348;68;73;93.2;28;32;87.5;8;10;80.0;1;0.8;+0.2;6;9;2;1;7;Matches
+215;Henrique\Henrique;br BRA;DF;Lyon;27-161;1994;1.0;59;63;93.7;951;394;26;27;96.3;28;28;100.0;3;5;60.0;0;0.0;0.0;1;2;0;0;6;Matches
+216;Luis Henrique\Luis-Henrique;br BRA;FWDF;Marseille;19-293;2001;1.5;26;33;78.8;472;107;12;14;85.7;10;11;90.9;3;6;50.0;0;0.0;0.0;0;2;1;0;1;Matches
+217;Jérôme Hergault\Jerome-Hergault;fr FRA;DF;Lorient;35-181;1986;1.4;46;67;68.7;768;337;24;32;75.0;18;25;72.0;4;8;50.0;0;0.0;0.0;0;4;0;0;2;Matches
+218;Ander Herrera\Ander-Herrera;es ESP;MF;Paris S-G;32-050;1989;6.5;486;521;93.3;8012;1714;247;260;95.0;186;193;96.4;44;55;80.0;2;0.9;+1.1;9;46;9;0;30;Matches
+219;Franck Honorat\Franck-Honorat;fr FRA;FW;Brest;25-053;1996;8.5;229;330;69.4;4011;1296;114;137;83.2;79;114;69.3;29;57;50.9;1;2.1;-1.1;19;5;14;8;19;Matches
+220;Cédric Hountondji\Cedric-Hountondji;bj BEN;DF;Clermont Foot;27-257;1994;8.0;356;396;89.9;6570;2176;146;155;94.2;164;177;92.7;40;56;71.4;0;0.0;0.0;0;9;1;0;11;Matches
+221;Mauro Icardi\Mauro-Icardi;ar ARG;FW;Paris S-G;28-226;1993;4.2;44;56;78.6;626;66;25;31;80.6;16;19;84.2;2;3;66.7;0;0.3;-0.3;2;2;2;0;3;Matches
+222;Jonathan Iglesias\Jonathan-Iglesias;uy URU;MF;Clermont Foot;32-290;1988;2.7;154;168;91.7;2465;539;88;94;93.6;49;54;90.7;13;14;92.9;0;0.1;-0.1;2;3;0;0;3;Matches
+223;Juan Ignacio Ramírez\Juan-Ignacio-Ramirez;uy URU;FW;Saint-Étienne;24-244;1997;1.2;8;12;66.7;140;65;3;4;75.0;2;4;50.0;2;3;66.7;0;0.0;0.0;0;1;0;0;2;Matches
+224;Jonathan Ikone\Jonathan-Ikone;fr FRA;MFFW;Lille;23-154;1998;4.5;137;170;80.6;2372;647;68;79;86.1;49;59;83.1;19;24;79.2;0;0.7;-0.7;8;14;8;1;22;Matches
+225;Wilson Isidor\Wilson-Isidor;fr FRA;MFFW;Monaco;21-037;2000;0.5;6;14;42.9;72;25;3;6;50.0;2;6;33.3;0;1;0.0;0;0.0;0.0;0;1;0;0;1;Matches
+226;Ismail Jakobs\Ismail-Jakobs;de GER;DF;Monaco;22-047;1999;0.9;70;85;82.4;1014;320;41;46;89.1;28;33;84.8;1;3;33.3;0;0.0;0.0;1;4;2;0;9;Matches
+227;Abdel Jalil Medioub\Abdel-Jalil-Medioub;dz ALG;DFMF;Bordeaux;24-036;1997;0.6;15;21;71.4;350;72;2;4;50.0;10;12;83.3;3;5;60.0;0;0.0;0.0;0;0;0;0;0;Matches
+228;Corentin Jean\Corentin-Jean;fr FRA;FW;Lens;26-080;1995;0.2;4;8;50.0;36;0;4;6;66.7;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+229;Moritz Jenz\Moritz-Jenz;de GER;DF;Lorient;22-156;1999;2.8;103;115;89.6;2224;746;29;29;100.0;53;56;94.6;20;29;69.0;0;0.0;0.0;0;3;0;0;5;Matches
+230;Lenny Joseph\Lenny-Joseph;fr FRA;MFFW;Metz;20-356;2000;0.5;2;4;50.0;22;0;2;3;66.7;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+231;Issa Kaboré\Issa-Kabore;bf BFA;DFFW;Troyes;20-144;2001;5.2;135;197;68.5;2235;1019;65;76;85.5;61;84;72.6;7;21;33.3;1;1.1;-0.1;5;6;7;4;15;Matches
+232;Tino Kadewere\Tino-Kadewere;zw ZIM;FW;Lyon;25-271;1996;0.3;7;8;87.5;98;52;3;3;100.0;3;4;75.0;0;0;;0;0.0;0.0;0;0;1;0;1;Matches
+233;Gaël Kakuta\Gael-Kakuta;cd COD;MFFW;Lens;30-104;1991;6.4;177;241;73.4;3113;848;90;112;80.4;65;86;75.6;19;29;65.5;0;1.8;-1.8;10;22;9;5;21;Matches
+234;Arnaud Kalimuendo\Arnaud-Kalimuendo;fr FRA;FW;Lens;19-255;2002;3.2;53;62;85.5;778;70;28;34;82.4;23;24;95.8;1;2;50.0;0;0.1;-0.1;3;2;2;0;3;Matches
+235;Arnaud Kalimuendo\Arnaud-Kalimuendo;fr FRA;FW;Paris S-G;19-255;2002;0.1;5;5;100.0;62;0;3;3;100.0;1;1;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+236;Samuel Kalu\Samuel-Kalu;ng NGA;FWMF;Bordeaux;24-038;1997;2.3;66;85;77.6;1173;263;36;41;87.8;23;29;79.3;7;11;63.6;0;0.0;0.0;0;8;3;1;7;Matches
+237;Boubacar Kamara\Boubacar-Kamara;fr FRA;MFDF;Marseille;21-314;1999;5.0;329;375;87.7;5570;1417;173;185;93.5;115;127;90.6;31;48;64.6;0;0.2;-0.2;5;33;3;0;21;Matches
+238;Hassane Kamara\Hassane-Kamara;ci CIV;MFDF;Nice;27-014;1994;3.1;127;158;80.4;2119;460;55;61;90.2;60;70;85.7;8;19;42.1;0;1.1;-1.1;3;3;6;3;10;Matches
+239;Ilan Kebbal\Ilan-Kebbal;dz ALG;MFFW;Reims;23-086;1998;6.5;202;266;75.9;3395;1108;97;119;81.5;70;82;85.4;25;40;62.5;3;1.2;+1.8;16;13;19;0;33;Matches
+240;Thilo Kehrer\Thilo-Kehrer;de GER;DF;Paris S-G;25-012;1996;5.2;405;422;96.0;7381;2301;163;167;97.6;206;214;96.3;33;37;89.2;0;0.0;0.0;0;27;0;0;15;Matches
+241;Habib Keita\Habib-Keita;ml MLI;MF;Lyon;19-240;2002;0.1;4;4;100.0;56;5;2;2;100.0;1;1;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+242;Saîf-Eddine Khaoui\Saif-Eddine-Khaoui;tn TUN;MF;Clermont Foot;26-159;1995;1.9;76;94;80.9;1290;209;39;47;83.0;24;25;96.0;10;16;62.5;0;0.0;0.0;0;5;1;0;3;Matches
+243;Wahbi Khazri\Wahbi-Khazri;tn TUN;FWMF;Saint-Étienne;30-237;1991;7.0;134;201;66.7;2527;700;73;81;90.1;35;51;68.6;23;51;45.1;0;1.2;-1.2;14;13;7;1;18;Matches
+244;Presnel Kimpembe\Presnel-Kimpembe;fr FRA;DF;Paris S-G;26-051;1995;7.1;561;574;97.7;10428;3643;218;220;99.1;289;295;98.0;49;53;92.5;0;0.1;-0.1;2;40;1;0;28;Matches
+245;Justin Kluivert\Justin-Kluivert;nl NED;MF;Nice;22-151;1999;2.3;37;51;72.5;582;176;21;25;84.0;14;17;82.4;1;4;25.0;1;0.4;+0.6;3;2;3;0;10;Matches
+246;Philippe Koffi\Philippe-Koffi;fr FRA;FW;Reims;19-208;2002;1.7;19;30;63.3;215;40;13;16;81.3;2;8;25.0;1;1;100.0;0;0.1;-0.1;1;0;1;0;1;Matches
+247;Randal Kolo Muani\Randal-Kolo-Muani;fr FRA;FWMF;Nantes;22-302;1998;5.7;64;102;62.7;905;160;33;46;71.7;23;36;63.9;4;9;44.4;1;1.0;0.0;5;4;3;1;4;Matches
+248;Timothée Kolodziejczak\Timothee-Kolodziejczak;fr FRA;DF;Saint-Étienne;30-002;1991;6.7;300;376;79.8;4993;2223;143;155;92.3;125;150;83.3;24;48;50.0;1;0.5;+0.5;9;15;9;3;32;Matches
+249;Ghislain Konan\Ghislain-Konan;ci CIV;DF;Reims;25-280;1995;7.0;255;342;74.6;4286;1766;124;143;86.7;104;132;78.8;24;52;46.2;1;0.6;+0.4;5;11;5;1;23;Matches
+250;Youssouf Koné\Youssouf-Kone;ml MLI;DF;Troyes;26-090;1995;2.1;82;99;82.8;1469;519;38;40;95.0;36;43;83.7;8;13;61.5;0;0.1;-0.1;3;4;3;1;6;Matches
+251;Laurent Koscielny\Laurent-Koscielny;fr FRA;DF;Bordeaux;36-023;1985;4.9;288;308;93.5;7267;2447;50;51;98.0;150;157;95.5;86;97;88.7;1;0.1;+0.9;2;18;0;0;21;Matches
+252;Rominigue Kouamé\Rominigue-Kouame;ml MLI;MF;Troyes;24-290;1996;8.0;312;359;86.9;5821;1288;129;148;87.2;136;146;93.2;40;51;78.4;1;0.8;+0.2;8;41;6;0;30;Matches
+253;Boubakar Kouyaté\Boubakar-Kouyate;ml MLI;DF;Metz;24-171;1997;6.6;223;262;85.1;5045;1307;54;60;90.0;121;133;91.0;46;62;74.2;0;0.0;0.0;1;7;0;0;6;Matches
+254;Jean-Philippe Krasso\Jean-Philippe-Krasso;fr FRA;FW;Saint-Étienne;24-078;1997;2.0;32;48;66.7;386;106;14;19;73.7;8;12;66.7;2;5;40.0;1;0.5;+0.5;3;2;0;0;5;Matches
+255;Mykola Kukharevych\Mykola-Kukharevych;ua UKR;FW;Troyes;20-094;2001;0.2;4;6;66.7;38;0;4;6;66.7;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+256;Enock Kwateng\Enock-Kwateng;fr FRA;DF;Bordeaux;24-177;1997;7.0;307;358;85.8;5672;2493;139;150;92.7;126;145;86.9;37;54;68.5;0;0.2;-0.2;2;27;3;0;40;Matches
+257;Gaëtan Laborde\Gaetan-Laborde;fr FRA;FW;Montpellier;27-153;1994;3.8;61;97;62.9;969;309;35;52;67.3;16;26;61.5;6;8;75.0;0;0.5;-0.5;4;4;3;2;6;Matches
+258;Gaëtan Laborde\Gaetan-Laborde;fr FRA;FW;Rennes;27-153;1994;3.8;37;59;62.7;592;138;17;25;68.0;16;26;61.5;3;6;50.0;0;0.3;-0.3;2;6;1;1;3;Matches
+259;Alban Lafont\Alban-Lafont;fr FRA;GK;Nantes;22-253;1999;8.0;120;224;53.6;4261;3001;12;13;92.3;57;57;100.0;51;154;33.1;0;0.0;0.0;0;7;0;0;0;Matches
+260;Julien Laporte\Julien-Laporte;fr FRA;DF;Lorient;27-333;1993;8.0;267;303;88.1;6564;2180;53;56;94.6;135;144;93.8;75;95;78.9;0;0.0;0.0;1;8;1;0;7;Matches
+261;Armand Lauriente\Armand-Lauriente;fr FRA;FW;Lorient;22-303;1998;6.5;119;151;78.8;2023;397;58;69;84.1;49;61;80.3;10;13;76.9;0;1.0;-1.0;10;12;4;2;14;Matches
+262;Théo Le Bris\Theo-Le-Bris;fr FRA;MF;Lorient;19-002;2002;0.0;0;0;;0;0;0;0;;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+263;Jérémy Le Douaron\Jeremy-Le-Douaron;fr FRA;FWMF;Brest;23-165;1998;2.3;37;60;61.7;616;123;18;20;90.0;15;26;57.7;2;5;40.0;0;0.1;-0.1;3;0;3;2;4;Matches
+264;Enzo Le Fée\Enzo-Le-Fee;fr FRA;MF;Lorient;21-242;2000;3.9;136;169;80.5;2664;732;58;62;93.5;48;59;81.4;25;37;67.6;1;0.2;+0.8;4;16;3;0;14;Matches
+265;Vincent Le Goff\Vincent-Le-Goff;fr FRA;DF;Lorient;31-353;1989;8.0;269;372;72.3;4823;1977;115;132;87.1;129;165;78.2;20;56;35.7;0;0.6;-0.6;3;19;5;3;30;Matches
+266;Maxime Le Marchand\Maxime-Le-Marchand;fr FRA;DF;Strasbourg;31-357;1989;5.2;245;284;86.3;5079;2027;80;87;92.0;123;135;91.1;38;55;69.1;0;0.1;-0.1;1;7;1;1;11;Matches
+267;Jean-Louis Leca\Jean-Louis-Leca;fr FRA;GK;Lens;36-012;1985;9.0;179;247;72.5;5139;3389;44;44;100.0;72;73;98.6;62;128;48.4;0;0.0;0.0;0;3;0;0;0;Matches
+268;Mario Lemina\Mario-Lemina;ga GAB;MF;Nice;28-032;1993;5.8;249;285;87.4;4907;1072;85;94;90.4;125;134;93.3;36;48;75.0;0;0.0;0.0;0;16;1;0;17;Matches
+269;Fabien Lemoine\Fabien-Lemoine;fr FRA;MF;Lorient;34-201;1987;6.0;349;395;88.4;6705;1591;123;139;88.5;165;179;92.2;50;62;80.6;0;0.5;-0.5;4;23;0;0;24;Matches
+270;Léo Leroy\Leo-Leroy;fr FRA;MF;Montpellier;21-231;2000;1.4;63;74;85.1;1180;248;25;30;83.3;24;26;92.3;11;12;91.7;0;0.0;0.0;1;3;0;0;3;Matches
+271;Dimitri Liénard\Dimitri-Lienard;fr FRA;DFMF;Strasbourg;33-232;1988;6.6;316;436;72.5;6628;1869;111;126;88.1;148;173;85.5;51;119;42.9;1;0.3;+0.7;7;28;3;3;33;Matches
+272;Isaac Lihadji\Isaac-Lihadji;fr FRA;MFDF;Lille;19-176;2002;0.5;22;33;66.7;394;155;12;12;100.0;7;10;70.0;3;6;50.0;1;0.3;+0.7;4;1;1;1;2;Matches
+273;Pol Lirola\Pol-Lirola;es ESP;DFMF;Marseille;24-051;1997;2.9;141;176;80.1;2353;613;75;90;83.3;53;64;82.8;11;18;61.1;1;0.5;+0.5;2;9;2;1;8;Matches
+274;Banzouzi Locko\Banzouzi-Locko;fr FRA;DF;Reims;19-150;2002;1.1;41;53;77.4;715;240;16;18;88.9;24;28;85.7;1;7;14.3;0;0.0;0.0;0;2;0;0;3;Matches
+275;Anthony Lopes\Anthony-Lopes;pt POR;GK;Lyon;31-002;1990;8.0;223;253;88.1;5939;3324;44;44;100.0;107;107;100.0;72;102;70.6;0;0.0;0.0;0;3;0;0;0;Matches
+276;Pau López\Pau-Lopez;es ESP;GK;Marseille;26-294;1994;4.0;117;144;81.3;3078;1685;22;23;95.7;55;57;96.5;38;62;61.3;0;0.0;0.0;0;0;0;0;0;Matches
+277;Dion Lopy\Dion-Lopy;sn SEN;MF;Reims;19-243;2002;0.9;36;41;87.8;743;110;17;20;85.0;11;12;91.7;7;8;87.5;0;0.0;0.0;0;2;0;0;4;Matches
+278;Jordan Lotomba\Jordan-Lotomba;ch SUI;DF;Nice;23-004;1998;3.0;145;177;81.9;2625;836;58;66;87.9;70;78;89.7;14;24;58.3;0;0.2;-0.2;2;12;1;1;15;Matches
+279;Jean Lucas\Jean-Lucas;br BRA;MF;Monaco;23-103;1998;3.6;235;273;86.1;4584;1007;104;113;92.0;91;100;91.0;37;51;72.5;0;0.5;-0.5;7;20;2;0;13;Matches
+280;Castello Lukeba\Castello-Lukeba;fr FRA;DF;Lyon;18-290;2002;1.5;116;119;97.5;2444;836;32;33;97.0;64;65;98.5;20;21;95.2;0;0.0;0.0;1;2;0;0;9;Matches
+281;Levi Lumeka\Levi-Lumeka;eng ENG;DFMF;Troyes;23-028;1998;0.7;10;16;62.5;178;25;5;6;83.3;2;5;40.0;2;4;50.0;0;0.0;0.0;0;2;1;1;0;Matches
+282;Deiver Machado\Deiver-Machado;co COL;DF;Lens;28-031;1993;3.3;90;110;81.8;1504;570;42;50;84.0;39;43;90.7;7;11;63.6;0;0.2;-0.2;3;1;3;2;7;Matches
+283;Yvann Macon\Yvann-Macon;fr FRA;DF;Saint-Étienne;23-002;1998;4.5;204;254;80.3;3750;1289;96;106;90.6;74;91;81.3;32;47;68.1;0;0.4;-0.4;3;6;7;5;14;Matches
+284;Hugo Magnetti\Hugo-Magnetti;fr FRA;MF;Brest;23-126;1998;3.2;106;130;81.5;1961;357;49;54;90.7;38;45;84.4;16;23;69.6;0;0.0;0.0;1;8;2;0;6;Matches
+285;Habib Maïga\Habib-Maiga;ci CIV;MFDF;Metz;25-275;1996;6.8;254;314;80.9;4486;1113;115;129;89.1;105;128;82.0;26;41;63.4;0;0.3;-0.3;7;25;1;0;20;Matches
+286;Abdul Majeed Waris\Abdul-Majeed-Waris;gh GHA;MFDF;Strasbourg;30-014;1991;1.8;61;75;81.3;871;206;41;44;93.2;13;18;72.2;4;8;50.0;0;0.1;-0.1;2;4;3;1;7;Matches
+287;Lovro Majer\Lovro-Majer;hr CRO;MF;Rennes;23-259;1998;0.1;2;5;40.0;28;3;1;2;50.0;1;1;100.0;0;1;0.0;0;0.0;0.0;0;0;0;0;0;Matches
+288;Béni Makouana\Beni-Makouana;cg CGO;FWMF;Montpellier;19-005;2002;0.4;5;9;55.6;59;18;4;5;80.0;1;3;33.3;0;0;;0;0.0;0.0;0;0;0;0;1;Matches
+289;Hianga Mananga Mbock\Hianga-Mananga-Mbock;fr FRA;MF;Brest;21-279;1999;7.4;221;247;89.5;4243;832;69;76;90.8;130;141;92.2;18;22;81.8;0;0.0;0.0;1;27;2;0;22;Matches
+290;Vincent Manceau\Vincent-Manceau;fr FRA;DF;Angers;32-085;1989;8.0;488;521;93.7;10068;3940;146;150;97.3;263;274;96.0;75;90;83.3;0;0.3;-0.3;2;32;0;0;24;Matches
+291;Steve Mandanda\Steve-Mandanda;fr FRA;GK;Marseille;36-189;1985;3.0;68;79;86.1;1967;1253;18;19;94.7;23;24;95.8;27;36;75.0;0;0.0;0.0;1;3;0;0;0;Matches
+292;Reinildo Mandava\Reinildo-Mandava;mz MOZ;DF;Lille;27-255;1994;6.7;318;391;81.3;5189;1754;162;177;91.5;126;144;87.5;25;55;45.5;0;0.0;0.0;1;19;0;0;18;Matches
+293;Thomas Mangani\Thomas-Mangani;fr FRA;MF;Angers;34-157;1987;6.2;329;408;80.6;6630;1875;143;160;89.4;130;158;82.3;52;78;66.7;2;0.6;+1.4;12;37;5;2;33;Matches
+294;Ricardo Mangas\Ricardo-Mangas;pt POR;DF;Bordeaux;23-198;1998;7.0;257;298;86.2;4895;1589;102;114;89.5;120;132;90.9;30;42;71.4;1;0.1;+0.9;3;16;3;0;19;Matches
+295;Myziane Maolida\Myziane-Maolida;fr FRA;MFFW;Nice;22-231;1999;0.4;4;7;57.1;43;0;2;3;66.7;1;1;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+296;Sekou Mara\Sekou-Mara;fr FRA;FW;Bordeaux;19-065;2002;3.0;48;69;69.6;766;123;26;35;74.3;14;20;70.0;5;9;55.6;0;0.0;0.0;0;4;1;0;5;Matches
+297;Marcelo\Marcelo;br BRA;DF;Lyon;34-136;1987;2.0;149;165;90.3;3320;836;37;42;88.1;78;85;91.8;32;35;91.4;0;0.0;0.0;0;4;0;0;10;Matches
+298;Guillermo Maripán\Guillermo-Maripan;cl CHI;DF;Monaco;27-150;1994;2.6;169;179;94.4;3963;806;29;29;100.0;102;104;98.1;36;44;81.8;0;0.0;0.0;0;2;0;0;5;Matches
+299;Marquinhos\Marquinhos;br BRA;DF;Paris S-G;27-142;1994;5.0;323;359;90.0;7247;2066;81;85;95.3;171;177;96.6;66;91;72.5;0;0.0;0.0;1;24;1;0;20;Matches
+300;Jonas Martin\Jonas-Martin;fr FRA;MF;Rennes;31-177;1990;1.6;78;89;87.6;1357;380;39;44;88.6;32;34;94.1;7;8;87.5;0;0.1;-0.1;3;5;0;0;8;Matches
+301;Gelson Martins\Gelson-Martins;pt POR;FWMF;Monaco;26-145;1995;4.9;98;135;72.6;1378;211;61;72;84.7;31;45;68.9;4;7;57.1;1;0.9;+0.1;3;3;1;0;4;Matches
+302;Pape Matar Sarr\Pape-Matar-Sarr;sn SEN;MFFW;Metz;19-019;2002;7.7;288;356;80.9;5798;1344;117;138;84.8;116;136;85.3;51;71;71.8;1;0.5;+0.5;11;36;7;0;27;Matches
+303;Eliot Matazo\Eliot-Matazo;be BEL;MF;Monaco;19-230;2002;1.1;41;45;91.1;711;111;19;20;95.0;18;18;100.0;4;5;80.0;0;0.0;0.0;1;3;1;0;3;Matches
+304;Chrislain Matsima\Chrislain-Matsima;fr FRA;DF;Monaco;19-141;2002;0.7;34;35;97.1;722;251;6;6;100.0;25;25;100.0;3;3;100.0;0;0.0;0.0;0;4;0;0;4;Matches
+305;Azor Matusiwa\Azor-Matusiwa;nl NED;MF;Reims;23-158;1998;4.5;150;180;83.3;3218;687;57;71;80.3;53;60;88.3;39;47;83.0;0;0.0;0.0;1;8;2;1;13;Matches
+306;Stephy Mavididi\Stephy-Mavididi;eng ENG;FW;Montpellier;23-125;1998;6.9;143;182;78.6;2040;339;83;99;83.8;43;55;78.2;8;9;88.9;2;1.6;+0.4;8;4;4;2;4;Matches
+307;Kylian Mbappé\Kylian-Mbappe;fr FRA;FW;Paris S-G;22-287;1998;7.7;254;319;79.6;3955;840;154;184;83.7;71;81;87.7;18;36;50.0;4;2.6;+1.4;16;11;13;2;26;Matches
+308;Nathanael Mbuku\Nathanael-Mbuku;fr FRA;FWMF;Reims;19-201;2002;3.6;73;94;77.7;1049;222;43;47;91.5;26;34;76.5;3;6;50.0;0;0.2;-0.2;2;2;3;0;6;Matches
+309;Facundo Medina\Facundo-Medina;ar ARG;DF;Lens;22-128;1999;7.8;484;542;89.3;9758;3746;171;178;96.1;243;261;93.1;67;94;71.3;0;0.0;0.0;1;39;1;0;45;Matches
+310;Farid El Melali\Farid-El-Melali;dz ALG;FW;Angers;24-082;1997;0.2;2;5;40.0;36;0;1;1;100.0;1;1;100.0;0;1;0.0;0;0.0;0.0;0;0;0;0;0;Matches
+311;Birger Meling\Birger-Meling;no NOR;DF;Rennes;26-290;1994;6.9;332;388;85.6;6190;1747;148;163;90.8;131;150;87.3;47;59;79.7;2;0.3;+1.7;5;10;5;1;25;Matches
+312;Houboulang Mendes\Houboulang-Mendes;fr FRA;DF;Lorient;23-152;1998;6.9;208;246;84.6;4380;1405;69;71;97.2;102;111;91.9;36;58;62.1;0;0.2;-0.2;1;11;2;2;11;Matches
+313;Nuno Mendes\Nuno-Mendes;pt POR;DF;Paris S-G;19-106;2002;1.9;100;109;91.7;1864;493;42;45;93.3;41;45;91.1;14;14;100.0;0;0.0;0.0;0;6;1;0;8;Matches
+314;Thiago Mendes\Thiago-Mendes;br BRA;MF;Lyon;29-202;1992;2.4;136;154;88.3;2646;544;61;65;93.8;51;54;94.4;22;30;73.3;0;0.0;0.0;1;12;1;0;4;Matches
+315;Arial Mendy\Arial-Mendy;sn SEN;DF;Clermont Foot;26-330;1994;2.3;104;135;77.0;1766;649;56;64;87.5;37;50;74.0;10;17;58.8;0;0.7;-0.7;5;6;5;3;5;Matches
+316;Batista Mendy\Batista-Mendy;fr FRA;MF;Angers;21-264;2000;6.6;271;302;89.7;5391;1092;105;114;92.1;113;123;91.9;46;57;80.7;0;0.2;-0.2;2;22;1;0;24;Matches
+317;Gideon Mensah\Gideon-Mensah;gh GHA;DF;Bordeaux;23-077;1998;2.5;137;158;86.7;2687;908;54;61;88.5;66;71;93.0;16;21;76.2;0;0.4;-0.4;4;9;4;4;4;Matches
+318;Quentin Merlin\Quentin-Merlin;fr FRA;MF;Nantes;19-140;2002;0.3;9;11;81.8;155;60;5;6;83.3;3;3;100.0;1;1;100.0;0;0.1;-0.1;1;1;0;0;2;Matches
+319;Lionel Messi\Lionel-Messi;ar ARG;MFFW;Paris S-G;34-101;1987;1.1;61;72;84.7;1095;293;29;32;90.6;21;24;87.5;8;11;72.7;0;0.1;-0.1;2;3;4;0;9;Matches
+320;Mexer\Mexer;mz MOZ;DF;Bordeaux;33-025;1988;5.6;252;294;85.7;5824;1998;64;67;95.5;137;147;93.2;50;74;67.6;0;0.0;0.0;0;15;1;0;9;Matches
+321;Georges Mikautadze\Georges-Mikautadze;ge GEO;FW;Metz;20-337;2000;0.0;0;1;0.0;0;0;0;0;;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+322;Terem Moffi\Terem-Moffi;ng NGA;FW;Lorient;22-131;1999;7.4;108;145;74.5;1852;303;63;75;84.0;24;37;64.9;16;22;72.7;2;0.6;+1.4;5;10;2;1;7;Matches
+323;Florent Mollet\Florent-Mollet;fr FRA;FWMF;Montpellier;29-318;1991;6.5;220;268;82.1;3645;900;113;121;93.4;75;86;87.2;19;41;46.3;1;0.5;+0.5;5;14;5;3;18;Matches
+324;Thomas Monconduit\Thomas-Monconduit;fr FRA;MF;Lorient;30-235;1991;5.1;190;248;76.6;3891;1232;66;77;85.7;88;110;80.0;29;51;56.9;0;0.5;-0.5;4;20;2;0;26;Matches
+325;Jérémy Morel\Jeremy-Morel;mg MAD;DF;Lorient;37-184;1984;2.0;50;61;82.0;1005;423;9;9;100.0;34;36;94.4;6;15;40.0;0;0.0;0.0;0;2;0;0;4;Matches
+326;Harold Moukoudi\Harold-Moukoudi;cm CMR;DF;Saint-Étienne;23-310;1997;8.0;321;354;90.7;7201;2384;99;105;94.3;147;155;94.8;73;87;83.9;0;0.1;-0.1;1;13;1;0;14;Matches
+327;Steve Mounié\Steve-Mounie;bj BEN;FW;Brest;27-004;1994;6.1;96;167;57.5;1388;296;52;82;63.4;38;63;60.3;2;5;40.0;1;0.6;+0.4;7;10;3;1;14;Matches
+328;Samuel Moutoussamy\Samuel-Moutoussamy;cd COD;MF;Nantes;25-052;1996;2.1;54;73;74.0;986;135;20;26;76.9;25;28;89.3;6;11;54.5;0;0.0;0.0;0;1;0;0;2;Matches
+329;Marshall Munetsi\Marshall-Munetsi;zw ZIM;MF;Reims;25-103;1996;8.1;174;206;84.5;2970;650;88;101;87.1;54;65;83.1;22;27;81.5;0;0.0;0.0;1;17;0;0;12;Matches
+330;Kévin N'Doram\Kevin-NDoram;fr FRA;MF;Metz;25-254;1996;1.3;36;43;83.7;666;174;12;17;70.6;19;20;95.0;4;4;100.0;0;0.0;0.0;1;9;0;0;5;Matches
+331;Vital N'Simba\Vital-NSimba;cd COD;DF;Clermont Foot;28-087;1993;5.7;279;362;77.1;4737;2207;144;167;86.2;110;136;80.9;22;46;47.8;1;1.0;0.0;6;15;9;4;41;Matches
+332;Mickael Nade\Mickael-Nade;fr FRA;DF;Saint-Étienne;22-213;1999;4.4;143;169;84.6;2976;1117;49;54;90.7;68;75;90.7;25;35;71.4;0;0.1;-0.1;3;9;1;0;13;Matches
+333;Paul Nardi\Paul-Nardi;fr FRA;GK;Lorient;27-138;1994;8.0;88;199;44.2;3185;2244;17;18;94.4;32;32;100.0;38;148;25.7;0;0.0;0.0;0;7;0;0;0;Matches
+334;Keylor Navas\Keylor-Navas;cr CRC;GK;Paris S-G;34-292;1986;6.0;144;156;92.3;3708;2099;26;26;100.0;70;71;98.6;48;59;81.4;0;0.0;0.0;0;0;0;0;0;Matches
+335;Papa Ndiaga Yade\Papa-Ndiaga-Yade;sn SEN;DFMF;Metz;21-271;2000;2.3;61;79;77.2;986;265;30;34;88.2;27;35;77.1;3;7;42.9;0;0.1;-0.1;1;2;3;2;4;Matches
+336;Dan Ndoye\Dan-Ndoye;ch SUI;FWMF;Nice;20-343;2000;2.3;38;54;70.4;627;93;19;26;73.1;14;19;73.7;4;6;66.7;1;0.6;+0.4;2;1;1;1;2;Matches
+337;Neymar\Neymar;br BRA;FWMF;Paris S-G;29-240;1992;3.7;161;222;72.5;2660;808;83;108;76.9;51;66;77.3;17;28;60.7;2;1.1;+0.9;10;24;7;0;27;Matches
+338;Yvan Neyou\Yvan-Neyou;cm CMR;MF;Saint-Étienne;24-273;1997;6.5;246;291;84.5;4055;846;118;136;86.8;102;121;84.3;18;25;72.0;0;0.2;-0.2;4;14;3;0;15;Matches
+339;Opa Nguette\Opa-Nguette;sn SEN;MF;Metz;27-087;1994;0.2;4;4;100.0;32;12;2;2;100.0;0;0;;0;0;;1;0.0;+1.0;2;0;0;0;0;Matches
+340;Sikou Niakaté\Sikou-Niakate;fr FRA;DF;Metz;22-085;1999;2.3;45;52;86.5;1007;351;11;11;100.0;26;29;89.7;8;10;80.0;0;0.1;-0.1;1;1;0;0;2;Matches
+341;Ibrahima Niane\Ibrahima-Niane;sn SEN;FW;Metz;22-206;1999;7.0;129;174;74.1;1803;240;71;86;82.6;50;65;76.9;3;12;25.0;1;1.0;0.0;6;7;0;0;3;Matches
+342;Cheikh Niasse\Cheikh-Niasse;sn SEN;MF;Lille;21-257;2000;0.1;3;4;75.0;47;15;1;1;100.0;2;3;66.7;0;0;;0;0.0;0.0;0;1;0;0;0;Matches
+343;Casimir Ninga\Casimir-Ninga;td CHA;FW;Angers;28-139;1993;0.3;3;4;75.0;97;49;1;1;100.0;0;1;0.0;2;2;100.0;0;0.0;0.0;0;0;0;0;0;Matches
+344;Arnaud Nordin\Arnaud-Nordin;fr FRA;FWMF;Saint-Étienne;23-108;1998;3.5;98;129;76.0;1699;500;50;60;83.3;33;44;75.0;11;17;64.7;1;0.9;+0.1;9;6;4;2;12;Matches
+345;Alexander Nübel\Alexander-Nubel;de GER;GK;Monaco;25-003;1996;8.0;171;233;73.4;4801;2901;36;36;100.0;79;79;100.0;56;117;47.9;0;0.0;0.0;0;2;0;0;0;Matches
+346;Gerzino Nyamsi\Gerzino-Nyamsi;fr FRA;DF;Strasbourg;24-254;1997;4.2;132;159;83.0;3039;1001;31;37;83.8;68;75;90.7;33;46;71.7;1;0.2;+0.8;2;5;1;0;8;Matches
+347;Florent Ogier\Florent-Ogier;fr FRA;DF;Clermont Foot;32-196;1989;6.8;344;400;86.0;7045;3070;120;132;90.9;155;173;89.6;63;87;72.4;0;0.2;-0.2;2;26;0;0;15;Matches
+348;Warmed Omari\Warmed-Omari;fr FRA;DF;Rennes;21-163;2000;3.5;211;223;94.6;5101;1377;32;34;94.1;126;129;97.7;52;57;91.2;0;0.1;-0.1;1;13;0;0;19;Matches
+349;Jonas Omlin\Jonas-Omlin;ch SUI;GK;Montpellier;27-266;1994;4.0;138;160;86.3;3516;1917;31;31;100.0;66;68;97.1;40;60;66.7;0;0.0;0.0;0;0;0;0;0;Matches
+350;Amadou Onana\Amadou-Onana;be BEL;MFFW;Lille;20-048;2001;1.6;62;68;91.2;1308;215;22;23;95.7;28;31;90.3;12;14;85.7;0;0.2;-0.2;1;6;2;0;7;Matches
+351;Jean Onana\Jean-Onana;cm CMR;MF;Bordeaux;21-268;2000;2.5;117;145;80.7;2181;556;57;63;90.5;35;44;79.5;22;33;66.7;0;0.3;-0.3;3;11;3;0;11;Matches
+352;Otávio\Otavio;br BRA;MF;Bordeaux;27-152;1994;7.0;347;390;89.0;6833;1547;134;140;95.7;164;179;91.6;45;62;72.6;0;0.1;-0.1;4;15;3;0;21;Matches
+353;Aboubacar Ouattara\Aboubacar-Ouattara;bf BFA;FW;Lorient;19-234;2002;0.1;1;1;100.0;16;0;0;0;;1;1;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+354;Remi Oudin\Remi-Oudin;fr FRA;FWDF;Bordeaux;24-319;1996;4.2;115;164;70.1;2324;464;36;48;75.0;58;78;74.4;19;34;55.9;1;0.7;+0.3;10;6;4;2;10;Matches
+355;Alexandre Oukidja\Alexandre-Oukidja;dz ALG;GK;Metz;33-076;1988;8.0;138;223;61.9;5253;3555;12;12;100.0;48;49;98.0;77;161;47.8;0;0.0;0.0;0;4;1;0;0;Matches
+356;Azzedine Ounahi\Azzedine-Ounahi;ma MAR;MF;Angers;21-167;2000;2.9;135;153;88.2;2240;580;66;75;88.0;52;54;96.3;12;18;66.7;0;0.2;-0.2;6;18;3;0;17;Matches
+357;Vincent Pajot\Vincent-Pajot;fr FRA;MF;Metz;31-045;1990;5.9;229;265;86.4;5018;1128;76;84;90.5;100;108;92.6;49;64;76.6;0;0.0;0.0;3;23;0;0;18;Matches
+358;Nicolas Pallois\Nicolas-Pallois;fr FRA;DF;Nantes;34-014;1987;7.9;220;272;80.9;4963;1742;52;64;81.3;115;133;86.5;50;68;73.5;0;0.0;0.0;0;13;0;0;16;Matches
+359;Emerson Palmieri\Emerson-Palmieri;it ITA;DFMF;Lyon;27-061;1994;5.1;318;371;85.7;5363;2023;176;184;95.7;97;114;85.1;37;59;62.7;0;0.3;-0.3;5;25;3;3;18;Matches
+360;Lucas Paquetá\Lucas-Paqueta;br BRA;MFFW;Lyon;24-037;1997;5.8;226;291;77.7;3170;946;126;144;87.5;67;87;77.0;14;29;48.3;0;1.2;-1.2;9;17;5;1;23;Matches
+361;Rubén Pardo\Ruben-Pardo;es ESP;MF;Bordeaux;28-346;1992;0.1;1;1;100.0;11;9;1;1;100.0;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+362;Leandro Paredes\Leandro-Paredes;ar ARG;MF;Paris S-G;27-096;1994;1.2;86;90;95.6;1487;404;43;43;100.0;32;33;97.0;9;11;81.8;0;0.0;0.0;0;7;0;0;3;Matches
+363;Strahinja Pavlović\Strahinja-Pavlovic;rs SRB;DF;Monaco;20-132;2001;3.2;225;265;84.9;4814;1367;66;71;93.0;121;127;95.3;37;64;57.8;0;0.0;0.0;0;16;6;2;15;Matches
+364;Dimitri Payet\Dimitri-Payet;fr FRA;FWMF;Marseille;34-188;1987;5.0;171;225;76.0;3274;959;84;103;81.6;55;66;83.3;28;51;54.9;1;2.1;-1.1;19;16;7;3;26;Matches
+365;Timothee Pembele\Timothee-Pembele;fr FRA;DF;Bordeaux;19-024;2002;5.2;158;210;75.2;2326;802;90;108;83.3;56;77;72.7;6;11;54.5;0;0.8;-0.8;5;8;2;1;11;Matches
+366;Mathias Pereira Lage\Mathias-Pereira-Lage;pt POR;DF;Angers;24-307;1996;0.4;15;22;68.2;273;102;5;6;83.3;9;11;81.8;1;4;25.0;1;0.3;+0.7;1;1;0;0;3;Matches
+367;Danilo Pereira\Danilo-Pereira;pt POR;MF;Paris S-G;30-024;1991;3.3;259;271;95.6;5231;1196;85;89;95.5;134;139;96.4;38;41;92.7;0;0.0;0.0;1;25;0;0;9;Matches
+368;Luan Peres Petroni\Luan-Peres-Petroni;br BRA;DF;Marseille;27-076;1994;6.4;421;479;87.9;7763;2176;180;193;93.3;191;215;88.8;46;65;70.8;1;0.8;+0.2;5;38;3;2;19;Matches
+369;Lucas Perrin\Lucas-Perrin;fr FRA;DF;Strasbourg;22-318;1998;3.9;175;198;88.4;3800;1257;47;51;92.2;98;102;96.1;29;43;67.4;0;0.0;0.0;1;17;0;0;12;Matches
+370;Léo Pétrot\Leo-Petrot;fr FRA;DF;Lorient;24-171;1997;2.0;84;96;87.5;1642;584;28;30;93.3;44;44;100.0;11;20;55.0;0;0.0;0.0;0;2;0;0;5;Matches
+371;Romain Philippoteaux\Romain-Philippoteaux;fr FRA;MF;Brest;33-215;1988;0.3;5;7;71.4;67;11;4;5;80.0;1;1;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+372;Ronaël Pierre-Gabriel\Ronael-Pierre-Gabriel;fr FRA;DF;Brest;23-112;1998;8.4;399;465;85.8;7099;2895;167;177;94.4;193;216;89.4;36;62;58.1;0;0.5;-0.5;7;30;10;3;46;Matches
+373;Sanjin Prcić\Sanjin-Prcic;ba BIH;MF;Strasbourg;27-317;1993;5.2;250;290;86.2;5184;1143;89;101;88.1;108;117;92.3;46;62;74.2;0;0.4;-0.4;3;23;4;0;26;Matches
+374;Nicolas de Préville\Nicolas-de-Preville;fr FRA;MFFW;Metz;30-268;1991;2.2;39;57;68.4;605;107;22;30;73.3;12;17;70.6;3;6;50.0;0;0.0;0.0;0;0;1;1;1;Matches
+375;Nemanja Radonjić\Nemanja-Radonjic;rs SRB;MF;Marseille;25-230;1996;0.2;9;10;90.0;103;43;8;9;88.9;1;1;100.0;0;0;;0;0.2;-0.2;1;0;0;0;0;Matches
+376;Rafinha\Rafinha;br BRA;FWMF;Paris S-G;28-233;1993;1.8;104;119;87.4;1606;317;58;66;87.9;36;40;90.0;7;9;77.8;0;0.1;-0.1;2;11;0;0;8;Matches
+377;Predrag Rajković\Predrag-Rajkovic;rs SRB;GK;Reims;25-337;1995;9.0;182;273;66.7;5441;3107;33;33;100.0;67;69;97.1;80;168;47.6;0;0.0;0.0;1;4;0;0;0;Matches
+378;Elba Rashani\Elba-Rashani;xk KVX;FW;Clermont Foot;28-147;1993;4.3;136;161;84.5;2086;561;70;76;92.1;56;62;90.3;5;10;50.0;1;1.8;-0.8;6;9;5;2;11;Matches
+379;Renaud Ripart\Renaud-Ripart;fr FRA;FWDF;Troyes;28-203;1993;5.1;136;181;75.1;2354;555;71;80;88.8;49;66;74.2;13;27;48.1;0;0.5;-0.5;2;9;4;1;12;Matches
+380;Mihailo Ristić\Mihailo-Ristic;rs SRB;DF;Montpellier;25-337;1995;2.7;137;174;78.7;2614;748;59;63;93.7;61;75;81.3;16;30;53.3;0;0.1;-0.1;2;8;1;1;14;Matches
+381;Maxence Rivera\Maxence-Rivera;fr FRA;FW;Saint-Étienne;19-126;2002;0.1;0;2;0.0;0;0;0;1;0.0;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+382;Patrick Roberts\Patrick-Roberts;eng ENG;DF;Troyes;24-240;1997;0.2;5;6;83.3;72;13;3;3;100.0;2;2;100.0;0;0;;0;0.0;0.0;0;0;0;0;1;Matches
+383;Stian Rode Gregersen\Stian-Rode-Gregersen;no NOR;DF;Bordeaux;26-139;1995;3.1;94;110;85.5;1896;719;25;31;80.6;55;59;93.2;11;16;68.8;0;0.0;0.0;0;4;0;0;6;Matches
+384;Gerson Rodrigues\Gerson-Rodrigues;lu LUX;FW;Troyes;26-105;1995;2.9;46;64;71.9;631;121;31;36;86.1;10;14;71.4;3;8;37.5;0;0.1;-0.1;1;2;2;0;3;Matches
+385;Valentin Rongier\Valentin-Rongier;fr FRA;MFDF;Marseille;26-300;1994;3.8;240;261;92.0;4455;1045;103;109;94.5;104;112;92.9;30;33;90.9;1;0.4;+0.6;2;18;1;0;19;Matches
+386;Pablo Rosario\Pablo-Rosario;nl NED;MF;Nice;24-269;1997;7.1;340;398;85.4;6240;1551;137;152;90.1;157;174;90.2;39;57;68.4;0;0.3;-0.3;6;34;5;1;31;Matches
+387;Roli Pereira de Sa\Roli-Pereira-de-Sa;fr FRA;MF;Nantes;24-297;1996;1.6;46;58;79.3;753;273;26;31;83.9;15;16;93.8;5;7;71.4;0;0.1;-0.1;1;2;1;1;3;Matches
+388;Mathys Saban\Mathys-Saban;fr FRA;FWMF;Saint-Étienne;19-141;2002;0.8;13;18;72.2;191;56;8;11;72.7;3;4;75.0;1;1;100.0;0;0.0;0.0;0;1;2;0;2;Matches
+389;Rafiki Said Ahamada\Rafiki-Said-Ahamada;fr FRA;MFFW;Brest;21-202;2000;0.2;10;13;76.9;122;32;5;6;83.3;4;5;80.0;0;1;0.0;0;0.0;0.0;0;0;2;0;3;Matches
+390;Wesley Saïd\Wesley-Said;fr FRA;FW;Lens;26-167;1995;1.6;36;47;76.6;536;101;22;26;84.6;10;11;90.9;3;6;50.0;0;0.3;-0.3;4;2;1;0;4;Matches
+391;Mamadou Sakho\Mamadou-Sakho;fr FRA;DF;Montpellier;31-232;1990;4.9;202;222;91.0;4162;1468;63;67;94.0;102;108;94.4;32;38;84.2;0;0.0;0.0;0;11;0;0;9;Matches
+392;William Saliba\William-Saliba;fr FRA;DF;Marseille;20-193;2001;6.0;475;496;95.8;8903;2593;182;187;97.3;245;250;98.0;46;54;85.2;0;0.4;-0.4;3;42;1;0;29;Matches
+393;Romain Salin\Romain-Salin;fr FRA;GK;Rennes;37-066;1984;1.0;29;32;90.6;849;494;7;7;100.0;12;12;100.0;10;13;76.9;0;0.0;0.0;0;1;0;0;0;Matches
+394;Yoann Salmier\Yoann-Salmier;gf GUF;DF;Troyes;28-316;1992;4.8;149;170;87.6;3245;975;48;51;94.1;68;74;91.9;29;36;80.6;0;0.0;0.0;0;5;0;0;9;Matches
+395;Mama Samba Baldé\Mama-Samba-Balde;gw GNB;FWMF;Troyes;25-331;1995;4.3;61;83;73.5;892;192;38;44;86.4;18;25;72.0;3;6;50.0;1;0.7;+0.3;6;2;2;0;6;Matches
+396;Junior Sambia\Junior-Sambia;fr FRA;DF;Montpellier;25-026;1996;4.9;201;254;79.1;3554;1655;105;114;92.1;72;90;80.0;20;39;51.3;0;0.3;-0.3;5;15;7;5;21;Matches
+397;Renato Sanches\Renato-Sanches;pt POR;MF;Lille;24-046;1997;1.0;51;64;79.7;1073;428;17;17;100.0;24;33;72.7;10;14;71.4;0;0.1;-0.1;2;11;2;0;12;Matches
+398;Philippe Sandler\Philippe-Sandler;nl NED;DF;Troyes;24-235;1997;0.8;20;27;74.1;316;205;13;14;92.9;6;8;75.0;1;5;20.0;0;0.0;0.0;0;2;0;0;0;Matches
+399;Baptiste Santamaria\Baptiste-Santamaria;fr FRA;MF;Rennes;26-208;1995;4.2;170;202;84.2;3449;711;62;71;87.3;78;85;91.8;27;38;71.1;1;0.0;+1.0;1;13;2;0;13;Matches
+400;Pablo Sarabia\Pablo-Sarabia;es ESP;FW;Paris S-G;29-145;1992;0.2;13;20;65.0;202;14;9;10;90.0;3;5;60.0;1;4;25.0;0;0.0;0.0;0;0;0;0;0;Matches
+401;Téji Savanier\Teji-Savanier;fr FRA;MF;Montpellier;29-285;1991;7.9;342;492;69.5;7790;2609;135;162;83.3;102;132;77.3;97;174;55.7;3;1.1;+1.9;18;46;14;3;47;Matches
+402;Morgan Schneiderlin\Morgan-Schneiderlin;fr FRA;MF;Nice;31-329;1989;0.1;18;21;85.7;300;82;9;9;100.0;6;7;85.7;2;4;50.0;0;0.0;0.0;0;2;0;0;2;Matches
+403;Alidu Seidu\Alidu-Seidu;ci CIV;FW;Clermont Foot;21-121;2000;0.2;10;12;83.3;142;0;6;8;75.0;4;4;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+404;Matz Sels\Matz-Sels;be BEL;GK;Strasbourg;29-219;1992;9.0;179;243;73.7;5359;3395;33;33;100.0;73;73;100.0;73;137;53.3;0;0.0;0.0;0;1;0;0;0;Matches
+405;Xherdan Shaqiri\Xherdan-Shaqiri;ch SUI;FW;Lyon;29-358;1991;3.2;119;163;73.0;2268;769;57;66;86.4;30;38;78.9;26;47;55.3;1;1.4;-0.4;9;10;11;2;20;Matches
+406;Mahame Siby\Mahame-Siby;ml MLI;MFDF;Strasbourg;25-088;1996;0.2;4;6;66.7;78;5;2;2;100.0;1;2;50.0;1;2;50.0;0;0.0;0.0;0;0;0;0;0;Matches
+407;Djibril Sidibé\Djibril-Sidibe;fr FRA;DF;Monaco;29-066;1992;3.7;221;274;80.7;4002;1379;103;115;89.6;97;115;84.3;21;39;53.8;0;0.7;-0.7;2;24;4;3;15;Matches
+408;Kaj Sierhuis\Kaj-Sierhuis;nl NED;FW;Reims;23-159;1998;0.9;22;27;81.5;322;50;11;14;78.6;6;6;100.0;2;3;66.7;0;0.1;-0.1;1;1;1;0;1;Matches
+409;Caio Henrique Oliveira Silva\Caio-Henrique-Oliveira-Silva;br BRA;DF;Monaco;24-064;1997;7.1;364;449;81.1;6480;1950;142;158;89.9;193;223;86.5;27;57;47.4;3;1.6;+1.4;7;8;11;5;32;Matches
+410;Moses Simon\Moses-Simon;ng NGA;FWMF;Nantes;26-083;1995;7.1;165;252;65.5;2913;1052;88;104;84.6;54;72;75.0;21;67;31.3;5;3.1;+1.9;24;10;12;6;21;Matches
+411;Issouf Sissokho\Issouf-Sissokho;ml MLI;MF;Bordeaux;19-246;2002;3.4;129;146;88.4;2350;396;52;56;92.9;57;64;89.1;17;18;94.4;0;0.3;-0.3;6;5;6;1;8;Matches
+412;Ibrahima Sissoko\Ibrahima-Sissoko;fr FRA;DFMF;Strasbourg;23-341;1997;4.2;195;223;87.4;4157;1385;58;61;95.1;100;104;96.2;32;50;64.0;0;0.2;-0.2;2;20;3;1;22;Matches
+413;Islam Slimani\Islam-Slimani;dz ALG;FW;Lyon;33-107;1988;3.4;84;103;81.6;1245;174;46;58;79.3;26;29;89.7;6;7;85.7;1;0.6;+0.4;5;0;7;0;8;Matches
+414;Florian Sotoca\Florian-Sotoca;fr FRA;FW;Lens;30-343;1990;7.2;237;316;75.0;4831;961;101;134;75.4;90;112;80.4;41;60;68.3;3;1.6;+1.4;12;30;5;3;27;Matches
+415;Arnaud Souquet\Arnaud-Souquet;fr FRA;DF;Montpellier;29-233;1992;4.1;159;224;71.0;2691;1169;84;95;88.4;63;84;75.0;11;34;32.4;0;0.2;-0.2;5;9;1;0;20;Matches
+416;Saidou Sow\Saidou-Sow;gn GUI;DF;Saint-Étienne;19-091;2002;4.5;172;208;82.7;3422;1230;60;67;89.6;84;94;89.4;25;41;61.0;0;0.0;0.0;1;15;1;1;14;Matches
+417;Calvin Stengs\Calvin-Stengs;nl NED;MF;Nice;22-289;1998;4.9;122;162;75.3;2080;782;58;72;80.6;46;56;82.1;13;23;56.5;0;0.8;-0.8;9;16;6;1;15;Matches
+418;Waniss Taibi\Waniss-Taibi;fr FRA;MF;Angers;19-210;2002;0.9;25;29;86.2;424;65;14;16;87.5;8;8;100.0;3;5;60.0;0;0.0;0.0;0;2;0;0;1;Matches
+419;Flavien Tait\Flavien-Tait;fr FRA;MF;Rennes;28-243;1993;7.6;334;386;86.5;6694;1459;128;148;86.5;135;154;87.7;67;76;88.2;1;1.0;0.0;9;41;9;2;36;Matches
+420;Florian Tardieu\Florian-Tardieu;fr FRA;MF;Troyes;29-164;1992;6.0;326;391;83.4;6907;1725;122;135;90.4;134;147;91.2;64;98;65.3;0;0.7;-0.7;9;22;5;1;22;Matches
+421;Loum Tchaouna\Loum-Tchaouna;fr FRA;MF;Rennes;18-025;2003;0.1;1;3;33.3;23;6;0;1;0.0;1;2;50.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+422;Warren Tchimbembé\Warren-Tchimbembe;fr FRA;MF;Metz;23-165;1998;0.5;25;29;86.2;487;98;10;11;90.9;12;13;92.3;2;4;50.0;0;0.0;0.0;0;2;0;0;2;Matches
+423;Aurélien Tchouaméni\Aurelien-Tchouameni;fr FRA;MF;Monaco;21-249;2000;6.9;368;416;88.5;7204;1550;145;155;93.5;165;181;91.2;54;70;77.1;0;0.9;-0.9;4;43;6;1;29;Matches
+424;Mathys Tel\Mathys-Tel;fr FRA;FW;Rennes;16-159;2005;0.4;9;14;64.3;213;63;4;5;80.0;2;5;40.0;3;3;100.0;0;0.1;-0.1;1;1;0;0;1;Matches
+425;Jordan Tell\Jordan-Tell;fr FRA;FW;Clermont Foot;24-115;1997;0.6;22;26;84.6;328;39;16;17;94.1;5;7;71.4;1;1;100.0;1;1.0;0.0;2;1;1;0;2;Matches
+426;Martin Terrier\Martin-Terrier;fr FRA;FWMF;Rennes;24-213;1997;5.1;101;126;80.2;1739;358;53;56;94.6;31;43;72.1;12;17;70.6;0;0.9;-0.9;5;8;4;1;12;Matches
+427;Sada Thioub\Sada-Thioub;sn SEN;MF;Angers;26-124;1995;0.0;2;4;50.0;15;0;2;3;66.7;0;0;;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+428;Romain Thomas\Romain-Thomas;fr FRA;DF;Angers;33-113;1988;8.0;468;522;89.7;11341;4002;97;101;96.0;238;253;94.1;127;160;79.4;0;0.1;-0.1;2;27;0;0;27;Matches
+429;Adrien Thomasson\Adrien-Thomasson;fr FRA;MF;Strasbourg;27-297;1993;6.6;248;320;77.5;4428;1102;115;135;85.2;101;123;82.1;26;46;56.5;1;0.9;+0.1;6;29;11;5;32;Matches
+430;Thuler\Thuler;br BRA;DF;Montpellier;22-207;1999;6.0;180;210;85.7;3775;1261;52;60;86.7;99;105;94.3;28;41;68.3;0;0.0;0.0;0;5;0;0;9;Matches
+431;Khéphren Thuram-Ulie\Khephren-Thuram-Ulie;fr FRA;MF;Nice;20-191;2001;3.2;144;175;82.3;2660;508;56;65;86.2;60;70;85.7;23;31;74.2;1;0.8;+0.2;6;13;4;0;12;Matches
+432;Cheikh Tidiane Sabaly\Cheikh-Tidiane-Sabaly;sn SEN;FWMF;Metz;22-213;1999;1.4;27;30;90.0;370;80;18;19;94.7;9;9;100.0;0;2;0.0;0;0.0;0.0;1;1;1;0;2;Matches
+433;Jean-Clair Todibo\Jean-Clair-Todibo;fr FRA;DF;Nice;21-277;1999;6.7;430;466;92.3;10052;2942;87;89;97.8;256;265;96.6;87;109;79.8;0;0.3;-0.3;4;27;3;0;18;Matches
+434;Karl Toko Ekambi\Karl-Toko-Ekambi;cm CMR;FW;Lyon;29-019;1992;6.5;186;234;79.5;2957;607;95;110;86.4;67;81;82.7;17;27;63.0;2;1.0;+1.0;11;6;8;6;10;Matches
+435;Yoann Touzghar\Yoann-Touzghar;tn TUN;FW;Troyes;34-309;1986;6.0;89;109;81.7;1355;105;56;66;84.8;26;29;89.7;6;8;75.0;0;0.2;-0.2;4;1;1;0;2;Matches
+436;Amadou Traore\Amadou-Traore;fr FRA;FW;Bordeaux;19-210;2002;0.2;2;4;50.0;32;0;1;3;33.3;1;1;100.0;0;0;;0;0.0;0.0;0;0;0;0;0;Matches
+437;Boubacar Traoré\Boubacar-Traore;ml MLI;MF;Metz;20-044;2001;2.5;97;123;78.9;1973;437;33;42;78.6;47;54;87.0;15;23;65.2;0;0.0;0.0;1;7;2;0;8;Matches
+438;Charles Traore\Charles-Traore;ml MLI;DF;Nantes;29-275;1992;4.3;164;206;79.6;2912;1328;72;79;91.1;72;87;82.8;16;30;53.3;0;0.0;0.0;0;14;2;0;20;Matches
+439;Hamari Traoré\Hamari-Traore;ml MLI;DF;Rennes;29-249;1992;6.9;354;435;81.4;7235;2440;109;123;88.6;193;228;84.6;47;76;61.8;1;1.1;-0.1;8;26;11;2;41;Matches
+440;Ismaël Traoré\Ismael-Traore;ci CIV;DF;Angers;35-046;1986;8.0;361;400;90.3;8336;2227;69;76;90.8;213;220;96.8;77;96;80.2;0;0.2;-0.2;1;8;0;0;12;Matches
+441;Miguel Trauco\Miguel-Trauco;pe PER;DF;Saint-Étienne;29-039;1992;2.3;101;143;70.6;1678;773;50;57;87.7;43;56;76.8;4;20;20.0;0;0.0;0.0;1;3;4;1;10;Matches
+442;Adrien Truffert\Adrien-Truffert;fr FRA;DF;Rennes;19-317;2001;0.9;62;72;86.1;991;349;31;35;88.6;28;30;93.3;2;5;40.0;0;0.0;0.0;1;3;1;0;6;Matches
+443;Matthieu Udol\Matthieu-Udol;fr FRA;DF;Metz;25-197;1996;8.0;274;356;77.0;5119;2081;113;128;88.3;125;149;83.9;35;67;52.2;0;0.4;-0.4;4;14;0;0;22;Matches
+444;Chimuanya Ugochukwu\Chimuanya-Ugochukwu;fr FRA;MF;Rennes;17-191;2004;3.7;149;167;89.2;2860;426;48;53;90.6;81;86;94.2;17;24;70.8;0;0.1;-0.1;2;3;0;0;5;Matches
+445;Hwang Ui-jo\Hwang-Ui-jo;kr KOR;FW;Bordeaux;29-036;1992;6.6;84;98;85.7;1296;154;43;43;100.0;31;33;93.9;5;10;50.0;1;0.2;+0.8;3;3;3;1;7;Matches
+446;Cengiz Ünder\Cengiz-Under;tr TUR;FWMF;Marseille;24-081;1997;5.7;180;240;75.0;3283;1016;90;105;85.7;57;74;77.0;29;49;59.2;0;1.3;-1.3;11;9;16;5;24;Matches
+447;Jere Uronen\Jere-Uronen;fi FIN;DF;Brest;27-082;1994;4.1;153;185;82.7;2864;1123;68;73;93.2;68;78;87.2;16;30;53.3;0;0.0;0.0;0;14;3;0;14;Matches
+448;Marco Verratti\Marco-Verratti;it ITA;MF;Paris S-G;28-332;1992;1.6;186;202;92.1;3154;803;89;93;95.7;78;84;92.9;17;21;81.0;0;0.1;-0.1;1;19;2;0;13;Matches
+449;Kevin Volland\Kevin-Volland;de GER;FWMF;Monaco;29-065;1992;4.9;82;108;75.9;1567;406;35;40;87.5;34;43;79.1;11;19;57.9;1;0.5;+0.5;4;11;8;0;16;Matches
+450;Timothy Weah\Timothy-Weah;us USA;MFFW;Lille;21-223;2000;3.8;77;116;66.4;1100;265;47;58;81.0;25;39;64.1;3;6;50.0;1;0.8;+0.2;6;2;6;2;10;Matches
+451;Georginio Wijnaldum\Georginio-Wijnaldum;nl NED;MF;Paris S-G;30-326;1990;4.6;188;212;88.7;2908;484;114;127;89.8;59;64;92.2;12;14;85.7;0;0.2;-0.2;1;14;4;0;11;Matches
+452;Christopher Wooh\Christopher-Wooh;fr FRA;DF;Lens;20-015;2001;3.4;145;164;88.4;3374;870;25;27;92.6;89;97;91.8;29;35;82.9;0;0.2;-0.2;2;8;0;0;3;Matches
+453;Xeka\Xeka;pt POR;MF;Lille;26-327;1994;4.9;188;238;79.0;3604;919;80;90;88.9;75;87;86.2;32;54;59.3;0;0.6;-0.6;3;11;2;0;14;Matches
+454;Yusuf Yazıcı\Yusuf-Yazici;tr TUR;MF;Lille;24-247;1997;3.8;144;192;75.0;2930;974;57;65;87.7;55;66;83.3;28;44;63.6;1;0.9;+0.1;6;13;4;0;12;Matches
+455;Burak Yılmaz\Burak-Yilmaz;tr TUR;FW;Lille;36-080;1985;7.0;122;166;73.5;1795;206;70;89;78.7;45;60;75.0;4;6;66.7;2;0.7;+1.3;6;6;3;0;7;Matches
+456;Zaydou Youssouf\Zaydou-Youssouf;fr FRA;MF;Saint-Étienne;22-084;1999;3.2;143;171;83.6;3047;602;62;70;88.6;44;52;84.6;34;42;81.0;0;0.1;-0.1;2;14;2;0;16;Matches
+457;Akim Zedadka\Akim-Zedadka;fr FRA;DF;Clermont Foot;26-126;1995;8.0;370;436;84.9;6298;1981;185;205;90.2;149;173;86.1;30;45;66.7;0;0.4;-0.4;6;22;12;8;26;Matches
+458;Mehdi Zerkane\Mehdi-Zerkane;dz ALG;DFMF;Bordeaux;22-080;1999;0.7;26;29;89.7;365;118;13;15;86.7;10;11;90.9;1;1;100.0;0;0.0;0.0;0;0;0;0;0;Matches
+459;Banhie Zoukrou\Banhie-Zoukrou;fr FRA;DF;Troyes;18-149;2003;0.9;24;26;92.3;480;76;9;10;90.0;12;12;100.0;3;4;75.0;0;0.0;0.0;0;1;0;0;1;Matches

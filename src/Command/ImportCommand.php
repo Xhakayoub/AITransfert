@@ -249,7 +249,7 @@ class importCommand extends Command
                   $verify
                      ->setMatchPlayed($teams['Playing Time-MP'])
                      ->setGoals($teams['Performance-Gls'])
-                     ->setAssists($teams['Playing Time-Min'])
+                     ->setAssists($teams['Performance-Ast'])
                      ->setGoalPerMatch($teams['Per 90 Minutes-Gls'])
                      //goalkepping
                      ->setGoalsAgainst($gkTeams[$fakeIndex]['Performance-GA'])
@@ -608,7 +608,7 @@ class importCommand extends Command
             ]);
 
 
-         if (empty($verify)) {
+         if (!$verify) {
             $player = (new player())
                ->setIdPlayer($comp)
                ->setName($name)
@@ -647,8 +647,8 @@ class importCommand extends Command
                ->setPassTotalPrgDistance(0)
                ->setProgressivePasses(0)
                //passtype
-               ->setCornerKicks(0)
-               ->setThrowInsTaken(0)
+               //->setCornerKicks(0)
+               //->setThrowInsTaken(0)
                ->setPartsOtherPasses(0)
                ->setHeadPasses(0)
                ->setStraightCKs(0)
@@ -1067,7 +1067,7 @@ class importCommand extends Command
                $index = 0;
             }
             if ($row['Player'] == $timming[$index]['Player']) {
-               $verify->setMinutesPerMatchPlayeds(intval($timming[$index]['Playing Time-Mn/MP'] ?? 0))
+               $player->setMinutesPerMatchPlayed(intval($timming[$index]['Playing Time-Mn/MP'] ?? 0))
                   ->setPercentageOfMinutesPlayed(floatval($timming[$index]['Playing Time-Min%'] ?? 0))
                   ->setMinPerMatchStarted(intval($timming[$index]['Starts-Mn/Start'] ?? 0))
                   ->setnintyMinPlayed(floatval($timming[$index]['Playing Time-90s'] ?? 0))
@@ -1083,7 +1083,7 @@ class importCommand extends Command
                for ($i = 0; $i <= count($timming) - 1; $i++) {
 
                   if ($row['Player'] == $timming[$i]['Player']) {
-                     $verify->setMinutesPerMatchPlayeds(intval($timming[$i]['Playing Time-Mn/MP'] ?? 0))
+                     $player->setMinutesPerMatchPlayed(intval($timming[$i]['Playing Time-Mn/MP'] ?? 0))
                         ->setPercentageOfMinutesPlayed(intval($timming[$i]['Playing Time-Min%'] ?? 0))
                         ->setMinPerMatchStarted(intval($timming[$i]['Starts-Mn/Start'] ?? 0))
                         ->setnintyMinPlayed(intval($timming[$i]['Playing Time-90s'] ?? 0))
@@ -1420,7 +1420,7 @@ class importCommand extends Command
                $index = 0;
             }
             if ($row['Player'] == $timming[$index]['Player']) {
-               $verify->setMinutesPerMatchPlayeds(intval($timming[$index]['Playing Time-Mn/MP'] ?? 0))
+               $verify->setMinutesPerMatchPlayed(intval($timming[$index]['Playing Time-Mn/MP'] ?? 0))
                   ->setPercentageOfMinutesPlayed(floatval($timming[$index]['Playing Time-Min%'] ?? 0))
                   ->setMinPerMatchStarted(intval($timming[$index]['Starts-Mn/Start'] ?? 0))
                   ->setnintyMinPlayed(floatval($timming[$index]['Playing Time-90s'] ?? 0))
@@ -1436,7 +1436,7 @@ class importCommand extends Command
                for ($i = 0; $i <= count($timming) - 1; $i++) {
 
                   if ($row['Player'] == $timming[$i]['Player']) {
-                     $verify->setMinutesPerMatchPlayeds(intval($timming[$i]['Playing Time-Mn/MP'] ?? 0))
+                     $verify->setMinutesPerMatchPlayed(intval($timming[$i]['Playing Time-Mn/MP'] ?? 0))
                         ->setPercentageOfMinutesPlayed(intval($timming[$i]['Playing Time-Min%'] ?? 0))
                         ->setMinPerMatchStarted(intval($timming[$i]['Starts-Mn/Start'] ?? 0))
                         ->setnintyMinPlayed(intval($timming[$i]['Playing Time-90s'] ?? 0))

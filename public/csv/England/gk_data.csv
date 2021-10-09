@@ -1,21 +1,27 @@
 Rk;Player;Nation;Pos;Squad;Age;Born;Playing Time-MP;Playing Time-Starts;Playing Time-Min;Playing Time-90s;Performance-GA;Performance-GA90;Performance-SoTA;Performance-Saves;Performance-Save%;W;D;L;Performance-CS;Performance-CS%;Performance-PKatt;Penalty Kicks-PKA;Penalty Kicks-PKsv;Penalty Kicks-PKm;Penalty Kicks-Save%;Matches;
-1;Alisson\Alisson;br BRA;GK;Liverpool;28-330;1992;2;2;180;2.0;0;0.00;7;7;100.0;2;0;0;2;100.0;0;0;0;0;;Matches
-2;Daniel Bachmann\Daniel-Bachmann;at AUT;GK;Watford;27-050;1994;2;2;180;2.0;4;2.00;4;1;25.0;1;0;1;0;0.0;1;1;0;0;0.0;Matches
-3;Ederson\Ederson;br BRA;GK;Manchester City;28-011;1993;2;2;180;2.0;1;0.50;2;1;50.0;1;0;1;1;50.0;0;0;0;0;;Matches
-4;Łukasz Fabiański\Lukasz-Fabianski;pl POL;GK;West Ham;36-132;1985;2;2;180;2.0;3;1.50;4;1;25.0;2;0;0;0;0.0;0;0;0;0;;Matches
-5;David de Gea\David-de-Gea;es ESP;GK;Manchester Utd;30-294;1990;2;2;180;2.0;2;1.00;6;5;66.7;1;1;0;0;0.0;0;0;0;0;;Matches
-6;Vicente Guaita\Vicente-Guaita;es ESP;GK;Crystal Palace;34-230;1987;2;2;180;2.0;3;1.50;9;6;66.7;0;1;1;1;50.0;0;0;0;0;;Matches
-7;Tim Krul\Tim-Krul;nl NED;GK;Norwich City;33-147;1988;2;2;180;2.0;8;4.00;10;3;20.0;0;0;2;0;0.0;0;0;0;0;;Matches
-8;Bernd Leno\Bernd-Leno;de GER;GK;Arsenal;29-177;1992;2;2;180;2.0;4;2.00;8;3;50.0;0;0;2;0;0.0;0;0;0;0;;Matches
-9;Hugo Lloris\Hugo-Lloris;fr FRA;GK;Tottenham;34-245;1986;2;2;180;2.0;0;0.00;10;10;100.0;2;0;0;2;100.0;0;0;0;0;;Matches
-10;Emiliano Martínez\Emiliano-Martinez;ar ARG;GK;Aston Villa;28-360;1992;2;2;180;2.0;3;1.50;8;5;62.5;1;0;1;1;50.0;0;0;0;0;;Matches
-11;Alex McCarthy\Alex-McCarthy;eng ENG;GK;Southampton;31-268;1989;2;2;180;2.0;4;2.00;9;5;55.6;0;1;1;0;0.0;0;0;0;0;;Matches
-12;Edouard Mendy\Edouard-Mendy;sn SEN;GK;Chelsea;29-180;1992;2;2;180;2.0;0;0.00;4;4;100.0;2;0;0;2;100.0;0;0;0;0;;Matches
-13;Illan Meslier\Illan-Meslier;fr FRA;GK;Leeds United;21-179;2000;2;2;180;2.0;7;3.50;15;9;60.0;0;1;1;0;0.0;1;1;0;0;0.0;Matches
-14;Jordan Pickford\Jordan-Pickford;eng ENG;GK;Everton;27-174;1994;2;2;180;2.0;3;1.50;7;4;57.1;1;1;0;0;0.0;0;0;0;0;;Matches
-15;Nick Pope\Nick-Pope;eng ENG;GK;Burnley;29-131;1992;2;2;180;2.0;4;2.00;14;10;71.4;0;0;2;0;0.0;0;0;0;0;;Matches
-16;David Raya\David-Raya;es ESP;GK;Brentford;25-347;1995;2;2;180;2.0;0;0.00;6;6;100.0;1;1;0;2;100.0;0;0;0;0;;Matches
-17;José Sá\Jose-Sa;pt POR;GK;Wolves;28-223;1993;2;2;180;2.0;2;1.00;10;9;90.0;0;0;2;0;0.0;1;1;0;0;0.0;Matches
-18;Robert Sánchez\Robert-Sanchez;es ESP;GK;Brighton;23-283;1997;2;2;180;2.0;1;0.50;5;4;80.0;2;0;0;1;50.0;0;0;0;0;;Matches
-19;Kasper Schmeichel\Kasper-Schmeichel;dk DEN;GK;Leicester City;34-296;1986;2;2;180;2.0;4;2.00;10;6;60.0;1;0;1;1;50.0;0;0;0;0;;Matches
-20;Freddie Woodman\Freddie-Woodman;eng ENG;GK;Newcastle Utd;24-177;1997;2;2;180;2.0;6;3.00;8;3;37.5;0;0;2;0;0.0;2;1;1;0;50.0;Matches
+1;Alisson\Alisson;br BRA;GK;Liverpool;29-001;1992;6;6;540;6.0;4;0.67;18;14;77.8;4;2;0;4;66.7;0;0;0;0;;Matches
+2;Kepa Arrizabalaga\Kepa-Arrizabalaga;es ESP;GK;Chelsea;27-000;1994;1;1;90;1.0;0;0.00;2;2;100.0;1;0;0;1;100.0;0;0;0;0;;Matches
+3;Daniel Bachmann\Daniel-Bachmann;at AUT;GK;Watford;27-086;1994;4;4;360;4.0;7;1.75;17;12;64.7;1;0;3;0;0.0;1;1;0;0;0.0;Matches
+4;Asmir Begović\Asmir-Begovic;ba BIH;GK;Everton;34-105;1987;1;1;90;1.0;3;3.00;3;1;0.0;0;0;1;0;0.0;0;0;0;0;;Matches
+5;Karl Darlow\Karl-Darlow;eng ENG;GK;Newcastle Utd;30-360;1990;3;3;270;3.0;4;1.33;17;13;76.5;0;2;1;0;0.0;0;0;0;0;;Matches
+6;Ederson\Ederson;br BRA;GK;Manchester City;28-047;1993;6;6;540;6.0;1;0.17;5;4;80.0;4;1;1;5;83.3;0;0;0;0;;Matches
+7;Łukasz Fabiański\Lukasz-Fabianski;pl POL;GK;West Ham;36-168;1985;6;6;540;6.0;8;1.33;23;14;65.2;3;2;1;1;16.7;0;0;0;0;;Matches
+8;Ben Foster\Ben-Foster;eng ENG;GK;Watford;38-183;1983;3;3;270;3.0;3;1.00;13;10;76.9;1;1;1;0;0.0;0;0;0;0;;Matches
+9;David de Gea\David-de-Gea;es ESP;GK;Manchester Utd;30-330;1990;7;7;630;7.0;6;0.86;23;18;73.9;4;2;1;1;14.3;1;0;1;0;100.0;Matches
+10;Vicente Guaita\Vicente-Guaita;es ESP;GK;Crystal Palace;34-266;1987;6;6;540;6.0;9;1.50;28;19;67.9;1;3;2;2;33.3;0;0;0;0;;Matches
+11;Tim Krul\Tim-Krul;nl NED;GK;Norwich City;33-183;1988;7;7;630;7.0;16;2.29;34;19;55.9;0;1;6;1;14.3;1;1;0;0;0.0;Matches
+12;Bernd Leno\Bernd-Leno;de GER;GK;Arsenal;29-213;1992;3;3;270;3.0;9;3.00;18;8;50.0;0;0;3;0;0.0;0;0;0;0;;Matches
+13;Hugo Lloris\Hugo-Lloris;fr FRA;GK;Tottenham;34-281;1986;6;6;540;6.0;9;1.50;30;22;73.3;3;0;3;3;50.0;1;1;0;0;0.0;Matches
+14;Emiliano Martínez\Emiliano-Martinez;ar ARG;GK;Aston Villa;29-031;1992;5;5;450;5.0;4;0.80;15;11;73.3;3;1;1;3;60.0;1;0;0;1;;Matches
+15;Alex McCarthy\Alex-McCarthy;eng ENG;GK;Southampton;31-304;1989;7;7;630;7.0;10;1.43;29;19;65.5;0;4;3;2;28.6;0;0;0;0;;Matches
+16;Edouard Mendy\Edouard-Mendy;sn SEN;GK;Chelsea;29-216;1992;6;6;540;6.0;3;0.50;20;19;95.0;4;1;1;3;50.0;2;2;0;0;0.0;Matches
+17;Illan Meslier\Illan-Meslier;fr FRA;GK;Leeds United;21-215;2000;7;7;630;7.0;14;2.00;40;28;67.5;1;3;3;1;14.3;1;1;0;0;0.0;Matches
+18;Jordan Pickford\Jordan-Pickford;eng ENG;GK;Everton;27-210;1994;6;6;540;6.0;5;0.83;23;18;78.3;4;2;0;2;33.3;0;0;0;0;;Matches
+19;Nick Pope\Nick-Pope;eng ENG;GK;Burnley;29-167;1992;7;7;630;7.0;11;1.57;30;19;63.3;0;3;4;1;14.3;0;0;0;0;;Matches
+20;Aaron Ramsdale\Aaron-Ramsdale;eng ENG;GK;Arsenal;23-142;1998;4;4;360;4.0;1;0.25;10;8;90.0;3;1;0;3;75.0;0;0;0;0;;Matches
+21;David Raya\David-Raya;es ESP;GK;Brentford;26-018;1995;6;6;540;6.0;5;0.83;17;12;70.6;2;3;1;3;50.0;0;0;0;0;;Matches
+22;José Sá\Jose-Sa;pt POR;GK;Wolves;28-259;1993;7;7;630;7.0;6;0.86;25;21;84.0;3;0;4;2;28.6;2;2;0;0;0.0;Matches
+23;Robert Sánchez\Robert-Sanchez;es ESP;GK;Brighton;23-319;1997;7;7;630;7.0;5;0.71;16;13;81.3;4;2;1;3;42.9;2;2;0;0;0.0;Matches
+24;Kasper Schmeichel\Kasper-Schmeichel;dk DEN;GK;Leicester City;34-332;1986;6;6;540;6.0;10;1.67;27;20;70.4;2;1;3;1;16.7;2;2;0;0;0.0;Matches
+25;Jed Steer\Jed-Steer;eng ENG;GK;Aston Villa;29-010;1992;1;1;90;1.0;3;3.00;4;1;25.0;0;0;1;0;0.0;0;0;0;0;;Matches
+26;Freddie Woodman\Freddie-Woodman;eng ENG;GK;Newcastle Utd;24-213;1997;4;4;360;4.0;12;3.00;19;9;47.4;0;1;3;0;0.0;3;2;1;0;33.3;Matches

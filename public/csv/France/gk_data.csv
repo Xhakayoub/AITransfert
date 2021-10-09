@@ -1,22 +1,27 @@
 Rk;Player;Nation;Pos;Squad;Age;Born;Playing Time-MP;Playing Time-Starts;Playing Time-Min;Playing Time-90s;Performance-GA;Performance-GA90;Performance-SoTA;Performance-Saves;Performance-Save%;W;D;L;Performance-CS;Performance-CS%;Performance-PKatt;Penalty Kicks-PKA;Penalty Kicks-PKsv;Penalty Kicks-PKm;Penalty Kicks-Save%;Matches;
-1;Walter Benítez\Walter-Benitez;ar ARG;GK;Nice;28-162;1993;2;2;180;2.0;0;0.00;6;6;100.0;1;1;0;2;100.0;0;0;0;0;;Matches
-2;Paul Bernardoni\Paul-Bernardoni;fr FRA;GK;Angers;24-132;1997;3;3;270;3.0;1;0.33;9;8;88.9;2;1;0;2;66.7;0;0;0;0;;Matches
-3;Dimitry Bertaud\Dimitry-Bertaud;fr FRA;GK;Montpellier;23-083;1998;3;3;270;3.0;7;2.33;20;14;65.0;1;1;1;0;0.0;0;0;0;0;;Matches
-4;Marco Bizot\Marco-Bizot;nl NED;GK;Brest;30-171;1991;3;3;270;3.0;6;2.00;15;9;60.0;0;2;1;0;0.0;0;0;0;0;;Matches
-5;Leonardo César Jardim\Leonardo-Cesar-Jardim;br BRA;GK;Lille;26-161;1995;2;2;180;2.0;7;3.50;11;4;45.5;0;1;1;0;0.0;2;1;1;0;50.0;Matches
-6;Benoît Costil\Benoit-Costil;fr FRA;GK;Bordeaux;34-056;1987;3;3;270;3.0;5;1.67;15;10;66.7;0;2;1;0;0.0;0;0;0;0;;Matches
-7;Arthur Desmas\Arthur-Desmas;fr FRA;GK;Clermont Foot;27-143;1994;3;3;270;3.0;3;1.00;15;13;86.7;2;1;0;2;66.7;1;1;0;0;0.0;Matches
-8;Gauthier Gallon\Gauthier-Gallon;fr FRA;GK;Troyes;28-127;1993;3;3;270;3.0;5;1.67;14;9;64.3;0;1;2;0;0.0;0;0;0;0;;Matches
-9;Alfred Gomis\Alfred-Gomis;sn SEN;GK;Rennes;27-357;1993;3;3;270;3.0;2;0.67;12;9;83.3;1;2;0;1;33.3;0;0;0;0;;Matches
-10;Ivo Grbić\Ivo-Grbic;hr CRO;GK;Lille;25-222;1996;1;1;90;1.0;1;1.00;2;1;50.0;0;1;0;0;0.0;0;0;0;0;;Matches
-11;Etienne Green\Etienne-Green;fr FRA;GK;Saint-Étienne;21-040;2000;3;3;270;3.0;4;1.33;16;12;75.0;0;3;0;0;0.0;0;0;0;0;;Matches
-12;Alban Lafont\Alban-Lafont;fr FRA;GK;Nantes;22-217;1999;4;4;360;4.0;3;0.75;18;15;83.3;1;1;2;1;25.0;0;0;0;0;;Matches
-13;Jean-Louis Leca\Jean-Louis-Leca;fr FRA;GK;Lens;35-341;1985;3;3;270;3.0;3;1.00;10;7;70.0;1;2;0;1;33.3;0;0;0;0;;Matches
-14;Anthony Lopes\Anthony-Lopes;pt POR;GK;Lyon;30-331;1990;4;4;360;4.0;7;1.75;22;17;68.2;1;2;1;1;25.0;0;0;0;0;;Matches
-15;Steve Mandanda\Steve-Mandanda;fr FRA;GK;Marseille;36-153;1985;2;2;180;2.0;4;2.00;6;2;33.3;1;1;0;0;0.0;0;0;0;0;;Matches
-16;Paul Nardi\Paul-Nardi;fr FRA;GK;Lorient;27-102;1994;3;3;270;3.0;4;1.33;16;13;81.3;1;1;1;1;33.3;1;1;0;0;0.0;Matches
-17;Keylor Navas\Keylor-Navas;cr CRC;GK;Paris S-G;34-256;1986;3;3;270;3.0;5;1.67;12;7;58.3;3;0;0;0;0.0;0;0;0;0;;Matches
-18;Alexander Nübel\Alexander-Nubel;de GER;GK;Monaco;24-332;1996;3;3;270;3.0;4;1.33;4;1;25.0;0;1;2;0;0.0;1;1;0;0;0.0;Matches
-19;Alexandre Oukidja\Alexandre-Oukidja;dz ALG;GK;Metz;33-040;1988;3;3;270;3.0;6;2.00;15;10;60.0;0;2;1;0;0.0;0;0;0;0;;Matches
-20;Predrag Rajković\Predrag-Rajkovic;rs SRB;GK;Reims;25-301;1995;3;3;270;3.0;4;1.33;11;7;63.6;0;3;0;1;33.3;0;0;0;0;;Matches
-21;Matz Sels\Matz-Sels;be BEL;GK;Strasbourg;29-183;1992;3;3;270;3.0;7;2.33;13;7;46.2;0;1;2;0;0.0;0;0;0;0;;Matches
+1;Stefan Bajic\Stefan-Bajic;fr FRA;GK;Saint-Étienne;19-284;2001;2;1;145;1.6;5;3.10;12;8;66.7;0;0;1;0;0.0;1;1;0;0;0.0;Matches
+2;Walter Benítez\Walter-Benitez;ar ARG;GK;Nice;28-198;1993;8;8;720;8.0;4;0.50;24;21;87.5;5;2;1;5;62.5;1;1;0;0;0.0;Matches
+3;Paul Bernardoni\Paul-Bernardoni;fr FRA;GK;Angers;24-168;1997;8;8;720;8.0;7;0.87;23;18;78.3;3;4;1;4;50.0;2;2;0;0;0.0;Matches
+4;Dimitry Bertaud\Dimitry-Bertaud;fr FRA;GK;Montpellier;23-119;1998;5;5;450;5.0;9;1.80;26;18;65.4;2;1;2;1;20.0;0;0;0;0;;Matches
+5;Marco Bizot\Marco-Bizot;nl NED;GK;Brest;30-207;1991;9;9;810;9.0;18;2.00;43;28;60.5;0;4;5;0;0.0;1;1;0;0;0.0;Matches
+6;Leonardo César Jardim\Leonardo-Cesar-Jardim;br BRA;GK;Lille;26-197;1995;2;2;180;2.0;7;3.50;11;4;45.5;0;1;1;0;0.0;2;1;1;0;50.0;Matches
+7;Benoît Costil\Benoit-Costil;fr FRA;GK;Bordeaux;34-092;1987;8;8;720;8.0;17;2.12;43;28;65.1;1;4;3;0;0.0;2;2;0;0;0.0;Matches
+8;Arthur Desmas\Arthur-Desmas;fr FRA;GK;Clermont Foot;27-179;1994;8;8;720;8.0;19;2.37;39;23;56.4;2;3;3;2;25.0;2;2;0;0;0.0;Matches
+9;Gianluigi Donnarumma\Gianluigi-Donnarumma;it ITA;GK;Paris S-G;22-220;1999;2;2;180;2.0;1;0.50;7;6;85.7;2;0;0;1;50.0;0;0;0;0;;Matches
+10;Gauthier Gallon\Gauthier-Gallon;fr FRA;GK;Troyes;28-163;1993;8;8;720;8.0;12;1.50;35;24;68.6;1;3;4;1;12.5;1;1;0;0;0.0;Matches
+11;Alfred Gomis\Alfred-Gomis;sn SEN;GK;Rennes;28-028;1993;7;7;630;7.0;7;1.00;26;18;73.1;2;3;2;2;28.6;0;0;0;0;;Matches
+12;Ivo Grbić\Ivo-Grbic;hr CRO;GK;Lille;25-258;1996;6;6;540;6.0;7;1.17;22;16;72.7;3;1;2;0;0.0;1;1;0;0;0.0;Matches
+13;Etienne Green\Etienne-Green;fr FRA;GK;Saint-Étienne;21-076;2000;7;7;572;6.4;12;1.89;31;19;61.3;0;3;4;0;0.0;0;0;0;0;;Matches
+14;Alban Lafont\Alban-Lafont;fr FRA;GK;Nantes;22-253;1999;8;8;720;8.0;10;1.25;33;23;69.7;3;1;4;1;12.5;0;0;0;0;;Matches
+15;Jean-Louis Leca\Jean-Louis-Leca;fr FRA;GK;Lens;36-012;1985;9;9;810;9.0;10;1.11;25;16;64.0;5;3;1;3;33.3;1;1;0;0;0.0;Matches
+16;Anthony Lopes\Anthony-Lopes;pt POR;GK;Lyon;31-002;1990;8;8;720;8.0;12;1.50;40;32;75.0;3;3;2;1;12.5;2;2;0;0;0.0;Matches
+17;Pau López\Pau-Lopez;es ESP;GK;Marseille;26-294;1994;4;4;360;4.0;3;0.75;7;5;71.4;2;1;1;3;75.0;1;1;0;0;0.0;Matches
+18;Steve Mandanda\Steve-Mandanda;fr FRA;GK;Marseille;36-189;1985;3;3;270;3.0;5;1.67;10;6;50.0;2;1;0;0;0.0;0;0;0;0;;Matches
+19;Paul Nardi\Paul-Nardi;fr FRA;GK;Lorient;27-138;1994;8;8;720;8.0;8;1.00;32;26;81.3;3;4;1;3;37.5;3;2;0;1;0.0;Matches
+20;Keylor Navas\Keylor-Navas;cr CRC;GK;Paris S-G;34-292;1986;6;6;540;6.0;6;1.00;22;16;72.7;6;0;0;2;33.3;0;0;0;0;;Matches
+21;Alexander Nübel\Alexander-Nubel;de GER;GK;Monaco;25-003;1996;8;8;720;8.0;11;1.37;22;13;54.5;3;2;3;0;0.0;2;1;0;1;0.0;Matches
+22;Jonas Omlin\Jonas-Omlin;ch SUI;GK;Montpellier;27-266;1994;4;4;360;4.0;7;1.75;18;11;61.1;0;3;1;0;0.0;0;0;0;0;;Matches
+23;Alexandre Oukidja\Alexandre-Oukidja;dz ALG;GK;Metz;33-076;1988;8;8;720;8.0;16;2.00;33;21;57.6;1;3;4;0;0.0;2;2;0;0;0.0;Matches
+24;Predrag Rajković\Predrag-Rajkovic;rs SRB;GK;Reims;25-337;1995;9;9;810;9.0;11;1.22;30;20;66.7;2;4;3;3;33.3;1;1;0;0;0.0;Matches
+25;Romain Salin\Romain-Salin;fr FRA;GK;Rennes;37-066;1984;1;1;90;1.0;2;2.00;3;1;33.3;0;0;1;0;0.0;0;0;0;0;;Matches
+26;Matz Sels\Matz-Sels;be BEL;GK;Strasbourg;29-219;1992;9;9;810;9.0;14;1.56;43;31;69.8;3;2;4;2;22.2;1;1;0;0;0.0;Matches

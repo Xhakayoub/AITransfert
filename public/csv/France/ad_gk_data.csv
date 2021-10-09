@@ -1,22 +1,27 @@
 Rk;Player;Nation;Pos;Squad;Age;Born;90s;GA;PKA;Goals-FK;Goals-CK;Goals-OG;Expected-PSxG;Expected-PSxG/SoT;Expected-PSxG+/-;Expected-/90;Launched-Cmp;Launched-Att;Launched-Cmp%;Passes-Att;Passes-Thr;Passes-Launch%;Passes-AvgLen;Goal Kicks-Att;Goal Kicks-Launch%;Goal Kicks-AvgLen;Crosses-Opp;Crosses-Stp;Crosses-Stp%;Sweeper-#OPA;Sweeper-#OPA/90;Sweeper-AvgDist;Matches;
-1;Walter Benítez\Walter-Benitez;ar ARG;GK;Nice;28-162;1993;2.0;0;0;0;0;0;1.6;0.26;+1.6;+0.78;10;28;35.7;35;7;40.0;36.1;20;70.0;50.9;12;1;8.3;1;0.50;13.9;Matches
-2;Paul Bernardoni\Paul-Bernardoni;fr FRA;GK;Angers;24-132;1997;3.0;1;0;0;0;0;0.7;0.07;-0.3;-0.11;17;39;43.6;57;20;47.4;40.5;17;70.6;53.6;34;2;5.9;3;1.00;16.2;Matches
-3;Dimitry Bertaud\Dimitry-Bertaud;fr FRA;GK;Montpellier;23-083;1998;3.0;7;0;1;1;1;5.6;0.28;-0.4;-0.12;23;48;47.9;72;20;52.8;40.4;21;47.6;42.3;29;6;20.7;0;0.00;10.7;Matches
-4;Marco Bizot\Marco-Bizot;nl NED;GK;Brest;30-171;1991;3.0;6;0;0;1;0;3.5;0.23;-2.5;-0.84;33;56;58.9;67;13;58.2;45.1;27;63.0;48.8;19;1;5.3;0;0.00;13.4;Matches
-5;Leonardo César Jardim\Leonardo-Cesar-Jardim;br BRA;GK;Lille;26-161;1995;2.0;7;1;0;2;0;4.1;0.35;-2.9;-1.46;6;13;46.2;42;14;28.6;30.7;10;10.0;30.0;10;0;0.0;3;1.50;17.9;Matches
-6;Benoît Costil\Benoit-Costil;fr FRA;GK;Bordeaux;34-056;1987;3.0;5;0;0;1;0;4.9;0.33;-0.1;-0.03;22;51;43.1;64;7;59.4;42.4;16;81.3;54.9;12;0;0.0;0;0.00;12.8;Matches
-7;Arthur Desmas\Arthur-Desmas;fr FRA;GK;Clermont Foot;27-143;1994;3.0;3;1;0;1;0;3.7;0.20;+0.7;+0.24;6;10;60.0;45;13;13.3;25.5;23;17.4;23.3;19;0;0.0;0;0.00;11.7;Matches
-8;Gauthier Gallon\Gauthier-Gallon;fr FRA;GK;Troyes;28-127;1993;3.0;5;0;0;2;0;3.4;0.24;-1.6;-0.54;33;68;48.5;102;15;49.0;40.5;27;66.7;46.6;31;1;3.2;1;0.33;12.0;Matches
-9;Alfred Gomis\Alfred-Gomis;sn SEN;GK;Rennes;27-357;1993;3.0;2;0;0;0;0;4.2;0.36;+2.2;+0.74;15;29;51.7;91;20;22.0;26.2;22;40.9;38.2;32;3;9.4;2;0.67;14.9;Matches
-10;Ivo Grbić\Ivo-Grbic;hr CRO;GK;Lille;25-222;1996;1.0;1;0;0;1;0;0.3;0.15;-0.7;-0.70;9;21;42.9;19;4;68.4;46.5;10;80.0;61.2;2;0;0.0;0;0.00;13.7;Matches
-11;Etienne Green\Etienne-Green;fr FRA;GK;Saint-Étienne;21-040;2000;3.0;4;0;0;1;0;3.3;0.21;-0.7;-0.24;19;56;33.9;70;14;50.0;41.6;25;84.0;63.6;19;0;0.0;3;1.00;14.5;Matches
-12;Alban Lafont\Alban-Lafont;fr FRA;GK;Nantes;22-217;1999;4.0;3;0;0;0;0;4.3;0.24;+1.3;+0.32;15;70;21.4;67;8;53.7;46.3;36;94.4;66.8;29;2;6.9;3;0.75;16.4;Matches
-13;Jean-Louis Leca\Jean-Louis-Leca;fr FRA;GK;Lens;35-341;1985;3.0;3;0;0;0;0;2.4;0.24;-0.6;-0.21;19;49;38.8;70;15;47.1;40.3;24;66.7;54.5;23;3;13.0;0;0.00;11.8;Matches
-14;Anthony Lopes\Anthony-Lopes;pt POR;GK;Lyon;30-331;1990;4.0;7;0;0;1;2;4.8;0.22;-0.2;-0.05;17;32;53.1;104;19;21.2;30.1;32;31.3;31.5;33;3;9.1;3;0.75;14.0;Matches
-15;Steve Mandanda\Steve-Mandanda;fr FRA;GK;Marseille;36-153;1985;2.0;4;0;0;2;1;1.9;0.32;-2.1;-1.05;7;14;50.0;44;6;20.5;30.0;23;21.7;34.7;23;2;8.7;1;0.50;14.3;Matches
-16;Paul Nardi\Paul-Nardi;fr FRA;GK;Lorient;27-102;1994;3.0;4;1;1;1;0;5.1;0.26;+1.1;+0.35;14;64;21.9;46;6;71.7;53.7;35;88.6;66.8;50;2;4.0;1;0.33;14.7;Matches
-17;Keylor Navas\Keylor-Navas;cr CRC;GK;Paris S-G;34-256;1986;3.0;5;0;0;1;0;3.7;0.31;-1.3;-0.42;8;10;80.0;60;14;11.7;26.9;19;15.8;23.1;30;2;6.7;0;0.00;9.6;Matches
-18;Alexander Nübel\Alexander-Nubel;de GER;GK;Monaco;24-332;1996;3.0;4;1;0;1;0;2.5;0.38;-1.5;-0.51;10;23;43.5;72;9;27.8;31.9;12;25.0;34.0;5;0;0.0;4;1.33;21.8;Matches
-19;Alexandre Oukidja\Alexandre-Oukidja;dz ALG;GK;Metz;33-040;1988;3.0;6;0;0;1;1;4.2;0.28;-0.8;-0.26;18;50;36.0;72;21;47.2;40.7;22;72.7;57.6;23;3;13.0;1;0.33;15.1;Matches
-20;Predrag Rajković\Predrag-Rajkovic;rs SRB;GK;Reims;25-301;1995;3.0;4;0;0;2;0;3.9;0.36;-0.1;-0.02;14;40;35.0;62;11;43.5;39.6;21;61.9;51.3;27;3;11.1;3;1.00;17.6;Matches
-21;Matz Sels\Matz-Sels;be BEL;GK;Strasbourg;29-183;1992;3.0;7;0;0;1;1;6.8;0.53;+0.8;+0.28;9;23;39.1;54;9;42.6;35.4;9;0.0;21.4;22;2;9.1;3;1.00;15.7;Matches
+1;Stefan Bajic\Stefan-Bajic;fr FRA;GK;Saint-Étienne;19-284;2001;1.6;5;1;1;0;0;5.1;0.35;+0.1;+0.06;8;28;28.6;32;9;46.9;37.5;16;81.3;57.0;15;0;0.0;5;3.10;17.8;Matches
+2;Walter Benítez\Walter-Benitez;ar ARG;GK;Nice;28-198;1993;8.0;4;1;0;0;0;6.3;0.22;+2.3;+0.29;36;96;37.5;141;29;41.8;36.1;53;69.8;52.3;56;4;7.1;5;0.63;15.2;Matches
+3;Paul Bernardoni\Paul-Bernardoni;fr FRA;GK;Angers;24-168;1997;8.0;7;2;0;1;0;6.9;0.22;-0.1;-0.01;26;56;46.4;142;47;28.2;33.6;52;30.8;35.5;71;7;9.9;5;0.63;15.0;Matches
+4;Dimitry Bertaud\Dimitry-Bertaud;fr FRA;GK;Montpellier;23-119;1998;5.0;9;0;1;1;1;7.7;0.30;-0.3;-0.06;44;91;48.4;121;27;52.1;40.0;48;58.3;45.5;46;7;15.2;0;0.00;11.3;Matches
+5;Marco Bizot\Marco-Bizot;nl NED;GK;Brest;30-207;1991;9.0;18;1;0;2;2;12.1;0.27;-3.9;-0.43;67;135;49.6;225;54;42.2;37.5;61;65.6;50.8;62;4;6.5;5;0.56;14.5;Matches
+6;Leonardo César Jardim\Leonardo-Cesar-Jardim;br BRA;GK;Lille;26-197;1995;2.0;7;1;0;2;0;4.1;0.35;-2.9;-1.46;6;13;46.2;42;14;28.6;30.7;10;10.0;30.0;10;0;0.0;3;1.50;17.9;Matches
+7;Benoît Costil\Benoit-Costil;fr FRA;GK;Bordeaux;34-092;1987;8.0;17;2;0;2;0;16.2;0.33;-0.8;-0.10;61;153;39.9;183;20;56.8;43.4;58;84.5;59.2;59;6;10.2;6;0.75;14.4;Matches
+8;Arthur Desmas\Arthur-Desmas;fr FRA;GK;Clermont Foot;27-179;1994;8.0;19;2;0;2;1;13.9;0.33;-4.1;-0.51;22;60;36.7;154;36;24.0;30.0;55;41.8;35.4;43;1;2.3;3;0.38;11.5;Matches
+9;Gianluigi Donnarumma\Gianluigi-Donnarumma;it ITA;GK;Paris S-G;22-220;1999;2.0;1;0;0;0;0;0.8;0.11;-0.2;-0.10;2;5;40.0;48;11;8.3;21.1;14;7.1;18.9;13;1;7.7;2;1.00;13.1;Matches
+10;Gauthier Gallon\Gauthier-Gallon;fr FRA;GK;Troyes;28-163;1993;8.0;12;1;0;3;0;11.2;0.29;-0.8;-0.10;74;166;44.6;239;41;51.0;40.8;67;65.7;47.4;85;5;5.9;6;0.75;13.0;Matches
+11;Alfred Gomis\Alfred-Gomis;sn SEN;GK;Rennes;28-028;1993;7.0;7;0;0;1;0;7.9;0.35;+0.9;+0.13;30;69;43.5;167;36;23.4;27.1;53;56.6;46.0;78;4;5.1;4;0.57;14.8;Matches
+12;Ivo Grbić\Ivo-Grbic;hr CRO;GK;Lille;25-258;1996;6.0;7;1;0;2;0;7.4;0.30;+0.4;+0.07;38;95;40.0;132;23;50.8;41.2;40;70.0;53.2;51;6;11.8;5;0.83;15.4;Matches
+13;Etienne Green\Etienne-Green;fr FRA;GK;Saint-Étienne;21-076;2000;6.4;12;0;0;1;0;8.8;0.28;-3.2;-0.50;43;100;43.0;138;27;44.9;39.8;57;66.7;53.9;45;2;4.4;3;0.47;14.2;Matches
+14;Alban Lafont\Alban-Lafont;fr FRA;GK;Nantes;22-253;1999;8.0;10;0;0;3;0;9.2;0.28;-0.8;-0.10;35;137;25.5;166;15;49.4;44.9;58;94.8;67.4;52;3;5.8;4;0.50;14.7;Matches
+15;Jean-Louis Leca\Jean-Louis-Leca;fr FRA;GK;Lens;36-012;1985;9.0;10;1;1;0;0;9.6;0.35;-0.4;-0.05;42;105;40.0;192;44;39.1;36.5;55;54.5;46.7;65;11;16.9;4;0.44;13.5;Matches
+16;Anthony Lopes\Anthony-Lopes;pt POR;GK;Lyon;31-002;1990;8.0;12;2;1;1;2;11.2;0.24;+1.2;+0.15;33;63;52.4;191;39;24.1;30.9;62;27.4;30.3;71;3;4.2;8;1.00;16.3;Matches
+17;Pau López\Pau-Lopez;es ESP;GK;Marseille;26-294;1994;4.0;3;1;0;0;0;3.0;0.31;0.0;0.00;20;43;46.5;114;21;27.2;30.2;30;40.0;35.9;23;3;13.0;3;0.75;16.6;Matches
+18;Steve Mandanda\Steve-Mandanda;fr FRA;GK;Marseille;36-189;1985;3.0;5;0;0;3;1;1.8;0.18;-2.2;-0.75;13;21;61.9;56;7;26.8;31.5;23;26.1;33.6;26;2;7.7;1;0.33;15.3;Matches
+19;Paul Nardi\Paul-Nardi;fr FRA;GK;Lorient;27-138;1994;8.0;8;2;2;1;0;9.8;0.25;+1.8;+0.22;30;140;21.4;125;21;62.4;49.0;74;83.8;64.4;87;4;4.6;2;0.25;14.5;Matches
+20;Keylor Navas\Keylor-Navas;cr CRC;GK;Paris S-G;34-292;1986;6.0;6;0;0;2;0;5.2;0.24;-0.8;-0.13;18;28;64.3;119;26;16.8;28.6;37;21.6;27.2;52;4;7.7;4;0.67;13.6;Matches
+21;Alexander Nübel\Alexander-Nubel;de GER;GK;Monaco;25-003;1996;8.0;11;1;0;1;1;7.4;0.29;-2.6;-0.33;32;89;36.0;181;27;34.8;35.7;52;50.0;43.0;49;3;6.1;7;0.88;17.7;Matches
+22;Jonas Omlin\Jonas-Omlin;ch SUI;GK;Montpellier;27-266;1994;4.0;7;0;0;1;0;4.7;0.26;-2.3;-0.56;20;38;52.6;133;25;25.6;30.2;27;14.8;24.7;27;1;3.7;3;0.75;15.4;Matches
+23;Alexandre Oukidja\Alexandre-Oukidja;dz ALG;GK;Metz;33-076;1988;8.0;16;2;0;1;2;11.5;0.30;-2.5;-0.31;59;143;41.3;156;44;55.8;45.0;67;83.6;60.1;69;11;15.9;8;1.00;15.7;Matches
+24;Predrag Rajković\Predrag-Rajkovic;rs SRB;GK;Reims;25-337;1995;9.0;11;1;0;3;0;9.3;0.28;-1.7;-0.19;41;127;32.3;215;37;44.2;40.1;58;55.2;45.4;84;4;4.8;9;1.00;16.5;Matches
+25;Romain Salin\Romain-Salin;fr FRA;GK;Rennes;37-066;1984;1.0;2;0;0;0;0;1.0;0.32;-1.0;-1.04;6;9;66.7;29;8;31.0;35.3;3;0.0;13.3;6;1;16.7;1;1.00;14.5;Matches
+26;Matz Sels\Matz-Sels;be BEL;GK;Strasbourg;29-219;1992;9.0;14;1;0;2;1;14.5;0.33;+1.5;+0.16;47;105;44.8;189;33;45.5;37.8;54;35.2;37.4;66;6;9.1;4;0.44;13.7;Matches

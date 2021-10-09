@@ -1,326 +1,462 @@
 Rk;Player;Nation;Pos;Squad;Age;Born;90s;Touches-Touches;Touches-Def Pen;Touches-Def 3rd;Touches-Mid 3rd;Touches-Att 3rd;Touches-Att Pen;Touches-Live;Dribbles-Succ;Dribbles-Att;Dribbles-Succ%;Dribbles-#Pl;Dribbles-Megs;Carries-Carries;Carries-TotDist;Carries-PrgDist;Carries-Prog;Carries-1/3;Carries-CPA;Carries-Mis;Carries-Dis;Receiving-Targ;Receiving-Rec;Receiving-Rec%;Receiving-Prog;Matches;
-1;Tammy Abraham\Tammy-Abraham;eng ENG;FW;Roma;23-330;1997;0.8;14;0;1;6;8;5;13;1;2;50.0;1;0;7;27;17;1;0;1;1;0;24;10;41.7;5;Matches
-2;Francesco Acerbi\Francesco-Acerbi;it ITA;DF;Lazio;33-199;1988;1.0;46;10;34;15;1;0;46;0;0;;0;0;25;137;33;1;0;0;0;1;24;23;95.8;0;Matches
-3;Ola Aina\Ola-Aina;ng NGA;DF;Torino;24-324;1996;1.0;66;2;11;31;29;5;57;0;0;;0;0;36;237;144;6;3;2;3;0;39;37;94.9;3;Matches
-4;Jean-Daniel Akpa-Akpro\Jean-Daniel-Akpa-Akpro;ci CIV;MF;Lazio;28-321;1992;0.5;22;0;4;12;8;0;22;0;0;;0;0;19;68;10;1;0;0;1;1;20;16;80.0;3;Matches
-5;Luis Alberto\Luis-Alberto;es ESP;MF;Lazio;28-334;1992;0.5;54;0;18;31;12;0;53;0;0;;0;0;46;299;210;2;1;0;0;1;51;48;94.1;0;Matches
-6;Kelvin Amian\Kelvin-Amian;fr FRA;DF;Spezia;23-201;1998;1.0;39;4;20;11;9;2;33;0;1;0.0;0;0;17;64;16;0;0;0;2;0;22;18;81.8;2;Matches
-7;Felipe Anderson\Felipe-Anderson;br BRA;FW;Lazio;28-135;1993;1.0;87;2;11;51;30;6;84;4;4;100.0;4;0;73;297;141;10;0;2;1;5;75;71;94.7;4;Matches
-8;Marko Arnautović\Marko-Arnautovic;at AUT;FW;Bologna;32-131;1989;0.9;37;0;1;17;20;8;33;1;1;100.0;1;0;20;54;17;1;1;1;1;2;42;29;69.0;13;Matches
-9;Tolgay Arslan\Tolgay-Arslan;de GER;MF;Udinese;31-012;1990;1.8;92;2;16;52;41;3;91;2;6;33.3;2;0;71;541;339;18;11;0;1;2;78;67;85.9;3;Matches
-10;Emil Audero\Emil-Audero;it ITA;GK;Sampdoria;24-222;1997;1.0;37;36;37;0;0;0;23;0;0;;0;0;14;55;45;0;0;0;0;0;13;13;100.0;0;Matches
-11;Tommaso Augello\Tommaso-Augello;it ITA;DF;Sampdoria;26-363;1994;0.8;41;1;17;18;11;0;34;0;0;;0;0;21;133;101;6;4;0;0;0;27;25;92.6;1;Matches
-12;Kaan Ayhan\Kaan-Ayhan;tr TUR;DF;Sassuolo;26-291;1994;0.0;4;0;4;1;0;0;4;0;0;;0;0;3;21;20;0;0;0;0;0;3;3;100.0;0;Matches
-13;Milan Badelj\Milan-Badelj;hr CRO;MF;Genoa;32-184;1989;1.0;66;4;24;36;10;0;62;0;4;0.0;0;0;47;228;74;2;1;0;1;1;45;43;95.6;0;Matches
-14;Nedim Bajrami\Nedim-Bajrami;ch SUI;MF;Empoli;22-181;1999;1.0;50;0;1;21;33;7;47;2;6;33.3;2;0;38;297;226;9;4;3;2;4;42;35;83.3;5;Matches
-15;Filippo Bandinelli\Filippo-Bandinelli;it ITA;MF;Empoli;26-152;1995;0.8;44;2;7;17;24;5;40;0;3;0.0;0;0;29;94;39;3;3;1;1;0;34;29;85.3;6;Matches
-16;Antonín Barák\Antonin-Barak;cz CZE;FWMF;Hellas Verona;26-268;1994;1.8;88;4;13;46;36;10;86;1;4;25.0;2;0;57;306;185;12;5;3;3;3;91;65;71.4;9;Matches
-17;Nicolò Barella\Nicolo-Barella;it ITA;MF;Inter;24-202;1997;1.8;118;4;17;79;33;6;118;3;5;60.0;3;0;82;562;276;11;6;1;3;1;108;94;87.0;6;Matches
-18;Musa Barrow\Musa-Barrow;gm GAM;FW;Bologna;22-287;1998;0.6;24;1;5;11;9;0;22;0;0;;0;0;16;124;59;1;1;0;2;1;23;18;78.3;4;Matches
-19;Alessandro Bastoni\Alessandro-Bastoni;it ITA;DF;Inter;22-137;1999;1.9;124;10;47;73;17;1;119;2;2;100.0;2;1;88;473;271;9;2;0;1;2;92;89;96.7;1;Matches
-20;Simone Bastoni\Simone-Bastoni;it ITA;MF;Spezia;24-296;1996;1.0;38;1;8;22;12;1;37;1;1;100.0;1;0;18;135;92;5;2;0;0;0;20;16;80.0;2;Matches
-21;Rodrigo Becão\Rodrigo-Becao;br BRA;DF;Udinese;25-221;1996;2.0;104;11;44;53;11;0;100;0;1;0.0;0;0;72;373;237;9;3;0;0;0;73;71;97.3;0;Matches
-22;Vid Belec\Vid-Belec;si SVN;GK;Salernitana;31-083;1990;1.0;19;17;19;0;0;0;11;0;0;;0;0;5;39;18;0;0;0;0;0;1;1;100.0;0;Matches
-23;Andrea Belotti\Andrea-Belotti;it ITA;FW;Torino;27-251;1993;0.3;11;1;1;5;5;0;11;1;1;100.0;1;0;7;25;15;1;0;0;2;1;21;8;38.1;3;Matches
-24;Marco Benassi\Marco-Benassi;it ITA;MFDF;Fiorentina;26-354;1994;0.2;17;0;1;8;9;2;14;0;0;;0;0;9;32;12;1;1;0;0;0;15;12;80.0;2;Matches
-25;Ismaël Bennacer\Ismael-Bennacer;dz ALG;MF;Milan;23-270;1997;0.2;16;1;3;11;2;0;15;0;0;;0;0;10;92;47;1;0;0;0;1;8;6;75.0;0;Matches
-26;Rodrigo Bentancur\Rodrigo-Bentancur;uy URU;MF;Juventus;24-084;1997;1.0;62;2;13;41;10;2;61;0;0;;0;0;44;141;63;2;0;0;1;3;47;43;91.5;4;Matches
-27;Bartosz Bereszyński\Bartosz-Bereszynski;pl POL;DF;Sampdoria;29-047;1992;1.0;50;6;25;21;8;2;42;1;1;100.0;1;0;24;108;48;1;0;0;1;0;26;23;88.5;2;Matches
-28;Federico Bernardeschi\Federico-Bernardeschi;it ITA;MF;Juventus;27-193;1994;0.7;15;0;4;6;6;1;13;0;0;;0;0;10;37;11;1;1;0;1;1;13;9;69.2;1;Matches
-29;Cristiano Biraghi\Cristiano-Biraghi;it ITA;DF;Fiorentina;28-361;1992;1.0;90;1;24;41;31;3;78;1;1;100.0;1;1;56;280;172;12;4;1;1;0;61;59;96.7;8;Matches
-30;Davide Biraschi\Davide-Biraschi;it ITA;DF;Genoa;27-057;1994;0.5;32;6;19;14;2;0;29;1;1;100.0;1;0;23;116;44;2;2;0;0;2;21;21;100.0;0;Matches
-31;Jeremie Boga\Jeremie-Boga;ci CIV;FW;Sassuolo;24-237;1997;1.0;45;0;6;24;22;3;45;2;5;40.0;2;0;41;231;157;11;2;1;2;1;44;39;88.6;8;Matches
-32;Luka Bogdan\Luka-Bogdan;hr CRO;MF;Salernitana;25-155;1996;0.2;11;0;4;6;1;1;6;0;0;;0;0;3;35;23;0;0;0;0;1;2;2;100.0;0;Matches
-33;Giacomo Bonaventura\Giacomo-Bonaventura;it ITA;MF;Fiorentina;32-006;1989;0.8;31;0;4;19;11;2;31;1;3;33.3;2;0;25;58;26;1;0;1;1;1;37;28;75.7;3;Matches
-34;Federico Bonazzoli\Federico-Bonazzoli;it ITA;FW;Salernitana;24-099;1997;1.0;26;0;0;16;10;1;21;1;1;100.0;1;0;15;92;47;0;0;0;0;1;32;11;34.4;2;Matches
-35;Kevin Bonifazi\Kevin-Bonifazi;it ITA;DF;Bologna;25-101;1996;1.0;74;6;26;46;10;0;67;0;0;;0;0;48;436;252;7;0;0;0;1;45;44;97.8;0;Matches
-36;Leonardo Bonucci\Leonardo-Bonucci;it ITA;DF;Juventus;34-119;1987;1.0;82;11;53;31;0;0;81;0;0;;0;0;59;283;128;0;0;0;0;0;68;67;98.5;0;Matches
-37;Edoardo Bove\Edoardo-Bove;it ITA;MF;Roma;19-104;2002;0.0;2;0;0;2;0;0;2;0;0;;0;0;2;6;0;0;0;0;0;0;2;2;100.0;0;Matches
-38;Gleison Bremer\Gleison-Bremer;br BRA;DF;Torino;24-163;1997;0.8;34;1;20;15;3;1;34;2;2;100.0;2;0;11;62;26;1;1;0;1;0;6;5;83.3;0;Matches
-39;Marcelo Brozović\Marcelo-Brozovic;hr CRO;MF;Inter;28-285;1992;1.7;150;3;38;104;15;1;143;1;1;100.0;1;0;107;655;244;11;1;1;0;1;119;114;95.8;3;Matches
-40;Gianluca Busio\Gianluca-Busio;us USA;MF;Venezia;19-092;2002;1.0;92;4;26;64;14;1;89;0;1;0.0;0;0;54;288;159;2;3;0;2;1;63;61;96.8;2;Matches
-41;Davide Calabria\Davide-Calabria;it ITA;DF;Milan;24-265;1996;1.0;57;2;15;30;16;2;50;0;2;0.0;0;0;33;140;91;5;2;1;1;0;34;32;94.1;2;Matches
-42;Mattia Caldara\Mattia-Caldara;it ITA;DF;Venezia;27-115;1994;2.0;130;17;57;79;4;0;125;0;0;;0;0;93;559;373;12;2;0;0;1;97;95;97.9;0;Matches
-43;Hakan Çalhanoğlu\Hakan-Calhanoglu;tr TUR;MF;Inter;27-201;1994;1.8;127;1;12;66;52;5;115;0;2;0.0;0;0;74;380;193;15;2;0;3;2;107;96;89.7;10;Matches
-44;José Callejón\Jose-Callejon;es ESP;FW;Fiorentina;34-198;1987;0.2;9;0;0;7;5;1;9;0;0;;0;0;8;47;19;3;2;0;0;0;12;9;75.0;1;Matches
-45;Andrea Cambiaso\Andrea-Cambiaso;it ITA;DF;Genoa;21-189;2000;0.5;13;1;8;3;2;1;10;0;1;0.0;0;1;8;38;17;1;0;0;0;0;5;4;80.0;0;Matches
-46;Matteo Cancellieri\Matteo-Cancellieri;it ITA;MF;Hellas Verona;19-197;2002;1.2;28;0;2;15;14;2;27;1;5;20.0;3;0;21;138;76;2;1;0;3;0;33;20;60.6;2;Matches
-47;Antonio Candreva\Antonio-Candreva;it ITA;MF;Sampdoria;34-181;1987;1.0;66;2;11;25;34;4;61;1;2;50.0;1;0;49;270;156;8;4;1;1;1;58;48;82.8;2;Matches
-48;Leonardo Capezzi\Leonardo-Capezzi;it ITA;MF;Salernitana;26-153;1995;0.9;33;4;9;19;8;0;32;2;2;100.0;2;0;19;63;43;3;1;0;1;4;19;12;63.2;0;Matches
-49;Francesco Caputo\Francesco-Caputo;it ITA;FW;Sassuolo;34-022;1987;1.0;29;0;0;19;10;6;27;0;0;;0;0;11;61;16;2;0;1;0;0;34;22;64.7;8;Matches
-50;Andrea Carboni\Andrea-Carboni;it ITA;DF;Cagliari;20-205;2001;0.9;59;2;11;36;16;2;56;1;2;50.0;1;0;36;203;113;5;3;0;0;0;40;39;97.5;2;Matches
-51;Nicolò Casale\Nicolo-Casale;it ITA;DF;Hellas Verona;23-195;1998;1.2;56;4;16;29;16;1;48;0;0;;0;0;31;184;86;3;3;0;1;0;32;31;96.9;0;Matches
-52;Gaetano Castrovilli\Gaetano-Castrovilli;it ITA;MF;Fiorentina;24-192;1997;0.5;29;0;5;18;11;1;28;0;1;0.0;0;0;21;103;58;4;2;1;1;2;23;22;95.7;4;Matches
-53;Pietro Ceccaroni\Pietro-Ceccaroni;it ITA;DF;Venezia;25-250;1995;2.0;171;23;65;99;20;1;158;1;1;100.0;1;0;115;769;513;15;4;0;0;2;124;122;98.4;0;Matches
-54;Federico Ceccherini\Federico-Ceccherini;it ITA;DF;Hellas Verona;29-109;1992;1.2;55;2;20;31;8;2;48;0;0;;0;0;32;114;55;2;1;0;2;3;38;36;94.7;5;Matches
-55;Luca Ceppitelli\Luca-Ceppitelli;it ITA;DF;Cagliari;32-017;1989;0.2;14;3;8;7;0;0;14;0;0;;0;0;6;28;10;0;0;0;0;0;6;6;100.0;0;Matches
-56;Giorgio Chiellini\Giorgio-Chiellini;it ITA;DF;Juventus;37-014;1984;0.4;24;0;12;13;1;0;22;0;0;;0;0;18;103;86;1;0;0;0;0;18;18;100.0;0;Matches
-57;Federico Chiesa\Federico-Chiesa;it ITA;DF;Juventus;23-307;1997;0.2;8;0;2;3;4;1;7;0;0;;0;0;5;63;48;1;1;1;0;1;6;5;83.3;0;Matches
-58;Vlad Chiricheș\Vlad-Chiriches;ro ROU;DF;Sassuolo;31-287;1989;1.0;70;6;35;39;1;1;66;0;1;0.0;1;0;50;245;96;0;0;0;1;1;48;48;100.0;0;Matches
-59;Ebrima Colley\Ebrima-Colley;gm GAM;FW;Spezia;21-208;2000;1.0;44;0;6;20;21;2;42;3;4;75.0;3;0;32;175;116;7;1;0;5;3;41;31;75.6;4;Matches
-60;Omar Colley\Omar-Colley;gm GAM;DF;Sampdoria;28-308;1992;1.0;47;9;26;22;2;2;47;0;0;;0;0;23;192;127;1;0;0;0;0;26;25;96.2;1;Matches
-61;Andrea Consigli\Andrea-Consigli;it ITA;GK;Sassuolo;34-213;1987;1.0;51;45;51;0;0;0;40;0;0;;0;0;26;121;86;0;0;0;0;0;29;29;100.0;0;Matches
-62;Joaquín Correa\Joaquin-Correa;ar ARG;MF;Inter;27-015;1994;0.2;6;0;0;0;6;1;6;0;0;;0;0;5;20;12;1;0;0;0;0;9;5;55.6;1;Matches
-63;Lassana Coulibaly\Lassana-Coulibaly;ml MLI;MF;Salernitana;25-140;1996;0.8;27;7;11;15;3;0;27;0;0;;0;0;10;52;11;0;0;0;1;0;6;6;100.0;0;Matches
-64;Mamadou Coulibaly\Mamadou-Coulibaly;sn SEN;MF;Salernitana;22-206;1999;1.0;42;5;12;12;20;5;41;0;1;0.0;0;0;23;129;48;5;2;2;2;1;25;22;88.0;7;Matches
-65;Alessio Cragno\Alessio-Cragno;it ITA;GK;Cagliari;27-061;1994;1.0;46;39;45;1;0;0;37;0;0;;0;0;27;152;99;0;0;0;0;0;25;25;100.0;0;Matches
-66;Domenico Criscito\Domenico-Criscito;it ITA;DF;Genoa;34-241;1986;1.0;69;10;39;30;3;0;67;0;0;;0;0;51;306;146;3;0;0;0;0;54;54;100.0;0;Matches
-67;Bryan Cristante\Bryan-Cristante;it ITA;MF;Roma;26-178;1995;1.0;56;4;16;33;8;1;55;0;0;;0;0;25;134;32;0;0;0;0;1;43;39;90.7;0;Matches
-68;Domen Črnigoj\Domen-Crnigoj;si SVN;MF;Venezia;25-283;1995;0.8;47;2;13;35;3;1;47;1;2;50.0;1;0;26;96;48;2;0;1;0;0;40;35;87.5;0;Matches
-69;Giovanni Crociata\Giovanni-Crociata;it ITA;FW;Empoli;24-017;1997;0.2;11;0;0;4;8;1;11;0;1;0.0;0;0;9;83;38;2;0;0;0;0;10;9;90.0;0;Matches
-70;Juan Cuadrado\Juan-Cuadrado;co COL;MFDF;Juventus;33-094;1988;0.8;51;1;13;25;18;3;47;1;2;50.0;1;0;37;134;69;4;1;1;0;1;41;36;87.8;5;Matches
-71;Patrick Cutrone\Patrick-Cutrone;it ITA;FW;Empoli;23-237;1998;0.8;17;0;0;7;10;2;15;0;0;;0;0;10;74;34;2;0;0;1;0;26;11;42.3;9;Matches
-72;Mikkel Damsgaard\Mikkel-Damsgaard;dk DEN;MF;Sampdoria;21-056;2000;1.0;67;2;11;37;24;2;65;2;3;66.7;2;0;52;246;104;7;3;0;1;6;59;45;76.3;9;Matches
-73;Danilo\Danilo;br BRA;DFMF;Juventus;30-044;1991;1.0;86;4;33;53;5;0;75;0;1;0.0;0;0;58;220;111;5;1;0;1;1;64;61;95.3;1;Matches
-74;Matteo Darmian\Matteo-Darmian;it ITA;DF;Inter;31-269;1989;2.0;87;5;21;46;24;2;74;0;0;;0;0;42;181;85;5;1;1;0;2;56;51;91.1;5;Matches
-75;Paweł Dawidowicz\Pawel-Dawidowicz;pl POL;DF;Hellas Verona;26-100;1995;1.2;50;7;19;25;7;3;50;0;0;;0;0;32;139;60;2;0;0;0;0;31;30;96.8;0;Matches
-76;Lorenzo De Silvestri\Lorenzo-De-Silvestri;it ITA;DF;Bologna;33-097;1988;1.0;94;2;22;66;12;2;82;0;0;;0;0;56;315;151;8;2;0;0;1;70;65;92.9;0;Matches
-77;Grégoire Defrel\Gregoire-Defrel;mq MTQ;FW;Sassuolo;30-072;1991;0.1;9;1;4;5;0;0;9;0;0;;0;0;7;26;16;1;0;0;1;0;5;4;80.0;0;Matches
-78;Alessandro Deiola\Alessandro-Deiola;it ITA;FW;Cagliari;26-027;1995;0.7;28;0;2;15;11;3;28;0;0;;0;0;10;48;5;0;0;0;1;0;24;22;91.7;2;Matches
-79;Merih Demiral\Merih-Demiral;tr TUR;DF;Atalanta;23-176;1998;0.9;37;4;19;20;1;0;35;0;0;;0;0;18;112;15;0;0;0;0;0;18;18;100.0;0;Matches
-80;Gerard Deulofeu\Gerard-Deulofeu;es ESP;FWMF;Udinese;27-168;1994;0.7;39;0;0;15;28;6;37;1;2;50.0;1;0;27;183;125;10;3;0;1;1;37;29;78.4;6;Matches
-81;Jacopo Dezi\Jacopo-Dezi;it ITA;MF;Venezia;29-199;1992;0.2;30;0;3;18;12;1;28;1;2;50.0;1;0;23;141;69;4;0;1;0;0;22;20;90.9;1;Matches
-82;Samuel Di Carmine\Samuel-Di-Carmine;it ITA;FW;Hellas Verona;32-342;1988;0.4;11;0;1;7;5;2;10;1;1;100.0;1;0;9;36;16;1;1;0;3;0;13;8;61.5;1;Matches
-83;Giovanni Di Lorenzo\Giovanni-Di-Lorenzo;it ITA;DF;Napoli;28-024;1993;1.0;81;5;26;43;19;3;71;0;1;0.0;0;0;52;309;188;10;3;1;1;0;66;59;89.4;1;Matches
-84;Francesco Di Mariano\Francesco-Di-Mariano;it ITA;FW;Venezia;25-130;1996;0.7;20;1;2;10;13;2;20;0;2;0.0;0;0;17;139;55;4;1;1;0;1;22;17;77.3;4;Matches
-85;Brahim Díaz\Brahim-Diaz;es ESP;MF;Milan;22-025;1999;0.8;47;1;6;34;13;2;46;0;1;0.0;0;0;38;322;196;4;1;0;0;1;45;41;91.1;3;Matches
-86;Federico Dimarco\Federico-Dimarco;it ITA;DF;Inter;23-291;1997;0.5;41;3;8;19;19;2;33;0;0;;0;0;16;161;87;5;4;0;1;0;25;23;92.0;5;Matches
-87;Koffi Djidji\Koffi-Djidji;ci CIV;DF;Torino;28-271;1992;1.0;48;1;18;28;4;1;47;0;0;;0;0;25;85;14;1;0;0;1;0;24;23;95.8;0;Matches
-88;Berat Djimsiti\Berat-Djimsiti;al ALB;DF;Atalanta;28-190;1993;1.0;60;5;33;25;4;0;54;0;0;;0;0;32;94;24;0;0;0;0;0;37;37;100.0;1;Matches
-89;Nicolás Domínguez\Nicolas-Dominguez;ar ARG;MF;Bologna;23-061;1998;0.9;65;3;9;37;21;4;65;0;0;;0;0;40;217;76;5;1;0;0;0;51;46;90.2;2;Matches
-90;Bartłomiej Drągowski\Bartlomiej-Dragowski;pl POL;DFGK;Fiorentina;24-009;1997;0.2;5;4;5;0;0;0;4;0;0;;0;0;2;13;10;0;0;0;0;0;4;4;100.0;0;Matches
-91;Denzel Dumfries\Denzel-Dumfries;nl NED;DF;Inter;25-132;1996;0.1;6;0;0;1;5;1;6;1;1;100.0;1;0;6;20;16;2;0;0;1;0;5;5;100.0;1;Matches
-92;Paulo Dybala\Paulo-Dybala;ar ARG;FW;Juventus;27-286;1993;1.0;54;0;5;35;15;4;51;2;2;100.0;2;0;44;142;93;7;1;1;3;2;59;45;76.3;6;Matches
-93;Edin Džeko\Edin-Dzeko;ba BIH;FW;Inter;35-164;1986;2.0;91;6;9;52;34;9;88;3;4;75.0;3;0;43;229;97;6;2;0;3;2;102;73;71.6;24;Matches
-94;Tyronne Ebuehi\Tyronne-Ebuehi;ng NGA;DF;Venezia;25-255;1995;0.6;34;3;20;12;5;1;26;0;2;0.0;0;0;20;89;54;1;1;0;0;0;26;22;84.6;0;Matches
-95;Albin Ekdal\Albin-Ekdal;se SWE;MF;Sampdoria;32-031;1989;0.9;55;2;18;27;11;2;52;1;1;100.0;1;0;38;150;55;3;0;0;0;0;40;39;97.5;2;Matches
-96;Elif Elmas\Elif-Elmas;mk MKD;FW;Napoli;21-338;1999;0.6;24;2;6;10;12;2;24;2;3;66.7;2;0;18;166;131;5;2;0;0;2;18;11;61.1;5;Matches
-97;Martin Erlic\Martin-Erlic;hr CRO;DF;Spezia;23-216;1998;1.0;52;12;35;18;1;0;50;0;0;;0;0;22;94;32;1;0;0;0;0;29;27;93.1;1;Matches
-98;Gonzalo Escalante\Gonzalo-Escalante;ar ARG;MF;Lazio;28-154;1993;0.1;10;2;6;3;1;0;9;0;0;;0;0;4;6;0;0;0;0;0;1;4;4;100.0;0;Matches
-99;Davide Faraoni\Davide-Faraoni;it ITA;DF;Hellas Verona;29-307;1991;0.8;31;4;12;12;8;1;27;1;1;100.0;1;0;11;29;10;0;0;0;0;0;19;14;73.7;0;Matches
-100;Andrea Favilli\Andrea-Favilli;it ITA;FW;Genoa;24-103;1997;0.4;13;2;3;6;5;3;11;0;1;0.0;0;0;9;26;4;0;0;0;1;2;16;8;50.0;5;Matches
-101;Luiz Felipe\Luiz-Felipe;br BRA;DF;Lazio;24-159;1997;1.0;35;12;33;5;0;0;32;0;0;;0;0;17;123;50;0;0;0;1;0;14;14;100.0;0;Matches
-102;Salvador Ferrer\Salvador-Ferrer;es ESP;DF;Spezia;23-219;1998;0.9;;;;;;;;;;;;;;;;;;;;;;;;;Matches
-103;Riccardo Fiamozzi\Riccardo-Fiamozzi;it ITA;DF;Empoli;28-102;1993;0.1;18;0;1;6;14;3;16;0;0;;0;0;12;61;25;2;1;0;0;1;16;14;87.5;4;Matches
-104;Luca Fiordilino\Luca-Fiordilino;it ITA;MF;Venezia;25-034;1996;0.7;38;4;16;20;4;0;37;0;0;;0;0;29;104;41;1;0;0;0;1;29;27;93.1;0;Matches
-105;Alessandro Florenzi\Alessandro-Florenzi;it ITA;FWDF;Milan;30-170;1991;0.1;6;0;1;5;0;0;5;0;0;;0;0;0;0;0;0;0;0;0;0;3;2;66.7;0;Matches
-106;Francesco Forte\Francesco-Forte;it ITA;FW;Venezia;28-119;1993;1.1;22;0;0;10;12;6;19;0;0;;0;0;8;24;9;1;0;0;1;2;36;14;38.9;7;Matches
-107;Davide Frattesi\Davide-Frattesi;it ITA;MF;Sassuolo;21-310;1999;0.9;55;7;18;35;8;2;55;2;2;100.0;2;1;41;241;151;3;1;0;2;1;40;40;100.0;2;Matches
-108;Manolo Gabbiadini\Manolo-Gabbiadini;it ITA;FW;Sampdoria;29-275;1991;0.8;33;0;3;13;19;5;28;0;0;;0;0;21;99;48;2;2;0;0;4;37;20;54.1;4;Matches
-109;Gianluca Gaetano\Gianluca-Gaetano;it ITA;MF;Napoli;21-115;2000;0.2;14;0;6;5;3;0;14;0;0;;0;0;8;69;12;0;0;0;0;0;8;6;75.0;1;Matches
-110;Nicolas Galazzi\Nicolas-Galazzi;it ITA;DF;Venezia;20-253;2000;0.2;12;1;2;2;9;1;10;0;0;;0;0;7;39;22;1;1;0;1;1;11;7;63.6;2;Matches
-111;Olivier Giroud\Olivier-Giroud;fr FRA;FW;Milan;34-332;1986;1.0;32;4;6;11;15;2;32;0;1;0.0;0;0;16;47;17;1;0;0;1;1;49;26;53.1;6;Matches
-112;Diego Godín\Diego-Godin;uy URU;DF;Cagliari;35-193;1986;0.8;70;7;37;35;4;2;67;0;0;;0;0;37;236;94;3;0;0;0;0;43;43;100.0;0;Matches
-113;Nicolás González\Nicolas-Gonzalez;ar ARG;FW;Fiorentina;23-144;1998;0.9;34;0;1;18;18;3;33;0;1;0.0;0;0;22;144;92;5;3;0;3;0;37;28;75.7;10;Matches
-114;Robin Gosens\Robin-Gosens;de GER;DF;Atalanta;27-054;1994;0.9;54;1;13;28;13;2;42;0;0;;0;0;27;56;23;1;0;0;0;0;35;29;82.9;1;Matches
-115;Koray Günter\Koray-Gunter;de GER;DF;Hellas Verona;27-012;1994;2.0;90;13;47;47;5;1;87;1;1;100.0;1;0;45;271;122;2;0;0;0;0;45;44;97.8;0;Matches
-116;Emmanuel Gyasi\Emmanuel-Gyasi;gh GHA;FW;Spezia;27-229;1994;1.0;46;4;6;27;16;3;43;1;1;100.0;1;0;34;136;62;3;2;2;4;5;53;35;66.0;11;Matches
-117;Norbert Gyömbér\Norbert-Gyomber;sk SVK;DF;Salernitana;29-056;1992;1.0;38;8;21;14;4;2;33;0;0;;0;0;9;35;18;2;0;0;0;0;12;12;100.0;0;Matches
-118;Nicolas Haas\Nicolas-Haas;ch SUI;MF;Empoli;25-217;1996;0.8;32;2;4;14;16;1;31;0;0;;0;0;20;105;66;4;2;0;1;2;23;19;82.6;1;Matches
-119;Samir Handanović\Samir-Handanovic;si SVN;GK;Inter;37-045;1984;2.0;69;67;69;0;0;0;66;0;0;;0;0;48;275;199;0;0;0;0;0;55;55;100.0;0;Matches
-120;Liam Henderson\Liam-Henderson;sct SCO;MF;Empoli;25-125;1996;0.2;16;0;1;5;11;2;15;0;0;;0;0;11;40;5;0;0;0;0;0;13;12;92.3;3;Matches
-121;Dalbert Henrique\Dalbert-Henrique;br BRA;DF;Cagliari;27-354;1993;1.0;55;1;11;27;22;1;45;0;0;;0;0;26;167;96;5;3;0;0;1;35;29;82.9;4;Matches
-122;Thomas Henry\Thomas-Henry;fr FRA;FW;Venezia;26-342;1994;0.9;26;1;1;15;11;3;23;1;4;25.0;1;0;16;48;17;2;0;0;1;1;41;18;43.9;3;Matches
-123;Theo Hernández\Theo-Hernandez;fr FRA;DF;Milan;23-326;1997;1.0;40;4;22;10;10;2;33;0;1;0.0;0;0;22;81;55;0;0;0;2;4;22;18;81.8;1;Matches
-124;Hernani\Hernani;br BRA;MF;Genoa;27-154;1994;0.5;17;0;6;9;5;1;16;0;0;;0;0;11;42;22;1;0;0;1;1;15;13;86.7;0;Matches
-125;Daan Heymans\Daan-Heymans;be BEL;MF;Venezia;22-074;1999;1.4;63;4;20;29;15;5;63;1;1;100.0;1;0;36;137;57;1;0;0;3;0;41;38;92.7;4;Matches
-126;Aaron Hickey\Aaron-Hickey;sct SCO;DF;Bologna;19-079;2002;0.6;39;3;13;17;13;0;36;0;0;;0;0;26;287;179;9;0;0;1;0;27;24;88.9;0;Matches
-127;Martin Hongla\Martin-Hongla;cm CMR;MF;Hellas Verona;23-165;1998;1.4;55;5;13;35;10;0;54;0;1;0.0;0;0;34;153;48;2;1;0;1;2;36;34;94.4;1;Matches
-128;Sydney van Hooijdonk\Sydney-van-Hooijdonk;nl NED;FW;Bologna;21-203;2000;0.1;9;0;0;5;4;0;9;0;0;;0;0;2;1;1;0;0;0;1;0;10;7;70.0;0;Matches
-129;Petko Hristov\Petko-Hristov;bg BUL;DF;Spezia;22-180;1999;1.0;49;8;34;15;1;0;48;0;0;;0;0;26;112;33;0;0;0;0;0;26;26;100.0;0;Matches
-130;Elseid Hysaj\Elseid-Hysaj;al ALB;DF;Lazio;27-189;1994;1.0;84;0;26;43;17;1;79;0;0;;0;0;64;260;81;3;0;1;0;0;67;64;95.5;2;Matches
-131;Roger Ibanez\Roger-Ibanez;br BRA;DF;Roma;22-278;1998;1.0;57;10;34;24;2;2;56;0;0;;0;0;40;250;98;0;0;0;0;0;42;42;100.0;0;Matches
-132;Igor\Igor;br BRA;DF;Fiorentina;23-202;1998;1.0;101;9;50;53;4;2;100;0;0;;0;0;77;396;193;4;0;0;0;0;87;87;100.0;0;Matches
-133;Ivan Ilić\Ivan-Ilic;rs SRB;MF;Hellas Verona;20-164;2001;1.2;73;0;12;44;20;2;66;0;1;0.0;1;0;47;217;97;4;0;1;2;2;59;49;83.1;3;Matches
-134;Josip Iličić\Josip-Ilicic;si SVN;MF;Atalanta;33-211;1988;0.6;27;1;8;15;7;1;27;0;0;;0;0;18;60;16;1;1;0;4;2;24;20;83.3;4;Matches
-135;Ciro Immobile\Ciro-Immobile;it ITA;FW;Lazio;31-189;1990;0.9;40;0;2;18;22;11;39;0;1;0.0;0;0;36;123;47;5;1;3;1;0;47;35;74.5;8;Matches
-136;Lorenzo Insigne\Lorenzo-Insigne;it ITA;FW;Napoli;30-085;1991;0.9;51;0;0;28;24;3;43;1;3;33.3;1;0;33;202;107;4;1;0;0;0;49;36;73.5;5;Matches
-137;Ardian Ismajli\Ardian-Ismajli;al ALB;DF;Empoli;24-332;1996;1.0;67;14;39;32;4;1;66;1;1;100.0;1;0;45;354;210;2;1;0;1;0;47;46;97.9;0;Matches
-138;Armando Izzo\Armando-Izzo;it ITA;DF;Torino;29-179;1992;0.2;14;1;5;9;0;0;14;0;0;;0;0;5;52;25;0;0;0;0;0;4;4;100.0;0;Matches
-139;Mato Jajalo\Mato-Jajalo;ba BIH;MF;Udinese;33-095;1988;0.2;15;0;2;11;3;1;14;0;0;;0;0;10;87;31;2;0;0;0;2;11;11;100.0;1;Matches
-140;Paweł Jaroszyński\Pawel-Jaroszynski;pl POL;DF;Salernitana;26-330;1994;0.9;22;0;9;10;5;0;16;0;0;;0;0;13;36;14;0;1;0;1;0;9;9;100.0;0;Matches
-141;Dennis Johnsen\Dennis-Johnsen;no NOR;FW;Venezia;23-192;1998;1.8;58;1;5;18;39;9;57;4;8;50.0;4;0;51;285;173;8;2;4;6;2;60;45;75.0;13;Matches
-142;Flavio Junior Bianchi\Flavio-Junior-Bianchi;it ITA;MF;Genoa;21-216;2000;0.5;11;0;2;4;6;0;11;0;0;;0;0;8;33;9;1;0;0;0;0;14;9;64.3;2;Matches
-143;Hamed Junior Traorè\Hamed-Junior-Traore;ci CIV;MF;Sassuolo;21-193;2000;0.3;20;0;2;14;4;1;20;0;0;;0;0;14;110;56;3;0;0;0;0;19;17;89.5;2;Matches
-144;Nikola Kalinić\Nikola-Kalinic;hr CRO;FW;Hellas Verona;33-235;1988;0.5;10;0;0;2;8;3;8;0;0;;0;0;6;32;25;2;0;1;0;0;17;7;41.2;3;Matches
-145;Yayah Kallon\Yayah-Kallon;sl SLE;FW;Genoa;20-059;2001;0.6;16;0;2;5;9;4;16;1;1;100.0;1;0;14;48;14;1;0;0;3;2;21;13;61.9;8;Matches
-146;Rick Karsdorp\Rick-Karsdorp;nl NED;DF;Roma;26-198;1995;1.0;50;2;17;25;10;0;42;0;0;;0;0;25;102;47;3;1;0;0;0;35;31;88.6;1;Matches
-147;Wajdi Kechrida\Wajdi-Kechrida;tn TUN;DF;Salernitana;25-296;1995;0.8;28;3;9;8;13;2;20;0;0;;0;0;13;91;35;2;1;0;1;0;13;12;92.3;0;Matches
-148;Simon Kjær\Simon-Kjaer;dk DEN;DF;Milan;32-155;1989;1.0;47;8;24;20;4;2;44;0;0;;0;0;25;117;48;0;0;0;0;0;28;27;96.4;0;Matches
-149;Kalidou Koulibaly\Kalidou-Koulibaly;sn SEN;DF;Napoli;30-069;1991;1.0;104;10;34;72;0;0;102;0;0;;0;0;86;388;219;9;0;0;0;0;92;92;100.0;0;Matches
-150;Rade Krunić\Rade-Krunic;ba BIH;MF;Milan;27-325;1993;1.0;69;6;22;38;12;1;67;1;1;100.0;1;0;39;139;61;2;1;0;2;0;45;43;95.6;1;Matches
-151;Dejan Kulusevski\Dejan-Kulusevski;se SWE;MF;Juventus;21-125;2000;0.3;13;1;2;7;5;1;13;0;2;0.0;1;0;7;33;23;1;1;0;2;1;11;9;81.8;2;Matches
-152;Andrea La Mantia\Andrea-La-Mantia;it ITA;FW;Empoli;30-114;1991;0.1;4;0;0;1;3;1;4;0;0;;0;0;2;6;2;0;0;0;0;0;4;3;75.0;2;Matches
-153;Sam Lammers\Sam-Lammers;nl NED;FW;Atalanta;24-120;1997;0.4;22;0;0;13;10;3;22;0;1;0.0;0;0;14;40;15;1;1;0;2;2;31;20;64.5;8;Matches
-154;Kevin Lasagna\Kevin-Lasagna;it ITA;FW;Hellas Verona;29-018;1992;0.3;9;0;0;6;4;0;7;1;1;100.0;1;0;6;11;8;1;0;0;1;3;17;6;35.3;2;Matches
-155;Darko Lazović\Darko-Lazovic;rs SRB;DF;Hellas Verona;30-347;1990;2.0;95;4;19;35;43;7;89;0;1;0.0;0;1;60;207;107;6;0;0;1;1;71;63;88.7;5;Matches
-156;Manuel Lazzari\Manuel-Lazzari;it ITA;DF;Lazio;27-272;1993;1.0;74;3;23;35;20;4;63;1;1;100.0;1;0;49;384;244;8;3;3;1;0;49;48;98.0;4;Matches
-157;Rafael Leão\Rafael-Leao;pt POR;FW;Milan;22-079;1999;0.8;39;1;5;19;18;6;39;2;4;50.0;2;0;29;172;108;6;1;2;2;0;41;29;70.7;5;Matches
-158;Lucas Leiva\Lucas-Leiva;br BRA;MF;Lazio;34-231;1987;0.9;58;3;20;27;11;0;54;1;2;50.0;1;0;35;77;20;1;0;0;2;0;39;36;92.3;1;Matches
-159;Luca Lezzerini\Luca-Lezzerini;it ITA;GK;Venezia;26-157;1995;1.0;38;36;38;0;0;0;32;0;0;;0;0;17;41;27;0;0;0;0;0;13;13;100.0;0;Matches
-160;Matthijs de Ligt\Matthijs-de-Ligt;nl NED;DF;Juventus;22-016;1999;1.0;72;10;45;31;1;0;70;0;0;;0;0;47;175;56;0;0;0;0;0;59;58;98.3;0;Matches
-161;Anderson Lima\Anderson-Lima;br BRA;MF;Lazio;21-339;1999;0.2;14;0;3;8;4;1;14;0;0;;0;0;10;27;10;0;0;0;0;0;12;11;91.7;3;Matches
-162;Karol Linetty\Karol-Linetty;pl POL;FW;Torino;26-207;1995;1.0;38;0;0;14;26;5;34;0;0;;0;0;17;88;59;3;2;1;2;2;33;22;66.7;4;Matches
-163;Stanislav Lobotka\Stanislav-Lobotka;sk SVK;MF;Napoli;26-276;1994;1.0;67;2;15;42;13;0;64;1;1;100.0;1;0;43;238;112;4;3;0;0;0;51;50;98.0;1;Matches
-164;Manuel Locatelli\Manuel-Locatelli;it ITA;MF;Juventus;23-232;1998;0.0;3;0;0;1;2;0;2;0;0;;0;0;1;0;0;0;0;0;0;0;3;2;66.7;1;Matches
-165;Maxime Lopez\Maxime-Lopez;fr FRA;MF;Sassuolo;23-267;1997;1.0;99;4;24;74;9;0;97;0;0;;0;0;79;374;165;1;2;0;1;1;89;87;97.8;1;Matches
-166;Matteo Lovato\Matteo-Lovato;it ITA;DF;Atalanta;21-195;2000;0.1;5;0;2;3;0;0;5;0;0;;0;0;1;10;0;0;0;0;0;0;1;1;100.0;0;Matches
-167;Hirving Lozano\Hirving-Lozano;mx MEX;FW;Napoli;26-029;1995;0.2;8;0;3;7;1;0;8;0;0;;0;0;6;39;18;1;1;0;0;1;12;6;50.0;1;Matches
-168;José Luis Palomino\Jose-Luis-Palomino;ar ARG;DF;Atalanta;31-235;1990;1.0;61;14;36;25;1;1;58;0;0;;0;0;21;70;13;0;0;0;0;1;24;23;95.8;0;Matches
-169;Saša Lukić\Sasa-Lukic;rs SRB;MF;Torino;25-015;1996;0.5;28;1;6;14;10;0;27;1;1;100.0;1;0;19;117;78;4;1;0;1;0;21;16;76.2;1;Matches
-170;Charalambos Lykogiannis\Charalambos-Lykogiannis;gr GRE;DF;Cagliari;27-310;1993;0.1;6;3;4;2;0;0;5;0;0;;0;0;1;3;0;0;0;0;0;0;2;2;100.0;0;Matches
-171;Niki Mäenpää\Niki-Maenpaa;fi FIN;GK;Venezia;36-217;1985;1.0;32;30;32;0;0;0;22;0;0;;0;0;15;54;23;0;0;0;0;0;15;15;100.0;0;Matches
-172;Giulio Maggiore\Giulio-Maggiore;it ITA;MF;Spezia;23-169;1998;1.0;52;2;9;33;13;3;52;0;0;;0;0;29;122;94;4;2;0;2;3;31;27;87.1;3;Matches
-173;Francesco Magnanelli\Francesco-Magnanelli;it ITA;MF;Sassuolo;36-289;1984;0.1;7;0;5;2;0;0;7;0;0;;0;0;4;13;12;0;0;0;1;0;6;6;100.0;0;Matches
-174;Giangiacomo Magnani\Giangiacomo-Magnani;it ITA;DF;Hellas Verona;25-328;1995;1.0;41;5;19;19;5;2;41;0;0;;0;0;21;119;69;1;0;0;1;0;21;20;95.2;0;Matches
-175;Mike Maignan\Mike-Maignan;fr FRA;GK;Milan;25-273;1995;1.0;47;40;47;0;0;0;40;0;0;;0;0;30;164;98;0;0;0;0;0;27;27;100.0;0;Matches
-176;Jean-Victor Makengo\Jean-Victor-Makengo;fr FRA;MF;Udinese;23-077;1998;1.3;42;2;6;21;18;1;42;2;3;66.7;2;0;35;185;98;6;2;0;2;3;45;35;77.8;3;Matches
-177;Youssef Maleh\Youssef-Maleh;it ITA;MF;Fiorentina;23-006;1998;0.5;21;0;3;15;6;2;21;0;0;;0;0;15;27;10;1;1;0;2;1;17;16;94.1;3;Matches
-178;Ruslan Malinovskyi\Ruslan-Malinovskyi;ua UKR;MF;Atalanta;28-116;1993;0.8;42;3;14;19;14;2;40;2;3;66.7;2;0;26;164;93;6;2;1;1;2;31;27;87.1;2;Matches
-179;Gianluca Mancini\Gianluca-Mancini;it ITA;DF;Roma;25-133;1996;1.0;61;7;35;29;0;0;57;0;0;;0;0;40;227;122;5;0;0;0;0;50;49;98.0;0;Matches
-180;Leonardo Mancuso\Leonardo-Mancuso;it ITA;FW;Empoli;29-094;1992;0.9;19;0;0;7;12;3;17;0;0;;0;0;7;31;11;1;0;0;0;0;26;10;38.5;6;Matches
-181;Rolando Mandragora\Rolando-Mandragora;it ITA;MF;Torino;24-060;1997;1.0;61;3;9;38;16;0;52;2;3;66.7;2;0;28;84;24;1;0;0;0;2;30;27;90.0;2;Matches
-182;Kostas Manolas\Kostas-Manolas;gr GRE;DF;Napoli;30-075;1991;1.0;91;12;32;65;0;0;90;0;0;;0;0;67;417;237;5;0;0;0;0;81;80;98.8;0;Matches
-183;Riccardo Marchizza\Riccardo-Marchizza;it ITA;DF;Empoli;23-155;1998;1.0;66;1;15;25;29;2;51;1;5;20.0;1;0;39;111;59;2;2;0;0;2;38;35;92.1;1;Matches
-184;Gian Marco Ferrari\Gian-Marco-Ferrari;it ITA;DF;Sassuolo;29-194;1992;1.0;78;15;49;33;0;0;74;1;1;100.0;1;0;55;303;221;4;0;0;0;0;61;59;96.7;0;Matches
-185;Răzvan Marin\Razvan-Marin;ro ROU;MF;Cagliari;25-097;1996;1.0;68;1;12;28;31;4;53;2;3;66.7;2;0;36;269;110;6;1;1;1;1;50;40;80.0;3;Matches
-186;Lautaro Martínez\Lautaro-Martinez;ar ARG;MF;Inter;24-006;1997;0.8;37;0;2;19;18;7;37;1;4;25.0;1;0;19;114;22;1;2;0;3;0;36;26;72.2;6;Matches
-187;Pasquale Mazzocchi\Pasquale-Mazzocchi;it ITA;DF;Venezia;26-032;1995;1.0;62;1;9;39;19;0;59;1;2;50.0;2;0;44;313;232;13;4;0;0;0;51;47;92.2;1;Matches
-188;Gary Medel\Gary-Medel;cl CHI;DF;Bologna;34-025;1987;1.0;87;10;38;59;0;0;86;1;2;50.0;1;0;62;413;253;4;0;0;0;0;65;65;100.0;0;Matches
-189;Filippo Melegoni\Filippo-Melegoni;it ITA;DF;Genoa;22-191;1999;0.2;11;1;4;7;1;1;10;0;0;;0;0;8;43;38;1;0;0;0;0;6;6;100.0;0;Matches
-190;Alex Meret\Alex-Meret;it ITA;GK;Napoli;24-159;1997;1.0;27;27;27;0;0;0;18;0;0;;0;0;6;28;16;0;0;0;0;0;10;10;100.0;0;Matches
-191;Nikola Milenković\Nikola-Milenkovic;rs SRB;DF;Fiorentina;23-320;1997;1.0;88;3;42;53;5;1;86;0;0;;0;0;59;408;249;8;1;0;2;0;72;70;97.2;1;Matches
-192;Sergej Milinković-Savić\Sergej-Milinkovic-Savic;rs SRB;MF;Lazio;26-182;1995;0.8;72;2;9;33;34;5;71;0;0;;0;0;64;236;115;6;3;0;3;2;73;65;89.0;6;Matches
-193;Vanja Milinković-Savić\Vanja-Milinkovic-Savic;rs SRB;GK;Torino;24-189;1997;1.0;44;32;44;0;0;0;40;0;0;;0;0;33;237;160;0;0;0;0;0;31;31;100.0;0;Matches
-194;Aleksei Miranchuk\Aleksei-Miranchuk;ru RUS;MF;Atalanta;25-315;1995;0.4;20;2;5;9;8;0;19;0;0;;0;0;13;74;14;1;0;0;0;2;22;12;54.5;1;Matches
-195;Henrikh Mkhitaryan\Henrikh-Mkhitaryan;am ARM;FW;Roma;32-219;1989;0.9;26;0;4;10;14;1;25;2;2;100.0;2;1;20;179;109;3;2;0;1;0;20;16;80.0;3;Matches
-196;Nahuel Molina\Nahuel-Molina;ar ARG;DF;Udinese;23-269;1997;2.0;133;5;38;57;47;5;105;1;1;100.0;1;0;69;403;254;7;4;2;0;0;86;78;90.7;4;Matches
-197;Cristian Molinaro\Cristian-Molinaro;it ITA;DF;Venezia;38-029;1983;1.0;63;1;15;33;19;0;61;0;0;;0;0;50;247;165;8;4;0;1;1;52;51;98.1;2;Matches
-198;Lorenzo Montipò\Lorenzo-Montipo;it ITA;GK;Hellas Verona;25-189;1996;1.0;39;31;39;0;0;0;29;0;0;;0;0;16;94;62;0;0;0;0;0;17;17;100.0;0;Matches
-199;Álvaro Morata\Alvaro-Morata;es ESP;FW;Juventus;28-309;1992;0.7;17;1;1;7;10;4;17;0;0;;0;0;12;72;60;1;1;1;2;2;26;13;50.0;4;Matches
-200;Raúl Moro\Raul-Moro;es ESP;FW;Lazio;18-266;2002;0.3;21;0;3;17;6;0;21;1;2;50.0;1;0;17;150;122;4;1;0;1;1;23;20;87.0;1;Matches
-201;Samuel Mráz\Samuel-Mraz;sk SVK;FW;Spezia;24-107;1997;0.2;8;0;1;3;4;0;8;0;0;;0;0;4;25;11;1;0;0;0;0;15;5;33.3;1;Matches
-202;Luis Muriel\Luis-Muriel;co COL;FW;Atalanta;30-134;1991;0.6;33;0;6;19;10;4;32;3;3;100.0;3;0;24;116;79;2;0;1;5;3;39;23;59.0;2;Matches
-203;Vedat Muriqi\Vedat-Muriqi;xk KVX;FW;Lazio;27-126;1994;0.1;6;0;3;3;0;0;6;0;1;0.0;0;0;6;10;1;0;0;0;0;0;6;5;83.3;0;Matches
-204;Nicola Murru\Nicola-Murru;it ITA;DF;Sampdoria;26-255;1994;0.2;13;0;3;3;8;2;11;0;0;;0;0;7;21;6;0;0;0;0;0;7;7;100.0;2;Matches
-205;Juan Musso\Juan-Musso;ar ARG;GK;Atalanta;27-114;1994;1.0;44;39;44;1;0;0;34;0;0;;0;0;21;135;89;0;0;0;0;0;19;18;94.7;0;Matches
-206;Joakim Mæhle\Joakim-Maehle;dk DEN;DF;Atalanta;24-100;1997;1.0;61;5;22;25;16;2;49;0;2;0.0;0;0;27;121;78;3;2;1;0;0;36;30;83.3;0;Matches
-207;Nahitan Nández\Nahitan-Nandez;uy URU;DF;Cagliari;25-243;1995;1.0;54;2;9;24;25;2;46;3;3;100.0;3;0;31;213;120;6;2;1;3;1;43;33;76.7;4;Matches
-208;Dimitris Nikolaou\Dimitris-Nikolaou;gr GRE;DF;Spezia;23-015;1998;1.0;54;5;25;25;6;0;50;0;0;;0;0;32;215;107;3;0;0;0;1;38;35;92.1;1;Matches
-209;Bram Nuytinck\Bram-Nuytinck;nl NED;DF;Udinese;31-116;1990;2.0;112;21;65;53;1;0;109;0;0;;0;0;79;368;197;3;0;0;0;1;79;79;100.0;0;Matches
-210;Simeon Nwankwo\Simeon-Nwankwo;ng NGA;FW;Salernitana;29-113;1992;0.3;5;0;0;3;2;2;5;0;0;;0;0;2;0;0;0;0;0;0;1;8;3;37.5;0;Matches
-211;Joel Obi\Joel-Obi;ng NGA;MF;Salernitana;30-098;1991;0.1;5;0;1;2;2;0;4;1;1;100.0;1;0;3;33;9;1;0;0;0;0;1;1;100.0;0;Matches
-212;Stefano Okaka\Stefano-Okaka;it ITA;FW;Udinese;32-019;1989;0.2;10;1;1;6;4;2;10;0;0;;0;0;5;54;45;2;1;0;1;0;12;5;41.7;3;Matches
-213;David Okereke\David-Okereke;ng NGA;FW;Venezia;23-364;1997;1.0;44;0;3;23;22;5;44;2;3;66.7;2;0;28;187;77;3;2;1;2;1;47;33;70.2;12;Matches
-214;Riccardo Orsolini\Riccardo-Orsolini;it ITA;FW;Bologna;24-216;1997;0.9;54;2;8;27;22;2;49;0;2;0.0;0;0;34;234;114;6;2;0;1;0;50;39;78.0;3;Matches
-215;Victor Osimhen\Victor-Osimhen;ng NGA;MFFW;Napoli;22-242;1998;0.2;8;0;0;1;7;4;8;0;0;;0;0;5;44;12;1;0;0;0;0;6;5;83.3;1;Matches
-216;Goran Pandev\Goran-Pandev;mk MKD;FW;Genoa;38-032;1983;1.0;34;0;3;25;9;3;31;0;0;;0;0;26;149;72;4;1;0;1;1;34;23;67.6;4;Matches
-217;Ivor Pandur\Ivor-Pandur;hr CRO;GK;Hellas Verona;21-156;2000;1.0;29;27;29;0;0;0;22;0;0;;0;0;16;35;7;0;0;0;0;0;12;12;100.0;0;Matches
-218;Mario Pašalić\Mario-Pasalic;hr CRO;MF;Atalanta;26-200;1995;1.0;56;4;23;29;7;2;55;0;0;;0;0;26;81;32;1;1;0;0;0;39;35;89.7;0;Matches
-219;Rui Patrício\Rui-Patricio;pt POR;GK;Roma;33-194;1988;1.0;36;32;36;0;0;0;28;0;0;;0;0;10;23;7;0;0;0;0;0;16;16;100.0;0;Matches
-220;Leonardo Pavoletti\Leonardo-Pavoletti;it ITA;FW;Cagliari;32-275;1988;0.9;31;2;3;13;17;7;30;1;1;100.0;1;0;14;58;14;1;0;1;1;0;44;24;54.5;6;Matches
-221;Pedro\Pedro;es ESP;FW;Lazio;34-031;1987;0.7;45;0;8;20;21;4;42;1;1;100.0;1;0;37;259;140;8;3;0;0;0;33;32;97.0;3;Matches
-222;João Pedro\Joao-Pedro;br BRA;FW;Cagliari;29-172;1992;1.0;44;2;2;17;25;10;42;0;2;0.0;0;0;25;228;61;3;0;0;5;0;60;34;56.7;10;Matches
-223;Lorenzo Pellegrini\Lorenzo-Pellegrini;it ITA;MF;Roma;25-070;1996;0.9;46;1;9;26;15;2;39;1;4;25.0;1;0;29;151;91;3;1;1;1;1;47;34;72.3;3;Matches
-224;Gastón Pereiro\Gaston-Pereiro;uy URU;FW;Cagliari;26-078;1995;0.3;13;0;1;8;5;0;13;0;0;;0;0;9;78;55;3;1;0;0;1;16;11;68.8;1;Matches
-225;Dor Peretz\Dor-Peretz;il ISR;MF;Venezia;26-103;1995;1.2;53;1;8;40;8;1;51;1;4;25.0;1;0;43;143;65;3;1;0;0;0;51;46;90.2;1;Matches
-226;Roberto Pereyra\Roberto-Pereyra;ar ARG;MF;Udinese;30-233;1991;2.0;92;1;6;47;45;9;88;3;3;100.0;3;0;66;473;275;17;5;1;3;4;89;69;77.5;9;Matches
-227;Carles Pérez\Carles-Perez;es ESP;MF;Roma;23-193;1998;0.1;6;0;0;2;5;0;4;0;0;;0;0;4;25;24;1;1;0;1;0;4;3;75.0;2;Matches
-228;Ivan Perišić\Ivan-Perisic;hr CRO;DF;Inter;32-207;1989;1.5;70;1;8;33;40;9;54;2;2;100.0;2;0;40;427;312;11;6;3;0;3;53;45;84.9;2;Matches
-229;Matteo Pessina\Matteo-Pessina;it ITA;MF;Atalanta;24-129;1997;1.0;50;1;15;31;5;0;48;0;1;0.0;0;0;21;63;17;0;1;0;0;1;33;28;84.8;0;Matches
-230;Andrea Petagna\Andrea-Petagna;it ITA;FW;Napoli;26-059;1995;0.1;4;0;2;2;0;0;4;0;0;;0;0;3;12;4;0;0;0;0;0;6;3;50.0;0;Matches
-231;Giuseppe Pezzella\Giuseppe-Pezzella;it ITA;DF;Atalanta;23-272;1997;0.2;12;0;4;5;3;0;8;0;0;;0;0;6;33;9;0;0;0;1;0;6;5;83.3;0;Matches
-232;Roberto Piccoli\Roberto-Piccoli;it ITA;MF;Atalanta;20-213;2001;0.1;3;0;0;1;2;1;3;0;0;;0;0;3;5;2;0;0;0;0;1;8;2;25.0;1;Matches
-233;Marko Pjaca\Marko-Pjaca;hr CRO;FW;Torino;26-114;1995;0.8;37;0;3;18;17;4;37;2;4;50.0;2;0;28;102;58;4;0;2;4;2;34;28;82.4;6;Matches
-234;Matteo Politano\Matteo-Politano;it ITA;FW;Napoli;28-025;1993;0.8;40;0;5;9;27;4;40;2;2;100.0;2;0;35;215;86;9;0;2;0;0;38;36;94.7;7;Matches
-235;Erick Pulgar\Erick-Pulgar;cl CHI;MF;Fiorentina;27-225;1994;1.0;90;1;16;68;10;0;81;0;0;;0;0;60;354;143;7;1;0;1;2;72;68;94.4;1;Matches
-236;Ignacio Pussetto\Ignacio-Pussetto;ar ARG;FW;Udinese;25-250;1995;1.8;60;2;2;21;39;13;56;1;2;50.0;1;1;32;165;66;3;1;1;6;4;58;37;63.8;11;Matches
-237;Fabio Quagliarella\Fabio-Quagliarella;it ITA;FW;Sampdoria;38-209;1983;1.0;33;1;1;18;14;3;31;0;0;;0;0;19;61;20;1;0;0;3;1;47;23;48.9;11;Matches
-238;Aaron Ramsey\Aaron-Ramsey;wls WAL;MF;Juventus;30-245;1990;0.6;48;1;15;28;5;1;46;0;0;;0;0;34;97;37;0;0;0;1;0;44;43;97.7;1;Matches
-239;Giacomo Raspadori\Giacomo-Raspadori;it ITA;MF;Sassuolo;21-191;2000;0.7;30;0;4;15;13;2;29;1;2;50.0;1;0;27;162;55;1;0;1;2;5;28;25;89.3;9;Matches
-240;Ante Rebić\Ante-Rebic;hr CRO;FW;Milan;27-341;1993;0.2;8;0;0;2;6;3;8;0;0;;0;0;6;37;15;2;0;2;1;1;10;6;60.0;2;Matches
-241;Pepe Reina\Pepe-Reina;es ESP;GK;Lazio;38-362;1982;1.0;40;38;40;0;0;0;31;0;0;;0;0;26;141;92;0;0;0;0;0;25;25;100.0;0;Matches
-242;Samuele Ricci\Samuele-Ricci;it ITA;MF;Empoli;20-007;2001;1.0;72;1;18;37;19;0;72;0;0;;0;0;43;250;98;6;1;0;0;0;57;54;94.7;0;Matches
-243;Tomás Rincón\Tomas-Rincon;ve VEN;MF;Torino;33-227;1988;0.5;25;1;8;12;5;0;25;1;1;100.0;1;0;11;52;29;3;0;0;0;0;15;13;86.7;0;Matches
-244;Ricardo Rodríguez\Ricardo-Rodriguez;ch SUI;DF;Torino;29-003;1992;1.0;47;3;25;21;3;1;47;0;0;;0;0;22;78;10;0;0;0;0;0;23;23;100.0;0;Matches
-245;Rogério\Rogerio;br BRA;DF;Sassuolo;23-227;1998;1.0;51;1;19;25;11;0;44;1;1;100.0;1;0;33;181;90;5;0;0;1;0;32;31;96.9;0;Matches
-246;Alessio Romagnoli\Alessio-Romagnoli;it ITA;DF;Milan;26-228;1995;0.0;3;0;0;2;1;0;2;0;0;;0;0;0;0;0;0;0;0;0;0;0;0;;0;Matches
-247;Simone Romagnoli\Simone-Romagnoli;it ITA;DF;Empoli;31-200;1990;1.0;72;13;44;32;5;1;71;0;0;;0;0;53;348;157;2;1;0;0;0;63;63;100.0;0;Matches
-248;Cristiano Ronaldo\Cristiano-Ronaldo;pt POR;FW;Juventus;36-204;1985;0.3;17;0;2;9;8;2;16;0;0;;0;0;12;73;33;2;2;0;0;2;14;12;85.7;3;Matches
-249;Nicolò Rovella\Nicolo-Rovella;it ITA;MF;Genoa;19-267;2001;1.0;66;4;27;29;13;0;59;1;2;50.0;1;0;43;258;142;5;1;0;1;2;46;43;93.5;3;Matches
-250;Matteo Ruggeri\Matteo-Ruggeri;it ITA;DF;Salernitana;19-048;2002;1.0;43;6;14;17;15;1;34;0;0;;0;0;19;202;136;2;3;0;0;3;18;15;83.3;1;Matches
-251;Mário Rui\Mario-Rui;pt POR;DF;Napoli;30-093;1991;1.0;88;1;20;52;20;2;76;1;1;100.0;1;1;59;293;203;7;0;1;0;0;75;71;94.7;3;Matches
-252;Fabián Ruiz Peña\Fabian-Ruiz-Pena;es ESP;MF;Napoli;25-147;1996;0.8;54;1;8;22;28;0;53;0;3;0.0;0;0;40;181;89;4;4;0;0;0;52;43;82.7;6;Matches
-253;Stefano Sabelli\Stefano-Sabelli;it ITA;DF;Genoa;28-227;1993;0.5;32;6;16;7;11;1;27;1;1;100.0;1;1;19;148;82;3;1;0;1;0;19;18;94.7;1;Matches
-254;Alexis Saelemaekers\Alexis-Saelemaekers;be BEL;FW;Milan;22-062;1999;0.9;48;2;5;26;22;1;48;1;3;33.3;1;0;33;227;155;9;4;0;1;3;37;32;86.5;5;Matches
-255;Antonio Sanabria\Antonio-Sanabria;py PAR;FW;Torino;25-177;1996;0.7;33;0;0;18;18;4;31;2;2;100.0;2;0;25;102;27;3;1;1;3;3;50;28;56.0;7;Matches
-256;Alex Sandro\Alex-Sandro;br BRA;DF;Juventus;30-214;1991;1.0;59;2;26;30;9;1;52;0;0;;0;0;40;205;129;6;2;0;2;1;42;41;97.6;1;Matches
-257;Nicola Sansone\Nicola-Sansone;it ITA;FW;Bologna;29-352;1991;0.4;31;0;0;9;23;3;26;0;3;0.0;0;0;17;66;51;4;1;0;2;2;28;22;78.6;7;Matches
-258;Samir Santos\Samir-Santos;br BRA;DF;Udinese;26-266;1994;2.0;123;14;48;67;17;2;121;1;1;100.0;1;0;80;344;226;7;4;0;2;0;77;75;97.4;1;Matches
-259;Riccardo Saponara\Riccardo-Saponara;it ITA;MF;Fiorentina;29-250;1991;0.1;4;0;0;1;3;0;4;0;1;0.0;1;0;3;26;13;1;0;0;0;0;6;4;66.7;1;Matches
-260;Martin Satriano\Martin-Satriano;it ITA;MF;Inter;20-189;2001;0.2;6;0;1;2;3;1;6;0;1;0.0;0;0;3;16;0;0;0;0;1;1;7;4;57.1;3;Matches
-261;Gianluca Scamacca\Gianluca-Scamacca;it ITA;FW;Sassuolo;22-239;1999;0.0;3;0;0;3;0;0;2;0;0;;0;0;1;1;0;0;0;0;0;0;7;1;14.3;0;Matches
-262;Andrea Schiavone\Andrea-Schiavone;it ITA;DF;Salernitana;28-186;1993;0.1;7;0;2;5;0;0;6;0;0;;0;0;0;0;0;0;0;0;0;0;1;1;100.0;0;Matches
-263;David Schnegg\David-Schnegg;at AUT;DF;Venezia;22-333;1998;0.1;16;0;5;11;3;0;15;0;0;;0;0;14;54;40;1;1;0;2;0;15;13;86.7;1;Matches
-264;Jerdy Schouten\Jerdy-Schouten;nl NED;MF;Bologna;24-228;1997;1.0;65;3;15;41;13;0;63;2;2;100.0;2;0;31;134;20;0;0;0;0;2;41;40;97.6;1;Matches
-265;Stefano Sensi\Stefano-Sensi;it ITA;MFFW;Inter;26-023;1995;0.8;35;0;3;11;23;4;35;0;1;0.0;0;0;23;137;99;5;2;1;4;1;31;27;87.1;6;Matches
-266;Laurens Serpe\Laurens-Serpe;it ITA;DF;Genoa;20-202;2001;0.5;36;4;15;20;3;1;34;0;0;;0;0;24;161;91;4;2;0;1;1;31;31;100.0;1;Matches
-267;Stephan El Shaarawy\Stephan-El-Shaarawy;it ITA;FW;Roma;28-305;1992;0.1;10;0;1;5;4;0;9;1;2;50.0;1;0;9;28;5;0;0;0;0;0;9;7;77.8;0;Matches
-268;Eldor Shomurodov\Eldor-Shomurodov;uz UZB;FW;Roma;26-060;1995;0.2;9;0;0;6;5;2;9;0;1;0.0;0;0;6;35;27;2;2;0;2;0;17;7;41.2;2;Matches
-269;Arnór Sigurðsson\Arnor-Sigurdsson;is ISL;FW;Venezia;22-105;1999;0.5;21;0;2;8;14;2;19;2;3;66.7;2;0;19;78;25;3;0;1;1;3;18;14;77.8;6;Matches
-270;Adrien Silva\Adrien-Silva;pt POR;MF;Sampdoria;32-166;1989;0.1;10;0;1;8;1;0;9;0;1;0.0;0;0;4;1;1;0;0;0;0;0;3;3;100.0;0;Matches
-271;Marco Silvestri\Marco-Silvestri;it ITA;GK;Udinese;30-179;1991;2.0;46;44;46;0;0;0;27;0;0;;0;0;18;82;45;0;0;0;0;0;18;18;100.0;0;Matches
-272;Giovanni Simeone\Giovanni-Simeone;ar ARG;FW;Cagliari;26-054;1995;0.1;4;0;0;3;1;1;4;0;0;;0;0;2;28;4;0;0;0;0;0;8;4;50.0;2;Matches
-273;Wilfried Singo\Wilfried-Singo;ci CIV;DF;Torino;20-246;2000;1.0;63;5;10;36;23;6;55;1;3;33.3;1;0;36;180;114;6;3;2;3;5;38;35;92.1;4;Matches
-274;Salvatore Sirigu\Salvatore-Sirigu;it ITA;GK;Genoa;34-228;1987;1.0;36;34;36;0;0;0;24;0;0;;0;0;15;72;19;0;0;0;0;0;16;16;100.0;0;Matches
-275;Łukasz Skorupski\Lukasz-Skorupski;pl POL;GK;Bologna;30-115;1991;1.0;22;19;22;0;0;0;13;0;0;;0;0;9;28;21;0;0;0;0;0;8;8;100.0;0;Matches
-276;Andreas Skov Olsen\Andreas-Skov-Olsen;dk DEN;FW;Bologna;21-242;1999;0.1;7;0;0;3;6;0;7;0;1;0.0;0;0;6;17;1;0;0;0;1;0;7;5;71.4;1;Matches
-277;Milan Škriniar\Milan-Skriniar;sk SVK;DF;Inter;26-198;1995;2.0;128;14;53;71;9;2;123;0;0;;0;0;86;499;175;5;2;0;0;0;97;95;97.9;0;Matches
-278;Roberto Soriano\Roberto-Soriano;it ITA;MF;Bologna;30-201;1991;0.5;40;3;6;23;14;0;40;2;2;100.0;2;0;26;184;100;7;1;0;0;1;45;34;75.6;4;Matches
-279;Riccardo Sottil\Riccardo-Sottil;it ITA;FW;Fiorentina;22-086;1999;0.1;6;0;1;2;4;1;6;0;0;;0;0;6;52;33;2;0;0;1;0;6;6;100.0;2;Matches
-280;Petar Stojanović\Petar-Stojanovic;si SVN;DF;Empoli;25-325;1995;0.9;63;4;17;28;24;1;53;3;4;75.0;3;0;43;248;159;5;3;0;0;4;36;36;100.0;1;Matches
-281;Stefan Strandberg\Stefan-Strandberg;no NOR;DF;Salernitana;31-034;1990;0.4;16;2;10;7;1;0;15;1;1;100.0;1;0;6;53;43;1;0;0;0;0;5;4;80.0;0;Matches
-282;Kevin Strootman\Kevin-Strootman;nl NED;MF;Cagliari;31-196;1990;1.0;88;5;24;58;10;0;86;1;2;50.0;1;0;53;299;158;1;0;0;1;0;59;54;91.5;0;Matches
-283;Jens Stryger Larsen\Jens-Stryger-Larsen;dk DEN;DF;Udinese;30-188;1991;1.4;81;2;21;39;28;4;65;2;3;66.7;2;0;41;198;142;9;3;0;2;2;61;49;80.3;4;Matches
-284;Stefano Sturaro\Stefano-Sturaro;it ITA;DF;Genoa;28-172;1993;0.8;34;3;10;17;8;2;33;1;1;100.0;1;0;22;85;21;1;0;0;1;0;25;24;96.0;3;Matches
-285;Bosko Sutalo\Bosko-Sutalo;hr CRO;DF;Hellas Verona;21-239;2000;0.2;13;1;4;2;7;1;9;1;2;50.0;1;0;6;14;4;0;0;0;0;0;6;5;83.3;0;Matches
-286;Mattias Svanberg\Mattias-Svanberg;se SWE;MF;Bologna;22-235;1999;0.1;12;1;1;9;3;0;12;0;0;;0;0;9;43;8;1;1;0;1;0;9;8;88.9;1;Matches
-287;Michael Svoboda\Michael-Svoboda;at AUT;DF;Venezia;22-317;1998;1.3;98;15;46;53;7;0;97;0;0;;0;0;71;509;401;16;4;0;0;1;81;80;98.8;0;Matches
-288;Wojciech Szczęsny\Wojciech-Szczesny;pl POL;GK;Juventus;31-132;1990;1.0;36;36;36;0;0;0;29;0;0;;0;0;18;47;16;0;0;0;0;0;18;18;100.0;0;Matches
-289;Adrien Tameze\Adrien-Tameze;cm CMR;MF;Hellas Verona;27-205;1994;0.6;27;0;4;12;11;1;27;1;2;50.0;1;0;19;49;19;1;0;0;1;0;16;16;100.0;1;Matches
-290;Pietro Terracciano\Pietro-Terracciano;it ITA;GK;Fiorentina;31-173;1990;0.8;35;33;35;0;0;0;29;0;0;;0;0;18;104;20;0;0;0;0;0;19;18;94.7;0;Matches
-291;Tanner Tessmann\Tanner-Tessmann;us USA;MF;Venezia;19-338;2001;0.3;15;0;3;8;5;0;15;1;1;100.0;1;0;14;98;37;2;1;0;0;1;15;12;80.0;0;Matches
-292;Morten Thorsby\Morten-Thorsby;no NOR;MF;Sampdoria;25-115;1996;1.0;35;2;11;16;8;1;35;0;0;;0;0;17;33;14;0;0;0;2;1;27;19;70.4;1;Matches
-293;Jeremy Toljan\Jeremy-Toljan;de GER;DF;Sassuolo;27-020;1994;1.0;47;5;23;21;4;1;45;0;0;;0;0;26;88;56;2;1;1;0;0;35;29;82.9;0;Matches
-294;Fikayo Tomori\Fikayo-Tomori;eng ENG;DF;Milan;23-252;1997;1.0;57;13;28;28;1;0;49;0;0;;0;0;29;91;28;1;0;0;0;1;29;29;100.0;0;Matches
-295;Sandro Tonali\Sandro-Tonali;it ITA;MF;Milan;21-112;2000;1.0;53;4;16;28;12;0;47;2;4;50.0;4;1;35;225;117;3;1;0;0;0;34;31;91.2;0;Matches
-296;Iyenoma Udogie\Iyenoma-Udogie;it ITA;DF;Udinese;18-273;2002;0.6;28;0;3;21;9;0;23;1;2;50.0;1;0;18;96;47;3;2;0;1;0;19;17;89.5;1;Matches
-297;Antonio Vacca\Antonio-Vacca;it ITA;MF;Venezia;31-107;1990;0.2;34;1;8;24;3;0;31;0;0;;0;0;24;120;43;1;0;0;0;0;23;23;100.0;1;Matches
-298;Zinho Vanheusden\Zinho-Vanheusden;be BEL;DF;Genoa;22-030;1999;1.0;62;16;37;24;4;2;61;0;0;;0;0;36;265;100;1;0;0;0;0;39;39;100.0;1;Matches
-299;Matías Vecino\Matias-Vecino;uy URU;MF;Inter;30-004;1991;0.2;26;0;2;22;5;0;26;0;0;;0;0;20;166;98;5;2;0;0;1;22;20;90.9;1;Matches
-300;Miguel Veloso\Miguel-Veloso;pt POR;MF;Hellas Verona;35-109;1986;0.5;30;0;1;16;14;0;24;0;0;;0;0;19;109;54;2;0;0;0;1;18;18;100.0;2;Matches
-301;Lorenzo Venuti\Lorenzo-Venuti;it ITA;DF;Fiorentina;26-138;1995;0.9;56;0;14;30;14;0;49;0;1;0.0;0;0;41;134;38;1;0;0;2;0;48;43;89.6;3;Matches
-302;Daniele Verde\Daniele-Verde;it ITA;FW;Spezia;25-069;1996;0.8;25;1;4;10;12;1;22;0;0;;0;0;13;75;23;2;0;0;1;1;19;14;73.7;2;Matches
-303;Simone Verdi\Simone-Verdi;it ITA;FW;Torino;29-047;1992;0.2;13;1;2;6;6;0;12;0;0;;0;0;6;19;18;1;1;0;0;0;6;4;66.7;2;Matches
-304;Jordan Veretout\Jordan-Veretout;fr FRA;MF;Roma;28-180;1993;1.0;38;2;11;24;6;2;38;2;2;100.0;2;0;21;97;30;0;0;0;1;0;28;26;92.9;3;Matches
-305;Valerio Verre\Valerio-Verre;it ITA;FW;Sampdoria;27-229;1994;0.2;18;0;1;10;9;3;18;2;2;100.0;2;0;16;50;22;1;1;0;1;2;17;13;76.5;2;Matches
-306;Guglielmo Vicario\Guglielmo-Vicario;it ITA;GK;Empoli;24-325;1996;1.0;30;25;29;1;0;0;26;0;0;;0;0;20;78;31;0;0;0;1;0;20;20;100.0;0;Matches
-307;Arturo Vidal\Arturo-Vidal;cl CHI;MF;Inter;34-098;1987;0.5;55;1;12;32;16;3;54;2;2;100.0;2;0;35;215;151;3;2;1;0;1;38;37;97.4;3;Matches
-308;Luca Vignali\Luca-Vignali;it ITA;DF;Spezia;25-229;1996;0.1;6;0;1;3;2;0;5;0;0;;0;0;3;13;2;0;0;0;0;0;4;4;100.0;0;Matches
-309;Emanuel Vignato\Emanuel-Vignato;it ITA;DF;Bologna;21-004;2000;0.4;36;1;4;18;17;2;35;0;0;;0;0;28;263;171;11;3;2;0;1;33;31;93.9;2;Matches
-310;Matías Viña\Matias-Vina;uy URU;DF;Roma;23-292;1997;1.0;57;6;23;22;12;0;50;0;0;;0;0;32;93;25;0;0;0;2;0;37;34;91.9;1;Matches
-311;Dušan Vlahović\Dusan-Vlahovic;rs SRB;FW;Fiorentina;21-212;2000;1.0;30;1;1;14;15;5;27;0;0;;0;0;20;66;23;1;0;0;5;1;44;24;54.5;11;Matches
-312;Stefan de Vrij\Stefan-de-Vrij;nl NED;DF;Inter;29-204;1992;2.0;140;23;70;80;2;2;126;0;0;;0;0;83;710;384;2;0;0;1;1;93;92;98.9;0;Matches
-313;Walace\Walace;br BRA;MF;Udinese;26-146;1995;2.0;141;6;40;86;28;1;138;4;5;80.0;4;0;97;575;247;11;5;0;1;2;99;92;92.9;2;Matches
-314;Sebastian Walukiewicz\Sebastian-Walukiewicz;pl POL;DF;Cagliari;21-145;2000;0.7;44;1;16;27;5;1;41;1;1;100.0;1;0;29;229;69;2;1;0;1;0;36;36;100.0;0;Matches
-315;Maya Yoshida\Maya-Yoshida;jp JPN;DF;Sampdoria;33-004;1988;1.0;55;9;35;23;2;1;51;0;0;;0;0;29;96;30;0;0;0;0;1;29;28;96.6;0;Matches
-316;Mattia Zaccagni\Mattia-Zaccagni;it ITA;MFFW;Hellas Verona;26-073;1995;2.0;100;1;6;39;62;11;87;3;5;60.0;3;0;69;426;279;15;4;5;3;6;91;68;74.7;22;Matches
-317;Nicolò Zaniolo\Nicolo-Zaniolo;it ITA;FW;Roma;22-057;1999;0.6;22;0;1;13;9;2;22;1;2;50.0;1;0;15;86;48;4;1;0;1;1;23;18;78.3;3;Matches
-318;Gabriele Zappa\Gabriele-Zappa;it ITA;DF;Cagliari;21-249;1999;0.3;10;1;4;3;3;0;10;0;0;;0;0;6;38;11;0;0;0;0;0;8;7;87.5;0;Matches
-319;Marvin Zeegelaar\Marvin-Zeegelaar;nl NED;DF;Udinese;31-016;1990;0.0;1;0;1;0;0;0;1;0;0;;0;0;0;0;0;0;0;0;0;0;0;0;;0;Matches
-320;Piotr Zieliński\Piotr-Zielinski;pl POL;MF;Napoli;27-100;1994;0.4;16;0;3;5;9;0;16;0;0;;0;0;12;52;27;2;1;0;1;1;14;13;92.9;2;Matches
-321;Jeroen Zoet\Jeroen-Zoet;nl NED;GK;Spezia;30-234;1991;1.0;45;40;45;0;0;0;29;0;0;;0;0;16;73;45;0;0;0;0;0;13;13;100.0;0;Matches
-322;Nadir Zortea\Nadir-Zortea;it ITA;DF;Salernitana;22-070;1999;0.2;5;0;1;2;2;0;5;0;0;;0;0;3;6;1;0;0;0;0;0;4;2;50.0;0;Matches
-323;Szymon Żurkowski\Szymon-Zurkowski;pl POL;MF;Empoli;23-337;1997;0.2;17;0;3;4;13;0;17;1;1;100.0;1;0;17;65;38;1;1;0;1;0;15;15;100.0;2;Matches
-324;Milan Đurić\Milan-Djuric;ba BIH;FW;Salernitana;31-098;1990;0.7;21;0;0;14;7;3;20;0;0;;0;0;3;3;2;0;0;0;0;1;25;17;68.0;1;Matches
-325;Filip Đuričić\Filip-Djuricic;rs SRB;FW;Sassuolo;29-210;1992;0.9;48;1;10;29;16;2;48;2;2;100.0;2;0;41;262;154;7;4;0;0;2;47;41;87.2;1;Matches
+1;Tammy Abraham\Tammy-Abraham;eng ENG;FW;Roma;24-001;1997;5.6;171;5;11;86;86;38;162;6;10;60.0;6;0;84;366;209;14;8;5;16;4;220;117;53.2;44;Matches
+2;Francesco Acerbi\Francesco-Acerbi;it ITA;DF;Lazio;33-235;1988;6.0;497;69;258;266;9;1;481;0;0;;0;0;322;1742;1011;25;4;0;3;2;347;339;97.7;1;Matches
+3;Kevin Agudelo\Kevin-Agudelo;co COL;FW;Spezia;22-323;1998;0.3;22;0;2;9;13;1;22;1;1;100.0;1;0;17;92;34;4;1;0;0;0;19;17;89.5;1;Matches
+4;Ola Aina\Ola-Aina;ng NGA;DF;Torino;24-360;1996;4.0;242;11;44;123;90;9;210;6;11;54.5;7;0;133;666;414;20;7;3;7;6;154;132;85.7;11;Matches
+5;Jean-Daniel Akpa-Akpro\Jean-Daniel-Akpa-Akpro;ci CIV;MF;Lazio;28-357;1992;1.7;77;4;18;45;19;1;77;2;4;50.0;3;0;55;192;84;2;1;0;1;2;60;52;86.7;10;Matches
+6;Luis Alberto\Luis-Alberto;es ESP;MF;Lazio;29-005;1992;4.7;413;3;70;257;114;5;394;6;7;85.7;6;2;324;1490;823;31;12;1;3;5;369;342;92.7;17;Matches
+7;Giorgio Altare\Giorgio-Altare;it ITA;DF;Cagliari;23-055;1998;0.0;3;0;0;3;0;0;2;0;0;;0;0;0;0;0;0;0;0;0;0;0;0;;0;Matches
+8;Kelvin Amian\Kelvin-Amian;fr FRA;DF;Spezia;23-237;1998;4.6;246;16;114;98;43;5;207;1;4;25.0;1;0;111;560;245;7;1;1;3;1;136;123;90.4;9;Matches
+9;Ethan Ampadu\Ethan-Ampadu;wls WAL;MF;Venezia;21-019;2000;1.2;84;1;32;48;9;0;82;1;1;100.0;1;0;51;379;254;5;1;0;0;0;54;52;96.3;3;Matches
+10;Sofyan Amrabat\Sofyan-Amrabat;ma MAR;MF;Fiorentina;25-043;1996;1.0;86;4;20;64;8;0;83;1;1;100.0;1;0;62;385;110;2;1;0;0;1;56;54;96.4;1;Matches
+11;Felipe Anderson\Felipe-Anderson;br BRA;FW;Lazio;28-171;1993;5.6;339;5;36;180;156;26;322;15;21;71.4;15;1;268;1513;982;50;16;10;13;10;305;259;84.9;28;Matches
+12;Cristian Ansaldi\Cristian-Ansaldi;ar ARG;DF;Torino;35-013;1986;3.0;194;11;47;76;88;11;166;1;3;33.3;1;0;126;826;503;27;6;4;3;4;141;126;89.4;5;Matches
+13;Janis Antiste\Janis-Antiste;fr FRA;FWMF;Spezia;19-046;2002;3.5;107;2;20;43;53;20;100;3;9;33.3;3;1;62;243;147;6;2;3;8;10;152;76;50.0;31;Matches
+14;Mattia Aramu\Mattia-Aramu;it ITA;FWMF;Venezia;26-142;1995;2.8;142;3;20;75;58;7;119;0;3;0.0;1;0;74;325;181;11;2;2;7;9;121;86;71.1;8;Matches
+15;Marko Arnautović\Marko-Arnautovic;at AUT;FW;Bologna;32-167;1989;5.9;263;10;19;116;137;39;242;3;10;30.0;5;0;152;537;214;13;6;2;20;8;312;193;61.9;46;Matches
+16;Tolgay Arslan\Tolgay-Arslan;de GER;MF;Udinese;31-048;1990;4.1;174;5;39;103;59;4;172;5;11;45.5;5;0;135;927;607;31;17;0;3;6;146;130;89.0;6;Matches
+17;Kristoffer Askildsen\Kristoffer-Askildsen;no NOR;MF;Sampdoria;20-267;2001;1.1;55;4;17;31;10;1;53;2;3;66.7;2;0;30;89;46;2;1;0;1;1;34;23;67.6;4;Matches
+18;Kristjan Asllani\Kristjan-Asllani;al ALB;FWMF;Empoli;19-208;2002;0.2;14;2;5;5;4;2;14;1;2;50.0;2;0;10;34;24;1;0;1;0;0;12;9;75.0;1;Matches
+19;Emil Audero\Emil-Audero;it ITA;GK;Sampdoria;24-258;1997;6.0;219;197;219;0;0;0;155;0;0;;0;0;95;392;230;0;0;0;0;0;102;101;99.0;0;Matches
+20;Tommaso Augello\Tommaso-Augello;it ITA;DF;Sampdoria;27-034;1994;5.0;276;19;95;107;95;3;232;4;7;57.1;5;0;153;896;431;18;7;1;4;2;171;158;92.4;16;Matches
+21;Ramzi Aya\Ramzi-Aya;it ITA;DF;Salernitana;31-062;1990;1.0;14;3;8;6;0;0;11;0;0;;0;0;8;30;6;0;0;0;0;0;6;4;66.7;0;Matches
+22;Kaan Ayhan\Kaan-Ayhan;tr TUR;DFMF;Sassuolo;26-327;1994;1.1;60;10;40;22;3;0;57;0;0;;0;0;38;175;118;0;0;0;0;0;39;38;97.4;0;Matches
+23;Milan Badelj\Milan-Badelj;hr CRO;MF;Genoa;32-220;1989;6.0;368;15;111;219;63;5;356;7;14;50.0;7;1;245;1084;486;18;5;0;6;7;267;250;93.6;9;Matches
+24;Nedim Bajrami\Nedim-Bajrami;al ALB;MF;Empoli;22-217;1999;4.6;220;2;14;72;146;30;187;11;22;50.0;11;0;152;955;651;32;7;7;15;7;208;146;70.2;34;Matches
+25;Tiemoué Bakayoko\Tiemoue-Bakayoko;fr FRA;MF;Milan;27-047;1994;0.1;10;0;2;6;2;0;10;0;2;0.0;0;0;9;27;7;0;0;0;0;0;8;8;100.0;1;Matches
+26;Keita Baldé\Keita-Balde;sn SEN;FW;Cagliari;26-209;1995;3.5;94;2;7;49;45;12;91;1;5;20.0;1;0;61;317;152;5;3;2;12;4;148;73;49.3;23;Matches
+27;Fodé Ballo-Touré\Fode-Ballo-Toure;sn SEN;DFMF;Milan;24-273;1997;0.8;71;0;12;42;23;4;65;3;7;42.9;3;2;49;287;165;6;2;0;2;2;49;44;89.8;8;Matches
+28;Filippo Bandinelli\Filippo-Bandinelli;it ITA;MF;Empoli;26-188;1995;2.8;153;7;23;65;78;11;144;1;8;12.5;1;1;108;546;323;24;9;3;5;4;114;96;84.2;13;Matches
+29;Mattia Bani\Mattia-Bani;it ITA;DF;Genoa;27-297;1993;2.3;111;24;65;45;6;1;109;0;0;;0;0;57;311;150;2;1;0;0;0;58;57;98.3;0;Matches
+30;Antonín Barák\Antonin-Barak;cz CZE;FWMF;Hellas Verona;26-304;1994;5.8;325;12;53;171;128;26;318;7;18;38.9;9;0;230;1351;805;40;17;4;8;10;325;239;73.5;33;Matches
+31;Nicolò Barella\Nicolo-Barella;it ITA;MF;Inter;24-238;1997;6.6;396;11;81;229;132;20;389;11;17;64.7;11;0;296;2031;1179;39;22;4;13;5;348;307;88.2;23;Matches
+32;Musa Barrow\Musa-Barrow;gm GAM;FW;Bologna;22-323;1998;3.4;159;2;13;76;84;14;145;6;10;60.0;6;0;113;718;358;16;9;2;6;6;153;115;75.2;25;Matches
+33;Daniele Baselli\Daniele-Baselli;it ITA;FW;Torino;29-205;1992;0.5;22;1;8;10;7;1;21;0;0;;0;0;12;51;42;0;1;0;1;0;23;13;56.5;1;Matches
+34;Toma Bašić\Toma-Basic;hr CRO;MF;Lazio;24-312;1996;0.2;10;0;0;5;5;1;9;0;1;0.0;0;0;9;24;14;0;0;0;1;0;9;9;100.0;1;Matches
+35;Alessandro Bastoni\Alessandro-Bastoni;it ITA;DF;Inter;22-173;1999;5.0;321;42;145;170;34;3;300;2;2;100.0;2;1;206;1037;597;16;7;1;3;3;226;219;96.9;3;Matches
+36;Simone Bastoni\Simone-Bastoni;it ITA;DFMF;Spezia;24-332;1996;5.9;364;17;103;182;115;8;304;10;13;76.9;10;0;220;1428;878;39;12;0;5;8;240;217;90.4;13;Matches
+37;Rodrigo Becão\Rodrigo-Becao;br BRA;DF;Udinese;25-257;1996;6.0;358;49;182;171;23;2;344;0;1;0.0;0;0;238;1116;610;15;3;0;1;1;251;244;97.2;1;Matches
+38;Valon Behrami\Valon-Behrami;ch SUI;MF;Genoa;36-167;1985;1.5;45;4;11;20;14;2;42;1;1;100.0;1;0;19;73;31;2;0;0;0;1;32;24;75.0;4;Matches
+39;Vid Belec\Vid-Belec;si SVN;GK;Salernitana;31-119;1990;7.0;177;161;177;0;0;0;102;0;0;;0;0;57;353;216;0;0;0;0;0;40;40;100.0;0;Matches
+40;Raoul Bellanova\Raoul-Bellanova;it ITA;DFMF;Cagliari;21-108;2000;0.5;19;1;2;10;9;1;19;0;0;;0;0;15;79;54;1;1;0;3;0;17;16;94.1;1;Matches
+41;Andrea Belotti\Andrea-Belotti;it ITA;FW;Torino;27-287;1993;1.3;32;2;3;11;18;2;32;1;2;50.0;1;0;18;50;19;1;0;0;5;1;53;24;45.3;8;Matches
+42;Marco Benassi\Marco-Benassi;it ITA;DFMF;Fiorentina;27-025;1994;1.0;85;5;29;36;23;3;76;0;0;;0;0;57;216;73;2;1;0;1;1;66;61;92.4;3;Matches
+43;Ismaël Bennacer\Ismael-Bennacer;dz ALG;MF;Milan;23-306;1997;2.4;223;8;57;149;36;2;215;5;5;100.0;5;0;168;932;369;16;3;0;6;2;185;167;90.3;4;Matches
+44;Rodrigo Bentancur\Rodrigo-Bentancur;uy URU;MF;Juventus;24-120;1997;4.1;241;13;65;148;44;3;239;2;3;66.7;2;0;171;854;378;16;6;1;6;8;174;163;93.7;7;Matches
+45;Domenico Berardi\Domenico-Berardi;it ITA;FWMF;Sassuolo;27-063;1994;4.7;244;4;29;118;111;19;226;3;9;33.3;4;1;153;757;386;22;7;1;5;6;220;173;78.6;27;Matches
+46;Bartosz Bereszyński\Bartosz-Bereszynski;pl POL;DF;Sampdoria;29-083;1992;5.8;330;23;115;148;85;6;278;5;8;62.5;6;0;175;941;536;22;8;1;6;4;201;180;89.6;7;Matches
+47;Federico Bernardeschi\Federico-Bernardeschi;it ITA;MFFW;Juventus;27-229;1994;4.0;173;6;39;80;73;7;158;9;20;45.0;12;1;124;737;358;19;9;4;6;1;150;119;79.3;14;Matches
+48;Daniel Bessa\Daniel-Bessa;it ITA;MFFW;Hellas Verona;28-262;1993;1.3;79;2;14;43;30;1;78;1;1;100.0;1;0;63;421;272;18;4;1;0;2;61;57;93.4;4;Matches
+49;Beto\Beto;gw GNB;FW;Udinese;23-245;1998;1.9;55;2;2;27;32;7;52;4;7;57.1;4;0;40;202;110;5;3;1;12;2;69;37;53.6;10;Matches
+50;Luis Binks\Luis-Binks;eng ENG;MF;Bologna;20-031;2001;0.1;16;0;5;9;5;1;16;0;0;;0;0;10;47;9;0;0;0;1;0;11;11;100.0;0;Matches
+51;Cristiano Biraghi\Cristiano-Biraghi;it ITA;DF;Fiorentina;29-032;1992;5.7;471;20;161;225;112;8;407;1;3;33.3;1;1;312;1429;741;32;12;2;3;1;350;334;95.4;12;Matches
+52;Davide Biraschi\Davide-Biraschi;it ITA;DF;Genoa;27-093;1994;3.1;163;17;69;94;14;1;148;9;10;90.0;9;0;110;612;381;11;3;1;1;3;95;93;97.9;1;Matches
+53;Jeremie Boga\Jeremie-Boga;ci CIV;FWMF;Sassuolo;24-273;1997;6.1;289;1;49;145;131;32;287;19;37;51.4;20;2;253;1705;1121;51;14;18;17;8;277;231;83.4;28;Matches
+54;Luka Bogdan\Luka-Bogdan;hr CRO;DFMF;Salernitana;25-191;1996;0.4;21;1;10;8;4;1;15;0;0;;0;0;8;67;45;1;1;0;0;1;6;5;83.3;1;Matches
+55;Giacomo Bonaventura\Giacomo-Bonaventura;it ITA;MF;Fiorentina;32-042;1989;5.4;273;6;36;156;108;16;264;6;15;40.0;8;1;226;1185;685;30;13;5;5;5;233;205;88.0;16;Matches
+56;Federico Bonazzoli\Federico-Bonazzoli;it ITA;FW;Salernitana;24-135;1997;4.1;121;3;11;57;59;12;104;3;4;75.0;3;0;81;444;235;9;4;0;5;4;159;72;45.3;27;Matches
+57;Kevin Bonifazi\Kevin-Bonifazi;it ITA;DF;Bologna;25-137;1996;5.8;318;34;131;186;30;5;305;5;6;83.3;5;0;208;1442;735;20;6;0;0;5;208;203;97.6;0;Matches
+58;Leonardo Bonucci\Leonardo-Bonucci;it ITA;DF;Juventus;34-155;1987;6.0;377;72;224;160;9;7;362;0;1;0.0;0;0;213;996;459;6;0;0;1;1;271;265;97.8;0;Matches
+59;Mehdi Bourabia\Mehdi-Bourabia;ma MAR;MF;Spezia;30-057;1991;2.2;102;17;34;57;14;0;91;4;6;66.7;4;1;55;209;129;6;2;0;0;5;49;45;91.8;1;Matches
+60;Edoardo Bove\Edoardo-Bove;it ITA;MF;Roma;19-140;2002;0.0;2;0;0;2;0;0;2;0;0;;0;0;2;6;0;0;0;0;0;0;2;2;100.0;0;Matches
+61;Josip Brekalo\Josip-Brekalo;hr CRO;FWMF;Torino;23-102;1998;3.4;181;2;15;78;106;10;173;5;5;100.0;5;0;139;800;480;29;11;4;7;10;171;137;80.1;24;Matches
+62;Gleison Bremer\Gleison-Bremer;br BRA;DF;Torino;24-199;1997;5.8;359;34;186;176;19;10;357;4;4;100.0;4;0;211;1182;513;10;3;0;2;0;190;185;97.4;1;Matches
+63;Marcelo Brozović\Marcelo-Brozovic;hr CRO;MF;Inter;28-321;1992;6.1;465;21;135;289;73;2;445;3;5;60.0;3;0;323;1949;676;30;9;1;3;2;338;326;96.4;5;Matches
+64;Aleksander Buksa\Aleksander-Buksa;pl POL;FW;Genoa;18-261;2003;0.5;13;1;2;8;4;0;12;0;0;;0;0;5;32;18;1;1;0;0;0;10;8;80.0;3;Matches
+65;Alessandro Buongiorno\Alessandro-Buongiorno;it ITA;DF;Torino;22-119;1999;0.8;36;6;22;14;1;1;34;0;0;;0;0;13;35;11;0;0;0;1;0;19;17;89.5;0;Matches
+66;Gianluca Busio\Gianluca-Busio;us USA;MF;Venezia;19-128;2002;5.8;335;20;106;206;50;4;318;0;3;0.0;0;0;188;916;499;12;8;0;5;3;238;219;92.0;9;Matches
+67;Martín Cáceres\Martin-Caceres;uy URU;DF;Cagliari;34-179;1987;3.3;209;16;78;110;32;4;186;0;0;;0;0;120;487;283;5;2;0;3;0;136;122;89.7;2;Matches
+68;Davide Calabria\Davide-Calabria;it ITA;DF;Milan;24-301;1996;3.2;208;6;62;107;50;4;185;0;2;0.0;0;0;136;625;377;14;4;1;4;0;137;131;95.6;6;Matches
+69;Riccardo Calafiori\Riccardo-Calafiori;it ITA;DF;Roma;19-137;2002;1.7;85;1;25;33;32;1;72;1;2;50.0;1;0;57;278;131;10;2;1;1;1;56;51;91.1;4;Matches
+70;Mattia Caldara\Mattia-Caldara;it ITA;DF;Venezia;27-151;1994;5.0;278;60;166;121;8;1;270;0;0;;0;0;163;1031;625;14;2;0;0;2;176;169;96.0;0;Matches
+71;Hakan Çalhanoğlu\Hakan-Calhanoglu;tr TUR;MF;Inter;27-237;1994;4.7;283;5;49;147;101;9;249;2;6;33.3;2;0;163;803;411;26;6;1;4;3;216;189;87.5;19;Matches
+72;José Callejón\Jose-Callejon;es ESP;FW;Fiorentina;34-234;1987;4.0;205;3;32;94;96;11;194;4;6;66.7;4;2;163;497;252;13;9;2;5;3;193;160;82.9;18;Matches
+73;Andrea Cambiaso\Andrea-Cambiaso;it ITA;DF;Genoa;21-225;2000;5.5;302;19;111;136;78;12;254;9;16;56.3;11;2;190;1146;675;31;11;5;8;6;189;162;85.7;14;Matches
+74;Matteo Cancellieri\Matteo-Cancellieri;it ITA;MFFW;Hellas Verona;19-233;2002;1.4;33;0;3;18;15;2;32;2;6;33.3;4;1;26;158;95;3;1;0;3;0;38;24;63.2;3;Matches
+75;Antonio Candreva\Antonio-Candreva;it ITA;MFFW;Sampdoria;34-217;1987;6.0;424;11;52;195;212;19;383;8;12;66.7;9;0;303;1855;1014;52;25;7;8;9;368;319;86.7;28;Matches
+76;Leonardo Capezzi\Leonardo-Capezzi;it ITA;MFFW;Salernitana;26-189;1995;1.2;42;4;10;22;13;0;40;2;2;100.0;2;0;23;82;58;5;1;0;3;4;29;17;58.6;2;Matches
+77;Gianluca Caprari\Gianluca-Caprari;it ITA;FWMF;Hellas Verona;28-065;1993;2.5;138;1;10;63;70;11;128;3;7;42.9;4;0;104;421;187;14;4;2;3;11;136;105;77.2;27;Matches
+78;Francesco Caputo\Francesco-Caputo;it ITA;FW;Sampdoria;34-058;1987;3.6;111;1;3;50;62;17;107;3;4;75.0;3;0;69;287;155;12;3;4;6;3;157;93;59.2;28;Matches
+79;Francesco Caputo\Francesco-Caputo;it ITA;FW;Sassuolo;34-058;1987;1.7;49;0;2;26;22;14;46;0;1;0.0;0;0;28;127;38;4;0;1;3;2;62;38;61.3;16;Matches
+80;Andrea Carboni\Andrea-Carboni;it ITA;DF;Cagliari;20-241;2001;5.3;286;42;137;142;23;2;273;1;2;50.0;1;0;167;921;544;11;5;0;1;1;183;179;97.8;2;Matches
+81;Nicolò Casale\Nicolo-Casale;it ITA;DF;Hellas Verona;23-231;1998;3.6;184;14;67;89;39;4;165;1;2;50.0;1;0;96;581;346;9;7;0;1;0;113;103;91.2;2;Matches
+82;Samu Castillejo\Samu-Castillejo;es ESP;FW;Milan;26-258;1995;0.0;0;0;0;0;0;0;0;0;0;;0;0;0;0;0;0;0;0;0;0;0;0;;0;Matches
+83;Gaetano Castrovilli\Gaetano-Castrovilli;it ITA;MF;Fiorentina;24-228;1997;1.6;76;0;12;44;30;3;74;3;4;75.0;3;0;59;358;201;10;5;3;3;4;60;51;85.0;5;Matches
+84;Danilo Cataldi\Danilo-Cataldi;it ITA;MF;Lazio;27-058;1994;1.6;136;4;24;82;36;1;121;0;0;;0;0;94;284;109;6;3;0;0;0;105;103;98.1;3;Matches
+85;Pietro Ceccaroni\Pietro-Ceccaroni;it ITA;DF;Venezia;25-286;1995;7.0;445;98;249;198;31;6;425;4;5;80.0;4;0;255;1693;1072;23;5;0;3;3;289;284;98.3;0;Matches
+86;Federico Ceccherini\Federico-Ceccherini;it ITA;DF;Hellas Verona;29-145;1992;1.9;100;4;36;60;10;2;88;0;2;0.0;0;0;60;221;118;5;2;0;2;3;66;64;97.0;5;Matches
+87;Luca Ceppitelli\Luca-Ceppitelli;it ITA;DF;Cagliari;32-053;1989;4.1;238;43;138;103;8;1;232;1;1;100.0;1;0;131;574;289;6;1;0;1;0;152;150;98.7;2;Matches
+88;Damir Ceter\Damir-Ceter;co COL;FW;Cagliari;23-335;1997;0.1;2;0;0;2;0;0;2;0;0;;0;0;2;38;24;0;0;0;0;0;4;2;50.0;0;Matches
+89;Julian Chabot\Julian-Chabot;de GER;DF;Sampdoria;23-233;1998;0.1;4;2;4;0;0;0;4;0;0;;0;0;2;4;0;0;0;0;0;0;2;2;100.0;0;Matches
+90;Giorgio Chiellini\Giorgio-Chiellini;it ITA;DF;Juventus;37-050;1984;3.6;186;31;105;78;13;1;174;1;1;100.0;1;0;92;610;382;9;3;0;2;0;121;117;96.7;0;Matches
+91;Federico Chiesa\Federico-Chiesa;it ITA;MFFW;Juventus;23-343;1997;3.8;185;4;32;81;89;19;164;11;16;68.8;12;0;129;753;480;17;5;6;13;11;157;108;68.8;19;Matches
+92;Vlad Chiricheș\Vlad-Chiriches;ro ROU;DF;Sassuolo;31-323;1989;6.0;371;59;218;166;14;3;360;1;2;50.0;2;0;238;1005;540;5;3;0;5;3;257;250;97.3;0;Matches
+93;Riccardo Ciervo\Riccardo-Ciervo;it ITA;MF;Sampdoria;19-185;2002;0.1;6;0;2;1;3;2;6;0;0;;0;0;5;31;24;1;0;0;1;0;6;5;83.3;3;Matches
+94;Ebrima Colley\Ebrima-Colley;gm GAM;FW;Spezia;21-244;2000;2.3;90;0;8;43;50;4;85;5;8;62.5;5;0;66;452;268;14;5;1;7;5;88;64;72.7;12;Matches
+95;Omar Colley\Omar-Colley;gm GAM;DF;Sampdoria;28-344;1992;5.9;336;66;197;143;14;7;317;1;1;100.0;1;0;163;1022;583;12;2;0;1;0;180;176;97.8;1;Matches
+96;Andrea Consigli\Andrea-Consigli;it ITA;GK;Sassuolo;34-249;1987;7.0;337;294;337;1;0;0;258;0;0;;0;0;170;850;609;0;0;0;0;0;191;191;100.0;0;Matches
+97;Joaquín Correa\Joaquin-Correa;ar ARG;FWMF;Inter;27-051;1994;1.4;52;0;2;25;30;8;51;0;5;0.0;2;0;38;186;117;8;3;2;3;1;58;41;70.7;8;Matches
+98;Lassana Coulibaly\Lassana-Coulibaly;ml MLI;MF;Salernitana;25-176;1996;5.2;206;18;58;120;49;2;206;6;8;75.0;6;0;139;1034;435;16;4;0;4;3;124;110;88.7;4;Matches
+99;Mamadou Coulibaly\Mamadou-Coulibaly;sn SEN;MFFW;Salernitana;22-242;1999;6.4;327;14;84;177;98;11;324;10;13;76.9;10;0;216;1357;628;27;15;3;8;13;238;182;76.5;18;Matches
+100;Alessio Cragno\Alessio-Cragno;it ITA;GK;Cagliari;27-097;1994;6.0;235;207;234;1;0;0;163;0;0;;0;0;114;634;422;0;0;0;0;0;98;98;100.0;0;Matches
+101;Domenico Criscito\Domenico-Criscito;it ITA;DF;Genoa;34-277;1986;6.7;428;48;204;192;64;4;392;3;4;75.0;3;0;262;1434;908;30;11;0;2;1;258;254;98.4;1;Matches
+102;Bryan Cristante\Bryan-Cristante;it ITA;MF;Roma;26-214;1995;6.0;445;17;87;293;87;9;435;3;3;100.0;3;0;290;1316;574;27;10;0;4;6;333;324;97.3;4;Matches
+103;Domen Črnigoj\Domen-Crnigoj;si SVN;MFFW;Venezia;25-319;1995;3.4;169;14;52;93;33;6;168;2;6;33.3;2;1;91;461;200;10;1;2;5;1;137;109;79.6;6;Matches
+104;Giovanni Crociata\Giovanni-Crociata;it ITA;FW;Empoli;24-053;1997;0.2;11;0;0;4;8;1;11;0;1;0.0;0;0;9;83;38;2;0;0;0;0;10;9;90.0;0;Matches
+105;Juan Cuadrado\Juan-Cuadrado;co COL;DFMF;Juventus;33-130;1988;4.0;318;10;88;141;109;10;286;5;9;55.6;6;0;217;1099;680;29;5;4;7;5;241;218;90.5;16;Matches
+106;Patrick Cutrone\Patrick-Cutrone;it ITA;FW;Empoli;23-273;1998;3.6;98;2;7;29;67;24;95;2;4;50.0;2;0;73;401;121;8;0;2;6;4;159;78;49.1;38;Matches
+107;Danilo D'Ambrosio\Danilo-DAmbrosio;it ITA;DF;Inter;33-024;1988;0.4;25;5;16;7;2;0;24;0;0;;0;0;12;12;2;0;0;0;0;0;13;13;100.0;0;Matches
+108;Mikkel Damsgaard\Mikkel-Damsgaard;dk DEN;MFFW;Sampdoria;21-092;2000;4.9;273;8;45;131;115;15;269;12;17;70.6;12;0;202;880;457;23;7;3;6;13;223;182;81.6;34;Matches
+109;Danilo\Danilo;br BRA;DFMF;Juventus;30-080;1991;5.0;336;21;126;186;38;1;294;1;3;33.3;1;0;192;735;308;12;4;1;2;2;209;200;95.7;1;Matches
+110;Matteo Darmian\Matteo-Darmian;it ITA;DF;Inter;31-305;1989;4.7;190;10;61;87;49;5;167;0;1;0.0;0;0;102;401;198;9;2;1;1;3;134;118;88.1;12;Matches
+111;Paweł Dawidowicz\Pawel-Dawidowicz;pl POL;DF;Hellas Verona;26-136;1995;4.7;243;32;111;114;27;5;238;1;2;50.0;1;0;143;665;317;13;3;0;0;1;146;139;95.2;1;Matches
+112;Mattia De Sciglio\Mattia-De-Sciglio;it ITA;DF;Juventus;28-348;1992;1.6;85;4;33;32;27;3;74;2;4;50.0;2;0;54;238;110;2;0;0;0;3;52;50;96.2;2;Matches
+113;Lorenzo De Silvestri\Lorenzo-De-Silvestri;it ITA;DF;Bologna;33-133;1988;5.8;454;26;165;238;80;7;400;2;3;66.7;2;0;275;1528;794;29;8;0;4;3;314;294;93.6;6;Matches
+114;Grégoire Defrel\Gregoire-Defrel;mq MTQ;FW;Sassuolo;30-108;1991;2.3;92;5;16;47;36;9;89;1;1;100.0;1;0;59;331;152;9;3;4;3;6;92;59;64.1;15;Matches
+115;Alessandro Deiola\Alessandro-Deiola;it ITA;MFFW;Cagliari;26-063;1995;5.7;239;24;82;122;40;6;238;1;1;100.0;1;0;130;579;222;11;0;0;3;1;160;147;91.9;9;Matches
+116;Merih Demiral\Merih-Demiral;tr TUR;DF;Atalanta;23-212;1998;3.4;171;25;98;75;7;4;161;0;0;;0;0;81;551;154;4;0;0;0;2;86;85;98.8;0;Matches
+117;Diego Demme\Diego-Demme;de GER;MF;Napoli;29-316;1991;0.0;8;0;1;4;3;0;8;0;0;;0;0;7;14;2;0;0;0;0;1;8;8;100.0;0;Matches
+118;Fabio Depaoli\Fabio-Depaoli;it ITA;MFDF;Sampdoria;24-162;1997;1.2;45;2;12;20;17;2;44;2;2;100.0;2;0;29;117;58;3;1;0;2;3;37;27;73.0;3;Matches
+119;Mattia Destro\Mattia-Destro;it ITA;FW;Genoa;30-197;1991;3.5;89;3;12;43;38;10;80;1;2;50.0;1;0;38;123;60;2;2;1;7;2;110;54;49.1;13;Matches
+120;Gerard Deulofeu\Gerard-Deulofeu;es ESP;FW;Udinese;27-204;1994;4.3;211;0;15;91;128;26;188;9;17;52.9;10;1;159;908;628;33;14;6;8;9;206;152;73.8;25;Matches
+121;Jacopo Dezi\Jacopo-Dezi;it ITA;MF;Venezia;29-235;1992;0.2;30;0;3;18;12;1;28;1;2;50.0;1;0;23;141;69;4;0;1;0;0;22;20;90.9;1;Matches
+122;Samuel Di Carmine\Samuel-Di-Carmine;it ITA;FW;Hellas Verona;33-013;1988;0.4;11;0;1;7;5;2;10;1;1;100.0;1;0;9;36;16;1;1;0;3;0;13;8;61.5;1;Matches
+123;Federico Di Francesco\Federico-Di-Francesco;it ITA;FWMF;Empoli;27-111;1994;2.4;109;5;10;34;75;16;109;2;8;25.0;3;0;79;435;203;10;4;1;0;4;115;83;72.2;25;Matches
+124;Giovanni Di Lorenzo\Giovanni-Di-Lorenzo;it ITA;DF;Napoli;28-060;1993;6.0;556;23;148;310;137;13;491;6;12;50.0;6;0;392;1952;1040;49;17;3;3;3;425;410;96.5;11;Matches
+125;Francesco Di Mariano\Francesco-Di-Mariano;it ITA;FW;Venezia;25-166;1996;0.7;20;1;2;10;13;2;20;0;2;0.0;0;0;17;139;55;4;1;1;0;1;22;17;77.3;4;Matches
+126;Francesco Di Tacchio\Francesco-Di-Tacchio;it ITA;MF;Salernitana;31-166;1990;3.3;154;19;50;94;19;4;149;1;2;50.0;1;0;98;486;274;6;2;0;2;4;90;83;92.2;2;Matches
+127;Amadou Diawara\Amadou-Diawara;gn GUI;MF;Roma;24-078;1997;0.1;1;0;0;0;1;0;1;0;0;;0;0;1;1;0;0;0;0;0;0;1;1;100.0;0;Matches
+128;Brahim Díaz\Brahim-Diaz;es ESP;MF;Milan;22-061;1999;4.5;264;1;14;160;120;16;258;10;22;45.5;12;0;223;1333;743;35;16;1;11;5;260;215;82.7;34;Matches
+129;Mitchell Dijks\Mitchell-Dijks;nl NED;DF;Bologna;28-236;1993;0.5;33;1;7;15;15;1;26;0;0;;0;0;20;130;91;3;0;0;0;0;22;21;95.5;1;Matches
+130;Federico Dimarco\Federico-Dimarco;it ITA;DF;Inter;23-327;1997;3.1;202;11;61;74;85;10;161;0;1;0.0;0;0;108;600;363;13;8;1;3;1;131;117;89.3;20;Matches
+131;Koffi Djidji\Koffi-Djidji;ci CIV;DF;Torino;28-307;1992;4.3;242;17;99;134;23;2;236;1;1;100.0;1;0;143;536;215;9;2;0;2;0;138;135;97.8;0;Matches
+132;Berat Djimsiti\Berat-Djimsiti;al ALB;DF;Atalanta;28-226;1993;4.8;312;22;130;159;37;5;293;0;1;0.0;0;0;179;792;307;16;1;0;0;2;209;200;95.7;4;Matches
+133;Nicolás Domínguez\Nicolas-Dominguez;ar ARG;MF;Bologna;23-097;1998;5.5;339;32;92;207;60;9;324;3;3;100.0;3;0;192;955;423;17;8;0;6;4;229;208;90.8;9;Matches
+134;Bartłomiej Drągowski\Bartlomiej-Dragowski;pl POL;GKDF;Fiorentina;24-045;1997;3.2;184;136;183;3;0;0;160;0;0;;0;0;118;520;269;0;0;0;0;0;129;129;100.0;0;Matches
+135;Denzel Dumfries\Denzel-Dumfries;nl NED;DF;Inter;25-168;1996;2.6;132;7;23;46;71;18;110;8;12;66.7;8;0;89;532;340;13;4;5;5;2;96;82;85.4;17;Matches
+136;Alfred Duncan\Alfred-Duncan;gh GHA;MF;Fiorentina;28-207;1993;3.5;180;0;24;97;70;8;180;1;2;50.0;1;0;126;518;273;14;5;2;3;7;149;136;91.3;20;Matches
+137;Paulo Dybala\Paulo-Dybala;ar ARG;FW;Juventus;27-322;1993;4.1;248;1;27;126;112;14;225;3;6;50.0;4;0;177;924;430;23;6;2;12;6;233;186;79.8;29;Matches
+138;Edin Džeko\Edin-Dzeko;ba BIH;FW;Inter;35-200;1986;5.8;241;13;24;130;101;30;233;7;10;70.0;8;1;151;678;391;21;10;3;15;9;292;190;65.1;60;Matches
+139;Tyronne Ebuehi\Tyronne-Ebuehi;ng NGA;DF;Venezia;25-291;1995;2.7;155;8;73;67;25;3;121;1;4;25.0;1;0;81;539;298;8;5;1;1;1;92;83;90.2;3;Matches
+140;Albin Ekdal\Albin-Ekdal;se SWE;MF;Sampdoria;32-067;1989;3.2;159;4;45;88;34;4;151;3;3;100.0;3;0;87;342;148;8;3;0;1;1;100;95;95.0;6;Matches
+141;Caleb Ekuban\Caleb-Ekuban;gh GHA;FWMF;Genoa;27-194;1994;1.6;68;2;6;43;24;6;65;2;7;28.6;3;1;49;275;140;6;5;1;6;2;64;45;70.3;12;Matches
+142;Elif Elmas\Elif-Elmas;mk MKD;MFFW;Napoli;22-009;1999;3.6;208;7;31;107;88;7;198;3;6;50.0;4;0;143;836;489;23;8;0;3;9;193;157;81.3;13;Matches
+143;Martin Erlic\Martin-Erlic;hr CRO;DF;Spezia;23-252;1998;2.2;142;33;101;43;1;0;140;1;1;100.0;1;0;81;416;179;4;0;0;0;0;98;93;94.9;1;Matches
+144;Gonzalo Escalante\Gonzalo-Escalante;ar ARG;MF;Lazio;28-190;1993;0.1;10;2;6;3;1;0;9;0;0;;0;0;4;6;0;0;0;0;0;1;4;4;100.0;0;Matches
+145;Davide Faraoni\Davide-Faraoni;it ITA;DF;Hellas Verona;29-343;1991;4.6;259;13;78;113;77;4;217;3;5;60.0;3;0;132;386;219;11;4;0;3;3;161;139;86.3;3;Matches
+146;Mohamed Fares\Mohamed-Fares;dz ALG;FWDF;Genoa;25-230;1996;3.2;148;4;37;62;58;12;137;5;10;50.0;6;1;92;320;154;8;4;0;4;4;110;90;81.8;10;Matches
+147;Diego Farias\Diego-Farias;br BRA;FWMF;Cagliari;31-146;1990;0.5;20;0;1;8;12;2;19;1;1;100.0;1;0;16;90;15;1;0;1;1;0;17;15;88.2;2;Matches
+148;Andrea Favilli\Andrea-Favilli;it ITA;FW;Genoa;24-139;1997;0.4;13;2;3;6;5;3;11;0;1;0.0;0;0;9;26;4;0;0;0;1;2;16;8;50.0;5;Matches
+149;Luiz Felipe\Luiz-Felipe;br BRA;DF;Lazio;24-195;1997;5.0;363;57;217;184;6;1;345;1;1;100.0;1;0;225;1531;972;13;2;0;1;1;256;256;100.0;0;Matches
+150;Salvador Ferrer\Salvador-Ferrer;es ESP;MFDF;Spezia;23-255;1998;5.2;276;21;85;153;54;2;258;3;5;60.0;3;0;163;714;423;19;8;1;2;2;194;178;91.8;9;Matches
+151;Riccardo Fiamozzi\Riccardo-Fiamozzi;it ITA;DF;Empoli;28-138;1993;0.1;18;0;1;6;14;3;16;0;0;;0;0;12;61;25;2;1;0;0;1;16;14;87.5;4;Matches
+152;Luca Fiordilino\Luca-Fiordilino;it ITA;MF;Venezia;25-070;1996;1.3;76;9;32;34;13;1;75;1;1;100.0;1;0;53;209;89;5;1;1;0;1;56;51;91.1;0;Matches
+153;Alessandro Florenzi\Alessandro-Florenzi;it ITA;FW;Milan;30-206;1991;2.0;85;2;14;40;33;6;81;1;2;50.0;1;0;43;198;110;5;2;1;1;0;68;51;75.0;8;Matches
+154;Francesco Forte\Francesco-Forte;it ITA;FW;Venezia;28-155;1993;2.2;61;1;4;33;25;10;57;0;0;;0;0;25;66;27;1;1;0;4;4;82;37;45.1;13;Matches
+155;Davide Frattesi\Davide-Frattesi;it ITA;MF;Sassuolo;21-346;1999;6.3;330;30;106;184;61;16;325;3;4;75.0;3;1;206;1127;607;15;7;2;8;6;253;228;90.1;10;Matches
+156;Remo Freuler\Remo-Freuler;ch SUI;MF;Atalanta;29-171;1992;4.0;297;8;59;173;87;8;286;2;4;50.0;2;0;200;1052;589;23;10;0;3;1;237;220;92.8;12;Matches
+157;Matteo Gabbia\Matteo-Gabbia;it ITA;DF;Milan;21-347;1999;0.6;65;3;12;54;0;0;65;0;0;;0;0;51;289;146;4;0;0;0;0;55;54;98.2;0;Matches
+158;Manolo Gabbiadini\Manolo-Gabbiadini;it ITA;FW;Sampdoria;29-311;1991;0.8;33;0;3;13;19;5;28;0;0;;0;0;21;99;48;2;2;0;0;4;37;20;54.1;4;Matches
+159;Gianluca Gaetano\Gianluca-Gaetano;it ITA;MF;Napoli;21-151;2000;0.2;16;0;6;7;4;0;16;0;0;;0;0;9;69;12;0;0;0;1;0;12;8;66.7;1;Matches
+160;Roberto Gagliardini\Roberto-Gagliardini;it ITA;MF;Inter;27-179;1994;0.3;15;2;4;10;4;1;15;0;0;;0;0;11;79;27;1;0;1;0;1;10;10;100.0;1;Matches
+161;Riccardo Gagliolo\Riccardo-Gagliolo;se SWE;DF;Salernitana;31-158;1990;4.7;238;23;108;117;25;6;222;1;1;100.0;1;0;116;540;297;11;2;0;0;1;121;116;95.9;4;Matches
+162;Nicolas Galazzi\Nicolas-Galazzi;it ITA;DF;Venezia;20-289;2000;0.2;12;1;2;2;9;1;10;0;0;;0;0;7;39;22;1;1;0;1;1;11;7;63.6;2;Matches
+163;Paolo Ghiglione\Paolo-Ghiglione;it ITA;DF;Genoa;24-243;1997;1.6;106;10;31;41;40;6;89;2;4;50.0;2;0;58;228;107;5;3;1;6;3;67;60;89.6;3;Matches
+164;Olivier Giroud\Olivier-Giroud;fr FRA;FW;Milan;35-003;1986;2.5;80;4;6;24;50;15;76;1;2;50.0;1;0;38;86;28;2;0;1;6;1;110;64;58.2;14;Matches
+165;Diego Godín\Diego-Godin;uy URU;DF;Cagliari;35-229;1986;4.3;263;47;162;101;15;9;255;3;4;75.0;3;0;152;809;442;11;1;1;2;0;165;161;97.6;2;Matches
+166;Cedric Gondo\Cedric-Gondo;ci CIV;FW;Salernitana;24-312;1996;2.8;113;3;12;36;70;21;106;4;8;50.0;4;0;85;373;142;9;3;2;18;6;176;82;46.6;41;Matches
+167;Nicolás González\Nicolas-Gonzalez;ar ARG;FW;Fiorentina;23-180;1998;3.4;141;0;11;63;84;16;137;2;8;25.0;4;0;102;770;504;21;10;4;10;0;145;113;77.9;32;Matches
+168;Robin Gosens\Robin-Gosens;de GER;DF;Atalanta;27-090;1994;5.1;310;10;61;147;110;21;272;1;3;33.3;1;0;176;524;347;14;4;2;4;5;233;203;87.1;18;Matches
+169;Alberto Grassi\Alberto-Grassi;it ITA;MF;Cagliari;26-210;1995;0.7;45;0;10;30;8;1;44;1;2;50.0;1;0;33;130;24;1;1;0;0;1;30;30;100.0;2;Matches
+170;Koray Günter\Koray-Gunter;de GER;DF;Hellas Verona;27-048;1994;6.0;345;62;183;175;8;3;332;1;1;100.0;1;0;161;845;438;4;0;0;1;0;174;169;97.1;0;Matches
+171;Emmanuel Gyasi\Emmanuel-Gyasi;gh GHA;FWMF;Spezia;27-265;1994;5.8;227;9;28;107;103;23;217;4;7;57.1;4;0;164;836;389;13;7;4;14;15;245;170;69.4;31;Matches
+172;Norbert Gyömbér\Norbert-Gyomber;sk SVK;DF;Salernitana;29-092;1992;6.6;299;41;137;135;38;5;256;1;1;100.0;1;0;128;594;196;7;2;0;4;1;143;139;97.2;2;Matches
+173;Nicolas Haas\Nicolas-Haas;ch SUI;MF;Empoli;25-253;1996;4.4;259;9;42;132;94;7;254;1;2;50.0;1;0;174;842;361;16;4;2;4;7;225;182;80.9;17;Matches
+174;Samir Handanović\Samir-Handanovic;si SVN;GK;Inter;37-081;1984;7.0;245;233;244;1;0;0;205;0;0;;0;0;136;589;388;0;0;0;0;0;146;144;98.6;0;Matches
+175;Abdou Harroui\Abdou-Harroui;nl NED;MF;Sassuolo;23-263;1998;0.6;49;1;14;28;7;0;48;0;1;0.0;1;0;30;173;43;2;0;0;2;1;26;25;96.2;1;Matches
+176;Liam Henderson\Liam-Henderson;sct SCO;MF;Empoli;25-161;1996;2.8;126;3;16;53;66;9;118;1;1;100.0;1;0;85;462;189;9;4;2;0;0;113;86;76.1;14;Matches
+177;Dalbert Henrique\Dalbert-Henrique;br BRA;DFMF;Cagliari;28-025;1993;4.4;249;15;74;120;74;5;208;2;4;50.0;2;0;132;621;383;20;10;0;6;5;159;137;86.2;14;Matches
+178;Thomas Henry\Thomas-Henry;fr FRA;FW;Venezia;27-013;1994;3.5;117;7;12;62;51;15;111;2;8;25.0;2;2;78;351;167;10;4;3;13;15;154;85;55.2;19;Matches
+179;Theo Hernández\Theo-Hernandez;fr FRA;DF;Milan;23-362;1997;5.4;331;13;103;160;94;12;284;7;15;46.7;8;0;223;1225;807;22;7;2;8;9;245;221;90.2;16;Matches
+180;Hernani\Hernani;br BRA;MFFW;Genoa;27-190;1994;2.2;88;0;13;52;31;4;79;1;3;33.3;1;0;44;118;47;3;2;0;2;6;91;60;65.9;7;Matches
+181;Daan Heymans\Daan-Heymans;be BEL;MFFW;Venezia;22-110;1999;2.4;110;6;26;55;30;6;108;2;2;100.0;2;1;60;241;113;5;0;0;6;0;80;71;88.8;11;Matches
+182;Aaron Hickey\Aaron-Hickey;sct SCO;DF;Bologna;19-115;2002;4.5;258;16;88;127;58;5;214;8;11;72.7;8;1;160;938;500;22;3;0;3;3;158;144;91.1;9;Matches
+183;Martin Hongla\Martin-Hongla;cm CMR;MF;Hellas Verona;23-201;1998;2.9;132;11;32;77;27;0;128;0;2;0.0;0;0;83;327;130;8;2;0;3;5;94;82;87.2;2;Matches
+184;Sydney van Hooijdonk\Sydney-van-Hooijdonk;nl NED;MFFW;Bologna;21-239;2000;0.3;16;0;1;7;9;1;16;1;1;100.0;1;0;10;24;1;0;0;0;2;1;20;13;65.0;2;Matches
+185;Petko Hristov\Petko-Hristov;bg BUL;DF;Spezia;22-216;1999;5.1;280;58;181;103;5;2;270;0;0;;0;0;161;668;248;4;1;0;1;1;175;174;99.4;0;Matches
+186;Elseid Hysaj\Elseid-Hysaj;al ALB;DF;Lazio;27-225;1994;6.0;385;11;111;213;84;4;346;6;6;100.0;6;1;270;1141;439;19;6;2;2;5;263;254;96.6;5;Matches
+187;Roger Ibanez\Roger-Ibanez;br BRA;DF;Roma;22-314;1998;6.0;451;52;238;220;17;10;433;0;1;0.0;0;0;306;1746;957;18;3;0;0;1;340;336;98.8;2;Matches
+188;Zlatan Ibrahimović\Zlatan-Ibrahimovic;se SWE;FW;Milan;40-000;1981;0.3;27;1;1;21;7;4;27;0;0;;0;0;20;103;48;4;2;0;1;0;25;21;84.0;4;Matches
+189;Igor\Igor;br BRA;DF;Fiorentina;23-238;1998;3.1;253;19;122;142;7;3;247;0;1;0.0;0;0;178;847;459;9;1;0;1;1;192;191;99.5;0;Matches
+190;Ivan Ilić\Ivan-Ilic;rs SRB;MF;Hellas Verona;20-200;2001;4.6;329;15;74;211;69;3;312;6;7;85.7;7;0;216;1138;549;27;8;1;6;7;243;220;90.5;9;Matches
+191;Josip Iličić\Josip-Ilicic;si SVN;FWMF;Atalanta;33-247;1988;2.8;175;2;19;65;102;17;165;4;8;50.0;4;1;133;673;327;22;6;6;10;8;174;135;77.6;24;Matches
+192;Ciro Immobile\Ciro-Immobile;it ITA;FW;Lazio;31-225;1990;5.7;229;1;14;94;128;44;218;4;7;57.1;4;0;177;559;210;16;4;5;13;13;310;193;62.3;61;Matches
+193;Lorenzo Insigne\Lorenzo-Insigne;it ITA;FW;Napoli;30-121;1991;5.1;359;1;24;160;193;27;323;3;10;30.0;4;1;253;1352;771;41;9;8;5;8;323;274;84.8;45;Matches
+194;Ardian Ismajli\Ardian-Ismajli;al ALB;DF;Empoli;25-003;1996;3.8;234;43;126;118;11;3;226;1;1;100.0;1;0;137;902;471;10;2;0;1;1;155;149;96.1;0;Matches
+195;Armando Izzo\Armando-Izzo;it ITA;DF;Torino;29-215;1992;1.0;47;4;18;22;9;0;45;0;0;;0;0;17;101;46;1;1;0;0;0;20;20;100.0;1;Matches
+196;Mato Jajalo\Mato-Jajalo;ba BIH;MF;Udinese;33-131;1988;0.3;24;0;4;17;4;1;22;0;0;;0;0;13;98;33;2;0;0;0;2;18;18;100.0;1;Matches
+197;Paweł Jaroszyński\Pawel-Jaroszynski;pl POL;DF;Salernitana;27-001;1994;2.5;100;9;39;37;27;1;74;0;0;;0;0;46;185;94;4;2;0;1;0;37;35;94.6;1;Matches
+198;Juan Jesus\Juan-Jesus;br BRA;DF;Napoli;30-115;1991;0.0;2;0;1;1;0;0;2;0;0;;0;0;2;7;3;0;0;0;0;0;1;1;100.0;0;Matches
+199;Dennis Johnsen\Dennis-Johnsen;no NOR;FWMF;Venezia;23-228;1998;6.4;195;4;18;71;122;29;194;10;27;37.0;12;3;151;694;478;26;7;9;24;10;261;160;61.3;50;Matches
+200;Kaio Jorge\Kaio-Jorge;br BRA;FW;Juventus;19-252;2002;0.0;3;0;0;1;2;0;3;0;0;;0;0;2;1;1;0;0;0;1;0;3;3;100.0;0;Matches
+201;Flavio Junior Bianchi\Flavio-Junior-Bianchi;it ITA;FWMF;Genoa;21-252;2000;1.1;33;0;2;20;12;3;32;0;0;;0;0;22;70;21;3;0;1;1;2;40;25;62.5;7;Matches
+202;Hamed Junior Traorè\Hamed-Junior-Traore;ci CIV;MFFW;Sassuolo;21-229;2000;1.8;114;1;17;62;39;2;109;2;3;66.7;3;1;85;512;281;16;2;1;7;2;98;83;84.7;9;Matches
+203;Nikola Kalinić\Nikola-Kalinic;hr CRO;FW;Hellas Verona;33-271;1988;1.7;49;0;1;16;33;13;45;1;1;100.0;1;0;33;92;51;4;1;3;5;2;83;39;47.0;17;Matches
+204;Yayah Kallon\Yayah-Kallon;sl SLE;FWMF;Genoa;20-095;2001;4.3;167;3;24;54;99;22;167;12;14;85.7;12;0;140;790;436;24;3;10;17;14;189;106;56.1;29;Matches
+205;Pierre Kalulu\Pierre-Kalulu;fr FRA;DF;Milan;21-120;2000;2.4;179;6;52;75;68;6;165;0;1;0.0;1;0;112;527;280;13;8;1;6;1;122;116;95.1;8;Matches
+206;Rick Karsdorp\Rick-Karsdorp;nl NED;DF;Roma;26-234;1995;5.7;366;10;77;183;125;9;324;3;6;50.0;4;1;239;936;431;20;7;3;3;2;258;248;96.1;15;Matches
+207;Grigoris Kastanos\Grigoris-Kastanos;cy CYP;MF;Salernitana;23-246;1998;2.0;122;1;11;57;61;1;101;1;2;50.0;1;0;69;264;157;11;4;1;3;2;84;71;84.5;13;Matches
+208;Moise Kean\Moise-Kean;it ITA;FW;Juventus;21-217;2000;1.6;56;1;5;29;27;8;54;3;4;75.0;3;0;30;92;48;4;0;3;7;4;73;43;58.9;10;Matches
+209;Wajdi Kechrida\Wajdi-Kechrida;tn TUN;DF;Salernitana;25-332;1995;4.6;197;13;53;81;78;7;171;1;3;33.3;1;1;125;698;428;19;9;1;4;3;129;111;86.0;3;Matches
+210;Franck Kessié\Franck-Kessie;ci CIV;MF;Milan;24-288;1996;2.4;163;3;23;109;38;5;156;1;3;33.3;3;0;109;578;252;10;4;0;2;0;143;126;88.1;9;Matches
+211;Giorgos Kiriakopoulos\Giorgos-Kiriakopoulos;gr GRE;DF;Sassuolo;25-240;1996;1.3;100;6;42;44;23;1;87;3;4;75.0;3;0;68;349;213;11;5;0;0;2;71;68;95.8;2;Matches
+212;Sofian Kiyine\Sofian-Kiyine;ma MAR;MF;Venezia;24-001;1997;1.7;90;1;15;50;35;3;80;3;4;75.0;3;0;63;385;220;13;4;2;1;11;62;53;85.5;5;Matches
+213;Simon Kjær\Simon-Kjaer;dk DEN;DF;Milan;32-191;1989;2.4;138;20;66;76;6;4;132;0;0;;0;0;96;407;189;1;0;0;0;0;103;101;98.1;0;Matches
+214;Aleksandr Kokorin\Aleksandr-Kokorin;ru RUS;FWMF;Fiorentina;30-198;1991;0.2;8;0;0;5;3;2;8;1;1;100.0;1;0;7;20;0;0;0;0;2;0;18;8;44.4;3;Matches
+215;Aleksandar Kolarov\Aleksandar-Kolarov;rs SRB;DF;Inter;35-327;1985;0.2;10;2;7;4;0;0;10;0;1;0.0;1;0;7;53;46;2;0;0;0;0;6;6;100.0;0;Matches
+216;Teun Koopmeiners\Teun-Koopmeiners;nl NED;MF;Atalanta;23-217;1998;1.6;129;3;47;57;30;1;117;1;3;33.3;2;0;79;288;127;3;1;0;0;0;86;79;91.9;2;Matches
+217;Kalidou Koulibaly\Kalidou-Koulibaly;sn SEN;DF;Napoli;30-105;1991;6.0;491;44;188;313;19;6;476;1;1;100.0;1;0;338;1639;932;24;7;1;1;1;379;374;98.7;1;Matches
+218;Viktor Kovalenko\Viktor-Kovalenko;ua UKR;MF;Spezia;25-231;1996;0.7;26;0;2;19;6;1;25;0;1;0.0;0;0;15;34;15;1;0;0;0;1;28;20;71.4;3;Matches
+219;Julian Kristoffersen\Julian-Kristoffersen;no NOR;FW;Salernitana;24-146;1997;0.1;3;0;0;2;1;1;3;0;0;;0;0;0;0;0;0;0;0;0;0;4;2;50.0;0;Matches
+220;Rade Krunić\Rade-Krunic;ba BIH;MF;Milan;27-361;1993;2.0;139;12;38;86;25;4;136;2;2;100.0;2;0;84;424;218;4;4;0;2;0;94;92;97.9;1;Matches
+221;Dejan Kulusevski\Dejan-Kulusevski;se SWE;FWMF;Juventus;21-161;2000;2.7;123;2;17;54;63;14;122;2;10;20.0;3;0;95;553;329;15;6;1;11;12;118;82;69.5;17;Matches
+222;Andrea La Mantia\Andrea-La-Mantia;it ITA;FW;Empoli;30-150;1991;0.3;13;0;0;5;8;3;13;0;0;;0;0;7;10;2;0;0;0;0;1;15;10;66.7;5;Matches
+223;Sam Lammers\Sam-Lammers;nl NED;FW;Atalanta;24-156;1997;0.4;29;0;0;13;17;3;29;0;1;0.0;0;0;18;44;15;1;1;0;3;2;41;26;63.4;9;Matches
+224;Kevin Lasagna\Kevin-Lasagna;it ITA;FWMF;Hellas Verona;29-054;1992;1.3;41;1;2;22;21;4;37;3;3;100.0;3;0;31;235;171;7;3;1;5;6;60;28;46.7;9;Matches
+225;Darko Lazović\Darko-Lazovic;rs SRB;DF;Hellas Verona;31-018;1990;5.4;273;13;56;107;121;18;243;1;6;16.7;1;1;158;656;423;21;4;5;4;3;207;179;86.5;18;Matches
+226;Manuel Lazzari\Manuel-Lazzari;it ITA;DF;Lazio;27-308;1993;2.7;172;9;44;89;51;5;145;1;1;100.0;1;0;110;803;505;22;7;3;3;2;120;109;90.8;7;Matches
+227;Rafael Leão\Rafael-Leao;pt POR;FW;Milan;22-115;1999;4.7;210;2;13;86;132;30;208;17;27;63.0;18;0;180;1167;762;45;10;12;12;4;225;164;72.9;28;Matches
+228;Lucas Leiva\Lucas-Leiva;br BRA;MF;Lazio;34-267;1987;4.5;306;13;80;202;32;0;295;3;5;60.0;3;0;183;509;241;7;1;0;2;2;215;201;93.5;2;Matches
+229;Luca Lezzerini\Luca-Lezzerini;it ITA;GK;Venezia;26-193;1995;1.5;59;56;59;0;0;0;44;0;0;;0;0;25;58;37;0;0;0;0;0;21;21;100.0;0;Matches
+230;Matthijs de Ligt\Matthijs-de-Ligt;nl NED;DF;Juventus;22-052;1999;5.4;318;52;173;140;30;7;307;0;0;;0;0;179;935;343;12;5;0;0;0;211;208;98.6;0;Matches
+231;Anderson Lima\Anderson-Lima;br BRA;MF;Lazio;22-010;1999;0.2;14;0;3;8;4;1;14;0;0;;0;0;10;27;10;0;0;0;0;0;12;11;91.7;3;Matches
+232;Karol Linetty\Karol-Linetty;pl POL;MFFW;Torino;26-243;1995;4.5;152;1;17;69;73;14;147;2;5;40.0;2;0;97;297;178;10;4;1;11;5;159;99;62.3;15;Matches
+233;Stanislav Lobotka\Stanislav-Lobotka;sk SVK;MF;Napoli;26-312;1994;2.0;157;3;26;112;29;0;154;1;1;100.0;1;0;105;547;262;11;4;0;0;1;119;114;95.8;2;Matches
+234;Manuel Locatelli\Manuel-Locatelli;it ITA;MF;Juventus;23-268;1998;4.8;293;19;88;168;49;7;276;0;0;;0;0;172;705;347;11;4;0;5;1;203;191;94.1;2;Matches
+235;Maxime Lopez\Maxime-Lopez;fr FRA;MF;Sassuolo;23-303;1997;6.1;552;36;168;356;75;2;542;3;7;42.9;4;2;405;2301;1154;38;11;0;6;5;449;436;97.1;5;Matches
+236;Matteo Lovato\Matteo-Lovato;it ITA;DF;Atalanta;21-231;2000;0.1;5;0;2;3;0;0;5;0;0;;0;0;1;10;0;0;0;0;0;0;1;1;100.0;0;Matches
+237;Hirving Lozano\Hirving-Lozano;mx MEX;FW;Napoli;26-065;1995;2.6;100;0;22;43;46;18;100;3;3;100.0;3;0;77;717;539;25;7;9;2;2;103;78;75.7;21;Matches
+238;José Luis Palomino\Jose-Luis-Palomino;ar ARG;DF;Atalanta;31-271;1990;4.8;299;41;150;150;15;8;287;0;0;;0;0;149;882;427;5;1;0;0;2;155;153;98.7;0;Matches
+239;Saša Lukić\Sasa-Lukic;rs SRB;MFFW;Torino;25-051;1996;5.5;314;10;55;194;89;9;306;5;6;83.3;5;0;218;1187;654;36;9;4;8;1;253;210;83.0;17;Matches
+240;Sebastiano Luperto\Sebastiano-Luperto;it ITA;DF;Empoli;25-027;1996;3.1;177;28;90;93;6;1;167;0;0;;0;0;95;690;402;7;2;0;1;0;116;111;95.7;0;Matches
+241;Charalambos Lykogiannis\Charalambos-Lykogiannis;gr GRE;DFMF;Cagliari;27-346;1993;3.8;181;13;58;75;54;5;148;5;8;62.5;6;0;93;343;185;8;3;0;5;2;111;94;84.7;9;Matches
+242;Niki Mäenpää\Niki-Maenpaa;fi FIN;GK;Venezia;36-253;1985;5.5;176;160;176;0;0;0;124;0;0;;0;0;76;398;221;0;0;0;0;0;76;76;100.0;0;Matches
+243;Giulio Maggiore\Giulio-Maggiore;it ITA;MF;Spezia;23-205;1998;5.3;250;5;57;134;75;15;248;7;10;70.0;7;0;165;820;515;15;8;2;7;8;201;163;81.1;14;Matches
+244;Francesco Magnanelli\Francesco-Magnanelli;it ITA;MF;Sassuolo;36-325;1984;0.8;62;5;17;36;11;0;56;0;0;;0;0;31;81;43;0;0;0;1;0;43;40;93.0;0;Matches
+245;Giangiacomo Magnani\Giangiacomo-Magnani;it ITA;DF;Hellas Verona;25-364;1995;2.7;123;18;59;61;12;3;123;0;0;;0;0;54;337;219;2;2;0;1;0;63;61;96.8;1;Matches
+246;Mike Maignan\Mike-Maignan;fr FRA;GK;Milan;25-309;1995;6.0;209;167;208;1;0;0;168;0;0;;0;0;111;564;317;0;0;0;0;0;106;106;100.0;0;Matches
+247;Jean-Victor Makengo\Jean-Victor-Makengo;fr FRA;MF;Udinese;23-113;1998;3.3;135;3;30;78;43;2;135;3;5;60.0;3;0;102;709;318;15;7;0;4;5;115;100;87.0;6;Matches
+248;Nikola Maksimović\Nikola-Maksimovic;rs SRB;DF;Genoa;29-312;1991;4.6;287;74;181;116;7;2;263;0;1;0.0;0;0;151;867;422;8;2;0;0;0;169;167;98.8;0;Matches
+249;Kévin Malcuit\Kevin-Malcuit;ma MAR;DF;Napoli;30-064;1991;0.0;0;0;0;0;0;0;0;0;0;;0;0;0;0;0;0;0;0;0;0;0;0;;0;Matches
+250;Daniel Maldini\Daniel-Maldini;it ITA;MF;Milan;19-357;2001;0.7;26;0;3;17;9;3;26;1;1;100.0;1;0;20;145;87;3;2;0;3;0;29;20;69.0;3;Matches
+251;Youssef Maleh\Youssef-Maleh;it ITA;MF;Fiorentina;23-042;1998;0.8;38;0;7;24;11;3;37;0;2;0.0;1;1;23;88;33;2;2;0;3;1;29;25;86.2;3;Matches
+252;Ruslan Malinovskyi\Ruslan-Malinovskyi;ua UKR;FWMF;Atalanta;28-152;1993;4.0;238;3;40;96;122;12;216;9;13;69.2;10;0;168;923;459;23;7;2;12;8;201;164;81.6;27;Matches
+253;Rey Manaj\Rey-Manaj;al ALB;MFFW;Spezia;24-221;1997;0.7;30;1;4;20;8;2;29;0;0;;0;0;21;128;77;4;1;0;6;3;33;23;69.7;5;Matches
+254;Gianluca Mancini\Gianluca-Mancini;it ITA;DF;Roma;25-169;1996;6.0;437;54;201;238;20;9;424;0;0;;0;0;303;1460;821;21;3;0;1;1;347;338;97.4;0;Matches
+255;Leonardo Mancuso\Leonardo-Mancuso;it ITA;FW;Empoli;29-130;1992;3.1;85;2;7;32;51;15;79;0;0;;0;0;47;303;174;9;3;1;4;4;108;58;53.7;21;Matches
+256;Rolando Mandragora\Rolando-Mandragora;it ITA;MF;Torino;24-096;1997;5.1;323;8;52;188;93;9;292;4;6;66.7;4;0;184;678;365;19;3;3;2;3;216;197;91.2;12;Matches
+257;Kostas Manolas\Kostas-Manolas;gr GRE;DF;Napoli;30-111;1991;3.5;251;37;101;162;3;1;244;0;0;;0;0;165;1059;576;15;1;0;0;0;200;196;98.0;0;Matches
+258;Riccardo Marchizza\Riccardo-Marchizza;it ITA;DF;Empoli;23-191;1998;5.9;339;18;82;155;124;11;271;8;16;50.0;9;0;196;997;540;23;8;0;2;8;194;173;89.2;8;Matches
+259;Gian Marco Ferrari\Gian-Marco-Ferrari;it ITA;DF;Sassuolo;29-230;1992;7.0;553;123;354;220;14;8;512;3;3;100.0;3;0;330;1508;963;17;3;0;3;2;392;384;98.0;2;Matches
+260;Răzvan Marin\Razvan-Marin;ro ROU;MF;Cagliari;25-133;1996;7.0;366;6;70;192;125;8;321;6;9;66.7;6;0;251;1444;642;26;9;1;7;9;266;237;89.1;13;Matches
+261;Lucas Martínez Quarta\Lucas-Martinez-Quarta;ar ARG;DF;Fiorentina;25-146;1996;2.7;212;20;121;103;9;1;203;0;0;;0;0;145;976;544;10;5;0;1;2;149;144;96.6;0;Matches
+262;Lautaro Martínez\Lautaro-Martinez;ar ARG;FWMF;Inter;24-042;1997;5.0;165;1;15;72;84;33;161;3;11;27.3;3;0;98;410;177;8;4;1;14;4;184;111;60.3;30;Matches
+263;Adam Marušić\Adam-Marusic;me MNE;DF;Lazio;28-351;1992;3.3;195;17;74;93;38;2;164;0;0;;0;0;108;464;214;10;6;0;3;5;113;102;90.3;3;Matches
+264;Andrea Masiello\Andrea-Masiello;it ITA;DF;Genoa;35-240;1986;0.3;17;3;8;7;2;1;17;0;0;;0;0;11;37;7;0;0;0;0;0;13;13;100.0;0;Matches
+265;Borja Mayoral\Borja-Mayoral;es ESP;FW;Roma;24-181;1997;0.3;9;0;1;5;3;1;9;0;0;;0;0;4;24;5;0;0;0;0;0;14;8;57.1;2;Matches
+266;Pasquale Mazzocchi\Pasquale-Mazzocchi;it ITA;DF;Venezia;26-068;1995;5.2;286;12;104;144;61;1;237;6;11;54.5;9;1;160;1135;733;24;8;1;6;7;157;149;94.9;4;Matches
+267;Weston McKennie\Weston-McKennie;us USA;MF;Juventus;23-036;1998;3.4;138;4;34;69;38;11;134;0;1;0.0;0;0;71;377;156;9;2;1;3;2;128;95;74.2;18;Matches
+268;Gary Medel\Gary-Medel;cl CHI;DF;Bologna;34-061;1987;6.0;378;63;201;194;3;0;353;3;5;60.0;3;0;239;1217;618;8;0;0;0;2;234;233;99.6;1;Matches
+269;Filippo Melegoni\Filippo-Melegoni;it ITA;FWMF;Genoa;22-227;1999;1.3;47;1;10;20;20;3;46;0;1;0.0;0;0;32;137;75;2;1;0;4;1;49;32;65.3;7;Matches
+270;Alex Meret\Alex-Meret;it ITA;GK;Napoli;24-195;1997;2.0;47;44;47;0;0;0;33;0;0;;0;0;15;60;24;0;0;0;0;0;21;21;100.0;0;Matches
+271;Yıldırım Mert Çetin\Yildirim-Mert-Cetin;tr TUR;DF;Hellas Verona;24-275;1997;0.0;3;0;0;1;2;0;1;0;0;;0;0;1;7;4;0;0;0;0;0;1;1;100.0;0;Matches
+272;Kingsley Michael\Kingsley-Michael;ng NGA;MF;Bologna;22-038;1999;0.7;26;1;13;14;1;0;26;0;0;;0;0;14;68;20;0;0;0;0;0;16;15;93.8;0;Matches
+273;Nikola Milenković\Nikola-Milenkovic;rs SRB;DF;Fiorentina;23-356;1997;5.0;306;34;157;160;9;2;291;0;0;;0;0;184;1000;522;14;1;0;3;0;204;199;97.5;1;Matches
+274;Sergej Milinković-Savić\Sergej-Milinkovic-Savic;rs SRB;MF;Lazio;26-218;1995;4.9;377;8;71;195;127;21;372;3;7;42.9;4;0;264;951;463;28;9;1;7;12;362;311;85.9;23;Matches
+275;Vanja Milinković-Savić\Vanja-Milinkovic-Savic;rs SRB;GK;Torino;24-225;1997;7.0;269;215;268;1;0;0;206;0;0;;0;0;155;1037;636;0;0;0;0;0;142;142;100.0;0;Matches
+276;Aleksei Miranchuk\Aleksei-Miranchuk;ru RUS;FWMF;Atalanta;25-351;1995;1.6;95;4;15;40;45;5;90;1;5;20.0;1;0;69;275;85;6;1;1;6;3;95;69;72.6;17;Matches
+277;Henrikh Mkhitaryan\Henrikh-Mkhitaryan;am ARM;FWMF;Roma;32-255;1989;4.7;204;3;26;94;101;13;201;4;6;66.7;5;1;136;902;612;25;9;3;9;7;164;132;80.5;23;Matches
+278;Nahuel Molina\Nahuel-Molina;ar ARG;DF;Udinese;23-305;1997;4.8;283;12;82;117;100;7;230;6;9;66.7;7;0;166;870;578;24;6;3;1;4;197;177;89.8;12;Matches
+279;Cristian Molinaro\Cristian-Molinaro;it ITA;DF;Venezia;38-065;1983;3.5;191;15;73;84;45;0;164;3;3;100.0;3;0;100;552;352;12;6;0;1;2;113;107;94.7;2;Matches
+280;Lorenzo Montipò\Lorenzo-Montipo;it ITA;GK;Hellas Verona;25-225;1996;5.0;172;148;172;0;0;0;117;0;0;;0;0;64;383;211;0;0;0;0;0;60;60;100.0;0;Matches
+281;Álvaro Morata\Alvaro-Morata;es ESP;FW;Juventus;28-345;1992;4.0;149;4;16;65;76;26;147;3;4;75.0;3;2;103;548;352;14;4;8;14;9;181;118;65.2;31;Matches
+282;Raúl Moro\Raul-Moro;es ESP;FW;Lazio;18-302;2002;1.2;66;0;8;34;31;4;66;4;6;66.7;4;0;59;311;175;7;2;1;3;4;72;57;79.2;6;Matches
+283;Samuel Mráz\Samuel-Mraz;sk SVK;FW;Spezia;24-143;1997;0.6;14;0;1;9;4;0;12;0;0;;0;0;5;29;11;1;0;0;0;0;30;7;23.3;1;Matches
+284;Mert Müldür\Mert-Muldur;tr TUR;DF;Sassuolo;22-183;1999;3.0;191;4;68;107;28;1;164;2;2;100.0;2;0;123;652;482;20;4;1;1;3;131;122;93.1;1;Matches
+285;Luis Muriel\Luis-Muriel;co COL;FW;Atalanta;30-170;1991;1.4;77;0;7;32;42;14;72;5;8;62.5;5;0;62;288;145;6;0;4;7;5;101;57;56.4;13;Matches
+286;Vedat Muriqi\Vedat-Muriqi;xk KVX;FWMF;Lazio;27-162;1994;0.4;26;0;5;11;10;1;26;0;2;0.0;0;0;16;33;1;0;0;0;0;0;29;21;72.4;10;Matches
+287;Nicola Murru\Nicola-Murru;it ITA;DF;Sampdoria;26-291;1994;1.0;55;5;15;19;24;3;42;0;1;0.0;0;0;29;129;69;2;0;1;0;1;35;29;82.9;4;Matches
+288;Juan Musso\Juan-Musso;ar ARG;GK;Atalanta;27-150;1994;5.0;172;149;172;1;0;0;128;0;0;;0;0;87;393;250;0;0;0;0;0;79;78;98.7;0;Matches
+289;Joakim Mæhle\Joakim-Maehle;dk DEN;DF;Atalanta;24-136;1997;4.0;245;12;62;94;105;10;208;2;11;18.2;3;0;157;784;527;19;8;1;4;4;176;154;87.5;9;Matches
+290;Nahitan Nández\Nahitan-Nandez;uy URU;DFMF;Cagliari;25-279;1995;6.4;319;8;63;149;132;19;297;10;22;45.5;10;0;229;1531;954;39;14;10;17;9;296;226;76.4;27;Matches
+291;Matija Nastasić\Matija-Nastasic;rs SRB;DF;Fiorentina;28-189;1993;1.3;77;10;37;42;0;0;77;0;0;;0;0;48;193;80;3;0;0;0;0;55;54;98.2;0;Matches
+292;Dimitris Nikolaou\Dimitris-Nikolaou;gr GRE;DF;Spezia;23-051;1998;6.0;344;44;192;157;19;2;329;5;5;100.0;5;0;228;1379;739;20;4;0;1;3;244;238;97.5;2;Matches
+293;Bram Nuytinck\Bram-Nuytinck;nl NED;DF;Udinese;31-152;1990;5.6;356;75;220;151;3;1;344;0;0;;0;0;226;1110;574;8;0;0;1;2;250;249;99.6;0;Matches
+294;Simeon Nwankwo\Simeon-Nwankwo;ng NGA;FWMF;Salernitana;29-149;1992;3.1;104;4;8;41;58;16;104;0;0;;0;0;70;166;53;4;1;0;11;7;173;83;48.0;19;Matches
+295;M'Bala Nzola\MBala-Nzola;ao ANG;FW;Spezia;25-046;1996;1.3;41;2;3;13;27;8;41;0;1;0.0;0;0;30;143;40;2;0;0;6;4;60;34;56.7;9;Matches
+296;Joel Obi\Joel-Obi;ng NGA;MFFW;Salernitana;30-134;1991;2.8;123;4;25;58;45;6;115;2;3;66.7;2;0;67;214;85;3;1;0;6;5;91;65;71.4;12;Matches
+297;Álvaro Odriozola\Alvaro-Odriozola;es ESP;DF;Fiorentina;25-293;1995;2.9;193;18;67;92;50;3;173;1;4;25.0;1;0;135;898;445;23;8;1;1;0;139;129;92.8;9;Matches
+298;Stefano Okaka\Stefano-Okaka;it ITA;FW;Udinese;32-055;1989;0.2;10;1;1;6;4;2;10;0;0;;0;0;5;54;45;2;1;0;1;0;12;5;41.7;3;Matches
+299;David Okereke\David-Okereke;ng NGA;FW;Venezia;24-035;1997;3.6;141;3;20;67;64;17;139;7;9;77.8;7;0;92;470;182;10;4;4;7;6;173;102;59.0;35;Matches
+300;Riccardo Orsolini\Riccardo-Orsolini;it ITA;FW;Bologna;24-252;1997;3.4;186;5;28;90;80;9;171;2;8;25.0;2;0;132;727;390;23;6;1;4;1;182;137;75.3;18;Matches
+301;Victor Osimhen\Victor-Osimhen;ng NGA;FWMF;Napoli;22-278;1998;3.9;114;4;7;40;74;34;114;2;5;40.0;3;0;73;701;418;20;7;4;8;2;162;87;53.7;36;Matches
+302;David Ospina\David-Ospina;co COL;GK;Napoli;33-033;1988;4.0;113;106;113;0;0;0;90;0;0;;0;0;62;283;157;0;0;0;0;0;58;57;98.3;0;Matches
+303;Adam Ounas\Adam-Ounas;dz ALG;FWMF;Napoli;24-326;1996;1.1;74;1;10;30;45;5;74;5;6;83.3;6;2;73;424;281;12;5;2;3;5;70;65;92.9;10;Matches
+304;Goran Pandev\Goran-Pandev;mk MKD;FWMF;Genoa;38-068;1983;3.6;126;0;12;65;56;10;121;0;5;0.0;0;0;97;346;142;10;3;1;6;7;136;94;69.1;31;Matches
+305;Ivor Pandur\Ivor-Pandur;hr CRO;GK;Hellas Verona;21-192;2000;1.0;29;27;29;0;0;0;22;0;0;;0;0;16;35;7;0;0;0;0;0;12;12;100.0;0;Matches
+306;Mario Pašalić\Mario-Pasalic;hr CRO;MF;Atalanta;26-236;1995;3.4;212;9;60;116;48;5;207;2;3;66.7;2;0;128;469;205;6;1;0;8;3;161;144;89.4;17;Matches
+307;Patric\Patric;es ESP;DF;Lazio;28-169;1993;1.0;112;12;41;77;0;0;112;0;0;;0;0;96;382;231;3;0;0;0;0;98;98;100.0;1;Matches
+308;Rui Patrício\Rui-Patricio;pt POR;GK;Roma;33-230;1988;6.0;204;175;203;2;0;0;143;0;0;;0;0;77;273;117;0;0;0;0;0;90;89;98.9;0;Matches
+309;Leonardo Pavoletti\Leonardo-Pavoletti;it ITA;FW;Cagliari;32-311;1988;2.2;95;4;13;44;40;15;92;1;1;100.0;1;0;33;123;15;1;0;1;5;0;123;70;56.9;12;Matches
+310;Pedro\Pedro;es ESP;FW;Lazio;34-067;1987;4.6;261;2;41;136;108;16;255;4;7;57.1;4;1;202;1298;764;41;17;3;11;2;234;206;88.0;25;Matches
+311;João Pedro\Joao-Pedro;br BRA;FW;Cagliari;29-208;1992;7.0;210;6;21;95;101;35;198;4;9;44.4;4;0;139;762;372;16;5;0;20;8;279;152;54.5;43;Matches
+312;Pietro Pellegri\Pietro-Pellegri;it ITA;FW;Milan;20-200;2001;0.7;16;0;0;5;12;2;15;0;1;0.0;0;0;11;31;12;1;0;0;1;1;25;7;28.0;2;Matches
+313;Lorenzo Pellegrini\Lorenzo-Pellegrini;it ITA;MF;Roma;25-106;1996;4.9;274;4;27;155;110;20;244;7;17;41.2;8;0;182;1078;494;33;9;6;9;7;251;196;78.1;24;Matches
+314;Luca Pellegrini\Luca-Pellegrini;it ITA;DF;Juventus;22-210;1999;0.6;18;3;8;6;5;0;12;0;0;;0;0;7;67;14;2;0;0;0;0;9;7;77.8;0;Matches
+315;Gastón Pereiro\Gaston-Pereiro;uy URU;FWMF;Cagliari;26-114;1995;0.9;39;0;5;17;22;0;37;0;0;;0;0;28;323;215;14;5;0;0;1;42;31;73.8;5;Matches
+316;Dor Peretz\Dor-Peretz;il ISR;MF;Venezia;26-139;1995;2.2;97;6;25;66;11;2;94;1;5;20.0;1;0;63;263;127;3;1;0;0;0;79;72;91.1;2;Matches
+317;Roberto Pereyra\Roberto-Pereyra;ar ARG;MFFW;Udinese;30-269;1991;5.7;266;5;39;145;105;14;254;6;11;54.5;6;0;196;1290;705;34;12;1;13;8;241;199;82.6;24;Matches
+318;Carles Pérez\Carles-Perez;es ESP;FWMF;Roma;23-229;1998;1.5;95;0;6;29;69;10;81;5;9;55.6;5;1;70;452;282;17;8;1;2;6;87;69;79.3;16;Matches
+319;Mattia Perin\Mattia-Perin;it ITA;GK;Juventus;28-327;1992;1.0;31;27;31;0;0;0;19;0;0;;0;0;15;52;28;0;0;0;0;0;11;11;100.0;0;Matches
+320;Ivan Perišić\Ivan-Perisic;hr CRO;DF;Inter;32-243;1989;5.1;248;12;57;97;116;26;210;6;10;60.0;6;0;137;1031;776;37;12;5;2;3;172;142;82.6;11;Matches
+321;Matteo Pessina\Matteo-Pessina;it ITA;MFFW;Atalanta;24-165;1997;3.8;216;3;38;116;74;17;213;3;6;50.0;3;1;139;588;273;13;7;1;6;4;192;153;79.7;21;Matches
+322;Andrea Petagna\Andrea-Petagna;it ITA;FW;Napoli;26-095;1995;0.6;24;0;3;13;9;4;24;0;1;0.0;0;0;15;64;6;0;0;0;2;1;31;22;71.0;4;Matches
+323;Giuseppe Pezzella\Giuseppe-Pezzella;it ITA;DF;Atalanta;23-308;1997;0.4;33;1;7;13;14;0;27;0;0;;0;0;19;103;63;4;0;0;3;1;21;20;95.2;1;Matches
+324;Roberto Piccoli\Roberto-Piccoli;it ITA;FWMF;Atalanta;20-249;2001;0.8;26;0;1;10;15;4;25;0;1;0.0;0;0;20;47;9;1;0;1;1;4;48;20;41.7;9;Matches
+325;Andrea Pinamonti\Andrea-Pinamonti;it ITA;FW;Empoli;22-137;1999;2.6;102;2;3;34;69;29;98;1;2;50.0;2;0;62;287;109;9;3;4;9;6;156;79;50.6;24;Matches
+326;Marko Pjaca\Marko-Pjaca;hr CRO;FWMF;Torino;26-150;1995;2.2;103;2;7;40;63;14;102;4;8;50.0;4;0;80;396;267;16;4;4;6;6;102;79;77.5;19;Matches
+327;Tommaso Pobega\Tommaso-Pobega;it ITA;MF;Torino;22-080;1999;3.8;188;8;37;103;55;10;186;3;4;75.0;3;1;109;339;154;7;2;2;2;4;133;114;85.7;5;Matches
+328;Suf Podgoreanu\Suf-Podgoreanu;il ISR;FW;Spezia;19-256;2002;0.2;12;1;3;6;4;0;12;0;0;;0;0;6;34;19;1;1;0;0;0;9;7;77.8;1;Matches
+329;Matteo Politano\Matteo-Politano;it ITA;FW;Napoli;28-061;1993;4.3;241;2;30;58;165;26;221;5;10;50.0;5;0;176;1062;479;41;5;10;4;6;212;182;85.8;30;Matches
+330;Manolo Portanova\Manolo-Portanova;it ITA;MF;Genoa;21-123;2000;0.4;8;0;3;4;2;0;8;0;1;0.0;0;0;5;48;28;0;0;0;0;0;7;6;85.7;0;Matches
+331;Dennis Praet\Dennis-Praet;be BEL;FWMF;Torino;27-142;1994;0.9;43;1;4;19;25;2;43;0;0;;0;0;30;145;77;5;3;0;1;2;32;29;90.6;11;Matches
+332;Erick Pulgar\Erick-Pulgar;cl CHI;MF;Fiorentina;27-261;1994;2.9;197;5;41;136;29;0;175;2;2;100.0;2;0;123;621;263;13;2;0;3;2;129;125;96.9;1;Matches
+333;Ignacio Pussetto\Ignacio-Pussetto;ar ARG;FWMF;Udinese;25-286;1995;4.6;156;4;9;72;84;25;146;5;11;45.5;7;1;94;410;209;11;3;1;21;7;171;99;57.9;23;Matches
+334;Fabio Quagliarella\Fabio-Quagliarella;it ITA;FW;Sampdoria;38-245;1983;5.3;173;4;12;87;82;15;161;3;4;75.0;4;0;112;407;160;13;4;1;12;6;228;134;58.8;50;Matches
+335;Adrien Rabiot\Adrien-Rabiot;fr FRA;MF;Juventus;26-183;1995;4.3;209;19;54;106;68;14;205;5;8;62.5;5;0;140;964;508;17;5;2;7;10;177;147;83.1;14;Matches
+336;Boris Radunović\Boris-Radunovic;rs SRB;GK;Cagliari;25-130;1996;1.0;32;29;32;0;0;0;19;0;0;;0;0;14;77;38;0;0;0;0;0;15;15;100.0;0;Matches
+337;Aaron Ramsey\Aaron-Ramsey;wls WAL;MF;Juventus;30-281;1990;1.1;69;2;18;41;11;2;66;0;0;;0;0;47;155;62;2;1;0;1;1;61;59;96.7;2;Matches
+338;Luca Ranieri\Luca-Ranieri;it ITA;DF;Salernitana;22-163;1999;3.8;200;15;41;101;65;2;167;3;5;60.0;3;1;107;477;303;14;3;0;1;2;122;108;88.5;7;Matches
+339;Andrea Ranocchia\Andrea-Ranocchia;it ITA;DF;Inter;33-229;1988;0.3;11;2;7;4;1;0;11;0;0;;0;0;6;44;36;1;1;0;0;0;6;6;100.0;0;Matches
+340;Giacomo Raspadori\Giacomo-Raspadori;it ITA;FWMF;Sassuolo;21-227;2000;4.2;183;0;25;95;76;19;168;4;6;66.7;5;0;131;682;224;12;3;6;12;13;198;140;70.7;45;Matches
+341;Ante Rebić\Ante-Rebic;hr CRO;FW;Milan;28-012;1993;3.8;131;4;6;42;88;33;128;6;9;66.7;6;0;89;549;344;17;3;5;8;6;155;93;60.0;31;Matches
+342;Arkadiusz Reca\Arkadiusz-Reca;pl POL;DF;Spezia;26-108;1995;0.1;11;0;3;6;2;0;11;1;1;100.0;1;0;7;30;23;2;0;0;0;0;8;7;87.5;1;Matches
+343;Pepe Reina\Pepe-Reina;es ESP;GK;Lazio;39-033;1982;6.0;231;211;230;1;0;0;177;0;0;;0;0;120;746;472;0;0;0;0;0;125;124;99.2;0;Matches
+344;Bryan Reynolds\Bryan-Reynolds;us USA;DF;Roma;20-097;2001;0.0;4;0;2;1;1;0;3;0;0;;0;0;2;1;0;0;0;0;1;0;2;2;100.0;1;Matches
+345;Franck Ribéry\Franck-Ribery;fr FRA;MF;Salernitana;38-179;1983;2.7;155;0;15;84;76;18;142;8;11;72.7;8;0;123;823;514;27;10;11;8;9;155;115;74.2;17;Matches
+346;Samuele Ricci\Samuele-Ricci;it ITA;MF;Empoli;20-043;2001;5.4;334;20;87;212;54;2;323;3;6;50.0;5;0;211;1259;577;29;5;0;0;3;224;215;96.0;6;Matches
+347;Tomás Rincón\Tomas-Rincon;ve VEN;MFFW;Torino;33-263;1988;0.8;42;1;12;18;13;1;41;2;2;100.0;2;0;24;132;90;5;0;1;0;0;28;25;89.3;1;Matches
+348;Ricardo Rodríguez\Ricardo-Rodriguez;ch SUI;DF;Torino;29-039;1992;6.7;387;17;139;229;51;2;367;2;2;100.0;2;0;262;1508;873;29;9;0;0;2;263;257;97.7;2;Matches
+349;Rogério\Rogerio;br BRA;DF;Sassuolo;23-263;1998;5.7;396;31;166;157;96;4;338;4;9;44.4;5;1;263;1435;823;32;10;1;5;4;258;242;93.8;12;Matches
+350;Alessio Romagnoli\Alessio-Romagnoli;it ITA;DF;Milan;26-264;1995;4.0;311;26;131;180;18;4;303;1;1;100.0;1;0;226;1103;488;13;3;0;1;0;252;246;97.6;0;Matches
+351;Simone Romagnoli\Simone-Romagnoli;it ITA;DF;Empoli;31-236;1990;3.0;173;39;98;78;11;5;167;0;0;;0;0;104;836;391;2;1;0;0;0;124;124;100.0;0;Matches
+352;Luka Romero\Luka-Romero;ar ARG;FW;Lazio;16-319;2004;0.1;4;0;0;3;3;0;4;0;0;;0;0;4;56;12;1;1;0;0;0;5;4;80.0;1;Matches
+353;Cristiano Ronaldo\Cristiano-Ronaldo;pt POR;FW;Juventus;36-240;1985;0.3;17;0;2;9;8;2;16;0;0;;0;0;12;73;33;2;2;0;0;2;14;12;85.7;3;Matches
+354;Marten de Roon\Marten-de-Roon;nl NED;MF;Atalanta;30-188;1991;2.0;101;5;40;58;15;0;95;0;0;;0;0;58;286;149;1;0;0;0;1;59;56;94.9;0;Matches
+355;Nicolò Rovella\Nicolo-Rovella;it ITA;MF;Genoa;19-303;2001;6.5;433;15;106;253;98;3;384;5;9;55.6;6;1;278;1408;727;25;9;2;6;5;298;272;91.3;8;Matches
+356;Amir Rrahmani\Amir-Rrahmani;xk KVX;DF;Napoli;27-221;1994;2.5;241;23;106;144;4;2;240;1;1;100.0;1;0;195;768;415;15;0;0;1;0;207;207;100.0;0;Matches
+357;Matteo Ruggeri\Matteo-Ruggeri;it ITA;DF;Salernitana;19-084;2002;2.5;101;18;38;34;34;3;88;0;1;0.0;0;0;46;313;153;3;4;0;1;3;52;45;86.5;2;Matches
+358;Mário Rui\Mario-Rui;pt POR;DF;Napoli;30-129;1991;5.9;500;24;143;239;147;10;457;6;7;85.7;6;1;348;1575;982;38;6;1;1;3;402;383;95.3;20;Matches
+359;Fabián Ruiz Peña\Fabian-Ruiz-Pena;es ESP;MF;Napoli;25-183;1996;5.6;529;10;95;305;163;6;520;4;7;57.1;4;1;372;1725;907;37;14;3;3;3;470;443;94.3;23;Matches
+360;Stefano Sabelli\Stefano-Sabelli;it ITA;DF;Genoa;28-263;1993;1.6;108;10;40;38;37;4;92;1;1;100.0;1;1;56;315;198;9;2;1;5;0;66;59;89.4;4;Matches
+361;Alexis Saelemaekers\Alexis-Saelemaekers;be BEL;FW;Milan;22-098;1999;4.0;217;2;26;108;106;16;216;12;18;66.7;13;2;171;1061;609;35;13;4;7;5;200;165;82.5;27;Matches
+362;Jacopo Sala\Jacopo-Sala;it ITA;MF;Spezia;29-302;1991;2.6;172;9;48;104;26;2;164;1;1;100.0;1;0;118;468;217;8;1;0;1;4;124;115;92.7;3;Matches
+363;Eddy Salcedo\Eddy-Salcedo;it ITA;MFFW;Spezia;20-002;2001;0.1;8;0;1;1;6;1;8;0;0;;0;0;5;17;7;0;0;0;0;1;6;5;83.3;0;Matches
+364;Lazar Samardzic\Lazar-Samardzic;de GER;MFDF;Udinese;19-221;2002;0.6;39;1;6;18;17;2;35;4;8;50.0;5;1;35;163;86;4;0;1;0;2;29;24;82.8;2;Matches
+365;Antonio Sanabria\Antonio-Sanabria;py PAR;FW;Torino;25-213;1996;6.2;222;4;12;94;126;31;213;5;8;62.5;5;0;143;489;149;11;3;3;28;18;347;173;49.9;52;Matches
+366;Alexis Sánchez\Alexis-Sanchez;cl CHI;FW;Inter;32-288;1988;0.6;36;0;4;18;17;4;36;1;3;33.3;1;0;29;147;87;5;1;1;0;2;41;31;75.6;7;Matches
+367;Alex Sandro\Alex-Sandro;br BRA;DF;Juventus;30-250;1991;5.5;345;23;130;158;97;10;308;3;5;60.0;3;2;224;1656;1024;42;14;1;4;6;239;222;92.9;12;Matches
+368;Nicola Sansone\Nicola-Sansone;it ITA;FW;Bologna;30-023;1991;2.8;162;1;19;67;88;6;144;2;11;18.2;3;0;118;644;345;18;5;0;6;3;153;116;75.8;19;Matches
+369;Federico Santander\Federico-Santander;py PAR;FW;Bologna;30-121;1991;0.0;2;0;0;0;2;0;2;0;0;;0;0;1;0;0;0;0;0;0;1;3;2;66.7;0;Matches
+370;Samir Santos\Samir-Santos;br BRA;DF;Udinese;26-302;1994;6.0;357;37;146;204;31;5;341;3;3;100.0;3;0;233;1005;571;20;4;0;3;1;237;231;97.5;2;Matches
+371;Riccardo Saponara\Riccardo-Saponara;it ITA;FW;Fiorentina;29-286;1991;2.1;98;1;16;59;32;7;98;1;4;25.0;2;0;83;633;405;22;7;4;3;3;99;80;80.8;7;Matches
+372;Martin Satriano\Martin-Satriano;it ITA;MF;Inter;20-225;2001;0.2;7;0;1;2;4;1;7;0;1;0.0;0;0;3;16;0;0;0;0;1;1;11;5;45.5;3;Matches
+373;Gianluca Scamacca\Gianluca-Scamacca;it ITA;FW;Sassuolo;22-275;1999;1.3;55;0;2;32;24;4;52;2;2;100.0;2;0;36;126;66;5;1;0;3;4;80;43;53.8;22;Matches
+374;Andrea Schiavone\Andrea-Schiavone;it ITA;DFMF;Salernitana;28-222;1993;0.2;10;1;3;6;1;0;9;0;0;;0;0;1;1;0;0;0;0;0;0;4;2;50.0;0;Matches
+375;David Schnegg\David-Schnegg;at AUT;DF;Venezia;23-004;1998;1.4;100;9;55;36;18;0;88;1;3;33.3;1;0;55;199;144;1;1;0;3;3;60;55;91.7;1;Matches
+376;Jerdy Schouten\Jerdy-Schouten;nl NED;MF;Bologna;24-264;1997;1.0;65;3;15;41;13;0;63;2;2;100.0;2;0;31;134;20;0;0;0;0;2;41;40;97.6;1;Matches
+377;Stefano Sensi\Stefano-Sensi;it ITA;MF;Inter;26-059;1995;1.1;51;0;6;20;27;6;51;0;1;0.0;0;0;32;165;117;6;2;1;5;1;42;36;85.7;7;Matches
+378;Laurens Serpe\Laurens-Serpe;it ITA;DF;Genoa;20-238;2001;0.5;36;4;15;20;3;1;34;0;0;;0;0;24;161;91;4;2;0;1;1;31;31;100.0;1;Matches
+379;Stephan El Shaarawy\Stephan-El-Shaarawy;it ITA;FWMF;Roma;28-341;1992;1.7;108;2;16;49;52;10;105;3;8;37.5;4;0;80;364;167;11;4;4;2;2;101;79;78.2;5;Matches
+380;Eldor Shomurodov\Eldor-Shomurodov;uz UZB;FW;Roma;26-096;1995;1.7;78;1;7;40;41;15;78;0;4;0.0;0;0;46;261;170;9;6;2;7;4;89;58;65.2;12;Matches
+381;Arnór Sigurðsson\Arnor-Sigurdsson;is ISL;FW;Venezia;22-141;1999;0.5;21;0;2;8;14;2;19;2;3;66.7;2;0;19;78;25;3;0;1;1;3;18;14;77.8;6;Matches
+382;Adrien Silva\Adrien-Silva;pt POR;MF;Sampdoria;32-202;1989;2.8;203;10;50;140;29;1;194;2;5;40.0;2;0;125;518;243;6;2;0;1;2;140;137;97.9;2;Matches
+383;Marco Silvestri\Marco-Silvestri;it ITA;GK;Udinese;30-215;1991;6.0;182;172;182;0;0;0;124;0;0;;0;0;78;428;291;0;0;0;0;0;83;83;100.0;0;Matches
+384;Giovanni Simeone\Giovanni-Simeone;ar ARG;FW;Hellas Verona;26-090;1995;2.8;85;3;8;37;43;16;79;3;5;60.0;3;0;60;335;159;5;2;3;10;8;121;63;52.1;23;Matches
+385;Giovanni Simeone\Giovanni-Simeone;ar ARG;FW;Cagliari;26-090;1995;0.1;4;0;0;3;1;1;4;0;0;;0;0;2;28;4;0;0;0;0;0;8;4;50.0;2;Matches
+386;Wilfried Singo\Wilfried-Singo;ci CIV;DF;Torino;20-282;2000;6.6;393;16;66;191;167;24;329;10;24;41.7;16;2;241;1339;736;34;14;7;16;13;254;217;85.4;14;Matches
+387;Salvatore Sirigu\Salvatore-Sirigu;it ITA;GK;Genoa;34-264;1987;7.0;242;217;241;1;0;0;192;0;0;;0;0;129;545;285;0;0;0;0;0;131;130;99.2;0;Matches
+388;Łukasz Skorupski\Lukasz-Skorupski;pl POL;GK;Bologna;30-151;1991;6.0;197;177;197;1;0;0;143;0;0;;0;0;98;335;168;0;0;0;0;0;94;94;100.0;0;Matches
+389;Andreas Skov Olsen\Andreas-Skov-Olsen;dk DEN;FW;Bologna;21-278;1999;2.3;135;2;17;60;75;8;129;1;7;14.3;1;0;104;572;342;18;9;2;5;2;128;106;82.8;9;Matches
+390;Milan Škriniar\Milan-Skriniar;sk SVK;DF;Inter;26-234;1995;7.0;388;52;195;170;45;12;379;1;1;100.0;1;0;259;1402;540;13;6;0;2;0;301;292;97.0;2;Matches
+391;Chris Smalling\Chris-Smalling;eng ENG;DF;Roma;31-315;1989;0.5;31;4;13;14;5;2;27;0;0;;0;0;13;34;10;1;1;0;0;0;16;15;93.8;1;Matches
+392;Brandon Soppy\Brandon-Soppy;fr FRA;DF;Udinese;19-224;2002;0.9;59;3;15;20;26;2;47;4;6;66.7;4;1;39;150;64;4;0;0;0;1;42;32;76.2;3;Matches
+393;Roberto Soriano\Roberto-Soriano;it ITA;MF;Bologna;30-237;1991;4.5;255;10;37;147;91;17;250;8;11;72.7;10;1;177;1058;511;25;12;1;2;7;252;197;78.2;17;Matches
+394;Riccardo Sottil\Riccardo-Sottil;it ITA;FW;Fiorentina;22-122;1999;1.8;75;3;12;33;39;10;74;1;4;25.0;1;0;58;648;462;13;4;2;4;2;73;59;80.8;8;Matches
+395;Adama Soumaoro\Adama-Soumaoro;fr FRA;DF;Bologna;29-107;1992;0.1;4;0;3;1;0;0;4;0;0;;0;0;1;3;2;0;0;0;0;0;1;1;100.0;0;Matches
+396;Marco Sportiello\Marco-Sportiello;it ITA;GK;Atalanta;29-146;1992;1.0;19;17;19;0;0;0;16;0;0;;0;0;12;43;23;0;0;0;0;0;8;8;100.0;0;Matches
+397;Petar Stojanović\Petar-Stojanovic;si SVN;DF;Empoli;25-361;1995;5.5;414;23;114;188;145;6;336;9;17;52.9;9;0;242;1355;778;32;15;1;5;11;243;231;95.1;8;Matches
+398;Stefan Strandberg\Stefan-Strandberg;no NOR;DF;Salernitana;31-070;1990;5.4;268;44;143;125;16;6;236;1;1;100.0;1;0;123;775;501;8;3;0;0;1;119;117;98.3;1;Matches
+399;Dávid Strelec\David-Strelec;sk SVK;MF;Spezia;20-182;2001;0.1;6;0;0;4;2;1;6;0;1;0.0;0;0;4;11;5;0;0;0;0;2;5;4;80.0;2;Matches
+400;Kevin Strootman\Kevin-Strootman;nl NED;MF;Cagliari;31-232;1990;4.2;273;12;88;168;35;3;264;1;3;33.3;1;0;167;852;393;8;0;1;2;0;203;190;93.6;2;Matches
+401;Jens Stryger Larsen\Jens-Stryger-Larsen;dk DEN;DF;Udinese;30-224;1991;4.1;195;10;57;89;64;7;161;2;6;33.3;3;0;108;512;322;18;7;1;3;4;147;125;85.0;7;Matches
+402;Leo Štulac\Leo-Stulac;si SVN;MF;Empoli;27-007;1994;1.1;72;6;16;37;20;2;61;0;0;;0;0;32;206;110;7;0;0;0;0;44;42;95.5;1;Matches
+403;Stefano Sturaro\Stefano-Sturaro;it ITA;MFDF;Genoa;28-208;1993;2.0;71;4;14;38;23;3;69;2;3;66.7;3;0;50;171;55;5;1;0;2;2;55;51;92.7;8;Matches
+404;Bosko Sutalo\Bosko-Sutalo;hr CRO;DF;Hellas Verona;21-275;2000;0.7;41;4;13;13;16;1;31;2;3;66.7;2;0;22;136;88;2;1;0;1;1;26;19;73.1;0;Matches
+405;Mattias Svanberg\Mattias-Svanberg;se SWE;MF;Bologna;22-271;1999;4.1;174;9;28;107;53;4;167;4;8;50.0;4;1;106;410;185;11;8;0;9;2;140;120;85.7;13;Matches
+406;Michael Svoboda\Michael-Svoboda;at AUT;DF;Venezia;22-353;1998;3.3;215;44;120;104;10;1;211;0;0;;0;0;138;1067;787;24;5;0;1;1;158;157;99.4;0;Matches
+407;Wojciech Szczęsny\Wojciech-Szczesny;pl POL;GK;Juventus;31-168;1990;6.0;185;174;183;2;0;0;130;0;0;;0;0;69;242;90;0;0;0;0;0;71;71;100.0;0;Matches
+408;Adrien Tameze\Adrien-Tameze;cm CMR;MF;Hellas Verona;27-241;1994;2.8;145;3;31;84;34;6;144;2;3;66.7;2;0;106;496;284;7;2;1;5;4;101;97;96.0;5;Matches
+409;Pietro Terracciano\Pietro-Terracciano;it ITA;GK;Fiorentina;31-209;1990;2.8;152;137;151;1;0;0;127;0;0;;0;0;90;466;180;0;0;0;0;0;97;95;97.9;0;Matches
+410;Aleksa Terzić\Aleksa-Terzic;rs SRB;DF;Fiorentina;22-047;1999;0.3;25;0;10;13;4;0;23;0;1;0.0;0;0;17;74;25;3;1;0;0;0;20;19;95.0;0;Matches
+411;Tanner Tessmann\Tanner-Tessmann;us USA;MF;Venezia;20-009;2001;0.4;20;0;6;12;5;0;20;1;1;100.0;1;0;15;98;37;2;1;0;0;2;17;14;82.4;0;Matches
+412;Arthur Theate\Arthur-Theate;be BEL;DF;Bologna;21-131;2000;0.7;53;2;6;41;9;4;52;0;0;;0;0;39;273;153;8;3;0;0;0;42;42;100.0;0;Matches
+413;Morten Thorsby\Morten-Thorsby;no NOR;MF;Sampdoria;25-151;1996;5.4;198;8;39;112;50;10;197;0;1;0.0;1;0;98;306;116;3;1;0;7;3;173;118;68.2;8;Matches
+414;Jeremy Toljan\Jeremy-Toljan;de GER;DF;Sassuolo;27-056;1994;4.0;229;19;98;104;35;7;185;1;3;33.3;1;0;120;420;217;9;3;1;5;2;150;131;87.3;9;Matches
+415;Rafael Tolói\Rafael-Toloi;it ITA;DF;Atalanta;30-358;1990;5.0;333;15;119;185;41;5;318;0;0;;0;0;210;1003;569;16;6;0;0;2;236;224;94.9;1;Matches
+416;Takehiro Tomiyasu\Takehiro-Tomiyasu;jp JPN;DF;Bologna;22-332;1998;0.1;6;0;2;1;3;0;5;1;1;100.0;1;0;4;0;0;0;0;0;1;0;2;2;100.0;0;Matches
+417;Fikayo Tomori\Fikayo-Tomori;eng ENG;DF;Milan;23-288;1997;5.4;381;51;210;184;12;3;362;1;2;50.0;1;0;245;1225;650;13;3;0;0;1;280;272;97.1;2;Matches
+418;Sandro Tonali\Sandro-Tonali;it ITA;MF;Milan;21-148;2000;5.7;428;12;92;255;112;6;382;7;15;46.7;10;4;284;1691;862;36;8;4;5;4;301;283;94.0;10;Matches
+419;Lorenzo Tonelli\Lorenzo-Tonelli;it ITA;DF;Empoli;31-259;1990;0.5;41;4;21;23;3;0;40;1;1;100.0;1;0;26;179;114;4;2;0;0;0;29;28;96.6;0;Matches
+420;Ernesto Torregrossa\Ernesto-Torregrossa;it ITA;FW;Sampdoria;29-097;1992;0.8;38;1;2;24;18;3;38;0;1;0.0;0;0;28;104;61;3;3;0;2;4;47;32;68.1;13;Matches
+421;Lucas Torreira\Lucas-Torreira;uy URU;MF;Fiorentina;25-234;1996;2.3;146;6;24;111;18;0;140;0;0;;0;0;85;287;131;6;2;0;1;0;105;99;94.3;2;Matches
+422;Abdoulaye Touré\Abdoulaye-Toure;fr FRA;MF;Genoa;27-214;1994;2.5;119;7;27;81;18;2;118;4;6;66.7;4;0;71;320;129;7;2;1;1;1;88;71;80.7;2;Matches
+423;Iyenoma Udogie\Iyenoma-Udogie;it ITA;DF;Udinese;18-309;2002;1.7;93;4;23;57;22;1;82;2;4;50.0;2;0;62;489;294;14;3;0;1;2;55;51;92.7;4;Matches
+424;Antonio Vacca\Antonio-Vacca;it ITA;MF;Venezia;31-143;1990;3.5;215;18;99;113;15;0;200;0;2;0.0;0;0;133;771;383;10;3;0;0;5;137;129;94.2;2;Matches
+425;Zinho Vanheusden\Zinho-Vanheusden;be BEL;DF;Genoa;22-066;1999;3.4;175;29;98;69;17;5;169;1;2;50.0;2;0;112;591;240;8;3;0;1;0;119;116;97.5;2;Matches
+426;Matías Vecino\Matias-Vecino;uy URU;MF;Inter;30-040;1991;1.8;104;6;26;59;24;4;102;0;1;0.0;0;0;69;384;204;11;2;0;1;1;81;69;85.2;8;Matches
+427;Miguel Veloso\Miguel-Veloso;pt POR;MF;Hellas Verona;35-145;1986;0.5;30;0;1;16;14;0;24;0;0;;0;0;19;109;54;2;0;0;0;1;18;18;100.0;2;Matches
+428;Lorenzo Venuti\Lorenzo-Venuti;it ITA;DF;Fiorentina;26-174;1995;2.2;149;7;56;76;27;0;124;0;1;0.0;0;0;108;478;248;9;2;0;3;1;116;109;94.0;3;Matches
+429;Daniele Verde\Daniele-Verde;it ITA;FWMF;Spezia;25-105;1996;3.7;170;3;26;78;80;8;148;3;7;42.9;3;3;109;769;370;27;6;2;1;5;138;113;81.9;9;Matches
+430;Simone Verdi\Simone-Verdi;it ITA;MFFW;Torino;29-083;1992;0.5;24;1;3;11;11;1;22;0;1;0.0;0;0;15;37;31;2;1;0;0;3;16;13;81.3;4;Matches
+431;Jordan Veretout\Jordan-Veretout;fr FRA;MF;Roma;28-216;1993;5.4;341;6;65;228;67;7;325;3;3;100.0;3;0;224;1198;545;28;2;0;3;0;265;253;95.5;10;Matches
+432;Valerio Verre\Valerio-Verre;it ITA;MFFW;Sampdoria;27-265;1994;1.1;76;0;8;35;42;4;76;2;3;66.7;2;0;60;292;150;6;5;0;4;3;75;56;74.7;10;Matches
+433;Guglielmo Vicario\Guglielmo-Vicario;it ITA;GK;Empoli;24-361;1996;6.0;213;187;210;3;0;0;152;0;0;;0;0;99;397;232;0;0;0;1;0;87;87;100.0;0;Matches
+434;Arturo Vidal\Arturo-Vidal;cl CHI;MF;Inter;34-134;1987;1.3;99;3;20;59;27;6;96;2;2;100.0;2;0;59;322;200;6;4;1;0;2;73;69;94.5;5;Matches
+435;Luca Vignali\Luca-Vignali;it ITA;DF;Spezia;25-265;1996;0.9;59;2;24;24;13;0;49;1;1;100.0;1;0;31;99;46;2;0;0;1;2;44;37;84.1;3;Matches
+436;Emanuel Vignato\Emanuel-Vignato;it ITA;MFDF;Bologna;21-040;2000;1.9;137;3;18;79;50;3;133;1;1;100.0;1;0;105;853;512;28;7;3;0;3;122;107;87.7;2;Matches
+437;Matías Viña\Matias-Vina;uy URU;DF;Roma;23-328;1997;3.8;239;10;75;116;58;6;212;0;1;0.0;0;0;146;505;282;9;2;1;8;0;156;145;92.9;5;Matches
+438;Mattia Viti\Mattia-Viti;it ITA;DF;Empoli;19-252;2002;2.0;86;23;51;41;2;2;80;0;0;;0;0;41;282;198;4;0;0;0;0;46;43;93.5;0;Matches
+439;Dušan Vlahović\Dusan-Vlahovic;rs SRB;FW;Fiorentina;21-248;2000;5.9;206;6;12;112;91;24;191;2;3;66.7;2;0;140;543;199;9;3;1;24;16;319;157;49.2;48;Matches
+440;Mërgim Vojvoda\Mergim-Vojvoda;xk KVX;DF;Torino;26-244;1995;0.5;33;2;15;13;5;0;27;0;0;;0;0;21;97;14;0;0;0;0;0;22;18;81.8;0;Matches
+441;Stefan de Vrij\Stefan-de-Vrij;nl NED;DF;Inter;29-240;1992;6.7;382;67;217;185;4;4;358;0;0;;0;0;212;1643;858;10;0;0;2;2;245;243;99.2;0;Matches
+442;Walace\Walace;br BRA;MF;Udinese;26-182;1995;5.6;423;22;119;268;68;2;409;4;7;57.1;5;0;292;1569;694;27;10;0;4;6;310;293;94.5;8;Matches
+443;Sebastian Walukiewicz\Sebastian-Walukiewicz;pl POL;DF;Cagliari;21-181;2000;3.1;196;24;111;91;10;1;187;6;6;100.0;6;1;131;774;377;9;2;0;1;0;144;143;99.3;0;Matches
+444;Maya Yoshida\Maya-Yoshida;jp JPN;DF;Sampdoria;33-040;1988;6.0;283;52;165;120;12;4;275;1;1;100.0;1;0;154;636;254;5;1;0;0;1;167;164;98.2;2;Matches
+445;Mattia Zaccagni\Mattia-Zaccagni;it ITA;FW;Lazio;26-109;1995;0.6;44;0;1;14;34;5;42;0;2;0.0;0;0;33;261;162;12;4;1;2;2;38;34;89.5;5;Matches
+446;Mattia Zaccagni\Mattia-Zaccagni;it ITA;MFFW;Hellas Verona;26-109;1995;2.0;100;1;6;39;62;11;87;3;5;60.0;3;0;69;426;279;15;4;5;3;6;91;68;74.7;22;Matches
+447;Nicola Zalewski\Nicola-Zalewski;pl POL;DF;Roma;19-253;2002;0.1;7;0;0;1;7;0;6;1;2;50.0;1;0;7;14;11;2;1;0;1;1;8;6;75.0;2;Matches
+448;Andre-Frank Zambo Anguissa\Andre-Frank-Zambo-Anguissa;cm CMR;MF;Napoli;25-321;1995;4.0;311;12;52;197;84;8;308;11;15;73.3;11;0;237;1130;581;27;11;2;6;6;270;255;94.4;10;Matches
+449;Nicolò Zaniolo\Nicolo-Zaniolo;it ITA;FW;Roma;22-093;1999;3.8;152;3;10;69;87;19;142;7;12;58.3;8;0;108;780;428;20;10;3;13;5;139;102;73.4;28;Matches
+450;Alessandro Zanoli\Alessandro-Zanoli;it ITA;DF;Napoli;21-000;2000;0.1;7;0;4;5;0;0;7;0;0;;0;0;6;45;21;0;0;0;0;0;7;7;100.0;0;Matches
+451;Duván Zapata\Duvan-Zapata;co COL;FW;Atalanta;30-185;1991;3.5;126;3;6;52;80;27;117;3;5;60.0;3;0;87;395;247;17;5;4;10;9;161;102;63.4;31;Matches
+452;Gabriele Zappa\Gabriele-Zappa;it ITA;DF;Cagliari;21-285;1999;2.9;159;23;68;59;38;2;136;1;4;25.0;1;0;101;393;165;3;2;0;2;5;106;92;86.8;2;Matches
+453;Davide Zappacosta\Davide-Zappacosta;it ITA;DFFW;Atalanta;29-114;1992;3.0;194;4;28;76;103;15;171;1;4;25.0;1;0;132;821;536;30;10;3;4;2;166;145;87.3;15;Matches
+454;Marvin Zeegelaar\Marvin-Zeegelaar;nl NED;DF;Udinese;31-052;1990;0.2;6;0;1;5;0;0;5;0;0;;0;0;3;4;0;0;0;0;0;0;4;3;75.0;1;Matches
+455;Piotr Zieliński\Piotr-Zielinski;pl POL;MF;Napoli;27-136;1994;2.3;102;2;10;57;41;7;98;1;1;100.0;1;0;67;315;188;11;6;0;3;1;94;82;87.2;11;Matches
+456;David Zima\David-Zima;cz CZE;DF;Torino;20-329;2000;2.1;113;11;58;50;12;3;112;0;0;;0;0;60;343;140;4;2;0;1;0;72;69;95.8;1;Matches
+457;Jeroen Zoet\Jeroen-Zoet;nl NED;GK;Spezia;30-270;1991;6.0;223;204;223;1;0;0;155;0;0;;0;0;89;370;172;0;0;0;0;0;89;88;98.9;0;Matches
+458;Nadir Zortea\Nadir-Zortea;it ITA;DFMF;Salernitana;22-106;1999;0.5;18;1;4;7;8;0;16;1;1;100.0;1;0;12;56;30;1;0;0;0;1;15;8;53.3;1;Matches
+459;Szymon Żurkowski\Szymon-Zurkowski;pl POL;MF;Empoli;24-008;1997;2.7;156;4;22;78;82;8;154;6;7;85.7;6;0;129;876;478;25;13;2;6;5;119;110;92.4;13;Matches
+460;Milan Đurić\Milan-Djuric;ba BIH;FW;Salernitana;31-134;1990;3.3;116;3;7;62;49;20;115;1;2;50.0;1;0;34;130;70;4;1;2;7;2;160;95;59.4;12;Matches
+461;Filip Đuričić\Filip-Djuricic;rs SRB;MFFW;Sassuolo;29-246;1992;5.9;243;6;40;126;104;24;237;8;17;47.1;8;1;190;1149;787;34;17;4;14;12;236;188;79.7;32;Matches

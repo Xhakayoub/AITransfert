@@ -1,24 +1,34 @@
 Rk;Player;Nation;Pos;Squad;Age;Born;Playing Time-MP;Playing Time-Starts;Playing Time-Min;Playing Time-90s;Performance-GA;Performance-GA90;Performance-SoTA;Performance-Saves;Performance-Save%;W;D;L;Performance-CS;Performance-CS%;Performance-PKatt;Penalty Kicks-PKA;Penalty Kicks-PKsv;Penalty Kicks-PKm;Penalty Kicks-Save%;Matches;
-1;Julen Agirrezabala\Julen-Agirrezabala;es ESP;GK;Athletic Club;20-245;2000;2;2;180;2.0;1;0.50;5;4;80.0;0;2;0;1;50.0;0;0;0;0;;Matches
-2;Yassine Bounou\Yassine-Bounou;ma MAR;GK;Sevilla;30-145;1991;1;1;90;1.0;0;0.00;0;0;;1;0;0;1;100.0;0;0;0;0;;Matches
-3;Kiko Casilla\Kiko-Casilla;es ESP;GK;Elche;34-330;1986;2;2;180;2.0;1;0.50;7;6;85.7;0;1;1;1;50.0;0;0;0;0;;Matches
-4;Thibaut Courtois\Thibaut-Courtois;be BEL;GK;Real Madrid;29-109;1992;2;2;180;2.0;4;2.00;7;4;57.1;1;1;0;0;0.0;1;1;0;0;0.0;Matches
-5;Stole Dimitrievski\Stole-Dimitrievski;mk MKD;GK;Rayo Vallecano;27-246;1993;2;1;162;1.8;4;2.22;14;12;85.7;0;0;1;0;0.0;2;2;0;0;0.0;Matches
-6;Matías Dituro\Matias-Dituro;ar ARG;GK;Celta Vigo;34-112;1987;2;2;180;2.0;2;1.00;10;8;80.0;0;1;1;1;50.0;1;0;1;0;100.0;Matches
-7;Marko Dmitrović\Marko-Dmitrovic;rs SRB;GK;Sevilla;29-216;1992;1;1;90;1.0;0;0.00;3;3;100.0;1;0;0;1;100.0;0;0;0;0;;Matches
-8;Aarón Escandell\Aaron-Escandell;es ESP;GK;Granada;25-335;1995;2;2;180;2.0;1;0.50;8;8;100.0;0;2;0;1;50.0;1;1;0;0;0.0;Matches
-9;Aitor Fernández\Aitor-Fernandez;es ESP;GK;Levante;30-117;1991;2;2;176;2.0;4;2.05;7;3;42.9;0;2;0;0;0.0;0;0;0;0;;Matches
-10;Sergio Herrera\Sergio-Herrera;es ESP;GK;Osasuna;28-084;1993;2;2;180;2.0;0;0.00;3;3;100.0;0;2;0;2;100.0;0;0;0;0;;Matches
-11;Jeremías Ledesma\Jeremias-Ledesma;ar ARG;GK;Cádiz;28-196;1993;2;2;180;2.0;2;1.00;10;8;80.0;0;2;0;0;0.0;0;0;0;0;;Matches
-12;Diego López\Diego-Lopez;es ESP;GK;Espanyol;39-298;1981;3;3;270;3.0;1;0.33;9;8;88.9;0;2;1;2;66.7;0;0;0;0;;Matches
-13;Giorgi Mamardashvili\Giorgi-Mamardashvili;ge GEO;GK;Valencia;20-333;2000;3;3;270;3.0;1;0.33;8;7;87.5;2;1;0;2;66.7;0;0;0;0;;Matches
-14;Neto\Neto;br BRA;GK;Barcelona;32-040;1989;2;2;180;2.0;3;1.50;9;6;66.7;1;1;0;0;0.0;0;0;0;0;;Matches
-15;Jan Oblak\Jan-Oblak;si SVN;GK;Atlético Madrid;28-233;1993;2;2;180;2.0;1;0.50;3;3;100.0;2;0;0;1;50.0;1;1;0;0;0.0;Matches
-16;Fernando Pacheco\Fernando-Pacheco;es ESP;GK;Alavés;29-102;1992;3;3;270;3.0;8;2.67;13;5;38.5;0;0;3;0;0.0;0;0;0;0;;Matches
-17;Manolo Reina\Manolo-Reina;es ESP;GK;Mallorca;36-149;1985;3;3;270;3.0;1;0.33;5;5;80.0;2;1;0;2;66.7;0;0;0;0;;Matches
-18;Álex Remiro\Alex-Remiro;es ESP;GK;Real Sociedad;26-157;1995;2;2;180;2.0;4;2.00;9;5;55.6;1;0;1;1;50.0;0;0;0;0;;Matches
-19;Gerónimo Rulli\Geronimo-Rulli;ar ARG;GK;Villarreal;29-100;1992;2;2;180;2.0;0;0.00;4;4;100.0;0;2;0;2;100.0;0;0;0;0;;Matches
-20;Rui Silva\Rui-Silva;pt POR;GK;Betis;27-202;1994;2;2;180;2.0;2;1.00;3;2;66.7;0;2;0;0;0.0;1;1;0;0;0.0;Matches
-21;David Soria\David-Soria;es ESP;GK;Getafe;28-146;1993;2;2;180;2.0;2;1.00;4;3;75.0;0;0;2;0;0.0;1;1;0;0;0.0;Matches
-22;Rúben Vezo\Ruben-Vezo;pt POR;DF;Levante;27-125;1994;1;1;4;1.0;0;0.00;0;0;;0;1;0;0;0.0;0;0;0;0;;Matches
-23;Luca Zidane\Luca-Zidane;fr FRA;MFGK;Rayo Vallecano;23-107;1998;1;1;15;0.2;0;0.00;0;0;;0;0;1;0;0.0;0;0;0;0;;Matches
+1;Julen Agirrezabala\Julen-Agirrezabala;es ESP;GK;Athletic Club;20-281;2000;2;2;180;2.0;1;0.50;5;4;80.0;0;2;0;1;50.0;0;0;0;0;;Matches
+2;Sergio Asenjo\Sergio-Asenjo;es ESP;GK;Villarreal;32-097;1989;1;1;90;1.0;1;1.00;3;2;66.7;1;0;0;0;0.0;0;0;0;0;;Matches
+3;Yassine Bounou\Yassine-Bounou;ma MAR;GK;Sevilla;30-181;1991;5;5;450;5.0;2;0.40;12;10;83.3;3;2;0;3;60.0;1;0;1;0;100.0;Matches
+4;Claudio Bravo\Claudio-Bravo;cl CHI;GK;Betis;38-173;1983;3;3;270;3.0;3;1.00;10;7;70.0;2;1;0;1;33.3;0;0;0;0;;Matches
+5;Cárdenas\Cardenas;es ESP;GK;Levante;24-189;1997;3;3;270;3.0;4;1.33;6;2;33.3;0;1;2;0;0.0;0;0;0;0;;Matches
+6;Kiko Casilla\Kiko-Casilla;es ESP;GK;Elche;35-001;1986;7;7;630;7.0;8;1.14;32;24;75.0;1;3;3;2;28.6;0;0;0;0;;Matches
+7;Jasper Cillessen\Jasper-Cillessen;nl NED;GK;Valencia;32-164;1989;2;2;180;2.0;1;0.50;5;4;80.0;0;2;0;1;50.0;0;0;0;0;;Matches
+8;Thibaut Courtois\Thibaut-Courtois;be BEL;GK;Real Madrid;29-145;1992;7;7;630;7.0;8;1.14;28;21;75.0;5;2;0;2;28.6;1;1;0;0;0.0;Matches
+9;Stole Dimitrievski\Stole-Dimitrievski;mk MKD;GK;Rayo Vallecano;27-282;1993;8;7;702;7.8;8;1.03;26;21;80.8;4;1;2;2;28.6;4;3;1;0;25.0;Matches
+10;Matías Dituro\Matias-Dituro;ar ARG;GK;Celta Vigo;34-148;1987;7;7;630;7.0;10;1.43;29;20;69.0;2;1;4;3;42.9;4;1;3;0;75.0;Matches
+11;Marko Dmitrović\Marko-Dmitrovic;rs SRB;GK;Sevilla;29-252;1992;1;1;90;1.0;0;0.00;3;3;100.0;1;0;0;1;100.0;0;0;0;0;;Matches
+12;Aarón Escandell\Aaron-Escandell;es ESP;GK;Granada;26-006;1995;4;3;284;3.2;6;1.90;14;10;71.4;0;2;1;1;33.3;2;2;0;0;0.0;Matches
+13;Aitor Fernández\Aitor-Fernandez;es ESP;GK;Levante;30-153;1991;5;5;446;5.0;9;1.82;31;23;74.2;0;3;2;0;0.0;1;1;0;0;0.0;Matches
+14;Dominik Greif\Dominik-Greif;sk SVK;GK;Mallorca;24-180;1997;1;1;90;1.0;3;3.00;6;3;50.0;0;0;1;0;0.0;0;0;0;0;;Matches
+15;Sergio Herrera\Sergio-Herrera;es ESP;GK;Osasuna;28-120;1993;8;8;720;8.0;11;1.37;29;20;65.5;4;2;2;4;50.0;1;1;0;0;0.0;Matches
+16;Jeremías Ledesma\Jeremias-Ledesma;ar ARG;GK;Cádiz;28-232;1993;8;8;720;8.0;11;1.37;32;23;75.0;1;4;3;2;25.0;3;3;0;0;0.0;Matches
+17;Diego López\Diego-Lopez;es ESP;GK;Espanyol;39-334;1981;7;7;630;7.0;7;1.00;27;21;74.1;1;3;3;3;42.9;0;0;0;0;;Matches
+18;Giorgi Mamardashvili\Giorgi-Mamardashvili;ge GEO;GK;Valencia;21-004;2000;6;6;540;6.0;7;1.17;25;18;72.0;3;1;2;2;33.3;0;0;0;0;;Matches
+19;Luís Maximiano\Luis-Maximiano;pt POR;GK;Granada;22-271;1999;4;4;346;3.8;6;1.56;28;22;78.6;0;1;3;0;0.0;1;0;1;0;100.0;Matches
+20;Neto\Neto;br BRA;GK;Barcelona;32-076;1989;2;2;180;2.0;3;1.50;9;6;66.7;1;1;0;0;0.0;0;0;0;0;;Matches
+21;Jan Oblak\Jan-Oblak;si SVN;GK;Atlético Madrid;28-269;1993;8;8;720;8.0;6;0.75;12;7;58.3;5;2;1;3;37.5;1;1;0;0;0.0;Matches
+22;Fernando Pacheco\Fernando-Pacheco;es ESP;GK;Alavés;29-138;1992;6;6;540;6.0;10;1.67;19;10;52.6;1;0;5;1;16.7;2;1;1;0;50.0;Matches
+23;Manolo Reina\Manolo-Reina;es ESP;GK;Mallorca;36-185;1985;7;7;630;7.0;9;1.29;25;17;64.0;3;2;2;4;57.1;1;0;1;0;100.0;Matches
+24;Álex Remiro\Alex-Remiro;es ESP;GK;Real Sociedad;26-193;1995;6;6;540;6.0;4;0.67;16;11;75.0;4;1;1;5;83.3;0;0;0;0;;Matches
+25;Gerónimo Rulli\Geronimo-Rulli;ar ARG;GK;Villarreal;29-136;1992;5;5;450;5.0;2;0.40;9;7;77.8;0;5;0;4;80.0;0;0;0;0;;Matches
+26;Mathew Ryan\Mathew-Ryan;au AUS;GK;Real Sociedad;29-178;1992;1;1;90;1.0;2;2.00;1;0;0.0;1;0;0;0;0.0;1;1;0;0;0.0;Matches
+27;Rui Silva\Rui-Silva;pt POR;GK;Betis;27-238;1994;4;4;360;4.0;4;1.00;8;5;62.5;1;2;1;0;0.0;1;1;0;0;0.0;Matches
+28;Unai Simón\Unai-Simon;es ESP;GK;Athletic Club;24-114;1997;6;6;540;6.0;3;0.50;16;11;81.3;3;2;1;4;66.7;0;0;0;0;;Matches
+29;Antonio Sivera\Antonio-Sivera;es ESP;GK;Alavés;25-053;1996;1;1;90;1.0;2;2.00;4;3;75.0;0;0;1;0;0.0;1;1;0;0;0.0;Matches
+30;David Soria\David-Soria;es ESP;GK;Getafe;28-182;1993;7;7;630;7.0;12;1.71;23;11;56.5;0;0;7;0;0.0;2;2;0;0;0.0;Matches
+31;Marc-André ter Stegen\Marc-Andre-ter-Stegen;de GER;GK;Barcelona;29-156;1992;5;5;450;5.0;4;0.80;13;9;69.2;2;2;1;2;40.0;0;0;0;0;;Matches
+32;Rúben Vezo\Ruben-Vezo;pt POR;DF;Levante;27-161;1994;1;1;4;5.1;0;0.00;0;0;;0;1;0;0;0.0;0;0;0;0;;Matches
+33;Luca Zidane\Luca-Zidane;fr FRA;MFGK;Rayo Vallecano;23-143;1998;1;1;15;0.2;0;0.00;0;0;;0;0;1;0;0.0;0;0;0;0;;Matches

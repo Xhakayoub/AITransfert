@@ -2,11 +2,11 @@
 
 namespace App\Services\Laboratory;
 
-use App\Entity\Player;
+use App\Entity\Stats;
 
 class Analysis {
 
-   public function __construct(Player $player){
+   public function __construct(Stats $player){
 
    }
  

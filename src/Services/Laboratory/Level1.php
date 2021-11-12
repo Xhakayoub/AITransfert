@@ -3,7 +3,7 @@
 namespace App\Services\Laboratory;
 
 use App\Entity\Player;
-use App\Entity\Team;
+use App\Entity\TeamStats;
 
 class Level1
 {
@@ -115,7 +115,7 @@ class Level1
     /**
      * return the rate of the role in the squad
      */
-    public static function getRoleInSquadRating(Player $player, Team $team): int
+    public static function getRoleInSquadRating(Player $player, TeamStats $team): int
     {
 
         $played = $player->getMatchsPlayed();

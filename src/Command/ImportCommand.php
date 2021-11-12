@@ -2,6 +2,8 @@
 
 namespace App\Src\Command;
 
+use App\Entity\PlayerStats;
+use App\Entity\TeamStats;
 use App\Entity\Player;
 use App\Entity\Team;
 use Symfony\Component\Console\Command\Command;
